@@ -229,14 +229,14 @@
       "vote_count": 0,
       "section_id": 4405303741594,
       "created_at": "2024-05-02T10:45:19Z",
-      "updated_at": "2024-05-03T16:34:51Z",
+      "updated_at": "2024-05-07T14:24:01Z",
       "name": "Why did my trigger for incoming calls act on voicemail tickets?",
       "title": "Why did my trigger for incoming calls act on voicemail tickets?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-05-03T16:34:46Z",
+      "edited_at": "2024-05-07T14:23:58Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -250,7 +250,7 @@
         "role_admin",
         "role_owner"
       ],
-      "body": "<h2 id=\"h_01HWWDYPBDY3RJXN84ZZ1M38HT\">Question</h2>\n<p>I created a trigger for incoming calls. However, I noticed it acted on voicemail tickets. What caused this behavior?</p>\n<h2 id=\"h_01HWWDYPBDRSC4G9BHWCXB7FMV\">Answer</h2>\n<p>Verify your trigger, which contains a condition that includes voicemail tickets:</p>\n<ul>\n<li><strong>Ticket &gt; Channel | Is | Phone call (incoming)</strong></li>\n</ul>\n<p>To avoid that trigger from acting on your voicemail tickets, add a condition to exclude voicemail calls:</p>\n<ul>\n<li><strong>Ticket &gt; Channel | Is not | Voicemail</strong></li>\n</ul>\n<p>For more information, see these articles:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408822236058-About-triggers-and-how-they-work\" target=\"_blank\" rel=\"noopener noreferrer\">About triggers and how they work</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408821302810-Understanding-how-Talk-calls-become-tickets\" target=\"_blank\" rel=\"noopener noreferrer\">Understanding how Talk calls become tickets</a></li>\n</ul>"
+      "body": "<h2 id=\"h_01HWWDYPBDY3RJXN84ZZ1M38HT\">Question</h2>\n<p>I created a trigger for incoming calls. However, I noticed it acted on voicemail tickets. What caused this behavior?</p>\n<h2 id=\"h_01HWWDYPBDRSC4G9BHWCXB7FMV\">Answer</h2>\n<p>Verify your trigger, which contains a condition that includes voicemail tickets:</p>\n<ul>\n<li><strong>Ticket &gt; Channel | Is | Phone call (incoming)<br><img src=\"https://support.zendesk.com/hc/article_attachments/7222345636890\" alt=\"Condition -.png\" width=\"413\"><br></strong></li>\n</ul>\n<p>To avoid that trigger from acting on your voicemail tickets, add a condition to exclude voicemail calls:</p>\n<ul>\n<li><strong>Ticket &gt; Channel | Is not | Voicemail<br><img src=\"https://support.zendesk.com/hc/article_attachments/7222345637530\" alt=\"Condition.png\" width=\"413\"><br></strong></li>\n</ul>\n<p>For more information, see these articles:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408822236058-About-triggers-and-how-they-work\" target=\"_blank\" rel=\"noopener noreferrer\">About triggers and how they work</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408821302810-Understanding-how-Talk-calls-become-tickets\" target=\"_blank\" rel=\"noopener noreferrer\">Understanding how Talk calls become tickets</a></li>\n</ul>"
     },
     {
       "id": 7176330261402,
