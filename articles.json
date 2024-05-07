@@ -1,5 +1,5 @@
 {
-  "count": 4521,
+  "count": 4522,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 151,
@@ -258,6 +258,33 @@
         "role_owner"
       ],
       "body": "<h2 id=\"h_01HWWDYPBDY3RJXN84ZZ1M38HT\">Question</h2>\n<p>I created a trigger for incoming calls. However, I noticed it acted on voicemail tickets. What caused this behavior?</p>\n<h2 id=\"h_01HWWDYPBDRSC4G9BHWCXB7FMV\">Answer</h2>\n<p>Verify your trigger, which contains a condition that includes voicemail tickets:</p>\n<ul>\n<li><strong>Ticket &gt; Channel | Is | Phone call (incoming)<br><img src=\"https://support.zendesk.com/hc/article_attachments/7222345636890\" alt=\"Condition -.png\" width=\"413\"><br></strong></li>\n</ul>\n<p>To avoid that trigger from acting on your voicemail tickets, add a condition to exclude voicemail calls:</p>\n<ul>\n<li><strong>Ticket &gt; Channel | Is not | Voicemail<br><img src=\"https://support.zendesk.com/hc/article_attachments/7222345637530\" alt=\"Condition.png\" width=\"413\"><br></strong></li>\n</ul>\n<p>For more information, see these articles:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408822236058-About-triggers-and-how-they-work\" target=\"_blank\" rel=\"noopener noreferrer\">About triggers and how they work</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408821302810-Understanding-how-Talk-calls-become-tickets\" target=\"_blank\" rel=\"noopener noreferrer\">Understanding how Talk calls become tickets</a></li>\n</ul>"
+    },
+    {
+      "id": 7193972071834,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7193972071834.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/7193972071834-Announcing-automatic-activation-of-custom-ticket-statuses",
+      "author_id": 6923034611610,
+      "comments_disabled": true,
+      "draft": false,
+      "promoted": true,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298833818,
+      "created_at": "2024-05-02T10:35:56Z",
+      "updated_at": "2024-05-07T16:44:47Z",
+      "name": "Announcing automatic activation of custom ticket statuses",
+      "title": "Announcing automatic activation of custom ticket statuses",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2024-05-07T16:44:44Z",
+      "user_segment_id": null,
+      "permission_group_id": 1324079,
+      "content_tag_ids": [],
+      "label_names": [],
+      "body": "<table style=\"border-collapse: collapse; width: 100%; height: 43px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Announced on</strong></td>\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Rollout starts</strong></td>\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Rollout ends</strong></td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 21px;\">May 07, 2024</td>\n<td style=\"width: 33.3333%; height: 21px;\">May 15, 2024</td>\n<td style=\"width: 33.3333%; height: 21px;\">June 24, 2024</td>\n</tr>\n</tbody>\n</table>\n<p>Zendesk is excited to announce that starting May 15, 2024, custom ticket statuses are being automatically activated for additional customers with the Zendesk Agent Workspace turned on. In October 2023, we <a href=\"https://support.zendesk.com/hc/en-us/articles/6203843149210\" target=\"_blank\" rel=\"noopener noreferrer\">announced</a> that custom ticket statuses would be gradually activated in a phased rollout.</p>\n<p>This rollout is part of the next phase and consists of two cohorts of customers. Customers who are part of either cohort are being notified by email. See the table below to determine when the rollout will start and end for your cohort:</p>\n<table style=\"border-collapse: collapse; width: 100%; height: 87px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"width: 20.7619%; height: 22px;\"><strong>Cohort</strong></td>\n<td style=\"width: 32.1904%; height: 22px;\"><strong>Email Sent</strong></td>\n<td style=\"width: 22.0952%; height: 22px;\"><strong>Rollout starts </strong></td>\n<td style=\"width: 24.6667%; height: 22px;\"><strong>Rollout ends</strong></td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 20.7619%; height: 21px;\">Cohort 1</td>\n<td style=\"width: 32.1904%; height: 21px;\">April 15, 2024</td>\n<td style=\"width: 22.0952%; height: 21px;\">May 15, 2024</td>\n<td style=\"width: 24.6667%; height: 21px;\">May 30, 2024</td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 20.7619%; height: 22px;\">Cohort 2</td>\n<td style=\"width: 32.1904%; height: 22px;\">May 10, 2024</td>\n<td style=\"width: 22.0952%; height: 22px;\">June 10, 2024</td>\n<td style=\"width: 24.6667%; height: 22px;\">June 24, 2024</td>\n</tr>\n</tbody>\n</table>\n<p><span>This announcement includes the following topics:</span></p>\n<ul>\n<li><a href=\"#h_01GD3S97RDYVTAFTQ8WR9878VF\">What is changing?</a></li>\n<li><a href=\"#h_01GD3S9GD63FPDGQSEFY88M3ND\">Why is Zendesk making this change?</a></li>\n<li><a href=\"#h_01GD3S9TSPXM7M4WHYKYF4E84M\">What do I need to do?</a></li>\n</ul>\n<h2 id=\"h_01GD3S97RDYVTAFTQ8WR9878VF\"><span>What is changing?</span></h2>\n<p>Previously, your Zendesk account offered only six standard ticket statuses — New, Open, Pending, On-hold, Solved, and Closed.</p>\n<p>After custom ticket statuses are activated, you'll see the following changes in your account:</p>\n<ul>\n<li>The existing standard statuses become status categories, in which you can create new, custom ticket statuses. Existing statuses are still available and remain the default statuses for each respective status category unless <a href=\"https://support.zendesk.com/hc/en-us/articles/4412575941402-Managing-ticket-statuses#topic_zgh_dbh_vrb\" target=\"_blank\" rel=\"noopener noreferrer\">changed</a>.</li>\n<li>Your existing workflows and business rules that use standard statuses will continue to work as expected after custom ticket status activation.<br>The ticket status conditions and actions in your existing triggers, automations, macros, and views are automatically updated to the new status categories that correspond to the original standard ticket statuses.</li>\n<li>Previously, the On-hold status appeared as Open to end users. We heard <a href=\"https://support.zendesk.com/hc/en-us/community/posts/4665309179930\" target=\"_blank\" rel=\"noopener noreferrer\">your feedback </a>and now you can create custom statuses in the On-hold status category to provide more transparency to your customers.</li>\n<li>An enhanced Views page that displays a ticket status column. You'll also see the custom ticket statuses that correspond to each category in views and in the interactions section of the customer context panel.</li>\n<li>Tickets in the closed state will retain the ticket's solved status. Closed tickets in a view can be identified by the closed icon in the subject column. Retaining the solved ticket status helps provide more context about how or why a ticket was solved. See Solving a ticket with a custom status.</li>\n<li>When you create custom statuses, agents can select them in the status picker in the ticket interface:<br><img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/custom_ticket_statuses_agent_guide.png\" width=\"170\">\n</li>\n<li>After you create custom ticket statuses, they can be used in triggers, automations, SLAs, macros, views, and more.</li>\n<li>You can use <a href=\"https://support.zendesk.com/hc/en-us/articles/4408827693594#topic_zlf_slp_4y\" target=\"_blank\" rel=\"noopener noreferrer\">custom ticket status attributes to build Explore reports</a> and create and manage custom statuses with the <a href=\"https://developer.zendesk.com/api-reference/ticketing/tickets/custom_ticket_statuses/?_ga=2.148156340.2044521783.1673283315-745802166.1670443499\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk Support API</a>.</li>\n</ul>\n<h2 id=\"h_01GD3S9GD63FPDGQSEFY88M3ND\"><span>Why is Zendesk making this change?</span></h2>\n<p>Zendesk introduced custom ticket statuses in January 2023 as a response to the customer feedback we received. To help you take advantage of our latest innovations, we're taking the next step of activating this feature for all eligible customers so that you can further customize your account by creating new ticket statuses that are more meaningful to your business.</p>\n<p>Custom ticket statuses provide more flexibility and information about a ticket status beyond the existing standard statuses. This results in increased transparency, communication, and collaboration between agents working on a ticket, as well as with end users who want to better understand the status of their support request.</p>\n<h2 id=\"h_01GD3S9TSPXM7M4WHYKYF4E84M\"><span>What do I need to do?</span></h2>\n<p>You don't have to take any action. After custom ticket statuses are activated in your account, you can immediately begin <a href=\"https://support.zendesk.com/hc/en-us/articles/4412575861018\" target=\"_blank\" rel=\"noopener noreferrer\">creating new statuses</a>. If custom ticket statuses don't meet your requirements, you can deactivate them.</p>\n<p>To learn more, see:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4412575841306-Activating-custom-ticket-statuses#topic_hmv_5kl_dwb\" target=\"_blank\" rel=\"noopener noreferrer\">Understanding how custom ticket statuses impact your account</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4412575841306-Activating-custom-ticket-statuses#topic_ip1_fll_dwb\" target=\"_blank\" rel=\"noopener noreferrer\">Understanding how custom ticket statuses impact the agent experience</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4412575941402\" target=\"_blank\" rel=\"noopener noreferrer\">Managing ticket status</a></li>\n</ul>\n<p>You can share your thoughts about custom ticket statuses by completing this brief <a href=\"https://docs.google.com/forms/d/e/1FAIpQLScEYpAwtCMhYx6ATFLpo3bXZyogfBTgbM9K_LWDwqPnJxVpdw/viewform?usp=sf_link\" target=\"_blank\" rel=\"noopener noreferrer\">survey</a>.</p>\n<p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/1260801325369\" target=\"_blank\" rel=\"noopener noreferrer\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk Customer Support</a>.</p>"
     },
     {
       "id": 7176330261402,
@@ -988,39 +1015,6 @@
         "role_owner"
       ],
       "body": "<h2 id=\"h_01HV6ST6S0E7AHN9CR5XEZ896M\">Issue symptoms</h2>\n<p>When I open a ticket, fields are greyed out and not clickable. How can I resolve this?<br><img src=\"https://support.zendesk.com/hc/article_attachments/7051412070298\" alt=\"Field name\" width=\"189\"></p>\n<h2 id=\"h_01HV6STBVD2BNQ8DKS3PVNWQVF\">Resolution steps</h2>\n<p>This can happen in two situations:</p>\n<ul>\n<li>Your ticket may be closed. Closed tickets cannot be amended. Create a <a href=\"https://support.zendesk.com/hc/en-us/articles/4408883882522-Creating-a-follow-up-for-a-closed-ticket\" target=\"_blank\" rel=\"noopener noreferrer\">follow-up ticket</a> if you need to continue working with your customer. <br><img src=\"https://support.zendesk.com/hc/article_attachments/7051506751386\" alt=\"Closed ticket\" width=\"347\">\n</li>\n<li>An app might be restricting your field access. To resolve this, <a href=\"https://support.zendesk.com/hc/en-us/articles/6489966715546-How-can-I-locate-my-admin\" target=\"_blank\" rel=\"noopener noreferrer\">ask your administrator</a> to verify any app settings. <a href=\"https://www.zendesk.com/marketplace/apps/support/223753/ticket-field-manager/\" target=\"_blank\" rel=\"noopener noreferrer\">Ticket field manager</a> is a common app you can use for this.</li>\n</ul>\n<p>For more information, see these articles:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408881740698-Can-I-edit-closed-tickets\" target=\"_blank\" rel=\"noopener noreferrer\">Can I edit closed tickets?</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4409155972378-Managing-your-installed-apps\" target=\"_blank\" rel=\"noopener noreferrer\">Managing your installed apps</a></li>\n</ul>"
-    },
-    {
-      "id": 7043760343834,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7043760343834.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/7043760343834-How-can-I-get-help-from-Zendesk-QA",
-      "author_id": 7018378199194,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 7041762819738,
-      "created_at": "2024-04-10T01:23:09Z",
-      "updated_at": "2024-04-30T15:02:08Z",
-      "name": "How can I get help from Zendesk QA?",
-      "title": "How can I get help from Zendesk QA?",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2024-04-30T10:07:59Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801135069,
-      "content_tag_ids": [],
-      "label_names": [
-        "ks",
-        "ab0",
-        "mt",
-        "role_admin",
-        "ab0_qa"
-      ],
-      "body": "<h2 id=\"contacting-klaus\" class=\"wysiwyg-text-align-justify\">Question</h2>\n<p class=\"wysiwyg-text-align-justify\">How can I get help from Zendesk QA?</p>\n<h2 id=\"h_01HVKSP75WVNEXJWBM3APEQ0NZ\" class=\"wysiwyg-text-align-justify\">Answer</h2>\n<p class=\"wysiwyg-text-align-justify\">The Zendesk QA Customer Support team can help you from 8AM until 11PM UTC, from Monday to Friday. If the team is offline, provide full page screenshots, user information, examples, conversation IDs, and any other information that can expedite your request.</p>\n<p class=\"wysiwyg-text-align-justify\">To get help from the Zendesk QA team, start a chat from inside the app or send an email to <a href=\"mailto:support-zendesk-qa@zendesk.com\">support-zendesk-qa@zendesk.com</a>.</p>"
     }
   ],
   "sort_by": "position",
