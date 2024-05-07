@@ -48,7 +48,7 @@
       "vote_count": 0,
       "section_id": 4405298833818,
       "created_at": "2024-05-06T19:00:58Z",
-      "updated_at": "2024-05-07T13:13:54Z",
+      "updated_at": "2024-05-07T15:01:26Z",
       "name": "Announcing live omnichannel queues reporting in Explore",
       "title": "Announcing live omnichannel queues reporting in Explore",
       "source_locale": "en-us",
@@ -59,7 +59,9 @@
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
-      "label_names": [],
+      "label_names": [
+        "mtpe"
+      ],
       "body": "<table style=\"border-collapse: collapse; width: 100%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 50%;\"><strong>Announced on</strong></td>\n<td style=\"width: 50%;\"><strong>Rollout on</strong></td>\n</tr>\n<tr>\n<td style=\"width: 50%;\">May 7, 2024</td>\n<td style=\"width: 50%;\">May 7, 2024</td>\n</tr>\n</tbody>\n</table>\n<p>The Explore product team is proud to introduce a new feature for enhanced data visualization: live omnichannel queues reporting!</p>\n<p>This announcement answers the following questions:</p>\n<ul>\n<li><a href=\"#h_01HX9EEHXR20VWXZXEGYXS0N9R\">What’s changing and why?</a></li>\n<li><a href=\"#h_01HX9EEPWWWQ8K4Q9TH6W42XYB\">How will this affect me?</a></li>\n<li><a href=\"#h_01HX9EESX89B25YG7RA1P7N30C\">What do I need to do?</a></li>\n</ul>\n<h2 id=\"h_01HX9EEHXR20VWXZXEGYXS0N9R\">What’s changing and why?</h2>\n<p>In response to the need for real-time insight into omnichannel routing (OCR) custom queues performance, we've developed the live omnichannel queues reporting component.</p>\n<p>This new table component allows you to create a dashboard that displays live data on how work is being routed through your custom queues. This gives you an instant overview of your queues, helping you understand the volume of work awaiting available agents and the average time work items spend in each queue.</p>\n<p>We have included basic data about your OCR queues that you can view in the new component:</p>\n<ul>\n<li>Queue name</li>\n<li>Queue order</li>\n<li>Work in the queue</li>\n<li>Primary groups serving the queue</li>\n<li>Average time work item spends in the queue spread by channel</li>\n</ul>\n<p>You can filter these data by following filters:</p>\n<ul>\n<li>Primary groups</li>\n<li>Queue name</li>\n</ul>\n<p><img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/explore_queues_live_reporting.png\" width=\"600\"></p>\n<h2 id=\"h_01HX9EEPWWWQ8K4Q9TH6W42XYB\">How will this affect me?</h2>\n<p>The live omnichannel queues reporting feature provides you with real-time insights into your custom omnichannel queues. This helps you better manage your queues and understand their performance in real time. If you’ve turned on OCR and created custom queues, then you can add the new component to your dashboard.</p>\n<h2 id=\"h_01HX9EESX89B25YG7RA1P7N30C\">What do I need to do?</h2>\n<p>No action is required from you. This update is automatically rolling out to all eligible Explore accounts on the timeline listed above.</p>\n<p>For more information on how to use this new feature, see <a href=\"https://support.zendesk.com/hc/en-us/articles/7217081202714\">Explore recipe: Reporting on custom omnichannel queue performance</a>.</p>\n<p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/1260801325209\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\">Zendesk Customer Support</a>.</p>"
     },
     {
@@ -75,7 +77,7 @@
       "vote_count": 0,
       "section_id": 4405303719578,
       "created_at": "2024-05-06T17:27:33Z",
-      "updated_at": "2024-05-07T13:50:01Z",
+      "updated_at": "2024-05-07T15:03:37Z",
       "name": "Explore recipe: Reporting on custom omnichannel queue performance",
       "title": "Explore recipe: Reporting on custom omnichannel queue performance",
       "source_locale": "en-us",
@@ -86,7 +88,9 @@
       "user_segment_id": null,
       "permission_group_id": 1324079,
       "content_tag_ids": [],
-      "label_names": [],
+      "label_names": [
+        "mt"
+      ],
       "body": "<p><img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/plan_available_suite_ee.png\"> <img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/plan_available_explore_e.png\"></p>\n<div class=\"note note\">\n<span class=\"notetitle\"> Note:</span> This recipe works only in the <a href=\"https://support.zendesk.com/hc/en-us/articles/4408830235930\">Explore beta dashboard builder</a>.</div>\n<p>If you’ve <a href=\"https://support.zendesk.com/hc/en-us/articles/6716530152858\">created custom omnichannel queues</a>, you can create a dashboard that shows you live data on how work is being routed through your queues. This gives you an at-a-glance view of your queues, helping you understand how much work is awaiting available agents and how long work items spend in each queue on average.</p>\n<p>This dashboard includes data on your custom queues only, not on the <a href=\"https://support.zendesk.com/hc/en-us/articles/6712096584090\">standard omnichannel routing queue</a>.</p>\n<p>This article contains the following topics:</p>\n<ul>\n<li><a href=\"#h_01HX7ER665FAD9MMJPH1JRSNX0\">What you’ll need</a></li>\n<li><a href=\"#h_01HX7ER35QVSW8004FKZ1ATC6B\">Creating the dashboard</a></li>\n</ul>\n<p>Related articles:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/6712096584090\">Understanding omnichannel routing queues</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/6716530152858\">Creating additional omnichannel routing queues</a></li>\n</ul>\n<h2 id=\"h_01HX7ER665FAD9MMJPH1JRSNX0\">What you’ll need</h2>\n<p><strong>Skill level:</strong> Beginner</p>\n<p><strong>Time required:</strong> 5 minutes</p>\n<ul>\n<li>Zendesk Explore Enterprise</li>\n<li>Editor or Admin permissions (see <a href=\"https://support.zendesk.com/hc/en-us/articles/4408836002970\">Giving users access to Explore</a>)</li>\n<li>Omnichannel routing (see <a href=\"https://support.zendesk.com/hc/en-us/articles/5866925319962\">Turning on omnichannel routing</a>) with at least one custom queue (see <a href=\"https://support.zendesk.com/hc/en-us/articles/6716530152858\">Creating additional omnichannel routing queues</a>)</li>\n<li>Ticket, messaging, or call data</li>\n</ul>\n<h2 id=\"h_01HX7ER35QVSW8004FKZ1ATC6B\">Creating the dashboard</h2>\n<ol>\n<li>In Explore, click the <strong>Dashboard</strong> icon (<img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/Explore_dashboard_icon.png\">) in the left sidebar.</li>\n<li>In the Dashboards library, click <strong>New dashboard</strong> &gt; <strong>Use beta builder</strong>.</li>\n<li>With <strong>Blank dashboard</strong> selected, click <strong>Select</strong>.</li>\n<li>Click the plus icon (+) in the upper right and select <strong>Live data</strong>.</li>\n<li>Search for and select <strong>Queues - List</strong>. The component is added to your dashboard and contains the following columns:<br>\n<ul>\n<li>\n<strong>Order</strong>: The order of the queue. Queues are checked for matching conditions from top to bottom on the <a href=\"https://support.zendesk.com/hc/en-us/articles/6716541571994#topic_kkb_g43_j1c\">Queues page in Admin Center</a>, and work flows into the first queue that matches.</li>\n<li>\n<strong>Name</strong>: The name of the queue.</li>\n<li>\n<strong>Primary groups</strong>: The primary groups associated with the queue.</li>\n<li>\n<strong>Work in queue</strong>: The sum of all work items in the queue waiting to be routed to an agent.</li>\n<li>\n<strong>Avg. time in queue</strong>: The average time a work item spends in the queue before being routed to an agent, separated by the channels the queue serves.</li>\n</ul>\n</li>\n<li>Click the plus icon (+) in the upper right and select <strong>Live filter</strong>.</li>\n<li>Search for and select the following filters:<br>\n<ul>\n<li><strong>Queues - Group</strong></li>\n<li><strong>Queues - Name</strong></li>\n</ul>\n</li>\n<li>\n<a href=\"https://support.zendesk.com/hc/en-us/articles/4408830235930#h_01H30A4512MPDTX73GN3PABSZ2\">Resize and rearrange the components</a> as desired.</li>\n<li>Click the pencil icon (<img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/sell_icon_pencil.png\" width=\"16\">) in the upper left and give the dashboard a descriptive name, such as <strong>Custom omnichannel queue performance</strong>.</li>\n<li>Click <strong>Save</strong>.</li>\n<li>\n<a href=\"https://support.zendesk.com/hc/en-us/articles/4408830235930#h_01FG7ATYBJWB4GX4D49HQDES3K\">Share the dashboard</a> as needed.</li>\n</ol>\n<p>When finished, your dashboard should look something like the following screenshot:</p>\n<p><img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/explore_queues_live_reporting.png\" width=\"600\"></p>\n<p>Viewers can filter the list of queues by primary group and name, choosing up to five values for each filter. The total number of queues matching your filters appears in the top left of the list.</p>"
     },
     {
@@ -129,7 +133,7 @@
       "vote_count": 0,
       "section_id": 5322740495642,
       "created_at": "2024-05-03T14:58:58Z",
-      "updated_at": "2024-05-06T16:45:43Z",
+      "updated_at": "2024-05-07T15:02:53Z",
       "name": "Why did an automation stop firing for some of the tickets?",
       "title": "Why did an automation stop firing for some of the tickets?",
       "source_locale": "en-us",
@@ -144,6 +148,7 @@
         "ks",
         "ab0",
         "automations",
+        "mt",
         "ab0_support",
         "role_admin",
         "role_owner",
@@ -167,7 +172,7 @@
       "vote_count": 0,
       "section_id": 4405303740058,
       "created_at": "2024-05-03T14:13:54Z",
-      "updated_at": "2024-05-07T14:35:32Z",
+      "updated_at": "2024-05-07T15:02:34Z",
       "name": "How can I choose between call forwarding and number porting in Talk?",
       "title": "How can I choose between call forwarding and number porting in Talk?",
       "source_locale": "en-us",
@@ -181,6 +186,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_talk",
         "role_admin",
         "role_owner"
@@ -229,7 +235,7 @@
       "vote_count": 0,
       "section_id": 4405303741594,
       "created_at": "2024-05-02T10:45:19Z",
-      "updated_at": "2024-05-07T14:24:01Z",
+      "updated_at": "2024-05-07T15:03:22Z",
       "name": "Why did my trigger for incoming calls act on voicemail tickets?",
       "title": "Why did my trigger for incoming calls act on voicemail tickets?",
       "source_locale": "en-us",
@@ -243,6 +249,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_support",
         "ab0_talk",
         "ab0_admin_center",
@@ -265,7 +272,7 @@
       "vote_count": 4,
       "section_id": 4405298833818,
       "created_at": "2024-04-29T13:02:01Z",
-      "updated_at": "2024-05-02T22:50:58Z",
+      "updated_at": "2024-05-07T15:01:32Z",
       "name": "Announcing enhancements to the article header bar",
       "title": "Announcing enhancements to the article header bar",
       "source_locale": "en-us",
@@ -276,7 +283,9 @@
       "user_segment_id": null,
       "permission_group_id": 1324079,
       "content_tag_ids": [],
-      "label_names": [],
+      "label_names": [
+        "mtpe"
+      ],
       "body": "<table>\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"height: 22px; width: 226.391px;\"><strong>Announced on</strong></td>\n<td style=\"height: 22px; width: 226.391px;\"><strong>Rollout starts</strong></td>\n<td style=\"height: 22px; width: 243.219px;\"><strong>Rollout ends</strong></td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"height: 22px; width: 226.391px;\">May 2</td>\n<td style=\"height: 22px; width: 226.391px;\">May 2, 2024</td>\n<td style=\"height: 22px; width: 243.219px;\">May 16, 2024</td>\n</tr>\n</tbody>\n</table>\n<p>We're happy to announce the new design of the article header bar!</p>\n<p>In our latest improvement, we simplified access to frequently-used article actions by placing them in the article header bar. The features were previously located within article settings and the article sidebar.</p>\n<p>This announcement answers the following questions:</p>\n<ul>\n<li><a href=\"#h_01HHFF8CJ81SNF7J31S88JMQ7C\">What’s changing?</a></li>\n<li><a href=\"#h_01HHFFAF1X68BA89ZM74ZTR8NK\">Why is Zendesk making this change?</a></li>\n<li><a href=\"#h_01HHFFXGZ7YTPSJZKGCCXJ0312\">What do I need to do?</a></li>\n</ul>\n<h2 id=\"h_01HHFF8CJ81SNF7J31S88JMQ7C\">What’s changing?</h2>\n<p><font color=\"#1f1f1f\"> Specifically, the following functionality is moving from its current location within article settings to the redesigned article header: </font></p>\n<ul>\n<li><font color=\"#1f1f1f\">Verification status and changes</font></li>\n<li><font color=\"#1f1f1f\">Article assignment</font></li>\n<li><font color=\"#1f1f1f\"> Information icon (<span style=\"color: #464646;\">ℹ️) that you can click to view information about when the article was created and updated</span> </font></li>\n</ul>\n<p><font color=\"#1f1f1f\"> <span style=\"color: #464646;\">In addition, the article header includes information about scheduled publishing which was previously located in the article sidebar.</span> </font></p>\n<p><a class=\"xref\" style=\"box-sizing: inherit; background-color: transparent; color: #1f73b7; font-weight: normal; text-decoration: none; font-family: PNR, sans-serif !important;\" href=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/guide-ui-header-bar.png\" target=\"_blank\" rel=\"noopener\">View full size</a></p>\n<p><img id=\"topic-1__image_mrd_zfv_qzb\" class=\"image\" style=\"box-sizing: inherit; height: auto; max-width: 100%;\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/guide-ui-header-bar.png\" width=\"700\"></p>\n<p> </p>\n<h2 id=\"h_01HHFFAF1X68BA89ZM74ZTR8NK\">Why is Zendesk making this change?</h2>\n<p><span style=\"color: #1f1f1f; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;\">By moving these frequently-used elements to the article header, we're reducing the number of clicks required to accomplish common functions. The result is a more user-friendly interface that's designed to accommodate and streamline your workflow.</span></p>\n<h2 id=\"h_01HHFFXGZ7YTPSJZKGCCXJ0312\">What do I need to do?</h2>\n<p>No action is necessary. The new header design is available for all customers on all plans. While the new header design is available on all plans, some features displayed in the header are only available for Enterprise plans (for example, assigning, verifying, and scheduling).</p>\n<p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/1260801308530\" target=\"_blank\" rel=\"noopener noreferrer\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk Customer Support</a>.</p>\n<p> </p>\n<p> </p>"
     },
     {
@@ -344,7 +353,7 @@
       "vote_count": 0,
       "section_id": 4405298848154,
       "created_at": "2024-04-26T15:31:01Z",
-      "updated_at": "2024-05-01T18:29:28Z",
+      "updated_at": "2024-05-07T15:05:47Z",
       "name": "Complying with Privacy and Data Protection Law in Zendesk QA (Klaus)",
       "title": "Complying with Privacy and Data Protection Law in Zendesk QA (Klaus)",
       "source_locale": "en-us",
@@ -604,7 +613,7 @@
       "vote_count": 0,
       "section_id": 4405298901274,
       "created_at": "2024-04-18T14:57:50Z",
-      "updated_at": "2024-05-01T04:54:35Z",
+      "updated_at": "2024-05-07T15:04:54Z",
       "name": "How can I create different agent signatures for each brand and ticket group?",
       "title": "How can I create different agent signatures for each brand and ticket group?",
       "source_locale": "en-us",
@@ -640,7 +649,7 @@
       "vote_count": 0,
       "section_id": 4405303741978,
       "created_at": "2024-04-18T14:35:40Z",
-      "updated_at": "2024-05-03T14:36:30Z",
+      "updated_at": "2024-05-07T15:03:56Z",
       "name": "How can I reduce call costs and lower the overall Zendesk Talk invoice?",
       "title": "How can I reduce call costs and lower the overall Zendesk Talk invoice?",
       "source_locale": "en-us",
