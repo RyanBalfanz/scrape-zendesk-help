@@ -341,7 +341,7 @@
     {
       "id": 7153450952730,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7153450952730.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/7153450952730-Service-Incident-April-25th-2024",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/7153450952730-Service-Incident-April-25-2024-Sell-All-Pods-Exclamation-mark-error-when-accessing-key-features",
       "author_id": 1263082099529,
       "comments_disabled": true,
       "draft": false,
@@ -351,21 +351,21 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2024-04-25T08:32:19Z",
-      "updated_at": "2024-04-25T08:49:27Z",
-      "name": "Service Incident - April 25th, 2024",
-      "title": "Service Incident - April 25th, 2024",
+      "updated_at": "2024-05-09T09:53:52Z",
+      "name": "Service Incident - April 25, 2024 - Sell | All Pods - Exclamation mark error when accessing key features",
+      "title": "Service Incident - April 25, 2024 - Sell | All Pods - Exclamation mark error when accessing key features",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-04-25T08:49:27Z",
+      "edited_at": "2024-05-09T09:52:08Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
       "label_names": [
         "service_incident"
       ],
-      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>April 25, 2024 08:49 AM UTC | April 25, 2024 01:49 AM PT </strong><br>We are seeing recovery and customers are able to access leads, deals and contacts as normal again. Thank you for your patience during the investigation. We will now consider this incident as resolved.</p>\n<p class=\"p1\"><strong>April 25, 2024 08:32 AM UTC | April 25, 2024 01:32 AM PT </strong><br>We are investigating reports of deals, leads and contacts not loading in Sell for customers across multiple Pods. We will provide more information as it becomes available.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n"
+      "body": "<h3 id=\"h_01HXEC5BTVR2E5JWE9BBZZ9QN9\" class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p>On April 25, 2024 between 07:30 UTC and 08:15 UTC, a subset of customers using the Sell service across all Pods encountered difficulties accessing key features such as Leads, Deals, and Contacts. Instead of the usual functionality, users were met with an exclamation mark, indicating an error.</p>\n<p> </p>\n<h3 id=\"h_01HXEC6505DG7R4YK7HY38QCCA\"><span style=\"color: #06363c;\">Timeline</span></h3>\n<p><strong>April 25, 2024 08:32 AM UTC | April 25, 2024 01:32 AM PT</strong></p>\n<p>We are investigating reports of deals, leads and contacts not loading in Sell for customers across multiple Pods. We will provide more information as it becomes available.</p>\n<p><strong>April 25, 2024 08:49 AM UTC | April 25, 2024 01:49 AM PT</strong></p>\n<p>We are seeing recovery and customers are able to access leads, deals and contacts as normal again. Thank you for your patience during the investigation. We will now consider this incident as resolved.</p>\n<p class=\"p1\"> </p>\n<h3 id=\"h_01HXEC65055Z0MRMWCSN8W44QS\"><strong><span style=\"color: #06363c;\">POST-MORTEM</span></strong></h3>\n<h3 id=\"h_01HXEC6505KDH6CR74XK7MMB9Q\"><span style=\"color: #06363c;\">Root Cause Analysis</span></h3>\n<p>This incident was caused by an unintended consequence following a system upgrade designed to enhance our platform's capabilities. A critical detail in the configuration of web address interpretation was omitted, leading to access issues within key functionalities such as Leads, Deals, and Contacts. This error was not detected by our standard verification procedures prior to release. </p>\n<h3 id=\"h_01HXEC650609677TPD0PXQ0HX8\"><span style=\"color: #06363c;\">Resolution</span></h3>\n<p>To fix this issue, upon recognizing the source of the issue, we promptly reverted to the prior stable configuration, restoring full service functionality.</p>\n<h3 id=\"h_01HXEC6506KZY3MR9KZ6T17KKR\"><span style=\"color: #06363c;\">Remediation Items</span></h3>\n<ol>\n<li>Enhancement of automated tests to cover potential errors caused by trailing slashes in API requests.</li>\n<li>Implementation of improved smoke tests, alerts and monitoring.</li>\n</ol>\n</div>\n<h4> </h4>\n<h4 id=\"h_01HXEC5BTVS1SBJ411QMCX6QFA\"><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>"
     },
     {
       "id": 7149294327834,
