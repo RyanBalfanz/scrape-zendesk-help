@@ -1,11 +1,44 @@
 {
-  "count": 4523,
+  "count": 4524,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 151,
   "per_page": 30,
   "previous_page": null,
   "articles": [
+    {
+      "id": 7241499089434,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7241499089434.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/7241499089434-How-can-I-change-the-manifest-url-in-my-requirements-json-file",
+      "author_id": 1266644443030,
+      "comments_disabled": false,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298879258,
+      "created_at": "2024-05-10T14:33:11Z",
+      "updated_at": "2024-05-10T14:34:00Z",
+      "name": "How can I change the manifest_url in my requirements.json file?",
+      "title": "How can I change the manifest_url in my requirements.json file?",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2024-05-10T14:33:57Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801135069,
+      "content_tag_ids": [],
+      "label_names": [
+        "ks",
+        "ab0",
+        "ab0_admin_center",
+        "role_admin",
+        "role_owner"
+      ],
+      "body": "<h2 id=\"h_01HXHDBGQ68XE93WSVD22942EX\">Question</h2>\n<p>I created a <a href=\"https://www.zendesk.com/marketplace/apps/\" target=\"_blank\" rel=\"noopener noreferrer\">Marketplace integration</a> and I want to change the <code>manifest_url</code> in <code>requirements.json</code>. If I generate my ZAT package with the new <code>manifest_url</code>, can I update that integration with the new URL?</p>\n<h2 id=\"h_01HXHDBGQ67D6BBC156K0VZ4CW\">Answer</h2>\n<p>No, that resource is not editable. Instead, submit a new app with the new <code>manifest_url</code>. Zendesk will hide the old version of the app and publish the new version.</p>\n<div class=\"p\">\n<div class=\"note note\">\n<span class=\"notetitle\">Note:</span> To amend the <a href=\"https://developer.zendesk.com/documentation/marketplace/building-a-marketplace-app/create-content/#manifestjson-file\" target=\"_blank\" rel=\"noopener noreferrer\">author details URL</a> in your <code>manifest.json</code> file, edit that field and submit an update to your app directly.</div>\n</div>\n<p>For more information, see this article: <a href=\"https://developer.zendesk.com/documentation/apps/app-developer-guide/apps_requirements/#updating-or-deleting-requirements\" target=\"_blank\" rel=\"noopener noreferrer\">Updating or deleting requirements</a>.</p>"
+    },
     {
       "id": 7240516728218,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7240516728218.json",
@@ -19,14 +52,14 @@
       "vote_count": 0,
       "section_id": 4405298902042,
       "created_at": "2024-05-10T10:16:56Z",
-      "updated_at": "2024-05-10T10:37:04Z",
+      "updated_at": "2024-05-10T14:37:49Z",
       "name": "How can I troubleshoot omnichannel routing issues?",
       "title": "How can I troubleshoot omnichannel routing issues?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-05-10T10:37:00Z",
+      "edited_at": "2024-05-10T14:37:47Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -41,7 +74,7 @@
         "role_admin",
         "role_owner"
       ],
-      "body": "<h2 id=\"h_01HXGYD1SYKN7SK8KP4JRYFSPT\">Question</h2>\n<p>What are common issues with omnichannel routing? I want to troubleshoot these behaviors.</p>\n<h2 id=\"h_01HXGYD1SY8RA98VBD5ZY51C2A\">Answer</h2>\n<p>To navigate these answers, click each section below:</p>\n<ul>\n<li><a href=\"#h_01HXGZMHYAX1GW7PQZ6D4WT7C8\">Common questions</a></li>\n<li><a href=\"#h_01HXGZN0MKHJFP44D43NJC1MG7\">Omnichannel routing flow</a></li>\n</ul>\n<h3 id=\"h_01HXGZMHYAX1GW7PQZ6D4WT7C8\">Common questions</h3>\n<p>The table below provides common questions and answers on the topic of omnichannel routing.</p>\n<table style=\"border-collapse: collapse; width: 100%; height: 379px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"width: 36.7143%; height: 22px;\"><strong>Question</strong></td>\n<td style=\"width: 63.2857%; height: 22px;\">\n<p><strong>Answer</strong></p>\n</td>\n</tr>\n<tr style=\"height: 67px;\">\n<td style=\"width: 36.7143%; height: 67px;\">Why don't I see the <strong>Omnichannel routing</strong> section in <a href=\"https://support.zendesk.com/hc/en-us/articles/4581766374554-Using-Zendesk-Admin-Center#topic_hfg_dyz_1hb\" target=\"_blank\" rel=\"noopener noreferrer\">Admin Center</a>?<br><img src=\"https://support.zendesk.com/hc/article_attachments/7240607972762\" alt=\"Option.png\" width=\"108\">\n</td>\n<td style=\"width: 63.2857%; height: 67px;\">\n<p>To see these settings, meet the requirements outlined here: <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4409149119514#topic_zlk_c3p_m5b\" target=\"_blank\" rel=\"noopener\">Requirements and limitations of omnichannel routing</a>.</p>\n</td>\n</tr>\n<tr style=\"height: 134px;\">\n<td style=\"width: 36.7143%; height: 134px;\">I turned on omnichannel routing and now there are abandoned call tickets in our queues.</td>\n<td style=\"width: 63.2857%; height: 134px;\">\n<p><span>Tickets are created for calls when omnichannel routing is enabled. This setting is no longer available: <strong>Create tickets for abandoned calls</strong>. For a workaround, see this article: </span><a href=\"https://support.zendesk.com/hc/en-us/articles/5027246725786\" target=\"_blank\" rel=\"noopener\">Workflow recipe: Automatically closing tickets created by abandoned calls</a>.</p>\n</td>\n</tr>\n<tr style=\"height: 67px;\">\n<td style=\"width: 36.7143%; height: 67px;\">Before I enabled omnichannel routing, we could do something, which isn't available anymore. Why can't I see or do that thing?</td>\n<td style=\"width: 63.2857%; height: 67px;\">\n<p>Verify if your questions are known limitations from this article: <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4409149119514#topic_zlk_c3p_m5b\" target=\"_blank\" rel=\"noopener\">Requirements and limitations of omnichannel routing</a>.</p>\n</td>\n</tr>\n<tr style=\"height: 89px;\">\n<td style=\"width: 36.7143%; height: 89px;\">After I enabled omnichannel routing, our agent is getting assigned more tickets than they are allowed when they go online.</td>\n<td style=\"width: 63.2857%; height: 89px;\">\n<p>To troubleshoot this step, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/5308501814042\" target=\"_blank\" rel=\"noopener\">Why was my agent automatically assigned more tickets than their capacity allows when they went online?</a></p>\n</td>\n</tr>\n<tr>\n<td style=\"width: 36.7143%;\">After I enabled omnichannel routing, our Talk calls are no longer routing to the right groups.</td>\n<td style=\"width: 63.2857%;\">\n<p>When omnichannel routing is disabled, Talk calls create a ticket after a ticket is routed to an agent and that agent accepts the call.</p>\n<p>When omnichannel routing is enabled, a ticket is created and omnichannel routing routes the ticket to available agents, before the agent accepts the call.</p>\n<p>The creation of this ticket before routing allows triggers to run on Talk tickets. These triggers affect routing depending on their configuration. Adjust <a href=\"https://support.zendesk.com/hc/en-us/articles/4408882237722-Managing-triggers#topic_dwq_zoy_tb\" target=\"_blank\" rel=\"noopener noreferrer\">the triggers</a> to exclude tickets created with Talk channel and prevent unwanted routing. In your trigger, use this condition: <strong>Ticket &gt; Channel | Is not | Phone call (incoming)</strong>.<br><img src=\"https://support.zendesk.com/hc/article_attachments/7240561403546\" alt=\"Trigger condition.png\" width=\"354\" height=\"32\"></p>\n</td>\n</tr>\n<tr>\n<td style=\"width: 36.7143%;\">I enabled omnichannel routing and everything is getting routed except for our messaging tickets.</td>\n<td style=\"width: 63.2857%;\">\n<p>To route a ticket, assign that ticket to a group first. If no group is set on ticket creation, the ticket cannot be routed with omnichannel routing. Adjust triggers or <a href=\"https://support.zendesk.com/hc/en-us/articles/4408886797466-Creating-triggers-for-automatic-ticket-updates-and-notifications\" target=\"_blank\" rel=\"noopener noreferrer\">create them</a> to set groups on messaging tickets. This requirement is outlined on this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/5866925319962-Turning-on-omnichannel-routing#topic_asz_ljb_yxb\" target=\"_blank\" rel=\"noopener noreferrer\">Requirements for the routing trigger</a>.</p>\n</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"h_01HXGZN0MKHJFP44D43NJC1MG7\">Omnichannel routing flow</h3>\n<p>After reading the above information, if your routing remains an issue, verify your workflow against the charts below:</p>\n<h4 id=\"h_01HXGZPMCFWRE5H481V5SQ7MSE\">How a ticket becomes eligible for routing</h4>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7240516727706\" alt=\"How does a ticket become eligible for routing?.png\"></p>\n<h4 id=\"h_01HXGZQHQV2F7452CM18JFP8Z8\">How a is ticket placed in the queue</h4>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7240516727962\" alt=\"How is a ticket placed in the queue?.png\"></p>\n<h4 id=\"h_01HXGZRN0ANBANST5KRWNDQ5HK\">How a ticket and agent are matched</h4>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7240516728090\" alt=\"How do we find a match between ticket and agent?.png\"></p>\n<p>For more information, see this article: <a style=\"background-color: #ffffff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;\" href=\"https://support.zendesk.com/hc/en-us/articles/5061050408730-Omnichannel-routing-resources\" target=\"_blank\" rel=\"noopener noreferrer\">Omnichannel routing resources</a>.</p>"
+      "body": "<h2 id=\"h_01HXGYD1SYKN7SK8KP4JRYFSPT\">Question</h2>\n<p>What are common issues with omnichannel routing? I want to troubleshoot these behaviors.</p>\n<h2 id=\"h_01HXGYD1SY8RA98VBD5ZY51C2A\">Answer</h2>\n<p>The table below provides common questions and answers on the topic of omnichannel routing.</p>\n<table style=\"border-collapse: collapse; width: 100%; height: 379px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"width: 36.7143%; height: 22px;\"><strong>Question</strong></td>\n<td style=\"width: 63.2857%; height: 22px;\">\n<p><strong>Answer</strong></p>\n</td>\n</tr>\n<tr style=\"height: 67px;\">\n<td style=\"width: 36.7143%; height: 67px;\">Why don't I see the <strong>Omnichannel routing</strong> section in <a href=\"https://support.zendesk.com/hc/en-us/articles/4581766374554-Using-Zendesk-Admin-Center#topic_hfg_dyz_1hb\" target=\"_blank\" rel=\"noopener noreferrer\">Admin Center</a>?<br><img src=\"https://support.zendesk.com/hc/article_attachments/7240607972762\" alt=\"Option.png\" width=\"108\">\n</td>\n<td style=\"width: 63.2857%; height: 67px;\">\n<p>To see these settings, meet the requirements outlined here: <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4409149119514#topic_zlk_c3p_m5b\" target=\"_blank\" rel=\"noopener\">Requirements and limitations of omnichannel routing</a>.</p>\n</td>\n</tr>\n<tr style=\"height: 134px;\">\n<td style=\"width: 36.7143%; height: 134px;\">I turned on omnichannel routing and now there are abandoned call tickets in our queues.</td>\n<td style=\"width: 63.2857%; height: 134px;\">\n<p><span>Tickets are created for calls when omnichannel routing is enabled. This setting is no longer available: <strong>Create tickets for abandoned calls</strong>. For a workaround, see this article: </span><a href=\"https://support.zendesk.com/hc/en-us/articles/5027246725786\" target=\"_blank\" rel=\"noopener\">Workflow recipe: Automatically closing tickets created by abandoned calls</a>.</p>\n</td>\n</tr>\n<tr style=\"height: 67px;\">\n<td style=\"width: 36.7143%; height: 67px;\">Before I enabled omnichannel routing, we could do something, which isn't available anymore. Why can't I see or do that thing?</td>\n<td style=\"width: 63.2857%; height: 67px;\">\n<p>Verify if your questions are known limitations from this article: <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4409149119514#topic_zlk_c3p_m5b\" target=\"_blank\" rel=\"noopener\">Requirements and limitations of omnichannel routing</a>.</p>\n</td>\n</tr>\n<tr style=\"height: 89px;\">\n<td style=\"width: 36.7143%; height: 89px;\">After I enabled omnichannel routing, our agent is getting assigned more tickets than they are allowed when they go online.</td>\n<td style=\"width: 63.2857%; height: 89px;\">\n<p>To troubleshoot this step, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/5308501814042\" target=\"_blank\" rel=\"noopener\">Why was my agent automatically assigned more tickets than their capacity allows when they went online?</a></p>\n</td>\n</tr>\n<tr>\n<td style=\"width: 36.7143%;\">After I enabled omnichannel routing, our Talk calls are no longer routing to the right groups.</td>\n<td style=\"width: 63.2857%;\">\n<p>When omnichannel routing is disabled, Talk calls create a ticket after a ticket is routed to an agent and that agent accepts the call.</p>\n<p>When omnichannel routing is enabled, a ticket is created and omnichannel routing routes the ticket to available agents, before the agent accepts the call.</p>\n<p>The creation of this ticket before routing allows triggers to run on Talk tickets. These triggers affect routing depending on their configuration. Adjust <a href=\"https://support.zendesk.com/hc/en-us/articles/4408882237722-Managing-triggers#topic_dwq_zoy_tb\" target=\"_blank\" rel=\"noopener noreferrer\">the triggers</a> to exclude tickets created with Talk channel and prevent unwanted routing. In your trigger, use this condition: <strong>Ticket &gt; Channel | Is not | Phone call (incoming)</strong>.<br><img src=\"https://support.zendesk.com/hc/article_attachments/7240561403546\" alt=\"Trigger condition.png\" width=\"354\" height=\"32\"></p>\n</td>\n</tr>\n<tr>\n<td style=\"width: 36.7143%;\">I enabled omnichannel routing and everything is getting routed except for our messaging tickets.</td>\n<td style=\"width: 63.2857%;\">\n<p>To route a ticket, assign that ticket to a group first. If no group is set on ticket creation, the ticket cannot be routed with omnichannel routing. Adjust triggers or <a href=\"https://support.zendesk.com/hc/en-us/articles/4408886797466-Creating-triggers-for-automatic-ticket-updates-and-notifications\" target=\"_blank\" rel=\"noopener noreferrer\">create them</a> to set groups on messaging tickets. This requirement is outlined on this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/5866925319962-Turning-on-omnichannel-routing#topic_asz_ljb_yxb\" target=\"_blank\" rel=\"noopener noreferrer\">Requirements for the routing trigger</a>.</p>\n</td>\n</tr>\n</tbody>\n</table>\n<p>For more information, see this article: <a style=\"background-color: #ffffff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;\" href=\"https://support.zendesk.com/hc/en-us/articles/5061050408730-Omnichannel-routing-resources\" target=\"_blank\" rel=\"noopener noreferrer\">Omnichannel routing resources</a>.</p>"
     },
     {
       "id": 7238303852698,
@@ -972,40 +1005,6 @@
         "role_owner"
       ],
       "body": "<h2 id=\"h_01HV9BYKAP2JWN98YZNKTMPVSN\">Issue symptoms</h2>\n<p>My end users are receiving automatic notification via email in the wrong locale. However, the language in the profile of my end user matches the dynamic content language.</p>\n<h2 id=\"h_01HV9BYKAPA3T6DQ7TGY020RYB\">Resolution steps</h2>\n<p>Languages in end user profiles must be exact matches to the language field of dynamic content variants. If no exact matches are found, the default variant is used. For example, if an end user's language can be set to <code>French - français</code>, but your dynamic content language equivalent is <code>French</code>, no match is found. In this case, the default variant, such as <code>English</code>, for the dynamic content is sent to the end user.</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7057197650586\" width=\"182\"><br><img src=\"https://support.zendesk.com/hc/article_attachments/7057245934874\" width=\"455\"><br>To resolve this, ensure these strings match exactly. Adjust the end user language and the language field of your dynamic content variant.</p>\n<p>For more information, see these articles:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408821324826-Zendesk-language-support-by-product\" target=\"_blank\" rel=\"noopener noreferrer\">Additional end-user languages</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408882999066-Providing-multiple-language-support-with-dynamic-content\" target=\"_blank\" rel=\"noopener noreferrer\">Providing multiple language support with dynamic content</a></li>\n</ul>"
-    },
-    {
-      "id": 7053317318682,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7053317318682.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/7053317318682-Can-I-use-the-Zendesk-API-to-add-CCs-to-email-side-conversations",
-      "author_id": 1263082264889,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405298901274,
-      "created_at": "2024-04-11T23:18:00Z",
-      "updated_at": "2024-04-23T15:01:45Z",
-      "name": "Can I use the Zendesk API to add CCs to email side conversations?",
-      "title": "Can I use the Zendesk API to add CCs to email side conversations?",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2024-04-18T13:43:52Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801135069,
-      "content_tag_ids": [],
-      "label_names": [
-        "ks",
-        "ab0",
-        "mt",
-        "ab0_support",
-        "role_admin",
-        "role_owner"
-      ],
-      "body": "<h2 id=\"h_01HV7PTNTGP8PGW29THCATMS2T\">Question</h2>\n<p>Can I use the Zendesk API to add CCs to email side conversations?</p>\n<h2 id=\"h_01HV7PTNTGBD10T5JJC3DG8WY1\">Answer</h2>\n<p>Yes, to add CCs to an email side conversation:</p>\n<ol>\n<li>Use the following endpoint: <br><code>https://yoursubdomain.zendesk.com/api/v2/tickets/{ticket.id}/side_conversations</code>\n</li>\n<li>Replace <code>yoursubdomain</code> with your actual Zendesk subdomain and <code>{ticket.id}</code> with your ticket ID.</li>\n<li>Use this JSON code and replace the email addresses on the <code>email</code> lines:</li>\n</ol>\n<pre>{<br>  \"message\": {<br>    \"subject\": \"Your subject written here\",<br>    \"body\": \"The description written here\",<br>    \"to\": [<br>      { \"email\": \"name1@testmail.com\" },<br>      { \"email\": \"name2@testmail.com\" }<br>    ]<br>  }<br>}</pre>\n<div>\n<div class=\"p\">\n<div class=\"note note\">\n<span class=\"notetitle\">Disclaimer:</span> This article is provided for instructional purposes only. Zendesk does not support or guarantee the code, and it can't provide support for custom scripts and API.</div>\n</div>\n<p>For more information about side conversations, see these articles:</p>\n<ul>\n<li>\n<a href=\"https://developer.zendesk.com/api-reference/ticketing/side_conversation/side_conversation/#create-side-conversation\">Create Side Conversation</a> (API reference)</li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408844206746-About-side-conversations\" target=\"_blank\" rel=\"noopener noreferrer\">About side conversations</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4604286879642-Creating-side-conversations\" target=\"_blank\" rel=\"noopener noreferrer\">Creating side conversations</a></li>\n</ul>\n</div>"
     }
   ],
   "sort_by": "position",
