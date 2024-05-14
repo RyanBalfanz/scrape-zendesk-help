@@ -44,8 +44,8 @@
       "draft": false,
       "promoted": true,
       "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
+      "vote_sum": 1,
+      "vote_count": 1,
       "section_id": 4405298847002,
       "created_at": "2024-05-13T20:30:58Z",
       "updated_at": "2024-05-13T20:55:55Z",
@@ -65,7 +65,7 @@
     {
       "id": 7241499089434,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7241499089434.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/7241499089434-How-can-I-change-the-manifest-url-in-my-requirements-json-file",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/7241499089434-How-can-I-change-the-manifest-url-in-the-requirements-json-file-of-my-channel-integration",
       "author_id": 1266644443030,
       "comments_disabled": false,
       "draft": false,
@@ -75,14 +75,14 @@
       "vote_count": 0,
       "section_id": 4405298879258,
       "created_at": "2024-05-10T14:33:11Z",
-      "updated_at": "2024-05-14T15:02:26Z",
-      "name": "How can I change the manifest_url in my requirements.json file?",
-      "title": "How can I change the manifest_url in my requirements.json file?",
+      "updated_at": "2024-05-14T22:07:55Z",
+      "name": "How can I change the manifest_url in the requirements.json file of my channel integration?",
+      "title": "How can I change the manifest_url in the requirements.json file of my channel integration?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-05-10T14:33:57Z",
+      "edited_at": "2024-05-14T22:07:51Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -94,7 +94,7 @@
         "role_admin",
         "role_owner"
       ],
-      "body": "<h2 id=\"h_01HXHDBGQ68XE93WSVD22942EX\">Question</h2>\n<p>I created a <a href=\"https://www.zendesk.com/marketplace/apps/\" target=\"_blank\" rel=\"noopener noreferrer\">Marketplace integration</a> and I want to change the <code>manifest_url</code> in <code>requirements.json</code>. If I generate my ZAT package with the new <code>manifest_url</code>, can I update that integration with the new URL?</p>\n<h2 id=\"h_01HXHDBGQ67D6BBC156K0VZ4CW\">Answer</h2>\n<p>No, that resource is not editable. Instead, submit a new app with the new <code>manifest_url</code>. Zendesk will hide the old version of the app and publish the new version.</p>\n<div class=\"p\">\n<div class=\"note note\">\n<span class=\"notetitle\">Note:</span> To amend the <a href=\"https://developer.zendesk.com/documentation/marketplace/building-a-marketplace-app/create-content/#manifestjson-file\" target=\"_blank\" rel=\"noopener noreferrer\">author details URL</a> in your <code>manifest.json</code> file, edit that field and submit an update to your app directly.</div>\n</div>\n<p>For more information, see this article: <a href=\"https://developer.zendesk.com/documentation/apps/app-developer-guide/apps_requirements/#updating-or-deleting-requirements\" target=\"_blank\" rel=\"noopener noreferrer\">Updating or deleting requirements</a>.</p>"
+      "body": "<h2 id=\"h_01HXHDBGQ68XE93WSVD22942EX\">Question</h2>\n<p>I created a <a href=\"https://developer.zendesk.com/documentation/channel_framework/\">Channel Framework integration</a> for the <a href=\"https://www.zendesk.com/marketplace/apps/\" target=\"_blank\" rel=\"noopener noreferrer\">Marketplace</a> and I want to change the <code>manifest_url</code> in <code>requirements.json</code>. If I generate my ZAT package with the new <code>manifest_url</code>, can I update that integration with the new URL?</p>\n<h2 id=\"h_01HXHDBGQ67D6BBC156K0VZ4CW\">Answer</h2>\n<p>No, that resource is not editable. Instead, submit a new app with the new <code>manifest_url</code>. Zendesk will hide the old version of the app and publish the new version.</p>\n<div class=\"p\">\n<div class=\"note note\">\n<span class=\"notetitle\">Note:</span> To amend the <a href=\"https://developer.zendesk.com/documentation/marketplace/building-a-marketplace-app/create-content/#manifestjson-file\" target=\"_blank\" rel=\"noopener noreferrer\">author details URL</a> in your <code>manifest.json</code> file, edit that field and submit an update to your app directly.</div>\n</div>\n<p>For more information, see this article: <a href=\"https://developer.zendesk.com/documentation/apps/app-developer-guide/apps_requirements/#updating-or-deleting-requirements\" target=\"_blank\" rel=\"noopener noreferrer\">Updating or deleting requirements</a>.</p>"
     },
     {
       "id": 7240516728218,
