@@ -1,5 +1,5 @@
 {
-  "count": 4529,
+  "count": 4527,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 151,
@@ -75,7 +75,7 @@
       "vote_count": 0,
       "section_id": 4405298879258,
       "created_at": "2024-05-10T14:33:11Z",
-      "updated_at": "2024-05-10T14:34:00Z",
+      "updated_at": "2024-05-14T15:02:26Z",
       "name": "How can I change the manifest_url in my requirements.json file?",
       "title": "How can I change the manifest_url in my requirements.json file?",
       "source_locale": "en-us",
@@ -89,6 +89,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_admin_center",
         "role_admin",
         "role_owner"
@@ -108,7 +109,7 @@
       "vote_count": 0,
       "section_id": 4405298902042,
       "created_at": "2024-05-10T10:16:56Z",
-      "updated_at": "2024-05-13T10:50:09Z",
+      "updated_at": "2024-05-14T15:02:33Z",
       "name": "How can I troubleshoot omnichannel routing issues?",
       "title": "How can I troubleshoot omnichannel routing issues?",
       "source_locale": "en-us",
@@ -122,6 +123,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_support",
         "ab0_talk",
         "ab0_messaging",
@@ -145,7 +147,7 @@
       "vote_count": 2,
       "section_id": 4405298833818,
       "created_at": "2024-05-09T23:09:01Z",
-      "updated_at": "2024-05-13T20:11:08Z",
+      "updated_at": "2024-05-14T15:01:18Z",
       "name": "Insights from the PM Roundtable on Intelligent & Intuitive Agent Workspace",
       "title": "Insights from the PM Roundtable on Intelligent & Intuitive Agent Workspace",
       "source_locale": "en-us",
@@ -156,7 +158,9 @@
       "user_segment_id": null,
       "permission_group_id": 1324079,
       "content_tag_ids": [],
-      "label_names": [],
+      "label_names": [
+        "mtpe"
+      ],
       "body": "<p>Dear Zendesk Customers,</p>\n<p>Amisha Sharma here, Product Manager for Reading &amp; Writing Experience.</p>\n<p>The Agent Workspace PM roundtable session this week was a resounding success—thanks to all who attended! We shared our direction for the year on what's coming, and on what we’re working on but will take us a little longer to deliver. </p>\n<p>Your feedback and the questions you all raised are precious to us. Thank you so much for engaging with us in the chat and for coming off mute to ask us questions in person—we loved it!</p>\n<p>We learned a lot from you all about the ways you want us to keep enhancing the reading experience in ticket UI to quickly gather the ticket context and help agents read faster and inturn be more productive when resolving tickets. Here are a few of our top takeaways from the session:</p>\n<p><strong>On our new UI approaches</strong>:</p>\n<ul>\n<li>Colors to distinguish between agent and end user messages seem like the right direction.</li>\n<li>Keyboard controls to skip through messages is helpful to navigate.</li>\n<li>Channel icons help gather the channel information quickly.<br><br>\n</li>\n</ul>\n<p><strong>You want more ways to customize the look and feel of conversation log, like</strong>:</p>\n<ul>\n<li>Ability to decide how messages should be aligned, agent on the right, end user on the left or all on the left.</li>\n<li>Ability to change the font size and message background colors.<br><br>\n</li>\n</ul>\n<p><strong>Feedback on the proposed \"Pinned Note\" feature</strong>:</p>\n<ul>\n<li>You loved the idea of pinning an important note.</li>\n<li>Majority of you expected to be able to pin an existing internal note instead of creating a new one.</li>\n<li>You expect the note to live in the conversation history in the event it is unpinned. Auditing is a major requirement for this feature. Every comment needs to be captured and scanned.</li>\n<li>You also expect triggers to work well with pinned notes.<br><br>\n</li>\n</ul>\n<p><strong>Feedback on the proposed \"Collapsed Messages\" feature</strong>:</p>\n<ul>\n<li>It will be a big help for the lengthy or detailed messages.</li>\n<li>You would like Ctrl + F to work for the collapsed details as well.<br><br>\n</li>\n</ul>\n<p>Thank you for providing all the valuable insights as we work towards making the current reading experience more efficient. We will continue to provide updates as we work towards releasing some of these features. Please continue to provide your valuable feedback <a href=\"https://support.zendesk.com/hc/en-us/community/topics/1260801325369-Feedback-Ticketing-System-Support-\"><span class=\"wysiwyg-underline\" style=\"color: #1155cc;\">here</span></a>.</p>\n<p>See you all in the community.</p>\n<p>Amisha Sharma, Lucy Liao, Rachna Keswani, Lisa Kelly<br><br><span class=\"wysiwyg-underline\"><strong>Resources from our event</strong></span></p>\n<p><a href=\"https://youtu.be/KCNS6gyfaUo\" target=\"_blank\" rel=\"noopener noreferrer\">Video Recording</a><br><a href=\"https://docs.google.com/presentation/d/1N0yNge8nzfZTmhPwG4t-iLMj4nlCuUpnfyRmREBOA48/edit?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Presentation Deck</a></p>"
     },
     {
@@ -172,7 +176,7 @@
       "vote_count": 0,
       "section_id": 4610662189594,
       "created_at": "2024-05-08T22:05:19Z",
-      "updated_at": "2024-05-09T22:24:04Z",
+      "updated_at": "2024-05-14T15:04:44Z",
       "name": "Editing and deleting conversation bots",
       "title": "Editing and deleting conversation bots",
       "source_locale": "en-us",
@@ -183,7 +187,9 @@
       "user_segment_id": null,
       "permission_group_id": 1324079,
       "content_tag_ids": [],
-      "label_names": [],
+      "label_names": [
+        "mt"
+      ],
       "body": "<body>\n\n<div class=\"body\">\n<p class=\"p what-plan-p\"><a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/5411234991258-plan\" target=\"_blank\">What's my plan?</a></p>\n<p class=\"p\"><img id=\"topic_afq_fdn_3bc__image_rld_z3j_bpb\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/plan_available_suite_all.png\"></p>\n<p class=\"p\">If you have created a <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408824263578\" target=\"_blank\">created a conversation bot</a>, you can edit or delete your bot as\n      needed. You must be an admin to manage bots.</p>\n<div class=\"p\">This article contains the following sections:<ul class=\"ul\" id=\"topic_afq_fdn_3bc__ul_uk5_hgn_3bc\">\n<li class=\"li\"><a class=\"xref\" href=\"#topic_b32_bfn_3bc\">Editing a bot</a></li>\n<li class=\"li\"><a class=\"xref\" href=\"#topic_dcx_x2n_3bc\">Deleting a bot</a></li>\n</ul>\n</div>\n</div>\n<div aria-labelledby=\"ariaid-title2\" class=\"topic nested1\" id=\"topic_b32_bfn_3bc\">\n<h2 class=\"title topictitle2\" id=\"ariaid-title2\">Editing a bot</h2>\n<div class=\"body\">\n<p class=\"p\">You can edit an existing bot to make changes to it.</p>\n<p class=\"p\"><strong class=\"ph b\">To view and edit your bot</strong></p>\n<ol class=\"ol\" id=\"topic_b32_bfn_3bc__ol_ikg_std_krb\">\n<li class=\"li\"><span class=\"ph\">In <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4581766374554#topic_hfg_dyz_1hb\" target=\"_blank\">Admin Center</a>, click\n          <img class=\"image\" id=\"topic_b32_bfn_3bc__d6e820\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/ac_channels_icon.png\">\n<strong class=\"ph b\">Channels</strong> in the sidebar, then select <strong class=\"ph b\">Bots and automations &gt; Bots</strong>.</span></li>\n<li class=\"li\">Click <strong class=\"ph b\">Manage bots</strong>.</li>\n<li class=\"li\" dir=\"ltr\">Click the name of the bot you want to update.</li>\n<li class=\"li\" dir=\"ltr\">Expand any section to edit the bot.<p class=\"p\"><img class=\"image\" id=\"topic_b32_bfn_3bc__image_g3t_dlr_h1c\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/rob_bot_settings_1.png\" width=\"500\"></p>\n<p class=\"p\">Your changes are automatically saved as you\n            make updates. </p>\n</li>\n</ol>\n</div>\n</div>\n<div aria-labelledby=\"ariaid-title3\" class=\"topic nested1\" id=\"topic_dcx_x2n_3bc\">\n<h2 class=\"title topictitle2\" id=\"ariaid-title3\">Deleting a bot</h2>\n<div class=\"body\">\n<p class=\"p\">If you are no longer using a bot, and do not plan on using it in the future, you can delete\n        it. When you delete a bot, any connected channels will revert to their <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4500737327258-Configuring-messaging-responses-for-web-and-mobile-channels#topic_kzg_ync_gnb\" target=\"_blank\">default response settings</a>.</p>\n<p class=\"p\"><strong class=\"ph b\">To delete a bot</strong></p>\n<div class=\"p\">\n<ol class=\"ol\" id=\"topic_dcx_x2n_3bc__ol_a5z_dfn_3bc\">\n<li class=\"li\"><span class=\"ph\">In <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4581766374554#topic_hfg_dyz_1hb\" target=\"_blank\">Admin Center</a>, click\n          <img class=\"image\" id=\"topic_dcx_x2n_3bc__d6e820\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/ac_channels_icon.png\">\n<strong class=\"ph b\">Channels</strong> in the sidebar, then select <strong class=\"ph b\">Bots and automations &gt; Bots</strong>.</span></li>\n<li class=\"li\">Click <strong class=\"ph b\">Manage bots</strong>.</li>\n<li class=\"li\">Click the bot's <strong class=\"ph b\">Options icon</strong> (<img class=\"image\" id=\"topic_dcx_x2n_3bc__image_kvw_q3r_r5b\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/ticket_field_options_icon.png\">), then select <strong class=\"ph b\">Delete</strong>.<p class=\"p\">The bot is removed from the\n              bot list. This action cannot be undone.</p>\n</li>\n</ol>\n</div>\n</div>\n</div>\n</body>"
     },
     {
@@ -199,7 +205,7 @@
       "vote_count": 0,
       "section_id": 4610662189594,
       "created_at": "2024-05-08T21:45:26Z",
-      "updated_at": "2024-05-09T22:24:42Z",
+      "updated_at": "2024-05-14T15:04:47Z",
       "name": "Adding and removing a bot for a messaging channel",
       "title": "Adding and removing a bot for a messaging channel",
       "source_locale": "en-us",
@@ -210,7 +216,9 @@
       "user_segment_id": null,
       "permission_group_id": 1324079,
       "content_tag_ids": [],
-      "label_names": [],
+      "label_names": [
+        "mt"
+      ],
       "body": "<body>\n\n<div class=\"body\">\n<p class=\"p what-plan-p\"><a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/5411234991258-plan\" target=\"_blank\">What's my plan?</a></p>\n<p class=\"p\"><img id=\"topic_hfh_5ym_3bc__image_rld_z3j_bpb\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/plan_available_suite_all.png\"></p>\n<p class=\"p\">If you have <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408824263578\" target=\"_blank\">created a conversation bot</a>, you need to publish that\n      bot before it appears in any of your messaging channels. You can later disconnect a bot from a\n      channel if you need to do so. You must be an admin to add or remove a bot from a messaging\n      channel. </p>\n<div class=\"p\">\n<div class=\"div\">\n<div class=\"p\">This article contains the following sections:<ul class=\"ul\" id=\"topic_hfh_5ym_3bc__ul_ekd_r1n_3bc\">\n<li class=\"li\"><a class=\"xref\" href=\"#topic_ads_n1n_3bc\">Publishing a bot to add it to a channel</a></li>\n<li class=\"li\"><a class=\"xref\" href=\"#topic_ukn_m1n_3bc\">Removing a bot to disconnect it from a channel</a></li>\n</ul>\n</div>\n</div>\n</div>\n</div>\n<div aria-labelledby=\"ariaid-title2\" class=\"topic nested1\" id=\"topic_ads_n1n_3bc\">\n<h2 class=\"title topictitle2\" id=\"ariaid-title2\">Publishing a bot to add it to a channel</h2>\n<div class=\"body\">\n<p class=\"p\">You can publish a bot to any messaging channel where you want to add that bot. Publishing a\n        bot to a channel means that any other messaging response – either the default messaging\n        response or another bot – is removed from that channel and replaced with the newly published\n        bot.</p>\n<p class=\"p\">Until you publish a bot:</p>\n<ul class=\"ul\" id=\"topic_ads_n1n_3bc__ul_ujq_gtd_krb\">\n<li class=\"li\">If you have not yet published a bot, the default messaging response remains active. </li>\n<li class=\"li\">If you have published a bot, the last published version of that bot remains active. </li>\n<li class=\"li\">Any unpublished answers remain until they’re published or altered.</li>\n</ul>\n<p class=\"p\">Both out-of-the-box and customized bots are published through the bot builder.</p>\n<div class=\"p\">\n<div class=\"div\">\n<p class=\"p\"><strong class=\"ph b\">To publish a bot to a channel</strong></p>\n<ol class=\"ol\" id=\"topic_ads_n1n_3bc__ol_xl3_jtd_krb\">\n<li class=\"li\"><span class=\"ph\">In <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4581766374554#topic_hfg_dyz_1hb\" target=\"_blank\">Admin Center</a>, click\n          <img class=\"image\" id=\"topic_ads_n1n_3bc__d6e820\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/ac_channels_icon.png\">\n<strong class=\"ph b\">Channels</strong> in the sidebar, then select <strong class=\"ph b\">Bots and automations &gt; Bots</strong>.</span></li>\n<li class=\"li\">Click <strong class=\"ph b\">Manage bots</strong>.</li>\n<li class=\"li\">Click the bot you want to publish.</li>\n<li class=\"li\">Make any changes necessary to the flow, then click<strong class=\"ph b\"> Publish bot</strong> in the\n              upper-right corner.<div class=\"p\">\n<ul class=\"ul\" id=\"topic_ads_n1n_3bc__ul_nfq_mtd_krb\">\n<li class=\"li\">If the bot is not currently published to a channel, in <strong class=\"ph b\">Choose where your\n                      bot appears</strong>, select one or more channels, then click <strong class=\"ph b\">Publish to\n                      selected channels</strong>.</li>\n<li class=\"li\">If the bot is already live on a channel, the bot is updated in that\n                    channel.</li>\n</ul>\n</div>\n</li>\n</ol>\n</div>\n</div>\n</div>\n</div>\n<div aria-labelledby=\"ariaid-title3\" class=\"topic nested1\" id=\"topic_ukn_m1n_3bc\">\n<h2 class=\"title topictitle2\" id=\"ariaid-title3\">Removing a bot to disconnect it from a channel</h2>\n<div class=\"body\">\n<div class=\"p\">\n<div class=\"div\">\n<p class=\"p\" dir=\"ltr\">You may find you need to disconnect a bot from a channel because you want\n            to use a different bot or you no longer want to offer bot functionality through that\n            channel. </p>\nWhen you disconnect a messaging bot from a channel, it is replaced by the\n            <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4500737327258#topic_kzg_ync_gnb\" target=\"_blank\">default messaging response</a> until and unless\n          another bot is connected to that channel. Before disconnecting a bot, make sure you have\n          another bot ready to replace it or check that your default messaging response is properly\n          configured.</div>\n<div class=\"div\">\n<p class=\"p\" dir=\"ltr\"><strong class=\"ph b\">To disconnect a bot from a channel</strong></p>\n<ol class=\"ol\" id=\"topic_ukn_m1n_3bc__ol_md4_s4p_mrb\">\n<li class=\"li\" dir=\"ltr\"><span class=\"ph\">In <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4581766374554#topic_hfg_dyz_1hb\" target=\"_blank\">Admin Center</a>, click\n          <img class=\"image\" id=\"topic_ukn_m1n_3bc__d6e820\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/ac_channels_icon.png\">\n<strong class=\"ph b\">Channels</strong> in the sidebar, then select <strong class=\"ph b\">Bots and automations &gt; Bots</strong>.</span></li>\n<li class=\"li\">Click <strong class=\"ph b\">Manage bots</strong>.</li>\n<li class=\"li\" dir=\"ltr\">Click the bot you want to disconnect.</li>\n<li class=\"li\" dir=\"ltr\">In the <strong class=\"ph b\">Settings</strong> tab, expand the <strong class=\"ph b\">Channels</strong> section and\n              deselect the channel you want to disconnect.</li>\n</ol>\n<p class=\"p\" dir=\"ltr\">Your changes are automatically saved. The bot is disconnected and the\n            default messaging response is activated.</p>\n</div>\n</div>\n</div>\n</div>\n</body>"
     },
     {
@@ -762,7 +770,7 @@
       "vote_count": 0,
       "section_id": 4405298901274,
       "created_at": "2024-04-18T14:57:50Z",
-      "updated_at": "2024-05-09T23:37:44Z",
+      "updated_at": "2024-05-14T15:02:54Z",
       "name": "How can I create different agent signatures based on brand and ticket group?",
       "title": "How can I create different agent signatures based on brand and ticket group?",
       "source_locale": "en-us",
