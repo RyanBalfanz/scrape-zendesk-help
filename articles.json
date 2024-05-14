@@ -19,21 +19,21 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2024-05-14T09:18:42Z",
-      "updated_at": "2024-05-14T12:12:55Z",
+      "updated_at": "2024-05-14T13:04:05Z",
       "name": "Service Incident - May 14th, 2024",
       "title": "Service Incident - May 14th, 2024",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-05-14T12:12:55Z",
+      "edited_at": "2024-05-14T13:04:05Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
       "label_names": [
         "service_incident"
       ],
-      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>May 14, 2024 12:12 PM UTC | May 14, 2024 05:12 AM PT </strong><br>We have deployed a fix for the issue that was preventing Support Views from loading properly for customers using multiple browsers across various Pods. We kindly request that you refresh your browser and/or clear your cache and cookies to ensure you are using the most updated version of the system. Thank you for your patience during this disruption.</p>\n<p class=\"p1\"><strong>May 14, 2024 09:18 AM UTC | May 14, 2024 02:18 AM PT </strong><br>We are currently investigating reports of Support Views not loading properly for customers using the Firefox browser. A possible workaround is to use Chrome instead or update Firefox to the latest version in the meantime. We will provide another update when we have more information.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n"
+      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>May 14, 2024 01:04 PM UTC | May 14, 2024 06:04 AM PT </strong><br>Having received positive confirmations from customers about the successful implementation of the fix, we are now marking this incident as fully resolved. Thank you again for your patience throughout this process.</p>\n<p class=\"p1\"><strong>May 14, 2024 12:12 PM UTC | May 14, 2024 05:12 AM PT </strong><br>We have deployed a fix for the issue that was preventing Support Views from loading properly for customers using multiple browsers across various Pods. We kindly request that you refresh your browser and/or clear your cache and cookies to ensure you are using the most updated version of the system. Thank you for your patience during this disruption.</p>\n<p class=\"p1\"><strong>May 14, 2024 09:18 AM UTC | May 14, 2024 02:18 AM PT </strong><br>We are currently investigating reports of Support Views not loading properly for customers using the Firefox browser. A possible workaround is to use Chrome instead or update Firefox to the latest version in the meantime. We will provide another update when we have more information.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n"
     },
     {
       "id": 7257365332506,
