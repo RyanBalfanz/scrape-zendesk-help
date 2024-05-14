@@ -1,11 +1,40 @@
 {
-  "count": 4528,
+  "count": 4529,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 151,
   "per_page": 30,
   "previous_page": null,
   "articles": [
+    {
+      "id": 7260814865818,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7260814865818.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/7260814865818-Service-Incident-May-14th-2024",
+      "author_id": 1263082099529,
+      "comments_disabled": true,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298854426,
+      "created_at": "2024-05-14T09:18:42Z",
+      "updated_at": "2024-05-14T09:18:43Z",
+      "name": "Service Incident - May 14th, 2024",
+      "title": "Service Incident - May 14th, 2024",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2024-05-14T09:18:42Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801242670,
+      "content_tag_ids": [],
+      "label_names": [
+        "service_incident"
+      ],
+      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\"><p class=\"p1\"><strong>May 14, 2024 09:18 AM UTC | May 14, 2024 02:18 AM PT </strong><br>We are currently investigating reports of Support Views not loading properly for customers using the Firefox browser. A possible workaround is to use Chrome instead or update Firefox to the latest version in the meantime. We will provide another update when we have more information.</p></div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n"
+    },
     {
       "id": 7257365332506,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7257365332506.json",
@@ -971,40 +1000,6 @@
         "role_owner"
       ],
       "body": "<h2 id=\"h_01HVGBDJAWD3KR4SJN5RAY64B8\">Question</h2>\n<p>How can I delete a WhatsApp number from the user's profile? From the context panel of your ticket, the phone number shows after the <strong>WhatsApp</strong> field:</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7081395219226\" alt=\"Ticket.png\"></p>\n<h2 id=\"h_01HVGBDJAWP2EC05H91X4ZCDV2\">Answer</h2>\n<p>From the UI, you cannot remove WhatsApp numbers like other phone numbers. WhatsApp users are identified after contacting Zendesk for the first time and WhatsApp phone numbers are stored as an identity in the back-end. From the end user profile, no phone number will appear, however the WhatsApp number is linked to that user.</p>\n<h2 id=\"01HVKPB5NJV4VXJ7SQDB4A0T6S\">\n<img src=\"https://support.zendesk.com/hc/article_attachments/7081669180954\" alt=\"URL.png\"><img src=\"https://support.zendesk.com/hc/article_attachments/7081395222938\" alt=\"Profile.png\">\n</h2>\n<p>To remove that number, developers can make use of the API and the User Identities endpoint.</p>\n<ol>\n<li>Locate the <code>user_id</code> from your browser after opening the profile from the user you want to edit. It is the long number in the URL :<br><img src=\"https://support.zendesk.com/hc/article_attachments/7081669180954\" alt=\"URL.png\">\n</li>\n<li>Follow <a href=\"https://developer.zendesk.com/api-reference/ticketing/users/user_identities/\" target=\"_blank\" rel=\"noopener noreferrer\">this end point</a><span> and build the path below. Replace <code>yousubdomain</code> with your actual subdomain and <code>user_id</code> with the value you found:</span>\n<pre>https://yoursubdomain.zendesk.com/api/v2/users/user_id/identities</pre>\n<p>The existing identities for that user will appear:</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7081685173658\" alt=\"ID.png\"></p>\n</li>\n<li>\n<p>Delete the <code>messaging</code> type u<span>sing Postman, or any other tool, with a delete request using this path, gather the <code>id</code> to replace <code>entity_id</code> from the previous step, and replace <span><code>yousubdomain</code></span> with your subdomain:</span></p>\n<pre>https://yoursubdomain.com/api/v2/users/{user_id}/identities/entity_id.json</pre>\n</li>\n<li>\n<p>After running the API call, you will see this on Postman:</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7081669184154\" alt=\"Postman.png\"></p>\n<p>Once you delete that identity, the user profile will no longer show the number:</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7081669188762\" alt=\"Final identity.png\"></p>\n</li>\n</ol>\n<p>For more information, see these articles:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4981113358490-Why-are-some-users-not-correctly-identified-when-they-message-in-through-WhatsApp\" target=\"_blank\" rel=\"noopener noreferrer\">Why are some users not correctly identified when they message in through WhatsApp?</a></li>\n<li><a href=\"https://developer.zendesk.com/api-reference/ticketing/users/user_identities/\" target=\"_blank\" rel=\"noopener noreferrer\">User Identities</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408842821786-Adding-WhatsApp-channels-to-the-Agent-Workspace\" target=\"_blank\" rel=\"noopener noreferrer\">Adding WhatsApp channels to the Agent Workspace</a></li>\n</ul>"
-    },
-    {
-      "id": 7057197652250,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7057197652250.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/7057197652250-My-dynamic-content-is-not-translating-email-content-in-the-language-of-the-end-user",
-      "author_id": 1264158225009,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405298901274,
-      "created_at": "2024-04-12T14:53:46Z",
-      "updated_at": "2024-04-23T15:01:40Z",
-      "name": "My dynamic content is not translating email content in the language of the end user",
-      "title": "My dynamic content is not translating email content in the language of the end user",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2024-04-18T14:17:46Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801135069,
-      "content_tag_ids": [],
-      "label_names": [
-        "ab0",
-        "mt",
-        "ab0_support",
-        "ab0_admin_center",
-        "role_admin",
-        "role_owner"
-      ],
-      "body": "<h2 id=\"h_01HV9BYKAP2JWN98YZNKTMPVSN\">Issue symptoms</h2>\n<p>My end users are receiving automatic notification via email in the wrong locale. However, the language in the profile of my end user matches the dynamic content language.</p>\n<h2 id=\"h_01HV9BYKAPA3T6DQ7TGY020RYB\">Resolution steps</h2>\n<p>Languages in end user profiles must be exact matches to the language field of dynamic content variants. If no exact matches are found, the default variant is used. For example, if an end user's language can be set to <code>French - français</code>, but your dynamic content language equivalent is <code>French</code>, no match is found. In this case, the default variant, such as <code>English</code>, for the dynamic content is sent to the end user.</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7057197650586\" width=\"182\"><br><img src=\"https://support.zendesk.com/hc/article_attachments/7057245934874\" width=\"455\"><br>To resolve this, ensure these strings match exactly. Adjust the end user language and the language field of your dynamic content variant.</p>\n<p>For more information, see these articles:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408821324826-Zendesk-language-support-by-product\" target=\"_blank\" rel=\"noopener noreferrer\">Additional end-user languages</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408882999066-Providing-multiple-language-support-with-dynamic-content\" target=\"_blank\" rel=\"noopener noreferrer\">Providing multiple language support with dynamic content</a></li>\n</ul>"
     }
   ],
   "sort_by": "position",
