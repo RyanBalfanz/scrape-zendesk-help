@@ -319,14 +319,14 @@
       "vote_count": 0,
       "section_id": 5322740495642,
       "created_at": "2024-05-03T14:58:58Z",
-      "updated_at": "2024-05-07T15:02:53Z",
+      "updated_at": "2024-05-15T14:11:14Z",
       "name": "Why did an automation stop firing for some of the tickets?",
       "title": "Why did an automation stop firing for some of the tickets?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-05-06T16:45:38Z",
+      "edited_at": "2024-05-15T14:11:10Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -343,7 +343,7 @@
         "automation not working",
         "automation stop running"
       ],
-      "body": "<h2 id=\"h_01HWZDZCRCG7KXWBYVR75458H1\">Question</h2>\n<p>I am using an automation with the <strong>Hours since</strong> | <strong>is</strong> condition. Why did it stop firing for some of the tickets?<br><img src=\"https://support.zendesk.com/hc/article_attachments/7216335019418\" alt=\"hours since.png\"></p>\n<h2 id=\"h_01HX725H5CHEC1BNWDF317AM6C\">Answer</h2>\n<p>This problem arises because the <strong>Hours since | Is</strong> condition is very restrictive. Automations run every hour but not necessarily top-of-the-hour or at the same time each hour. For example, you can have a condition in which tickets were assigned 5 hours ago. If you assign the ticket at 10:03, and the automation fires at 15:01, then the ticket was only assigned 4 hours and 58 minutes ago and the automation isn't yet true. If the next time the automation fires is 16:06, then the ticket was assigned 6 hours and 3 minutes ago, and the condition fails again.</p>\n<p>To avoid this issue, we recommend using <strong>Hours since | Greater than</strong> because it offers a bigger time window in which the condition is valid. However, you must also define a <a href=\"https://support.zendesk.com/hc/en-us/articles/4408832701850-About-automations-and-how-they-work#topic_mbl_q4f_tm\" target=\"_blank\" rel=\"noopener noreferrer\">nullifying condition or action</a> to ensure <strong>Greater than</strong> conditions are true only once for a ticket.</p>\n<p>For more information, see these articles:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408836495130-Using-the-Hours-since-condition-in-automations#topic_ld3_5d1_tqb\" target=\"_blank\" rel=\"noopener noreferrer\">Using \"Hours since...is\" conditions</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408832701850-About-automations-and-how-they-work#:~:text=last%2014%20days.-,Understanding%20when%20automation%20actions%20fire,-Automations%20run%20in\" target=\"_blank\" rel=\"noopener noreferrer\">Understanding when automation actions fire</a></li>\n</ul>"
+      "body": "<h2 id=\"h_01HWZDZCRCG7KXWBYVR75458H1\">Question</h2>\n<p>I am using an automation with the <strong>Hours since</strong> | <strong>is</strong> condition. Why did it stop firing for some of the tickets?<br><img src=\"https://support.zendesk.com/hc/article_attachments/7216335019418\" alt=\"hours since.png\"></p>\n<h2 id=\"h_01HX725H5CHEC1BNWDF317AM6C\">Answer</h2>\n<p>This problem arises because the <strong>Hours since | Is</strong> condition is very restrictive. Automations run every hour but not necessarily top-of-the-hour or at the same time each hour. For example, you can have a condition in which tickets were assigned 5 hours ago. If you assign the ticket at 10:03, and the automation fires at 15:01, then the ticket was only assigned 4 hours and 58 minutes ago and the automation isn't yet true. If the next time the automation fires is 16:06, then the ticket was assigned 6 hours and 3 minutes ago, and the condition fails again.</p>\n<p>To avoid this issue, we recommend using <strong>Hours since | Greater than</strong> because it offers a bigger time window in which the condition is valid.</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7268512100122\" alt=\"Greater than.png\"></p>\n<p>However, you must also define a <a href=\"https://support.zendesk.com/hc/en-us/articles/4408832701850-About-automations-and-how-they-work#topic_mbl_q4f_tm\" target=\"_blank\" rel=\"noopener noreferrer\">nullifying condition or action</a> to ensure <strong>Greater than</strong> conditions are true only once for a ticket.</p>\n<p>For more information, see these articles:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408836495130-Using-the-Hours-since-condition-in-automations#topic_ld3_5d1_tqb\" target=\"_blank\" rel=\"noopener noreferrer\">Using \"Hours since...is\" conditions</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408832701850-About-automations-and-how-they-work#:~:text=last%2014%20days.-,Understanding%20when%20automation%20actions%20fire,-Automations%20run%20in\" target=\"_blank\" rel=\"noopener noreferrer\">Understanding when automation actions fire</a></li>\n</ul>"
     },
     {
       "id": 7201062119578,
