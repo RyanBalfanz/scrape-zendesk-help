@@ -382,9 +382,9 @@
     {
       "id": 7194998416154,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7194998416154.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/7194998416154-Service-Incident-May-2nd-2024",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/7194998416154-Service-Incident-May-2-2024-Multiple-Products-All-Pods-Zendesk-access-degradation-errors",
       "author_id": 1263082183609,
-      "comments_disabled": false,
+      "comments_disabled": true,
       "draft": false,
       "promoted": false,
       "position": 0,
@@ -392,21 +392,21 @@
       "vote_count": 1,
       "section_id": 4405298854426,
       "created_at": "2024-05-02T14:20:24Z",
-      "updated_at": "2024-05-15T10:06:29Z",
-      "name": "Service Incident - May 2nd, 2024",
-      "title": "Service Incident - May 2nd, 2024",
+      "updated_at": "2024-05-15T10:26:52Z",
+      "name": "Service Incident - May 2, 2024 - Multiple Products | All Pods - Zendesk access degradation & errors",
+      "title": "Service Incident - May 2, 2024 - Multiple Products | All Pods - Zendesk access degradation & errors",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-05-02T15:30:45Z",
+      "edited_at": "2024-05-15T09:53:00Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
       "label_names": [
         "service_incident"
       ],
-      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>May 02, 2024 03:30 PM UTC | May 02, 2024 08:30 AM PT </strong><br>We’ve been monitoring this incident and no longer see issues related to it after the fix was implemented. We are marking this as fully resolved now.</p>\n<p class=\"p1\"><strong>May 02, 2024 02:50 PM UTC | May 02, 2024 07:50 AM PT </strong><br>We have implemented a fix for the issue, and we are observing improvements in the logs. Access to all products should now be restored. Please ensure you refresh your browser, and clear your cache and cookies if necessary. Thank you for your continued patience.</p>\n<p class=\"p1\"><strong>May 02, 2024 02:35 PM UTC | May 02, 2024 07:35 AM PT </strong><br>We’re actively working to address the general slowness and Internal Server Errors impacting several products due to this ongoing service incident, which affects customers in all Pods. We appreciate your patience. Next update in 30 min.</p>\n<p class=\"p1\"><strong>May 02, 2024 02:20 PM UTC | May 02, 2024 07:20 AM PT </strong><br>We’re currently investigating multiple issues with Sunshine Conversations, AW Messaging and other products for customers in multiple Pods. More updates to follow.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n"
+      "body": "<h3 id=\"h_01HXXTHM6ESZ1YM3EB5DD2CEA0\" class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\"></div>\n<p>On May 2, 2024 from 13:35 UTC to 14:25 UTC, some customers experienced difficulties using Zendesk services. These included slow performance and occasional internal server errors when trying to access our products across multiple Pods. During this time, the impact was particularly significant for customers on Pod 23, where users might have encountered delays or trouble using the Support agent interface, Sunshine Conversations Messaging, Chat, Talk, Explore, Sell, and Guide. Additionally, there was a wider impact on Messaging services across all Pods.</p>\n<p> </p>\n<h3 id=\"h_01HXXTJ7MW748QJAV2K92JM6YA\"><span style=\"color: #06363c;\">Timeline</span></h3>\n<p><strong>May 02, 2024 02:20 PM UTC | May 02, 2024 07:20 AM PT</strong></p>\n<p>We’re currently investigating multiple issues with Sunshine Conversations, AW Messaging and other products for customers in multiple Pods. More updates to follow.</p>\n<p><strong>May 02, 2024 02:35 PM UTC | May 02, 2024 07:35 AM PT</strong></p>\n<p>We’re actively working to address the general slowness and Internal Server Errors impacting several products due to this ongoing service incident, which affects customers in all Pods. We appreciate your patience. Next update in 30 min.</p>\n<p><strong>May 02, 2024 02:50 PM UTC | May 02, 2024 07:50 AM PT</strong></p>\n<p>We have implemented a fix for the issue, and we are observing improvements in the logs. Access to all products should now be restored. Please ensure you refresh your browser, and clear your cache and cookies if necessary. Thank you for your continued patience.</p>\n<p><strong>May 02, 2024 03:30 PM UTC | May 02, 2024 08:30 AM PT</strong></p>\n<p>We’ve been monitoring this incident and no longer see issues related to it after the fix was implemented. We are marking this as fully resolved now.</p>\n<p class=\"p1\"> </p>\n<h3 id=\"h_01HXXTJ7MXKXR0C3602ZSPGPM3\"><strong><span style=\"color: #06363c;\">POST-MORTEM</span></strong></h3>\n<h3 id=\"h_01HXXTJ7MXCK92HT1WV7NVZ6G2\"><span style=\"color: #06363c;\">Root Cause Analysis</span></h3>\n<p>The issue was caused by a glitch in our service update process that led to some parts of our infrastructure not being ready to handle traffic, which resulted in reduced capacity.</p>\n<h3 id=\"h_01HXXTJ7MX198Y7YBKWT8XN6KG\"><span style=\"color: #06363c;\">Resolution</span></h3>\n<p>To fix this issue, our engineers rerouted internal traffic to bypass the affected infrastructure, which allowed us to restore full service by 14:25 UTC.</p>\n<h3 id=\"h_01HXXTJ7MX3VZXNA0XJ0MXR4JZ\"><span style=\"color: #06363c;\">Remediation Items</span></h3>\n<ol>\n<li>Improve our infrastructure update process to ensure that any issues are detected and addressed before they affect customers.</li>\n<li>Enhance our system's capacity to handle traffic during routine updates.</li>\n<li>Add new checks to monitor the health of our services more effectively.</li>\n<li>Work on better coordination between different components of our service infrastructure.</li>\n<li>Review the impact on all services to understand why they were affected and to prevent similar issues in the future.</li>\n</ol>\n<h4> </h4>\n<h4 id=\"h_01HXXTHM6EKZB2CY4NTBYW03A2\"><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>"
     },
     {
       "id": 7194015944602,
