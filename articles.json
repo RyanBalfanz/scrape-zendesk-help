@@ -19,14 +19,14 @@
       "vote_count": 0,
       "section_id": 4405298901274,
       "created_at": "2024-05-21T14:27:13Z",
-      "updated_at": "2024-05-21T15:09:04Z",
+      "updated_at": "2024-05-21T15:27:47Z",
       "name": "Why is the Zendesk Support mobile app crashing?",
       "title": "Why is the Zendesk Support mobile app crashing?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-05-21T15:08:11Z",
+      "edited_at": "2024-05-21T15:27:44Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -37,7 +37,7 @@
         "role_admin",
         "role_owner"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>Why is the Zendesk Support mobile app crashing?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>Due to recent changes, some users on older versions of the app will experience a crash. To solve this issue, update to the latest version of the product.</p>\n<p>If you can't update the app due to OS requirements, you will need to stop using the new agent experience. This can be done in the mobile app settings.</p>\n<div>\n<p>In the mobile app settings, for iOS users, disable<span> </span><strong>Try our new conversational UI</strong>. For Android users, disable<span> </span><strong>New agent experience</strong>.</p>\n<div>\n<div>\n<table>\n<colgroup> <col> <col> </colgroup>\n<thead>\n<tr>\n<th><strong>iOS</strong></th>\n<th><strong>Android</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><img id=\"topic_lmz_hkb_1vb__image_m2k_4dg_s5b\" class=\"image img-screenshot\" style=\"box-sizing: inherit; max-width: 100%; box-shadow: rgba(0, 0, 0, 0.27) 0px 2px 6px 0px;\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/new_support_mobile_enable_ios1.png\" width=\"300\"></td>\n<td class=\"entry cellrowborder\" style=\"box-sizing: inherit; display: table-cell; padding: 5px; text-align: center;\" headers=\"d52e233\"><img id=\"topic_lmz_hkb_1vb__image_m2k_4dg_s5b\" class=\"image img-screenshot\" style=\"box-sizing: inherit; max-width: 100%; box-shadow: rgba(0, 0, 0, 0.27) 0px 2px 6px 0px;\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/Support_mobile_new_agent_experience.png\" width=\"325\"></td>\n</tr>\n</tbody>\n</table>\n</div>\n</div>\n<p> </p>\n</div>\n<p>For more information on the Zendesk Support mobile app: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408846407066-About-the-Zendesk-Support-mobile-app\" target=\"_blank\" rel=\"noopener noreferrer\">About the Zendesk Support mobile app</a>.</p>\n<p> </p>"
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>Why is the Zendesk Support mobile app crashing?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>Due to recent changes, users on older versions of the Zendesk Support mobile app will experience a crash. To solve this issue, update the app to the latest version of the product.</p>\n<p>If you can't update the app due to OS requirements, stop using the new agent experience. This can be done in the mobile app settings. In the mobile app settings, for iOS users, disable <strong>Try our new conversational UI</strong>. For Android users, disable <strong>New agent experience</strong>.</p>\n<div>\n<div>\n<div>\n<table>\n<colgroup> <col> <col> </colgroup>\n<thead>\n<tr>\n<th><strong>iOS</strong></th>\n<th><strong>Android</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><img id=\"topic_lmz_hkb_1vb__image_m2k_4dg_s5b\" class=\"image img-screenshot\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/new_support_mobile_enable_ios1.png\" width=\"300\"></td>\n<td class=\"entry cellrowborder\" style=\"padding: 5px; text-align: center;\" headers=\"d52e233\"><img id=\"topic_lmz_hkb_1vb__image_m2k_4dg_s5b\" class=\"image img-screenshot\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/Support_mobile_new_agent_experience.png\" width=\"325\"></td>\n</tr>\n</tbody>\n</table>\n</div>\n</div>\n</div>\n<p>For more information on the Zendesk Support mobile app: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408846407066-About-the-Zendesk-Support-mobile-app\" target=\"_blank\" rel=\"noopener noreferrer\">About the Zendesk Support mobile app</a>.</p>"
     },
     {
       "id": 7293909011994,
