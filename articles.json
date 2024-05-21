@@ -19,14 +19,14 @@
       "vote_count": 0,
       "section_id": 4405298901274,
       "created_at": "2024-05-21T14:27:13Z",
-      "updated_at": "2024-05-21T14:42:34Z",
+      "updated_at": "2024-05-21T15:09:04Z",
       "name": "Why is the Zendesk Support mobile app crashing?",
       "title": "Why is the Zendesk Support mobile app crashing?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-05-21T14:38:17Z",
+      "edited_at": "2024-05-21T15:08:11Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -37,7 +37,7 @@
         "role_admin",
         "role_owner"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>Why is the Zendesk Support mobile app crashing?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>Due to recent changes, some users on older versions of the app will experience a crash. The best solution is to update to the latest version of the product.</p>\n<p>For users on old devices that can’t update due to OS requirements, they will need to stop using the new agent experience. This can be done in the Settings.</p>\n<p>For more information on how to stop using the new agent experience, see the article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408846407066-About-the-Zendesk-Support-mobile-app\" target=\"_blank\" rel=\"noopener noreferrer\">About the Zendesk Support mobile app</a></p>"
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>Why is the Zendesk Support mobile app crashing?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>Due to recent changes, some users on older versions of the app will experience a crash. To solve this issue, update to the latest version of the product.</p>\n<p>If you can't update the app due to OS requirements, you will need to stop using the new agent experience. This can be done in the mobile app settings.</p>\n<div>\n<p>In the mobile app settings, for iOS users, disable<span> </span><strong>Try our new conversational UI</strong>. For Android users, disable<span> </span><strong>New agent experience</strong>.</p>\n<div>\n<div>\n<table>\n<colgroup> <col> <col> </colgroup>\n<thead>\n<tr>\n<th><strong>iOS</strong></th>\n<th><strong>Android</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><img id=\"topic_lmz_hkb_1vb__image_m2k_4dg_s5b\" class=\"image img-screenshot\" style=\"box-sizing: inherit; max-width: 100%; box-shadow: rgba(0, 0, 0, 0.27) 0px 2px 6px 0px;\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/new_support_mobile_enable_ios1.png\" width=\"300\"></td>\n<td class=\"entry cellrowborder\" style=\"box-sizing: inherit; display: table-cell; padding: 5px; text-align: center;\" headers=\"d52e233\"><img id=\"topic_lmz_hkb_1vb__image_m2k_4dg_s5b\" class=\"image img-screenshot\" style=\"box-sizing: inherit; max-width: 100%; box-shadow: rgba(0, 0, 0, 0.27) 0px 2px 6px 0px;\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/Support_mobile_new_agent_experience.png\" width=\"325\"></td>\n</tr>\n</tbody>\n</table>\n</div>\n</div>\n<p> </p>\n</div>\n<p>For more information on the Zendesk Support mobile app: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408846407066-About-the-Zendesk-Support-mobile-app\" target=\"_blank\" rel=\"noopener noreferrer\">About the Zendesk Support mobile app</a>.</p>\n<p> </p>"
     },
     {
       "id": 7293909011994,
@@ -79,7 +79,7 @@
       "vote_count": 1,
       "section_id": 4405298833818,
       "created_at": "2024-05-16T17:02:04Z",
-      "updated_at": "2024-05-20T16:52:47Z",
+      "updated_at": "2024-05-21T15:01:24Z",
       "name": "Announcing automatic approval for time off requests",
       "title": "Announcing automatic approval for time off requests",
       "source_locale": "en-us",
@@ -90,7 +90,9 @@
       "user_segment_id": null,
       "permission_group_id": 1324079,
       "content_tag_ids": [],
-      "label_names": [],
+      "label_names": [
+        "mtpe"
+      ],
       "body": "<table style=\"border-collapse: collapse; width: 100%; height: 44px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Announced on</strong></td>\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Rollout on</strong></td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\">May 20, 2024</td>\n<td style=\"width: 33.3333%; height: 22px;\">May 20, 2024</td>\n</tr>\n</tbody>\n</table>\n<p>Zendesk Workforce management (WFM) is introducing a new set of options for managing agents' time off requests. </p>\n<p><span style=\"font-weight: 400;\">This announcement includes the following topics:</span></p>\n<ul>\n<li><a href=\"#h_01GD3S97RDYVTAFTQ8WR9878VF\">What is changing?</a></li>\n<li><a href=\"#h_01GD3S9GD63FPDGQSEFY88M3ND\">Why is Zendesk making this change?</a></li>\n<li><a href=\"#h_01GD3S9TSPXM7M4WHYKYF4E84M\">What do I need to do?</a></li>\n</ul>\n<h2 id=\"h_01GD3S97RDYVTAFTQ8WR9878VF\"><span style=\"font-weight: 400;\">What is changing?</span></h2>\n<p>WFM admins can now define rules for their teams that automatically approve agents' time off requests if certain conditions are met. You can set a threshold for when to automatically approve requests based on the number of agents who already have approved time off during the requested time period.<br>While the rules for automatic approval are set up per team, the limit that's created is checked against time off requests for your entire organization.<br><img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/ts_timeoff_autoapproval.png\" width=\"500\"></p>\n<h2 id=\"h_01GD3S9GD63FPDGQSEFY88M3ND\"><span style=\"font-weight: 400;\">Why is Zendesk making this change?</span></h2>\n<p>Managing time off requests can take a substantial amount of time. Introducing rule-based automatic approval can help you save time, while ensuring that all requests are still centralized in the same time off management page.</p>\n<h2 id=\"h_01GD3S9TSPXM7M4WHYKYF4E84M\"><span style=\"font-weight: 400;\">What do I need to do?</span></h2>\n<p>You don't need to do anything. A new settings icon will automatically appear in the upper-right of the Time off page. To learn more, see <a href=\"https://support.zendesk.com/hc/en-us/articles/7274654710042\" target=\"_blank\" rel=\"noopener noreferrer\">Creating time off auto approval rules</a>.</p>\n<p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/6680963801114\" target=\"_blank\" rel=\"noopener noreferrer\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk Customer Support</a>.</p>"
     },
     {
@@ -106,7 +108,7 @@
       "vote_count": 0,
       "section_id": 5346334218778,
       "created_at": "2024-05-16T14:55:54Z",
-      "updated_at": "2024-05-20T14:25:04Z",
+      "updated_at": "2024-05-21T15:03:28Z",
       "name": "How do I resolve Side Conversations not appearing as a channel in ticket view creation?",
       "title": "How do I resolve Side Conversations not appearing as a channel in ticket view creation?",
       "source_locale": "en-us",
@@ -118,7 +120,8 @@
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
       "label_names": [
-        "ks"
+        "ks",
+        "mt"
       ],
       "body": "<h2 id=\"h_01HY0XK5HF6BAWJDNBFBVP9XWE\">Question</h2>\n<p>I am not seeing Side Conversations as a channel when creating a ticket view for my Side Conversation tickets. How do I resolve this?</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7273873842970\" alt=\"Creating view\"></p>\n<h2 id=\"h_01HY0XK5HFZN4VGD5AP703ZARW\">Answer</h2>\n<ol>\n<li>Confirm if the option for <strong>Turn on Child tickets</strong> is enabled in Side Conversation settings in <strong>Admin &gt; Workspaces &gt; Side Conversation</strong>.<br><br><img src=\"/attachments/token/npaxXokpBnv6HI6eejGtfLcGu/?name=Screenshot+2024-05-16+at+10.33.48%E2%80%AFPM.png\" alt=\"Side conversation settings\"> </li>\n<li>Check the box to activate it.</li>\n</ol>\n<div class=\"p\">\n<div class=\"note note\">\n<span class=\"notetitle\">Note:</span> To display tickets when creating a ticket view, it's necessary to enable this feature because Views visualize tickets. If there aren't any Side Conversation tickets, then the Side Conversation channel won't manifest in the account.</div>\n</div>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/6941552419226-Can-I-create-a-view-for-side-conversations\" target=\"_blank\" rel=\"noopener noreferrer\">Can I create a view for side conversations?</a></p>"
     },
@@ -167,7 +170,7 @@
       "vote_count": 1,
       "section_id": 4405298833818,
       "created_at": "2024-05-15T20:48:14Z",
-      "updated_at": "2024-05-16T17:59:08Z",
+      "updated_at": "2024-05-21T15:01:27Z",
       "name": "Announcing new conditional statements for deletion schedules (ADPP add-on)",
       "title": "Announcing new conditional statements for deletion schedules (ADPP add-on)",
       "source_locale": "en-us",
@@ -178,7 +181,9 @@
       "user_segment_id": null,
       "permission_group_id": 1324079,
       "content_tag_ids": [],
-      "label_names": [],
+      "label_names": [
+        "mtpe"
+      ],
       "body": "<table style=\"border-collapse: collapse; width: 100%; height: 44px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Announced on</strong></td>\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Rollout on</strong></td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\">May 16, 2024</td>\n<td style=\"width: 33.3333%; height: 22px;\"><span class=\"wysiwyg-color-black\">May 16, 2024</span></td>\n</tr>\n</tbody>\n</table>\n<p><span style=\"font-weight: 400;\">We’re excited to announce the addition of new conditional statements to ticket deletion schedules for customers with the <a href=\"https://support.zendesk.com/hc/en-us/articles/6561144266906\" target=\"_blank\" rel=\"noopener noreferrer\">Advanced Data Privacy and Protection (ADPP) add-on</a>. The conditions available are Last updated, Brand, Form, Type, Requester, Organization, Tags and Custom fields.</span></p>\n<h2 id=\"h_01GD3S97RDYVTAFTQ8WR9878VF\"><span style=\"font-weight: 400;\">What is changing?</span></h2>\n<p>Customers with this add-on now have even more customization for defining the tickets that get deleted based on a range of conditions such as brand, organization, tags, and custom fields depending on the retention policy.</p>\n<p><img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/deletion_schedules_conditions.png\" width=\"675\"></p>\n<p>Customers can create multiple deletion schedules to accommodate their varying needs across many business lines. For example, customers can use the new conditions to segment tickets based on custom fields set on the ticket, such as:</p>\n<ul>\n<li>Schedule 1: <em>Delete all tickets with the custom field “Department” with the value “Logistics” 2 years after the ticket has been closed.</em>\n</li>\n<li>Schedule 2: <em>Delete all tickets with the custom field “Department” with the value “Sales” 3 years after the ticket has been closed.</em>\n</li>\n</ul>\n<h2 id=\"h_01GD3S9GD63FPDGQSEFY88M3ND\"><span style=\"font-weight: 400;\">Why is Zendesk making this change?</span></h2>\n<p>Data retention policies are critical for companies to ensure regulatory compliance. For example, General Data Protection Regulation (GDPR) legislation requires EU companies not to retain personal data longer than necessary.</p>\n<p>The expansion of these new conditions ensures our customers can delete the tickets they no longer need after the period of time specific for those types of tickets and the geography of the tickets.</p>\n<h2 id=\"h_01GD3S9TSPXM7M4WHYKYF4E84M\"><span style=\"font-weight: 400;\">What do I need to do?</span></h2>\n<p><span style=\"font-weight: 400;\">Customers who have the <a href=\"https://support.zendesk.com/hc/en-us/articles/6561144266906\" target=\"_blank\" rel=\"noopener noreferrer\">Advanced Data Privacy and Protection (ADPP) add-on </a>will start seeing these new conditions in deletion schedules. Customers can set tickets to automatically delete once they match the conditions in the builder. For more information, see <a href=\"https://support.zendesk.com/hc/en-us/articles/6388012977306\" target=\"_blank\" rel=\"noopener noreferrer\">Creating multiple ticket deletion schedules for advanced data retention policies</a>.<br></span></p>\n<p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/1260801325369\" target=\"_blank\" rel=\"noopener noreferrer\">community forum</a>, where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\">Zendesk Customer Support</a>.</p>"
     },
     {
@@ -223,7 +228,7 @@
       "vote_count": 0,
       "section_id": 4405298833818,
       "created_at": "2024-05-13T22:57:53Z",
-      "updated_at": "2024-05-15T17:39:32Z",
+      "updated_at": "2024-05-21T15:01:29Z",
       "name": "Announcing API support for the present options step in bot builder",
       "title": "Announcing API support for the present options step in bot builder",
       "source_locale": "en-us",
@@ -234,7 +239,9 @@
       "user_segment_id": null,
       "permission_group_id": 1324079,
       "content_tag_ids": [],
-      "label_names": [],
+      "label_names": [
+        "mtpe"
+      ],
       "body": "<table style=\"border-collapse: collapse; width: 100%; height: 44px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Announced on</strong></td>\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Rollout started</strong></td>\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Rollout ended</strong></td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\">May 15, 2024</td>\n<td style=\"width: 33.3333%; height: 22px;\"><span class=\"wysiwyg-color-black\">May 6, 2024</span></td>\n<td style=\"width: 33.3333%; height: 22px;\"><span class=\"wysiwyg-color-black\">May 7, 2024</span></td>\n</tr>\n</tbody>\n</table>\n<p>Adding to the range of ways you can power your automated end-user experiences, we have added API support to the <a href=\"https://support.zendesk.com/hc/en-us/articles/4408836323738#topic_mnf_gwc_k4b\" target=\"_blank\" rel=\"noopener noreferrer\">present options step in bot builder</a>.</p>\n<ul>\n<li><a href=\"#h_01GD3S97RDYVTAFTQ8WR9878VF\" target=\"_self\"><span style=\"font-weight: 400;\">What is changing and why?</span></a></li>\n<li><a href=\"#h_01GD3S9GD63FPDGQSEFY88M3ND\" target=\"_self\"><span style=\"font-weight: 400;\">How will this affect me?</span></a></li>\n<li><a href=\"#h_01GD3S9TSPXM7M4WHYKYF4E84M\" target=\"_self\"><span style=\"font-weight: 400;\">What do I need to do?</span></a></li>\n</ul>\n<h2 id=\"h_01HXT2J2616R3B89E5D1J7GRHT\"><span style=\"font-weight: 400;\">What is changing and why?</span></h2>\n<p>Previously, admins could only configure the <a href=\"https://support.zendesk.com/hc/en-us/articles/4408836323738-Understanding-answer-step-types#topic_mnf_gwc_k4b\" target=\"_blank\" rel=\"noopener noreferrer\">present options step</a> manually using static data. With this update, we’ve introduced the ability to dynamically populate the step’s quick replies with up to 10 options sourced via data collected in the API call step. The end user’s selection can then be saved as a variable for use in the flow downstream.</p>\n<p>This provides an alternative experience to the image-focused <a href=\"https://support.zendesk.com/hc/en-us/articles/4408836323738-Understanding-answer-step-types#topic_il3_pmj_tvb\" target=\"_blank\" rel=\"noopener noreferrer\">dynamic carousel step</a>. The dynamic present options step provides a more compact list and text based UI for end users to select from.</p>\n<h2 id=\"h_01GD3S9GD63FPDGQSEFY88M3ND\"><span style=\"font-weight: 400;\">How will this affect me?</span></h2>\n<p><span style=\"font-weight: 400;\">This feature expands the range of end-user experiences you can use to provide more engaging and effective bot experiences.</span></p>\n<h2 id=\"h_01GD3S9TSPXM7M4WHYKYF4E84M\"><span style=\"font-weight: 400;\">What do I need to do?</span></h2>\n<p>There is no action required on your part. These features are available to all bot builder users. The rollout was completed on May 7, 2024.</p>\n<p>For more information, see <a href=\"https://support.zendesk.com/hc/en-us/articles/4408836323738-Understanding-answer-step-types\" target=\"_blank\" rel=\"noopener noreferrer\">Understanding answer step types</a>.</p>\n<p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/6447052855194\" target=\"_blank\" rel=\"noopener noreferrer\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk Customer Support</a>.</p>"
     },
     {
@@ -277,7 +284,7 @@
       "vote_count": 0,
       "section_id": 4405298879258,
       "created_at": "2024-05-10T14:33:11Z",
-      "updated_at": "2024-05-14T22:07:55Z",
+      "updated_at": "2024-05-21T15:04:36Z",
       "name": "How can I change the manifest_url in the requirements.json file of my channel integration?",
       "title": "How can I change the manifest_url in the requirements.json file of my channel integration?",
       "source_locale": "en-us",
@@ -492,7 +499,7 @@
       "vote_count": 0,
       "section_id": 5322740495642,
       "created_at": "2024-05-03T14:58:58Z",
-      "updated_at": "2024-05-16T08:05:45Z",
+      "updated_at": "2024-05-21T15:04:33Z",
       "name": "Why did an automation stop firing for some of the tickets?",
       "title": "Why did an automation stop firing for some of the tickets?",
       "source_locale": "en-us",
