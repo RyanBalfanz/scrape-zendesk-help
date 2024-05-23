@@ -359,14 +359,14 @@
       "vote_count": 0,
       "section_id": 7041762819738,
       "created_at": "2024-05-07T14:59:30Z",
-      "updated_at": "2024-05-22T14:34:36Z",
+      "updated_at": "2024-05-23T11:08:21Z",
       "name": "How do I update roles and permissions in Zendesk QA?",
       "title": "How do I update roles and permissions in Zendesk QA?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-05-22T14:29:47Z",
+      "edited_at": "2024-05-23T11:08:06Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -375,7 +375,7 @@
         "ab0",
         "ab0_qa"
       ],
-      "body": "<h2 id=\"h_01HX9P3T5RVAPX8MYPKH45VWCD\">Question</h2>\n<p>How do I change a role for a team member? How do I change their permissions in the Zendesk QA app?</p>\n<h2 id=\"h_01HX9P3T5R5NNRKP34PNA172XS\">Answer</h2>\n<p>To change the Account level role you must be an admin or account manager. The workspace role can be changed by a workspace manager.</p>\n<p><strong>To change the Account level role</strong></p>\n<ol>\n<li>Select <strong>Users and Workspaces</strong>.</li>\n<li>Select, Toggle sidebar icon.</li>\n<li>Select <strong>Users</strong>.</li>\n<li>Find the user whose role you want to update and change it under <strong>Account permissions</strong>.<strong><br></strong><img src=\"https://support.zendesk.com/hc/article_attachments/7254365685402\" alt=\"Account roles change.jpeg\">\n</li>\n</ol>\n<p><strong>To change the Workspace level role</strong></p>\n<ol>\n<li>Select<strong> Users and Workspaces</strong>.</li>\n<li>Select, Toggle sidebar icon.</li>\n<li>Under a <strong>Workspace</strong>, select <strong>Members</strong>.</li>\n<li>Find the user whose role you want to update and change it under <strong>Workspace permissions</strong>. <img src=\"https://support.zendesk.com/hc/article_attachments/7254349824154\" alt=\"Workspace role change.jpeg\">\n</li>\n</ol>\n<p>For more information, see this article:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/7043760141978-Understanding-roles-and-permissions-in-Zendesk-QA\">Understanding roles and permissions in Zendesk QA</a></li>\n</ul>"
+      "body": "<h2 id=\"h_01HX9P3T5RVAPX8MYPKH45VWCD\">Question</h2>\n<p>How do I change a role for a team member? How do I change their permissions in the Zendesk QA app?</p>\n<h2 id=\"h_01HX9P3T5R5NNRKP34PNA172XS\">Answer</h2>\n<p>To change the Account level role you must be an admin or account manager. The workspace role can be changed by a workspace manager.</p>\n<p><strong>To change the Account level role</strong></p>\n<ol>\n<li>Select <strong>Users and workspaces</strong>.</li>\n<li>Select Toggle sidebar icon.</li>\n<li>Select <strong>Users</strong>.</li>\n<li>Find the user whose role you want to update and change it under <strong>Account permissions</strong>.<strong><br></strong><img src=\"https://support.zendesk.com/hc/article_attachments/7254365685402\" alt=\"Account roles change.jpeg\">\n</li>\n</ol>\n<p><strong>To change the Workspace level role</strong></p>\n<ol>\n<li>Select<strong> Users and workspaces</strong>.</li>\n<li>Select Toggle sidebar icon.</li>\n<li>In the workspace you need to change the permission for, select <strong>Members</strong>.</li>\n<li>Find the user whose role you want to update and change it under <strong>Workspace permissions</strong>. <img src=\"https://support.zendesk.com/hc/article_attachments/7254349824154\" alt=\"Workspace role change.jpeg\">\n</li>\n</ol>\n<p>For more information, see this article:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/7043760141978-Understanding-roles-and-permissions-in-Zendesk-QA\">Understanding roles and permissions in Zendesk QA</a></li>\n</ul>"
     },
     {
       "id": 7219615598618,
