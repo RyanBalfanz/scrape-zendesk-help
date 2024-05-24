@@ -111,25 +111,24 @@
       "vote_count": 0,
       "section_id": 4405298879258,
       "created_at": "2024-05-17T14:49:05Z",
-      "updated_at": "2024-05-23T15:31:19Z",
+      "updated_at": "2024-05-24T10:24:15Z",
       "name": "How can I get around size limitations when uploading a private app to Zendesk?",
       "title": "How can I get around size limitations when uploading a private app to Zendesk?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-05-23T15:30:51Z",
+      "edited_at": "2024-05-24T10:23:51Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
       "label_names": [
         "ks",
         "ab0",
-        "server side app",
-        "private app size limit",
-        "private app error limit"
+        "ab0_support",
+        "role_admin"
       ],
-      "body": "<h2 id=\"h_01HY3G2E8VDDW5J2JCXAVRGR26\">Question</h2>\n<p>How can I get around the 2MB size limitation when uploading a private app to Zendesk?</p>\n<h2 id=\"h_01HY3G2E8V8WD6X4TNA28DPQC0\">Answer</h2>\n<p>This limit applies to all accounts. If your app exceeds 2 MB, you can host the app externally to Zendesk and then create a server-side app in Zendesk to bring the app functionality into your Zendesk account.</p>\n<p>For more information, see this article: <a href=\"https://developer.zendesk.com/documentation/apps/build-an-app/building-a-server-side-app/part-1-core-concepts/\" target=\"_blank\" rel=\"noopener noreferrer\">Building a server-side app - Part 1: Core concepts</a></p>"
+      "body": "<h2 id=\"h_01HY3G2E8VDDW5J2JCXAVRGR26\">Question</h2>\n<p>How can I get around the 2MB size limitation when uploading a private app to Zendesk?</p>\n<h2 id=\"h_01HY3G2E8V8WD6X4TNA28DPQC0\">Answer</h2>\n<p>This limit applies to all accounts. If your app exceeds 2 MB, you can host the app externally to Zendesk and then create a server-side app in Zendesk to bring the app functionality into your Zendesk account.</p>\n<p>For more information, see this article: <a href=\"https://developer.zendesk.com/documentation/apps/build-an-app/building-a-server-side-app/part-1-core-concepts/\" target=\"_blank\" rel=\"noopener noreferrer\">Building a server-side app - Part 1: Core concepts</a>.</p>"
     },
     {
       "id": 7273873844122,
