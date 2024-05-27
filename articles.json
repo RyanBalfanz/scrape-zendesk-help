@@ -1,11 +1,40 @@
 {
-  "count": 4550,
+  "count": 4551,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 152,
   "per_page": 30,
   "previous_page": null,
   "articles": [
+    {
+      "id": 7330141538970,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7330141538970.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/7330141538970-Service-Incident-May-27th-2024",
+      "author_id": 1263082084489,
+      "comments_disabled": true,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298854426,
+      "created_at": "2024-05-27T17:18:51Z",
+      "updated_at": "2024-05-27T17:18:51Z",
+      "name": "Service Incident - May 27th, 2024",
+      "title": "Service Incident - May 27th, 2024",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2024-05-27T17:18:51Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801242670,
+      "content_tag_ids": [],
+      "label_names": [
+        "service_incident"
+      ],
+      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\"><p class=\"p1\"><strong>May 27, 2024 05:18 PM UTC | May 27, 2024 10:18 AM PT </strong><br>Between 12:00 and 16:55 UTC on May 27, 2024, Gmail customers may have experienced delayed notification delivery. Email queues have caught up and all notifications have been processed at this time.</p></div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n"
+    },
     {
       "id": 7316998916122,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7316998916122.json",
@@ -934,41 +963,6 @@
         "Entity detection"
       ],
       "body": "<div class=\"note tip\">See our <a href=\"https://support.zendesk.com/hc/en-us/articles/6974437448090-What-s-new-in-Zendesk-April-2024\" target=\"_blank\" rel=\"noopener noreferrer\">What's New</a> for an overview of what was released in the last month.</div>\n<p class=\"wysiwyg-indent1\">This week's release notes include:</p>\n<ul>\n<li class=\"wysiwyg-indent1\"><a href=\"#h_01HKJYR8G5NSHGNWCV7B5CK7V8\">App Marketplace</a></li>\n<li class=\"wysiwyg-indent1\"><a href=\"#h_01HW2D083KM9W5TJY1WPF3PTB1\">Zendesk bots</a></li>\n<li class=\"wysiwyg-indent1\"><a href=\"#h_01HW2D0DRBK28X306KYNDE7RZS\">Zendesk Explore</a></li>\n<li class=\"wysiwyg-indent1\"><a href=\"#h_01HW2D0NMDBQT6ZZBMQCSMPPEX\">Machine learning and Guide</a></li>\n<li class=\"wysiwyg-indent1\"><a href=\"#h_01HVGQVA3GYHK5PNRXMHVESEW4\">Products with no updates this week</a></li>\n</ul>\n<h2 id=\"h_01HKJYR8G5NSHGNWCV7B5CK7V8\">App Marketplace</h2>\n<p><strong>New</strong></p>\n<ul>\n<li>\n<strong>Rexo 128</strong> (Theme)<br><a href=\"https://www.zendesk.com/marketplace/themes/265/rexo-128/\" target=\"_blank\" rel=\"noopener noreferrer\">Rexo 128</a> presents a contemporary and sleek Zendesk theme tailored for professional use. Its minimalist design and personalized pages ensure seamless display across all devices, making it an ideal choice for diverse industries. With Rexo 128, you can experience simplicity infused with your brand's unique style.</li>\n</ul>\n<div>\n<h2 id=\"h_01HW2D083KM9W5TJY1WPF3PTB1\">Zendesk bots</h2>\n<p><strong>New</strong></p>\n<ul>\n<li>Generative replies and bot persona features are now generally available for use by all Zendesk Suite and Support customers (without the Advanced AI SKU). For customers not previously on the Generative AI EAP this includes the following: <br>\n<ul>\n<li>Key changes to the Conversation bots admin experience\n<ul>\n<li>Creating a new bot, now includes a step to activate the generative AI features.</li>\n<li>Bot settings now include a feature to activate bot persona.</li>\n<li>The Behavior tab includes a new section, 'If the bot finds relevant articles', where you can activate or deactivate generative replies or article recommendations.</li>\n<li>The Behavior tab includes a new section, 'After the bot answers', where you can customize how the bot responds to user feedback following a generative reply or article recommendation.</li>\n<li>When Bot persona is activated, an option to 'Generate variations' will appear for various standard responses on the Behavior tab.</li>\n</ul>\n</li>\n<li>Key changes to the end-user experience \n<ul>\n<li>The bot will always prompt the user for feedback after generative replies and article recommendations </li>\n<li>A Generated by AI end-user disclaimer is associated with bot messages that involve generative AI in their creation. For more information, see <a href=\"https://support.zendesk.com/hc/en-us/articles/7071055263642\" target=\"_blank\" rel=\"noopener noreferrer\">Announcing general availability of generative AI features for bots</a>.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>The New insights dashboard is designed to help customers optimize their conversation bot’s performance with performance metrics and conversation transcripts. For more information, see <a href=\"https://support.zendesk.com/hc/en-us/articles/6847708774554\" target=\"_blank\" rel=\"noopener noreferrer\">Monitoring bot performance with the Insights dashboard</a>.</li>\n</ul>\n<h2 id=\"h_01HW2D0DRBK28X306KYNDE7RZS\">Zendesk Explore</h2>\n<p><strong>New</strong></p>\n<ul>\n<li>The Having clause was removed from the Result manipulations SQL options menu in the Report builder due to its impracticality and very low usage. See <a href=\"https://support.zendesk.com/hc/en-us/articles/6467453826202\" target=\"_blank\" rel=\"noopener noreferrer\">Using SQL to filter reports</a>.</li>\n</ul>\n<h2 id=\"h_01HW2D0NMDBQT6ZZBMQCSMPPEX\">Machine learning and Guide</h2>\n<p><strong>New</strong></p>\n<ul>\n<li>Knowledge in the Agent Workspace Generative search - In the knowledge section search box of the context panel, agents can enter a question or phrase. The search generates top matching articles, posts, and external content, evaluated by OpenAI. Agents can then copy the answer (posted in the context panel), into tickets. For more information, see <a href=\"https://support.zendesk.com/hc/en-us/articles/6942763726106-Generative-search-for-Agent-Workspace-EAP\" target=\"_blank\" rel=\"noopener noreferrer\" data-stringify-link=\"https://support.zendesk.com/hc/en-us/articles/6942763726106-Generative-search-for-Agent-Workspace-EAP\" data-sk=\"tooltip_parent\">Generative search for Agent Workspace (EAP)</a>.</li>\n<li>Help center search - The help center is using generative search, which now displays a quick answer above the search results. The quick answer is generated by OpenAI and is based on articles, posts, or external content items. For more information, see <a href=\"https://support.zendesk.com/hc/en-us/articles/7057446125082\" target=\"_blank\" rel=\"noopener noreferrer\" data-stringify-link=\"https://support.zendesk.com/hc/en-us/articles/7057446125082-Announcing-generative-search-for-help-center-EAP\" data-sk=\"tooltip_parent\">Generative search for help center EAP</a>.</li>\n<li>Entity detection EAP - Use entity detection to create dropdown custom fields and populate them with the entity values that are detected in tickets. You can then use these fields and values in triggers, automations, and routing to build highly detailed, effective business rules. To sign up for the Entity detection EAP, see <a href=\"https://support.zendesk.com/hc/en-us/articles/7096528317210\" target=\"_blank\" rel=\"noopener noreferrer\">Announcing an early access program for entity detection</a>.</li>\n<li>Agent copilot EAP now open - Agents can save time on developing next steps or actions by using Agent copilot to automatically send approved replies to the end user in the name of the agent. Agent copilot will carry out approved actions so the agent doesn’t have to. For more information, see <a href=\"https://support.zendesk.com/hc/en-us/articles/7096662082202\" target=\"_blank\" rel=\"noopener noreferrer\">Announcin</a><a href=\"https://support.zendesk.com/hc/en-us/articles/7096662082202\" target=\"_blank\" rel=\"noopener noreferrer\">g</a><a href=\"https://support.zendesk.com/hc/en-us/articles/7096662082202\" target=\"_blank\" rel=\"noopener noreferrer\"> an</a><a href=\"https://support.zendesk.com/hc/en-us/articles/7096662082202\" target=\"_blank\" rel=\"noopener noreferrer\"> early</a><a href=\"https://support.zendesk.com/hc/en-us/articles/7096662082202\" target=\"_blank\" rel=\"noopener noreferrer\"> access</a><a href=\"https://support.zendesk.com/hc/en-us/articles/7096662082202\" target=\"_blank\" rel=\"noopener noreferrer\"> program</a><a href=\"https://support.zendesk.com/hc/en-us/articles/7096662082202\" target=\"_blank\" rel=\"noopener noreferrer\"> for</a><a href=\"https://support.zendesk.com/hc/en-us/articles/7096662082202\" target=\"_blank\" rel=\"noopener noreferrer\"> Agent</a><a href=\"https://support.zendesk.com/hc/en-us/articles/7096662082202\" target=\"_blank\" rel=\"noopener noreferrer\"> copilot</a>.<strong><br></strong>\n</li>\n<li>Introducing AI agents - Use AI agents to handle straightforward or complex queries across multiple Zendesk support channels. For more information, see <a href=\"https://support.zendesk.com/hc/en-us/articles/6970583409690\" target=\"_blank\" rel=\"noopener noreferrer\">Overview of AI agents</a> and the <a href=\"https://www.zendesk.com/service/ai/ai-agents/?variantId=27288470837\" target=\"_blank\" rel=\"noopener noreferrer\">AI agents vs bots demo</a>.</li>\n</ul>\n<h2 id=\"h_01HVGQVA3GYHK5PNRXMHVESEW4\">Products with no updates this week</h2>\n<ul>\n<li>AI</li>\n<li>Admin Center</li>\n<li>Zendesk bots</li>\n<li>Zendesk Chat and Messaging</li>\n<li>Zendesk Gather</li>\n<li>Mobile SDKs</li>\n<li>Sell</li>\n<li>Sunshine Conversations</li>\n<li>Zendesk Support</li>\n<li>Zendesk Talk</li>\n<li>Web Widget (Classic &amp; Messaging)</li>\n</ul>\n</div>"
-    },
-    {
-      "id": 7129869776282,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7129869776282.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/7129869776282-How-can-I-send-automated-replies-from-a-specific-support-address",
-      "author_id": 1263082264889,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405298901274,
-      "created_at": "2024-04-21T17:21:59Z",
-      "updated_at": "2024-05-13T14:51:27Z",
-      "name": "How can I send automated replies from a specific support address?",
-      "title": "How can I send automated replies from a specific support address?",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2024-04-24T16:16:40Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801135069,
-      "content_tag_ids": [],
-      "label_names": [
-        "ks",
-        "ab0",
-        "mt",
-        "ab0_support",
-        "ab0_admin_center",
-        "role_admin",
-        "role_owner"
-      ],
-      "body": "<h2 id=\"h_01HW0TC1VKQRPMWBXPZ30GRXV6\">Question</h2>\n<p>I use multiple support addresses for one brand. How do I use a specific Zendesk support address to send automatic email replies?</p>\n<h2 id=\"h_01HW0TC1VKQMNR6PEG2MY2WQ7W\">Answer</h2>\n<ol>\n<li>Create a <a href=\"https://support.zendesk.com/hc/en-us/articles/4408839108378#topic_bwm_1tv_dpb\" target=\"_blank\" rel=\"noopener noreferrer\">webhook</a> with the details below:\n<ul>\n<li>\n<strong>Endpoint URL</strong>: <code>https://yoursubdomain.zendesk.com/api/v2/tickets/{{ticket.id}}</code> and replace <code>yoursubdomain</code> with your account subdomain.</li>\n<li>\n<strong>Request</strong> <strong>method</strong>: PUT</li>\n<li>\n<strong>Authentication</strong>: Basic Authentication</li>\n</ul>\n</li>\n<li>Create a <a href=\"https://support.zendesk.com/hc/en-us/articles/4408886797466#topic_tpw_gay_tb\" target=\"_blank\" rel=\"noopener noreferrer\">trigger</a> with the details below:\n<ul>\n<li>At least the following condition: <strong>Ticket &gt; Ticket | Is | Created<br></strong>\n</li>\n<li>This action: <strong>Notify by &gt; Active webhook</strong>\n</li>\n<li>Under <strong>JSON body</strong>, specify your <code>Content</code> and <code>Email address</code> when copy and pasting the code below:<br>\n<pre>{<br>\"ticket\": {<br>\"comment\": {<br>\"html_body\": \"<strong>Content</strong>\",<br>\"public\": true<br>},<br>\"recipient\": \"<strong>Email address</strong>\"<br>}<br>}</pre>\n</li>\n</ul>\n</li>\n</ol>\n<div class=\"p\">\n<div class=\"note note\">\n<span class=\"notetitle\">Disclaimer:</span> This article is provided for instructional purposes only. Zendesk does not support or guarantee the code. Post any issues you have in the comments section, or try searching for a solution online.</div>\n</div>"
     }
   ],
   "sort_by": "position",
