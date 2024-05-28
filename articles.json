@@ -46,14 +46,14 @@
       "vote_count": 0,
       "section_id": 4405303740826,
       "created_at": "2024-05-28T14:25:33Z",
-      "updated_at": "2024-05-28T14:46:05Z",
+      "updated_at": "2024-05-28T16:57:17Z",
       "name": "Why are calls to certain countries blocked?",
       "title": "Why are calls to certain countries blocked?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-05-28T14:46:02Z",
+      "edited_at": "2024-05-28T16:57:13Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -65,7 +65,7 @@
         "role_admin",
         "role_owner"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>I noticed that calls to certain countries are blocked. Why can't I call some countries?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>Geographic permissions for some countries in Zendesk can be disabled for these reasons:</p>\n<ul>\n<li>Privacy and security: To protect user privacy and comply with data protection regulations, Zendesk may restrict or disable geo permission for a country.</li>\n<li>Regulatory compliance: Different regions have regulations regarding user data, and disabling geo permissions ensures compliance with these laws.</li>\n<li>Simplified configuration: Geo permissions are disabled to simply the setup and maintenance of the platform, for administrators and users.</li>\n<li>Performance optimization: Geo permission features are disabled to improve the performance of the platform and reduce the amount of data processing and transmission.</li>\n</ul>\n<p>If geo permissions are essential for your operations, contact<span> </span><a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\" target=\"_blank\" rel=\"noopener\"><span>Zendesk Customer Support</span></a><span> </span>and provide the number you are trying to call.</p>\n<p>For more information, see this articles:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408827413146-What-are-the-most-common-Talk-error-messages#:~:text=The%20Call%20blocked%20error%20message,Customer%20Support%20for%20further%20help.\" target=\"_blank\" rel=\"noopener noreferrer\">What are the most common Talk error messages?</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/5432563445786-Talk-error-Cannot-connect-to-number\" target=\"_blank\" rel=\"noopener noreferrer\">Talk error: Cannot connect to number</a></li>\n</ul>"
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>I noticed that calls to certain countries are blocked. Why can't I call some countries?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>Geographic permissions for some countries in Zendesk can be turned off for these reasons:</p>\n<ul>\n<li>Privacy and security: To protect user privacy and comply with data protection regulations, Zendesk may restrict or turn off geo permission for a country.</li>\n<li>Regulatory compliance: Different regions have regulations regarding user data, and turning off geo permissions ensures compliance with these laws.</li>\n<li>Simplified configuration: Geo permissions are turned off to simplify the setup and maintenance of the platform for administrators and users.</li>\n<li>Performance optimization: Geo permission features are turned off to improve the performance of the platform and reduce the amount of data processing and transmission.</li>\n</ul>\n<p>If geo permissions are essential for your operations, contact<span> </span><a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\" target=\"_blank\" rel=\"noopener\"><span>Zendesk Customer Support</span></a><span> </span>and provide the number you are trying to call.</p>\n<p>For more information, see these articles:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408827413146-What-are-the-most-common-Talk-error-messages#:~:text=The%20Call%20blocked%20error%20message,Customer%20Support%20for%20further%20help.\" target=\"_blank\" rel=\"noopener noreferrer\">What are the most common Talk error messages?</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/5432563445786-Talk-error-Cannot-connect-to-number\" target=\"_blank\" rel=\"noopener noreferrer\">Talk error: Cannot connect to number</a></li>\n</ul>"
     },
     {
       "id": 7330141538970,
