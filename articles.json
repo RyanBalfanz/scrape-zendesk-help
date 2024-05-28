@@ -111,7 +111,7 @@
       "vote_count": 0,
       "section_id": 4405298901274,
       "created_at": "2024-05-24T14:18:19Z",
-      "updated_at": "2024-05-27T15:17:17Z",
+      "updated_at": "2024-05-28T15:02:43Z",
       "name": "The \"Forward via email\" feature is missing in a ticket",
       "title": "The \"Forward via email\" feature is missing in a ticket",
       "source_locale": "en-us",
@@ -125,6 +125,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_support",
         "ab0_messaging",
         "role_agent",
@@ -146,7 +147,7 @@
       "vote_count": 0,
       "section_id": 5322462753050,
       "created_at": "2024-05-22T15:03:23Z",
-      "updated_at": "2024-05-22T18:26:25Z",
+      "updated_at": "2024-05-28T15:03:27Z",
       "name": "Can I replace the sender email address with the recipient's address?",
       "title": "Can I replace the sender email address with the recipient's address?",
       "source_locale": "en-us",
@@ -160,6 +161,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_email",
         "role_admin",
         "role_owner"
@@ -238,7 +240,7 @@
       "vote_count": 0,
       "section_id": 4405298879258,
       "created_at": "2024-05-17T14:49:05Z",
-      "updated_at": "2024-05-24T10:24:15Z",
+      "updated_at": "2024-05-28T15:02:09Z",
       "name": "How can I get around size limitations when uploading a private app to Zendesk?",
       "title": "How can I get around size limitations when uploading a private app to Zendesk?",
       "source_locale": "en-us",
@@ -252,6 +254,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_support",
         "role_admin"
       ],
@@ -547,7 +550,7 @@
       "vote_count": 0,
       "section_id": 4405303719578,
       "created_at": "2024-05-06T17:27:33Z",
-      "updated_at": "2024-05-23T16:14:07Z",
+      "updated_at": "2024-05-28T15:00:50Z",
       "name": "Explore recipe: Reporting on custom omnichannel queue performance",
       "title": "Explore recipe: Reporting on custom omnichannel queue performance",
       "source_locale": "en-us",
@@ -559,7 +562,7 @@
       "permission_group_id": 1324079,
       "content_tag_ids": [],
       "label_names": [
-        "mt"
+        "mtpe"
       ],
       "body": "<p><img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/plan_available_suite_pee.png\"> <img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/plan_available_explore_pe.png\"></p>\n<div class=\"note note\">\n<span class=\"notetitle\"> Note:</span> This recipe works only in the <a href=\"https://support.zendesk.com/hc/en-us/articles/4408830235930\">Explore beta dashboard builder</a>.</div>\n<p>If you’ve <a href=\"https://support.zendesk.com/hc/en-us/articles/6716530152858\">created custom omnichannel queues</a>, you can create a dashboard that shows you live data on how work is being routed through your queues. This gives you an at-a-glance view of your queues, helping you understand how much work is awaiting available agents and how long work items spend in each queue on average.</p>\n<p>This dashboard includes data on your custom queues only, not on the <a href=\"https://support.zendesk.com/hc/en-us/articles/6712096584090\">standard omnichannel routing queue</a>.</p>\n<p>This article contains the following topics:</p>\n<ul>\n<li><a href=\"#h_01HX7ER665FAD9MMJPH1JRSNX0\">What you’ll need</a></li>\n<li><a href=\"#h_01HX7ER35QVSW8004FKZ1ATC6B\">Creating the dashboard</a></li>\n</ul>\n<p>Related articles:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/6712096584090\">Understanding omnichannel routing queues</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/6716530152858\">Creating additional omnichannel routing queues</a></li>\n</ul>\n<h2 id=\"h_01HX7ER665FAD9MMJPH1JRSNX0\">What you’ll need</h2>\n<p><strong>Skill level:</strong> Beginner</p>\n<p><strong>Time required:</strong> 5 minutes</p>\n<ul>\n<li>Zendesk Explore Enterprise</li>\n<li>Editor or Admin permissions (see <a href=\"https://support.zendesk.com/hc/en-us/articles/4408836002970\">Giving users access to Explore</a>)</li>\n<li>Omnichannel routing (see <a href=\"https://support.zendesk.com/hc/en-us/articles/5866925319962\">Turning on omnichannel routing</a>) with at least one custom queue (see <a href=\"https://support.zendesk.com/hc/en-us/articles/6716530152858\">Creating additional omnichannel routing queues</a>)</li>\n<li>Ticket, messaging, or call data</li>\n</ul>\n<h2 id=\"h_01HX7ER35QVSW8004FKZ1ATC6B\">Creating the dashboard</h2>\n<ol>\n<li>In Explore, click the <strong>Dashboard</strong> icon (<img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/Explore_dashboard_icon.png\">) in the left sidebar.</li>\n<li>In the Dashboards library, click <strong>New dashboard</strong> &gt; <strong>Use beta builder</strong>.</li>\n<li>With <strong>Blank dashboard</strong> selected, click <strong>Select</strong>.</li>\n<li>Click the plus icon (+) in the upper right and select <strong>Live data</strong>.</li>\n<li>Search for and select <strong>Queues - List</strong>. The component is added to your dashboard and contains the following columns:<br>\n<ul>\n<li>\n<strong>Order</strong>: The order of the queue. Queues are checked for matching conditions from top to bottom on the <a href=\"https://support.zendesk.com/hc/en-us/articles/6716541571994#topic_kkb_g43_j1c\">Queues page in Admin Center</a>, and work flows into the first queue that matches.</li>\n<li>\n<strong>Name</strong>: The name of the queue.</li>\n<li>\n<strong>Primary groups</strong>: The primary groups associated with the queue.</li>\n<li>\n<strong>Work in queue</strong>: The sum of all work items in the queue waiting to be routed to an agent.</li>\n<li>\n<strong>Avg. time in queue</strong>: The average time a work item spends in the queue before being routed to an agent, separated by the channels the queue serves.</li>\n</ul>\n</li>\n<li>Click the plus icon (+) in the upper right and select <strong>Live filter</strong>.</li>\n<li>Search for and select the following filters:<br>\n<ul>\n<li><strong>Queues - Group</strong></li>\n<li><strong>Queues - Name</strong></li>\n</ul>\n</li>\n<li>\n<a href=\"https://support.zendesk.com/hc/en-us/articles/4408830235930#h_01H30A4512MPDTX73GN3PABSZ2\">Resize and rearrange the components</a> as desired.</li>\n<li>Click the pencil icon (<img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/sell_icon_pencil.png\" width=\"16\">) in the upper left and give the dashboard a descriptive name, such as <strong>Custom omnichannel queue performance</strong>.</li>\n<li>Click <strong>Save</strong>.</li>\n<li>\n<a href=\"https://support.zendesk.com/hc/en-us/articles/4408830235930#h_01FG7ATYBJWB4GX4D49HQDES3K\">Share the dashboard</a> as needed.</li>\n</ol>\n<p>When finished, your dashboard should look something like the following screenshot:</p>\n<p><img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/explore_queues_live_reporting.png\" width=\"600\"></p>\n<p>Viewers can filter the list of queues by primary group and name, choosing up to five values for each filter. The total number of queues matching your filters appears in the top left of the list.</p>"
     },
@@ -603,7 +606,7 @@
       "vote_count": 2,
       "section_id": 4405298833818,
       "created_at": "2024-05-05T23:36:24Z",
-      "updated_at": "2024-05-21T19:52:12Z",
+      "updated_at": "2024-05-28T15:01:50Z",
       "name": "Announcing suggestions and filtering in the Support search menu",
       "title": "Announcing suggestions and filtering in the Support search menu",
       "source_locale": "en-us",
@@ -615,6 +618,7 @@
       "permission_group_id": 1324079,
       "content_tag_ids": [],
       "label_names": [
+        "mtpe",
         "newsfeed"
       ],
       "body": "<table style=\"border-collapse: collapse; width: 100%; height: 44px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Announced on</strong></td>\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Rollout starts</strong></td>\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Rollout ends</strong></td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\">May 21, 2024</td>\n<td style=\"width: 33.3333%; height: 22px;\">May 21, 2024</td>\n<td style=\"width: 33.3333%; height: 22px;\">June 07, 2024</td>\n</tr>\n</tbody>\n</table>\n<p><span style=\"font-weight: 400;\">Zendesk is excited to announce that agents can now filter by content record type and view suggested results within the Support global search menu. </span></p>\n<p><span style=\"font-weight: 400;\">This announcement includes the following topics:</span></p>\n<ul>\n<li><a href=\"#h_01GD3S97RDYVTAFTQ8WR9878VF\">What is changing?</a></li>\n<li><a href=\"#h_01GD3S9GD63FPDGQSEFY88M3ND\">Why is Zendesk making this change?</a></li>\n<li><a href=\"#h_01GD3S9TSPXM7M4WHYKYF4E84M\">What do I need to do?</a></li>\n</ul>\n<h2 id=\"h_01GD3S97RDYVTAFTQ8WR9878VF\"><span style=\"font-weight: 400;\">What is changing?</span></h2>\n<p>When agents open the search menu in Support, they'll now see content record type filters at the top of the menu. As agents begin entering a search term or applying any of the filters, suggested results appear. Agents can navigate directly to these results by clicking them within the search menu. <br><img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/search_suggested_search_menu.png\" width=\"500\"></p>\n<p>Agents can also see more results or apply additional filters by pressing <strong>Enter</strong> or clicking <strong>All results</strong>. Their filters and search terms persist when they access the search results page.</p>\n<h2 id=\"h_01GD3S9GD63FPDGQSEFY88M3ND\"><span style=\"font-weight: 400;\">Why is Zendesk making this change?</span></h2>\n<p>Agents spend a large portion of their day searching for information – this is in part due to inefficiency and context-switching that is prevalent when searching. Agents often need to find tickets related to the same problem, tickets from the same requester, or relevant articles to help them resolve their tickets.</p>\n<p>However, the current process disrupts their workflow as they have to navigate to the search results page each time they need information, taking them away from what they were working on and out of context. By adding filtering and result suggestions to the search menu, agents can accomplish more search tasks from the menu and without having to leave what they’re working on.</p>\n<h2 id=\"h_01GD3S9TSPXM7M4WHYKYF4E84M\"><span style=\"font-weight: 400;\">What do I need to do?</span></h2>\n<p>You don’t need to do anything. This new menu is automatically available when you open the search menu. To learn more, see <a href=\"https://support.zendesk.com/hc/en-us/articles/4408894221594\" target=\"_blank\" rel=\"noopener noreferrer\">Searching Zendesk Support data</a>.</p>\n<p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/1260801325369\" target=\"_blank\" rel=\"noopener noreferrer\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk Customer Support</a>.</p>"
