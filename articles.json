@@ -43,7 +43,7 @@
     {
       "id": 7344114613658,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7344114613658.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/7344114613658-My-triggers-are-not-working-when-updating-tickets-in-bulk",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/7344114613658-Why-aren-t-my-triggers-firing-when-I-update-tickets-in-bulk",
       "author_id": 4967137259930,
       "comments_disabled": false,
       "draft": false,
@@ -51,27 +51,28 @@
       "position": 0,
       "vote_sum": 0,
       "vote_count": 0,
-      "section_id": 5322740495642,
+      "section_id": 4405298901274,
       "created_at": "2024-05-30T07:55:12Z",
-      "updated_at": "2024-05-31T14:40:59Z",
-      "name": "My triggers are not working when updating tickets in bulk",
-      "title": "My triggers are not working when updating tickets in bulk",
+      "updated_at": "2024-05-31T15:09:46Z",
+      "name": "Why aren't my triggers firing when I update tickets in bulk?",
+      "title": "Why aren't my triggers firing when I update tickets in bulk?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-05-31T14:40:57Z",
+      "edited_at": "2024-05-31T15:09:40Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
       "label_names": [
+        "trigger",
         "ks",
+        "ab0",
+        "bulk actions",
         "ab0_support",
-        "ab0_admin_center",
-        "role_admin",
-        "role_owner"
+        "ab0_admin_center"
       ],
-      "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2>\n<p>My triggers update individual tickets however, tickets updated in bulk are ignored.</p>\n<h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2>\n<p>This is expected behavior when <span>your trigger include this condition: </span></p>\n<ul>\n<li><strong>Ticket &gt; Update via | Is not | Web Service (API)</strong></li>\n</ul>\n<p><strong><span><img src=\"https://support.zendesk.com/hc/article_attachments/7351588762906\" alt=\"Update.png\"></span></strong></p>\n<p><span>When tickets are updated in bulk, events are recorded as </span><strong>Web Service (API)</strong>. You can remove this condition and test your trigger action.</p>\n<p>For more information, see these articles:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408886890906-Managing-tickets-in-bulk#:~:text=When%20you%20make%20bulk%20updates%20to%20tickets%20(edit%2C%20delete%2C%20merge%2C%20or%20mark%20as%20spam)%2C%20the%20event%20is%20recorded%20as%20a%20Web%20Service%20(API)%20update\" target=\"_blank\" rel=\"noopener noreferrer\">Managing tickets in bulk</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408829602970-Viewing-all-events-for-ticket-updates\" target=\"_blank\" rel=\"noopener noreferrer\">Viewing all events for ticket updates</a></li>\n</ul>"
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p id=\"h_01HZ7G5DWSC8V7KGHMJ21ZXQZX\">Why aren't my triggers firing when I update tickets in bulk?</p>\n<h2 id=\"01HZ7G65EKZQZKW7C85GHQ92D0\">Answer</h2>\n<p>When tickets are updated in bulk, events are recorded as <a href=\"https://support.zendesk.com/hc/en-us/articles/4408886890906-Managing-tickets-in-bulk#:~:text=When%20you%20make%20bulk%20updates%20to%20tickets%20(edit%2C%20delete%2C%20merge%2C%20or%20mark%20as%20spam)%2C%20the%20event%20is%20recorded%20as%20a%20Web%20Service%20(API)%20update.\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Web Service</strong> (API)update</a></p>\n<p>If your trigger has the condition <strong>Update via | is not | Web Service (API)</strong>, any bulk update performed on several tickets will not activate the trigger, because the '<strong>update_via</strong>' attribute in the ticket events will indeed be recorded as an API call.</p>\n<p>If this condition is still necessary, consider creating a separate trigger specifically for bulk updates to ensure that your trigger fires correctly.</p>\n<p>For more information, see these articles:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408886890906-Managing-tickets-in-bulk\" target=\"_blank\" rel=\"noopener noreferrer\">Managing tickets in bulk</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408829602970-Viewing-all-events-for-ticket-updates\" target=\"_blank\" rel=\"noopener noreferrer\">Viewing all events for ticket updates</a></li>\n</ul>"
     },
     {
       "id": 7334754169370,
