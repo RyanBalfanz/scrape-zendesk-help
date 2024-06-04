@@ -1,8 +1,8 @@
 {
-  "count": 4561,
+  "count": 4560,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
-  "page_count": 153,
+  "page_count": 152,
   "per_page": 30,
   "previous_page": null,
   "articles": [
@@ -115,14 +115,14 @@
       "vote_count": 1,
       "section_id": 4405298901274,
       "created_at": "2024-05-30T07:55:12Z",
-      "updated_at": "2024-06-04T15:31:25Z",
+      "updated_at": "2024-06-04T18:47:58Z",
       "name": "Why aren't my triggers firing when I update tickets in bulk?",
       "title": "Why aren't my triggers firing when I update tickets in bulk?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-06-04T15:31:09Z",
+      "edited_at": "2024-06-04T18:47:56Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -132,7 +132,7 @@
         "ab0_support",
         "ab0_admin_center"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p id=\"h_01HZ7G5DWSC8V7KGHMJ21ZXQZX\">Why aren't my triggers firing when I update tickets in bulk?</p>\n<h2 id=\"01HZ7G65EKZQZKW7C85GHQ92D0\">Answer</h2>\n<p>When tickets are updated in bulk, the event is recorded as <strong>Web Service (API) </strong>update.</p>\n<p>If your trigger has the condition <strong>Update via | is not | Web Service (API);</strong></p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7371482327578\" alt=\"Trigger condition web service API.jpg\" width=\"521\" height=\"105\"></p>\n<p>Any bulk update performed on several tickets will not activate the trigger because the <code>update_via</code> attribute in ticket events is recorded as an API call.</p>\n<p>If this condition is still necessary, consider creating a separate trigger specifically for bulk updates to ensure that your trigger fires correctly.</p>\n<p>For more information, see these articles:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408886890906-Managing-tickets-in-bulk\" target=\"_blank\" rel=\"noopener noreferrer\">Managing tickets in bulk</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408829602970-Viewing-all-events-for-ticket-updates\" target=\"_blank\" rel=\"noopener noreferrer\">Viewing all events for ticket updates</a></li>\n</ul>"
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p id=\"h_01HZ7G5DWSC8V7KGHMJ21ZXQZX\">Why aren't my triggers firing when I update tickets in bulk?</p>\n<h2 id=\"01HZ7G65EKZQZKW7C85GHQ92D0\">Answer</h2>\n<p>When tickets are updated in bulk, the event is recorded as <strong>Web Service (API) </strong>update.</p>\n<p>If your trigger has the condition <strong>Update via | is not | Web Service (API)</strong>, bulk ticket updates will not activate the trigger because the <code>update_via</code> attribute in ticket events is recorded as an API call.</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7371482327578\" alt=\"Trigger condition web service API.jpg\" width=\"521\" height=\"105\"></p>\n<p>To make sure your triggers fire correctly, remove this condition. If this condition is necessary, consider creating a separate trigger specifically for bulk updates to ensure that your trigger fires correctly.</p>\n<p>For more information, see these articles:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408886890906-Managing-tickets-in-bulk\" target=\"_blank\" rel=\"noopener noreferrer\">Managing tickets in bulk</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408829602970-Viewing-all-events-for-ticket-updates\" target=\"_blank\" rel=\"noopener noreferrer\">Viewing all events for ticket updates</a></li>\n</ul>"
     },
     {
       "id": 7334819842714,
