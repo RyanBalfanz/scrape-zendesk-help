@@ -19,14 +19,14 @@
       "vote_count": 0,
       "section_id": 4405298881562,
       "created_at": "2024-06-03T19:23:42Z",
-      "updated_at": "2024-06-04T15:02:44Z",
+      "updated_at": "2024-06-04T18:14:36Z",
       "name": "What is a VAT or GST number?",
       "title": "What is a VAT or GST number?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-06-03T19:27:50Z",
+      "edited_at": "2024-06-04T18:14:34Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -35,10 +35,10 @@
         "ab0",
         "mt",
         "ab0_admin_center",
-        "role_admin",
+        "role_owner",
         "role_billing_admin"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>What does VAT or GST number mean on the <a href=\"https://support.zendesk.com/hc/en-us/articles/4408821572506-Managing-payments#topic_xxp_rsb_chb\" target=\"_blank\" rel=\"noopener noreferrer\">payments</a> page in <a href=\"https://support.zendesk.com/hc/en-us/articles/4581766374554-Using-Zendesk-Admin-Center\" target=\"_blank\" rel=\"noopener noreferrer\">Admin Center</a>? </p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>Some countries require their businesses to register for Value Added Tax (VAT), also known as Goods and Services Tax (GST) in certain countries. The VAT or GST number is a unique identifier issued by the country's tax authority for collection of the tax.</p>\n<p>Registration requirements vary by country but Zendesk is required to collect VAT or GST numbers for businesses based in the following countries: </p>\n<ul>\n<li>Singapore </li>\n<li>India</li>\n<li>Chile</li>\n<li>Colombia</li>\n<li>Norway</li>\n<li>Switzerland </li>\n<li>Turkey</li>\n<li>Brazil</li>\n</ul>\n<p>If you are based in one of these countries and do not provide your VAT or GST number, then Zendesk will levy VAT or GST on your purchases. </p>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408821572506-Managing-payments\" target=\"_blank\" rel=\"noopener noreferrer\">Managing payments</a>.</p>"
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>What does VAT or GST number mean on the payments page in Admin Center? </p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>Some countries require their businesses to register for Value Added Tax (VAT), also known as Goods and Services Tax (GST) in certain countries. The VAT or GST number is a unique identifier issued by the country's tax authority for collection of the tax.</p>\n<p>Registration requirements vary by country but Zendesk is required to collect VAT or GST numbers for businesses based in the following countries: </p>\n<ul>\n<li>Singapore </li>\n<li>India</li>\n<li>Chile</li>\n<li>Colombia</li>\n<li>Norway</li>\n<li>Switzerland </li>\n<li>Turkey</li>\n<li>Brazil</li>\n</ul>\n<p>You can update your VAT/GST number on the <a href=\"https://support.zendesk.com/hc/en-us/articles/4408821572506-Managing-payments#topic_xxp_rsb_chb\" target=\"_blank\" rel=\"noopener noreferrer\">payments</a> page in <a href=\"https://support.zendesk.com/hc/en-us/articles/4581766374554-Using-Zendesk-Admin-Center\" target=\"_blank\" rel=\"noopener noreferrer\">Admin Center</a>. This value must correspond to your shipping address rather than the billing address. By entering your VAT number on the Payments page, you are agreeing to take on the tax requirements for your purchase. </p>\n<p>If you are based in one of these countries and do not provide your VAT or GST number, then Zendesk will levy VAT or GST on your purchases. </p>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408821572506-Managing-payments\" target=\"_blank\" rel=\"noopener noreferrer\">Managing payments</a>.</p>"
     },
     {
       "id": 7365586895130,
