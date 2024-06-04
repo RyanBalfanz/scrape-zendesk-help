@@ -113,7 +113,7 @@
       "vote_count": 0,
       "section_id": 4405298901274,
       "created_at": "2024-05-30T07:55:12Z",
-      "updated_at": "2024-05-31T15:50:36Z",
+      "updated_at": "2024-06-04T11:12:12Z",
       "name": "Why aren't my triggers firing when I update tickets in bulk?",
       "title": "Why aren't my triggers firing when I update tickets in bulk?",
       "source_locale": "en-us",
@@ -125,10 +125,8 @@
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
       "label_names": [
-        "trigger",
         "ks",
         "ab0",
-        "bulk actions",
         "ab0_support",
         "ab0_admin_center"
       ],
