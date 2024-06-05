@@ -80,14 +80,14 @@
       "vote_count": 0,
       "section_id": 4405303741594,
       "created_at": "2024-05-30T14:42:49Z",
-      "updated_at": "2024-06-04T15:02:07Z",
+      "updated_at": "2024-06-05T10:06:52Z",
       "name": "Can Advanced AI respond to emails with a generative reply?",
       "title": "Can Advanced AI respond to emails with a generative reply?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-05-30T14:47:49Z",
+      "edited_at": "2024-06-05T10:06:50Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -100,7 +100,7 @@
         "role_admin",
         "role_owner"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>Can I use <a href=\"https://support.zendesk.com/hc/en-us/articles/5524125586330--About-Zendesk-Advanced-AI\" target=\"_blank\" rel=\"noopener noreferrer\">Advanced AI</a> to generate a reply to customer emails?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>That feature is not yet available for customer emails. You can explore third-party tools, such as <a href=\"https://www.ultimate.ai\">ultimate.ai</a>. These are not supported by Zendesk.</p>\n<div class=\"p\">\n<div class=\"note note\">\n<span class=\"notetitle\">Note:</span> Based on intelligent triage and intent, you could create <a href=\"https://support.zendesk.com/hc/en-us/articles/5501378527898--Using-autoreplies-based-on-intelligent-triage\" target=\"_blank\" rel=\"noopener noreferrer\">auto-reply emails</a>. These emails would not be generative replies.</div>\n</div>"
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>Can I use <a href=\"https://support.zendesk.com/hc/en-us/articles/5524125586330--About-Zendesk-Advanced-AI\" target=\"_blank\" rel=\"noopener noreferrer\">Advanced AI</a> to generate a reply to customer emails?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>That feature is not yet available for customer emails. You can explore third-party tools, such as <a href=\"https://www.ultimate.ai\">ultimate.ai</a>. These are not supported by Zendesk.</p>\n<div class=\"p\">\n<div class=\"note note\">\n<span class=\"notetitle\">Note:</span> Based on intelligent triage and intent, you could create <a href=\"https://support.zendesk.com/hc/en-us/articles/5501378527898--Using-autoreplies-based-on-intelligent-triage\" target=\"_blank\" rel=\"noopener noreferrer\">auto-reply emails</a>. These emails would not be generative replies.</div>\n</div>"
     },
     {
       "id": 7344114613658,
