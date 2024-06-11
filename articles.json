@@ -1,11 +1,46 @@
 {
-  "count": 4567,
+  "count": 4568,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 153,
   "per_page": 30,
   "previous_page": null,
   "articles": [
+    {
+      "id": 7411141080346,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7411141080346.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/7411141080346-Why-does-the-bot-recommend-articles-the-second-time-the-same-question-is-asked",
+      "author_id": 1900815493244,
+      "comments_disabled": false,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405303741594,
+      "created_at": "2024-06-11T14:58:20Z",
+      "updated_at": "2024-06-11T15:02:35Z",
+      "name": "Why does the bot recommend articles the second time the same question is asked?",
+      "title": "Why does the bot recommend articles the second time the same question is asked?",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2024-06-11T15:02:32Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801135069,
+      "content_tag_ids": [],
+      "label_names": [
+        "ks",
+        "ab0",
+        "ab0_messaging",
+        "ab0_admin_center",
+        "ab0_bots_automation",
+        "role_admin",
+        "role_owner"
+      ],
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>I noticed the bot only recommends articles when an end user asks a question twice. What is causing the behavior?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>This happens when you enable <a href=\"https://support.zendesk.com/hc/en-us/articles/4422584657434-Designing-a-conversation-bot-using-answers#:~:text=If%20the%20bot%20needs%20clarification,-You%20can%20set&amp;text=This%20response%20is%20triggered%20during,activated%20or%20deactivated%20as%20needed.&amp;text=To%20request%20clarification-,On%20the%20Behavior%20tab%2C%20expand%20the,the%20bot%20needs%20clarification%20section.\" target=\"_blank\" rel=\"noopener noreferrer\">If the bot needs clarification</a> and set up an automatic response to end users. Instead, disable that feature.</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7411218163482\" alt=\"Feature.png\" width=\"290\"></p>"
+    },
     {
       "id": 7404597050394,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7404597050394.json",
@@ -46,7 +81,7 @@
       "vote_count": 0,
       "section_id": 4405298889242,
       "created_at": "2024-06-07T19:08:09Z",
-      "updated_at": "2024-06-10T18:39:23Z",
+      "updated_at": "2024-06-11T15:02:06Z",
       "name": "Announcing the Account Groups Availability API",
       "title": "Announcing the Account Groups Availability API",
       "source_locale": "en-us",
@@ -57,7 +92,9 @@
       "user_segment_id": null,
       "permission_group_id": 1324079,
       "content_tag_ids": [],
-      "label_names": [],
+      "label_names": [
+        "mt"
+      ],
       "body": "<table style=\"border-collapse: collapse; width: 100%; height: 44px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Announced on</strong></td>\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Rollout on</strong></td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\">June 10, 2024</td>\n<td style=\"width: 33.3333%; height: 22px;\"><span class=\"wysiwyg-color-black\">June 10, 2024</span></td>\n</tr>\n</tbody>\n</table>\n<p>Zendesk is excited to announce the launch of the <a href=\"https://developer.zendesk.com/api-reference/agent-availability/account-groups-availability/account_groups_availability/\">Zendesk Account Groups Availability API</a>.</p>\n<p><span style=\"font-weight: 400;\">This announcement includes the following topics:</span></p>\n<ul>\n<li><a href=\"#h_01GD3S97RDYVTAFTQ8WR9878VF\" target=\"_self\"><span style=\"font-weight: 400;\">What is changing?</span></a></li>\n<li><a href=\"#h_01GD3S9GD63FPDGQSEFY88M3ND\" target=\"_self\"><span style=\"font-weight: 400;\">Why is Zendesk making this change?</span></a></li>\n<li><a href=\"#h_01GD3S9TSPXM7M4WHYKYF4E84M\" target=\"_self\"><span style=\"font-weight: 400;\">What do I need to do?</span></a></li>\n</ul>\n<h2 id=\"h_01GD3S97RDYVTAFTQ8WR9878VF\"><span style=\"font-weight: 400;\">What is changing?</span></h2>\n<p>Currently customers are able use the <a href=\"https://developer.zendesk.com/api-reference/agent-availability/introduction/?_ga=2.41214242.1602154584.1682353324-243159329.1678288615\">Agent Availability APIs</a> to view real time agent status and capacity information across channels. This data is available on a per-agent basis.</p>\n<p>With the <a href=\"https://developer.zendesk.com/api-reference/agent-availability/account-groups-availability/account_groups_availability/\">Zendesk Account Groups Availability API</a>, you can view aggregated status, workload, and capacity data for groups of agents. When using the new Groups Availability API, it's important to understand that the data is comprised of four parts:</p>\n<ul>\n<li>Number of agents in each standard status (not unified agent status): <em>online</em>, <em>away</em>, <em>transfer only</em>, or <em>offline</em>.</li>\n<li>(<a href=\"https://support.zendesk.com/hc/en-us/articles/4409149119514\">Omnichannel routing</a> only) The number of agents in each <a href=\"https://support.zendesk.com/hc/en-us/articles/5133523363226\">standard</a> and custom unified agent status per group</li>\n<li>(<a href=\"https://support.zendesk.com/hc/en-us/articles/4409149119514\">Omnichannel routing</a> only) The total maximum <a href=\"https://support.zendesk.com/hc/en-us/articles/4776409839770\">capacity</a> per channel. This is the product of multiplying the per-agent maximum capacity for a channel by the number of agents in the group.</li>\n<li>The total number of work items assigned to the agents in a group per channel. If you're using omnichannel routing, you can think of this value as the group's consumed capacity.</li>\n</ul>\n<h2 id=\"h_01GD3S9GD63FPDGQSEFY88M3ND\"><span style=\"font-weight: 400;\">Why is Zendesk making this change?</span></h2>\n<p>We heard from many users that the existing APIs that provided status and capacity information for individual agents required too much effort and time to effectively monitor and report on these metrics. Therefore, we've added this group-level API to provide a bigger picture view of this data and to reduce the development effort required to obtain this information.</p>\n<h2 id=\"h_01GD3S9TSPXM7M4WHYKYF4E84M\"><span style=\"font-weight: 400;\">What do I need to do?</span></h2>\n<p>Nothing. The <a href=\"https://developer.zendesk.com/api-reference/agent-availability/account-groups-availability/account_groups_availability/\">Account Group Availability API</a> is available to everyone, regardless of whether or not you're using <a href=\"https://support.zendesk.com/hc/en-us/articles/5866925319962\">omnichannel routing</a>.</p>\n<p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/1260801877069\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\">Zendesk Customer Support</a>.</p>"
     },
     {
@@ -106,7 +143,7 @@
       "vote_count": 0,
       "section_id": 4405298833818,
       "created_at": "2024-06-06T22:18:20Z",
-      "updated_at": "2024-06-06T22:19:50Z",
+      "updated_at": "2024-06-11T15:01:05Z",
       "name": "Join us for our Post Relate Deep Dive on AI Agents “the most autonomous bots in CX”",
       "title": "Join us for our Post Relate Deep Dive on AI Agents “the most autonomous bots in CX”",
       "source_locale": "en-us",
@@ -117,7 +154,9 @@
       "user_segment_id": null,
       "permission_group_id": 1324079,
       "content_tag_ids": [],
-      "label_names": [],
+      "label_names": [
+        "mtpe"
+      ],
       "body": "<p style=\"box-sizing: border-box; margin: 0px 0px 10.5px; font-family: proxima-nova-1, proxima-nova-2, ' Open Sans' , Helvetica, sans-serif; color: #555555; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\">Join us on <strong>June 27 at 11:00 AM CST</strong> for the highly anticipated second event in our Post-Relate Community series, where we’ll delve into the world of <strong>AI agents: the most autonomous bots in CX</strong>. </p>\n<p style=\"box-sizing: border-box; margin: 0px 0px 10.5px; font-family: proxima-nova-1, proxima-nova-2, ' Open Sans' , Helvetica, sans-serif; color: #555555; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\">Our expert panel will provide a deep dive into the core functionalities of AI agents, followed by an engaging, interactive demo. You’ll also gain valuable insights into best practices, use cases, and resources you can leverage to start transforming your service experiences with AI agents today.</p>\n<p style=\"box-sizing: border-box; margin: 0px 0px 10.5px; font-family: proxima-nova-1, proxima-nova-2, ' Open Sans' , Helvetica, sans-serif; color: #555555; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\">If your goals include driving higher automated resolution rates, elevating every customer interaction, and enhancing your operational efficiencies, don't miss this opportunity to learn how you can harness the full power of Zendesk AI agents. <span class=\"wysiwyg-underline\"><strong><a href=\"https://usergroups.zendesk.com/e/m2h7kt/\" target=\"_blank\" rel=\"noopener noreferrer\">Register today to secure your spot</a></strong></span> and get your questions answered in our live Q&amp;A session.</p>\n<p><a href=\"https://usergroups.zendesk.com/e/m2h7kt/\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://support.zendesk.com/hc/article_attachments/7386559334426\" alt=\"Zendesk Deep Dive on AI Agents Event Deck (1).png\"></a></p>"
     },
     {
@@ -133,7 +172,7 @@
       "vote_count": 0,
       "section_id": 4405298901274,
       "created_at": "2024-06-06T15:08:02Z",
-      "updated_at": "2024-06-07T15:06:45Z",
+      "updated_at": "2024-06-11T15:02:52Z",
       "name": "Workflow: Auto-assigning tickets to a specific agent or group",
       "title": "Workflow: Auto-assigning tickets to a specific agent or group",
       "source_locale": "en-us",
@@ -147,6 +186,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_support",
         "ab0_admin_center",
         "role_admin",
@@ -196,7 +236,7 @@
       "vote_count": 2,
       "section_id": 4405298833818,
       "created_at": "2024-06-04T19:26:32Z",
-      "updated_at": "2024-06-05T20:01:28Z",
+      "updated_at": "2024-06-11T15:01:06Z",
       "name": "Announcing the general availability of object triggers",
       "title": "Announcing the general availability of object triggers",
       "source_locale": "en-us",
@@ -208,6 +248,7 @@
       "permission_group_id": 1324079,
       "content_tag_ids": [],
       "label_names": [
+        "mtpe",
         "newsfeed"
       ],
       "body": "<table style=\"border-collapse: collapse; width: 100%; height: 44px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Announced on</strong></td>\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Rollout starts</strong></td>\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Rollout ends</strong></td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\">June 5, 2024</td>\n<td style=\"width: 33.3333%; height: 22px;\"><span class=\"wysiwyg-color-black\">June 5, 2024</span></td>\n<td style=\"width: 33.3333%; height: 22px;\">June 21, 2024</td>\n</tr>\n</tbody>\n</table>\n<p>Zendesk is pleased to announce full support and general availability of object triggers for custom objects.</p>\n<p><span style=\"font-weight: 400;\">This announcement includes the following topics:</span></p>\n<ul>\n<li><a href=\"#h_01GD3S97RDYVTAFTQ8WR9878VF\" target=\"_self\"><span style=\"font-weight: 400;\">What is changing?</span></a></li>\n<li><a href=\"#h_01GD3S9GD63FPDGQSEFY88M3ND\" target=\"_self\"><span style=\"font-weight: 400;\">Why is Zendesk making this change?</span></a></li>\n<li><a href=\"#h_01GD3S9TSPXM7M4WHYKYF4E84M\" target=\"_self\"><span style=\"font-weight: 400;\">What do I need to do?</span></a></li>\n</ul>\n<h2 id=\"h_01GD3S97RDYVTAFTQ8WR9878VF\"><span style=\"font-weight: 400;\">What is changing?</span></h2>\n<p>Triggers are one of the most powerful features across Zendesk products today. Until now, they've enabled Zendesk customers to build complex workflows, but they were always built around tickets (including tickets created for live chats, messaging conversations, and even calls in some cases). Any time a ticket is created or updated, the ticket triggers evaluate whether the ticket meets the conditions, and if so, automatically perform the specified actions.</p>\n<p>With this release, that event-driven automated workflow is expanding to other object types, beginning with custom objects. Object triggers run every time a record is created or updated for a specified custom object, then automatically performs specified actions if the record meets the trigger's conditions.</p>\n<p>For example, let's say you have a custom object named <em>Order</em>. Every time a record is created or updated for the <em>Order</em> object, an object trigger evaluates two conditions is evaluated: <strong>Status | Is | Delayed</strong> and <strong>Customer | Is | VIP</strong>. If both of those are true, the object trigger automatically sends an email to the customer associated with the order record and creates a proactive ticket to track the order.</p>\n<p>In 2023, we ran an object triggers EAP with a subset of conditions and actions to get customer feedback. Based on the feedback we received, we've added many additional conditions and actions. Most notably:</p>\n<ul>\n<li>\n<strong>Object: Update | Is</strong>, where you can narrow the scope of the object trigger to only run when a record is created or updated, rather than in both circumstances.</li>\n<li>\n<strong>Notify by</strong> actions, which provide a variety of ways to send notifications based on the creation or updates to an object's records.</li>\n<li>\n<strong>Notify by: Active webhook</strong>, which initiates and passes information to a specified webhook.</li>\n</ul>\n<p>Additionally, we recognize that many of these new actions are most powerful when used in conjunction with placeholders. To that end, we are also introducing placeholders for custom objects. </p>\n<p>All of this new functionality taken together unlocks many powerful new workflows within Zendesk. Here are some common use cases to get you started:</p>\n<ul>\n<li>Send proactive notifications.\n<ul>\n<li>Notify a customer when an order is delayed.</li>\n<li>Send a customer a thank you email after they register their product.</li>\n</ul>\n</li>\n<li>Extend custom object workflows beyond Zendesk:\n<ul>\n<li>Create proactive tickets</li>\n<li>Automatically send custom data from Zendesk to external systems via webhooks, to streamline your workflows and data consistency across services.</li>\n</ul>\n</li>\n</ul>\n<h2 id=\"h_01GD3S9GD63FPDGQSEFY88M3ND\"><span style=\"font-weight: 400;\">Why is Zendesk making this change?</span></h2>\n<p>This release enables Zendesk customers to build more complex case management workflows within Zendesk. Object triggers and placeholders for custom objects provide even more ways for you to leverage your custom data to meet your needs and the needs of your customers.</p>\n<h2 id=\"h_01GD3S9TSPXM7M4WHYKYF4E84M\"><span style=\"font-weight: 400;\">What do I need to do?</span></h2>\n<p>This feature is automatically available to all Zendesk Suite plans and Support Enterprise plans. To get the most out of this feature:</p>\n<ol>\n<li>\n<a href=\"https://support.zendesk.com/hc/en-us/articles/5392409465370\">Create your custom objects</a>.</li>\n<li>\n<a href=\"https://support.zendesk.com/hc/en-us/articles/4408886858138##topic_zj1_1w1_qbc\">Learn about placeholders for custom objects</a>.</li>\n<li>\n<a href=\"https://support.zendesk.com/hc/en-us/articles/7313293890970\">Create object triggers</a>.</li>\n</ol>\n<p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/1260801325369\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\">Zendesk Customer Support</a>.</p>"
@@ -225,7 +266,7 @@
       "vote_count": 0,
       "section_id": 4405298881562,
       "created_at": "2024-06-03T19:23:42Z",
-      "updated_at": "2024-06-04T18:14:36Z",
+      "updated_at": "2024-06-11T15:03:07Z",
       "name": "What is a VAT or GST number?",
       "title": "What is a VAT or GST number?",
       "source_locale": "en-us",
@@ -315,7 +356,7 @@
       "vote_count": 0,
       "section_id": 4405303741594,
       "created_at": "2024-05-30T14:42:49Z",
-      "updated_at": "2024-06-05T10:06:52Z",
+      "updated_at": "2024-06-11T15:03:20Z",
       "name": "Can Advanced AI respond to emails with a generative reply?",
       "title": "Can Advanced AI respond to emails with a generative reply?",
       "source_locale": "en-us",
@@ -384,7 +425,7 @@
       "vote_count": 1,
       "section_id": 4405298901274,
       "created_at": "2024-05-30T07:55:12Z",
-      "updated_at": "2024-06-05T14:50:12Z",
+      "updated_at": "2024-06-11T15:02:05Z",
       "name": "Why aren't my triggers firing when I update tickets in bulk?",
       "title": "Why aren't my triggers firing when I update tickets in bulk?",
       "source_locale": "en-us",
@@ -398,6 +439,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_support",
         "ab0_admin_center"
       ],
@@ -501,7 +543,7 @@
       "vote_count": 0,
       "section_id": 4405298907418,
       "created_at": "2024-05-28T14:41:04Z",
-      "updated_at": "2024-06-04T19:11:51Z",
+      "updated_at": "2024-06-11T15:04:06Z",
       "name": "Best practices for creating a successful knowledge base",
       "title": "Best practices for creating a successful knowledge base",
       "source_locale": "en-us",
@@ -513,6 +555,7 @@
       "permission_group_id": 1324079,
       "content_tag_ids": [],
       "label_names": [
+        "mt",
         "role_agent",
         "role_admin"
       ],
@@ -885,40 +928,6 @@
       "content_tag_ids": [],
       "label_names": [],
       "body": "<div class=\"note tip\">See our <a href=\"https://support.zendesk.com/hc/en-us/articles/7155968191258\" target=\"_blank\" rel=\"noopener noreferrer\">What's New</a> for an overview of what was released in the last month.</div>\n<p class=\"wysiwyg-indent1\">This week's release notes include:</p>\n<ul>\n<li class=\"wysiwyg-indent1\"><a href=\"#h_01HXWMF0QKB7YH45109F88N51N\">Chat and messaging</a></li>\n<li class=\"wysiwyg-indent1\">\n<a href=\"#h_01HXSTV5FACVVR2GJAEB1HV2A6\">Zendesk AI Agents</a> (formerly bots)</li>\n<li class=\"wysiwyg-indent1\"><a href=\"#h_01HXSV7EW9MFY7TXXAKWRRDKCQ\">Zendesk Explore</a></li>\n<li class=\"wysiwyg-indent1\"><a href=\"#h_01HXSTDJ6WHPS8C9F1D5MD9JNZ\">Zendesk Talk</a></li>\n<li class=\"wysiwyg-indent1\"><a href=\"https://support.zendesk.com/hc/en-us/articles/7216915576090#h_01HX7CPKG192XMEWNGJ6DGWXKW\">App Marketplace</a></li>\n<li class=\"wysiwyg-indent1\"><a href=\"https://support.zendesk.com/hc/en-us/articles/7216915576090#h_01HX7B0ESFT89GAT9E79E1GBH6\">Products with no updates this week</a></li>\n</ul>\n<h2 id=\"h_01HXWMF0QKB7YH45109F88N51N\">Chat and messaging</h2>\n<p><strong>New</strong></p>\n<ul>\n<li style=\"box-sizing: inherit;\" data-stringify-indent=\"0\" data-stringify-border=\"1\"><span class=\"wysiwyg-color-black\" style=\"box-sizing: inherit; color: #000000;\">Auto accept phase 3 changes are live. With this change, auto accepting logic moves to backend to make our systems more reliable.</span></li>\n</ul>\n<h2 id=\"h_01HXSTV5FACVVR2GJAEB1HV2A6\">Zendesk AI Agents (formerly bots)</h2>\n<p><strong>New</strong></p>\n<ul>\n<li>\n<span>Present options: API support: </span>API data can now be used to dynamically populate the present options step. Previously the step could only be configured manually with static data.</li>\n</ul>\n<p><strong>Updated</strong></p>\n<ul>\n<li>\n<span>Carousel step selection UI: </span>The step selection UI has been improved to make the choice between dynamically and manually configured steps clearer and consistent with other UI.</li>\n</ul>\n<h2 id=\"h_01HXSV7EW9MFY7TXXAKWRRDKCQ\">Zendesk Explore</h2>\n<p><strong>Updated</strong></p>\n<ul>\n<li>The <a href=\"https://support.zendesk.com/hc/en-us/articles/4408834558746-Explore-functions-reference#:~:text=CURRENT_WEEKDAY_NUMERIC\">CURRENT_WEEKDAY_NUMERIC</a> function returns the current day of the week as a number. Previously, this function returned “7\" for “Sunday”, but now it returns “0”. There are no changes for the other days of the week.</li>\n</ul>\n<h2 id=\"h_01HXSTDJ6WHPS8C9F1D5MD9JNZ\">Zendesk Talk</h2>\n<p><strong>Fixed</strong></p>\n<ul>\n<li>Duplicate callback tickets are handled more accurately. An internal note is added to a ticket indicating that it is a duplicate callback.</li>\n<li>Improved the German language greeting to be easier to understand. There were some issues where customers reported it was inaudible.</li>\n</ul>\n<h2 id=\"h_01HX7CPKG192XMEWNGJ6DGWXKW\">App Marketplace</h2>\n<div><strong>New:</strong></div>\n<ul>\n<li>Sigma AI <strong>(Support)</strong>\n<ul>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1028967/sigma-ai/\">Sigma AI</a> is a customer support automation platform for e-commerce brands. It leverages AI to help resolve 80% of the tickets automatically across multiple channels.  With Sigma AI, brands like Dr.Brandt skincare, BugMD, Cleanomic, and Shameless Snacks have seen their response times improve by 90%, resolution times drop by 50%, and CSATs improve by at least 25%. Sigma AI works within platforms like Zendesk and can be used to implement custom workflows for your brand.</li>\n</ul>\n</li>\n<li>Tulii Statuspage for Support<span> <strong>(Support)</strong></span>\n<ul>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1032529/tulii-statuspage-for-support/\"><span>Tulii Statuspage for Support</span></a> helps businesses keep customers in the loop during downtime, build complete trust, and reduce support tickets, so your team can focus on the fix.  Unlock the power of customer experiences with Zendesk integration, empowering support teams or agents with enhanced visibility into issues for more effective problem resolution.  Provide support teams with superior visibility on issues for building lasting relationships through efficient issue resolution.</li>\n</ul>\n</li>\n<li>\n<span>Botsonic <strong>(Support)</strong></span>\n<ul>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1027859/botsonic/\"><span>Botsonic</span></a> is a state-of-the-art generative AI platform designed to revolutionize customer service through automation. The platform's primary objective is to enable the creation of AI agents that are capable of making autonomous decisions. These decisions are informed by a comprehensive knowledge base and various data sources that the AI is trained on. With its advanced capabilities, Botsonic aims to significantly reduce customer service costs by as much as 80% while maintaining or even improving the quality of service provided.</li>\n</ul>\n</li>\n<li>\n<span>Automated Alerting and Reporting by SwiftCX <strong>(Support) (Chat)</strong></span>\n<ul>\n<li>\n<span>Automated Alerting and Reporting by SwiftCX for <a href=\"https://www.zendesk.com/marketplace/apps/support/1033355/automated-alerting-and-reporting-by-swiftcx/?queryID=7348d12c82edb4c32eb04f15d4a3302f\">Support</a> and <a href=\"https://www.zendesk.com/marketplace/apps/chat/1033355/automated-alerting-and-reporting-by-swiftcx/\">Chat</a> <span>gives your team superpowers to stay on top of all of your important data easily.  </span></span>Monitor important ticket or Talk activity, automatically, enable powerful reports from their catalog or create your own, and even connect your Slack and have all your alerts and reports distributed where you want it with ease.<span><span></span></span>\n</li>\n</ul>\n</li>\n<li>\n<span>Trigger Manager <strong>(Support)</strong></span>\n<ul>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1034188/trigger-manager/\">Trigger Manager </a>is a handy tool that lets you export all your Zendesk Support triggers to a CSV file.  View your triggers, actions, conditions and more in CSV format.</li>\n</ul>\n</li>\n<li>\n<span>LiveX AI Reply <strong>(Support)</strong></span>\n<ul>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1033538/livex-ai-reply/\"><span>LiveX AI Reply</span></a> transforms Zendesk support by harnessing advanced AI to streamline workflow and deliver automated, personalized customer communications. With seamless Zendesk integration, this powerful tool provides automatic user email summaries and internal notes, generates high-quality email replies, and continuously learns from each interaction. By optimizing productivity and reducing costs, LiveX AI empowers businesses to exceed modern customer expectations with exceptional, efficient support.</li>\n</ul>\n</li>\n<li>\n<span>Oct8ne <strong>(Support)</strong></span><span></span>\n<ul>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1027483/oct8ne/\"><span>Oct8ne</span></a> is an<span> </span><em>innovative visual chat tool</em><span> </span><span>(live chat, chatbot, and messaging) that is revolutionizing the way e-commerce interacts with its customers.  </span>With an intuitive interface, its visual support allows for<span> </span>real-time product or service showcasing and recommendations<span>, offering personalized assistance both with human agents and through its chatbot, significantly boosting sales and customer satisfaction.  <span>Additionally, Oct8ne stands out for its </span>integration with platforms<span> like WhatsApp, Instagram, and Facebook, facilitating connection with customers through their preferred channels.</span></span>\n</li>\n</ul>\n</li>\n</ul>\n<h2 id=\"h_01HX7B0ESFT89GAT9E79E1GBH6\">Products with no updates this week</h2>\n<ul>\n<li>Support</li>\n<li>Guide and machine learning</li>\n<li>Zendesk AI</li>\n<li>Admin Center</li>\n<li>Zendesk Sell</li>\n<li>Sunshine Conversations</li>\n<li>Mobile SDK</li>\n<li>Web Widget (Classic &amp; Messaging)</li>\n</ul>"
-    },
-    {
-      "id": 7241499089434,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7241499089434.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/7241499089434-How-can-I-change-the-manifest-url-in-the-requirements-json-file-of-my-channel-integration",
-      "author_id": 1266644443030,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405298879258,
-      "created_at": "2024-05-10T14:33:11Z",
-      "updated_at": "2024-05-21T16:05:23Z",
-      "name": "How can I change the manifest_url in the requirements.json file of my channel integration?",
-      "title": "How can I change the manifest_url in the requirements.json file of my channel integration?",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2024-05-14T22:07:51Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801135069,
-      "content_tag_ids": [],
-      "label_names": [
-        "ks",
-        "ab0",
-        "mt",
-        "ab0_admin_center",
-        "role_admin",
-        "role_owner"
-      ],
-      "body": "<h2 id=\"h_01HXHDBGQ68XE93WSVD22942EX\">Question</h2>\n<p>I created a <a href=\"https://developer.zendesk.com/documentation/channel_framework/\">Channel Framework integration</a> for the <a href=\"https://www.zendesk.com/marketplace/apps/\" target=\"_blank\" rel=\"noopener noreferrer\">Marketplace</a> and I want to change the <code>manifest_url</code> in <code>requirements.json</code>. If I generate my ZAT package with the new <code>manifest_url</code>, can I update that integration with the new URL?</p>\n<h2 id=\"h_01HXHDBGQ67D6BBC156K0VZ4CW\">Answer</h2>\n<p>No, that resource is not editable. Instead, submit a new app with the new <code>manifest_url</code>. Zendesk will hide the old version of the app and publish the new version.</p>\n<div class=\"p\">\n<div class=\"note note\">\n<span class=\"notetitle\">Note:</span> To amend the <a href=\"https://developer.zendesk.com/documentation/marketplace/building-a-marketplace-app/create-content/#manifestjson-file\" target=\"_blank\" rel=\"noopener noreferrer\">author details URL</a> in your <code>manifest.json</code> file, edit that field and submit an update to your app directly.</div>\n</div>\n<p>For more information, see this article: <a href=\"https://developer.zendesk.com/documentation/apps/app-developer-guide/apps_requirements/#updating-or-deleting-requirements\" target=\"_blank\" rel=\"noopener noreferrer\">Updating or deleting requirements</a>.</p>"
     }
   ],
   "sort_by": "position",
