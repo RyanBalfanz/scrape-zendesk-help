@@ -19,14 +19,14 @@
       "vote_count": 0,
       "section_id": 4405303740058,
       "created_at": "2024-06-12T15:13:30Z",
-      "updated_at": "2024-06-12T15:18:46Z",
+      "updated_at": "2024-06-12T16:11:52Z",
       "name": "Does Zendesk function as an Automatic Telephone Dialing System (ATDS)?",
       "title": "Does Zendesk function as an Automatic Telephone Dialing System (ATDS)?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-06-12T15:18:44Z",
+      "edited_at": "2024-06-12T16:11:50Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -37,12 +37,12 @@
         "role_admin",
         "role_owner"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>Is Zendesk an Automatic Telephone Dialing System (ATDS)?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>No, Zendesk does not function as an Automatic Telephone Dialing System. Zendesk focuses on managing customer interactions and provides <a href=\"https://www.zendesk.com/service/#Headingstyle__HeadingRoot-sc-150xww-0%20kMgano\" target=\"_blank\" rel=\"noopener noreferrer\">support across various channels</a>, rather than automating the dialing of phone numbers.</p>\n<p>While Zendesk is not an Automatic Telephone Dialing System, it can integrate with telephony systems, and other tools that may have ATDS capabilities, such as:</p>\n<ul>\n<li>\n<a href=\"https://support.zendesk.com/hc/en-us/articles/4408821196314-Getting-started-with-Zendesk-Talk-for-voice\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk Talk</a> is a call center software to manage inbound and outbound calls. It does not function as an Automatic Telephone Dialing System on its own.</li>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/?query=phoe\" target=\"_blank\" rel=\"noopener noreferrer\">Integrations</a> can link Zendesk with third-party telephony systems. These apps might include Automatic Telephone Dialing System features for automated dialing.</li>\n</ul>\n<div class=\"p\">\n<div class=\"note note\">\n<span class=\"notetitle\">Disclaimer:</span> Zendesk doesn't provide support for third-party apps. For help, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/6968518512026-Where-can-I-receive-help-with-third-party-apps-on-the-Marketplace\" target=\"_blank\" rel=\"noopener noreferrer\">Where can I receive help with third-party apps on the Marketplace?</a>\n</div>\n</div>"
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>Is Zendesk an Automatic Telephone Dialing System (ATDS)?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>No, Zendesk does not function as an Automatic Telephone Dialing System. Zendesk focuses on managing customer interactions and provides <a href=\"https://www.zendesk.com/service/#Headingstyle__HeadingRoot-sc-150xww-0%20kMgano\" target=\"_blank\" rel=\"noopener noreferrer\">support across various channels</a>, rather than automating the dialing of phone numbers.</p>\n<p>While Zendesk is not an ATDS, it can integrate with telephony systems and other tools that may have ATDS capabilities, such as:</p>\n<ul>\n<li>\n<a href=\"https://support.zendesk.com/hc/en-us/articles/4408821196314-Getting-started-with-Zendesk-Talk-for-voice\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk Talk</a> is a call center software to manage inbound and outbound calls. It does not function as an ATDS on its own.</li>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/?query=phoe\" target=\"_blank\" rel=\"noopener noreferrer\">Integrations</a> can link Zendesk with third-party telephony systems. These apps might include ATDS features for automated dialing.</li>\n</ul>\n<div class=\"p\">\n<div class=\"note note\">\n<span class=\"notetitle\">Disclaimer:</span> Zendesk doesn't provide support for third-party apps. For help, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/6968518512026-Where-can-I-receive-help-with-third-party-apps-on-the-Marketplace\" target=\"_blank\" rel=\"noopener noreferrer\">Where can I receive help with third-party apps on the Marketplace?</a>\n</div>\n</div>"
     },
     {
       "id": 7417802313498,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7417802313498.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/7417802313498-Can-Generative-AI-read-through-the-content-of-attachments",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/7417802313498-Can-the-generative-AI-tools-and-search-for-help-center-read-through-the-content-of-attachments",
       "author_id": 1266644443030,
       "comments_disabled": false,
       "draft": false,
@@ -52,14 +52,14 @@
       "vote_count": 0,
       "section_id": 4405303741594,
       "created_at": "2024-06-12T14:35:15Z",
-      "updated_at": "2024-06-12T14:36:48Z",
-      "name": "Can Generative AI read through the content of attachments?",
-      "title": "Can Generative AI read through the content of attachments?",
+      "updated_at": "2024-06-12T16:25:07Z",
+      "name": "Can the generative AI tools and search for help center read through the content of attachments?",
+      "title": "Can the generative AI tools and search for help center read through the content of attachments?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-06-12T14:36:45Z",
+      "edited_at": "2024-06-12T16:25:05Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -74,7 +74,7 @@
         "role_admin",
         "role_owner"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>My agents use <a href=\"https://support.zendesk.com/hc/en-us/articles/5608712782362-Using-generative-AI-to-summarize-and-enhance-ticket-comments\" target=\"_blank\" rel=\"noopener noreferrer\">Generative AI</a> in tickets. Is that feature capable of returning content from attachments or PDF files from the help center?</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7417802311578\" alt=\"Expand.png\" width=\"192\" height=\"155\"></p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>No, the Generative AI feature doesn't read the content of attachments in the help center. Readable content should be directly present in the articles of your help center.</p>\n<p>For more information, see these articles:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/6948495103002-Turning-on-generative-AI-features-for-agents-and-the-help-center\" target=\"_blank\" rel=\"noopener noreferrer\">Turning on generative AI features for agents and the help center</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/6267360002714-Using-generative-AI-to-expand-and-enhance-help-center-content\" target=\"_blank\" rel=\"noopener noreferrer\">Using generative AI to expand and enhance help center content</a></li>\n</ul>"
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>Are Generative AI and help center search capable of returning content from attachments or PDF files?</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7417802311578\" alt=\"Expand.png\" width=\"192\" height=\"155\"></p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>No, the Generative AI feature and the help center don't read the content of attachments in your help center. Readable content should be directly present in your articles.</p>\n<p>For more information, see these articles:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/6942732527130-Generative-search-for-help-center-EAP\" target=\"_blank\" rel=\"noopener noreferrer\">Generative search for help center (EAP)</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/6948495103002-Turning-on-generative-AI-features-for-agents-and-the-help-center\" target=\"_blank\" rel=\"noopener noreferrer\">Turning on generative AI features for agents and the help center</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/6267360002714-Using-generative-AI-to-expand-and-enhance-help-center-content\" target=\"_blank\" rel=\"noopener noreferrer\">Using generative AI to expand and enhance help center content</a></li>\n</ul>"
     },
     {
       "id": 7417676040858,
@@ -262,7 +262,7 @@
       "vote_count": 0,
       "section_id": 4405298833818,
       "created_at": "2024-06-07T14:47:38Z",
-      "updated_at": "2024-06-12T15:57:32Z",
+      "updated_at": "2024-06-12T16:32:12Z",
       "name": "Announcing general improvements to the Talk call console",
       "title": "Announcing general improvements to the Talk call console",
       "source_locale": "en-us",
