@@ -864,7 +864,7 @@
     {
       "id": 7330141538970,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7330141538970.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/7330141538970-Service-Incident-May-27th-2024",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/7330141538970-Service-Incident-May-27th-2024-Support-All-Pods-Delayed-Email-Notifications",
       "author_id": 1263082084489,
       "comments_disabled": true,
       "draft": false,
@@ -874,21 +874,21 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2024-05-27T17:18:51Z",
-      "updated_at": "2024-05-27T17:18:51Z",
-      "name": "Service Incident - May 27th, 2024",
-      "title": "Service Incident - May 27th, 2024",
+      "updated_at": "2024-06-12T20:59:48Z",
+      "name": "Service Incident - May 27th, 2024 - Support | All Pods - Delayed Email Notifications",
+      "title": "Service Incident - May 27th, 2024 - Support | All Pods - Delayed Email Notifications",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-05-27T17:18:51Z",
+      "edited_at": "2024-06-12T20:59:02Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
       "label_names": [
         "service_incident"
       ],
-      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\"><p class=\"p1\"><strong>May 27, 2024 05:18 PM UTC | May 27, 2024 10:18 AM PT </strong><br>Between 12:00 and 16:55 UTC on May 27, 2024, Gmail customers may have experienced delayed notification delivery. Email queues have caught up and all notifications have been processed at this time.</p></div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n"
+      "body": "<h3 id=\"h_01J073N4M16NMY4P0YKJT0GQD5\" class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>May 27, 2024 05:18 PM UTC | May 27, 2024 10:18 AM PT </strong><br>Between 12:00 and 16:55 UTC on May 27, 2024, Gmail customers may have experienced delayed notification delivery. Email queues have caught up and all notifications have been processed at this time.</p>\n<p class=\"undefined\"> </p>\n</div>\n<h3 id=\"h_01J073P3NEZQ9XPGRA8390F78C\">Post-Mortem</h3>\n<p><br>On May 27 2024, users experienced delays in email notifications due to a loss of temporary configuration settings. This affected the timely delivery of emails but has since been corrected.</p>\n<h3 id=\"h_01J073Q8TM69M80M7WMHPG5F1N\">Root Cause Analysis</h3>\n<p><br>The delay was caused by a loss of temporary fixes applied to manage email delivery, which were erased during routine system maintenance. These temporary fixes were not intended to persist through maintenance cycles.</p>\n<h3 id=\"h_01J073QC5SZ81RSWTTM6E2M1H4\">Resolution</h3>\n<p><br>To resolve the issue, a new version of our software was deployed that included a permanent fix to the configuration, restoring normal service for email notifications.</p>\n<h3 id=\"h_01J073QFNW3E9MMP1ZRY83YGBM\">Remediation Items</h3>\n<p><br>1. We will ensure that important configuration changes are applied in a way that they remain persistent.<br>2. Monitoring alerts will be re-enabled to catch similar issues more promptly in the future.<br>3. We have requested a feature from our software provider to allow dynamic rules to persist through maintenance. This will help prevent similar issues from recurring.</p>\n<h4 id=\"h_01J073N4M1GNJS7T0TQC13KZAT\"><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>"
     },
     {
       "id": 7316998916122,
