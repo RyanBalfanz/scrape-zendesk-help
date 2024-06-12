@@ -1,5 +1,5 @@
 {
-  "count": 4573,
+  "count": 4574,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 153,
@@ -129,6 +129,39 @@
       "content_tag_ids": [],
       "label_names": [],
       "body": "<div id=\"message-list\">\n<p class=\"p1\"><span class=\"wysiwyg-color-black40\" style=\"color: #000000;\"><strong>June 12, 2024 03:15 PM UTC | June 12, 2024 07:15 AM PT</strong></span><br>From June 12, 2024, 11:55 UTC to 12:21 UTC, a subset of Support users experienced login issues, seeing “Access denied” errors, due to a new security rule implemented by our partner. This measure, intended to enhance account protection, inadvertently blocked some legitimate users. The issue was promptly identified, and the security rule has been adjusted. We can confirm this issue is now resolved.</p>\n<p class=\"p1\"> </p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p>\n<h4 id=\"h_01HTHGD3YVS7RVQDA6MFRRVQZ8\"><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>"
+    },
+    {
+      "id": 7413502356506,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7413502356506.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/7413502356506-Announcing-the-in-ticket-notification-for-the-EOL-of-the-legacy-Social-Messaging-app",
+      "author_id": 1263082101349,
+      "comments_disabled": true,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298833818,
+      "created_at": "2024-06-12T00:47:38Z",
+      "updated_at": "2024-06-12T21:49:52Z",
+      "name": "Announcing the in-ticket notification for the EOL of the legacy Social Messaging app",
+      "title": "Announcing the in-ticket notification for the EOL of the legacy Social Messaging app",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2024-06-12T21:49:51Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801242670,
+      "content_tag_ids": [
+        "01J04Y8ERWAF61ABX5969E1188"
+      ],
+      "label_names": [
+        "EOL",
+        "cfc",
+        "social messaging app"
+      ],
+      "body": "<table style=\"box-sizing: inherit; margin-top: 15px; margin-bottom: 20px; color: #16140c; font-family: ' ABC Social', Arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: #fefaf2; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; border-collapse: collapse; width: 679px; height: 44px;\" border=\"1\">\n<tbody style=\"box-sizing: inherit;\">\n<tr style=\"box-sizing: inherit; height: 22px;\">\n<td style=\"box-sizing: inherit; display: table-cell; padding: 5px; width: 312.865px; height: 22px;\" bgcolor=\"#F5F5F5\"><strong style=\"box-sizing: inherit;\">Announced on</strong></td>\n<td style=\"box-sizing: inherit; display: table-cell; padding: 5px; width: 345.017px; height: 22px;\" bgcolor=\"#F5F5F5\"><strong style=\"box-sizing: inherit;\">Rolled out</strong></td>\n</tr>\n<tr style=\"box-sizing: inherit; height: 22px;\">\n<td style=\"box-sizing: inherit; display: table-cell; padding: 5px; width: 312.865px; height: 22px;\">June 12, 2024</td>\n<td style=\"box-sizing: inherit; display: table-cell; padding: 5px; width: 345.017px; height: 22px;\">May 14, 2024</td>\n</tr>\n</tbody>\n</table>\n<p>The team is excited to introduce the in-ticket notification of End of Life (EOL) for the Legacy Social Messaging app, which aims to provide proactive alerts to customers regarding the upcoming retirement of this legacy feature. This initiative underscores Zendesk's commitment to enhancing customer experience by ensuring transparent communication about changes impacting their workflow.</p>\n<h3 id=\"h_01J04Y9QTSC5T3M9BWW52XPCFF\">Customer impact</h3>\n<p>This feature ensures that all customers, including those who might have missed standard communication channels, receive direct notifications about the impending EOL of the Legacy Direct Social Messaging App and Channels Framework Connector (CFC). Through in-ticket notifications, users will be informed of the upcoming changes, minimizing the risk of service interruptions and allowing sufficient time for necessary actions.</p>\n<h3 id=\"h_01J04Y9QTTD25S7DMYGY4QXPSV\">What is changing?</h3>\n<p>With the introduction of this feature, users will notice a new message appended to incoming comments from the old Social Messaging App and CFC. The message will alert users about the impending retirement of the legacy solution and provide a link for additional information and next steps.</p>\n<h3 id=\"h_01J04Y9QTT5NPG0X33F3AREXP2\">Why is Zendesk making this change?</h3>\n<p>This change aims to support customers during the final stages of the EOL process, ensuring they are well-informed within their day-to-day workflow. By delivering notifications directly within tickets, Zendesk aims to provide clarity and assistance to impacted customers. </p>\n<h3 id=\"h_01J04Y9QTV98PPEF952S4VBE4K\">FAQ</h3>\n<ul>\n<li>\n<strong>Are we EOLing Channels Framework and Social Messaging Add-on?</strong> No, Channels Framework and Social Messaging Add-on are not being end-of-lifed.</li>\n<li>\n<strong>When will we be EOLing the Social Messaging App / CFC?</strong> The EOL date for the Social Messaging App and CFC is July 31, 2024.</li>\n<li><strong>Where can I find more information?<br><a href=\"https://support.zendesk.com/hc/en-us/articles/6558217474458-Removal-of-the-legacy-Social-Messaging-app-final-phase#:~:text=Effective%20July%2031%2C%202024%2C%20the,following%20the%20instructions%20linked%20below.\" target=\"_blank\" rel=\"noopener noreferrer\">Removal of the legacy Social Messaging app - final phase</a><br></strong></li>\n<li>\n<strong>How do I know if this impacts me?</strong><br>You will not see the notification on a ticket</li>\n</ul>\n<p><strong>Resources for more information:</strong> <a href=\"https://support.zendesk.com/hc/en-us/articles/6558217474458-Removal-of-the-legacy-Social-Messaging-app-final-phase#:~:text=Effective%20July%2031%2C%202024%2C%20the,following%20the%20instructions%20linked%20below.\" target=\"_new\" rel=\"noreferrer\">Removal of the legacy Social Messaging app - final phase</a></p>\n<p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/1260801308170\" target=\"_blank\" rel=\"noopener noreferrer\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk Customer Support</a>.</p>"
     },
     {
       "id": 7412310217370,
@@ -889,35 +922,6 @@
         "service_incident"
       ],
       "body": "<h3 id=\"h_01J073N4M16NMY4P0YKJT0GQD5\" class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>May 27, 2024 05:18 PM UTC | May 27, 2024 10:18 AM PT </strong><br>Between 12:00 and 16:55 UTC on May 27, 2024, Gmail customers may have experienced delayed notification delivery. Email queues have caught up and all notifications have been processed at this time.</p>\n<p class=\"undefined\"> </p>\n</div>\n<h3 id=\"h_01J073P3NEZQ9XPGRA8390F78C\">Post-Mortem</h3>\n<p><br>On May 27 2024, users experienced delays in email notifications due to a loss of temporary configuration settings. This affected the timely delivery of emails but has since been corrected.</p>\n<h3 id=\"h_01J073Q8TM69M80M7WMHPG5F1N\">Root Cause Analysis</h3>\n<p><br>The delay was caused by a loss of temporary fixes applied to manage email delivery, which were erased during routine system maintenance. These temporary fixes were not intended to persist through maintenance cycles.</p>\n<h3 id=\"h_01J073QC5SZ81RSWTTM6E2M1H4\">Resolution</h3>\n<p><br>To resolve the issue, a new version of our software was deployed that included a permanent fix to the configuration, restoring normal service for email notifications.</p>\n<h3 id=\"h_01J073QFNW3E9MMP1ZRY83YGBM\">Remediation Items</h3>\n<p><br>1. We will ensure that important configuration changes are applied in a way that they remain persistent.<br>2. Monitoring alerts will be re-enabled to catch similar issues more promptly in the future.<br>3. We have requested a feature from our software provider to allow dynamic rules to persist through maintenance. This will help prevent similar issues from recurring.</p>\n<h4 id=\"h_01J073N4M1GNJS7T0TQC13KZAT\"><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>"
-    },
-    {
-      "id": 7316998916122,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7316998916122.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/7316998916122-Service-Incident-May-24-2024-Sell-All-Pods-Mail-integrations-disconnecting",
-      "author_id": 1263082084489,
-      "comments_disabled": true,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405298854426,
-      "created_at": "2024-05-24T18:52:03Z",
-      "updated_at": "2024-06-06T08:31:18Z",
-      "name": "Service Incident - May 24, 2024 - Sell | All Pods - Mail integrations disconnecting",
-      "title": "Service Incident - May 24, 2024 - Sell | All Pods - Mail integrations disconnecting",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2024-06-06T08:30:17Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801242670,
-      "content_tag_ids": [],
-      "label_names": [
-        "service_incident"
-      ],
-      "body": "<h3 id=\"h_01HZPAPM9Y48YJ6YETN0GM8XNR\"><strong><span style=\"color: #06363c;\">SUMMARY</span></strong></h3>\n<p>On May 24, 2024 from 07.00 am UTC and 19:45 UTC customers across all Pods experienced emails integrated with Sell to disconnect.</p>\n<h3 id=\"h_01HZPAPM9YA8BEWF406DBJ4KB7\"><span style=\"color: #06363c;\">Timeline</span></h3>\n<p><strong>May 24, 2024 06:52 PM UTC | May 24, 2024 11:52 AM PT</strong></p>\n<p>We are investigating reports of Sell emails disconnecting, preventing use of the email integration. More information to follow shortly.</p>\n<p><strong>May 24, 2024 07:07 PM UTC | May 24, 2024 12:07 PM PT</strong></p>\n<p>We have confirmed an issue causing emails integrated with Sell to disconnect, preventing use of the integration. Our team is investigating and we will provide further updates within the next 30 minutes.</p>\n<p><strong>May 24, 2024 07:45 PM UTC | May 24, 2024 12:45 PM PT</strong></p>\n<p>Our engineers continue to investigate the issue causing emails integrated with Sell to disconnect, preventing use of the integration. We will provide another update in 1 hour or when we have new information to share.</p>\n<p><strong>May 24, 2024 07:53 PM UTC | May 24, 2024 12:53 PM PT</strong></p>\n<p>We're happy to report that our engineers have rolled back a change and can confirm the Sell email integration issue is now fully resolved. Please let us know if you continue to experience issues.</p>\n<h3 id=\"h_01HZPAPM9YM75W32DJR6RYCXBA\"><strong><span style=\"color: #06363c;\">POST-MORTEM</span></strong></h3>\n<h3 id=\"h_01HZPAPM9YXHV8XQFMK33ZP0YW\"><span style=\"color: #06363c;\">Root Cause Analysis</span></h3>\n<p>Due to a software bug, our system was not attempting to authenticate with the preferred method if at least one prior authentication attempt had failed for a given integration.</p>\n<h3 id=\"h_01HZPAPM9YEHBJGJ6JNW2DCSYQ\"><span style=\"color: #06363c;\">Resolution</span></h3>\n<p>To fix the issue our team redeployed the system. </p>\n<h3 id=\"h_01HZPAPM9YBN2PGDV1HNHBKJ7C\"><span style=\"color: #06363c;\">Remediation Items</span></h3>\n<ol>\n<li>Investigate possible new alerting for this issue [Scheduled]</li>\n</ol>\n<h4 id=\"h_01HZPAP4VERYPB6KBGAX6SSEWR\"><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>"
     }
   ],
   "sort_by": "position",
