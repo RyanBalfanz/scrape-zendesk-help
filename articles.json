@@ -1,5 +1,5 @@
 {
-  "count": 4566,
+  "count": 4567,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 153,
@@ -152,6 +152,38 @@
         "mt"
       ],
       "body": "<table style=\"border-collapse: collapse; width: 100%; height: 44px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Announced on</strong></td>\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Rollout on</strong></td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\">June 10, 2024</td>\n<td style=\"width: 33.3333%; height: 22px;\"><span class=\"wysiwyg-color-black\">June 10, 2024</span></td>\n</tr>\n</tbody>\n</table>\n<p>Zendesk is excited to announce the launch of the <a href=\"https://developer.zendesk.com/api-reference/agent-availability/account-groups-availability/account_groups_availability/\">Zendesk Account Groups Availability API</a>.</p>\n<p><span style=\"font-weight: 400;\">This announcement includes the following topics:</span></p>\n<ul>\n<li><a href=\"#h_01GD3S97RDYVTAFTQ8WR9878VF\" target=\"_self\"><span style=\"font-weight: 400;\">What is changing?</span></a></li>\n<li><a href=\"#h_01GD3S9GD63FPDGQSEFY88M3ND\" target=\"_self\"><span style=\"font-weight: 400;\">Why is Zendesk making this change?</span></a></li>\n<li><a href=\"#h_01GD3S9TSPXM7M4WHYKYF4E84M\" target=\"_self\"><span style=\"font-weight: 400;\">What do I need to do?</span></a></li>\n</ul>\n<h2 id=\"h_01GD3S97RDYVTAFTQ8WR9878VF\"><span style=\"font-weight: 400;\">What is changing?</span></h2>\n<p>Currently customers are able use the <a href=\"https://developer.zendesk.com/api-reference/agent-availability/introduction/?_ga=2.41214242.1602154584.1682353324-243159329.1678288615\">Agent Availability APIs</a> to view real time agent status and capacity information across channels. This data is available on a per-agent basis.</p>\n<p>With the <a href=\"https://developer.zendesk.com/api-reference/agent-availability/account-groups-availability/account_groups_availability/\">Zendesk Account Groups Availability API</a>, you can view aggregated status, workload, and capacity data for groups of agents. When using the new Groups Availability API, it's important to understand that the data is comprised of four parts:</p>\n<ul>\n<li>Number of agents in each standard status (not unified agent status): <em>online</em>, <em>away</em>, <em>transfer only</em>, or <em>offline</em>.</li>\n<li>(<a href=\"https://support.zendesk.com/hc/en-us/articles/4409149119514\">Omnichannel routing</a> only) The number of agents in each <a href=\"https://support.zendesk.com/hc/en-us/articles/5133523363226\">standard</a> and custom unified agent status per group</li>\n<li>(<a href=\"https://support.zendesk.com/hc/en-us/articles/4409149119514\">Omnichannel routing</a> only) The total maximum <a href=\"https://support.zendesk.com/hc/en-us/articles/4776409839770\">capacity</a> per channel. This is the product of multiplying the per-agent maximum capacity for a channel by the number of agents in the group.</li>\n<li>The total number of work items assigned to the agents in a group per channel. If you're using omnichannel routing, you can think of this value as the group's consumed capacity.</li>\n</ul>\n<h2 id=\"h_01GD3S9GD63FPDGQSEFY88M3ND\"><span style=\"font-weight: 400;\">Why is Zendesk making this change?</span></h2>\n<p>We heard from many users that the existing APIs that provided status and capacity information for individual agents required too much effort and time to effectively monitor and report on these metrics. Therefore, we've added this group-level API to provide a bigger picture view of this data and to reduce the development effort required to obtain this information.</p>\n<h2 id=\"h_01GD3S9TSPXM7M4WHYKYF4E84M\"><span style=\"font-weight: 400;\">What do I need to do?</span></h2>\n<p>Nothing. The <a href=\"https://developer.zendesk.com/api-reference/agent-availability/account-groups-availability/account_groups_availability/\">Account Group Availability API</a> is available to everyone, regardless of whether or not you're using <a href=\"https://support.zendesk.com/hc/en-us/articles/5866925319962\">omnichannel routing</a>.</p>\n<p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/1260801877069\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\">Zendesk Customer Support</a>.</p>"
+    },
+    {
+      "id": 7390824073626,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7390824073626.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/7390824073626-Announcing-general-improvements-to-the-Talk-call-console",
+      "author_id": 1900489642224,
+      "comments_disabled": false,
+      "draft": false,
+      "promoted": true,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298833818,
+      "created_at": "2024-06-07T14:47:38Z",
+      "updated_at": "2024-06-12T10:08:37Z",
+      "name": "Announcing general improvements to the Talk call console",
+      "title": "Announcing general improvements to the Talk call console",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2024-06-12T09:57:24Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801242670,
+      "content_tag_ids": [
+        "01J05YPR788W0SKHT9S69RMKM0",
+        "01J05YQ1CKK0Z13JE7JB84QDGT"
+      ],
+      "label_names": [
+        "Talk"
+      ],
+      "body": "<table style=\"box-sizing: inherit; margin-top: 15px; margin-bottom: 20px; color: #16140c; font-family: ' ABC Social' , Arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: #fefaf2; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; border-collapse: collapse; width: 910.664px; height: 44px;\" border=\"1\">\n<tbody style=\"box-sizing: inherit;\">\n<tr style=\"box-sizing: inherit; height: 22px;\">\n<td style=\"box-sizing: inherit; display: table-cell; padding: 5px; width: 303.219px; height: 22px;\" bgcolor=\"#F5F5F5\"><strong style=\"box-sizing: inherit;\">Announced on</strong></td>\n<td style=\"box-sizing: inherit; display: table-cell; padding: 5px; width: 303.219px; height: 22px;\" bgcolor=\"#F5F5F5\"><strong style=\"box-sizing: inherit;\">Rollout starts</strong></td>\n<td style=\"box-sizing: inherit; display: table-cell; padding: 5px; width: 303.227px; height: 22px;\" bgcolor=\"#F5F5F5\"><strong style=\"box-sizing: inherit;\">Rollout ends</strong></td>\n</tr>\n<tr style=\"box-sizing: inherit; height: 22px;\">\n<td style=\"box-sizing: inherit; display: table-cell; padding: 5px; width: 303.219px; height: 22px;\">June 12, 2024</td>\n<td style=\"box-sizing: inherit; display: table-cell; padding: 5px; width: 303.219px; height: 22px;\"><span class=\"wysiwyg-color-black\" style=\"box-sizing: inherit; color: #000000;\">June 12, 2024</span></td>\n<td style=\"box-sizing: inherit; display: table-cell; padding: 5px; width: 303.227px; height: 22px;\">June 12, 2024</td>\n</tr>\n</tbody>\n</table>\n<p>Recently, we made three changes to the call console that affect how outbound calls are made. Each change is small on its own, but when combined, they greatly enhance the experience for Talk agents. We believe it's time to highlight these improvements.</p>\n<h3 id=\"h_01J05XV7DH031FJM5AADJRNMDF\">What is changing?</h3>\n<h4 id=\"h_01HZSJGER2E4ZREQ8DJH09TR5N\">1. Ability to change the outbound line before placing a call</h4>\n<p>Previously, when initiating a call from the ticket using the \"Call &lt;number&gt;\" option, the call would start right away. This made it easy to call back a customer with just one click, but it also meant that agents couldn't change the outbound line before making the call.</p>\n<p>Now, when starting a call from a number — either in the ticket or from the user profile's phone number — the call console simply opens with the ticket requester's number populated on it, allowing the agent to select a different line before hitting the \"Call\" button. </p>\n<h4 id=\"h_01HZSJGP9NNWVF5VAVSCPT1KXC\">2. The country code now matches the outbound line selected.</h4>\n<p>Historically, the call console always defaulted to the U.S. country code (+1) when opened, so non-American customers had to change the country code every time they made a local call. Now, the country code <em>defaults to the country of the line selected in the outbound lines dropdown</em>.</p>\n<p>For instance, let's say a customer has two phone lines — one in Australia (+61) and another in the United Kingdom (+44) — and the Australian line is currently selected as the active outbound line. When the call console is first opened, it defaults to the Australian country code (+61), since this is the country code of the line selected. If after placing a few local calls the agent switches to the UK line and places an international call to Ireland (+353), the call console remembers that choice and keeps +353 as the selected country code. However, once they refresh the page or open a new browser tab/window, the country code will revert to (+44), reflecting that the outbound line currently selected is now the UK number.</p>\n<p>This is great news for all customers, especially for those who primarily make local calls within one country, as they will rarely need to change the country code.</p>\n<h4 id=\"h_01HZSJGWS1Z1RYVE45KCMVHYFH\">3. The outbound line selector now allows searching</h4>\n<p>This is the biggest small change we’ve made. Finding a line by scrolling through the unsorted outbound line dropdown has always been a chore for customers with more than a handful of phone lines. Now, as most customers must have noted already, agents can simply start typing the number, name, or brand of the line, to filter down the list and instantly select the line they want to use. What a time saver!</p>\n<p> </p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7390824073114\" alt=\"Kapture 2024-01-29 at 10.53.24.gif\" width=\"264\" height=\"629\"></p>\n<h3 id=\"h_01J05WKN09G3GXE5BF2566QPYG\">Why is Zendesk making this change?</h3>\n<p>These changes represent the first of many improvements we plan to implement in the Talk call console in the coming months, aiming to enhance Talk agents' productivity. Stay tuned for more updates.</p>\n<h3 id=\"h_01J05WMDVABK4KXR0ANEK5G8NQ\">What do I need to do?</h3>\n<p>Nothing! All changes are live for all Talk customers.</p>\n<p>If you have feedback or questions about this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/1260801308510\">community forum</a> where we diligently collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\">Zendesk Customer Support</a>.</p>\n<p> </p>"
     },
     {
       "id": 7389055394586,
@@ -896,38 +928,6 @@
         "mt"
       ],
       "body": "<h2 id=\"h_01HY0XK5HF6BAWJDNBFBVP9XWE\">Question</h2>\n<p>I am not seeing Side Conversations as a channel when creating a ticket view for my Side Conversation tickets. How do I resolve this?</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7273873842970\" alt=\"Creating view\"></p>\n<h2 id=\"h_01HY0XK5HFZN4VGD5AP703ZARW\">Answer</h2>\n<ol>\n<li>Confirm if the option for <strong>Turn on Child tickets</strong> is enabled in Side Conversation settings in <strong>Admin &gt; Workspaces &gt; Side Conversation</strong>.<br><br><img src=\"/attachments/token/npaxXokpBnv6HI6eejGtfLcGu/?name=Screenshot+2024-05-16+at+10.33.48%E2%80%AFPM.png\" alt=\"Side conversation settings\"> </li>\n<li>Check the box to activate it.</li>\n</ol>\n<div class=\"p\">\n<div class=\"note note\">\n<span class=\"notetitle\">Note:</span> To display tickets when creating a ticket view, it's necessary to enable this feature because Views visualize tickets. If there aren't any Side Conversation tickets, then the Side Conversation channel won't manifest in the account.</div>\n</div>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/6941552419226-Can-I-create-a-view-for-side-conversations\" target=\"_blank\" rel=\"noopener noreferrer\">Can I create a view for side conversations?</a></p>"
-    },
-    {
-      "id": 7271601720730,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7271601720730.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/7271601720730-Service-Incident-May-16-2024",
-      "author_id": 1263082110769,
-      "comments_disabled": true,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": -1,
-      "vote_count": 1,
-      "section_id": 4405298854426,
-      "created_at": "2024-05-16T05:32:06Z",
-      "updated_at": "2024-05-16T05:32:44Z",
-      "name": "Service Incident - May 16, 2024",
-      "title": "Service Incident - May 16, 2024",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2024-05-16T05:32:44Z",
-      "user_segment_id": null,
-      "permission_group_id": 1324079,
-      "content_tag_ids": [],
-      "label_names": [
-        "messaging",
-        "service incident",
-        "sunco",
-        "service notification"
-      ],
-      "body": "<h3 id=\"h_01HTHGD3YVFX05QKV5JCGGMZCS\" class=\"p1\"><strong>SUMMARY</strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><span class=\"wysiwyg-color-black40\" style=\"color: #000000;\"><strong>05:30 UTC | 22:30 PT</strong></span><br>Between 04:12 and 04:20 UTC, we detected a blip in our Sunshine Conversations service that may have resulted in some undelivered messages in Messaging/SunCo API. This issue is now resolved. Apologies for any inconvenience this caused.</p>\n<p class=\"p1\"> </p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p>\n<h4 id=\"h_01HTHGD3YVS7RVQDA6MFRRVQZ8\"><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our<span> </span><a href=\"https://status.zendesk.com/\">system status page</a>. You can follow this article to receive a notification once our post-mortem investigation is completed. If you have additional questions about this incident,<span> </span><a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\" target=\"_self\" rel=\"undefined\">please log a ticket with us via ZBot Messaging within the Widget</a>.</p>"
     }
   ],
   "sort_by": "position",
