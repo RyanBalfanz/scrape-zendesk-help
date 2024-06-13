@@ -1,5 +1,5 @@
 {
-  "count": 4574,
+  "count": 4575,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 153,
@@ -281,6 +281,39 @@
         "role_admin"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>I noticed the bot only recommends articles when an end user asks a question twice. What is causing the behavior?</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7416080214298\" alt=\"image.png\" width=\"200\"></p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>This is expected behaviour. If the bot needs more information to match an intent or answer, and you enabled <a href=\"https://support.zendesk.com/hc/en-us/articles/4422584657434-Designing-a-conversation-bot-using-answers#:~:text=If%20the%20bot%20needs%20clarification,-You%20can%20set&amp;text=This%20response%20is%20triggered%20during,activated%20or%20deactivated%20as%20needed.&amp;text=To%20request%20clarification-,On%20the%20Behavior%20tab%2C%20expand%20the,the%20bot%20needs%20clarification%20section.\" target=\"_blank\" rel=\"noopener noreferrer\">If the bot needs clarification</a>, an automated response is first sent to end users to ask for clarification, rather than the expected article list.</p>\n<p>To avoid that first clarification question, you can disable that feature.</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7411218163482\" alt=\"Feature.png\" width=\"290\"></p>"
+    },
+    {
+      "id": 7410837495066,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7410837495066.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/7410837495066-How-can-I-use-macros-to-add-tags-on-a-ticket",
+      "author_id": 1900815493044,
+      "comments_disabled": false,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298901274,
+      "created_at": "2024-06-11T13:31:24Z",
+      "updated_at": "2024-06-13T13:34:54Z",
+      "name": "How can I use macros to add tags on a ticket?",
+      "title": "How can I use macros to add tags on a ticket?",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2024-06-11T14:09:04Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801135069,
+      "content_tag_ids": [],
+      "label_names": [
+        "ks",
+        "ab0",
+        "ab0_support",
+        "role_admin",
+        "role_owner"
+      ],
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>How to use macros to add tags on a ticket?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p><strong>To add tags on a ticket using macros</strong></p>\n<ol>\n<li>\n<a href=\"https://support.zendesk.com/hc/en-us/articles/4408844187034-Creating-macros-for-repetitive-ticket-responses-and-actions\">Create</a> a new macro.</li>\n<li>Add a name.</li>\n<li>In the <strong>Actions</strong> section, click on the <strong>Type or select actions</strong> and select <strong>Add tags</strong>.</li>\n<li>On the right side, add tags separated by space:<br><img src=\"https://support.zendesk.com/hc/article_attachments/7410933434266\" width=\"534\" height=\"160\">\n</li>\n<li>Click on the <strong>Create</strong> at the bottom of the page to create the macro.</li>\n</ol>\n<p>The macro that you created will now be available and selectable from the ticket. For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408887656602-Using-macros-to-update-tickets#topic_kda_eew_uf\" target=\"_blank\" rel=\"noopener noreferrer\">Using macros to update tickets</a>.</p>"
     },
     {
       "id": 7406001461658,
@@ -887,41 +920,6 @@
         "role_admin"
       ],
       "body": "<body>\n\n<div class=\"body\">\n<p class=\"p what-plan-p\"><a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/5411234991258-plan\" target=\"_blank\">What's my plan?</a></p>\n<p class=\"p\"><img alt=\"Suite all\" id=\"topic_dph_pd1_4bc__image_ibw_lj1_4bc\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/plan_available_suite_all.png\"><img alt=\"all plans\" id=\"topic_dph_pd1_4bc__image_wzt_qhy_np\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/plan_available_guide_lp.png\"></p>\n<p class=\"p\">There’s nothing quite as empowering as solving a problem on your own. When it comes to\n            customer support, 73% of consumers want to solve product or service issues on their own,\n            and 90% of consumers now expect a brand or organization to offer a self-service customer\n            support portal (source: Zendesk research 2023).</p>\n<p class=\"p\">Self-service support equips customers with round-the-clock information without having to\n            wait for a response. It is one of the lowest-cost channels for providing excellent\n            customer service and high resolution rates. However, the success of online self-service\n            depends on the quality, quantity, and accessibility of your company’s knowledge-base\n            content. To provide helpful self-service, businesses need to build a knowledge base with\n            relevant content that addresses customers’ biggest questions.</p>\n<p class=\"p\">If you're using AI-powered features that draw information from your help center content,\n            a strong knowledge base is even more critical, as it will improve the quality and\n            accuracy of automated responses. A comprehensive help center with well-written, focused\n            articles will lead to better results for your article suggestions and generative\n            replies.</p>\n<p class=\"p\">When it comes to launching and maintaining a help center, companies often have to weigh\n            competing priorities, including the need for a quick launch, the importance of covering\n            a wide range of topics, and the desire to free up agents to respond directly to\n            customers. Whether you have a help center and are looking to quickly expand your\n            content, or you are starting from the ground up, you can explore one or more of the\n            following phases to help you build your knowledge base: </p>\n<div class=\"p\">\n<ul class=\"ul\" id=\"topic_dph_pd1_4bc__ul_idt_t41_4bc\">\n<li class=\"li\">\n<strong class=\"ph b\">Phase 1: Concept and initiation</strong> - Consider the goals of your organization\n                    and identify primary users and key contributors.</li>\n<li class=\"li\">\n<strong class=\"ph b\">Phase 2: Content planning and creation</strong> - Uncover common issues to\n                    populate the knowledge base and create high-quality, engaging content quickly\n                    and efficiently.</li>\n<li class=\"li\">\n<strong class=\"ph b\">Phase 3: Launch</strong> - Boost awareness and promote your knowledge base, and\n                    leverage AI agents to boost automated resolutions.</li>\n<li class=\"li\">\n<strong class=\"ph b\">Phase 4: Analyze and optimize</strong> - Monitor the performance of your knowledge\n                    base and ensure ongoing improvement.</li>\n</ul>\n</div>\n<p class=\"p\">Check out our visual guide for building a successful knowledge base:</p>\n<p class=\"p\"><a class=\"xref\" href=\"https://docs.google.com/presentation/d/e/2PACX-1vQX-z-Jdl5RbmsT_omQozfKozXr8xRyx2WnXeP7bpO5Nrae2TIaCt9pd8qDnAdjAWjnIAMgAp56CbS1/embed?start=false&amp;loop=false&amp;delayms=3000&amp;slide=id.g1f7f1140fe3_0_0\" target=\"_blank\">View full size</a></p>\n<p class=\"p\"></p>\n<div class=\"non-responsive\"><iframe class=\"iframe embed-responsive-item\" controls=\"controls\" height=\"439\" src=\"https://docs.google.com/presentation/d/e/2PACX-1vQX-z-Jdl5RbmsT_omQozfKozXr8xRyx2WnXeP7bpO5Nrae2TIaCt9pd8qDnAdjAWjnIAMgAp56CbS1/embed?start=false&amp;loop=false&amp;delayms=3000\" width=\"730\"></iframe></div>\n</div>\n</body>"
-    },
-    {
-      "id": 7334299861402,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7334299861402.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/7334299861402-Why-are-calls-to-certain-countries-blocked",
-      "author_id": 1263659885869,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405303740826,
-      "created_at": "2024-05-28T14:25:33Z",
-      "updated_at": "2024-06-04T15:04:38Z",
-      "name": "Why are calls to certain countries blocked?",
-      "title": "Why are calls to certain countries blocked?",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2024-05-28T16:57:13Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801135069,
-      "content_tag_ids": [],
-      "label_names": [
-        "ks",
-        "ab0",
-        "mt",
-        "ab0_talk",
-        "role_agent",
-        "role_admin",
-        "role_owner"
-      ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>I noticed that calls to certain countries are blocked. Why can't I call some countries?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>Geographic permissions for some countries in Zendesk can be turned off for these reasons:</p>\n<ul>\n<li>Privacy and security: To protect user privacy and comply with data protection regulations, Zendesk may restrict or turn off geo permission for a country.</li>\n<li>Regulatory compliance: Different regions have regulations regarding user data, and turning off geo permissions ensures compliance with these laws.</li>\n<li>Simplified configuration: Geo permissions are turned off to simplify the setup and maintenance of the platform for administrators and users.</li>\n<li>Performance optimization: Geo permission features are turned off to improve the performance of the platform and reduce the amount of data processing and transmission.</li>\n</ul>\n<p>If geo permissions are essential for your operations, contact<span> </span><a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\" target=\"_blank\" rel=\"noopener\"><span>Zendesk Customer Support</span></a><span> </span>and provide the number you are trying to call.</p>\n<p>For more information, see these articles:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408827413146-What-are-the-most-common-Talk-error-messages#:~:text=The%20Call%20blocked%20error%20message,Customer%20Support%20for%20further%20help.\" target=\"_blank\" rel=\"noopener noreferrer\">What are the most common Talk error messages?</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/5432563445786-Talk-error-Cannot-connect-to-number\" target=\"_blank\" rel=\"noopener noreferrer\">Talk error: Cannot connect to number</a></li>\n</ul>"
     }
   ],
   "sort_by": "position",
