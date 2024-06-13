@@ -1,11 +1,40 @@
 {
-  "count": 4573,
+  "count": 4574,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 153,
   "per_page": 30,
   "previous_page": null,
   "articles": [
+    {
+      "id": 7423922310426,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7423922310426.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/7423922310426-Service-Incident-June-13th-2024",
+      "author_id": 1263082183609,
+      "comments_disabled": true,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298854426,
+      "created_at": "2024-06-13T13:25:44Z",
+      "updated_at": "2024-06-13T13:25:44Z",
+      "name": "Service Incident - June 13th, 2024",
+      "title": "Service Incident - June 13th, 2024",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2024-06-13T13:25:44Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801242670,
+      "content_tag_ids": [],
+      "label_names": [
+        "service_incident"
+      ],
+      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\"><p class=\"p1\"><strong>June 13, 2024 01:25 PM UTC | June 13, 2024 06:25 AM PT </strong><br>We are aware of two spikes in errors impacting customers across multiple Pods where they would see the “Messages not found” Error code A_xxx when trying to load a ticket in Support. These issues have subsided, and you should be able to access tickets without further problems after reloading your browser and/or clearing your cache and cookies. We continue to investigate the cause of these errors and appreciate your patience.</p></div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n"
+    },
     {
       "id": 7419516720922,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7419516720922.json",
@@ -262,8 +291,8 @@
       "draft": false,
       "promoted": true,
       "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
+      "vote_sum": 1,
+      "vote_count": 1,
       "section_id": 4405298833818,
       "created_at": "2024-06-10T20:34:02Z",
       "updated_at": "2024-06-12T22:28:49Z",
@@ -893,35 +922,6 @@
         "role_owner"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>I noticed that calls to certain countries are blocked. Why can't I call some countries?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>Geographic permissions for some countries in Zendesk can be turned off for these reasons:</p>\n<ul>\n<li>Privacy and security: To protect user privacy and comply with data protection regulations, Zendesk may restrict or turn off geo permission for a country.</li>\n<li>Regulatory compliance: Different regions have regulations regarding user data, and turning off geo permissions ensures compliance with these laws.</li>\n<li>Simplified configuration: Geo permissions are turned off to simplify the setup and maintenance of the platform for administrators and users.</li>\n<li>Performance optimization: Geo permission features are turned off to improve the performance of the platform and reduce the amount of data processing and transmission.</li>\n</ul>\n<p>If geo permissions are essential for your operations, contact<span> </span><a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\" target=\"_blank\" rel=\"noopener\"><span>Zendesk Customer Support</span></a><span> </span>and provide the number you are trying to call.</p>\n<p>For more information, see these articles:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408827413146-What-are-the-most-common-Talk-error-messages#:~:text=The%20Call%20blocked%20error%20message,Customer%20Support%20for%20further%20help.\" target=\"_blank\" rel=\"noopener noreferrer\">What are the most common Talk error messages?</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/5432563445786-Talk-error-Cannot-connect-to-number\" target=\"_blank\" rel=\"noopener noreferrer\">Talk error: Cannot connect to number</a></li>\n</ul>"
-    },
-    {
-      "id": 7330141538970,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7330141538970.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/7330141538970-Service-Incident-May-27th-2024-Support-All-Pods-Delayed-Email-Notifications",
-      "author_id": 1263082084489,
-      "comments_disabled": true,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405298854426,
-      "created_at": "2024-05-27T17:18:51Z",
-      "updated_at": "2024-06-12T20:59:48Z",
-      "name": "Service Incident - May 27th, 2024 - Support | All Pods - Delayed Email Notifications",
-      "title": "Service Incident - May 27th, 2024 - Support | All Pods - Delayed Email Notifications",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2024-06-12T20:59:02Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801242670,
-      "content_tag_ids": [],
-      "label_names": [
-        "service_incident"
-      ],
-      "body": "<h3 id=\"h_01J073N4M16NMY4P0YKJT0GQD5\" class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>May 27, 2024 05:18 PM UTC | May 27, 2024 10:18 AM PT </strong><br>Between 12:00 and 16:55 UTC on May 27, 2024, Gmail customers may have experienced delayed notification delivery. Email queues have caught up and all notifications have been processed at this time.</p>\n<p class=\"undefined\"> </p>\n</div>\n<h3 id=\"h_01J073P3NEZQ9XPGRA8390F78C\">Post-Mortem</h3>\n<p><br>On May 27 2024, users experienced delays in email notifications due to a loss of temporary configuration settings. This affected the timely delivery of emails but has since been corrected.</p>\n<h3 id=\"h_01J073Q8TM69M80M7WMHPG5F1N\">Root Cause Analysis</h3>\n<p><br>The delay was caused by a loss of temporary fixes applied to manage email delivery, which were erased during routine system maintenance. These temporary fixes were not intended to persist through maintenance cycles.</p>\n<h3 id=\"h_01J073QC5SZ81RSWTTM6E2M1H4\">Resolution</h3>\n<p><br>To resolve the issue, a new version of our software was deployed that included a permanent fix to the configuration, restoring normal service for email notifications.</p>\n<h3 id=\"h_01J073QFNW3E9MMP1ZRY83YGBM\">Remediation Items</h3>\n<p><br>1. We will ensure that important configuration changes are applied in a way that they remain persistent.<br>2. Monitoring alerts will be re-enabled to catch similar issues more promptly in the future.<br>3. We have requested a feature from our software provider to allow dynamic rules to persist through maintenance. This will help prevent similar issues from recurring.</p>\n<h4 id=\"h_01J073N4M1GNJS7T0TQC13KZAT\"><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>"
     }
   ],
   "sort_by": "position",
