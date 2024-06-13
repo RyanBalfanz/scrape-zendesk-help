@@ -468,7 +468,7 @@
     {
       "id": 7380423546394,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7380423546394.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/7380423546394-Service-Incident-June-6th-2024",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/7380423546394-Service-Incident-June-6-2024-Support-All-Pods-Errors-displayed-when-loading-Messaging-tickets",
       "author_id": 1263082139889,
       "comments_disabled": true,
       "draft": false,
@@ -478,21 +478,21 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2024-06-06T00:34:53Z",
-      "updated_at": "2024-06-06T00:34:53Z",
-      "name": "Service Incident - June 6th, 2024",
-      "title": "Service Incident - June 6th, 2024",
+      "updated_at": "2024-06-13T05:43:26Z",
+      "name": "Service Incident - June 6, 2024 - Support | All Pods - Errors displayed when loading Messaging tickets",
+      "title": "Service Incident - June 6, 2024 - Support | All Pods - Errors displayed when loading Messaging tickets",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-06-06T00:34:53Z",
+      "edited_at": "2024-06-13T05:42:10Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
       "label_names": [
         "service_incident"
       ],
-      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\"><p class=\"p1\"><strong>June 06, 2024 12:34 AM UTC | June 05, 2024 05:34 PM PT </strong><br>From June 5, 22:03 UTC to 23.32 UTC, Zendesk Support customers may have been presented with a ‘Couldn’t connect to server’ error when trying to update tickets. A subset of customers may have also experienced messaging delays during the impact window. A rollback of a recent change was performed, and can confirm this issue is resolved.</p></div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n"
+      "body": "<h4 id=\"h_01J081TEZFQSR8JZMSAJMM9JND\">Summary</h4>\n<div id=\"message-list\">On June 5, 2024 from 22:03 UTC to 22:40 UTC, Zendesk Support (Agent Workspace and Omnichannel) customers may have been presented with a ‘Couldn’t connect to server’ error when trying to update tickets. A subset of customers may have also experienced messaging delays during the impact window.</div>\n<h4 id=\"h_01J081TRH2XSVM6MVG8S4S628S\">Root Cause Analysis</h4>\n<div>This incident was caused by a bug in the messaging and omnichannel feature that was introduced in a recent code deployment.</div>\n<h4 id=\"h_01J081V0XKV2ADA87AD4FMGFTG\">Resolution</h4>\n<div>To fix this issue, our team identified the culprit code change and rolled it back. </div>\n<h4 id=\"h_01J081W6TQ7AP18WHHEBREQFPJ\">Remediation Items</h4>\n<ol>\n<li>Implement more robust testing for live messaging conversations [Scheduled].</li>\n<li>Investigate longer soak times for messaging-specific code changes [Scheduled].</li>\n</ol>\n<p> </p>\n<h4 id=\"h_01J080XPW3MF4DDGTZMKG81HGD\">For more information</h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>"
     },
     {
       "id": 7372566670746,
