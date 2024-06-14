@@ -353,14 +353,14 @@
       "vote_count": 0,
       "section_id": 4405298901274,
       "created_at": "2024-06-11T13:31:24Z",
-      "updated_at": "2024-06-13T17:48:53Z",
+      "updated_at": "2024-06-14T08:59:35Z",
       "name": "How can I use macros to add tags on a ticket?",
       "title": "How can I use macros to add tags on a ticket?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-06-13T17:48:51Z",
+      "edited_at": "2024-06-14T08:59:34Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -371,7 +371,7 @@
         "role_admin",
         "role_owner"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>How to use macros to add tags on a ticket?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p><strong>To add tags on a ticket using macros</strong></p>\n<ol>\n<li>\n<a href=\"https://support.zendesk.com/hc/en-us/articles/4408844187034-Creating-macros-for-repetitive-ticket-responses-and-actions\">Create</a> a new macro.</li>\n<li>Add a name.</li>\n<li>In the <strong>Actions</strong> section, click on the <strong>Type or select actions</strong> menu and select <strong>Add tags</strong>.</li>\n<li>On the right side, add tags separated by space:<br><img src=\"https://support.zendesk.com/hc/article_attachments/7410933434266\" width=\"534\" height=\"160\">\n</li>\n<li>Click on the <strong>Create</strong> button at the bottom of the page to create the macro.</li>\n</ol>\n<p>The macro that you created will now be available and selectable from the ticket. For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408887656602-Using-macros-to-update-tickets#topic_kda_eew_uf\" target=\"_blank\" rel=\"noopener noreferrer\">Using macros to update tickets</a>.</p>"
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>How to use macros to add tags on a ticket?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p><strong>To add tags on a ticket using macros</strong></p>\n<ol>\n<li>\n<a href=\"https://support.zendesk.com/hc/en-us/articles/4408844187034-Creating-macros-for-repetitive-ticket-responses-and-actions\">Create</a> a new macro.</li>\n<li>Add a name.</li>\n<li>In the <strong>Actions</strong> section, click on the <strong>Type or select actions</strong> menu and select <strong>Add tags</strong>.</li>\n<li>On the right side, add tags separated by space:<br><img src=\"https://support.zendesk.com/hc/article_attachments/7410933434266\" width=\"534\" height=\"160\">\n</li>\n<li>Click on the <strong>Create</strong> button at the bottom of the page to create the macro.</li>\n</ol>\n<p>The macro that you created will now be available and selectable from the ticket. For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408887656602-Using-macros-to-update-tickets#topic_kda_eew_uf\" target=\"_blank\" rel=\"noopener noreferrer\">Using macros to update tickets</a>.</p>"
     },
     {
       "id": 7406001461658,
