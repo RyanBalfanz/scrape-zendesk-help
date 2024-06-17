@@ -280,7 +280,7 @@
     {
       "id": 7412185704730,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7412185704730.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/7412185704730-Service-Incident-June-11th-2024",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/7412185704730-Service-Incident-June-11-2024-Support-Pod-28-Issues-creating-or-updating-tickets",
       "author_id": 1263082084489,
       "comments_disabled": true,
       "draft": false,
@@ -290,21 +290,21 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2024-06-11T18:21:02Z",
-      "updated_at": "2024-06-11T18:21:03Z",
-      "name": "Service Incident - June 11th, 2024",
-      "title": "Service Incident - June 11th, 2024",
+      "updated_at": "2024-06-17T09:04:52Z",
+      "name": "Service Incident - June 11, 2024 - Support | Pod 28 - Issues creating or updating tickets",
+      "title": "Service Incident - June 11, 2024 - Support | Pod 28 - Issues creating or updating tickets",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-06-11T18:21:03Z",
+      "edited_at": "2024-06-17T09:04:24Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
       "label_names": [
         "service_incident"
       ],
-      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\"><p class=\"p1\"><strong>June 11, 2024 06:21 PM UTC | June 11, 2024 11:21 AM PT </strong><br>Between 18:00 and 18:07 UTC, some customers on Pod 28 may have seen issues creating or updating tickets, and some email notifications may have been delayed. Ticket functionality has been restored, and email notifications have been retried at this time.</p></div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n"
+      "body": "<h3 id=\"h_01J0JQ0HYMYKWXRZ3TFT5N0DT6\"><strong><span style=\"color: #06363c;\">SUMMARY</span></strong></h3>\n<p>On June 11, 2024 from 18:00 UTC to 18:07 UTC, some customers on Pod 28 experienced issues creating or updating tickets and a delay in email notifications. </p>\n<h3 id=\"h_01J0JQ0HYMYQYX2QMPPQECBCET\"><span style=\"color: #06363c;\">Timeline</span></h3>\n<p><strong>June 11, 2024 06:21 PM UTC | June 11, 2024 11:21 AM PT</strong></p>\n<p>Between 18:00 and 18:07 UTC, some customers on Pod 28 may have seen issues creating or updating tickets, and some email notifications may have been delayed. Ticket functionality has been restored, and email notifications have been retried at this time.</p>\n<h3 id=\"h_01J0JQ0HYM8A9VJ00GJZR8GXZG\"><strong><span style=\"color: #06363c;\">POST-MORTEM</span></strong></h3>\n<h3 id=\"h_01J0JQ0HYMX91BNSWQ3NR0WYCP\"><span style=\"color: #06363c;\">Root Cause Analysis</span></h3>\n<p>During a routine switchover, the database cluster unintentionally transitioned to a read-only mode, resulting in the incident.</p>\n<h3 id=\"h_01J0JQ0HYMKXGWX4DWA2KE5N5Q\"><span style=\"color: #06363c;\">Resolution</span></h3>\n<p>To fix this issue, the cluster was returned into its original state. </p>\n<h3 id=\"h_01J0JQ0HYM0EPB5982QC111HDZ\"><span style=\"color: #06363c;\">Remediation Items</span></h3>\n<ol>\n<li>New monitoring and alerting around clusters entering read-only state [Done]</li>\n</ol>\n<h4 id=\"h_01J0JQ0FBGVX4WP8R5VNANCJTT\"><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>"
     },
     {
       "id": 7411141080346,
