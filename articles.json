@@ -47,7 +47,7 @@
       "vote_count": 0,
       "section_id": 4405303741594,
       "created_at": "2024-06-17T17:20:56Z",
-      "updated_at": "2024-06-17T19:48:14Z",
+      "updated_at": "2024-06-18T15:02:54Z",
       "name": "Why am I having issues publishing my conversation bot?",
       "title": "Why am I having issues publishing my conversation bot?",
       "source_locale": "en-us",
@@ -61,9 +61,45 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_bots_automation"
       ],
       "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2>\n<p>I'm trying to publish my conversation bot but cannot. Why is that?</p>\n<h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2>\n<p>The Zendesk Agent Workspace and messaging must be enabled to utilize the conversation bot. This step-by-step process will allow you to launch your conversation bot successfully.</p>\n<h3 id=\"h_01J0KKC5BRTAXG2MA9KDMHVVSS\">1. Enable Zendesk Agent Workspace</h3>\n<p>Activate the Zendesk Agent Workspace by following the steps in this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4581758611866-Activating-and-deactivating-the-Zendesk-Agent-Workspace#topic_xjc_3d3_b3b:~:text=activate%20or%20deactivate-,Activating%20the%20Agent%20Workspace,-Deactivating%20the%20Agent\" target=\"_blank\" rel=\"noopener noreferrer\">Activating and deactivating the Zendesk Agent Workspace</a>.</p>\n<h3 id=\"h_01J0KKEC9AB4XHPH6K9SM9GX4V\">2. Enable messaging</h3>\n<p id=\"h_01J0KKEC9B2TZ58QH3NEBF9F7M\">Enabling messaging at the account level by following the steps in this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/5106665089690-Why-can-t-I-migrate-to-messaging#h_01HXXDCGAP2XZZ4NVHF2KXDZ4A\" target=\"_blank\" rel=\"noopener noreferrer\">Why can't I migrate to messaging?</a></p>\n<p>See the video for a guided walkthrough of turning on messaging in your account:</p>\n<p class=\"wysiwyg-text-align-center\"><iframe src=\"//www.youtube-nocookie.com/embed/a59icFeBe10\" width=\"560\" height=\"315\" frameborder=\"0\" allowfullscreen=\"\"></iframe></p>\n<h3 id=\"h_01J0KKEC9BGM77PM0EDDMPREY8\">3. Create and publish the conversation bot</h3>\n<p>Conversation bots are part of <a href=\"https://support.zendesk.com/hc/en-us/articles/6970583409690\" target=\"_blank\" rel=\"noopener noreferrer\">AI Agents</a>. AI-powered bots can automate and resolve your customers' issues. You can use AI-powered bot features like conversation flows to create predetermined flows using Zendesk's bot builder when building your bot. Also, enable <a href=\"https://support.zendesk.com/hc/en-us/articles/6138268212634\" target=\"_blank\" rel=\"noopener noreferrer\">generative replies</a> in your conversation bot to generate answers to your customers' queries using your Zendesk knowledge base. To create a messaging bot, follow the instructions in this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408824263578-Creating-a-conversation-bot-for-your-web-and-mobile-channels#topic_uws_kqd_krb\" target=\"_blank\" rel=\"noopener noreferrer\">Creating a conversation bot for your web and mobile channels</a>.</p>\n<p>See the video for a guided walkthrough of how to create and publish a conversation bot:</p>\n<p class=\"wysiwyg-text-align-center\"><iframe src=\"//www.youtube-nocookie.com/embed/1iL3N6EmiRE\" width=\"560\" height=\"315\" frameborder=\"0\" allowfullscreen=\"\"></iframe></p>",
+      "user_segment_ids": []
+    },
+    {
+      "id": 7431328780314,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7431328780314.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/7431328780314-My-bot-is-not-recommending-articles-to-users-who-are-authenticated-with-JWT",
+      "author_id": 1264158225009,
+      "comments_disabled": false,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405303730330,
+      "created_at": "2024-06-14T15:16:13Z",
+      "updated_at": "2024-06-18T14:54:03Z",
+      "name": "My bot is not recommending articles to users who are authenticated with JWT",
+      "title": "My bot is not recommending articles to users who are authenticated with JWT",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2024-06-18T14:54:00Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801135069,
+      "content_tag_ids": [],
+      "label_names": [
+        "ks",
+        "ab0",
+        "ab0_support",
+        "ab0_bots_automation",
+        "role_admin",
+        "role_owner"
+      ],
+      "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2>\n<p>I noticed authenticated users are unable to see recommended articles in messaging. However, <a href=\"https://support.zendesk.com/hc/en-us/articles/4422584657434-Designing-a-conversation-bot-using-answers#topic_slx_n4p_qtb\" target=\"_blank\" rel=\"noopener noreferrer\">article recommendations are enabled</a> in the bot.<br><br><img src=\"https://support.zendesk.com/hc/article_attachments/7431358411674\"></p>\n<h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2>\n<p>End user who are authenticated with JWT can only access articles when their user profile in Zendesk is created before their conversation starts with the bot.</p>\n<p>For this to happen, ensure the end user exists in your Zendesk database before the user interacts with the Web Widget. This creates the external ID used to check the user profile and their access permissions. Users profiles without an external ID cannot see article recommendations, even if they are authenticated with JWT.</p>\n<p>For more information, see these articles:</p>\n<ul>\n<li>\n<p><a href=\"https://support.zendesk.com/hc/en-us/articles/6604813452570-Announcing-restricted-content-support-for-Zendesk-bots-article-recommendations-and-generative-replies\" target=\"_blank\" rel=\"noopener\">Announcing restricted content support for Zendesk bots article recommendations and generative replies</a></p>\n</li>\n<li>\n<p><a href=\"https://support.zendesk.com/hc/en-us/articles/6219127152794-What-are-the-different-types-of-JWT-proposed-by-Zendesk\" target=\"_blank\" rel=\"noopener noreferrer\">What are the different types of JWT proposed by Zendesk?</a></p>\n</li>\n</ul>",
       "user_segment_ids": []
     },
     {
@@ -79,7 +115,7 @@
       "vote_count": 0,
       "section_id": 5344527072154,
       "created_at": "2024-06-13T15:35:03Z",
-      "updated_at": "2024-06-17T19:02:29Z",
+      "updated_at": "2024-06-18T15:03:34Z",
       "name": "Organizing and managing your macros (New experience)",
       "title": "Organizing and managing your macros (New experience)",
       "source_locale": "en-us",
@@ -91,6 +127,7 @@
       "permission_group_id": 1324079,
       "content_tag_ids": [],
       "label_names": [
+        "mt",
         "role_admin"
       ],
       "body": "<body>\n\n<div class=\"body\">\n<p class=\"p what-plan-p\"><a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/5411234991258-plan\" target=\"_blank\">What's my plan?</a></p>\n<img alt=\"Suite all\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/plan_available_suite_all.png\">\n<img alt=\"all plans\" id=\"topic-1__image_qf2_rjy_np\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/plan_available_all.png\">\n<div class=\"p\">\n<div class=\"note attention\" id=\"topic-1__note_xh1_3ch_sbc\">\n<span class=\"attentiontitle\"></span> This article describes the\n                                        <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/6865149018010\" target=\"_blank\">new macro management\n                                        experience that began rolling out on June 13, 2024</a>.\n                                Your account has this experience only if you do not have the <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408884166554#topic_nld_3bj_mw\" target=\"_blank\">Manual ordering\n                                        setting</a> turned on. If you do, see <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408884166554\" target=\"_blank\">Organizing and managing your\n                                        macros (Old experience)</a> instead.</div>\n</div>\n<p class=\"p\">Most support teams create and use lots of macros. As your list of macros grows,\n                        you may find it difficult to quickly locate macros when you’re trying to\n                        apply one to a ticket. You can remedy this by organizing and sorting your\n                        macros using a number of different techniques.</p>\n<p class=\"p\">This article discusses the following topics related to organizing and managing\n                        macros:</p>\n<ul class=\"ul\" id=\"topic-1__ul_ocz_j14_2bc\">\n<li class=\"li\"><a class=\"xref\" href=\"#topic_dgn_12j_mw\">Accessing the Macros page</a></li>\n<li class=\"li\"><a class=\"xref\" href=\"#topic_ldp_cyj_mw\">Browsing and searching the macros list</a></li>\n<li class=\"li\"><a class=\"xref\" href=\"#topic_mtv_gmx_tb\">Editing, cloning, deactivating, and deleting macros</a></li>\n<li class=\"li\"><a class=\"xref\" href=\"#topic_dpr_k1j_mw\">Categorizing macros</a></li>\n<li class=\"li\"><a class=\"xref\" href=\"#id_box_qtk_kd\">Sorting the list of macros</a></li>\n<li class=\"li\"><a class=\"xref\" href=\"#topic_jf5_2cc_dx\">Turning off the most-used macros option</a></li>\n</ul>\n<p class=\"p\">Related articles:</p>\n<div class=\"p\">\n<ul class=\"ul\">\n<li class=\"li\"><a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408887656602\" target=\"_blank\">Using macros to update\n                                                tickets</a></li>\n<li class=\"li\"><a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408844187034\" target=\"_blank\">Creating macros for\n                                        tickets</a></li>\n<li class=\"li\"><a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408832783642\" target=\"_blank\">Building macro action\n                                                statements</a></li>\n<li class=\"li\"><a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408886850586\" target=\"_blank\">Creating macros from existing\n                                                tickets</a></li>\n<li class=\"li\"><a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/5217191091354\" target=\"_blank\">Creating macros from\n                                                macro suggestions for admins</a></li>\n</ul>\n</div>\n</div>\n<div aria-labelledby=\"ariaid-title2\" class=\"topic nested1\" id=\"topic_dgn_12j_mw\">\n<h2 class=\"title topictitle2\" id=\"ariaid-title2\">Accessing the Macros page</h2>\n<div class=\"body\">\n<p class=\"p\">All of your available macros can be managed through the Macros page.</p>\n<p class=\"p\"><strong class=\"ph b\">To access the Macros page</strong></p>\n<div class=\"p\">\n<ul class=\"ul\" id=\"topic_dgn_12j_mw__ul_yyq_1fv_4v\">\n<li class=\"li\">\n<span class=\"ph\">In <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4581766374554#topic_hfg_dyz_1hb\" target=\"_blank\">Admin Center</a>, click\n          <img class=\"image\" id=\"topic_dgn_12j_mw__d7e930\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/ac_workspaces_icon.png\">\n<strong class=\"ph b\">Workspaces</strong> in the sidebar, then select <strong class=\"ph b\">Agent tools &gt; Macros</strong>.</span><p class=\"p\"><img class=\"image\" id=\"topic_dgn_12j_mw__image_urz_bc4_2bc\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/macros_consolidated_settings.png\" width=\"600\"></p>\n</li>\n</ul>\n</div>\n<p class=\"p\">On the <strong class=\"ph b\">Macros</strong> tab, you can browse, categorize, sort, reorder, and\n                                filter your macros. Read on for more information.</p>\n<p class=\"p\">On the <strong class=\"ph b\">Suggestions</strong> tab, you can create and manage macro\n                                suggestions for admins. See <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/5217191091354\" target=\"_blank\">Creating macros from macro\n                                        suggestions for admins</a> for more information.</p>\n</div>\n</div>\n<div aria-labelledby=\"ariaid-title3\" class=\"topic nested1\" id=\"topic_ldp_cyj_mw\">\n<h2 class=\"title topictitle2\" id=\"ariaid-title3\">Browsing and searching the macros list</h2>\n<div class=\"body\">\n<p class=\"p\">Macros are divided by activation status. The default view on the Macros\n                                page is the list of <strong class=\"ph b\">Active</strong> macros. You can view macros that\n                                have been deactivated by clearing the <strong class=\"ph b\">Active</strong> filter. For more\n                                information on activation status, see <a class=\"xref\" href=\"#topic_mtv_gmx_tb\">Editing,\n                                        cloning, deactivating, and deleting macros</a>.</p>\n<p class=\"p\">By default, macros are listed in alphabetical order. If you have a large\n                                number of macros, the list will be paginated. You can scroll through\n                                the pages using the controls at the bottom of the page.</p>\n<p class=\"p\"><img class=\"image img-screenshot\" id=\"topic_ldp_cyj_mw__image_l53_rtj_mw\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/pagination.png\"></p>\n<p class=\"p\">If you know the name, or partial name, of the macro you want to view, you\n                                can enter it into the search box at the top of the page.</p>\n<p class=\"p\"><img class=\"image img-screenshot\" id=\"topic_ldp_cyj_mw__image_blx_wxj_mw\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/macros_consolidated_settings_search.png\" width=\"600\"></p>\n<p class=\"p\">All macros containing the search term appear in the list.</p>\n<p class=\"p\">Click <strong class=\"ph b\">Clear search</strong> to return to the full list.</p>\n</div>\n</div>\n<div aria-labelledby=\"ariaid-title4\" class=\"topic nested1\" id=\"topic_mtv_gmx_tb\">\n<h2 class=\"title topictitle2\" id=\"ariaid-title4\">Editing, cloning, deactivating, and deleting macros</h2>\n<div class=\"body\">\n<p class=\"p\">You can edit, clone, deactivate, or delete a macro by selecting the\n                                checkbox next to its name. </p>\n<p class=\"p\"><img class=\"image img-screenshot\" id=\"topic_mtv_gmx_tb__image_zfd_qhh_4w\" src=\"https://zen-marketing-documentation.s3.us-west-1.amazonaws.com/docs/en/macros_consolidated_settings_checkbox.png\" width=\"600\"></p>\n<div class=\"p\">\n<ul class=\"ul\" id=\"topic_mtv_gmx_tb__ul_sx5_jwv_4v\">\n<li class=\"li\">\n<strong class=\"ph b\">Edit</strong> allows you to modify the title, actions, and\n                                                permissions used.</li>\n<li class=\"li\">\n<strong class=\"ph b\">Clone</strong> creates a copy that you can modify and\n                                                repurpose.</li>\n<li class=\"li\">\n<strong class=\"ph b\">Deactivate</strong> removes the macro from the Active\n                                                macros list, and moves it onto the Inactive macros\n                                                list, making it unavailable to Agents. Deactivated\n                                                macros can be activated if needed.</li>\n<li class=\"li\">\n<strong class=\"ph b\">Delete</strong> permanently removes the macro. Only\n                                                deactivated macros can be deleted. Deleted macros\n                                                cannot be recovered. </li>\n</ul>\nAgents can only use these actions on their personal macros.\n                                Administrators can use them on their personal macros and all shared\n                                macros. </div>\n<p class=\"p\">Additionally, admins can view and clone agents'\n                                personal macros. For example, admins may want to clone an agent's\n                                personal macro so that it can be created as a shared macro for all\n                                agents to use. </p>\n<div class=\"p\">\n<strong class=\"ph b\">To edit a macro</strong><ol class=\"ol\" id=\"topic_mtv_gmx_tb__ol_hlg_syj_mw\">\n<li class=\"li\">On the Macros page, locate the macro you want to\n                                                edit.</li>\n<li class=\"li\">Select the checkbox next to the macro's name.</li>\n<li class=\"li\">In the action bar at the bottom of the list, click\n                                                  <strong class=\"ph b\">Edit</strong>.</li>\n<li class=\"li\">Modify the title and actions as needed.</li>\n<li class=\"li\">Click <strong class=\"ph b\">Save</strong>.</li>\n</ol>\n</div>\n<div class=\"p\">\n<strong class=\"ph b\">To clone a macro</strong><ol class=\"ol\" id=\"topic_mtv_gmx_tb__ol_pef_wmx_tb\">\n<li class=\"li\">On the Macros page, locate the macro you want to\n                                                clone.</li>\n<li class=\"li\">Select the checkbox next to the macro's name.</li>\n<li class=\"li\">In the action bar at the bottom of the list, click\n                                                  <strong class=\"ph b\">Clone</strong>.</li>\n<li class=\"li\">Enter a new title for your macro and modify the actions\n                                                as needed.</li>\n<li class=\"li\">Click <strong class=\"ph b\">Create</strong>.</li>\n</ol>\n</div>\n<p class=\"p\"><strong class=\"ph b\">To deactivate a macro</strong></p>\n<div class=\"p\">\n<ol class=\"ol\" id=\"topic_mtv_gmx_tb__ol_xv4_gxv_4v\">\n<li class=\"li\">On the Macros page, locate the macro you want to\n                                                deactivate.</li>\n<li class=\"li\">Select the checkbox next to the macro's name.</li>\n<li class=\"li\">In the action bar at the bottom of the list, click\n                                                  <strong class=\"ph b\">Deactivate</strong>. The macro's status is updated\n                                                to Inactive.<div class=\"p\">\n<div class=\"note\" id=\"topic_mtv_gmx_tb__note_ttr_x24_2bc\">\n<span class=\"notetitle\">Note:</span> You cannot deactivate\n                                                  macros that include unavailable values in the\n                                                  action statements. Attempting to deactivate the\n                                                  macro will fail, and the macro will remain in the\n                                                  Active macros list, marked with a red exclamation\n                                                  point. </div>\n</div>\n</li>\n</ol>\n</div>\n<p class=\"p\"><strong class=\"ph b\">To activate a deactivated macro</strong></p>\n<div class=\"p\">\n<ol class=\"ol\" id=\"topic_mtv_gmx_tb__ol_zjr_4xv_4v\">\n<li class=\"li\">On the Macros page, clear the <strong class=\"ph b\">Active</strong> filter to\n                                                include inactive macros in the list.</li>\n<li class=\"li\">Select the checkbox next to the macro's name.</li>\n<li class=\"li\">In the action bar at the bottom of the list, click\n                                                  <strong class=\"ph b\">Deactivate</strong>. The macro's status is updated\n                                                to Active.</li>\n</ol>\n</div>\n<p class=\"p\"><strong class=\"ph b\">To delete a macro</strong></p>\n<div class=\"p\">\n<ol class=\"ol\" id=\"topic_mtv_gmx_tb__ol_drz_kcw_4v\">\n<li class=\"li\">On the Macros page, clear the <strong class=\"ph b\">Active</strong> filter to\n                                                include inactive macros in the list. If the macro is\n                                                currently active, use the instructions above to\n                                                deactivate it.</li>\n<li class=\"li\">Select the checkbox next to the macro's name.</li>\n<li class=\"li\">In the action bar at the bottom of the list, click\n                                                  <strong class=\"ph b\">Delete</strong>. The macro is permanently\n                                                deleted.</li>\n</ol>\n</div>\n</div>\n</div>\n<div aria-labelledby=\"ariaid-title5\" class=\"topic nested1\" id=\"topic_dpr_k1j_mw\">\n<h2 class=\"title topictitle2\" id=\"ariaid-title5\">Categorizing macros</h2>\n<div class=\"body\">\n<p class=\"p\">Sorting your macros into categories can make locating\n                                a specific macro, or type of macro, much simpler. Categorizing\n                                allows agents to quickly <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408887656602#topic_kda_eew_uf\" target=\"_blank\">apply macros</a> when\n                                working with a ticket, and gives you an option for <a class=\"xref\" href=\"#topic_n5c_blj_mw\">filtering\n                                        macros</a> on the Macros management page.</p>\n<p class=\"p\">You categorize macros by including the categories in\n                                your macro titles and separating them with two colons (::), as in\n                                this example: </p>\n<p class=\"p\"><img class=\"image img-screenshot\" id=\"topic_dpr_k1j_mw__image_xjn_qgw_4v\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/macro_name_entry.png\"></p>\n<p class=\"p\"><strong class=\"ph b\">To create nested macro categories</strong></p>\n<ol class=\"ol\" id=\"topic_dpr_k1j_mw__ol_ozy_ymg_dpb\">\n<li class=\"li\"><span class=\"ph\">In <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4581766374554#topic_hfg_dyz_1hb\" target=\"_blank\">Admin Center</a>, click\n          <img class=\"image\" id=\"topic_dpr_k1j_mw__d7e930\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/ac_workspaces_icon.png\">\n<strong class=\"ph b\">Workspaces</strong> in the sidebar, then select <strong class=\"ph b\">Agent tools &gt; Macros</strong>.</span></li>\n<li class=\"li\">Click <strong class=\"ph b\">Add Macro</strong>.</li>\n<li class=\"li\">Create a macro title that contains the top level category and\n                                        subcategories you want to use followed by the macro name,\n                                        each separated by two colon symbols as shown here:<p class=\"p\"><strong class=\"ph b\">Assign\n                                                to::me::question</strong></p>\n<p class=\"p\"><img class=\"image img-screenshot\" id=\"topic_dpr_k1j_mw__image_i44_54g_dpb\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/macro_nested_title.png\" width=\"400\"></p>\n<p class=\"p\">The\n                                                macro title in this example indicates that you’re\n                                                assigning the ticket to yourself and setting the\n                                                Type property to Question. The top level category is\n                                                'Assign to' and the subcategory is 'me'. The macro\n                                                name is 'question'. You can use any category and\n                                                title naming structure that you prefer. </p>\n</li>\n<li class=\"li\">Create any other macros that you want to include in this\n                                        category structure or modify the titles of existing macros\n                                        to follow the same pattern. </li>\n</ol>\n<p class=\"p\">To organize your macros, you can create as many top level catgories and\n                                subcategories as you need. </p>\n</div>\n</div>\n<div aria-labelledby=\"ariaid-title6\" class=\"topic nested1\" id=\"topic_n5c_blj_mw\">\n<h2 class=\"title topictitle2\" id=\"ariaid-title6\">Filtering the list of macros</h2>\n<div class=\"body\">\n<p class=\"p\">You can filter the displayed macros based on status, who they're\n                                available for, and category. </p>\n<p class=\"p\"><strong class=\"ph b\">To filter the list of macros</strong></p>\n<div class=\"p\">\n<ol class=\"ol\" id=\"topic_n5c_blj_mw__ol_bkw_14j_mw\">\n<li class=\"li\">At the top of the macros table, click the <strong class=\"ph b\">Filter</strong>\n                                                button. </li>\n<li class=\"li\">In the <strong class=\"ph b\">Filter</strong> pane that appears, select any of\n                                                the following filtering options:<ul class=\"ul\" id=\"topic_n5c_blj_mw__ol_c32_kp4_2bc\">\n<li class=\"li\">\n<strong class=\"ph b\">Status</strong>: Includes <strong class=\"ph b\">Active</strong> and\n                                                  <strong class=\"ph b\">Inactive</strong>\n</li>\n<li class=\"li\">\n<strong class=\"ph b\">Available for</strong>: Includes the following\n                                                  options:<ul class=\"ul\" id=\"topic_n5c_blj_mw__ol_qg3_pp4_2bc\">\n<li class=\"li\">\n<strong class=\"ph b\">All shared macros</strong>: Macros that are\n                                                  shared, either to the whole account or to one or\n                                                  more groups</li>\n<li class=\"li\">\n<strong class=\"ph b\">All agents</strong>: Macros available to all\n                                                  agents (No group-only macros)</li>\n<li class=\"li\">\n<strong class=\"ph b\">You</strong>: Macros available only to you</li>\n<li class=\"li\">\n<strong class=\"ph b\">Individual agents</strong>: Personal macros\n                                                  owned by all other agents (Visible to admins\n                                                  only)</li>\n<li class=\"li\">\n<strong class=\"ph b\">Group</strong>: Macros available only to agents\n                                                  in the group specified</li>\n</ul>\n</li>\n<li class=\"li\">\n<strong class=\"ph b\">Categories</strong>: Includes any <a class=\"xref\" href=\"#topic_dpr_k1j_mw\">categories\n                                                  you've created</a>\n</li>\n</ul>\n</li>\n<li class=\"li\">Click <strong class=\"ph b\">Apply filters</strong>.<p class=\"p\"><img class=\"image\" id=\"topic_n5c_blj_mw__image_avy_pq4_2bc\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/macros_consolidated_settings_pane.png\" width=\"350\"></p>\n</li>\n</ol>\n</div>\n<p class=\"p\">To clear your filters and return to the full list of macros, click\n                                        <strong class=\"ph b\">Clear filters</strong> at the top of the macros list.</p>\n</div>\n</div>\n<div aria-labelledby=\"id_box_qtk_kd__HC\" class=\"topic nested1\" id=\"id_box_qtk_kd\">\n<h2 class=\"title topictitle2\" id=\"id_box_qtk_kd__HC\">Sorting the list of macros</h2>\n<div class=\"body\">\n<p class=\"p\">The Macros page includes options for viewing and sorting your macros. You\n                                can sort macros by name, creation date, and date last updated. If\n                                you're on a Suite Growth or Support Professional plan or higher, you\n                                can also sort by usage. The total number of macros in the view\n                                appears above the list of macros.</p>\n<img class=\"image img-screenshot\" id=\"id_box_qtk_kd__image_x3j_xvs_stb\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/macros_consolidated_settings_columns.png\" width=\"600\">\n<div class=\"p\">\n<strong class=\"ph b\">To sort your list of macros</strong><ul class=\"ul\" id=\"id_box_qtk_kd__ol_uzu_ltk_kd\">\n<li class=\"li\">On the Macros page, click the column header you want to\n                                                sort by. </li>\n</ul>\n</div>\n<p class=\"p\">The first click sorts in ascending alphabetical (A–Z) or chronological\n                                (oldest to newest) order. You can click the column header again to\n                                reverse the sort order.</p>\n<p class=\"p\">You can sort by only one column at a time.</p>\n</div>\n</div>\n<div aria-labelledby=\"ariaid-title8\" class=\"topic nested1\" id=\"topic_jf5_2cc_dx\">\n<h2 class=\"title topictitle2\" id=\"ariaid-title8\">Turning off the most-used macros option</h2>\n<div class=\"body\">\n<p class=\"p\">By default, the three most-used macros from the past week are displayed\n                                at the top of the macros list. You can turn off this feature if it\n                                doesn't fit into your workflow.</p>\n<p class=\"p\"><strong class=\"ph b\">To disable the most-used macros option</strong></p>\n<div class=\"p\">\n<ol class=\"ol\" id=\"topic_jf5_2cc_dx__ol_pnh_q2c_dx\">\n<li class=\"li\">On the Macros page, click <strong class=\"ph b\">Actions</strong> &gt; <strong class=\"ph b\">Manage\n                                                  settings</strong>.<p class=\"p\"><img class=\"image img-screenshot\" id=\"topic_jf5_2cc_dx__image_ctd_r2c_dx\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/macros_consolidated_settings_manage.png\"></p>\n</li>\n<li class=\"li\">On the Manage settings page, deselect <strong class=\"ph b\">Display agents'\n                                                  most-used macros</strong>.<p class=\"p\"><img class=\"image img-screenshot\" id=\"topic_jf5_2cc_dx__image_sqq_3ch_3mb\" src=\"https://zen-marketing-documentation.s3.us-west-1.amazonaws.com/docs/en/macros_consolidated_settings_most_used.png\" width=\"600\"></p>\n</li>\n<li class=\"li\">Click <strong class=\"ph b\">Save</strong>.</li>\n</ol>\n</div>\n</div>\n</div>\n</body>",
@@ -202,7 +239,7 @@
       "vote_count": 1,
       "section_id": 4405298833818,
       "created_at": "2024-06-12T20:39:48Z",
-      "updated_at": "2024-06-12T22:27:38Z",
+      "updated_at": "2024-06-18T15:00:58Z",
       "name": "Announcing the replication of apps in premium sandboxes",
       "title": "Announcing the replication of apps in premium sandboxes",
       "source_locale": "en-us",
@@ -213,7 +250,9 @@
       "user_segment_id": null,
       "permission_group_id": 1324079,
       "content_tag_ids": [],
-      "label_names": [],
+      "label_names": [
+        "mtpe"
+      ],
       "body": "<table style=\"border-collapse: collapse; width: 100%; height: 44px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Announced on</strong></td>\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Rollout on</strong></td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\">June 12, 2024</td>\n<td style=\"width: 33.3333%; height: 22px;\"><span class=\"wysiwyg-color-black\">June 12, 2024</span></td>\n</tr>\n</tbody>\n</table>\n<p>Zendesk is pleased to announce enhancements to the data replicated for premium sandboxes.</p>\n<p><span style=\"font-weight: 400;\">This announcement includes the following topics:</span></p>\n<ul>\n<li><a href=\"#h_01GD3S97RDYVTAFTQ8WR9878VF\" target=\"_self\"><span style=\"font-weight: 400;\">What is changing?</span></a></li>\n<li><a href=\"#h_01GD3S9GD63FPDGQSEFY88M3ND\" target=\"_self\"><span style=\"font-weight: 400;\">Why is Zendesk making this change?</span></a></li>\n<li><a href=\"#h_01GD3S9TSPXM7M4WHYKYF4E84M\" target=\"_self\"><span style=\"font-weight: 400;\">What do I need to do?</span></a></li>\n</ul>\n<h2 id=\"h_01GD3S97RDYVTAFTQ8WR9878VF\"><span style=\"font-weight: 400;\">What is changing?</span></h2>\n<p>Apps that meet the following requirements are now automatically replicated when you create new <a href=\"https://support.zendesk.com/hc/en-us/articles/4408822049818\">premium sandboxes</a>:</p>\n<ul>\n<li>Free and installed from the <a href=\"https://www.zendesk.com/marketplace/apps/\">Zendesk Marketplace</a>\n</li>\n<li>No authentication or login required</li>\n<li>No configuration required during installation</li>\n</ul>\n<p>Previously, no apps were replicated when creating a new premium sandbox. Instead, they had to be added manually after the sandbox was created.</p>\n<h2 id=\"h_01GD3S9GD63FPDGQSEFY88M3ND\"><span style=\"font-weight: 400;\">Why is Zendesk making this change?</span></h2>\n<p>We know setting up sandbox environments takes time and effort. Based on your feedback, we realized the replication of apps was a particular pain point we wanted to solve. Our goal with this release is to simplify and streamline the process for setting up new sandbox environments.</p>\n<h2 id=\"h_01GD3S9TSPXM7M4WHYKYF4E84M\"><span style=\"font-weight: 400;\">What do I need to do?</span></h2>\n<p>This change is being rolled out to all accounts eligible for premium sandboxes. The next time you create a new premium sandbox, your apps will automatically be <a href=\"https://support.zendesk.com/hc/en-us/articles/6150628316058#topic_eyb_2pd_5yb\">replicated</a> along with your other data and configurations. See <a href=\"https://support.zendesk.com/hc/en-us/articles/4408822049818\">Creating a premium sandbox with data replication</a>.</p>\n<p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/1260801325369\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\">Zendesk Customer Support</a>.</p>",
       "user_segment_ids": []
     },
@@ -226,8 +265,8 @@
       "draft": false,
       "promoted": true,
       "position": 0,
-      "vote_sum": 2,
-      "vote_count": 2,
+      "vote_sum": 3,
+      "vote_count": 3,
       "section_id": 4405298833818,
       "created_at": "2024-06-12T18:51:19Z",
       "updated_at": "2024-06-18T13:09:20Z",
@@ -258,7 +297,7 @@
       "vote_count": 0,
       "section_id": 4405303740058,
       "created_at": "2024-06-12T15:13:30Z",
-      "updated_at": "2024-06-13T11:38:24Z",
+      "updated_at": "2024-06-18T15:02:40Z",
       "name": "Does Zendesk function as an Automatic Telephone Dialing System (ATDS)?",
       "title": "Does Zendesk function as an Automatic Telephone Dialing System (ATDS)?",
       "source_locale": "en-us",
@@ -272,6 +311,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_talk",
         "role_admin",
         "role_owner"
@@ -292,7 +332,7 @@
       "vote_count": 0,
       "section_id": 4405303741594,
       "created_at": "2024-06-12T14:35:15Z",
-      "updated_at": "2024-06-12T17:30:28Z",
+      "updated_at": "2024-06-18T15:01:59Z",
       "name": "Can the generative AI tools and search for help center read through the content of attachments?",
       "title": "Can the generative AI tools and search for help center read through the content of attachments?",
       "source_locale": "en-us",
@@ -306,6 +346,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_support",
         "ab0_guide",
         "ab0_admin_center",
@@ -358,7 +399,7 @@
       "vote_count": 0,
       "section_id": 4405298833818,
       "created_at": "2024-06-12T00:47:38Z",
-      "updated_at": "2024-06-12T21:49:52Z",
+      "updated_at": "2024-06-18T15:01:01Z",
       "name": "Announcing the in-ticket notification for the EOL of the legacy Social Messaging app",
       "title": "Announcing the in-ticket notification for the EOL of the legacy Social Messaging app",
       "source_locale": "en-us",
@@ -372,6 +413,7 @@
         "01J04Y8ERWAF61ABX5969E1188"
       ],
       "label_names": [
+        "mtpe",
         "EOL",
         "cfc",
         "social messaging app"
@@ -392,7 +434,7 @@
       "vote_count": 0,
       "section_id": 4405298848154,
       "created_at": "2024-06-11T18:52:40Z",
-      "updated_at": "2024-06-11T18:56:43Z",
+      "updated_at": "2024-06-18T15:04:01Z",
       "name": "Complying with Privacy and Data Protection Law in Ultimate",
       "title": "Complying with Privacy and Data Protection Law in Ultimate",
       "source_locale": "en-us",
@@ -403,7 +445,9 @@
       "user_segment_id": null,
       "permission_group_id": 1324079,
       "content_tag_ids": [],
-      "label_names": [],
+      "label_names": [
+        "mt"
+      ],
       "body": "<p>This article describes how certain features and functionality in Ultimate can assist with your obligations under privacy law.</p>\n<p>To learn more about meeting your obligations in other Zendesk products, see <a href=\"https://support.zendesk.com/hc/en-us/articles/4408834005530\">Complying with Privacy and Data Protection Law in Zendesk products</a>.</p>\n<p>Topics covered in this article:</p>\n<ul>\n<li><a href=\"#h_01J04A9GKN6D6ZTY3AQD2EYFA5\">Meeting an access obligation</a></li>\n<li><a href=\"#h_01J04A9KTH5GQ4D8MGCJN2N0EY\">Meeting a correction obligation</a></li>\n<li><a href=\"#h_01J04A9PCSGN59GVFQNQHKXR5F\">Meeting an erasure or deletion obligation</a></li>\n<li><a href=\"#h_01J04A9VRPVE4PJE0YTJCC015C\">Meeting a data portability obligation</a></li>\n<li><a href=\"#h_01J04A9YNDGK2R7G0VHHHTWV9S\">Meeting an objection obligation</a></li>\n<li><a href=\"#h_01J04AA1WH5TEGWP6219M4QFQF\">Disclaimer</a></li>\n</ul>\n<h2 id=\"h_01J04A9GKN6D6ZTY3AQD2EYFA5\">Meeting an access obligation</h2>\n<p>Individuals from certain regions have a <em>right of access</em>. On request, you may have an obligation to inform a user where their personal data is being held and for what purposes.</p>\n<p>If an individual requests a copy of their personal data, you can export the data from Ultimate as described in <a href=\"#h_01J04A9VRPVE4PJE0YTJCC015C\">Meeting a data portability obligation</a> in this article.</p>\n<h2 id=\"h_01J04A9KTH5GQ4D8MGCJN2N0EY\">Meeting a correction obligation</h2>\n<p>Individuals from certain regions have a <em>right to rectification</em>, or the right to have inaccuracies in their personal data corrected. On request, you may have an obligation to provide the individual with their personal data and fix inaccuracies or add missing information.</p>\n<p>To meet the correction obligation within Ultimate, you may contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\">Zendesk customer support</a>.</p>\n<h2 id=\"h_01J04A9PCSGN59GVFQNQHKXR5F\">Meeting an erasure or deletion obligation</h2>\n<p>Individuals from certain regions have a <em>right to erasure</em>, or the right to be forgotten or deleted. On request, you may have an obligation to delete the personal data of an individual.</p>\n<p>To meet an erasure or deletion obligation, you can delete messaging data from Ultimate using the <a href=\"https://ultimateai.github.io/public-api/#delete-user-data\">Delete User Data API</a>. Please note that this will not delete expressions (i.e., messages that have been annotated to intents). Expressions can be deleted directly in Ultimate by selecting the “Untrain expression” button. Deletion of expressions may impact the performance of your Bot.</p>\n<h2 id=\"h_01J04A9VRPVE4PJE0YTJCC015C\">Meeting a data portability obligation</h2>\n<p>Individuals from certain regions have a <em>right to data portability</em>. On request, you may have an obligation to provide an individual with their personal data or to transmit the data to another organization.</p>\n<p>To meet a portability obligation, you may export messaging data using the <a href=\"https://developer.ultimate.ai/article/data-export/\">Data Export API</a>.</p>\n<h2 id=\"h_01J04A9YNDGK2R7G0VHHHTWV9S\">Meeting an objection obligation</h2>\n<p>Individuals from certain regions have a <em>right of objection</em>, or the right to object to direct marketing.</p>\n<p>You may have an obligation to stop processing personal data for direct marketing purposes when you receive an objection from an individual.</p>\n<p>Ultimate does not offer direct marketing as a feature, therefore it is up to the business to be aware of how the end user information is being used.</p>\n<h2 id=\"h_01J04AA1WH5TEGWP6219M4QFQF\">Disclaimer</h2>\n<p>This document is for informational purposes only and does not constitute legal advice. Readers should always seek legal advice before taking any action with respect to the matters discussed herein.</p>",
       "user_segment_ids": []
     },
@@ -450,7 +494,7 @@
       "vote_count": 0,
       "section_id": 4405303741594,
       "created_at": "2024-06-11T14:58:20Z",
-      "updated_at": "2024-06-12T14:55:31Z",
+      "updated_at": "2024-06-18T15:02:39Z",
       "name": "Why does the bot recommend articles the second time the same question is asked?",
       "title": "Why does the bot recommend articles the second time the same question is asked?",
       "source_locale": "en-us",
@@ -464,6 +508,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_messaging",
         "ab0_admin_center",
         "ab0_bots_automation",
@@ -485,7 +530,7 @@
       "vote_count": 0,
       "section_id": 4405298901274,
       "created_at": "2024-06-11T13:31:24Z",
-      "updated_at": "2024-06-14T08:59:35Z",
+      "updated_at": "2024-06-18T15:02:11Z",
       "name": "How can I use macros to add tags on a ticket?",
       "title": "How can I use macros to add tags on a ticket?",
       "source_locale": "en-us",
@@ -499,6 +544,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_support",
         "role_admin",
         "role_owner"
@@ -519,7 +565,7 @@
       "vote_count": 2,
       "section_id": 4405298833818,
       "created_at": "2024-06-10T20:34:02Z",
-      "updated_at": "2024-06-17T20:22:26Z",
+      "updated_at": "2024-06-18T15:00:53Z",
       "name": "Announcing group-level access for unified agent statuses",
       "title": "Announcing group-level access for unified agent statuses",
       "source_locale": "en-us",
@@ -530,7 +576,9 @@
       "user_segment_id": null,
       "permission_group_id": 1324079,
       "content_tag_ids": [],
-      "label_names": [],
+      "label_names": [
+        "mtpe"
+      ],
       "body": "<table style=\"border-collapse: collapse; width: 100%; height: 44px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Announced on</strong></td>\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Rollout starts</strong></td>\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Rollout ends</strong></td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\">June 12, 2024</td>\n<td style=\"width: 33.3333%; height: 22px;\"><span class=\"wysiwyg-color-black\">June 12, 2024</span></td>\n<td style=\"width: 33.3333%; height: 22px;\">June 19, 2024</td>\n</tr>\n</tbody>\n</table>\n<p>Zendesk is pleased to announce the ability to create group-specific unified agent statuses for use with omnichannel routing.</p>\n<p><span style=\"font-weight: 400;\">This announcement includes the following topics:</span></p>\n<ul>\n<li><a href=\"#h_01GD3S97RDYVTAFTQ8WR9878VF\" target=\"_self\"><span style=\"font-weight: 400;\">What is changing?</span></a></li>\n<li><a href=\"#h_01GD3S9GD63FPDGQSEFY88M3ND\" target=\"_self\"><span style=\"font-weight: 400;\">Why is Zendesk making this change?</span></a></li>\n<li><a href=\"#h_01GD3S9TSPXM7M4WHYKYF4E84M\" target=\"_self\"><span style=\"font-weight: 400;\">What do I need to do?</span></a></li>\n</ul>\n<h2 id=\"h_01GD3S97RDYVTAFTQ8WR9878VF\"><span style=\"font-weight: 400;\">What is changing?</span></h2>\n<p>Originally, standard and custom unified agent statuses were designed to be available to all agents on an account. This feature enhancement makes it possible for admins to restrict custom unified agent statuses to specific groups.</p>\n<p>With the new experience:</p>\n<ul>\n<li>Admins can make a custom status available to all groups or select the groups that should have access to it. Group access will be visible on the Agent statuses list in Admin Center.</li>\n<li>Agents will see only the custom statuses available to all groups and the groups they are members of.</li>\n</ul>\n<p>For more information, see <a href=\"https://support.zendesk.com/hc/en-us/articles/4410525357594\">Creating custom unified agent statuses</a>.</p>\n<h2 id=\"h_01GD3S9GD63FPDGQSEFY88M3ND\"><span style=\"font-weight: 400;\">Why is Zendesk making this change?</span></h2>\n<p>We received feedback that admins needed group-level access to get the most out of unified agent statuses. With this release, we're giving admins more granular control and reducing clutter for agents in the Agent Workspace.</p>\n<h2 id=\"h_01GD3S9TSPXM7M4WHYKYF4E84M\"><span style=\"font-weight: 400;\">What do I need to do?</span></h2>\n<p>No immediate action is required. Existing custom unified agent statuses will remain available to all groups until an admin chooses to modify their group accessibility settings. When editing existing agent statuses or creating new statuses, you'll be able to <a href=\"https://support.zendesk.com/hc/en-us/articles/4410525357594\">configure group access</a>. </p>\n<p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/1260801325369\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\">Zendesk Customer Support</a>.</p>",
       "user_segment_ids": []
     },
@@ -605,7 +653,7 @@
       "vote_count": 0,
       "section_id": 4405298833818,
       "created_at": "2024-06-07T14:47:38Z",
-      "updated_at": "2024-06-13T15:55:46Z",
+      "updated_at": "2024-06-18T15:01:00Z",
       "name": "Announcing general improvements to the Talk call console",
       "title": "Announcing general improvements to the Talk call console",
       "source_locale": "en-us",
@@ -620,6 +668,7 @@
         "01J05YQ1CKK0Z13JE7JB84QDGT"
       ],
       "label_names": [
+        "mtpe",
         "Talk"
       ],
       "body": "<table style=\"border-collapse: collapse; width: 100%; height: 44px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Announced on</strong></td>\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Rollout starts</strong></td>\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Rollout ends</strong></td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\">June 12, 2024</td>\n<td style=\"width: 33.3333%; height: 22px;\"><span class=\"wysiwyg-color-black\">June 12, 2024</span></td>\n<td style=\"width: 33.3333%; height: 22px;\">June 12, 2024</td>\n</tr>\n</tbody>\n</table>\n<p>Recently, we made three changes to the call console that affect how outbound calls are made. Each change is small on its own, but when combined, they greatly enhance the experience for Talk agents. We believe it's time to highlight these improvements.</p>\n<h2 id=\"h_01J05XV7DH031FJM5AADJRNMDF\">What is changing?</h2>\n<h3 id=\"h_01HZSJGER2E4ZREQ8DJH09TR5N\">Ability to change the outbound line before placing a call</h3>\n<p>Previously, when initiating a call from the ticket using the \"Call &lt;number&gt;\" option, the call would start right away. This made it easy to call back a customer with just one click, but it also meant that agents couldn't change the outbound line before making the call.</p>\n<p>Now, when starting a call from a number — either in the ticket or from the user profile's phone number — the call console simply opens with the ticket requester's number populated on it, allowing the agent to select a different line before hitting the \"Call\" button. (Pro tip: users can also just press the 'enter' key when the call console is open to start the call)</p>\n<h3 id=\"h_01HZSJGP9NNWVF5VAVSCPT1KXC\">The country code now matches the outbound line selected</h3>\n<p>Historically, the call console always defaulted to the U.S. country code (+1) when opened, so non-American customers had to change the country code every time they made a local call. Now, the country code <em>defaults to the country of the line selected in the outbound lines dropdown</em>.</p>\n<p>For instance, let's say a customer has two phone lines — one in Australia (+61) and another in the United Kingdom (+44) — and the Australian line is currently selected as the active outbound line. When the call console is first opened, it defaults to the Australian country code (+61), since this is the country code of the line selected. If after placing a few local calls the agent switches to the UK line and places an international call to Ireland (+353), the call console remembers that choice and keeps +353 as the selected country code. However, once they refresh the page or open a new browser tab/window, the country code will revert to (+44), reflecting that the outbound line currently selected is now the UK number.</p>\n<p>This is great news for all customers, especially for those who primarily make local calls within one country, as they will rarely need to change the country code.</p>\n<h3 id=\"h_01HZSJGWS1Z1RYVE45KCMVHYFH\">The outbound line selector now allows searching</h3>\n<p>This is the biggest small change we’ve made. Finding a line by scrolling through the unsorted outbound line dropdown has always been a chore for customers with more than a handful of phone lines. Now, as most customers must have noted already, agents can simply start typing the number, name, or brand of the line, to filter down the list and instantly select the line they want to use. What a time saver!</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7390824073114\" alt=\"Kapture 2024-01-29 at 10.53.24.gif\" width=\"264\" height=\"629\"></p>\n<h2 id=\"h_01J05WKN09G3GXE5BF2566QPYG\">Why is Zendesk making this change?</h2>\n<p>These changes represent the first of many improvements we plan to implement in the Talk call console in the coming months, aiming to enhance Talk agents' productivity. Stay tuned for more updates.</p>\n<h2 id=\"h_01J05WMDVABK4KXR0ANEK5G8NQ\">What do I need to do?</h2>\n<p>Nothing! All changes are live for all Talk customers.</p>\n<p>If you have feedback or questions about this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/1260801308510\">community forum</a> where we diligently collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\">Zendesk Customer Support</a>.</p>",
@@ -638,7 +687,7 @@
       "vote_count": 0,
       "section_id": 4405298879258,
       "created_at": "2024-06-07T08:08:48Z",
-      "updated_at": "2024-06-12T13:43:28Z",
+      "updated_at": "2024-06-18T15:02:39Z",
       "name": "Power BI error message: The downloaded data is HTML, which isn't the expected type",
       "title": "Power BI error message: The downloaded data is HTML, which isn't the expected type",
       "source_locale": "en-us",
@@ -652,6 +701,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_admin_center",
         "role_admin",
         "role_owner"
@@ -892,7 +942,7 @@
       "vote_count": 0,
       "section_id": 4405303741594,
       "created_at": "2024-05-30T14:42:49Z",
-      "updated_at": "2024-06-13T11:32:11Z",
+      "updated_at": "2024-06-18T15:01:45Z",
       "name": "Can Advanced AI respond to emails with a generative reply?",
       "title": "Can Advanced AI respond to emails with a generative reply?",
       "source_locale": "en-us",
@@ -913,41 +963,6 @@
         "role_owner"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>Can I use <a href=\"https://support.zendesk.com/hc/en-us/articles/5524125586330--About-Zendesk-Advanced-AI\" target=\"_blank\" rel=\"noopener noreferrer\">Advanced AI</a> to generate a reply to customer emails?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>That feature is not available for customer emails. You can explore third-party tools, such as <a href=\"https://www.ultimate.ai\">ultimate.ai</a> which are not supported by Zendesk.</p>\n<p>However, if you have the Advanced AI add-on, you can <a href=\"https://support.zendesk.com/hc/en-us/articles/6191477770906-Recipe-Adding-comments-and-notes-to-tickets-using-triggers#topic_ky5_qwg_xyb\" target=\"_blank\" rel=\"noopener noreferrer\">use the Autoreply trigger action</a> to respond to emails with a predefined reply. Note that an admin must define the exact response, so this is not a dynamic reply created by generative AI.</p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 7344221923098,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7344221923098.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/7344221923098-Using-the-Tickets-updated-w-comment-metric-why-do-I-not-see-the-number-of-ticket-updates",
-      "author_id": 4967137259930,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405298855194,
-      "created_at": "2024-05-30T08:28:55Z",
-      "updated_at": "2024-06-13T14:15:31Z",
-      "name": "Using the \"Tickets updated w/comment\" metric, why do I not see the number of ticket updates?",
-      "title": "Using the \"Tickets updated w/comment\" metric, why do I not see the number of ticket updates?",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2024-06-13T14:15:29Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801135069,
-      "content_tag_ids": [],
-      "label_names": [
-        "ks",
-        "ab0",
-        "ab0_explore",
-        "role_agent",
-        "role_admin",
-        "role_owner"
-      ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>In Explore, I created a report from the <strong>Updates history</strong> dataset. I am reporting on tickets updated with comments. To calculate the number of updates in tickets for a week, I am using this metric: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408827693594-Metrics-and-attributes-for-Zendesk-Support#:~:text=Tickets%20updated%20w/comment\" target=\"_blank\" rel=\"noopener noreferrer\">Tickets updated w/comment</a>.</p>\n<p>For example, this week, 2 updates happened on Monday and 1 update on Tuesday. However, my report returned 2 updates for that week, instead of 3 updates, which would be the total of 2 + 1. What is causing this discrepancy?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>This result is expected, because the <strong>Tickets updated w/comment</strong> metric does not count updates ; it counts tickets. The formula within that metric returns <code>[Update ticket ID]</code>, which refers to the ID of the tickets that have been updated. Even with a ticket with 100 updates, only the number of ticket IDs is returned.</p>\n<p>To count updates rather than tickets, add <strong>Update - date</strong> as a <strong>Row</strong> to your report. This will return update results in your report.</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7344221922458\" alt=\"updates.gif\"></p>",
       "user_segment_ids": []
     }
   ],
