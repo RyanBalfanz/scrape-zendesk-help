@@ -80,7 +80,7 @@
       "vote_count": 0,
       "section_id": 4405303730330,
       "created_at": "2024-06-14T15:16:13Z",
-      "updated_at": "2024-06-18T14:54:03Z",
+      "updated_at": "2024-06-19T10:42:13Z",
       "name": "My bot is not recommending articles to users who are authenticated with JWT",
       "title": "My bot is not recommending articles to users who are authenticated with JWT",
       "source_locale": "en-us",
@@ -96,8 +96,7 @@
         "ab0",
         "ab0_support",
         "ab0_bots_automation",
-        "role_admin",
-        "role_owner"
+        "role_admin"
       ],
       "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2>\n<p>I noticed authenticated users are unable to see recommended articles in messaging. However, <a href=\"https://support.zendesk.com/hc/en-us/articles/4422584657434-Designing-a-conversation-bot-using-answers#topic_slx_n4p_qtb\" target=\"_blank\" rel=\"noopener noreferrer\">article recommendations are enabled</a> in the bot.<br><br><img src=\"https://support.zendesk.com/hc/article_attachments/7431358411674\"></p>\n<h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2>\n<p>End user who are authenticated with JWT can only access articles when their user profile in Zendesk is created before their conversation starts with the bot.</p>\n<p>For this to happen, ensure the end user exists in your Zendesk database before the user interacts with the Web Widget. This creates the external ID used to check the user profile and their access permissions. Users profiles without an external ID cannot see article recommendations, even if they are authenticated with JWT.</p>\n<p>For more information, see these articles:</p>\n<ul>\n<li>\n<p><a href=\"https://support.zendesk.com/hc/en-us/articles/6604813452570-Announcing-restricted-content-support-for-Zendesk-bots-article-recommendations-and-generative-replies\" target=\"_blank\" rel=\"noopener\">Announcing restricted content support for Zendesk bots article recommendations and generative replies</a></p>\n</li>\n<li>\n<p><a href=\"https://support.zendesk.com/hc/en-us/articles/6219127152794-What-are-the-different-types-of-JWT-proposed-by-Zendesk\" target=\"_blank\" rel=\"noopener noreferrer\">What are the different types of JWT proposed by Zendesk?</a></p>\n</li>\n</ul>",
       "user_segment_ids": []
