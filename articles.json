@@ -140,14 +140,14 @@
       "vote_count": 1,
       "section_id": 4405298855194,
       "created_at": "2024-06-21T04:55:25Z",
-      "updated_at": "2024-06-21T04:57:00Z",
+      "updated_at": "2024-06-24T23:10:51Z",
       "name": "Why are my bookmarks and links to reports not loading?",
       "title": "Why are my bookmarks and links to reports not loading?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-06-21T04:57:00Z",
+      "edited_at": "2024-06-24T23:10:47Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -159,7 +159,7 @@
         "role_agent",
         "role_admin"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>In Explore, why are my bookmarks and links to reports not loading?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>Some older bookmarks may still use the previous Explore report URL path featuring the \"/query\" segment. For example: <a href=\"https://yoursubdomain.zendesk.com/explore#/pivot-table/connection/13569211/query/190571061\">https://yoursubdomain.zendesk.com/explore#/pivot-table/connection/13569211/query/190571061</a></p>\n<p>To access the report, update your bookmarks to the new URL path that uses the \"/report\" segment. For example: <a href=\"https://yoursubdomain.zendesk.com/explore#/pivot-table/connection/13569211/report/190571061\">https://yoursubdomain.zendesk.com/explore#/pivot-table/connection/13569211/report/190571061</a></p>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408821589530-Creating-reports\" target=\"_blank\" rel=\"noopener noreferrer\">Creating reports</a>.</p>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>In Explore, why are my bookmarks and links to reports not loading?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>Some older bookmarks may still use the previous Explore report URL path featuring the \"<code>/query</code>\" segment. For example: <code>https://yoursubdomain.zendesk.com/explore#/pivot-table/connection/13569211/query/190571061</code></p>\n<p>To access the report, update your bookmarks to the new URL path that uses the \"<code>/report</code>\" segment. For example: <code>https://yoursubdomain.zendesk.com/explore#/pivot-table/connection/13569211/report/190571061</code></p>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408821589530-Creating-reports\" target=\"_blank\" rel=\"noopener noreferrer\">Creating reports</a>.</p>",
       "user_segment_ids": []
     },
     {
