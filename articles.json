@@ -1,11 +1,47 @@
 {
-  "count": 4603,
+  "count": 4604,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 154,
   "per_page": 30,
   "previous_page": null,
   "articles": [
+    {
+      "id": 7515035958554,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7515035958554.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/7515035958554-How-do-I-change-my-agent-s-role",
+      "author_id": 1263082232529,
+      "comments_disabled": false,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 6279947161626,
+      "created_at": "2024-06-28T13:47:24Z",
+      "updated_at": "2024-06-28T13:50:21Z",
+      "name": "How do I change my agent's role?",
+      "title": "How do I change my agent's role?",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2024-06-28T13:50:21Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801135069,
+      "content_tag_ids": [
+        "01GT23ANPKETP5FEHTZ3KV8XBS"
+      ],
+      "label_names": [
+        "ks",
+        "ab0",
+        "video",
+        "ab0_admin_center",
+        "role_admin"
+      ],
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>How do I change my agent's role and permissions?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>Account admins can change the role and access to products for their users. For more information, see the article <a href=\"https://support.zendesk.com/hc/en-us/articles/4409155967258\" target=\"_blank\" rel=\"noopener noreferrer\">Changing an agent's role</a>.</p>\n<p>See the video tutorial below on navigating Admin Center to view and manage your team members' access and permissions.</p>\n<p><iframe src=\"//www.youtube-nocookie.com/embed/wzKQvogBRK0\" width=\"560\" height=\"315\" frameborder=\"0\" allowfullscreen=\"\"></iframe></p>",
+      "user_segment_ids": []
+    },
     {
       "id": 7494938880026,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7494938880026.json",
@@ -944,34 +980,6 @@
         "role_owner"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>How to use macros to add tags on a ticket?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p><strong>To add tags on a ticket using macros</strong></p>\n<ol>\n<li>\n<a href=\"https://support.zendesk.com/hc/en-us/articles/4408844187034-Creating-macros-for-repetitive-ticket-responses-and-actions\">Create</a> a new macro.</li>\n<li>Add a name.</li>\n<li>In the <strong>Actions</strong> section, click on the <strong>Type or select actions</strong> menu and select <strong>Add tags</strong>.</li>\n<li>On the right side, add tags separated by space:<br><img src=\"https://support.zendesk.com/hc/article_attachments/7410933434266\" width=\"534\" height=\"160\">\n</li>\n<li>Click on the <strong>Create</strong> button at the bottom of the page to create the macro.</li>\n</ol>\n<p>The macro that you created will now be available and selectable from the ticket. For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408887656602-Using-macros-to-update-tickets#topic_kda_eew_uf\" target=\"_blank\" rel=\"noopener noreferrer\">Using macros to update tickets</a>.</p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 7404597050394,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7404597050394.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/7404597050394-Release-notes-through-2024-06-08",
-      "author_id": 1263082099389,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405298847002,
-      "created_at": "2024-06-10T15:42:06Z",
-      "updated_at": "2024-06-24T16:38:04Z",
-      "name": "Release notes through 2024-06-08",
-      "title": "Release notes through 2024-06-08",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2024-06-10T15:44:53Z",
-      "user_segment_id": null,
-      "permission_group_id": 1324079,
-      "content_tag_ids": [],
-      "label_names": [],
-      "body": "<div class=\"note tip\">See our <a href=\"https://support.zendesk.com/hc/en-us/articles/7334819842714\" target=\"_blank\" rel=\"noopener noreferrer\">What's New</a> for an overview of what was released in the last month.</div>\n<p>This week's release notes include:</p>\n<ul>\n<li><a href=\"#h_01HXWMF0QKB7YH45109F88N51N\">Guide and machine learning</a></li>\n<li><a href=\"#h_01HXSV7EW9MFY7TXXAKWRRDKCQ\">Mobile SDKs</a></li>\n<li><a href=\"#h_01J01CN9D98BH9C08SHDNT3AT3\">App Marketplace</a></li>\n<li><a href=\"#h_01HX7B0ESFT89GAT9E79E1GBH6\">Products with no updates this week</a></li>\n</ul>\n<h2 id=\"h_01HXWMF0QKB7YH45109F88N51N\">Guide and machine learning</h2>\n<p><strong>New</strong></p>\n<ul>\n<li>Language predictions: Improve the accuracy of the languages predictions when the ticket contains HTML tags or special Unicode scapes</li>\n</ul>\n<h2 id=\"h_01HXSV7EW9MFY7TXXAKWRRDKCQ\">Mobile SDKs</h2>\n<p><strong>Fixed</strong></p>\n<ul>\n<li>\n<strong>Zendesk iOS SDK v2.21.1</strong>: Fixed an issue where calling logout before presenting the conversation screen would result in two tickets being created.</li>\n</ul>\n<h2 id=\"h_01J01CN9D98BH9C08SHDNT3AT3\">App Marketplace</h2>\n<ul>\n<li>\n<strong>Officely AI</strong>\n<ul>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1039538/officely-ai/\">Officely AI</a> helps your team respond better and faster by understanding the tone of voice and context. We handle repetitive tickets that don't require human intervention.  Officely integrates with GPT, Claude, LLaMA, and more and goes beyond simple API connections to these models, employing their own machine learning processes.</li>\n</ul>\n</li>\n<li>\n<strong>Google My Business Booster by Adelante</strong>\n<ul>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1033779/google-my-business-booster-by-adelante/\">Google My Business Booster by Adelante</a> is an AI solution for transforming customer enthusiasm into 5-star reviews on Google My Business.  Capture authentic, excited reviews with minimal effort.  </li>\n</ul>\n</li>\n<li>\n<strong>eZSend Many</strong>\n<ul>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1037297/ezsend-many/\">eZSend Many</a> integrates directly with your WhatsApp numbers available in Zendesk to send notifications through the WhatsApp native channel. Send proactive mass notifications from Zendesk ticket or customer profiles and interact with your customers quickly and efficiently.</li>\n</ul>\n</li>\n<li>\n<strong>Chatarmin</strong>\n<ul>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1033917/chatarmin/\">Chatarmin</a> is one of the best WhatsApp marketing software products built in Austria. Their user-friendly software helps businesses generate new revenue, increase customer retention, and create innovative customer experiences by enhancing existing marketing channels with the extensive reach and features of WhatsApp. Chatarmin is known for its fast-development, proactive support, GDPR-compliance, and its extensive integrations.</li>\n</ul>\n</li>\n<li>\n<strong>Fieldproxy</strong>\n<ul>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1040429/fieldproxy/\">Fieldproxy</a> is a powerful B2B SaaS solution designed to revolutionize field operations for businesses across industries. Effortlessly create and manage tickets, ensuring no task falls through the cracks. Create jobs directly from Zendesk Support tickets and seamlessly allocate work and tasks to your field agents using intuitive calendars, keeping your team in sync. </li>\n</ul>\n</li>\n<li>\n<strong>Agents Only</strong>\n<ul>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1039427/agents-only/\">Agents Only</a> is a new model to build your customer support teams by marrying humans with software and AI. Improve productivity and efficiency by pairing your own help desk to live agents to manage customer support needs. Agents Only connects your customers with motivated agents who are incentivized to provide the best experience possible. By putting your projects on our platform, you can cut a significant portion of overhead labor and resource expenses from your budget.<span> </span>\n</li>\n</ul>\n</li>\n<li>\n<strong>UpBrains AI Workflow Automation</strong>\n<ul>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1039119/upbrains-ai-workflow-automation/\">UpBrains AI Workflow Automation</a> unleashes the power of AI to streamline your workflows, understand your customer communications, extract information from your tickets and attachments, and empower your team to do more in less time. UpBrains AI transforms your Zendesk into a powerhouse of efficiency and productivity. With advanced AI capabilities, you can effortlessly automate a wide range of tasks. From extracting key information from documents to analyzing sentiments in communications, summarizing past conversations with customers, and integrating with third-party systems and file systems, UpBrains AI ensures your Zendesk is a central hub for smart decision making.</li>\n</ul>\n</li>\n<li>\n<strong>OmniSun</strong> (paid)\n<ul>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1037986/omnisun/\">OmniSun</a> lets you send proactive WhatsApp messages over Zendesk. Send templates instantly, notifications with videos, documents, and images, preview your WhatsApp templates before sending, bulk notifications, and more with this integration.</li>\n</ul>\n</li>\n</ul>\n<h2 id=\"h_01HX7B0ESFT89GAT9E79E1GBH6\">Products with no updates this week</h2>\n<ul>\n<li>Support</li>\n<li>Chat and messaging</li>\n<li>AI Agents (formerly bots)</li>\n<li>Explore</li>\n<li>Talk</li>\n<li>Admin Center</li>\n</ul>",
       "user_segment_ids": []
     }
   ],
