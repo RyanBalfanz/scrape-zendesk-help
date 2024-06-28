@@ -598,7 +598,7 @@
     {
       "id": 7424061402906,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7424061402906.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/7424061402906-Service-Incident-June-13th-2024",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/7424061402906-Service-Incident-June-13-2024-Explore-Pods-17-18-28-29-Errors-with-Explore-Dashboards",
       "author_id": 1263082183609,
       "comments_disabled": true,
       "draft": false,
@@ -608,21 +608,21 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2024-06-13T13:53:13Z",
-      "updated_at": "2024-06-13T14:11:12Z",
-      "name": "Service Incident - June 13th, 2024",
-      "title": "Service Incident - June 13th, 2024",
+      "updated_at": "2024-06-28T16:52:35Z",
+      "name": "Service Incident - June 13, 2024 - Explore | Pods 17, 18, 28, 29 - Errors with Explore Dashboards",
+      "title": "Service Incident - June 13, 2024 - Explore | Pods 17, 18, 28, 29 - Errors with Explore Dashboards",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-06-13T14:11:12Z",
+      "edited_at": "2024-06-28T16:52:03Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
       "label_names": [
         "service_incident"
       ],
-      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>June 13, 2024 02:11 PM UTC | June 13, 2024 07:11 AM PT </strong><br>We have deployed a fix for the Explore issues across multiple Pods. Please make sure to clear cache and cookies. This incident is now resolved, thank you for your patience.</p>\n<p class=\"p1\"><strong>June 13, 2024 01:53 PM UTC | June 13, 2024 06:53 AM PT </strong><br>We’re currently investigating issues with Explore across multiple Pods. More information in 30 min.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
+      "body": "<h3 id=\"h_01J1FW4ZWVKJ605GX9P72XGE5W\"><strong><span style=\"color: #06363c;\">SUMMARY</span></strong></h3>\n<p>On June 13, 2024 from 13:30 UTC to 13:55 UTC, Explore customers in Pods 17, 18, 28, 29 experienced dashboards not loading </p>\n<h3 id=\"h_01J1FW4ZWVPYN36K28EDYY9FFY\"><span style=\"color: #06363c;\">Timeline</span></h3>\n<p><strong>June 13, 2024 01:53 PM UTC | June 13, 2024 06:53 AM PT</strong></p>\n<p>We’re currently investigating issues with Explore across multiple Pods. More information in 30 min.</p>\n<p><strong>June 13, 2024 02:11 PM UTC | June 13, 2024 07:11 AM PT</strong></p>\n<p>We have deployed a fix for the Explore issues across multiple Pods. Please make sure to clear cache and cookies. This incident is now resolved, thank you for your patience.</p>\n<h3 id=\"h_01J1FW4ZWVC88PJYN7N4YFKWRE\"><strong><span style=\"color: #06363c;\">POST-MORTEM</span></strong></h3>\n<h3 id=\"h_01J1FW4ZWVSW3T42P979ZB1NH6\"><span style=\"color: #06363c;\">Root Cause Analysis</span></h3>\n<p>An error in the credentials cycle deployment caused Explore being unable to load dashboards. </p>\n<h3 id=\"h_01J1FW4ZWVGFXWA1TB4T1WNP4K\"><span style=\"color: #06363c;\">Resolution</span></h3>\n<p>To fix the issue our team rolled back the deployment</p>\n<h3 id=\"h_01J1FW4ZWV9RNSHYNM7DJT3QMX\"><span style=\"color: #06363c;\">Remediation Items</span></h3>\n<ol>\n<li>Review documentation [Scheduled]</li>\n<li>Create additional alerting [Scheduled]</li>\n<li>Update relevant procedure [Scheduled]</li>\n</ol>\n<h4 id=\"h_01J1FW4WSADNDGT4Z9N1GGE0ES\"><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
     },
     {
