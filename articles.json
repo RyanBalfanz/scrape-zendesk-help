@@ -525,7 +525,7 @@
     {
       "id": 7458553856666,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7458553856666.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/7458553856666-Why-articles-created-via-the-Knowledge-App-not-showing-when-I-use-the-filter-Knowledge-Captured",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/7458553856666-Why-articles-created-through-the-Knowledge-app-don-t-show-up-in-Explore",
       "author_id": 1263659882649,
       "comments_disabled": false,
       "draft": false,
@@ -533,23 +533,27 @@
       "position": 0,
       "vote_sum": 0,
       "vote_count": 0,
-      "section_id": 4405298902810,
+      "section_id": 4405303742362,
       "created_at": "2024-06-19T18:06:54Z",
-      "updated_at": "2024-06-20T15:52:43Z",
-      "name": "Why articles created via the Knowledge App not showing when I use the filter 'Knowledge Captured'?",
-      "title": "Why articles created via the Knowledge App not showing when I use the filter 'Knowledge Captured'?",
+      "updated_at": "2024-07-01T15:23:36Z",
+      "name": "Why articles created through the Knowledge app don't show up in Explore?",
+      "title": "Why articles created through the Knowledge app don't show up in Explore?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-06-20T14:39:44Z",
+      "edited_at": "2024-07-01T15:23:27Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
-      "content_tag_ids": [
-        "01GV1A5M16NTPF58BSPZ38MSM5"
+      "content_tag_ids": [],
+      "label_names": [
+        "knowledge capture",
+        "ks",
+        "ab0",
+        "ab0_guide",
+        "role_admin"
       ],
-      "label_names": [],
-      "body": "<h2 id=\"h_01HV1QM45P2YP0AT93VZZ99CZN\">Question</h2>\n<p>Why articles created via the Knowledge App not showing when I use the filter 'Knowledge Captured'?</p>\n<h2 id=\"h_01HV1QMAN8RVMJ9M99WDR6EBJR\">Answer</h2>\n<p>Created articles captured via the Knowledge of the context panel can be search in the Guide Admin and you may use filter for easy search by using filters. Using the <strong>Knowledge Capture</strong> label will give you the result of all articles created in Knowledge app. </p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7463737776794\" alt=\"Knowledge Capture filter.jpg\"></p>\n<p>However, in cases where it doesn't give any result or if the article could not be found in the list but it does exist if manually searching, it is possible that the article wasn't recognized as captured via the Knowledge app. It is likely that the user may have initiated the article request or create in the Knowledge app while the ticket wasn't created yet:</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7463752527386\" alt=\"New Ticket with no ticket ID yet.jpg\"></p>\n<p>To avoid losing the the tag that links the article to the Knowledge Capture filter, ensure that the ticket is created and has its ticket ID, then create or request an article. </p>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408835161114-Creating-and-requesting-articles-in-Knowledge\" target=\"_blank\" rel=\"noopener noreferrer\">Creating and requesting articles in Knowledge</a></p>\n<p> </p>",
+      "body": "<h2 id=\"h_01HV1QM45P2YP0AT93VZZ99CZN\">Question</h2>\n<p>My agents use the Knowledge section to create articles. When I am creating reports to measure article creation in Explore or when I am searching for them in Guide admin, sometimes I notice that some of those articles are missing. Why are articles created through the Knowledge section not showing when I use the filter 'Knowledge Capture'?</p>\n<h2 id=\"h_01HV1QMAN8RVMJ9M99WDR6EBJR\">Answer</h2>\n<p>Created articles captured through the Knowledge in the context panel can be searched in the Guide admin and you may use filters for easy search. Using the <strong>Knowledge Capture</strong> label will give you the result of all articles created in Knowledge section. </p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7463737776794\" alt=\"Knowledge Capture filter.jpg\"></p>\n<p>However, in cases where it doesn't give any result or if the article could not be found in the list but it does exist if manually searching, it is possible that the article wasn't recognized as captured through the Knowledge section. It is likely that the user may have initiated the article request or create in the Knowledge section while the ticket wasn't created yet:</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7463752527386\" alt=\"New Ticket with no ticket ID yet.jpg\"></p>\n<p>To avoid losing the the tag that links the article to the Knowledge Capture filter, ensure that the ticket is created and has its ticket ID, before you create or request an article.</p>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408835161114-Creating-and-requesting-articles-in-Knowledge\" target=\"_blank\" rel=\"noopener noreferrer\">Creating and requesting articles in Knowledge</a></p>",
       "user_segment_ids": []
     },
     {
