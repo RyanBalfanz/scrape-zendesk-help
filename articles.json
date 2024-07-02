@@ -19,21 +19,21 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2024-07-02T19:47:02Z",
-      "updated_at": "2024-07-02T20:13:45Z",
+      "updated_at": "2024-07-02T21:07:33Z",
       "name": "Service Incident - July 2nd, 2024",
       "title": "Service Incident - July 2nd, 2024",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-07-02T20:13:45Z",
+      "edited_at": "2024-07-02T21:07:33Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
       "label_names": [
         "service_incident"
       ],
-      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>July 02, 2024 08:13 PM UTC | July 02, 2024 01:13 PM PT </strong><br>Our engineers are investigating the issue causing the Answer Bot degradation on Pod 13. We will provide another update when we have new information to share.</p>\n<p class=\"p1\"><strong>July 02, 2024 07:47 PM UTC | July 02, 2024 12:47 PM PT </strong><br>We are investigating reports of Answer Bot degradation on Pod 13. We will provide another update when we more information.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
+      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>July 02, 2024 09:07 PM UTC | July 02, 2024 02:07 PM PT </strong><br>We are seeing improvements to Answer Bot performance on Pod 13 and will continue to monitor performance. Will provide a final update once the incident is resolved.\n</p>\n<p class=\"p1\"><strong>July 02, 2024 08:13 PM UTC | July 02, 2024 01:13 PM PT </strong><br>Our engineers are investigating the issue causing the Answer Bot degradation on Pod 13. We will provide another update when we have new information to share.</p>\n<p class=\"p1\"><strong>July 02, 2024 07:47 PM UTC | July 02, 2024 12:47 PM PT </strong><br>We are investigating reports of Answer Bot degradation on Pod 13. We will provide another update when we more information.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
       "user_segment_ids": []
     },
     {
