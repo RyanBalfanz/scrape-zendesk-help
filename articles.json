@@ -19,21 +19,21 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2024-07-02T13:09:52Z",
-      "updated_at": "2024-07-02T14:07:34Z",
+      "updated_at": "2024-07-02T14:46:01Z",
       "name": "Service Incident - July 2nd, 2024",
       "title": "Service Incident - July 2nd, 2024",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-07-02T14:07:34Z",
+      "edited_at": "2024-07-02T14:46:01Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
       "label_names": [
         "service_incident"
       ],
-      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>July 02, 2024 02:07 PM UTC | July 02, 2024 07:07 AM PT </strong><br>We are going through different Chat/Messaging/AgentWorkspace issues at the moment and continue investigating all problems. We appreciate your patience.</p>\n<p class=\"p1\"><strong>July 02, 2024 01:09 PM UTC | July 02, 2024 06:09 AM PT </strong><br>We are investigating different issues with Chat and Messaging in Agent Workspace across Pods 17, 18, 28 and 29 for a subset of customers where chats are not being offered to agents and/or agents cannot join, and messages are sitting in unassigned. More information to come.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
+      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>July 02, 2024 02:46 PM UTC | July 02, 2024 07:46 AM PT </strong><br>We continue to address issues affecting Agent Workspace customers across multiple Pods. The main issue involves “Couldn’t connect to the server” errors, which impact products connected to Omnichannel interface tickets. We are exploring fixes and testing options to fully resolve this issue.</p>\n<p class=\"p1\"><strong>July 02, 2024 02:07 PM UTC | July 02, 2024 07:07 AM PT </strong><br>We are going through different Chat/Messaging/AgentWorkspace issues at the moment and continue investigating all problems. We appreciate your patience.</p>\n<p class=\"p1\"><strong>July 02, 2024 01:09 PM UTC | July 02, 2024 06:09 AM PT </strong><br>We are investigating different issues with Chat and Messaging in Agent Workspace across Pods 17, 18, 28 and 29 for a subset of customers where chats are not being offered to agents and/or agents cannot join, and messages are sitting in unassigned. More information to come.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
       "user_segment_ids": []
     },
     {
