@@ -1,5 +1,5 @@
 {
-  "count": 4634,
+  "count": 4633,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 155,
@@ -15,8 +15,8 @@
       "draft": false,
       "promoted": true,
       "position": 0,
-      "vote_sum": 1,
-      "vote_count": 1,
+      "vote_sum": 2,
+      "vote_count": 2,
       "section_id": 4405298833818,
       "created_at": "2024-07-02T22:22:43Z",
       "updated_at": "2024-07-02T22:24:51Z",
@@ -258,14 +258,14 @@
       "vote_count": 0,
       "section_id": 4405303730330,
       "created_at": "2024-07-01T10:34:34Z",
-      "updated_at": "2024-07-02T09:02:20Z",
+      "updated_at": "2024-07-03T08:36:03Z",
       "name": "The Solved button is grayed out on my messaging ticket",
       "title": "The Solved button is grayed out on my messaging ticket",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-07-02T09:02:19Z",
+      "edited_at": "2024-07-03T08:36:00Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -275,7 +275,7 @@
         "ab0_messaging",
         "role_agent"
       ],
-      "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2>\n<p>When I open a messaging ticket, I cannot solve it. What is causing this behaviour?</p>\n<h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\"><img src=\"https://support.zendesk.com/hc/article_attachments/7529092197402\" alt=\"Solved.png\" width=\"314\" height=\"237\"></h2>\n<h2 id=\"01J1PXM7JBK9J5E3XJNHEWTX3Y\">Resolution steps</h2>\n<p>While the conversation is active, only the ticket assignee has the ability to use the Solve status when updating the ticket. If you are not the assignee of the ticket and open it, you cannot set a messaging ticket status to <strong>Solved</strong>.</p>\n<p><strong>To solve the ticket</strong></p>\n<ol>\n<li>From the ticket, click <strong>take it</strong> above the <strong>Assignee</strong> field.<br><img id=\"topic_dpw_gnk_lrb__image_qfg_zch_gh\" class=\"image img-screenshot\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/aw_assignee_take.png\" width=\"203\" height=\"51\">\n</li>\n<li>Click <strong>Submit as Open</strong> to update the ticket.</li>\n<li>Refresh the page, you'll now be able to click the arrow next to <strong>Submit</strong> and set the status to <strong>Solved</strong>.</li>\n</ol>\n<p>For more information, see these articles:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408887127450-Manually-assigning-a-ticket\" target=\"_blank\" rel=\"noopener noreferrer\">Manually assigning a ticket</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408832151834-Updating-and-solving-tickets\" target=\"_blank\" rel=\"noopener noreferrer\">Updating and solving tickets</a></li>\n</ul>",
+      "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2>\n<p>When I open a messaging ticket, I cannot solve it. What is causing this behaviour?</p>\n<h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\"><img src=\"https://support.zendesk.com/hc/article_attachments/7529092197402\" alt=\"Solved.png\" width=\"314\" height=\"237\"></h2>\n<h2 id=\"01J1PXM7JBK9J5E3XJNHEWTX3Y\">Resolution steps</h2>\n<p>While the conversation is active, only the ticket assignee, who owns the conversation with the end user, has the ability to use the <strong>Solved</strong> status when updating the ticket.</p>\n<p>If you are not the <strong>Assignee</strong> of the ticket, you cannot set an active messaging ticket status to <strong>Solved</strong>.</p>\n<p><img id=\"topic_dpw_gnk_lrb__image_qfg_zch_gh\" class=\"image img-screenshot\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/aw_assignee_take.png\" width=\"203\" height=\"51\"></p>\n<p>For more information, see these articles:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408887127450-Manually-assigning-a-ticket\" target=\"_blank\" rel=\"noopener noreferrer\">Manually assigning a ticket</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408832151834-Updating-and-solving-tickets\" target=\"_blank\" rel=\"noopener noreferrer\">Updating and solving tickets</a></li>\n</ul>",
       "user_segment_ids": []
     },
     {
@@ -347,41 +347,6 @@
         "role_admin"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>How do I change my agent's role and permissions?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>Account admins can change the role and access to products for their users. For more information, see the article <a href=\"https://support.zendesk.com/hc/en-us/articles/4409155967258\" target=\"_blank\" rel=\"noopener noreferrer\">Changing an agent's role</a>.</p>\n<p>See the video tutorial below on navigating Admin Center to view and manage your team members' access and permissions.</p>\n<p><iframe src=\"//www.youtube-nocookie.com/embed/wzKQvogBRK0\" width=\"560\" height=\"315\" frameborder=\"0\" allowfullscreen=\"\"></iframe></p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 7513261399706,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7513261399706.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/7513261399706-How-can-I-export-comments-from-a-messaging-ticket",
-      "author_id": 4967137259930,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405303730330,
-      "created_at": "2024-06-28T08:07:09Z",
-      "updated_at": "2024-07-02T15:45:45Z",
-      "name": "How can I export comments from a messaging ticket?",
-      "title": "How can I export comments from a messaging ticket?",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2024-07-02T15:45:44Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801135069,
-      "content_tag_ids": [
-        "01H41BV6ZQ0HKNT24A044VRDV2"
-      ],
-      "label_names": [
-        "ks",
-        "ab0",
-        "ab0_messaging",
-        "role_admin"
-      ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>How can comments from messaging tickets be exported, with detailed information related to the author of each comment?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>To export comments and author data from a single messaging ticket, use the <a href=\"https://developer.zendesk.com/api-reference/ticketing/tickets/ticket_audits/\" target=\"_blank\" rel=\"noopener noreferrer\">ticket audits API</a> with this URL: <code>https://<em>yoursubdomain</em>.zendesk.com/api/v2/tickets/<em>ticket_id</em>/audits.json</code>.</p>\n<p>Replace <code>yoursubdomain</code> and <code>ticket_id</code> with your <a href=\"https://support.zendesk.com/hc/en-us/articles/4409381383578-Where-can-I-find-my-Zendesk-subdomain\" target=\"_blank\" rel=\"noopener noreferrer\">actual subdomain</a> and ticket ID. These elements appear on any ticket URL. <span>For example, from the ticket below, the value to use as the actual </span><span>subdomain is </span><code>yoursubdomain</code><span> and the ticket ID is </span><code>285</code><span>.<br></span><img src=\"https://support.zendesk.com/hc/article_attachments/7536515758618\" alt=\"Ticket ID.png\" width=\"393\"></p>\n<p>Your result will look like this:<br><img src=\"https://support.zendesk.com/hc/article_attachments/7536546558490\" alt=\"Example.png\" width=\"393\"></p>\n<p>The value after <code>actor_type</code> refers to the type of user, such as end user or agent, and the value after <code>actor_id</code> refers to the long digits of any <a href=\"https://support.zendesk.com/hc/en-us/articles/4408822762650-Viewing-an-end-user-s-profile-in-Zendesk-Support\" target=\"_blank\" rel=\"noopener noreferrer\">user profile</a> URL, for example:</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7536515759386\" alt=\"Profile.png\" width=\"393\"></p>\n<div class=\"p\">\n<div class=\"note note\">\n<span class=\"notetitle\">Note:</span> To perform a mass export, use the <a href=\"https://developer.zendesk.com/documentation/ticketing/managing-tickets/using-the-incremental-export-api/\" target=\"_blank\" rel=\"noopener noreferrer\">Incremental Exports API</a> first to gather a list of ticket IDs. Then, use the <a href=\"https://developer.zendesk.com/api-reference/ticketing/tickets/ticket_audits/\" target=\"_blank\" rel=\"noopener noreferrer\">ticket audits</a> API.</div>\n</div>\n<div class=\"p\">\n<div class=\"note warning\">\n<span class=\"warningtitle\">Warning:</span> This article is provided for instructional purposes only. Zendesk does not support or guarantee the code. Post any issues you have in the comments section or try searching for a solution online.</div>\n</div>\n<p>For more information, see these articles:</p>\n<ul>\n<li><a href=\"https://developer.zendesk.com/api-reference/ticketing/ticket-management/incremental_exports/#incremental-ticket-event-export\" target=\"_blank\" rel=\"noopener noreferrer\">Incremental ticket event export</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408887024026-What-are-my-ticket-export-options\" target=\"_blank\" rel=\"noopener noreferrer\">What are my ticket export options?</a></li>\n</ul>",
       "user_segment_ids": []
     },
     {
@@ -968,6 +933,43 @@
       "content_tag_ids": [],
       "label_names": [],
       "body": "<div class=\"note tip\">See our <a href=\"https://support.zendesk.com/hc/en-us/articles/7334819842714\" target=\"_blank\" rel=\"noopener noreferrer\">What's New</a> for an overview of what was released in the last month.</div>\n<p>This week's release notes include:</p>\n<ul>\n<li><a href=\"#h_01HXSV7EW9MFY7TXXAKWRRDKCQ\">Support</a></li>\n<li><a href=\"#h_01J0KKX6YKH9EZFDSH9ZRVZB54\">Chat and messaging</a></li>\n<li><a href=\"#h_01J01CN9D98BH9C08SHDNT3AT3\">App Marketplace</a></li>\n<li><a href=\"#h_01HX7B0ESFT89GAT9E79E1GBH6\">Products with no updates this week</a></li>\n</ul>\n<h2 id=\"h_01HXSV7EW9MFY7TXXAKWRRDKCQ\">Support</h2>\n<p><strong>New</strong></p>\n<ul>\n<li>\n<a href=\"https://support.zendesk.com/hc/en-us/articles/6865149018010-Announcing-consolidated-macros-management\" target=\"_blank\" rel=\"noopener noreferrer\">Announcing consolidated macros management</a>. Macros admin and AI suggestions are now consolidated into a new admin experience. This also includes the ability to add color text to your macros.</li>\n</ul>\n<h2 id=\"h_01J0KKX6YKH9EZFDSH9ZRVZB54\">Chat and messaging</h2>\n<p><strong>Fixed</strong></p>\n<ul>\n<li style=\"box-sizing: inherit;\">Fix to prevent multi-agent assignment when performing group transfer for live chat</li>\n</ul>\n<h2 id=\"h_01J01CN9D98BH9C08SHDNT3AT3\">App Marketplace</h2>\n<ul class=\"ul1\">\n<li class=\"li1\">\n<span class=\"s1\"></span><span class=\"s2\">Rixo 128 (Theme)</span>\n</li>\n<ul class=\"ul2\">\n<li class=\"li1\">\n<span class=\"s3\"><a href=\"https://www.zendesk.com/marketplace/themes/269/rixo-128/\"><span class=\"s4\">Rixo 128 </span></a></span><span class=\"s2\">is a standout Zendesk theme featuring a sleek, eye-catching design and numerous practical features. It offers customizable blocks and actionable prompts, enabling effortless brand tailoring without coding skills. This allows for the quick and easy setup of an impressive help center that will delight your customers.</span>\n</li>\n</ul>\n<li class=\"li1\">\n<span class=\"s3\"></span><span class=\"s2\">Octopia Connector by Volvox (Support) (paid)</span>\n</li>\n<ul class=\"ul2\">\n<li class=\"li1\">\n<span class=\"s3\"><a href=\"https://www.zendesk.com/marketplace/apps/support/1042858/octopia-connector-by-volvox/\"><span class=\"s4\">Octopia Connector by Volvox</span></a></span><span class=\"s2\"> helps you unleash the power of seamless order data retrieval from any Octopia marketplace. Provide your agents with lightning-fast insights for exceptional customer support.  Effortlessly retrieve order details directly from a ticket field. Instantly view detailed billing and shipping information related to the ticket. Access comprehensive parcel tracking details with ease.</span>\n</li>\n</ul>\n<li class=\"li1\">\n<span class=\"s3\"></span><span class=\"s2\">Netsuite by Faye<strong> (Support)</strong></span>\n</li>\n<ul class=\"ul2\">\n<li class=\"li1\">\n<span class=\"s3\"><a href=\"https://www.zendesk.com/marketplace/apps/support/1037156/netsuite-by-faye/\"><span class=\"s4\">Netsuite by Faye</span></a></span><span class=\"s2\"> helps you connect Zendesk and Oracle NetSuite effortlessly, enhancing your CX platform with powerful ERP functionalities to optimize customer engagement and operational processes. By syncing NetSuite customers to Zendesk organizations, you can streamline support and billing processes, enabling agents to quickly resolve inquiries with direct access to NetSuite’s invoice history within Zendesk.  Eliminate manual information entry, reducing errors and improving data quality.  Reduce support ticket times, increasing customer satisfaction and brand loyalty.  Empower customer support teams with real-time data, enhancing customer service and fostering stronger client relationships.</span>\n</li>\n</ul>\n<li class=\"li1\">\n<span class=\"s3\"></span><span class=\"s2\">Sendcloud Tracking (Support)</span>\n</li>\n<ul class=\"ul2\">\n<li class=\"li1\">\n<span class=\"s3\"><a href=\"https://www.zendesk.com/marketplace/apps/support/1042344/sendcloud-tracking/\"><span class=\"s4\">Sendcloud Tracking</span></a></span><span class=\"s2\"> unlocks the future of parcel management within Zendesk!  Forget the hassle of traditional tracking methods. This app redefines efficiency by revolutionizing how you monitor shipments created via Sendcloud.  Monitor your parcels effortlessly right within Zendesk.  Seamlessly retrieve tracking numbers directly from your field ID, eliminating unnecessary steps and saving precious time.  Ensure every delivery is on schedule with real-time updates and insights at your fingertips.</span>\n</li>\n</ul>\n<li class=\"li1\">\n<span class=\"s3\"></span><span class=\"s2\">Phrase for Support <strong>(Support)</strong></span>\n</li>\n<ul class=\"ul2\">\n<li class=\"li1\">\n<span class=\"s3\"><a href=\"https://www.zendesk.com/marketplace/apps/support/1033621/phrase-for-support/\"><span class=\"s4\">Phrase for Support</span></a></span><span class=\"s2\"> offers a comprehensive platform of connected translation tools that are intuitive and easy to integrate.  Phrase provides a simple, plug-and-play solution with Zendesk Support tickets for real-time translation of conversations between customers. This enables you to instantly serve customers worldwide in their native languages, regardless of the availability of agents or the languages they speak.</span>\n</li>\n</ul>\n</ul>\n<h2 id=\"h_01HX7B0ESFT89GAT9E79E1GBH6\">Products with no updates this week</h2>\n<ul>\n<li>AI Agents (formerly bots)</li>\n<li>Mobile SDKs</li>\n<li>Guide and machine learning</li>\n<li>Explore</li>\n<li>Talk</li>\n<li>Admin Center</li>\n</ul>",
+      "user_segment_ids": []
+    },
+    {
+      "id": 7445807952026,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7445807952026.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/7445807952026-Why-am-I-having-issues-publishing-my-conversation-bot",
+      "author_id": 1263082232529,
+      "comments_disabled": false,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405303741594,
+      "created_at": "2024-06-17T17:20:56Z",
+      "updated_at": "2024-07-02T15:06:59Z",
+      "name": "Why am I having issues publishing my conversation bot?",
+      "title": "Why am I having issues publishing my conversation bot?",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2024-06-27T16:16:15Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801135069,
+      "content_tag_ids": [
+        "01J1D5PQSA8K663GB6CXGP3NV0"
+      ],
+      "label_names": [
+        "ks",
+        "ab0",
+        "mt",
+        "video",
+        "ab0_bots_automation",
+        "role_admin"
+      ],
+      "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2>\n<p>I have created and am attempting to publish my conversation bot, but I am encountering the following issues:</p>\n<ul>\n<li>Conversation bots page shows the bot is not connected to any channels.<br><img src=\"https://support.zendesk.com/hc/article_attachments/7490186793626\">\n</li>\n<li>Attempting to publish the bot results in the error: Bot couldn't be published. You need to turn on Agent Workspace and messaging first. If you've done this, refresh the page.<br><img src=\"https://support.zendesk.com/hc/article_attachments/7490190508442\">\n</li>\n<li>I do not see the <strong>Messaging</strong> option in the Admin Center under <strong>Channels &gt; Messaging and social &gt; Messaging.<br><img src=\"https://support.zendesk.com/hc/article_attachments/7490190508954\"><br></strong>\n</li>\n</ul>\n<p>Why am I unable to publish the bot?</p>\n<h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2>\n<p>The Zendesk Agent Workspace and messaging must be enabled to utilize the conversation bot. This step-by-step process will allow you to launch your conversation bot successfully.</p>\n<h3 id=\"h_01J0KKC5BRTAXG2MA9KDMHVVSS\">1. Enable Zendesk Agent Workspace</h3>\n<p>Activate the Zendesk Agent Workspace by following the steps in this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4581758611866-Activating-and-deactivating-the-Zendesk-Agent-Workspace#topic_xjc_3d3_b3b:~:text=activate%20or%20deactivate-,Activating%20the%20Agent%20Workspace,-Deactivating%20the%20Agent\" target=\"_blank\" rel=\"noopener noreferrer\">Activating and deactivating the Zendesk Agent Workspace</a>.</p>\n<h3 id=\"h_01J0KKEC9AB4XHPH6K9SM9GX4V\">2. Enable messaging</h3>\n<p id=\"h_01J0KKEC9B2TZ58QH3NEBF9F7M\">Enabling messaging at the account level by following the steps in this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/5106665089690-Why-can-t-I-migrate-to-messaging#h_01HXXDCGAP2XZZ4NVHF2KXDZ4A\" target=\"_blank\" rel=\"noopener noreferrer\">Why can't I migrate to messaging?</a></p>\n<p>See the video for a guided walkthrough of turning on messaging in your account:</p>\n<p class=\"wysiwyg-text-align-left\"><iframe src=\"//www.youtube-nocookie.com/embed/a59icFeBe10\" width=\"560\" height=\"315\" frameborder=\"0\" allowfullscreen=\"\"></iframe></p>\n<h3 id=\"h_01J0KKEC9BGM77PM0EDDMPREY8\">3. Create and publish the conversation bot</h3>\n<p>Conversation bots are part of <a href=\"https://support.zendesk.com/hc/en-us/articles/6970583409690\" target=\"_blank\" rel=\"noopener noreferrer\">AI Agents</a>. AI-powered bots can automate and resolve your customers' issues. You can use AI-powered bot features like conversation flows to create predetermined flows using Zendesk's bot builder when building your bot. Also, enable <a href=\"https://support.zendesk.com/hc/en-us/articles/6138268212634\" target=\"_blank\" rel=\"noopener noreferrer\">generative replies</a> in your conversation bot to generate answers to your customers' queries using your Zendesk knowledge base. To create a messaging bot, follow the instructions in this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408824263578-Creating-a-conversation-bot-for-your-web-and-mobile-channels#topic_uws_kqd_krb\" target=\"_blank\" rel=\"noopener noreferrer\">Creating a conversation bot for your web and mobile channels</a>.</p>\n<p>See the video for a guided walkthrough of how to create and publish a conversation bot:</p>\n<p class=\"wysiwyg-text-align-left\"><iframe src=\"//www.youtube-nocookie.com/embed/1iL3N6EmiRE\" width=\"560\" height=\"315\" frameborder=\"0\" allowfullscreen=\"\"></iframe></p>",
       "user_segment_ids": []
     }
   ],
