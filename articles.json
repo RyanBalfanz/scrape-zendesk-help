@@ -197,14 +197,14 @@
       "vote_count": 0,
       "section_id": 4405303730330,
       "created_at": "2024-07-05T12:35:25Z",
-      "updated_at": "2024-07-09T10:40:12Z",
+      "updated_at": "2024-07-09T15:03:59Z",
       "name": "Why isn't the visitor's email added to their profile after they open a messaging ticket?",
       "title": "Why isn't the visitor's email added to their profile after they open a messaging ticket?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-07-09T10:40:11Z",
+      "edited_at": "2024-07-09T15:03:59Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -214,7 +214,7 @@
         "ab0_messaging",
         "role_admin"
       ],
-      "body": "<h2 id=\"h_01HHCMBZS0KQD4CBRVQ63KVR63\">Question</h2>\n<p>With messaging tickets, my users are required to provide their name and email. When they open a ticket, the name populates in the user profile, but the email doesn't, despite the user having provided one. Why isn't the email address being added to the user's profile?</p>\n<h2 id=\"h_01HHCMBZS09525S9QBPDV0K1PE\">Answer</h2>\n<p>In Messaging settings, there is an option to either only use verified emails, or to use both verified and unverified emails for messaging tickets. When this setting is configured to only use verified emails, an unauthenticated visitor providing an email address can create a ticket, but that email address will not be added to the new user profile.</p>\n<p>To change this setting to allow new visitors' email addresses to be added to their profiles, configure the <strong>Email Identities</strong> in Messaging settings to apply to <strong>Both verified and unverified emails</strong>. For more information on how to change this setting and what each option means, see the article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4411666638746-Authenticating-end-users-for-messaging#topic_it5_52r_1bc\" target=\"_blank\" rel=\"noopener noreferrer\">Authenticating end users for messaging</a>. </p>",
+      "body": "<h2 id=\"h_01HHCMBZS0KQD4CBRVQ63KVR63\">Question</h2>\n<p>With messaging tickets, my users are required to provide their name and email. When they open a ticket, the name populates in the user profile, but the email doesn't, despite the user having provided one. Why isn't the email address being added to the user's profile?</p>\n<h2 id=\"h_01HHCMBZS09525S9QBPDV0K1PE\">Answer</h2>\n<p>In Messaging settings, there is an option to either only use verified emails, or to use both verified and unverified emails for messaging tickets. When this setting is configured to only use verified emails, an unauthenticated visitor providing an email address can create a ticket, but that email address will not be added to the new user profile.</p>\n<p>To change this setting to allow new visitors' email addresses to be added to their profiles, configure the <strong>Email Identities</strong> in Messaging settings to apply to <strong>Use both verified and unverified emails</strong>. For more information on how to change this setting and what each option means, see the article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4411666638746-Authenticating-end-users-for-messaging#topic_it5_52r_1bc\" target=\"_blank\" rel=\"noopener noreferrer\">Authenticating end users for messaging</a>. </p>",
       "user_segment_ids": []
     },
     {
@@ -262,7 +262,7 @@
       "vote_count": 0,
       "section_id": 4405303740058,
       "created_at": "2024-07-03T15:09:59Z",
-      "updated_at": "2024-07-03T16:15:33Z",
+      "updated_at": "2024-07-09T15:04:52Z",
       "name": "Why does the caller ID from a forwarded call differ from the phone number of the caller?",
       "title": "Why does the caller ID from a forwarded call differ from the phone number of the caller?",
       "source_locale": "en-us",
@@ -276,6 +276,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_talk",
         "role_agent"
       ],
@@ -351,8 +352,8 @@
       "draft": false,
       "promoted": true,
       "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
+      "vote_sum": 2,
+      "vote_count": 2,
       "section_id": 4405298833818,
       "created_at": "2024-07-02T15:50:20Z",
       "updated_at": "2024-07-09T14:23:32Z",
@@ -443,7 +444,7 @@
       "vote_count": 0,
       "section_id": 5322740495642,
       "created_at": "2024-07-02T04:15:45Z",
-      "updated_at": "2024-07-05T07:14:22Z",
+      "updated_at": "2024-07-09T15:05:18Z",
       "name": "Which channel should I use for my trigger condition?",
       "title": "Which channel should I use for my trigger condition?",
       "source_locale": "en-us",
@@ -457,6 +458,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_admin_center",
         "role_admin"
       ],
@@ -506,7 +508,7 @@
       "vote_count": 0,
       "section_id": 4405298901658,
       "created_at": "2024-07-01T22:00:43Z",
-      "updated_at": "2024-07-04T08:39:25Z",
+      "updated_at": "2024-07-09T15:03:19Z",
       "name": "Delay in ticket creation from email",
       "title": "Delay in ticket creation from email",
       "source_locale": "en-us",
@@ -520,6 +522,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_email"
       ],
       "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2>\n<ul>\n<li>Your email server is sending emails successfully to your Zendesk support address</li>\n<li>Some of the emails sent to your Zendesk support address are not creating tickets or create tickets after a long time delay</li>\n<li>The ticket creation timestamp does not match the timestamp from the email which created the ticket</li>\n</ul>\n<h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2>\n<p>There are several potential causes for delay or failed ticket creation from email. Check below for the possible causes and how to resolve them.</p>\n<h3 id=\"h_01J1TQRJ8VB5D5HM9X2N7TM908\">Emails are in your suspended tickets queue</h3>\n<p>Check your suspended tickets queue for the missing emails. There are several <a href=\"https://support.zendesk.com/hc/en-us/articles/4408828416282-Causes-for-ticket-suspension\" target=\"_blank\" rel=\"noopener noreferrer\">causes of ticket suspension</a> which can impact the ability for an email to create a ticket, such as the use of email for bulk ticket creation instead of the API and channels framework.</p>\n<ul>\n<li>When a ticket is suspended it also can cause a discrepancy in the creation date timestamp. If an email is recovered from your suspended tickets queue, the creation date will match when the ticket was recovered rather than when the email was originally received.</li>\n</ul>\n<h3 id=\"h_01J1TQRR5YXH46P58B0A14BJ47\">An active service incident is impacting email delivery or ticket creation</h3>\n<p>On rare occasions a service incident can prevent the creation of tickets through email. Check for an active service incident on Zendesk's <a href=\"https://status.zendesk.com/\" target=\"_blank\" rel=\"noopener noreferrer\">status page</a> for emails not creating tickets.</p>\n<h3 id=\"h_01J1TRX6X9T4PQQ600AHJX1YKM\">You use Gmail and your connection from Google to Zendesk was interrupted</h3>\n<p>If you use the Gmail connector and do not see emails creating tickets, check the status of your <a href=\"https://support.zendesk.com/hc/en-us/articles/5279521301914-Managing-your-support-addresses\" target=\"_blank\" rel=\"noopener noreferrer\">support address</a>. Sometimes a disconnection can occur if you update your Gmail password.</p>\n<p>To resolve this issue, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408833556634-How-can-I-reconnect-a-support-address-through-the-Gmail-connector-in-Zendesk\" target=\"_blank\" rel=\"noopener noreferrer\">reconnect</a> Gmail to your support addresses and resend any missing emails as needed.</p>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408830879514-How-to-troubleshoot-my-email-integration\" target=\"_blank\" rel=\"noopener noreferrer\">How to troubleshoot my email integration</a>.</p>",
@@ -566,7 +569,7 @@
       "vote_count": 0,
       "section_id": 4405303730330,
       "created_at": "2024-07-01T10:34:34Z",
-      "updated_at": "2024-07-03T15:40:48Z",
+      "updated_at": "2024-07-09T15:03:25Z",
       "name": "The Solved button is dimmed (grayed out) on my messaging ticket",
       "title": "The Solved button is dimmed (grayed out) on my messaging ticket",
       "source_locale": "en-us",
@@ -580,6 +583,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_messaging",
         "role_agent"
       ],
@@ -599,7 +603,7 @@
       "vote_count": 0,
       "section_id": 4405303736218,
       "created_at": "2024-06-28T15:16:34Z",
-      "updated_at": "2024-07-05T15:24:44Z",
+      "updated_at": "2024-07-09T15:04:34Z",
       "name": "Okta error: An error occurred while assigning this app",
       "title": "Okta error: An error occurred while assigning this app",
       "source_locale": "en-us",
@@ -614,6 +618,7 @@
         "support",
         "ks",
         "ab0",
+        "mt",
         "ab0_support",
         "role_admin"
       ],
@@ -670,7 +675,7 @@
       "vote_count": 0,
       "section_id": 4405303718426,
       "created_at": "2024-06-28T07:28:54Z",
-      "updated_at": "2024-07-02T17:48:30Z",
+      "updated_at": "2024-07-09T15:04:44Z",
       "name": "Why do Explore scheduled dashboard emails exclude some recipient addresses?",
       "title": "Why do Explore scheduled dashboard emails exclude some recipient addresses?",
       "source_locale": "en-us",
@@ -685,6 +690,7 @@
         "explore",
         "ks",
         "ab0",
+        "mt",
         "ab0_explore",
         "role_admin"
       ],
@@ -826,7 +832,7 @@
       "vote_count": 0,
       "section_id": 4405303741594,
       "created_at": "2024-06-25T20:34:58Z",
-      "updated_at": "2024-07-02T16:20:56Z",
+      "updated_at": "2024-07-09T15:02:30Z",
       "name": "Workflow: Notify customers of business hours when no agents are online",
       "title": "Workflow: Notify customers of business hours when no agents are online",
       "source_locale": "en-us",
