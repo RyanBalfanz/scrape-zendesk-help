@@ -1,5 +1,5 @@
 {
-  "count": 4654,
+  "count": 4655,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 156,
@@ -791,6 +791,39 @@
       "user_segment_ids": []
     },
     {
+      "id": 7509181267226,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7509181267226.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/7509181267226-Recipe-Scheduling-a-ticket-to-reopen-at-a-specific-time",
+      "author_id": 1263082344229,
+      "comments_disabled": false,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298901274,
+      "created_at": "2024-06-27T18:26:24Z",
+      "updated_at": "2024-07-09T18:26:47Z",
+      "name": "Recipe: Scheduling a ticket to reopen at a specific time",
+      "title": "Recipe: Scheduling a ticket to reopen at a specific time",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2024-07-09T18:22:24Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801135069,
+      "content_tag_ids": [],
+      "label_names": [
+        "ks",
+        "ab0",
+        "ab0_admin_center",
+        "role_admin"
+      ],
+      "body": "<div class=\"body\">\n<div class=\"docs-wmp-link\"><a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/5411234991258-plan\" target=\"_blank\" rel=\"noopener\">What's my plan?</a></div>\n<p class=\"p\" dir=\"ltr\"><img id=\"messaging_widget_responses__image_rld_z3j_bpb\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/plan_available_suite_all.png\" alt=\"Available on all Suite plans\"></p>\n<p>You can schedule a ticket to automatically reopen by combining several Zendesk features. This workflow allows your agents to put a ticket into the <strong>On-hold</strong> status and utilize the <strong>Due date</strong> field on the ticket to specify when it should be reopened. </p>\n<h3 id=\"h_01J1SWXXGWB2A0N459HW6SMK0A\">Workflow overview</h3>\n<ol>\n<li>Agent applies a macro that adds a tag, sets the ticket status to <strong>On-hold</strong>, and changes ticket type to <strong>Task</strong>\n</li>\n<li>Agent selects the date that they want the ticket to reopen from the <strong>Due d</strong><strong>ate</strong> field </li>\n<li>Agent submits ticket </li>\n<li>Automation runs on the selected date and changes the ticket status back to <strong>Open</strong>\n</li>\n</ol>\n<p>To achieve this workflow, set up the following: </p>\n<ul>\n<li><a href=\"#h_01HXY1BFCAPEN08R87P7ENG6TS\">Step 1: Add an On-hold status</a></li>\n<li><a href=\"#01HXY1G18XYBGPX37812NDQPP4\">Step 2: Create a macro for your agents</a></li>\n<li><a href=\"#01J1DE23H8P7SEF8CNCG59QMF2\">Step 3: Create the automation</a></li>\n</ul>\n<h3 id=\"h_01HXY1BFCAPEN08R87P7ENG6TS\">Step 1: Add an On-hold status:</h3>\n<p>By default, the <strong>On-hold</strong> status is not active on your account. If you have not done so already, navigate to Admin Center to <a href=\"https://support.zendesk.com/hc/en-us/articles/4408889282458-Adding-the-On-hold-ticket-status-to-Zendesk-Support\" target=\"_blank\" rel=\"noopener noreferrer\">add an On-hold ticket status</a>. </p>\n<h3 id=\"01HXY1G18XYBGPX37812NDQPP4\">Step 2: Ceate a macro for your agents:</h3>\n<p>A macro helps your agents adhere to the workflow and ensure that ticket properties are set accurately. The most important aspect of the macro will be adding a tag that the automation will use to identify the tickets it needs to run on. This differentiates it from other <strong>Task</strong> tickets in your account where you do not need the automation to run. You can use whatever tag makes sense for your business. In this example, we use the tag <code>schedule_reopen</code>.</p>\n<p><strong>To create the macro</strong></p>\n<ol>\n<li>Navigate to Admin Center, and <a href=\"https://support.zendesk.com/hc/en-us/articles/4408844187034-Creating-macros-for-repetitive-ticket-responses-and-actions\" target=\"_blank\" rel=\"noopener noreferrer\">add a macro</a>.</li>\n<li>Add a <strong>Macro name </strong>and <strong>Description.</strong>\n</li>\n<li>Under <strong>Actions</strong>, select: \n<ul>\n<li><strong>Type | Task</strong></li>\n<li><strong>Ticket status | On-hold</strong></li>\n<li>\n<strong>Add tags |</strong> (tag)</li>\n</ul>\n</li>\n<li>Click <strong>Create.</strong>\n</li>\n</ol>\n<p class=\"wysiwyg-text-align-center\"><img src=\"https://support.zendesk.com/hc/article_attachments/7537521427226\" alt=\"scheduled_reopen_macro_actions.png\"></p>\n<h3 id=\"01J1DE23H8P7SEF8CNCG59QMF2\">Step 4: Create the automation:</h3>\n<p>The final step in achieving this workflow is to create an automation. It uses the <strong>Due date</strong> field, tag, and ticket status created in the previous steps to identify the tickets it needs to run on. </p>\n<p><strong>To create the automation</strong></p>\n<ol>\n<li>Navigate to Admin Center, and <a href=\"https://support.zendesk.com/hc/en-us/articles/4408883801626-Creating-and-managing-automations-for-time-based-events\" target=\"_blank\" rel=\"noopener noreferrer\">add an automation</a>. </li>\n<li>Add an <strong>Automation title</strong>.</li>\n<li>Under <strong>Meet all the following conditions</strong>, select: \n<ul>\n<li><strong>Ticket: Status category | Is | On-hold</strong></li>\n<li><strong>Ticket: Type | Is | Task</strong></li>\n<li>\n<strong>Ticket: Tags | Contains at least one of the following | </strong>(tag you used in step 2) </li>\n<li><strong>Ticket: Hours since due date | (calendar) Great than | 0 <img src=\"https://support.zendesk.com/hc/article_attachments/7537542983322\" alt=\"schedule_reopen_automation_conditions.png\"></strong></li>\n</ul>\n</li>\n<li>Click <strong>Create automation</strong>.</li>\n</ol>\n</div>\n<div class=\"note tip wysiwyg-text-align-left\">\n<span class=\"notetitle\">Contributed by community member <a class=\"xref\" href=\"https://support.zendesk.com/hc/zh-cn/profiles/1268420663450\" target=\"_blank\" rel=\"noopener noreferrer\">Ahmed Zaid</a>.</span><br>For the original conversation, see this post: <a class=\"xref\" href=\"https://support.zendesk.com/hc/zh-cn/community/posts/5599547452826-How-to-snooze-a-ticket\" target=\"_blank\" rel=\"noopener noreferrer\">How to snooze a ticket</a>.</div>",
+      "user_segment_ids": []
+    },
+    {
       "id": 7502985857306,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7502985857306.json",
       "html_url": "https://support.zendesk.com/hc/en-us/articles/7502985857306-Announcing-migration-of-all-Zendesk-X-Twitter-integrations-to-API-V2",
@@ -923,36 +956,6 @@
         "greetings"
       ],
       "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2>\n<p>When I upload a customized IVR greeting in Talk settings, I receive the following message: <strong>Error creating greeting.</strong> How can I fix this?</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7494468356762\" alt=\"Error uploading IVR greeting.jpg\"></p>\n<h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2>\n<p>1. Check permissions:</p>\n<p>Ensure that you have the necessary permissions to create or edit greetings. This typically requires admin or specific role-based access.</p>\n<p>2. File format and size:</p>\n<p>Verify that the greeting file meets the <a href=\"https://support.zendesk.com/hc/en-us/articles/4408845761050-How-should-I-format-audio-files-for-custom-greetings\" target=\"_blank\" rel=\"noopener noreferrer\">required format for audio files </a><strong>711 µ-LAW</strong> or <strong>MP3</strong></p>\n<p>3. Browser and network issues:</p>\n<ul>\n<li>\n<a href=\"https://support.zendesk.com/hc/en-us/articles/4408823836314-How-to-clear-cache-and-cookies\" target=\"_blank\" rel=\"noopener noreferrer\">Clear your browser cache and cookies, </a>or try using a different browser to see if the issue persists.</li>\n<li>Check your network connection to ensure there are no connectivity issues affecting the upload.</li>\n</ul>\n<p>4. Test using a different file:</p>\n<p>Try uploading a different greeting file to see if the issue is specific to the original file that the customer is using.</p>\n<p>If none of the steps above resolve the issue, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk support</a> for further assistance. </p>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408821594650-Managing-outgoing-greetings\" target=\"_blank\" rel=\"noopener noreferrer\">Managing outgoing greetings</a></p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 7493491865754,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7493491865754.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/7493491865754-Service-Incident-June-25th-2024-Support-Multiple-Pods-Messages-not-found-Error-code-A-xxx-in-Agent-Workspace",
-      "author_id": 1263082084489,
-      "comments_disabled": true,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405298854426,
-      "created_at": "2024-06-25T16:05:13Z",
-      "updated_at": "2024-07-03T10:28:03Z",
-      "name": "Service Incident - June 25th, 2024 - Support | Multiple Pods - Messages not found\" Error code A_xxx in Agent Workspace",
-      "title": "Service Incident - June 25th, 2024 - Support | Multiple Pods - Messages not found\" Error code A_xxx in Agent Workspace",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2024-07-03T10:28:02Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801242670,
-      "content_tag_ids": [],
-      "label_names": [
-        "service_incident"
-      ],
-      "body": "<h3 id=\"h_01J1W2546VQQP9WMH2YMM925HB\" class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>June 25, 2024 04:05 PM UTC | June 25, 2024 09:05 AM PT </strong><br>We are aware of a spike of errors impacting customers across multiple pods between 15:40 and 15:47 UTC on June 25, 2024, which resulted in \"Messages not found\" responses and \"Error code A_xxx\" messages when trying to load tickets in Support. We have recovered from these errors and the issue should be resolved by reloading your browser and/or clearing your cache and cookies.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p>\n<h4 id=\"h_01J1W2546V2E5E07W0YDM2N3V7\"><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
     }
   ],
