@@ -1,5 +1,5 @@
 {
-  "count": 4649,
+  "count": 4650,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 155,
@@ -213,6 +213,38 @@
         "authentication"
       ],
       "body": "<h2 id=\"h_01HHCMBZS0KQD4CBRVQ63KVR63\">Question</h2>\n<p>With messaging tickets, my users are required to provide their name and email. When they open a ticket, the name populates in the user profile, but the email doesn't, despite the user having provided one. Why isn't the email address being added to the user's profile? </p>\n<p> </p>\n<h2 id=\"h_01HHCMBZS09525S9QBPDV0K1PE\">Answer</h2>\n<p>In Messaging settings, there is an option to either only use verified emails, or to use both verified and unverified emails for messaging tickets. When this setting is configured to only use verified emails, an unauthenticated visitor providing an email address can create a ticket, but that email address will not be added to the new user profile.</p>\n<p>To change this setting to allow new visitors' email addresses to be added to their profiles, configure the <strong>Email Identities</strong> in Messaging settings to apply to <strong>Both verified and unverified emails</strong>. For more information on how to change this setting and what each option means, see <a href=\"https://support.zendesk.com/hc/en-us/articles/4411666638746-Authenticating-end-users-for-messaging#topic_it5_52r_1bc\" target=\"_blank\" rel=\"noopener noreferrer\">incorporating email identities into your end user authentication</a>. </p>",
+      "user_segment_ids": []
+    },
+    {
+      "id": 7552240933914,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7552240933914.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/7552240933914-Why-am-I-seeing-old-macro-suggestions",
+      "author_id": 1263082103229,
+      "comments_disabled": false,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298900890,
+      "created_at": "2024-07-05T07:50:17Z",
+      "updated_at": "2024-07-09T08:05:09Z",
+      "name": "Why am I seeing old macro suggestions?",
+      "title": "Why am I seeing old macro suggestions?",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2024-07-09T08:05:08Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801135069,
+      "content_tag_ids": [],
+      "label_names": [
+        "ks",
+        "ab0",
+        "advanced ai"
+      ],
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>I recently turned on Advanced AI for my account, but why am I seeing old macro suggestions?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>The learning model for macro suggestions analyzes historical ticket data, including tickets before the <a href=\"https://support.zendesk.com/hc/en-us/articles/5524125586330--About-Zendesk-Advanced-AI\" target=\"_blank\" rel=\"noopener noreferrer\">Advanced AI add-on</a> is turned on. This means that when macro suggestions is activated, you may see suggestions based on the older tickets in your account. </p>\n<p>New macro suggestions are automatically generated on the first day of each month when your account meets the <a href=\"https://support.zendesk.com/hc/en-us/articles/5217191091354-Creating-macros-from-macro-suggestions-for-admins#topic_w12_xbq_dwb\" target=\"_blank\" rel=\"noopener noreferrer\">criteria for macro suggestions. </a></p>\n<p>For more information, see the article: <a href=\"https://support.zendesk.com/hc/en-us/articles/5217191091354-Creating-macros-from-macro-suggestions-for-admins\" target=\"_blank\" rel=\"noopener noreferrer\">Creating macros from macro suggestions for admins</a>.</p>",
       "user_segment_ids": []
     },
     {
@@ -915,41 +947,6 @@
         "role_agent"
       ],
       "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2>\n<p>In my agent profile, Two-Factor Authentication is shown as <strong>Deactivated</strong>. How can I activate it?</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7484779562522\" alt=\"Deactivated.png\" width=\"286\"></p>\n<h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2>\n<p>This is expected behavior. The admin can't set up two-factor authentication for agents. Instead, ask your agent to <a href=\"https://support.zendesk.com/hc/en-us/articles/4408829277466-Using-two-factor-authentication-to-sign-in-to-Zendesk-Support#topic_qdm_yhk_gs\" target=\"_blank\" rel=\"noopener noreferrer\">configure it directly from their profile.</a></p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 7470443744922,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7470443744922.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/7470443744922-Explore-recipe-Displaying-specific-values-to-select-from-in-a-data-filter-on-a-dashboard",
-      "author_id": 1266644443030,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405303719578,
-      "created_at": "2024-06-21T15:01:37Z",
-      "updated_at": "2024-07-02T15:06:56Z",
-      "name": "Explore recipe: Displaying specific values to select from in a data filter on a dashboard",
-      "title": "Explore recipe: Displaying specific values to select from in a data filter on a dashboard",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2024-06-25T14:34:24Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801135069,
-      "content_tag_ids": [],
-      "label_names": [
-        "explore",
-        "ab0",
-        "mt",
-        "kcs",
-        "ab0_explore",
-        "role_admin"
-      ],
-      "body": "<p>In this Explore recipe, you'll learn how to display only specific values from a drop-down list field in a dashboard filter.</p>\n<p><strong>Skill level</strong>: Advanced</p>\n<p><strong>Time required</strong>: 20 minutes</p>\n<p><strong>Data source:</strong> Support Tickets</p>\n<p><strong>Ingredients</strong>:</p>\n<ul>\n<li>One <strong>Support - Tickets</strong> report</li>\n<li>One <strong>standard calculated attribute</strong>\n</li>\n<li>One dashboard</li>\n</ul>\n<p>This recipe contains the following sections:</p>\n<ul>\n<li><a href=\"#Building\">Building your report</a></li>\n<li><a href=\"#01J15CAK22RB1QGCNQ10D0CJ8S\">Adding the filter to your dashboard</a></li>\n</ul>\n<h2 id=\"Building\">Building your report</h2>\n<ol>\n<li>In Explore, click the reports (<img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/Explore_query_icon.png\">) icon.</li>\n<li>In the <strong>Reports</strong> library, open any of your ticket reports.</li>\n<li>From the right side, create a custom <strong>standard calculated attribute</strong> with this formula:\n<pre>IF [Ticket group]=\"Quality\" or [Ticket group]=\"Support\" THEN [Ticket group] ENDIF</pre>\n<img src=\"https://support.zendesk.com/hc/article_attachments/7486324669082\" alt=\"Attribute.png\" width=\"300\"><br>In the formula, replace the 2 mentions of <code>Ticket group</code> with your <a href=\"https://support.zendesk.com/hc/en-us/articles/4408828883738-Editing-and-managing-your-ticket-fields\" target=\"_blank\" rel=\"noopener noreferrer\">actual field name</a> and <code>Quality</code> and <code>Support</code> with the existing field values you wish to display.</li>\n<li>\n<code>Save</code>.</li>\n</ol>\n<h2 id=\"01J15CAK22RB1QGCNQ10D0CJ8S\">Adding the filter to your dashboard</h2>\n<ol>\n<li>In Explore, click the dashboard icon (<img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/Explore_dashboard_icon.png\">) in the left sidebar.</li>\n<li>Open the dashboard of your choice.</li>\n<li>In your dashboard, click <strong class=\"ph b\">Add</strong> &gt; <strong class=\"ph b\">Add data filter &gt;</strong> Add your new custom calculated attribute as your widget.<br><img src=\"https://support.zendesk.com/hc/article_attachments/7486278723482\" alt=\"Filter.png\" width=\"300\">\n</li>\n</ol>\n<p>For more information, see these articles:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408837807258-Explore-recipe-Getting-to-know-dashboard-filters\" target=\"_blank\" rel=\"noopener noreferrer\">Getting to know dashboard filters</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408824243738-Creating-standard-calculated-metrics-and-attributes\" target=\"_blank\" rel=\"noopener noreferrer\">Creating standard calculated metrics and attributes</a></li>\n</ul>",
       "user_segment_ids": []
     }
   ],
