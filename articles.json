@@ -729,7 +729,7 @@
       "vote_count": 0,
       "section_id": 6279947161626,
       "created_at": "2024-06-28T13:47:24Z",
-      "updated_at": "2024-07-02T15:02:51Z",
+      "updated_at": "2024-07-09T22:16:53Z",
       "name": "How do I change my agent's role?",
       "title": "How do I change my agent's role?",
       "source_locale": "en-us",
@@ -740,7 +740,8 @@
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [
-        "01GT23ANPKETP5FEHTZ3KV8XBS"
+        "01GT23ANPKETP5FEHTZ3KV8XBS",
+        "01GT23CR5WV19DHBTHA1XGSGES"
       ],
       "label_names": [
         "ks",
