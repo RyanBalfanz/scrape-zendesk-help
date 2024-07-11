@@ -138,7 +138,7 @@
     {
       "id": 7580829466778,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7580829466778.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/7580829466778-Why-do-bulk-updates-in-public-comments-not-send-in-WhatsApp-ticket",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/7580829466778-Why-can-t-my-requesters-see-bulk-updates-in-WhatsApp-tickets",
       "author_id": 4715863955354,
       "comments_disabled": false,
       "draft": false,
@@ -148,14 +148,14 @@
       "vote_count": 0,
       "section_id": 4405303738522,
       "created_at": "2024-07-10T12:40:55Z",
-      "updated_at": "2024-07-11T07:25:41Z",
-      "name": "Why do bulk updates in public comments not send in WhatsApp ticket?",
-      "title": "Why do bulk updates in public comments not send in WhatsApp ticket?",
+      "updated_at": "2024-07-11T07:55:39Z",
+      "name": "Why can’t my requesters see bulk updates in WhatsApp tickets?",
+      "title": "Why can’t my requesters see bulk updates in WhatsApp tickets?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-07-11T07:25:08Z",
+      "edited_at": "2024-07-11T07:55:05Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -165,7 +165,7 @@
         "ab0",
         "WhatsApp"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>When using <a href=\"https://support.zendesk.com/hc/en-us/articles/4408886890906-Managing-tickets-in-bulk\" target=\"_blank\" rel=\"noopener noreferrer\">bulk ticket management</a> to add public comments to WhatsApp tickets, the message does not reach the end user even though it appears on the ticket.</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p class=\"p1\">This happens because WhatsApp blocks <a href=\"https://faq.whatsapp.com/5957850900902049/?helpref=hc_fnav&amp;cms_id=5957850900902049&amp;draft=false\" target=\"_blank\" rel=\"noopener noreferrer\">unauthorized bulk messages</a> to its users. <span class=\"s2\">The solution is to use WhatsApp approved message templates, which also bypass the 24-hour rule.</span></p>\n<p>For more information, see the article: <a href=\"https://support.zendesk.com/hc/en-us/articles/5869718332954-Using-WhatsApp-template-messages-to-bypass-the-24-hour-rule\" target=\"_blank\" rel=\"noopener noreferrer\">Using WhatsApp template messages to bypass the 24-hour rule</a>.</p>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>When using <a href=\"https://support.zendesk.com/hc/en-us/articles/4408886890906-Managing-tickets-in-bulk\" target=\"_blank\" rel=\"noopener noreferrer\">bulk ticket management</a> to add public comments to WhatsApp tickets, the message does not reach the end user. Why can’t the end user receive public comments added from bulk updates in WhatsApp tickets?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p class=\"p1\">WhatsApp blocks <a href=\"https://faq.whatsapp.com/5957850900902049/?helpref=hc_fnav&amp;cms_id=5957850900902049&amp;draft=false\" target=\"_blank\" rel=\"noopener noreferrer\">unauthorized bulk messages</a> to its users. The public comment added through a bulk update is available in the Agent Workspace, but the requesters won’t receive the message<strong>.</strong> The solution is to use WhatsApp approved message templates, which bypass the 24-hour rule.</p>\n<p>For more information, see the article: <a href=\"https://support.zendesk.com/hc/en-us/articles/5869718332954-Using-WhatsApp-template-messages-to-bypass-the-24-hour-rule\" target=\"_blank\" rel=\"noopener noreferrer\">Using WhatsApp template messages to bypass the 24-hour rule</a>.</p>",
       "user_segment_ids": []
     },
     {
