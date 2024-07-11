@@ -1,11 +1,43 @@
 {
-  "count": 4660,
+  "count": 4661,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 156,
   "per_page": 30,
   "previous_page": null,
   "articles": [
+    {
+      "id": 7586635642394,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7586635642394.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/7586635642394-Does-intelligent-triage-detect-intent-for-follow-up-tickets",
+      "author_id": 1900815493244,
+      "comments_disabled": false,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405303741594,
+      "created_at": "2024-07-11T07:08:59Z",
+      "updated_at": "2024-07-11T07:10:55Z",
+      "name": "Does intelligent triage detect intent for follow-up tickets?",
+      "title": "Does intelligent triage detect intent for follow-up tickets?",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2024-07-11T07:10:55Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801135069,
+      "content_tag_ids": [],
+      "label_names": [
+        "ks",
+        "ab0",
+        "ab0_bots_automation"
+      ],
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>Does intelligent triage detect intent for follow-up tickets?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p class=\"p1\">Follow-up tickets don't go through intelligent triage for intent, language, and sentiment detection. Intelligent triage predicts intent only for new tickets created from the channels where it is turned on.</p>\n<p>For more information, see the article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4550640560538-Automatically-detecting-customer-intent-language-and-sentiment\" target=\"_blank\" rel=\"noopener noreferrer\">Automatically detecting customer intent, language, and sentiment</a>. </p>",
+      "user_segment_ids": []
+    },
     {
       "id": 7584332517530,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7584332517530.json",
@@ -430,7 +462,7 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2024-07-02T13:09:52Z",
-      "updated_at": "2024-07-11T02:35:00Z",
+      "updated_at": "2024-07-11T07:01:34Z",
       "name": "Service Incident - July 2nd, 2024 - Chat & Messaging in Agent Workspace | All Pods - “Couldn’t connect to the server” error and assignment issues",
       "title": "Service Incident - July 2nd, 2024 - Chat & Messaging in Agent Workspace | All Pods - “Couldn’t connect to the server” error and assignment issues",
       "source_locale": "en-us",
@@ -442,7 +474,8 @@
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
       "label_names": [
-        "service_incident"
+        "service_incident",
+        "mt"
       ],
       "body": "<h3 id=\"h_01J2FSNN2RNXM0KJQE2VB6BG6T\" class=\"p1\">SUMMARY<strong><br></strong>\n</h3>\n<div id=\"message-list\">\n<p>On July 02, 2024 from 01:44 UTC to 16:30 UTC, customers on multiple pods experienced a ‘Couldn’t connect to Server’ error when trying to open tickets while using the Chat and Messaging feature in Agent Workspace.</p>\n<h3 id=\"h_01J2FSRCVRS14J4PJQHCA8WAJ2\"><span style=\"color: #06363c;\">Timeline</span></h3>\n<p><strong><span style=\"color: #16140c;\">July 02, 2024 01:09 PM UTC | July 02, 2024 06:09 AM PT</span></strong><strong><span style=\"color: #16140c;\"><br></span></strong><span style=\"color: #16140c;\">We are investigating different issues with Chat and Messaging in Agent Workspace across Pods 17, 18, 28 and 29 for a subset of customers where chats are not being offered to agents and/or agents cannot join, and messages are sitting in unassigned. More information to come.</span></p>\n<p><strong><span style=\"color: #16140c;\">July 02, 2024 02:07 PM UTC | July 02, 2024 07:07 AM PT</span></strong><strong><span style=\"color: #16140c;\"><br></span></strong><span style=\"color: #16140c;\">We are going through different Chat/Messaging/AgentWorkspace issues at the moment and continue investigating all problems. We appreciate your patience.</span></p>\n<p><strong><span style=\"color: #16140c;\">July 02, 2024 02:46 PM UTC | July 02, 2024 07:46 AM PT</span></strong><strong><span style=\"color: #16140c;\"><br></span></strong><span style=\"color: #16140c;\">We continue to address issues affecting Agent Workspace customers across multiple Pods. The main issue involves “Couldn’t connect to the server” errors, which impact products connected to Omnichannel interface tickets. We are exploring fixes and testing options to fully resolve this issue.</span></p>\n<p><strong><span style=\"color: #16140c;\">July 02, 2024 03:23 PM UTC | July 02, 2024 08:23 AM PT</span></strong><strong><span style=\"color: #16140c;\"><br></span></strong><span style=\"color: #16140c;\">We are still investigating potential fixes for the issue affecting Agent Workspace customers across multiple pods, primarily causing a \"Couldn't connect to the server\" error to present in Omnichannel interface tickets. We will post further updates in one hour or when we have new information to share.</span></p>\n<p><strong><span style=\"color: #16140c;\">July 02, 2024 04:16 PM UTC | July 02, 2024 09:16 AM PT</span></strong><strong><span style=\"color: #16140c;\"><br></span></strong><span style=\"color: #16140c;\">We are rolling out a potential fix for the issue affecting Agent Workspace customers across multiple pods, primarily causing the error \"Couldn't connect to the server\" in Omnichannel tickets. Some customers may be seeing improvement already as the fix rolls out, and we will provide additional information within the next hour or when the fix is rolled out to all pods.</span></p>\n<p class=\"p1\"><strong><span style=\"color: #16140c;\">July 02, 2024 04:46 PM UTC | July 02, 2024 09:46 AM PT</span></strong><strong><span style=\"color: #16140c;\"><br></span></strong><span style=\"color: #16140c;\">We are happy to report that we have resolved the issue affecting Agent Workspace customers across all pods, causing server connection errors in Omnichannel tickets. Thank you for your patience during our investigation.</span></p>\n</div>\n<h3 id=\"h_01J2FSRR4G6B920FW2Z9A9Q7YK\" class=\"p1\">POST-MORTEM</h3>\n<h3 id=\"h_01J2FT6SJY7RHCYNDDTQJPPXBZ\"><span style=\"color: #06363c;\">Root Cause Analysis</span></h3>\n<p>A routine backend upgrade was being performed that inadvertently caused performance degradation in managing connections and subscriptions, especially during high traffic periods.</p>\n<h3 id=\"h_01J2FT6SJY9YBEYBFEY36GH18E\"><span style=\"color: #06363c;\">Resolution</span></h3>\n<p>A software fix was subsequently identified and rolled out gradually.  Once stability was confirmed, roll out to all pods was done.  With further monitoring, recovery was confirmed.</p>\n<h3 id=\"h_01J2FT6SJYKRDC3KZX0AF6XQ0V\"><span style=\"color: #06363c;\">Remediation Items</span></h3>\n<ol>\n<li>Optimise the software code to improve performance with the upgraded system [Scheduled]</li>\n<li>Improve system testing procedures to improve robustness of future upgrades [Scheduled]</li>\n</ol>\n<h4 id=\"h_01J2FSNN2RG84541M280S1YA81\"><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
@@ -939,36 +972,6 @@
         "greetings"
       ],
       "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2>\n<p>When I upload a customized IVR greeting in Talk settings, I receive the following message: <strong>Error creating greeting.</strong> How can I fix this?</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7494468356762\" alt=\"Error uploading IVR greeting.jpg\"></p>\n<h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2>\n<p>1. Check permissions:</p>\n<p>Ensure that you have the necessary permissions to create or edit greetings. This typically requires admin or specific role-based access.</p>\n<p>2. File format and size:</p>\n<p>Verify that the greeting file meets the <a href=\"https://support.zendesk.com/hc/en-us/articles/4408845761050-How-should-I-format-audio-files-for-custom-greetings\" target=\"_blank\" rel=\"noopener noreferrer\">required format for audio files </a><strong>711 µ-LAW</strong> or <strong>MP3</strong></p>\n<p>3. Browser and network issues:</p>\n<ul>\n<li>\n<a href=\"https://support.zendesk.com/hc/en-us/articles/4408823836314-How-to-clear-cache-and-cookies\" target=\"_blank\" rel=\"noopener noreferrer\">Clear your browser cache and cookies, </a>or try using a different browser to see if the issue persists.</li>\n<li>Check your network connection to ensure there are no connectivity issues affecting the upload.</li>\n</ul>\n<p>4. Test using a different file:</p>\n<p>Try uploading a different greeting file to see if the issue is specific to the original file that the customer is using.</p>\n<p>If none of the steps above resolve the issue, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk support</a> for further assistance. </p>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408821594650-Managing-outgoing-greetings\" target=\"_blank\" rel=\"noopener noreferrer\">Managing outgoing greetings</a></p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 7493491865754,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7493491865754.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/7493491865754-Service-Incident-June-25th-2024-Support-Multiple-Pods-Messages-not-found-Error-code-A-xxx-in-Agent-Workspace",
-      "author_id": 1263082084489,
-      "comments_disabled": true,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405298854426,
-      "created_at": "2024-06-25T16:05:13Z",
-      "updated_at": "2024-07-03T10:28:03Z",
-      "name": "Service Incident - June 25th, 2024 - Support | Multiple Pods - Messages not found\" Error code A_xxx in Agent Workspace",
-      "title": "Service Incident - June 25th, 2024 - Support | Multiple Pods - Messages not found\" Error code A_xxx in Agent Workspace",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2024-07-03T10:28:02Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801242670,
-      "content_tag_ids": [],
-      "label_names": [
-        "service_incident"
-      ],
-      "body": "<h3 id=\"h_01J1W2546VQQP9WMH2YMM925HB\" class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>June 25, 2024 04:05 PM UTC | June 25, 2024 09:05 AM PT </strong><br>We are aware of a spike of errors impacting customers across multiple pods between 15:40 and 15:47 UTC on June 25, 2024, which resulted in \"Messages not found\" responses and \"Error code A_xxx\" messages when trying to load tickets in Support. We have recovered from these errors and the issue should be resolved by reloading your browser and/or clearing your cache and cookies.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p>\n<h4 id=\"h_01J1W2546V2E5E07W0YDM2N3V7\"><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
     }
   ],
