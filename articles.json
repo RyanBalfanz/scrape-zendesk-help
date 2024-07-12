@@ -47,14 +47,14 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2024-07-11T18:18:50Z",
-      "updated_at": "2024-07-11T18:31:07Z",
+      "updated_at": "2024-07-12T12:00:41Z",
       "name": "Service Incident - July 11th, 2024",
       "title": "Service Incident - July 11th, 2024",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-07-11T18:18:50Z",
+      "edited_at": "2024-07-12T12:00:41Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
@@ -62,7 +62,7 @@
         "service_incident",
         "mt"
       ],
-      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\"><p class=\"p1\"><strong>July 11, 2024 06:18 PM UTC | July 11, 2024 11:18 AM PT </strong><br>We are aware of a Chat and Messaging issue for some customers wherein an agent's full name will be displayed in the Web Widget and conversations instead of their Chat display name. This impacts customers who have migrated to the Omnichannel Backend Routing. In order to ensure your agent's names are sent in chat and messaging with only their intended alias you will need to perform the following actions:\n\n1. Set a Support alias in addition to your Chat display name\n2. Update Chat shortcuts to not use {{agent_name}}\n\nOur teams are reviewing this behavior and we will provide further updates as they become available. Please reach out to our Customer Advocacy team if you have any questions.</p></div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
+      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>July 12, 2024 12:00 PM UTC | July 12, 2024 05:00 AM PT </strong><br>A fix has been implemented for the issue where an agent’s full name was displayed in the Web Widget and conversations instead of their Chat display name. You should now see that placeholders in shortcuts reference the agent’s alias. Please refresh your browser to see the most updated version of the system. Thank you for your patience while we resolved this.</p>\n<p class=\"p1\"><strong>July 11, 2024 06:18 PM UTC | July 11, 2024 11:18 AM PT </strong><br>We are aware of a Chat and Messaging issue for some customers wherein an agent's full name will be displayed in the Web Widget and conversations instead of their Chat display name. This impacts customers who have migrated to the Omnichannel Backend Routing. In order to ensure your agent's names are sent in chat and messaging with only their intended alias you will need to perform the following actions:\n\n1. Set a Support alias in addition to your Chat display name\n2. Update Chat shortcuts to not use {{agent_name}}\n\nOur teams are reviewing this behavior and we will provide further updates as they become available. Please reach out to our Customer Advocacy team if you have any questions.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
       "user_segment_ids": []
     },
     {
