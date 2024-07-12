@@ -78,14 +78,14 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2024-07-11T17:59:17Z",
-      "updated_at": "2024-07-12T00:56:13Z",
+      "updated_at": "2024-07-12T01:23:02Z",
       "name": "Service Incident - July 11th, 2024",
       "title": "Service Incident - July 11th, 2024",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-07-12T00:56:13Z",
+      "edited_at": "2024-07-12T01:23:02Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
@@ -93,7 +93,7 @@
         "service_incident",
         "mt"
       ],
-      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>July 12, 2024 12:56 AM UTC | July 11, 2024 05:56 PM PT </strong><br>Our partner has confirmed that the service disruption at their end has been resolved. Messages to the Instagram channel should now be able to be received. Please let us know if you continue to face issues.</p>\n<p class=\"p1\"><strong>July 11, 2024 10:17 PM UTC | July 11, 2024 03:17 PM PT </strong><br>We have confirmed that messages from the Instagram channel are not being received due to a partner service disruption impacting webhooks on the Messenger API for Instagram. We will provide another update when we have new information to share.\n</p>\n<p class=\"p1\"><strong>July 11, 2024 08:06 PM UTC | July 11, 2024 01:06 PM PT </strong><br>Our engineers continue to investigate the issue causing messages from the Instagram channel to not be received. We will provide another update when we have more information to share.\n</p>\n<p class=\"p1\"><strong>July 11, 2024 05:59 PM UTC | July 11, 2024 10:59 AM PT </strong><br>We are investigating an issue impacting customers using the Instagram integration. Messages from the Instagram channel are not being received. We will provide additional information as it becomes available.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
+      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>July 12, 2024 01:23 AM UTC | July 11, 2024 06:23 PM PT </strong><br>We have confirmation that the issue previously preventing Instagram messages from being received has been resolved. Thank you so much for your patience as we got to this point.</p>\n<p class=\"p1\"><strong>July 12, 2024 12:56 AM UTC | July 11, 2024 05:56 PM PT </strong><br>Our partner has confirmed that the service disruption at their end has been resolved. Messages to the Instagram channel should now be able to be received. Please let us know if you continue to face issues.</p>\n<p class=\"p1\"><strong>July 11, 2024 10:17 PM UTC | July 11, 2024 03:17 PM PT </strong><br>We have confirmed that messages from the Instagram channel are not being received due to a partner service disruption impacting webhooks on the Messenger API for Instagram. We will provide another update when we have new information to share.\n</p>\n<p class=\"p1\"><strong>July 11, 2024 08:06 PM UTC | July 11, 2024 01:06 PM PT </strong><br>Our engineers continue to investigate the issue causing messages from the Instagram channel to not be received. We will provide another update when we have more information to share.\n</p>\n<p class=\"p1\"><strong>July 11, 2024 05:59 PM UTC | July 11, 2024 10:59 AM PT </strong><br>We are investigating an issue impacting customers using the Instagram integration. Messages from the Instagram channel are not being received. We will provide additional information as it becomes available.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
       "user_segment_ids": []
     },
     {
