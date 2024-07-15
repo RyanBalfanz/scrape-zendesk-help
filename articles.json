@@ -19,14 +19,14 @@
       "vote_count": 0,
       "section_id": 4405298879258,
       "created_at": "2024-07-15T04:57:28Z",
-      "updated_at": "2024-07-15T04:59:48Z",
+      "updated_at": "2024-07-15T15:17:11Z",
       "name": "Why does the Zendesk Support User Data app show different numbers of solved and closed tickets?",
       "title": "Why does the Zendesk Support User Data app show different numbers of solved and closed tickets?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-07-15T04:59:41Z",
+      "edited_at": "2024-07-15T15:17:07Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -38,7 +38,7 @@
         "role_admin",
         "Apps"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>I use the Zendesk Support <a href=\"https://www.zendesk.com/au/marketplace/apps/support/6536/user-data/\" target=\"_blank\" rel=\"noopener noreferrer\">User Data app</a> to track the ticket information and statuses of requesters, such as how many open, pending, solved and closed tickets they have. However, I've noticed that the number of solved and closed tickets displayed can sometimes be different depending on the user, and it does not match the requester's actual solved tickets. Can you explain why this happens?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>The Zendesk Support User Data app is designed to provide information about the ticket requester's information, including the number of open, pending, solved and closed tickets. This difference in the number of solved and closed tickets is due to how the app handles archived tickets based on the number of tickets a user has.</p>\n<ul>\n<li>Users with less than 100 tickets: The app excludes archived solved and closed tickets from the count. This means that the displayed numbers only reflect tickets that are not archived.</li>\n<li>Users with 100 or more tickets: The app includes archived solved and closed tickets in the count. Thus, the numbers shown are inclusive of all tickets, both active and archived.</li>\n</ul>\n<p>The app is designed this way to optimize performance and minimize load on our platform. By excluding archived tickets for users with fewer tickets, the app ensures faster data retrieval and reduces unnecessary processing. For users with a larger volume of tickets, including archived tickets ensures comprehensive data representation without significantly impacting performance.</p>\n<p>For more information about ticket archiving, see the article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408887617050-About-ticket-archiving\" target=\"_blank\" rel=\"noopener noreferrer\">About ticket archiving</a>.</p>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>I use the Zendesk Support <a href=\"https://www.zendesk.com/au/marketplace/apps/support/6536/user-data/\" target=\"_blank\" rel=\"noopener noreferrer\">User Data app</a> to track the ticket information and statuses of requesters, such as how many open, pending, solved, and closed tickets they have. However, I've noticed that the number of solved and closed tickets displayed can sometimes differ depending on the user, and it does not match the requester's actual solved tickets. Can you explain why this happens?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>The difference in the number of solved and closed tickets is due to how the app handles archived tickets based on the number of tickets a user has.</p>\n<ul>\n<li>Users with less than 100 tickets: The app excludes archived, solved, and closed tickets from the count. This means that the displayed numbers only reflect tickets that are not archived.</li>\n<li>Users with 100 or more tickets: The app includes archived, solved, and closed tickets in the count. Thus, the numbers shown include all tickets, both active and archived.</li>\n</ul>\n<p>The app is designed this way to optimize performance and minimize load on our platform. By excluding archived tickets for users with fewer tickets, the app ensures faster data retrieval and reduces unnecessary processing. For users with a larger volume of tickets, including archived tickets ensures comprehensive data representation without significantly impacting performance.</p>\n<p>For more information about ticket archiving, see the article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408887617050-About-ticket-archiving\" target=\"_blank\" rel=\"noopener noreferrer\">About ticket archiving</a>.</p>",
       "user_segment_ids": []
     },
     {
