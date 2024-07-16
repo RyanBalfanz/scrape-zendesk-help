@@ -1,5 +1,5 @@
 {
-  "count": 4675,
+  "count": 4676,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 156,
@@ -78,7 +78,7 @@
       "vote_count": 0,
       "section_id": 4405298879258,
       "created_at": "2024-07-15T04:57:28Z",
-      "updated_at": "2024-07-15T15:17:11Z",
+      "updated_at": "2024-07-16T15:06:55Z",
       "name": "Why does the Zendesk Support User Data app show different numbers of solved and closed tickets?",
       "title": "Why does the Zendesk Support User Data app show different numbers of solved and closed tickets?",
       "source_locale": "en-us",
@@ -92,6 +92,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_support",
         "role_agent",
         "role_admin",
@@ -206,7 +207,7 @@
       "vote_count": 0,
       "section_id": 4405303741594,
       "created_at": "2024-07-11T07:21:42Z",
-      "updated_at": "2024-07-15T19:42:44Z",
+      "updated_at": "2024-07-16T15:05:50Z",
       "name": "Do autoreplies for emails read the subject and description or just the subject?",
       "title": "Do autoreplies for emails read the subject and description or just the subject?",
       "source_locale": "en-us",
@@ -220,6 +221,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_bots_automation"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>Do autoreplies for emails read the subject and description or just the subject?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p class=\"p1\">Autoreplies analyze any text in the request, including both the subject line and the request description or the email body. Autoreplies use the keywords in the request to pull recommended articles from your help center articles based on relevant titles and introductions.</p>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408845739162-Optimizing-your-help-center-content-for-bots-and-autoreplies-with-articles\" target=\"_blank\" rel=\"noopener noreferrer\">Optimizing your articles for autoreplies</a>. </p>",
@@ -238,7 +240,7 @@
       "vote_count": 0,
       "section_id": 4405303741594,
       "created_at": "2024-07-11T07:08:59Z",
-      "updated_at": "2024-07-11T07:10:55Z",
+      "updated_at": "2024-07-16T15:04:01Z",
       "name": "Does intelligent triage detect intent for follow-up tickets?",
       "title": "Does intelligent triage detect intent for follow-up tickets?",
       "source_locale": "en-us",
@@ -252,6 +254,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_bots_automation"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>Does intelligent triage detect intent for follow-up tickets?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p class=\"p1\">Follow-up tickets don't go through intelligent triage for intent, language, and sentiment detection. Intelligent triage predicts intent only for new tickets created from the channels where it is turned on.</p>\n<p>For more information, see the article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4550640560538-Automatically-detecting-customer-intent-language-and-sentiment\" target=\"_blank\" rel=\"noopener noreferrer\">Automatically detecting customer intent, language, and sentiment</a>. </p>",
@@ -270,7 +273,7 @@
       "vote_count": 0,
       "section_id": 4405303738522,
       "created_at": "2024-07-10T14:54:17Z",
-      "updated_at": "2024-07-10T15:23:29Z",
+      "updated_at": "2024-07-16T15:04:07Z",
       "name": "Follow-up messages from Facebook Messenger re-open my tickets",
       "title": "Follow-up messages from Facebook Messenger re-open my tickets",
       "source_locale": "en-us",
@@ -284,6 +287,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_messaging",
         "role_admin"
       ],
@@ -303,7 +307,7 @@
       "vote_count": 0,
       "section_id": 4405303742362,
       "created_at": "2024-07-10T13:52:44Z",
-      "updated_at": "2024-07-15T08:53:00Z",
+      "updated_at": "2024-07-16T15:06:24Z",
       "name": "Can I map the sender email domain of the automated notifications from Guide?",
       "title": "Can I map the sender email domain of the automated notifications from Guide?",
       "source_locale": "en-us",
@@ -317,6 +321,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_guide",
         "role_agent",
         "role_admin"
@@ -337,7 +342,7 @@
       "vote_count": 0,
       "section_id": 4405303738522,
       "created_at": "2024-07-10T12:40:55Z",
-      "updated_at": "2024-07-11T07:55:39Z",
+      "updated_at": "2024-07-16T15:08:32Z",
       "name": "Why can’t my requesters see bulk updates in WhatsApp tickets?",
       "title": "Why can’t my requesters see bulk updates in WhatsApp tickets?",
       "source_locale": "en-us",
@@ -352,6 +357,7 @@
         "messaging",
         "ks",
         "ab0",
+        "mt",
         "WhatsApp"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>When using <a href=\"https://support.zendesk.com/hc/en-us/articles/4408886890906-Managing-tickets-in-bulk\" target=\"_blank\" rel=\"noopener noreferrer\">bulk ticket management</a> to add public comments to WhatsApp tickets, the message does not reach the end user. Why can’t the end user receive public comments added from bulk updates in WhatsApp tickets?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p class=\"p1\">WhatsApp blocks <a href=\"https://faq.whatsapp.com/5957850900902049/?helpref=hc_fnav&amp;cms_id=5957850900902049&amp;draft=false\" target=\"_blank\" rel=\"noopener noreferrer\">unauthorized bulk messages</a> to its users. The public comment added through a bulk update is available in the Agent Workspace, but the requesters won’t receive the message<strong>.</strong> The solution is to use WhatsApp approved message templates, which bypass the 24-hour rule.</p>\n<p>For more information, see the article: <a href=\"https://support.zendesk.com/hc/en-us/articles/5869718332954-Using-WhatsApp-template-messages-to-bypass-the-24-hour-rule\" target=\"_blank\" rel=\"noopener noreferrer\">Using WhatsApp template messages to bypass the 24-hour rule</a>.</p>",
@@ -400,7 +406,7 @@
       "vote_count": 0,
       "section_id": 6279947161626,
       "created_at": "2024-07-09T15:07:45Z",
-      "updated_at": "2024-07-09T16:53:45Z",
+      "updated_at": "2024-07-16T15:04:12Z",
       "name": "How can I see who created users in my account?",
       "title": "How can I see who created users in my account?",
       "source_locale": "en-us",
@@ -414,6 +420,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_admin_center",
         "role_admin"
       ],
@@ -492,7 +499,7 @@
       "vote_count": 0,
       "section_id": 4405303730330,
       "created_at": "2024-07-05T14:54:07Z",
-      "updated_at": "2024-07-09T11:11:27Z",
+      "updated_at": "2024-07-16T15:06:20Z",
       "name": "How can I fix 409 conflict errors with JWT authentication?",
       "title": "How can I fix 409 conflict errors with JWT authentication?",
       "source_locale": "en-us",
@@ -506,6 +513,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_support",
         "ab0_admin_center",
         "role_admin"
@@ -557,7 +565,7 @@
       "vote_count": 0,
       "section_id": 4405303730330,
       "created_at": "2024-07-05T12:35:25Z",
-      "updated_at": "2024-07-09T15:03:59Z",
+      "updated_at": "2024-07-16T15:05:01Z",
       "name": "Why isn't the visitor's email added to their profile after they open a messaging ticket?",
       "title": "Why isn't the visitor's email added to their profile after they open a messaging ticket?",
       "source_locale": "en-us",
@@ -571,6 +579,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_messaging",
         "role_admin"
       ],
@@ -590,7 +599,7 @@
       "vote_count": 0,
       "section_id": 4405298900890,
       "created_at": "2024-07-05T07:50:17Z",
-      "updated_at": "2024-07-09T08:05:09Z",
+      "updated_at": "2024-07-16T15:06:26Z",
       "name": "Why am I seeing old macro suggestions?",
       "title": "Why am I seeing old macro suggestions?",
       "source_locale": "en-us",
@@ -604,6 +613,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "advanced ai"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>I recently turned on Advanced AI for my account, but why am I seeing old macro suggestions?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>The learning model for macro suggestions analyzes historical ticket data, including tickets before the <a href=\"https://support.zendesk.com/hc/en-us/articles/5524125586330--About-Zendesk-Advanced-AI\" target=\"_blank\" rel=\"noopener noreferrer\">Advanced AI add-on</a> is turned on. This means that when macro suggestions is activated, you may see suggestions based on the older tickets in your account. </p>\n<p>New macro suggestions are automatically generated on the first day of each month when your account meets the <a href=\"https://support.zendesk.com/hc/en-us/articles/5217191091354-Creating-macros-from-macro-suggestions-for-admins#topic_w12_xbq_dwb\" target=\"_blank\" rel=\"noopener noreferrer\">criteria for macro suggestions. </a></p>\n<p>For more information, see the article: <a href=\"https://support.zendesk.com/hc/en-us/articles/5217191091354-Creating-macros-from-macro-suggestions-for-admins\" target=\"_blank\" rel=\"noopener noreferrer\">Creating macros from macro suggestions for admins</a>.</p>",
@@ -938,7 +948,7 @@
       "vote_count": 0,
       "section_id": 4405303736218,
       "created_at": "2024-06-28T15:16:34Z",
-      "updated_at": "2024-07-10T15:49:00Z",
+      "updated_at": "2024-07-16T15:03:52Z",
       "name": "Okta error: An error occurred while assigning this app",
       "title": "Okta error: An error occurred while assigning this app",
       "source_locale": "en-us",
