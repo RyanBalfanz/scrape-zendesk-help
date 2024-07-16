@@ -1,5 +1,5 @@
 {
-  "count": 4676,
+  "count": 4677,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 156,
@@ -99,6 +99,36 @@
         "Apps"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>I use the Zendesk Support <a href=\"https://www.zendesk.com/au/marketplace/apps/support/6536/user-data/\" target=\"_blank\" rel=\"noopener noreferrer\">User Data app</a> to track the ticket information and statuses of requesters, such as how many open, pending, solved, and closed tickets they have. However, I've noticed that the number of solved and closed tickets displayed can sometimes differ depending on the user, and it does not match the requester's actual solved tickets. Can you explain why this happens?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>The difference in the number of solved and closed tickets is due to how the app handles archived tickets based on the number of tickets a user has.</p>\n<ul>\n<li>Users with less than 100 tickets: The app excludes archived, solved, and closed tickets from the count. This means that the displayed numbers only reflect tickets that are not archived.</li>\n<li>Users with 100 or more tickets: The app includes archived, solved, and closed tickets in the count. Thus, the numbers shown include all tickets, both active and archived.</li>\n</ul>\n<p>The app is designed this way to optimize performance and minimize load on our platform. By excluding archived tickets for users with fewer tickets, the app ensures faster data retrieval and reduces unnecessary processing. For users with a larger volume of tickets, including archived tickets ensures comprehensive data representation without significantly impacting performance.</p>\n<p>For more information about ticket archiving, see the article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408887617050-About-ticket-archiving\" target=\"_blank\" rel=\"noopener noreferrer\">About ticket archiving</a>.</p>",
+      "user_segment_ids": []
+    },
+    {
+      "id": 7596519323546,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7596519323546.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/7596519323546-Announcing-updates-to-the-Explore-admin-settings-pages",
+      "author_id": 4839787801114,
+      "comments_disabled": true,
+      "draft": false,
+      "promoted": true,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298833818,
+      "created_at": "2024-07-12T15:29:30Z",
+      "updated_at": "2024-07-16T15:33:28Z",
+      "name": "Announcing updates to the Explore admin settings pages",
+      "title": "Announcing updates to the Explore admin settings pages",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2024-07-16T15:32:29Z",
+      "user_segment_id": null,
+      "permission_group_id": 1324079,
+      "content_tag_ids": [],
+      "label_names": [
+        "newsfeed"
+      ],
+      "body": "<table style=\"border-collapse: collapse; width: 100%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 50%;\"><strong>Announced on</strong></td>\n<td style=\"width: 50%;\"><strong>Rollout on</strong></td>\n</tr>\n<tr>\n<td style=\"width: 50%;\">July 16, 2024</td>\n<td style=\"width: 50%;\">July 16, 2024</td>\n</tr>\n</tbody>\n</table>\n<p>This announcement answers the following questions:</p>\n<ul>\n<li><a href=\"#h_01J2KMJ06Y03A4BVCXVT2AC3E6\">What’s changing and why?</a></li>\n<li><a href=\"#h_01J2KRK65DBQ40K7WQMK76C2D8\">What do I need to do?</a></li>\n</ul>\n<h2 id=\"h_01J2KMJ06Y03A4BVCXVT2AC3E6\">What’s changing and why?</h2>\n<p>In an effort to deliver a simple and clear experience for our users, we’ve rolled out an update to the user experience of the Explore admin settings pages. This new experience streamlines the management of multiple settings, including:</p>\n<ul>\n<li>\n<a href=\"https://support.zendesk.com/hc/en-us/articles/4408831563802\"><strong>Dataset access</strong></a>: The management of dataset permissions, available on the new <strong>Dataset access</strong> tab, has been simplified from the need to check several boxes to a drop-down list.<br><img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/explore_admin_settings_dataset_access_tab.png\" width=\"600\">\n</li>\n<li>\n<a href=\"https://support.zendesk.com/hc/en-us/articles/4408826905626\"><strong>Dashboard sharing outside Zendesk</strong></a><strong> and <a href=\"https://support.zendesk.com/hc/en-us/articles/4408835716378\">scheduling with end users</a></strong>: These options now live on the new <strong>Sharing</strong> tab.<br><img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/explore_admin_settings_sharing_tab.png\" width=\"600\">\n</li>\n<li>\n<strong><a href=\"https://support.zendesk.com/hc/en-us/articles/6456984924442#topic_wwl_5pv_qzb\">Default visualization colors</a></strong>: Updated color pickers live on the new <strong>Formatting</strong> tab.</li>\n<li>\n<strong><a href=\"https://support.zendesk.com/hc/en-us/articles/6456984924442#topic_rxp_vpv_qzb\">CSV export settings</a></strong>: Updated export settings live on the new <strong>Formatting</strong> tab.\n<div class=\"note note\">\n<span class=\"notetitle\">Note:</span> Prior to this change, it was possible to set any special characters as column separators in CSV exports. With this change, only certain characters are allowed. If you save any settings on the Formatting tab of the Settings page (even settings unrelated to exports), the new export settings are enforced. This may break automated export workflows you have created that rely on certain special characters.</div>\n</li>\n<li>\n<strong><a href=\"https://support.zendesk.com/hc/en-us/articles/4418307079322\">Default start of week</a></strong>: Start of week settings now live on the new <strong>Formatting</strong> tab.<br><img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/explore_admin_settings_formatting_tab.png\" width=\"600\">\n</li>\n</ul>\n<p>As part of this update, we’re removing the <strong>Dashboard email delivery</strong> section of the Explore admin settings pages. Moving forward, scheduled dashboard deliveries can be <a href=\"https://support.zendesk.com/hc/en-us/articles/6844667123610\">viewed directly from the Dashboards library</a> (in the Schedules column), and a detailed view of scheduled deliveries is available on the dashboard itself under the <strong>Schedule</strong> button.</p>\n<p>Additionally, with this update, only users with admin permissions in Explore will be able to see the Settings icon and access the admin settings pages. Editors will no longer see the Settings icon in the sidebar.</p>\n<h2 id=\"h_01J2KRK65DBQ40K7WQMK76C2D8\">What do I need to do?</h2>\n<p>There's no action required of you. This update has automatically rolled out to all Explore accounts. For more information about these updates to the Explore admin pages, see the following articles:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408831563802\">Setting Explore dataset access</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408826905626\">Sharing Explore dashboards outside Zendesk</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408835716378\">Scheduling dashboard deliveries with end users</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408843602714\">Scheduling dashboard deliveries</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/6456984924442\">Setting default chart colors and export settings</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4418307079322\">Setting the start of the week for reports and filters</a></li>\n</ul>\n<p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/1260801325209\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\">Zendesk Customer Support</a>.</p>",
       "user_segment_ids": []
     },
     {
@@ -933,41 +963,6 @@
         "role_agent"
       ],
       "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2>\n<p>When I open a messaging ticket, I cannot solve it. What is causing this behaviour?</p>\n<h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\"><img src=\"https://support.zendesk.com/hc/article_attachments/7529092197402\" alt=\"Solved.png\" width=\"314\" height=\"237\"></h2>\n<h2 id=\"01J1PXM7JBK9J5E3XJNHEWTX3Y\">Resolution steps</h2>\n<p>While the conversation is active, only the ticket assignee, who owns the conversation with the end user, has the ability to use the <strong>Solved</strong> status when updating the ticket.</p>\n<p>If you are not the <strong>Assignee</strong> of the ticket, you cannot set an active messaging ticket status to <strong>Solved</strong>.</p>\n<p><img id=\"topic_dpw_gnk_lrb__image_qfg_zch_gh\" class=\"image img-screenshot\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/aw_assignee_take.png\" width=\"203\" height=\"51\"></p>\n<p>For a similar issue, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408827065498-Why-can-t-I-set-my-ticket-to-solved\" target=\"_blank\" rel=\"noopener noreferrer\">Why can't I set my ticket to solved?</a> </p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 7515483581594,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7515483581594.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/7515483581594-Okta-error-An-error-occurred-while-assigning-this-app",
-      "author_id": 1264158225009,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405303736218,
-      "created_at": "2024-06-28T15:16:34Z",
-      "updated_at": "2024-07-16T15:03:52Z",
-      "name": "Okta error: An error occurred while assigning this app",
-      "title": "Okta error: An error occurred while assigning this app",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2024-07-10T15:48:59Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801135069,
-      "content_tag_ids": [],
-      "label_names": [
-        "support",
-        "ks",
-        "ab0",
-        "mt",
-        "ab0_support",
-        "role_admin"
-      ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>Why do I get the error below when I provision a user from Okta?</p>\n<p><strong>An error occurred while assigning this app</strong><br><br><img src=\"https://support.zendesk.com/hc/article_attachments/7515442797594\"></p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>The error when provisioning users from Okta can occur for these reasons:</p>\n<ul>\n<li>If the user's credentials configured in Okta are not for a <a href=\"https://support.zendesk.com/hc/en-us/articles/4408883763866-Understanding-Zendesk-Support-user-roles#topic_evb_dbp_cc\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk admin role</a>, the action will be forbidden.</li>\n<li>If the admin's credentials configured in Okta attempt to assign the Zendesk app and provision a user who is the <a href=\"https://support.zendesk.com/hc/en-us/articles/4408883763866-Understanding-Zendesk-Support-user-roles#:~:text=Understanding%20Zendesk%20Support%20user%20roles\" target=\"_blank\" rel=\"noopener noreferrer\">account owner</a> in Zendesk, the app will display a 403 error. The profile of the account owner can't be modified by other admins.</li>\n</ul>\n<p>For more information, see this <a href=\"https://support.okta.com/help/s/article/Zendesk-adminOwner-account-cant-be-provisioned?language=en_US#:~:text=Due%20to%20Zendesk%20limitations%2C%20only,do%20not%20have%20sufficient%20privileges\" target=\"_blank\" rel=\"noopener noreferrer\">official article</a> from the Okta Help Center.</p>",
       "user_segment_ids": []
     }
   ],
