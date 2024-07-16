@@ -1,5 +1,5 @@
 {
-  "count": 4677,
+  "count": 4678,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 156,
@@ -99,6 +99,36 @@
         "Apps"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>I use the Zendesk Support <a href=\"https://www.zendesk.com/au/marketplace/apps/support/6536/user-data/\" target=\"_blank\" rel=\"noopener noreferrer\">User Data app</a> to track the ticket information and statuses of requesters, such as how many open, pending, solved, and closed tickets they have. However, I've noticed that the number of solved and closed tickets displayed can sometimes differ depending on the user, and it does not match the requester's actual solved tickets. Can you explain why this happens?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>The difference in the number of solved and closed tickets is due to how the app handles archived tickets based on the number of tickets a user has.</p>\n<ul>\n<li>Users with less than 100 tickets: The app excludes archived, solved, and closed tickets from the count. This means that the displayed numbers only reflect tickets that are not archived.</li>\n<li>Users with 100 or more tickets: The app includes archived, solved, and closed tickets in the count. Thus, the numbers shown include all tickets, both active and archived.</li>\n</ul>\n<p>The app is designed this way to optimize performance and minimize load on our platform. By excluding archived tickets for users with fewer tickets, the app ensures faster data retrieval and reduces unnecessary processing. For users with a larger volume of tickets, including archived tickets ensures comprehensive data representation without significantly impacting performance.</p>\n<p>For more information about ticket archiving, see the article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408887617050-About-ticket-archiving\" target=\"_blank\" rel=\"noopener noreferrer\">About ticket archiving</a>.</p>",
+      "user_segment_ids": []
+    },
+    {
+      "id": 7597809038234,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7597809038234.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/7597809038234-Announcing-React-top-bar-apps",
+      "author_id": 4604284487066,
+      "comments_disabled": true,
+      "draft": false,
+      "promoted": true,
+      "position": 0,
+      "vote_sum": -1,
+      "vote_count": 1,
+      "section_id": 4405298833818,
+      "created_at": "2024-07-12T19:54:51Z",
+      "updated_at": "2024-07-16T16:02:01Z",
+      "name": "Announcing React top bar apps",
+      "title": "Announcing React top bar apps",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2024-07-15T21:22:58Z",
+      "user_segment_id": null,
+      "permission_group_id": 1324079,
+      "content_tag_ids": [],
+      "label_names": [
+        "newsfeed"
+      ],
+      "body": "<table style=\"border-collapse: collapse; width: 100%; height: 44px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Announced on</strong></td>\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Rollout starts</strong></td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\">July 16, 2022</td>\n<td style=\"width: 33.3333%; height: 22px;\"><span class=\"wysiwyg-color-black\">July 1, 2024</span></td>\n</tr>\n</tbody>\n</table>\n<p>Zendesk is excited to announce the migration of top bar apps in Support from Ember to React.</p>\n<p><span style=\"font-weight: 400;\">This announcement includes the following topics:</span></p>\n<ul>\n<li><a href=\"#h_01GD3S97RDYVTAFTQ8WR9878VF\" target=\"_self\"><span style=\"font-weight: 400;\">What is changing?</span></a></li>\n<li><a href=\"#h_01GD3S9GD63FPDGQSEFY88M3ND\" target=\"_self\"><span style=\"font-weight: 400;\">Why is Zendesk making this change?</span></a></li>\n<li><a href=\"#h_01GD3S9TSPXM7M4WHYKYF4E84M\" target=\"_self\"><span style=\"font-weight: 400;\">What do I need to do?</span></a></li>\n</ul>\n<h2 id=\"h_01GD3S97RDYVTAFTQ8WR9878VF\"><span style=\"font-weight: 400;\">What is changing?</span></h2>\n<p>Top bar apps in support are now built in React instead of Ember.</p>\n<p>Support apps are tools that you can install from the marketplace or build yourself to extend Zendesk's capabilities to meet unique customer experience use cases. Since a single system cannot accommodate all needs, Support apps offer a powerful way to incorporate new use cases and create connected customer experiences.</p>\n<p>For more information on Support top bar apps, see <a href=\"https://developer.zendesk.com/documentation/apps/app-design-guidelines/support/topbar-apps-support/\"><span class=\"wysiwyg-underline\" style=\"color: #1155cc;\">Top bar apps</span></a> in our developer documentation. </p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7612166489882\" alt=\"Screenshot 2024-07-15 at 12.15.50 PM.png\"></p>\n<p>Visual changes include:</p>\n<ul>\n<li>The removal of the grayscale border surrounding each top bar app, replaced with a gray fill for a simpler, more consistent style. </li>\n<li>The arrow pointing to the selected top bar app is now positioned at the end of the app container, preventing the container from extending beyond the right side of the app icon.</li>\n<li>A close button has been added to the tooltip modal that appears when a top bar app is selected. This addition enhances accessibility, making the top bar app modal usable for all users, particularly those who rely on keyboard navigation, and aligns with Zendesk’s current target of <a href=\"https://www.zendesk.com/company/agreements-and-terms/accessibility/\">2.1 AA accessibility standards</a>.</li>\n</ul>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7612763139482\" alt=\"Screenshot 2024-07-15 at 2.17.09 PM.png\"></p>\n<h2 id=\"h_01GD3S9GD63FPDGQSEFY88M3ND\"><span style=\"font-weight: 400;\">Why is Zendesk making this change?</span></h2>\n<p>As part of Zendesk's broader React Migration Initiative (RMI) to transition the Support frontend to React for enhanced product reliability, improved developer productivity, and easier automated testing, <a href=\"https://developer.zendesk.com/documentation/apps/app-design-guidelines/support/topbar-apps-support/\"><span class=\"wysiwyg-underline\" style=\"color: #1155cc;\">Top bar apps</span></a> in support have now been migrated from Ember to React. This migration aligns with our goal of achieving One Zendesk, standardizing our approach to building features - whether in terms of database storage, API methodology, or in this case, our Javascript framework.</p>\n<p>Currently, half of Zendesk uses Ember, while the other half uses React. React offers numerous advantages:</p>\n<ul>\n<li>Developers are more productive and can address issues and develop new features more quickly because we primarily hire React developers, and the language is inherently more composable.</li>\n<li>Migrating entirely to React enhances reliability and stability because:\n<ul>\n<li>Communication between Ember and React is more error-prone.</li>\n<li>It allows us to write automated tests much more efficiently.</li>\n</ul>\n</li>\n</ul>\n<h2 id=\"01J2M7Z6ZYK7SHY9P4JFE137G3\"><span style=\"font-weight: 400;\">What do I need to do?</span></h2>\n<p>There should only be a small frontend change with no functional impact on how your apps and apps support APIs work. The top bar app UI in both the app session and the system icon session has been slightly modernized and made more accessible with the latest <a href=\"https://garden.zendesk.com/\"><span class=\"wysiwyg-underline\" style=\"color: #1155cc;\">Garden</span></a> components. Functionally, everything should remain the same.</p>\n<p>If you notice any differences in how apps or the rest of the agent experience functions in your account, please let us know.</p>\n<p>There’s no action required from you. This update is automatically rolled out and available to all accounts.</p>\n<p>For more information on design recommendations and achieving a consistent look and feel, please see our <a href=\"https://developer.zendesk.com/documentation/apps/app-design-guidelines/support/topbar-apps-support/\">Top bar apps (Support) </a>guide in the Zendesk developer documentation.</p>\n<p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/1260801854190-Zendesk-Apps-framework-ZAF-\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\">Zendesk Customer Support</a>.</p>",
       "user_segment_ids": []
     },
     {
@@ -929,40 +959,6 @@
       "content_tag_ids": [],
       "label_names": [],
       "body": "<div class=\"note tip\">See our <a href=\"https://support.zendesk.com/hc/en-us/articles/7334819842714\" target=\"_blank\" rel=\"noopener noreferrer\">What's New</a> for an overview of what was released in the last month.</div>\n<p>This week's release notes include:</p>\n<ul>\n<li><a href=\"#h_01J1R731WFQM87P4821VWC1QSD\">Support</a></li>\n<li><a href=\"#h_01J1QG43NF97BCXC5B728RTKKQ\">Guide and machine learning</a></li>\n<li><a href=\"#h_01J01CN9D98BH9C08SHDNT3AT3\">App Marketplace</a></li>\n</ul>\n<h2 id=\"h_01J1R731WFQM87P4821VWC1QSD\">Support</h2>\n<p><strong>New</strong></p>\n<ul>\n<li>Agent Home now supports Talk tickets</li>\n<li>Agent Home now supports interactive satisfaction widgets, similar to the legacy dashboard</li>\n</ul>\n<h2 id=\"h_01J1QG43NF97BCXC5B728RTKKQ\">Guide and machine learning</h2>\n<p><strong>New</strong></p>\n<ul>\n<li>With this release, Guide admins can now select up to ten user segments when defining the visibility permissions of an article. See <a href=\"https://support.zendesk.com/hc/en-us/articles/7418988982042-Announcing-article-view-permissions-for-multiple-user-segments\">Multiple user segments for article visibility permissions</a>.</li>\n</ul>\n<h2 id=\"h_01J01CN9D98BH9C08SHDNT3AT3\">App Marketplace</h2>\n<div><strong>New:</strong></div>\n<ul>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1045699/ticket-goals/\" target=\"_blank\" rel=\"noopener noreferrer\">Ticket Goals from Hannes Lehner</a><span> </span><strong>(Support)(paid)</strong>\n<ul>\n<li>Set ticket goals for yourself and your team members. This app enables admins to set ticket goals for all team members and displays the goal's progress in the ticket sidebar. You can create daily and weekly goals for each support agent and organize your team members in groups to set up team goals.</li>\n</ul>\n</li>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1046419/hubspot-app-by-leafworks\" target=\"_blank\" rel=\"noopener noreferrer\">HubSpot App by Leafworks</a><span> </span><strong>(Support) (paid)</strong>\n<ul>\n<li>Link HubSpot contacts to your Zendesk users. The HubSpot App from Leafworks enhances this ecosystem by allowing users to display HubSpot data within Zendesk, providing easy access to valuable customer insights directly in the Zendesk interface and deeplinks to quickly find needed data in the HubSpot.</li>\n</ul>\n</li>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1044668/cycle-app\" target=\"_blank\" rel=\"noopener noreferrer\">Cycle App</a><span> </span><strong>(Support)</strong>\n<ul>\n<li>Connect your support ticket to your product information. Cycle is the fastest way for your team to capture product feedback and share customer insights without the busy work. Cycle's Zendesk integration lets you link your customer tickets to your Cycle workspace and automate your workflow. It's faster and more effortless than copying information over manually and you'll be able to respond to your customers' requests faster.</li>\n</ul>\n</li>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/themes/270/paxo-128\" target=\"_blank\" rel=\"noopener noreferrer\">Paxo 128</a><span> </span><strong>(Theme)</strong>\n<ul>\n<li>Paxo 128 is a clean, modern Zendesk theme designed for easy customization and branding across industries. It offers numerous built-in settings for comprehensive personalization without coding. With customizable ticket fields, automated workflows, and pre-built responses tailored to various niches like healthcare and retail, this theme ensures efficient and effective support.</li>\n</ul>\n</li>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1046393/preview-attachments-by-saasly\" target=\"_blank\" rel=\"noopener noreferrer\">Preview Attachments by Saasly</a><span> </span><strong>(Support) (paid)</strong>\n<ul>\n<li>Maximize control over ticket attachments, filter, and preview swiftly. Instant Previews for All Your Files. Say goodbye to the hassle of downloading files before viewing. With our Preview app for Zendesk, your agents can seamlessly access and view documents directly within the ticket interface, saving valuable time and effort.</li>\n</ul>\n</li>\n</ul>\n<h2 id=\"h_01HX7B0ESFT89GAT9E79E1GBH6\">Products with no updates this week</h2>\n<ul>\n<li>Zendesk QA</li>\n<li>Explore</li>\n<li>Chat and messaging</li>\n<li>Mobile SDKs</li>\n<li>Talk</li>\n<li>Admin Center</li>\n</ul>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 7529092197530,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7529092197530.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/7529092197530-The-Solved-button-is-dimmed-grayed-out-on-my-messaging-ticket",
-      "author_id": 1266644443030,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405303730330,
-      "created_at": "2024-07-01T10:34:34Z",
-      "updated_at": "2024-07-09T15:03:25Z",
-      "name": "The Solved button is dimmed (grayed out) on my messaging ticket",
-      "title": "The Solved button is dimmed (grayed out) on my messaging ticket",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2024-07-03T15:40:44Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801135069,
-      "content_tag_ids": [],
-      "label_names": [
-        "ks",
-        "ab0",
-        "mt",
-        "ab0_messaging",
-        "role_agent"
-      ],
-      "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2>\n<p>When I open a messaging ticket, I cannot solve it. What is causing this behaviour?</p>\n<h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\"><img src=\"https://support.zendesk.com/hc/article_attachments/7529092197402\" alt=\"Solved.png\" width=\"314\" height=\"237\"></h2>\n<h2 id=\"01J1PXM7JBK9J5E3XJNHEWTX3Y\">Resolution steps</h2>\n<p>While the conversation is active, only the ticket assignee, who owns the conversation with the end user, has the ability to use the <strong>Solved</strong> status when updating the ticket.</p>\n<p>If you are not the <strong>Assignee</strong> of the ticket, you cannot set an active messaging ticket status to <strong>Solved</strong>.</p>\n<p><img id=\"topic_dpw_gnk_lrb__image_qfg_zch_gh\" class=\"image img-screenshot\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/aw_assignee_take.png\" width=\"203\" height=\"51\"></p>\n<p>For a similar issue, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408827065498-Why-can-t-I-set-my-ticket-to-solved\" target=\"_blank\" rel=\"noopener noreferrer\">Why can't I set my ticket to solved?</a> </p>",
       "user_segment_ids": []
     }
   ],
