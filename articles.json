@@ -829,7 +829,7 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2024-07-03T14:45:15Z",
-      "updated_at": "2024-07-18T21:28:18Z",
+      "updated_at": "2024-07-18T22:07:49Z",
       "name": "Service Incident - July 3rd, 2024",
       "title": "Service Incident - July 3rd, 2024",
       "source_locale": "en-us",
@@ -842,6 +842,7 @@
       "content_tag_ids": [],
       "label_names": [
         "service_incident",
+        "mt",
         "rank_low_algolia"
       ],
       "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>July 03, 2024 03:45 PM UTC | July 03, 2024 08:45 AM PT </strong><br>We are happy to report that the Sell access issues in Chrome have been resolved. Thank you for your patience during our investigation.</p>\n<p class=\"p1\"><strong>July 03, 2024 02:45 PM UTC | July 03, 2024 07:45 AM PT </strong><br>We are currently investigating customer reports of Sell intermittently loading a blank page in Chrome. As a workaround, please try to clear your cache and cookies or use an alternative browser. We will provide another update when we have more information.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
@@ -924,7 +925,7 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2024-07-02T12:12:55Z",
-      "updated_at": "2024-07-18T21:28:20Z",
+      "updated_at": "2024-07-18T22:07:59Z",
       "name": "Service Incident - July 2nd, 2024 - Chat & Messaging in Agent Workspace | Pods 17 & 18 - Issues using the \"Accept Chat\" button",
       "title": "Service Incident - July 2nd, 2024 - Chat & Messaging in Agent Workspace | Pods 17 & 18 - Issues using the \"Accept Chat\" button",
       "source_locale": "en-us",
@@ -937,6 +938,7 @@
       "content_tag_ids": [],
       "label_names": [
         "service_incident",
+        "mt",
         "rank_low_algolia"
       ],
       "body": "<h3 id=\"h_01J1W132B80KMSWEQ8MCNFCGQ5\" class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>July 03, 2024 05:05 AM UTC | July 02, 2024 10:05 PM PT </strong><br>After further monitoring, we have confirmation that the issue impacting Chat and Messaging acceptance has been resolved. Many thanks for your patience as we got to this point.</p>\n<p class=\"p1\"><strong>July 02, 2024 05:48 PM UTC | July 02, 2024 10:48 AM PT </strong><br>We have increased capacity on Messaging services in Pods 17 &amp; 18 and are monitoring for any additional impact. Our team will ensure that no further issues are seen when accepting chats, and we will provide additional updates as we confirm recovery. Please let us know if you continue to experience any issues with accepting chats.</p>\n<p class=\"p1\"><strong>July 02, 2024 04:28 PM UTC | July 02, 2024 09:28 AM PT </strong><br>Our team continues to investigate the issue affecting Chat &amp; Messaging acceptance in Agent Workspace for customers on Pods 17 &amp; 18 preventing use of the \"Accept Chat\" button. We will provide further updates in one hour or when we have new information to share.</p>\n<p class=\"p1\"><strong>July 02, 2024 03:28 PM UTC | July 02, 2024 08:28 AM PT </strong><br>We are still investigating the root cause for the issue affecting Chat &amp; Messaging acceptance in Agent Workspace for customers on Pods 17 &amp; 18 preventing use of the \"Accept Chat\" button. We will post additional information in one hour or when we have new information to share.</p>\n<p class=\"p1\"><strong>July 02, 2024 02:51 PM UTC | July 02, 2024 07:51 AM PT </strong><br>We continue to address issues affecting Chat &amp; Messaging acceptance in Agent Workspace for customers across Pods 17 and 18 who face the Chat Accept button not working. We are exploring fixes and testing options to fully resolve this issue.</p>\n<p class=\"p1\"><strong>July 02, 2024 02:01 PM UTC | July 02, 2024 07:01 AM PT </strong><br>We are going through different Chat/Messaging/AgentWorkspace issues at the moment and continue investigating all problems. We appreciate your patience.</p>\n<p class=\"p1\"><strong>July 02, 2024 12:12 PM UTC | July 02, 2024 05:12 AM PT </strong><br>We are currently investigation reports around the chat accept button for some customers on Pods 17 and 18 not working. We will provide another update when we have more information.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p>\n<h4 id=\"h_01J1W132B9VF4D6EYJB2B9R5EK\"><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
