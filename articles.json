@@ -819,7 +819,7 @@
     {
       "id": 7542769342490,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7542769342490.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/7542769342490-Service-Incident-July-3rd-2024",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/7542769342490-Service-Incident-July-3-2024-Sell-All-Pods-Sell-loading-blank-in-Chrome",
       "author_id": 1263082099529,
       "comments_disabled": true,
       "draft": false,
@@ -829,14 +829,14 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2024-07-03T14:45:15Z",
-      "updated_at": "2024-07-18T22:07:49Z",
-      "name": "Service Incident - July 3rd, 2024",
-      "title": "Service Incident - July 3rd, 2024",
+      "updated_at": "2024-07-19T11:01:22Z",
+      "name": "Service Incident - July 3, 2024 - Sell | All Pods - Sell loading blank in Chrome",
+      "title": "Service Incident - July 3, 2024 - Sell | All Pods - Sell loading blank in Chrome",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-07-03T15:45:50Z",
+      "edited_at": "2024-07-19T10:50:06Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
@@ -845,7 +845,7 @@
         "mt",
         "rank_low_algolia"
       ],
-      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>July 03, 2024 03:45 PM UTC | July 03, 2024 08:45 AM PT </strong><br>We are happy to report that the Sell access issues in Chrome have been resolved. Thank you for your patience during our investigation.</p>\n<p class=\"p1\"><strong>July 03, 2024 02:45 PM UTC | July 03, 2024 07:45 AM PT </strong><br>We are currently investigating customer reports of Sell intermittently loading a blank page in Chrome. As a workaround, please try to clear your cache and cookies or use an alternative browser. We will provide another update when we have more information.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
+      "body": "<h3 id=\"h_01J359S3J1MCTY8E0K1BFPF53X\"><strong><span style=\"color: #06363c;\">SUMMARY</span></strong></h3>\n<p>On July 03, 2024 from 09:13 UTC to 14:00 UTC, Sell customers using Chrome experienced Sell intermittently loading a blank page. Sell was accessible using other browsers</p>\n<h3 id=\"h_01J359S3J18SV251F1G9D3HT8X\"><span style=\"color: #06363c;\">Timeline</span></h3>\n<p><strong>July 03, 2024 03:45 PM UTC | July 03, 2024 08:45 AM PT</strong></p>\n<p>We are happy to report that the Sell access issues in Chrome have been resolved. Thank you for your patience during our investigation.</p>\n<p><strong>July 03, 2024 02:45 PM UTC | July 03, 2024 07:45 AM PT</strong></p>\n<p>We are currently investigating customer reports of Sell intermittently loading a blank page in Chrome. As a workaround, please try to clear your cache and cookies or use an alternative browser. We will provide another update when we have more information.</p>\n<h3 id=\"h_01J359S3J14DJ91GZZJWXDWY09\"><strong><span style=\"color: #06363c;\">POST-MORTEM</span></strong></h3>\n<h3 id=\"h_01J359S3J285V6XJGRDN76VNB4\"><span style=\"color: #06363c;\">Root Cause Analysis</span></h3>\n<p>This incident was caused by a change in the configuration naming causing default settings to be applied. </p>\n<h3 id=\"h_01J359S3J2NK3RDFM9BDBRM6TC\"><span style=\"color: #06363c;\">Resolution</span></h3>\n<p>To resolve the issue, we update the name to its new format. </p>\n<h3 id=\"h_01J359S3J25AE9S8H53MSH6JRZ\"><span style=\"color: #06363c;\">Remediation Items</span></h3>\n<ol>\n<li>Create alerting and additional automated testing [Scheduled]</li>\n</ol>\n<h4 id=\"h_01J359S0ZD6Y17RY22CE9MFEVF\"><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
     },
     {
