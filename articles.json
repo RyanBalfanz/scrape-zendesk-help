@@ -1,11 +1,49 @@
 {
-  "count": 4686,
+  "count": 4687,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 157,
   "per_page": 30,
   "previous_page": null,
   "articles": [
+    {
+      "id": 7659888492954,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7659888492954.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/7659888492954-How-do-I-increase-agent-seats-Video",
+      "author_id": 1900815493244,
+      "comments_disabled": false,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298881178,
+      "created_at": "2024-07-23T04:18:12Z",
+      "updated_at": "2024-07-23T04:28:28Z",
+      "name": "How do I increase agent seats? [Video]",
+      "title": "How do I increase agent seats? [Video]",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2024-07-23T04:18:12Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801135069,
+      "content_tag_ids": [
+        "01GT23ANPKETP5FEHTZ3KV8XBS",
+        "01GT23CR5WV19DHBTHA1XGSGES"
+      ],
+      "label_names": [
+        "ks",
+        "ab0",
+        "video",
+        "ab0_admin_center",
+        "role_owner",
+        "role_billing_admin"
+      ],
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>How can I add agent seats to my account? How do I buy additional agent seats?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>You can purchase additional agent seats as needed, or when your last agent seat is used. Only the account owner and billing admins can buy more seats. Admins who aren't the account owner or a billing admin can <a href=\"https://support.zendesk.com/hc/en-us/articles/4408828513434\" target=\"_blank\" rel=\"noopener noreferrer\">request a subscription change</a> to add agent seats.</p>\n<p>The ability to add agent seats depends on your account type. For sales-assisted accounts that can't instantly buy agent seats, you'll see a form to request more agents. The request is sent to your sales representative and a service order will be created on your behalf.</p>\n<p>See the video below for a guide on how to add agent seats to your Zendesk account.</p>\n<p><iframe src=\"//www.youtube-nocookie.com/embed/Ta5SjXRYFnM\" width=\"560\" height=\"315\" frameborder=\"0\" allowfullscreen=\"\"></iframe></p>\n<p>For more information, see the article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408881540506\" target=\"_blank\" rel=\"noopener noreferrer\">Adding agent seats to your subscription</a>.</p>",
+      "user_segment_ids": []
+    },
     {
       "id": 7654796000922,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7654796000922.json",
@@ -935,38 +973,6 @@
         "rank_low_algolia"
       ],
       "body": "<h3 id=\"h_01J359S3J1MCTY8E0K1BFPF53X\"><strong><span style=\"color: #06363c;\">SUMMARY</span></strong></h3>\n<p>On July 03, 2024 from 09:13 UTC to 14:00 UTC, Sell customers using Chrome experienced Sell intermittently loading a blank page. Sell was accessible using other browsers</p>\n<h3 id=\"h_01J359S3J18SV251F1G9D3HT8X\"><span style=\"color: #06363c;\">Timeline</span></h3>\n<p><strong>July 03, 2024 03:45 PM UTC | July 03, 2024 08:45 AM PT</strong></p>\n<p>We are happy to report that the Sell access issues in Chrome have been resolved. Thank you for your patience during our investigation.</p>\n<p><strong>July 03, 2024 02:45 PM UTC | July 03, 2024 07:45 AM PT</strong></p>\n<p>We are currently investigating customer reports of Sell intermittently loading a blank page in Chrome. As a workaround, please try to clear your cache and cookies or use an alternative browser. We will provide another update when we have more information.</p>\n<h3 id=\"h_01J359S3J14DJ91GZZJWXDWY09\"><strong><span style=\"color: #06363c;\">POST-MORTEM</span></strong></h3>\n<h3 id=\"h_01J359S3J285V6XJGRDN76VNB4\"><span style=\"color: #06363c;\">Root Cause Analysis</span></h3>\n<p>This incident was caused by a change in the configuration naming causing default settings to be applied. </p>\n<h3 id=\"h_01J359S3J2NK3RDFM9BDBRM6TC\"><span style=\"color: #06363c;\">Resolution</span></h3>\n<p>To resolve the issue, we update the name to its new format. </p>\n<h3 id=\"h_01J359S3J25AE9S8H53MSH6JRZ\"><span style=\"color: #06363c;\">Remediation Items</span></h3>\n<ol>\n<li>Create alerting and additional automated testing [Scheduled]</li>\n</ol>\n<h4 id=\"h_01J359S0ZD6Y17RY22CE9MFEVF\"><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 7537854278682,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7537854278682.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/7537854278682-Service-Incident-July-2-2024-Sunshine-Conversations-Pod-13-Answer-Bot-degradation",
-      "author_id": 1263082182369,
-      "comments_disabled": true,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405298854426,
-      "created_at": "2024-07-02T19:47:02Z",
-      "updated_at": "2024-07-18T21:28:19Z",
-      "name": "Service Incident - July 2, 2024 - Sunshine Conversations | Pod 13 - Answer Bot degradation",
-      "title": "Service Incident - July 2, 2024 - Sunshine Conversations | Pod 13 - Answer Bot degradation",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2024-07-10T07:41:11Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801242670,
-      "content_tag_ids": [],
-      "label_names": [
-        "service_incident",
-        "mt",
-        "rank_low_algolia"
-      ],
-      "body": "<h3 id=\"h_01J1W1JCECY5P6G2A7CFPBE6MX\" class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<p>On July 2nd, 2024, between 18:20 and 18:44 UTC, our Sunshine Conversations service experienced high latency due to an unexpected increase in traffic. This caused our systems to slow down and led to delays in message processing.</p>\n<div id=\"message-list\">\n<h4 id=\"h_01J2DSCCTJ8MC69RN8DC0R6JXP\" class=\"p1\"><strong>Timeline</strong></h4>\n<p class=\"p1\"><strong>July 02, 2024 10:12 PM UTC | July 02, 2024 03:12 PM PT </strong><br>The issue impacting Answer Bot performance on Pod 13 is now fully resolved. Please let us know if you continue to experience issues.</p>\n<p class=\"p1\"><strong>July 02, 2024 09:07 PM UTC | July 02, 2024 02:07 PM PT </strong><br>We are seeing improvements to Answer Bot performance on Pod 13 and will continue to monitor performance. Will provide a final update once the incident is resolved.</p>\n<p class=\"p1\"><strong>July 02, 2024 08:13 PM UTC | July 02, 2024 01:13 PM PT </strong><br>Our engineers are investigating the issue causing the Answer Bot degradation on Pod 13. We will provide another update when we have new information to share.</p>\n<p class=\"p1\"><strong>July 02, 2024 07:47 PM UTC | July 02, 2024 12:47 PM PT </strong><br>We are investigating reports of Answer Bot degradation on Pod 13. We will provide another update when we more information.</p>\n</div>\n<h3 id=\"h_01J2CVQAH254H70F5257TYPAC5\" class=\"p1\"><strong><br>POST-MORTEM</strong></h3>\n<p>The incident was triggered by a significant increase in traffic. This caused our systems to slow down, resulting in delays and temporary service interruptions. We took immediate action to manage the increased load and restore normal operations.</p>\n<h4 id=\"h_01J2DSD18VCCNM90XD0WZMBGCB\"><strong>Root Cause Analysis</strong></h4>\n<p>The main cause was a sudden traffic spike, which doubled our usual traffic and saturated our database, leading to delays. Additionally, our AnswerBot service couldn't handle the increased load, causing further disruptions.</p>\n<h4 id=\"h_01J2DSD51H30SSZ9GE3XN6QSRR\"><strong>Resolution</strong></h4>\n<p>To mitigate the issue, we scaled up our database and AnswerBot service, increasing their capacity to handle the surge. This allowed us to restore normal operations and process the backlog of messages.</p>\n<h4 id=\"h_01J2DSD8K47SZQWP2BHMBZJ30S\"><strong>Remediation Items</strong></h4>\n<p>1. Enable Auto-Scaling: Implement automatic scaling for critical services to handle sudden traffic spikes.<br>2. Introduce Circuit Breakers: Prevent overloading of services by temporarily reducing traffic when necessary.<br>3. Improve Monitoring: Enhance our monitoring systems to detect and respond to similar issues more quickly.<br><br></p>\n<h4 id=\"h_01J1W1JCEC1J8X6J4KGSB0C8SR\"><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
     }
   ],
