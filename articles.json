@@ -88,7 +88,7 @@
       "vote_count": 0,
       "section_id": 4405298833818,
       "created_at": "2024-07-22T20:10:20Z",
-      "updated_at": "2024-07-23T12:10:14Z",
+      "updated_at": "2024-07-24T15:00:08Z",
       "name": "Announcing WFM agent talk activity CSV exports",
       "title": "Announcing WFM agent talk activity CSV exports",
       "source_locale": "en-us",
@@ -99,7 +99,9 @@
       "user_segment_id": null,
       "permission_group_id": 1324079,
       "content_tag_ids": [],
-      "label_names": [],
+      "label_names": [
+        "mtpe"
+      ],
       "body": "<table style=\"border-collapse: collapse; width: 100%; height: 44px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"width: 50%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Announced on</strong></td>\n<td style=\"width: 50%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Rollout on</strong></td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 50%; height: 22px;\">July 23, 2024</td>\n<td style=\"width: 50%; height: 22px;\"><span class=\"wysiwyg-color-black\">July 23, 2024</span></td>\n</tr>\n</tbody>\n</table>\n<p>Zendesk Workforce management (WFM) is enhancing the Agent activity page by allowing you to export agents’ talk activity statuses.</p>\n<p><span style=\"font-weight: 400;\">This announcement includes the following topics:</span></p>\n<ul>\n<li><a href=\"#h_01GD3S97RDYVTAFTQ8WR9878VF\" target=\"_self\"><span style=\"font-weight: 400;\">What is changing?</span></a></li>\n<li><a href=\"#h_01GD3S9GD63FPDGQSEFY88M3ND\" target=\"_self\"><span style=\"font-weight: 400;\">Why is Zendesk making this change?</span></a></li>\n<li><a href=\"#h_01GD3S9TSPXM7M4WHYKYF4E84M\" target=\"_self\"><span style=\"font-weight: 400;\">What do I need to do?</span></a></li>\n</ul>\n<h2 id=\"h_01GD3S97RDYVTAFTQ8WR9878VF\"><span style=\"font-weight: 400;\">What is changing?</span></h2>\n<p>The <a href=\"https://support.zendesk.com/hc/en-us/articles/6443347506970-About-the-Agent-activity-page\">Agent activity page</a> now displays an <strong>Export Talk activity</strong> button, allowing you to export a CSV file with information about agents' talk statuses for the selected day. </p>\n<p><img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/wfm_export_talk_activity_button.png\" width=\"600\"></p>\n<h2 id=\"h_01GD3S9GD63FPDGQSEFY88M3ND\"><span style=\"font-weight: 400;\">Why is Zendesk WFM making this change?</span></h2>\n<p>This update aims to provide more detailed visibility over your agents' talk activity. <br>By exporting data on agent status durations into a spreadsheet, you can analyze how your agents allocate their time, pinpoint areas for improvement, and tailor insights to their specific needs.</p>\n<p>The generated report also helps you identify patterns in agent behavior over time. You may uncover trends like frequent Away periods or constant switches to Transfers Only state. <br>These insights can be leveraged to optimize operations and enhance agent efficiency.</p>\n<h2 id=\"h_01GD3S9TSPXM7M4WHYKYF4E84M\"><span style=\"font-weight: 400;\">What do I need to do?</span></h2>\n<p>No action is required. To learn more see <a href=\"https://support.zendesk.com/hc/en-us/articles/6443347506970-About-the-Agent-activity-page#topic_yqp_wv3_dcc\" target=\"_blank\" rel=\"noopener noreferrer\">Exporting agents' talk activity statuses</a>.</p>\n<p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/6680963801114\"><span class=\"wysiwyg-underline\" style=\"color: #1155cc;\">community forum</span></a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\"><span class=\"wysiwyg-underline\" style=\"color: #1155cc;\">Zendesk Customer Support</span></a>.</p>",
       "user_segment_ids": []
     },
