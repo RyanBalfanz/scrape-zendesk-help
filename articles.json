@@ -15,8 +15,8 @@
       "draft": false,
       "promoted": true,
       "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
+      "vote_sum": 1,
+      "vote_count": 1,
       "section_id": 4405298833818,
       "created_at": "2024-07-23T21:21:03Z",
       "updated_at": "2024-07-25T00:44:18Z",
@@ -49,7 +49,7 @@
       "vote_count": 0,
       "section_id": 4405298833818,
       "created_at": "2024-07-23T17:24:00Z",
-      "updated_at": "2024-07-24T17:33:20Z",
+      "updated_at": "2024-07-25T15:00:10Z",
       "name": "Announcing an improved experience when configuring authentication options",
       "title": "Announcing an improved experience when configuring authentication options",
       "source_locale": "en-us",
@@ -61,6 +61,7 @@
       "permission_group_id": 1324079,
       "content_tag_ids": [],
       "label_names": [
+        "mtpe",
         "newsfeed"
       ],
       "body": "<table style=\"border-collapse: collapse; width: 100%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 33.3333%;\"><strong>Announced on</strong></td>\n<td style=\"width: 33.3333%;\"><strong>Rollout starts</strong></td>\n<td style=\"width: 33.3333%;\"><strong>Rollout ends</strong></td>\n</tr>\n<tr>\n<td style=\"width: 33.3333%;\">July 24, 2024</td>\n<td style=\"width: 33.3333%;\">July 24, 2024</td>\n<td style=\"width: 33.3333%;\">August 1, 2024</td>\n</tr>\n</tbody>\n</table>\n<p>Zendesk is excited to announce an improved and simplified experience when configuring end user and team member authentication settings in Admin Center.</p>\n<p>This announcement includes the following topics:</p>\n<ul>\n<li><a href=\"#h_01J3E5H3X7A2NKY1VFRQBW53K3\">What is changing?</a></li>\n<li><a href=\"#h_01J3E5PGVK8EH8SA1RNAZD52XS\">Why is Zendesk making this change?</a></li>\n<li><a href=\"#h_01J3E5QQYNF9KP7MH601C88XEP\">What do I need to do?</a></li>\n</ul>\n<h2 id=\"h_01J3E5H3X7A2NKY1VFRQBW53K3\">What is changing?</h2>\n<p>We’ve made it easier for Zendesk admins to configure which sign-in methods end users and team members can use. The authentication pages for team members and end users now look and behave the same.</p>\n<p>For end users, you are no longer required to turn on Zendesk authentication (email and password) to enable social sign-ins (X, Google, Microsoft, and Facebook). All SSO options can be turned on independently. In addition, you can require end users to use a social sign-in when you choose <strong>Redirect to SSO</strong>.</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7667566191258\" alt=\"Screenshot 2024-07-22 at 11.05.43 AM.png\" width=\"650\"></p>\n<p>For team members, business sign-ins (Google and Microsoft) are no longer mutually exclusive options tied to external authentication. You can now offer business sign-ins and custom SSO methods together and all SSO options can be turned on independently. If you select <strong>Redirect to SSO</strong>, then all business sign-ins and custom SSO methods appear for you to choose from.</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7667550065178\" alt=\"Screenshot 2024-07-22 at 11.14.24 AM.png\" width=\"650\"></p>\n<h2 id=\"h_01J3E5PGVK8EH8SA1RNAZD52XS\">Why is Zendesk making this change?</h2>\n<p>This update simplifies and aligns the two authentication pages, making it easier for Zendesk admins to configure the right sign-in methods for users without any unnecessary restrictions for what options are available. </p>\n<h2 id=\"h_01J3E5QQYNF9KP7MH601C88XEP\">What do I need to do?</h2>\n<p>There’s no action required from you. This update is automatically rolled out and available to all accounts. If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/4408860477850-Feedback-Admin-Center\" target=\"_blank\" rel=\"noopener noreferrer\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\" target=\"_blank\" rel=\"noopener noreferrer\">contact Zendesk Customer Support</a>.</p>",
