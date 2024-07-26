@@ -49,14 +49,14 @@
       "vote_count": 0,
       "section_id": 4405303730330,
       "created_at": "2024-07-25T15:31:19Z",
-      "updated_at": "2024-07-26T10:48:25Z",
+      "updated_at": "2024-07-26T15:01:38Z",
       "name": "My messaging tickets are created with an empty email field",
       "title": "My messaging tickets are created with an empty email field",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-07-26T10:48:24Z",
+      "edited_at": "2024-07-26T15:01:37Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -66,7 +66,7 @@
         "ab0_messaging",
         "role_admin"
       ],
-      "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2>\n<p>My end users create a request from the <a href=\"https://support.zendesk.com/hc/en-us/articles/7178617945498-Viewing-and-configuring-Web-Widget-settings\" target=\"_blank\" rel=\"noopener noreferrer\">Web Widget</a> in messaging and fills the <strong>Email</strong> field. However, from the ticket, when I open the profile of the end user, the <strong>Email</strong> field is empty.</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7697777653530\" alt=\"Empty field.png\"></p>\n<h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2>\n<p>The E-mail field can be empty on the end user profile when <strong>Use only verified emails</strong> is selected from your settings. Your end user is not authenticated with JWT and the email address is unverified, thus the email address is not registered in the user profile.</p>\n<p>Instead, you can accept all types of email addresses. From your <a href=\"https://support.zendesk.com/hc/en-us/articles/4411666638746-Authenticating-end-users-for-messaging#:~:text=they%20don%27t%20own.-,Configuring,-email%20identities\" target=\"_blank\" rel=\"noopener noreferrer\">messaging settings</a>, select <strong>Use both verified and unverified emails</strong>.</p>\n<p><br><img src=\"https://support.zendesk.com/hc/article_attachments/7692254097050\" alt=\"Step 1.png\" width=\"651\"></p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7692229964954\" alt=\"Step 2.png\" width=\"651\"></p>\n<p>This will display all email addresses in the email field for your end users.</p>",
+      "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2>\n<p>My end users create a request from the <a href=\"https://support.zendesk.com/hc/en-us/articles/7178617945498-Viewing-and-configuring-Web-Widget-settings\" target=\"_blank\" rel=\"noopener noreferrer\">Web Widget</a> in messaging and fills the <strong>Email</strong> field. However, from the ticket, when I open the profile of the end user, the <strong>Email</strong> field is empty.</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7698890822682\" alt=\"Profile.png\"></p>\n<h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2>\n<p>The E-mail field can be empty on the end user profile when <strong>Use only verified emails</strong> is selected from your settings. Your end user is not authenticated with JWT and the email address is unverified, thus the email address is not registered in the user profile.</p>\n<p>Instead, you can accept all types of email addresses. From your <a href=\"https://support.zendesk.com/hc/en-us/articles/4411666638746-Authenticating-end-users-for-messaging#:~:text=they%20don%27t%20own.-,Configuring,-email%20identities\" target=\"_blank\" rel=\"noopener noreferrer\">messaging settings</a>, select <strong>Use both verified and unverified emails</strong>.</p>\n<p><br><img src=\"https://support.zendesk.com/hc/article_attachments/7692254097050\" alt=\"Step 1.png\" width=\"651\"></p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7692229964954\" alt=\"Step 2.png\" width=\"651\"></p>\n<p>This will display all email addresses in the email field for your end users.</p>",
       "user_segment_ids": []
     },
     {
@@ -114,7 +114,7 @@
       "vote_count": 1,
       "section_id": 4405298833818,
       "created_at": "2024-07-23T21:21:03Z",
-      "updated_at": "2024-07-25T00:44:18Z",
+      "updated_at": "2024-07-26T15:00:11Z",
       "name": "Announcing the Advanced Encryption EAP",
       "title": "Announcing the Advanced Encryption EAP",
       "source_locale": "en-us",
@@ -126,6 +126,7 @@
       "permission_group_id": 1324079,
       "content_tag_ids": [],
       "label_names": [
+        "mtpe",
         "newsfeed"
       ],
       "body": "<table style=\"border-collapse: collapse; width: 100%; height: 44px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Announced on</strong></td>\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Rollout on</strong></td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\">July 24, 2024</td>\n<td style=\"width: 33.3333%; height: 22px;\">July 24, 2024</td>\n</tr>\n</tbody>\n</table>\n<p><span style=\"font-weight: 400;\">We’re excited to announce the Advanced Encryption early access program (EAP), which provides advanced encryption for user fields. This EAP, previously only available in sandbox accounts, is now also available in production accounts.</span></p>\n<p><span style=\"font-weight: 400;\">Advanced encryption provides an additional layer of security for personally identifiable information (PII) in Zendesk by giving you total control over your encryption keys, ensuring the highest level of data protection.</span></p>\n<p><span style=\"font-weight: 400;\">This announcement includes the following topics:</span></p>\n<ul>\n<li><a href=\"#h_01GD3S97RDYVTAFTQ8WR9878VF\">What's changing, and why?</a></li>\n<li><a href=\"#h_01GD3S9TSPXM7M4WHYKYF4E84M\" target=\"_self\"><span style=\"font-weight: 400;\">What do I need to do?</span></a></li>\n</ul>\n<h2 id=\"h_01GD3S97RDYVTAFTQ8WR9878VF\"><span style=\"font-weight: 400;\">What's changing, and why?</span></h2>\n<p>The Advanced Encryption EAP enables you to encrypt user fields (name, alias, signature, details, notes) in Support, Guide, and Admin Center with the keys stored in your key management system (KMS). This ​​ ensures data stored in Zendesk can’t be read in plain text by an external party and is decrypted just in time to enable the Zendesk Services. This feature is available in production as well as sandbox accounts.</p>\n<p>Advanced encryption is an enhancement to our standard encryption at Zendesk that encrypts service data using native Amazon Web Services (AWS) encryption, which is applied to our database and shared among all customer accounts.</p>\n<h2 id=\"h_01GD3S9TSPXM7M4WHYKYF4E84M\"><span style=\"font-weight: 400;\">What do I need to do?</span></h2>\n<p>To sign up to participate in the Advanced Encryption EAP, complete <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSez7R5U3fhMasGQEJ5G2tthMM7ZOE9NwqCEnyWTt-e1dKlB7g/viewform\" target=\"_blank\" rel=\"noopener noreferrer\">this form</a>. While we cannot guarantee that everyone can join at this stage, we’ll do our best to support as many customers as possible.</p>\n<p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/5406473610522\" target=\"_blank\" rel=\"noopener noreferrer\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk Customer Support</a>.</p>",
