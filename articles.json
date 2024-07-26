@@ -1,5 +1,5 @@
 {
-  "count": 4697,
+  "count": 4698,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 157,
@@ -34,6 +34,40 @@
         "role_admin"
       ],
       "body": "<div class=\"body\">\n<div class=\"div docs-wmp-link\" style=\"text-align: right; font-size: 0.8em;\"><a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/5411234991258-plan\" target=\"_blank\" rel=\"noopener\">What's my plan?</a></div>\n<p class=\"p\"><img id=\"topic-1__image_h24_wyh_hzb\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/plan_available_suite_add_all.png\" alt=\"Available on all Suite plans with add-on\"><img id=\"topic-1__image_a23_vyh_hzb\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/plan_available_all_add.png\" alt=\"Available on all Support plans with add-on\"></p>\n<p class=\"p\" dir=\"ltr\">This article outlines the maximum product limits that are in place for Zendesk Workforce management (WFM).</p>\n</div>\n<div id=\"topic_vl4_khk_1bc\" class=\"topic nested1\" aria-labelledby=\"ariaid-title2\">\n<h2 id=\"ariaid-title2\" class=\"title topictitle2\">Limits for WFM</h2>\n<div class=\"body\">\n<p class=\"p\">The following table shows the maximum limits for Zendesk WFM.</p>\n<div class=\"p\">\n<div class=\"note note\">\n<span class=\"notetitle\">Note:</span> This article will continue to be updated, as we may introduce additional limits in the future based on usage.</div>\n</div>\n<div class=\"tablenoborder\">\n<table id=\"topic_vl4_khk_1bc__table_fj4_dj2_2cc\" class=\"table\" border=\"1\" summary=\"\" frame=\"border\" rules=\"all\" cellspacing=\"0\" cellpadding=\"4\">\n<colgroup>\n<col>\n<col>\n<col>\n</colgroup>\n<tbody class=\"tbody\">\n<tr class=\"row\">\n<td class=\"entry nocellnorowborder\" dir=\"ltr\" style=\"vertical-align: top;\"><strong class=\"ph b\">Page</strong></td>\n<td class=\"entry nocellnorowborder\" dir=\"ltr\" style=\"vertical-align: top;\"><strong class=\"ph b\">Feature</strong></td>\n<td class=\"entry cell-norowborder\" dir=\"ltr\" style=\"vertical-align: top;\"><strong class=\"ph b\">Limits</strong></td>\n</tr>\n<tr class=\"row\">\n<td class=\"entry nocellnorowborder\" dir=\"ltr\" style=\"vertical-align: top;\" rowspan=\"2\">Dashboard</td>\n<td class=\"entry nocellnorowborder\" dir=\"ltr\" style=\"vertical-align: top;\">Maximum number of dashboards</td>\n<td class=\"entry cell-norowborder\" dir=\"ltr\" style=\"vertical-align: top;\">10</td>\n</tr>\n<tr class=\"row\">\n<td class=\"entry nocellnorowborder\" dir=\"ltr\" style=\"vertical-align: top;\">Maximum number of widgets per dashboard</td>\n<td class=\"entry cell-norowborder\" dir=\"ltr\" style=\"vertical-align: top;\">12</td>\n</tr>\n<tr class=\"row\">\n<td class=\"entry nocellnorowborder\" dir=\"ltr\" style=\"vertical-align: top;\" rowspan=\"4\">Reports</td>\n<td class=\"entry nocellnorowborder\" dir=\"ltr\" style=\"vertical-align: top;\">File size</td>\n<td class=\"entry cell-norowborder\" dir=\"ltr\" style=\"vertical-align: top;\">&lt; 15 MB</td>\n</tr>\n<tr class=\"row\">\n<td class=\"entry nocellnorowborder\" dir=\"ltr\" style=\"vertical-align: top;\">UI response timeout</td>\n<td class=\"entry cell-norowborder\" dir=\"ltr\" style=\"vertical-align: top;\">&lt; 15 sec</td>\n</tr>\n<tr class=\"row\">\n<td class=\"entry nocellnorowborder\" style=\"vertical-align: top;\">\n<p class=\"p\" dir=\"ltr\">Daterange picker future max</p>\n<p class=\"p\" dir=\"ltr\">(the maximum number of days that can be selected in the future)</p>\n</td>\n<td class=\"entry cell-norowborder\" dir=\"ltr\" style=\"vertical-align: top;\">-1 (we currently don't allow a current day selection)</td>\n</tr>\n<tr class=\"row\">\n<td class=\"entry nocellnorowborder\" dir=\"ltr\" style=\"vertical-align: top;\">Data granularity per time frame selected</td>\n<td class=\"entry cell-norowborder\" style=\"vertical-align: top;\">\n<ul id=\"topic_vl4_khk_1bc__ul_gj4_dj2_2cc\" class=\"ul\">\n<li class=\"li\" dir=\"ltr\">\n<p class=\"p\" dir=\"ltr\">1 day or less: data is displayed in 15m or 30m intervals</p>\n</li>\n<li class=\"li\" dir=\"ltr\">\n<p class=\"p\" dir=\"ltr\">7 days or less: data is displayed daily and hourly</p>\n</li>\n<li class=\"li\" dir=\"ltr\">\n<p class=\"p\" dir=\"ltr\">31 days or less: data is displayed weekly and daily</p>\n</li>\n<li class=\"li\" dir=\"ltr\">\n<p class=\"p\" dir=\"ltr\">13 weeks or less: data is displayed weekly, monthly and quarterly</p>\n</li>\n<li class=\"li\" dir=\"ltr\">\n<p class=\"p\" dir=\"ltr\">Up to 58 weeks (or the equivalent of 13 months): data is displayed monthly and quarterly</p>\n</li>\n</ul>\n</td>\n</tr>\n<tr class=\"row\">\n<td class=\"entry nocellnorowborder\" dir=\"ltr\" style=\"vertical-align: top;\">Agent Activity</td>\n<td class=\"entry nocellnorowborder\" style=\"vertical-align: top;\">\n<p class=\"p\" dir=\"ltr\">Date picker future max</p>\n<p class=\"p\" dir=\"ltr\">(max number of days displayed in future)</p>\n</td>\n<td class=\"entry cell-norowborder\" style=\"vertical-align: top;\">\n<p class=\"p\" dir=\"ltr\">0 (we currently only allow up to the current day selection; it’s not possible to select future dates)</p>\n</td>\n</tr>\n<tr class=\"row\">\n<td class=\"entry nocellnorowborder\" dir=\"ltr\" style=\"vertical-align: top;\">Agent Attendance</td>\n<td class=\"entry nocellnorowborder\" style=\"vertical-align: top;\">\n<p class=\"p\" dir=\"ltr\">Date picker future max</p>\n<p class=\"p\" dir=\"ltr\">(max number of days displayed in future)</p>\n</td>\n<td class=\"entry cell-norowborder\" style=\"vertical-align: top;\">\n<p class=\"p\" dir=\"ltr\">0 (we currently only allow up to the current day selection; it’s not possible to select future dates)</p>\n</td>\n</tr>\n<tr class=\"row\">\n<td class=\"entry nocellnorowborder\" dir=\"ltr\" style=\"vertical-align: top;\" rowspan=\"2\">Public API</td>\n<td class=\"entry nocellnorowborder\" dir=\"ltr\" style=\"vertical-align: top;\">Rate limit (number of requests per second)</td>\n<td class=\"entry cell-norowborder\" dir=\"ltr\" style=\"vertical-align: top;\">100 requests</td>\n</tr>\n<tr class=\"row\">\n<td class=\"entry row-nocellborder\" dir=\"ltr\" style=\"vertical-align: top;\">Pagination limit per page</td>\n<td class=\"entry cellrowborder\" dir=\"ltr\" style=\"vertical-align: top;\">100 items</td>\n</tr>\n</tbody>\n</table>\n</div>\n</div>\n</div>",
+      "user_segment_ids": []
+    },
+    {
+      "id": 7696941035546,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7696941035546.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/7696941035546-Is-there-a-way-to-handle-attachments-with-the-client-request-ZAF-method",
+      "author_id": 4967137259930,
+      "comments_disabled": false,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298879258,
+      "created_at": "2024-07-26T07:51:30Z",
+      "updated_at": "2024-07-26T15:36:26Z",
+      "name": "Is there a way to handle attachments with the client.request ZAF method?",
+      "title": "Is there a way to handle attachments with the client.request ZAF method?",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2024-07-26T15:36:25Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801135069,
+      "content_tag_ids": [],
+      "label_names": [
+        "ks",
+        "ab0",
+        "ab0_support",
+        "role_developer",
+        "role_admin"
+      ],
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>Can I upload files within an app using the <code>client.request\n  method?\n</code></p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>No, the <code>client.request</code> method does not support <a href=\"https://developer.zendesk.com/documentation/apps/app-developer-guide/making-api-requests-from-a-zendesk-app/#:~:text=The%20method%20doesn%27t%20support%20uploading%20or%20downloading%20binary%20files.\" target=\"_blank\" rel=\"noopener noreferrer\">uploading or downloading binary files</a>.</p>\n<p>Instead, uploads should be handled with API calls, see these articles: </p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408887057946-Can-I-attach-files-to-tickets-using-the-API?page=1#comment_4881558920346\" target=\"_blank\" rel=\"noopener noreferrer\">Can I attach files to tickets using the API?</a></li>\n<li><a href=\"https://developer.zendesk.com/api-reference/ticketing/tickets/ticket-attachments/\" target=\"_blank\" rel=\"noopener noreferrer\">Attachments</a></li>\n</ul>",
       "user_segment_ids": []
     },
     {
@@ -932,40 +966,6 @@
         "rank_low_algolia"
       ],
       "body": "<h3 id=\"h_01J2YARY82QX370698Q188KT0P\" class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p>On July 9, 2024, at 11:40 AM (UTC), we implemented a new change to our article editing system. This change inadvertently caused some published articles to be republished without user intervention, resulting in some draft versions of articles to be inadvertently published.</p>\n<h4 id=\"h_01J2ZS11SQPD7EPFGM1KH87GW6\" class=\"p1\"><strong>Timeline</strong></h4>\n<p class=\"p1\"><strong>July 09, 2024 08:41 PM UTC | July 09, 2024 01:41 PM PT </strong><br>Our engineers have identified the issue and rolled back the affecting change across all pods. Guide article editing, saving, and publishing have been restored to normal behavior. Please note: If you saved any article edits between 11:40 UTC to 20:37 UTC, you may have inadvertently published draft article content. You will need to manually restore the previous published version by either using the Guide article revision history feature or manually updating the article and republishing.</p>\n<p class=\"p1\"><strong>July 09, 2024 07:57 PM UTC | July 09, 2024 12:57 PM PT </strong><br>We have confirmed an issue with editing published Guide articles wherein clicking \"save\" inadvertently publishes the article live instead of only \"saving\" the current article draft version. We are working on reverting a change to restore the normal behavior. We will provide another update in 30 minutes or when have new information to share.</p>\n<p class=\"undefined\"> </p>\n</div>\n<h3 id=\"h_01J2ZS347YH59FYXMAJ99QK1WM\" class=\"p1\"><strong>POST-MORTEM</strong></h3>\n<h4 id=\"h_01J2ZS1R96DJKVC3K30VNW82NS\">Root Cause Analysis</h4>\n<p>An update intended to improve our editing system inadvertently caused edits to be processed twice, once through the old system and once through the new one. This led to articles being republished unnecessarily.</p>\n<h4 id=\"h_01J2ZS1W2MDAHQX8ZCHRFXKG48\">Resolution</h4>\n<p>Upon identifying the issue, we implemented a fix to disable the problematic feature. The system was stabilized, and normal operations resumed.</p>\n<h4 id=\"h_01J2ZS1Z9WV88WKE8TG9S074W2\">Remediation Items</h4>\n<p>We have identified several steps to prevent similar incidents in the future:</p>\n<p>1. Ensure commands within our system are side-effect free.<br>2. Separate the republishing logic for different customer tiers.<br>3. Enhance our pre-deployment testing to better capture such issues.</p>\n<p>We apologize for any inconvenience this may have caused and appreciate your understanding as we strive to improve our services.</p>\n<h4 id=\"h_01J2ZS1R96QT1MA50Q0QG0X12Z\"> </h4>\n<h4 id=\"h_01J2YARY82SQ3H8PEWPR1X175Y\"><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 7574709579162,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7574709579162.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/7574709579162-How-can-I-see-who-created-users-in-my-account",
-      "author_id": 1263082164889,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 6279947161626,
-      "created_at": "2024-07-09T15:07:45Z",
-      "updated_at": "2024-07-16T15:04:12Z",
-      "name": "How can I see who created users in my account?",
-      "title": "How can I see who created users in my account?",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2024-07-09T16:53:45Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801135069,
-      "content_tag_ids": [],
-      "label_names": [
-        "ks",
-        "ab0",
-        "mt",
-        "ab0_admin_center",
-        "role_admin"
-      ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>Where can I see who created a user in Zendesk?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>On Enterprise plans, you can see that action in your <a href=\"https://support.zendesk.com/hc/en-us/articles/4408828001434-Viewing-the-audit-log-for-changes-to-your-account\" target=\"_blank\" rel=\"noopener noreferrer\">audit log</a>. If the actor of the activity shows <strong>System user</strong> then this potentially means that the user was created with the API.</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7574768152346\" alt=\"ac_account_audit_log_type.png\"></p>\n<p>Audit logs are also available from the <a href=\"https://developer.zendesk.com/api-reference/ticketing/account-configuration/audit_logs/\" target=\"_blank\" rel=\"noopener noreferrer\">API</a>.</p>",
       "user_segment_ids": []
     }
   ],
