@@ -39,7 +39,7 @@
     {
       "id": 7692229966746,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7692229966746.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/7692229966746-My-messaging-tickets-are-created-with-an-empty-E-mail-field",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/7692229966746-My-messaging-tickets-are-created-with-an-empty-email-field",
       "author_id": 1266644443030,
       "comments_disabled": false,
       "draft": false,
@@ -49,14 +49,14 @@
       "vote_count": 0,
       "section_id": 4405303730330,
       "created_at": "2024-07-25T15:31:19Z",
-      "updated_at": "2024-07-25T15:36:56Z",
-      "name": "My messaging tickets are created with an empty E-mail field",
-      "title": "My messaging tickets are created with an empty E-mail field",
+      "updated_at": "2024-07-26T10:31:27Z",
+      "name": "My messaging tickets are created with an empty email field",
+      "title": "My messaging tickets are created with an empty email field",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-07-25T15:36:55Z",
+      "edited_at": "2024-07-26T10:31:26Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -66,7 +66,7 @@
         "ab0_messaging",
         "role_admin"
       ],
-      "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2>\n<p>My end users create a request from the <a href=\"https://support.zendesk.com/hc/en-us/articles/7178617945498-Viewing-and-configuring-Web-Widget-settings\" target=\"_blank\" rel=\"noopener noreferrer\">Web Widget</a> in messaging and fills the <strong>E-mail</strong> field. However, from the ticket, when I open the profile of the end user, the <strong>E-mail</strong> field is empty.</p>\n<h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2>\n<p>The E-mail field can be empty on the end user profile when <strong>Use only verified emails</strong> is selected from your settings. Your end user is not authenticated with JWT and the email address is unverified, thus the email address is not registered in the user profile.</p>\n<p>Instead, you can accept all types of email addresses. From your <a href=\"https://support.zendesk.com/hc/en-us/articles/4411666638746-Authenticating-end-users-for-messaging#:~:text=they%20don%27t%20own.-,Configuring,-email%20identities\" target=\"_blank\" rel=\"noopener noreferrer\">messaging settings</a>, select <strong>Use both verified and unverified emails</strong>.</p>\n<p><br><img src=\"https://support.zendesk.com/hc/article_attachments/7692254097050\" alt=\"Step 1.png\" width=\"651\"></p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7692229964954\" alt=\"Step 2.png\" width=\"651\"></p>\n<p>This will display all email addresses in the E-mail field for your end users.</p>",
+      "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2>\n<p>My end users create a request from the <a href=\"https://support.zendesk.com/hc/en-us/articles/7178617945498-Viewing-and-configuring-Web-Widget-settings\" target=\"_blank\" rel=\"noopener noreferrer\">Web Widget</a> in messaging and fills the <strong>Email</strong> field. However, from the ticket, when I open the profile of the end user, the <strong>Email</strong> field is empty.</p>\n<h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2>\n<p>The E-mail field can be empty on the end user profile when <strong>Use only verified emails</strong> is selected from your settings. Your end user is not authenticated with JWT and the email address is unverified, thus the email address is not registered in the user profile.</p>\n<p>Instead, you can accept all types of email addresses. From your <a href=\"https://support.zendesk.com/hc/en-us/articles/4411666638746-Authenticating-end-users-for-messaging#:~:text=they%20don%27t%20own.-,Configuring,-email%20identities\" target=\"_blank\" rel=\"noopener noreferrer\">messaging settings</a>, select <strong>Use both verified and unverified emails</strong>.</p>\n<p><br><img src=\"https://support.zendesk.com/hc/article_attachments/7692254097050\" alt=\"Step 1.png\" width=\"651\"></p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7692229964954\" alt=\"Step 2.png\" width=\"651\"></p>\n<p>This will display all email addresses in the email field for your end users.</p>",
       "user_segment_ids": []
     },
     {
