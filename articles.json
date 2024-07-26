@@ -1,5 +1,5 @@
 {
-  "count": 4694,
+  "count": 4695,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 157,
@@ -37,6 +37,38 @@
         "role_admin"
       ],
       "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2>\n<p>My end users create a request from the <a href=\"https://support.zendesk.com/hc/en-us/articles/7178617945498-Viewing-and-configuring-Web-Widget-settings\" target=\"_blank\" rel=\"noopener noreferrer\">Web Widget</a> in messaging and fills the <strong>E-mail</strong> field. However, from the ticket, when I open the profile of the end user, the <strong>E-mail</strong> field is empty.</p>\n<h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2>\n<p>The E-mail field can be empty on the end user profile when <strong>Use only verified emails</strong> is selected from your settings. Your end user is not authenticated with JWT and the email address is unverified, thus the email address is not registered in the user profile.</p>\n<p>Instead, you can accept all types of email addresses. From your <a href=\"https://support.zendesk.com/hc/en-us/articles/4411666638746-Authenticating-end-users-for-messaging#:~:text=they%20don%27t%20own.-,Configuring,-email%20identities\" target=\"_blank\" rel=\"noopener noreferrer\">messaging settings</a>, select <strong>Use both verified and unverified emails</strong>.</p>\n<p><br><img src=\"https://support.zendesk.com/hc/article_attachments/7692254097050\" alt=\"Step 1.png\" width=\"651\"></p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7692229964954\" alt=\"Step 2.png\" width=\"651\"></p>\n<p>This will display all email addresses in the E-mail field for your end users.</p>",
+      "user_segment_ids": []
+    },
+    {
+      "id": 7684014812954,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7684014812954.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/7684014812954-Can-I-schedule-dashboard-exports-in-Zendesk-QA",
+      "author_id": 7018378199194,
+      "comments_disabled": false,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 7041762819738,
+      "created_at": "2024-07-25T06:52:23Z",
+      "updated_at": "2024-07-26T06:19:11Z",
+      "name": "Can I schedule dashboard exports in Zendesk QA?",
+      "title": "Can I schedule dashboard exports in Zendesk QA?",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2024-07-25T14:31:40Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801135069,
+      "content_tag_ids": [],
+      "label_names": [
+        "ks",
+        "ab0",
+        "ab0_qa"
+      ],
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>I would like to set up a schedule for automatic exports of the Zendesk QA dashboard, how can I do it? </p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>Zendesk QA does not have an option to schedule automatic dashboard reports. </p>\n<p>For more information on how to utilize the API to create your own custom reports, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/7043724806810-Export-data-from-Zendesk-QA\">Export data from Zendesk QA</a>.</p>",
       "user_segment_ids": []
     },
     {
@@ -933,41 +965,6 @@
         "rank_low_algolia"
       ],
       "body": "<div class=\"note tip\">See our <a href=\"https://support.zendesk.com/hc/en-us/articles/7496117864474\" target=\"_blank\" rel=\"noopener noreferrer\">What's New</a> for an overview of what was released in the last month.</div>\n<p>This week's release notes include:</p>\n<ul>\n<ul>\n<li><a href=\"#h_01J1QG43NF97BCXC5B728RTKKQ\">Guide and machine learning</a></li>\n<li><a href=\"#h_01J29HFQ96DK2PRV4HCC9QMBFB\">Chat and messaging</a></li>\n<li><a href=\"#h_01HX7B0ESFT89GAT9E79E1GBH6\">Products with no updates this week</a></li>\n</ul>\n</ul>\n<h2 id=\"h_01J1QG43NF97BCXC5B728RTKKQ\">Guide and machine learning</h2>\n<p><strong>New</strong></p>\n<ul>\n<li style=\"box-sizing: inherit;\">\n<span class=\"s1\">Currently, the <a href=\"https://developer.zendesk.com/api-reference/help_center/help-center-api/article_attachments/\"><span class=\"s2\">Article Attachments API</span></a> response includes the attachment file name in both the URL (after </span><span class=\"s3\">content_url</span><span class=\"s1\">) and separately in a </span><span class=\"s3\">file_name</span><span class=\"s1\"> attribute. To increase the persistence and reliability of our attachment URLs, we are modifying the response structure to remove the file name from the </span><span class=\"s3\">content_url</span><span class=\"s1\"> while still providing it in the </span><span class=\"s3\">file_name</span><span class=\"s1\"> attribute.</span><br>See <a class=\"c-link\" style=\"box-sizing: inherit; color: rgba(var(--sk_highlight_hover,11,76,140),1); overflow-wrap: break-word; text-decoration: underline;\" href=\"https://support.zendesk.com/hc/en-us/articles/7004594717594-Announcing-a-URL-structure-update-for-the-Article-Attachments-API%20:slightly_smiling_face:\" target=\"_blank\" rel=\"noopener noreferrer\" data-stringify-link=\"https://support.zendesk.com/hc/en-us/articles/7004594717594-Announcing-a-URL-structure-update-for-the-Article-Attachments-API%20:slightly_smiling_face:\" data-sk=\"tooltip_parent\" aria-describedby=\"sk-tooltip-5381\">Remove attachment filename from URLs in API response</a>.</li>\n</ul>\n<h2 id=\"h_01J29HFQ96DK2PRV4HCC9QMBFB\">Chat and messaging</h2>\n<p><strong>New</strong></p>\n<ul class=\"ul1\">\n<li class=\"li1\">\n<span class=\"s1\"></span><span class=\"s2\">For the feature, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408829095706-Allowing-customers-to-continue-their-conversation-over-email\"><span class=\"s3\">continue the conversation over email,</span></a> the email with unread messages from the agent will be sent once the conversation is inactive, instead of sending it after ten minutes.</span>\n</li>\n<li class=\"li1\">\n<span class=\"s4\"></span><span class=\"s2\">Starting July 2, <a href=\"https://support.zendesk.com/hc/en-us/articles/6009407849754-Turning-on-automatic-conversation-acceptance-for-agents\"><span class=\"s3\">automatic conversation accepts</span></a> are not included in the computation of the acceptance rate metric in the <a href=\"https://support.zendesk.com/hc/en-us/articles/4724624097818-Metrics-and-attributes-for-Zendesk-messaging\"><span class=\"s3\">Messaging dataset</span></a>. </span>\n</li>\n<li class=\"li1\">\n<span class=\"s4\"></span><span class=\"s2\">Businesses can now set expectations on wait time with their customers. This is available as part of an early access program. <a href=\"https://support.zendesk.com/hc/en-us/articles/7508919559706\"><span class=\"s3\">Learn more</span></a>.</span>\n</li>\n</ul>\n<h2 id=\"h_01HX7B0ESFT89GAT9E79E1GBH6\">Products with no updates this week</h2>\n<ul>\n<li>Support</li>\n<li>Zendesk QA</li>\n<li>App Marketplace</li>\n<li>Explore</li>\n<li>Mobile SDKs</li>\n<li>Talk</li>\n<li>Admin Center</li>\n</ul>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 7554200230170,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7554200230170.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/7554200230170-How-can-I-fix-409-conflict-errors-with-JWT-authentication",
-      "author_id": 1264158225009,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405303730330,
-      "created_at": "2024-07-05T14:54:07Z",
-      "updated_at": "2024-07-16T15:06:20Z",
-      "name": "How can I fix 409 conflict errors with JWT authentication?",
-      "title": "How can I fix 409 conflict errors with JWT authentication?",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2024-07-09T11:11:25Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801135069,
-      "content_tag_ids": [],
-      "label_names": [
-        "ks",
-        "ab0",
-        "mt",
-        "ab0_support",
-        "ab0_admin_center",
-        "role_admin"
-      ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>Why am I getting a <code>409</code> conflict error when authenticating users via Messaging JWT authentication?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p><code>409</code> errors in messaging JWT authentication indicate that the <code>AppUserID</code> assigned to a specific user <code>external_ID</code> is already being used in the system. Due to this conflict, the current user who tries to log in via JWT authentication can't be authenticated.</p>\n<p>For example, this error can occur when an existing Zendesk user with an external_ID 1234 was updated and the <code>external_ID</code> of the user changed, for example 123456. Both the user in Zendesk and the payload will have the same information, same email, and same external_ID. When trying to authenticate the user however, the email registered for that user will be linked to an <code>AppUserID</code> in Sunshine Conversation. Zendesk will only allow the authentication of the user with the previous external_ID, 1234.</p>\n<p>To resolve this behaviour and allow users with an updated <code>external_ID</code> to log in via JWT authentication, you must delete the previous <code>AppUserID</code> linked to the first <code>external_ID</code>.</p>\n<p>With Suite Professional and above plans, make an API call:</p>\n<ul>\n<li>\n<strong>Basic authentication</strong>, use an <a href=\"https://support.zendesk.com/hc/en-us/articles/4576088682266-Using-the-Conversations-API-keys#:~:text=To%20create%20and%20share%20an,Click%20Create%20API%20key.\" target=\"_blank\" rel=\"noopener noreferrer\">API key and a secret key</a>.\n<ul>\n<li>\n<strong>Username</strong>: <code>API_KEY_ID</code>\n</li>\n<li>\n<strong>Password</strong>: <code>API_KEY_SECRET</code>\n</li>\n</ul>\n</li>\n<li>\n<strong>API method</strong>: <code>DELETE</code>\n<ul>\n<li>\n<strong>URL for European accounts</strong>: <code>https://api.eu-1.smooch.io/v2/apps/{appId}/users/{userIdOrExternalId}</code>\n</li>\n<li>\n<strong>URL for the rest of the world</strong>: <code>https://api.smooch.io/v2/apps/{appId}/users/{userIdOrExternalId}</code><br>Within the above URLs, replace the <code>{appId}</code> with the ID provided when generating the API key and secret key, and replace the <code>{userIdOrExternalId}</code> with the previous <code>external_ID</code> linked to the user who returns the error.</li>\n</ul>\n</li>\n</ul>\n<div class=\"p\">\n<div class=\"note note\">\n<span class=\"notetitle\"><strong>Disclaimer</strong>:</span> This article is provided for instructional purposes only. Zendesk does not support or guarantee the code. Post any issues you have in the comments section or try searching for a solution online.</div>\n</div>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4411666638746-Authenticating-end-users-for-messaging#:~:text=Web%20Widget%20documentation-,Authenticating%20end%20users%20for%20messaging,-Follow\" target=\"_blank\" rel=\"noopener noreferrer\">Authenticating end users for messaging</a>.</p>",
       "user_segment_ids": []
     }
   ],
