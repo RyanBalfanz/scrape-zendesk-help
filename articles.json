@@ -1,11 +1,41 @@
 {
-  "count": 4695,
+  "count": 4696,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 157,
   "per_page": 30,
   "previous_page": null,
   "articles": [
+    {
+      "id": 7697409906842,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7697409906842.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/7697409906842-Zendesk-WFM-product-limits",
+      "author_id": 7404826698138,
+      "comments_disabled": false,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 6249111673754,
+      "created_at": "2024-07-26T09:39:57Z",
+      "updated_at": "2024-07-26T09:45:22Z",
+      "name": "Zendesk WFM product limits",
+      "title": "Zendesk WFM product limits",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2024-07-26T09:42:59Z",
+      "user_segment_id": null,
+      "permission_group_id": 1324079,
+      "content_tag_ids": [],
+      "label_names": [
+        "role_admin"
+      ],
+      "body": "<div class=\"body\">\n<div class=\"div docs-wmp-link\" style=\"text-align: right; font-size: 0.8em;\"><a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/5411234991258-plan\" target=\"_blank\" rel=\"noopener\">What's my plan?</a></div>\n<p class=\"p\"><img id=\"topic-1__image_h24_wyh_hzb\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/plan_available_suite_add_all.png\" alt=\"Available on all Suite plans with add-on\"><img id=\"topic-1__image_a23_vyh_hzb\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/plan_available_all_add.png\" alt=\"Available on all Support plans with add-on\"></p>\n<p class=\"p\" dir=\"ltr\">This article outlines the maximum product limits that are in place for Zendesk Workforce management (WFM).</p>\n</div>\n<div id=\"topic_vl4_khk_1bc\" class=\"topic nested1\" aria-labelledby=\"ariaid-title2\">\n<h2 id=\"ariaid-title2\" class=\"title topictitle2\">Limits for WFM</h2>\n<div class=\"body\">\n<p class=\"p\">The following table shows the maximum limits for Zendesk WFM.</p>\n<div class=\"p\">\n<div class=\"note note\">\n<span class=\"notetitle\">Note:</span> This article will continue to be updated, as we may introduce additional limits in the future based on usage.</div>\n</div>\n<div class=\"tablenoborder\">\n<table id=\"topic_vl4_khk_1bc__table_fj4_dj2_2cc\" class=\"table\" border=\"1\" summary=\"\" frame=\"border\" rules=\"all\" cellspacing=\"0\" cellpadding=\"4\">\n<colgroup>\n<col>\n<col>\n<col>\n</colgroup>\n<tbody class=\"tbody\">\n<tr class=\"row\">\n<td class=\"entry nocellnorowborder\" dir=\"ltr\" style=\"vertical-align: top;\"><strong class=\"ph b\">Page</strong></td>\n<td class=\"entry nocellnorowborder\" dir=\"ltr\" style=\"vertical-align: top;\"><strong class=\"ph b\">Feature</strong></td>\n<td class=\"entry cell-norowborder\" dir=\"ltr\" style=\"vertical-align: top;\"><strong class=\"ph b\">Limits</strong></td>\n</tr>\n<tr class=\"row\">\n<td class=\"entry nocellnorowborder\" dir=\"ltr\" style=\"vertical-align: top;\" rowspan=\"2\">Dashboard</td>\n<td class=\"entry nocellnorowborder\" dir=\"ltr\" style=\"vertical-align: top;\">Maximum number of dashboards</td>\n<td class=\"entry cell-norowborder\" dir=\"ltr\" style=\"vertical-align: top;\">10</td>\n</tr>\n<tr class=\"row\">\n<td class=\"entry nocellnorowborder\" dir=\"ltr\" style=\"vertical-align: top;\">Maximum number of widgets per dashboard</td>\n<td class=\"entry cell-norowborder\" dir=\"ltr\" style=\"vertical-align: top;\">12</td>\n</tr>\n<tr class=\"row\">\n<td class=\"entry nocellnorowborder\" dir=\"ltr\" style=\"vertical-align: top;\" rowspan=\"4\">Reports</td>\n<td class=\"entry nocellnorowborder\" dir=\"ltr\" style=\"vertical-align: top;\">File size</td>\n<td class=\"entry cell-norowborder\" dir=\"ltr\" style=\"vertical-align: top;\">&lt; 15 MB</td>\n</tr>\n<tr class=\"row\">\n<td class=\"entry nocellnorowborder\" dir=\"ltr\" style=\"vertical-align: top;\">UI response timeout</td>\n<td class=\"entry cell-norowborder\" dir=\"ltr\" style=\"vertical-align: top;\">&lt; 15 sec</td>\n</tr>\n<tr class=\"row\">\n<td class=\"entry nocellnorowborder\" style=\"vertical-align: top;\">\n<p class=\"p\" dir=\"ltr\">Daterange picker future max</p>\n<p class=\"p\" dir=\"ltr\">(the maximum number of days that can be selected in the future)</p>\n</td>\n<td class=\"entry cell-norowborder\" dir=\"ltr\" style=\"vertical-align: top;\">-1 (we currently don't allow a current day selection)</td>\n</tr>\n<tr class=\"row\">\n<td class=\"entry nocellnorowborder\" dir=\"ltr\" style=\"vertical-align: top;\">Data granularity per time frame selected</td>\n<td class=\"entry cell-norowborder\" style=\"vertical-align: top;\">\n<ul id=\"topic_vl4_khk_1bc__ul_gj4_dj2_2cc\" class=\"ul\">\n<li class=\"li\" dir=\"ltr\">\n<p class=\"p\" dir=\"ltr\">1 day or less: data is displayed in 15m or 30m intervals</p>\n</li>\n<li class=\"li\" dir=\"ltr\">\n<p class=\"p\" dir=\"ltr\">7 days or less: data is displayed daily and hourly</p>\n</li>\n<li class=\"li\" dir=\"ltr\">\n<p class=\"p\" dir=\"ltr\">31 days or less: data is displayed weekly and daily</p>\n</li>\n<li class=\"li\" dir=\"ltr\">\n<p class=\"p\" dir=\"ltr\">13 weeks or less: data is displayed weekly, monthly and quarterly</p>\n</li>\n<li class=\"li\" dir=\"ltr\">\n<p class=\"p\" dir=\"ltr\">Up to 58 weeks (or the equivalent of 13 months): data is displayed monthly and quarterly</p>\n</li>\n</ul>\n</td>\n</tr>\n<tr class=\"row\">\n<td class=\"entry nocellnorowborder\" dir=\"ltr\" style=\"vertical-align: top;\">Agent Activity</td>\n<td class=\"entry nocellnorowborder\" style=\"vertical-align: top;\">\n<p class=\"p\" dir=\"ltr\">Date picker future max</p>\n<p class=\"p\" dir=\"ltr\">(max number of days displayed in future)</p>\n</td>\n<td class=\"entry cell-norowborder\" style=\"vertical-align: top;\">\n<p class=\"p\" dir=\"ltr\">0 (we currently only allow up to the current day selection; it’s not possible to select future dates)</p>\n</td>\n</tr>\n<tr class=\"row\">\n<td class=\"entry nocellnorowborder\" dir=\"ltr\" style=\"vertical-align: top;\">Agent Attendance</td>\n<td class=\"entry nocellnorowborder\" style=\"vertical-align: top;\">\n<p class=\"p\" dir=\"ltr\">Date picker future max</p>\n<p class=\"p\" dir=\"ltr\">(max number of days displayed in future)</p>\n</td>\n<td class=\"entry cell-norowborder\" style=\"vertical-align: top;\">\n<p class=\"p\" dir=\"ltr\">0 (we currently only allow up to the current day selection; it’s not possible to select future dates)</p>\n</td>\n</tr>\n<tr class=\"row\">\n<td class=\"entry nocellnorowborder\" dir=\"ltr\" style=\"vertical-align: top;\" rowspan=\"2\">Public API</td>\n<td class=\"entry nocellnorowborder\" dir=\"ltr\" style=\"vertical-align: top;\">Rate limit (number of requests per second)</td>\n<td class=\"entry cell-norowborder\" dir=\"ltr\" style=\"vertical-align: top;\">100 requests</td>\n</tr>\n<tr class=\"row\">\n<td class=\"entry row-nocellborder\" dir=\"ltr\" style=\"vertical-align: top;\">Pagination limit per page</td>\n<td class=\"entry cellrowborder\" dir=\"ltr\" style=\"vertical-align: top;\">100 items</td>\n</tr>\n</tbody>\n</table>\n</div>\n</div>\n</div>",
+      "user_segment_ids": []
+    },
     {
       "id": 7692229966746,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7692229966746.json",
@@ -934,37 +964,6 @@
         "rank_low_algolia"
       ],
       "body": "<h3 id=\"h_01J2VJC6KTTEREC8RDEVP2NFVD\" class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>July 22, 2024 06:37 PM UTC | July 22, 2024 11:37 AM PT </strong><br>We are seeing improvements in our moderation efforts on support.zendesk.com. Content posts and outgoing notifications to customers subscribed to articles or sections are no longer delayed. Thank you for your patience as we worked to maintain the integrity of our support community.\n</p>\n<p class=\"p1\"><strong>July 15, 2024 04:11 PM UTC | July 15, 2024 09:11 AM PT </strong><br>We are aware of a recurrence of an increase in content on support.zendesk.com that does not meet our community guidelines and are actively moderating it. As a result, content posts and outgoing notifications to customers subscribed to articles or sections of the community may experience delays. We appreciate your continued patience and understanding as we work to maintain the integrity of our support community.</p>\n<p class=\"p1\"><strong>July 12, 2024 06:12 PM UTC | July 12, 2024 11:12 AM PT </strong><br>We are pleased to announce that we are seeing improvements in our moderation efforts on support.zendesk.com. Content posts and outgoing notifications to customers subscribed to articles or sections are no longer delayed. Thank you for your patience as we worked to maintain the integrity of our support community.</p>\n<p class=\"p1\"><strong>July 08, 2024 04:35 PM UTC | July 08, 2024 09:35 AM PT </strong><br>We are aware of an increase in content on support.zendesk.com that does not meet our community guidelines and are actively working to moderate it. Content posts and outgoing notifications to customers subscribed to articles or sections of the community may be delayed. Thank you for your patience as we work to maintain the integrity of our support community.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p>\n<h4 id=\"h_01J2VJC6KTJRSFQVNAPVWDXK31\"><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 7568419083802,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7568419083802.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/7568419083802-Release-notes-through-2024-07-06",
-      "author_id": 1263082309989,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405298847002,
-      "created_at": "2024-07-08T16:08:13Z",
-      "updated_at": "2024-07-19T15:20:27Z",
-      "name": "Release notes through 2024-07-06",
-      "title": "Release notes through 2024-07-06",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2024-07-08T16:16:51Z",
-      "user_segment_id": null,
-      "permission_group_id": 1324079,
-      "content_tag_ids": [],
-      "label_names": [
-        "mt",
-        "rank_low_algolia"
-      ],
-      "body": "<div class=\"note tip\">See our <a href=\"https://support.zendesk.com/hc/en-us/articles/7496117864474\" target=\"_blank\" rel=\"noopener noreferrer\">What's New</a> for an overview of what was released in the last month.</div>\n<p>This week's release notes include:</p>\n<ul>\n<ul>\n<li><a href=\"#h_01J1QG43NF97BCXC5B728RTKKQ\">Guide and machine learning</a></li>\n<li><a href=\"#h_01J29HFQ96DK2PRV4HCC9QMBFB\">Chat and messaging</a></li>\n<li><a href=\"#h_01HX7B0ESFT89GAT9E79E1GBH6\">Products with no updates this week</a></li>\n</ul>\n</ul>\n<h2 id=\"h_01J1QG43NF97BCXC5B728RTKKQ\">Guide and machine learning</h2>\n<p><strong>New</strong></p>\n<ul>\n<li style=\"box-sizing: inherit;\">\n<span class=\"s1\">Currently, the <a href=\"https://developer.zendesk.com/api-reference/help_center/help-center-api/article_attachments/\"><span class=\"s2\">Article Attachments API</span></a> response includes the attachment file name in both the URL (after </span><span class=\"s3\">content_url</span><span class=\"s1\">) and separately in a </span><span class=\"s3\">file_name</span><span class=\"s1\"> attribute. To increase the persistence and reliability of our attachment URLs, we are modifying the response structure to remove the file name from the </span><span class=\"s3\">content_url</span><span class=\"s1\"> while still providing it in the </span><span class=\"s3\">file_name</span><span class=\"s1\"> attribute.</span><br>See <a class=\"c-link\" style=\"box-sizing: inherit; color: rgba(var(--sk_highlight_hover,11,76,140),1); overflow-wrap: break-word; text-decoration: underline;\" href=\"https://support.zendesk.com/hc/en-us/articles/7004594717594-Announcing-a-URL-structure-update-for-the-Article-Attachments-API%20:slightly_smiling_face:\" target=\"_blank\" rel=\"noopener noreferrer\" data-stringify-link=\"https://support.zendesk.com/hc/en-us/articles/7004594717594-Announcing-a-URL-structure-update-for-the-Article-Attachments-API%20:slightly_smiling_face:\" data-sk=\"tooltip_parent\" aria-describedby=\"sk-tooltip-5381\">Remove attachment filename from URLs in API response</a>.</li>\n</ul>\n<h2 id=\"h_01J29HFQ96DK2PRV4HCC9QMBFB\">Chat and messaging</h2>\n<p><strong>New</strong></p>\n<ul class=\"ul1\">\n<li class=\"li1\">\n<span class=\"s1\"></span><span class=\"s2\">For the feature, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408829095706-Allowing-customers-to-continue-their-conversation-over-email\"><span class=\"s3\">continue the conversation over email,</span></a> the email with unread messages from the agent will be sent once the conversation is inactive, instead of sending it after ten minutes.</span>\n</li>\n<li class=\"li1\">\n<span class=\"s4\"></span><span class=\"s2\">Starting July 2, <a href=\"https://support.zendesk.com/hc/en-us/articles/6009407849754-Turning-on-automatic-conversation-acceptance-for-agents\"><span class=\"s3\">automatic conversation accepts</span></a> are not included in the computation of the acceptance rate metric in the <a href=\"https://support.zendesk.com/hc/en-us/articles/4724624097818-Metrics-and-attributes-for-Zendesk-messaging\"><span class=\"s3\">Messaging dataset</span></a>. </span>\n</li>\n<li class=\"li1\">\n<span class=\"s4\"></span><span class=\"s2\">Businesses can now set expectations on wait time with their customers. This is available as part of an early access program. <a href=\"https://support.zendesk.com/hc/en-us/articles/7508919559706\"><span class=\"s3\">Learn more</span></a>.</span>\n</li>\n</ul>\n<h2 id=\"h_01HX7B0ESFT89GAT9E79E1GBH6\">Products with no updates this week</h2>\n<ul>\n<li>Support</li>\n<li>Zendesk QA</li>\n<li>App Marketplace</li>\n<li>Explore</li>\n<li>Mobile SDKs</li>\n<li>Talk</li>\n<li>Admin Center</li>\n</ul>",
       "user_segment_ids": []
     }
   ],
