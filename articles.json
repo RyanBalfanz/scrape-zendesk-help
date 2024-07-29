@@ -1,5 +1,5 @@
 {
-  "count": 4700,
+  "count": 4699,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 157,
@@ -304,14 +304,14 @@
       "vote_count": 0,
       "section_id": 4405298881178,
       "created_at": "2024-07-23T04:18:12Z",
-      "updated_at": "2024-07-23T04:28:28Z",
+      "updated_at": "2024-07-29T04:18:59Z",
       "name": "How do I increase agent seats? [Video]",
       "title": "How do I increase agent seats? [Video]",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-07-23T04:18:12Z",
+      "edited_at": "2024-07-29T04:18:58Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [
@@ -326,7 +326,7 @@
         "role_owner",
         "role_billing_admin"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>How can I add agent seats to my account? How do I buy additional agent seats?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>You can purchase additional agent seats as needed, or when your last agent seat is used. Only the account owner and billing admins can buy more seats. Admins who aren't the account owner or a billing admin can <a href=\"https://support.zendesk.com/hc/en-us/articles/4408828513434\" target=\"_blank\" rel=\"noopener noreferrer\">request a subscription change</a> to add agent seats.</p>\n<p>The ability to add agent seats depends on your account type. For sales-assisted accounts that can't instantly buy agent seats, you'll see a form to request more agents. The request is sent to your sales representative and a service order will be created on your behalf.</p>\n<p>See the video below for a guide on how to add agent seats to your Zendesk account.</p>\n<p><iframe src=\"//www.youtube-nocookie.com/embed/Ta5SjXRYFnM\" width=\"560\" height=\"315\" frameborder=\"0\" allowfullscreen=\"\"></iframe></p>\n<p>For more information, see the article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408881540506\" target=\"_blank\" rel=\"noopener noreferrer\">Adding agent seats to your subscription</a>.</p>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>How can I add agent seats to my account? How do I buy additional agent seats?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>Account owners and billing admins can purchase additional agents seats as needed. Admins who aren't the account owner or a billing admin can <a href=\"https://support.zendesk.com/hc/en-us/articles/4408828513434\" target=\"_blank\" rel=\"noopener noreferrer\">request a subscription change</a> to add agent seats.</p>\n<p>The ability to add agent seats depends on your <a href=\"https://support.zendesk.com/hc/en-us/articles/4408833931674-About-Zendesk-account-types-for-billing-and-subscription-management\" target=\"_blank\" rel=\"noopener noreferrer\">account type</a>. For sales-assisted accounts that can't instantly buy agent seats, you'll see a form to request more agents. The request is sent to your sales representative and a service order will be created on your behalf.</p>\n<p>See the video below for a guide on how to add agent seats to your Zendesk account.</p>\n<p><iframe src=\"//www.youtube-nocookie.com/embed/Ta5SjXRYFnM\" width=\"560\" height=\"315\" frameborder=\"0\" allowfullscreen=\"\"></iframe></p>\n<p>For more information, see the article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408881540506\" target=\"_blank\" rel=\"noopener noreferrer\">Adding agent seats to your subscription</a>.</p>",
       "user_segment_ids": []
     },
     {
@@ -861,39 +861,6 @@
       "user_segment_ids": []
     },
     {
-      "id": 7586635642394,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7586635642394.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/7586635642394-Does-intelligent-triage-detect-intent-for-follow-up-tickets",
-      "author_id": 1900815493244,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405303741594,
-      "created_at": "2024-07-11T07:08:59Z",
-      "updated_at": "2024-07-16T15:04:01Z",
-      "name": "Does intelligent triage detect intent for follow-up tickets?",
-      "title": "Does intelligent triage detect intent for follow-up tickets?",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2024-07-11T07:10:55Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801135069,
-      "content_tag_ids": [],
-      "label_names": [
-        "ks",
-        "ab0",
-        "mt",
-        "ab0_bots_automation"
-      ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>Does intelligent triage detect intent for follow-up tickets?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p class=\"p1\">Follow-up tickets don't go through intelligent triage for intent, language, and sentiment detection. Intelligent triage predicts intent only for new tickets created from the channels where it is turned on.</p>\n<p>For more information, see the article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4550640560538-Automatically-detecting-customer-intent-language-and-sentiment\" target=\"_blank\" rel=\"noopener noreferrer\">Automatically detecting customer intent, language, and sentiment</a>. </p>",
-      "user_segment_ids": []
-    },
-    {
       "id": 7581556203930,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7581556203930.json",
       "html_url": "https://support.zendesk.com/hc/en-us/articles/7581556203930-Follow-up-messages-from-Facebook-Messenger-reopen-my-tickets",
@@ -960,6 +927,40 @@
         "role_admin"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>Agents and customers may receive automated email notifications from article updates or comments in the help center. Can I map the sender email domain of the automated notifications from Guide?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>No, Guide emails aren't customizable. They use a set template and a <code>noreply@subdomain.zendesk.com</code> address. For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408837910426-Help-center-guide-for-end-users\" target=\"_blank\" rel=\"noopener noreferrer\">Help center guide for end users</a>.</p>",
+      "user_segment_ids": []
+    },
+    {
+      "id": 7580829466778,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7580829466778.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/7580829466778-Why-can-t-my-requesters-see-bulk-updates-in-WhatsApp-tickets",
+      "author_id": 4715863955354,
+      "comments_disabled": false,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405303738522,
+      "created_at": "2024-07-10T12:40:55Z",
+      "updated_at": "2024-07-16T15:08:32Z",
+      "name": "Why can’t my requesters see bulk updates in WhatsApp tickets?",
+      "title": "Why can’t my requesters see bulk updates in WhatsApp tickets?",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2024-07-11T07:55:05Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801135069,
+      "content_tag_ids": [],
+      "label_names": [
+        "messaging",
+        "ks",
+        "ab0",
+        "mt",
+        "WhatsApp"
+      ],
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>When using <a href=\"https://support.zendesk.com/hc/en-us/articles/4408886890906-Managing-tickets-in-bulk\" target=\"_blank\" rel=\"noopener noreferrer\">bulk ticket management</a> to add public comments to WhatsApp tickets, the message does not reach the end user. Why can’t the end user receive public comments added from bulk updates in WhatsApp tickets?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p class=\"p1\">WhatsApp blocks <a href=\"https://faq.whatsapp.com/5957850900902049/?helpref=hc_fnav&amp;cms_id=5957850900902049&amp;draft=false\" target=\"_blank\" rel=\"noopener noreferrer\">unauthorized bulk messages</a> to its users. The public comment added through a bulk update is available in the Agent Workspace, but the requesters won’t receive the message<strong>.</strong> The solution is to use WhatsApp approved message templates, which bypass the 24-hour rule.</p>\n<p>For more information, see the article: <a href=\"https://support.zendesk.com/hc/en-us/articles/5869718332954-Using-WhatsApp-template-messages-to-bypass-the-24-hour-rule\" target=\"_blank\" rel=\"noopener noreferrer\">Using WhatsApp template messages to bypass the 24-hour rule</a>.</p>",
       "user_segment_ids": []
     }
   ],
