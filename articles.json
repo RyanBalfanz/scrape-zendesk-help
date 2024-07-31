@@ -1,11 +1,41 @@
 {
-  "count": 4707,
+  "count": 4708,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 157,
   "per_page": 30,
   "previous_page": null,
   "articles": [
+    {
+      "id": 7722553989402,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7722553989402.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/7722553989402-Service-Incident-July-31st-2024",
+      "author_id": 1263082139889,
+      "comments_disabled": true,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298854426,
+      "created_at": "2024-07-31T01:17:32Z",
+      "updated_at": "2024-07-31T01:17:32Z",
+      "name": "Service Incident - July 31st, 2024",
+      "title": "Service Incident - July 31st, 2024",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2024-07-31T01:17:32Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801242670,
+      "content_tag_ids": [],
+      "label_names": [
+        "service_incident"
+      ],
+      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\"><p class=\"p1\"><strong>July 31, 2024 01:17 AM UTC | July 30, 2024 06:17 PM PT </strong><br>Between July 30, 2024 18:40 UTC and July 31, 2024 00:30 UTC, Chat customers on Pod 15 may have experienced problems of being unable to change status, accept messages, or presented with error messages. From the backend work that has been done and implemented, this impact should now be fully mitigated. Thank you for your patience, and a root cause will be shared in due course.</p></div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
+      "user_segment_ids": []
+    },
     {
       "id": 7719225736730,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7719225736730.json",
@@ -921,37 +951,6 @@
         "newsfeed"
       ],
       "body": "<table style=\"border-collapse: collapse; width: 100%; height: 44px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Announced on</strong></td>\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Rollout starts</strong></td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\">July 16, 2022</td>\n<td style=\"width: 33.3333%; height: 22px;\"><span class=\"wysiwyg-color-black\">July 1, 2024</span></td>\n</tr>\n</tbody>\n</table>\n<p>Zendesk is excited to announce the migration of top bar apps in Support from Ember to React.</p>\n<p><span style=\"font-weight: 400;\">This announcement includes the following topics:</span></p>\n<ul>\n<li><a href=\"#h_01GD3S97RDYVTAFTQ8WR9878VF\" target=\"_self\"><span style=\"font-weight: 400;\">What is changing?</span></a></li>\n<li><a href=\"#h_01GD3S9GD63FPDGQSEFY88M3ND\" target=\"_self\"><span style=\"font-weight: 400;\">Why is Zendesk making this change?</span></a></li>\n<li><a href=\"#h_01GD3S9TSPXM7M4WHYKYF4E84M\" target=\"_self\"><span style=\"font-weight: 400;\">What do I need to do?</span></a></li>\n</ul>\n<h2 id=\"h_01GD3S97RDYVTAFTQ8WR9878VF\"><span style=\"font-weight: 400;\">What is changing?</span></h2>\n<p>Top bar apps in support are now built in React instead of Ember.</p>\n<p>Support apps are tools that you can install from the marketplace or build yourself to extend Zendesk's capabilities to meet unique customer experience use cases. Since a single system cannot accommodate all needs, Support apps offer a powerful way to incorporate new use cases and create connected customer experiences.</p>\n<p>For more information on Support top bar apps, see <a href=\"https://developer.zendesk.com/documentation/apps/app-design-guidelines/support/topbar-apps-support/\"><span class=\"wysiwyg-underline\" style=\"color: #1155cc;\">Top bar apps</span></a> in our developer documentation. </p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7612166489882\" alt=\"Screenshot 2024-07-15 at 12.15.50 PM.png\"></p>\n<p>Visual changes include:</p>\n<ul>\n<li>The removal of the grayscale border surrounding each top bar app, replaced with a gray fill for a simpler, more consistent style. </li>\n<li>The arrow pointing to the selected top bar app is now positioned at the end of the app container, preventing the container from extending beyond the right side of the app icon.</li>\n<li>A close button has been added to the tooltip modal that appears when a top bar app is selected. This addition enhances accessibility, making the top bar app modal usable for all users, particularly those who rely on keyboard navigation, and aligns with Zendesk’s current target of <a href=\"https://www.zendesk.com/company/agreements-and-terms/accessibility/\">2.1 AA accessibility standards</a>. The close button will be available starting July 25, 2024.</li>\n</ul>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7612763139482\" alt=\"Screenshot 2024-07-15 at 2.17.09 PM.png\"></p>\n<h2 id=\"h_01GD3S9GD63FPDGQSEFY88M3ND\"><span style=\"font-weight: 400;\">Why is Zendesk making this change?</span></h2>\n<p>As part of Zendesk's broader React Migration Initiative (RMI) to transition the Support frontend to React for enhanced product reliability, improved developer productivity, and easier automated testing, <a href=\"https://developer.zendesk.com/documentation/apps/app-design-guidelines/support/topbar-apps-support/\"><span class=\"wysiwyg-underline\" style=\"color: #1155cc;\">Top bar apps</span></a> in support have now been migrated from Ember to React. This migration aligns with our goal of achieving One Zendesk, standardizing our approach to building features - whether in terms of database storage, API methodology, or in this case, our Javascript framework.</p>\n<p>Currently, half of Zendesk uses Ember, while the other half uses React. React offers numerous advantages:</p>\n<ul>\n<li>Developers are more productive and can address issues and develop new features more quickly because we primarily hire React developers, and the language is inherently more composable.</li>\n<li>Migrating entirely to React enhances reliability and stability because:\n<ul>\n<li>Communication between Ember and React is more error-prone.</li>\n<li>It allows us to write automated tests much more efficiently.</li>\n</ul>\n</li>\n</ul>\n<h2 id=\"01J2M7Z6ZYK7SHY9P4JFE137G3\"><span style=\"font-weight: 400;\">What do I need to do?</span></h2>\n<p>There should only be a small frontend change with no functional impact on how your apps and apps support APIs work. The top bar app UI in both the app session and the system icon session has been slightly modernized and made more accessible with the latest <a href=\"https://garden.zendesk.com/\"><span class=\"wysiwyg-underline\" style=\"color: #1155cc;\">Garden</span></a> components. Functionally, everything should remain the same.</p>\n<p>If you notice any differences in how apps or the rest of the agent experience functions in your account, please let us know.</p>\n<p>There’s no action required from you. This update is automatically rolled out and available to all accounts.</p>\n<p>For more information on design recommendations and achieving a consistent look and feel, please see our <a href=\"https://developer.zendesk.com/documentation/apps/app-design-guidelines/support/topbar-apps-support/\">Top bar apps (Support) </a>guide in the Zendesk developer documentation.</p>\n<p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/1260801854190-Zendesk-Apps-framework-ZAF-\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\">Zendesk Customer Support</a>.</p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 7596519323546,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7596519323546.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/7596519323546-Announcing-updates-to-the-Explore-admin-settings-pages",
-      "author_id": 4839787801114,
-      "comments_disabled": true,
-      "draft": false,
-      "promoted": true,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405298833818,
-      "created_at": "2024-07-12T15:29:30Z",
-      "updated_at": "2024-07-24T16:10:40Z",
-      "name": "Announcing updates to the Explore admin settings pages",
-      "title": "Announcing updates to the Explore admin settings pages",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2024-07-16T15:32:29Z",
-      "user_segment_id": null,
-      "permission_group_id": 1324079,
-      "content_tag_ids": [],
-      "label_names": [
-        "mtpe",
-        "newsfeed"
-      ],
-      "body": "<table style=\"border-collapse: collapse; width: 100%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 50%;\"><strong>Announced on</strong></td>\n<td style=\"width: 50%;\"><strong>Rollout on</strong></td>\n</tr>\n<tr>\n<td style=\"width: 50%;\">July 16, 2024</td>\n<td style=\"width: 50%;\">July 16, 2024</td>\n</tr>\n</tbody>\n</table>\n<p>This announcement answers the following questions:</p>\n<ul>\n<li><a href=\"#h_01J2KMJ06Y03A4BVCXVT2AC3E6\">What’s changing and why?</a></li>\n<li><a href=\"#h_01J2KRK65DBQ40K7WQMK76C2D8\">What do I need to do?</a></li>\n</ul>\n<h2 id=\"h_01J2KMJ06Y03A4BVCXVT2AC3E6\">What’s changing and why?</h2>\n<p>In an effort to deliver a simple and clear experience for our users, we’ve rolled out an update to the user experience of the Explore admin settings pages. This new experience streamlines the management of multiple settings, including:</p>\n<ul>\n<li>\n<a href=\"https://support.zendesk.com/hc/en-us/articles/4408831563802\"><strong>Dataset access</strong></a>: The management of dataset permissions, available on the new <strong>Dataset access</strong> tab, has been simplified from the need to check several boxes to a drop-down list.<br><img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/explore_admin_settings_dataset_access_tab.png\" width=\"600\">\n</li>\n<li>\n<a href=\"https://support.zendesk.com/hc/en-us/articles/4408826905626\"><strong>Dashboard sharing outside Zendesk</strong></a><strong> and <a href=\"https://support.zendesk.com/hc/en-us/articles/4408835716378\">scheduling with end users</a></strong>: These options now live on the new <strong>Sharing</strong> tab.<br><img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/explore_admin_settings_sharing_tab.png\" width=\"600\">\n</li>\n<li>\n<strong><a href=\"https://support.zendesk.com/hc/en-us/articles/6456984924442#topic_wwl_5pv_qzb\">Default visualization colors</a></strong>: Updated color pickers live on the new <strong>Formatting</strong> tab.</li>\n<li>\n<strong><a href=\"https://support.zendesk.com/hc/en-us/articles/6456984924442#topic_rxp_vpv_qzb\">CSV export settings</a></strong>: Updated export settings live on the new <strong>Formatting</strong> tab.\n<div class=\"note note\">\n<span class=\"notetitle\">Note:</span> Prior to this change, it was possible to set any special characters as column separators in CSV exports. With this change, only certain characters are allowed. If you save any settings on the Formatting tab of the Settings page (even settings unrelated to exports), the new export settings are enforced. This may break automated export workflows you have created that rely on certain special characters.</div>\n</li>\n<li>\n<strong><a href=\"https://support.zendesk.com/hc/en-us/articles/4418307079322\">Default start of week</a></strong>: Start of week settings now live on the new <strong>Formatting</strong> tab.<br><img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/explore_admin_settings_formatting_tab.png\" width=\"600\">\n</li>\n</ul>\n<p>As part of this update, we’re removing the <strong>Dashboard email delivery</strong> section of the Explore admin settings pages. Moving forward, scheduled dashboard deliveries can be <a href=\"https://support.zendesk.com/hc/en-us/articles/6844667123610\">viewed directly from the Dashboards library</a> (in the Schedules column), and a detailed view of scheduled deliveries is available on the dashboard itself under the <strong>Schedule</strong> button.</p>\n<p>Additionally, with this update, only users with admin permissions in Explore will be able to see the Settings icon and access the admin settings pages. Editors will no longer see the Settings icon in the sidebar.</p>\n<h2 id=\"h_01J2KRK65DBQ40K7WQMK76C2D8\">What do I need to do?</h2>\n<p>There's no action required of you. This update has automatically rolled out to all Explore accounts. For more information about these updates to the Explore admin pages, see the following articles:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408831563802\">Setting Explore dataset access</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408826905626\">Sharing Explore dashboards outside Zendesk</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408835716378\">Scheduling dashboard deliveries with end users</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408843602714\">Scheduling dashboard deliveries</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/6456984924442\">Setting default chart colors and export settings</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4418307079322\">Setting the start of the week for reports and filters</a></li>\n</ul>\n<p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/1260801325209\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\">Zendesk Customer Support</a>.</p>",
       "user_segment_ids": []
     }
   ],
