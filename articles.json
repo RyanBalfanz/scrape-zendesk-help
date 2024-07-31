@@ -19,7 +19,7 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2024-07-31T01:17:32Z",
-      "updated_at": "2024-07-31T01:17:32Z",
+      "updated_at": "2024-07-31T07:01:27Z",
       "name": "Service Incident - July 31st, 2024",
       "title": "Service Incident - July 31st, 2024",
       "source_locale": "en-us",
@@ -31,7 +31,8 @@
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
       "label_names": [
-        "service_incident"
+        "service_incident",
+        "mt"
       ],
       "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\"><p class=\"p1\"><strong>July 31, 2024 01:17 AM UTC | July 30, 2024 06:17 PM PT </strong><br>Between July 30, 2024 18:40 UTC and July 31, 2024 00:30 UTC, Chat customers on Pod 15 may have experienced problems of being unable to change status, accept messages, or presented with error messages. From the backend work that has been done and implemented, this impact should now be fully mitigated. Thank you for your patience, and a root cause will be shared in due course.</p></div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
       "user_segment_ids": []
@@ -498,7 +499,7 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2024-07-23T11:48:50Z",
-      "updated_at": "2024-07-31T06:17:29Z",
+      "updated_at": "2024-07-31T07:01:33Z",
       "name": "Service Incident - July 23, 2024 - Multiple Products - Pod 29 |  Admin Center and Product Tray access issues",
       "title": "Service Incident - July 23, 2024 - Multiple Products - Pod 29 |  Admin Center and Product Tray access issues",
       "source_locale": "en-us",
