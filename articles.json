@@ -147,7 +147,7 @@
       "vote_count": 0,
       "section_id": 4405298833818,
       "created_at": "2024-07-29T16:11:17Z",
-      "updated_at": "2024-07-30T15:12:32Z",
+      "updated_at": "2024-07-31T15:00:09Z",
       "name": "Announcing filtered views (bookmarks) in the beta dashboard builder",
       "title": "Announcing filtered views (bookmarks) in the beta dashboard builder",
       "source_locale": "en-us",
@@ -159,6 +159,7 @@
       "permission_group_id": 1324079,
       "content_tag_ids": [],
       "label_names": [
+        "mtpe",
         "newsfeed"
       ],
       "body": "<table style=\"border-collapse: collapse; width: 100%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 50%;\"><strong>Announced on</strong></td>\n<td style=\"width: 50%;\"><strong>Rollout on</strong></td>\n</tr>\n<tr>\n<td style=\"width: 50%;\">July 30, 2024</td>\n<td style=\"width: 50%;\">July 30, 2024</td>\n</tr>\n</tbody>\n</table>\n<p>We’re thrilled to introduce a significant enhancement to the beta dashboard builder: the ability to save and load filtered views, also known as bookmarks.</p>\n<p>This announcement answers the following questions:</p>\n<ul>\n<li><a href=\"#h_01J3ZM537MHTFA4MJR34NJEZP1\">What’s changing?</a></li>\n<li><a href=\"#h_01J3ZM55SP4P85SPFW9YPGE4J7\">What do I need to do?</a></li>\n</ul>\n<h2 id=\"h_01J3ZM537MHTFA4MJR34NJEZP1\">What’s changing?</h2>\n<p>Bookmarks have been a key feature in the classic dashboard builder to support various use cases, including the ability to quickly navigate through a set of filters and set a default filtered view for viewers.</p>\n<p>In our beta dashboard builder, you can now save and load filtered views, enhancing the flexibility in managing your dashboards.</p>\n<p>Filtered views make it easy to switch between different filter settings on a single dashboard tab. A filtered view acts as a bookmark that returns a viewer to a saved state within a dashboard tab without having to manually set the dashboard’s filters.</p>\n<p><img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/explore_filtered_view_dropdown_example.png\" width=\"600\"></p>\n<h2 id=\"h_01J3ZM55SP4P85SPFW9YPGE4J7\">What do I need to do?</h2>\n<p>There's no action required of you. This update is automatically rolling out to all accounts. For more information about this new feature, see <a href=\"https://support.zendesk.com/hc/en-us/articles/7610243884826\">Bookmarking dashboard states with filtered views</a>.</p>\n<p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/1260801325209\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\">Zendesk Customer Support</a>.</p>",
@@ -300,11 +301,11 @@
       "draft": false,
       "promoted": true,
       "position": 0,
-      "vote_sum": 1,
-      "vote_count": 1,
+      "vote_sum": 2,
+      "vote_count": 2,
       "section_id": 4405298833818,
       "created_at": "2024-07-25T17:57:27Z",
-      "updated_at": "2024-07-30T16:31:08Z",
+      "updated_at": "2024-07-31T15:00:09Z",
       "name": "Announcing the ability to merge organizations",
       "title": "Announcing the ability to merge organizations",
       "source_locale": "en-us",
@@ -316,6 +317,7 @@
       "permission_group_id": 1324079,
       "content_tag_ids": [],
       "label_names": [
+        "mtpe",
         "newsfeed"
       ],
       "body": "<table style=\"border-collapse: collapse; width: 100%; height: 44px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Announced on</strong></td>\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Rollout starts</strong></td>\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Rollout ends</strong></td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\">July 30, 2024</td>\n<td style=\"width: 33.3333%; height: 22px;\">July 30, 2024</td>\n<td style=\"width: 33.3333%; height: 22px;\">July 31, 2024</td>\n</tr>\n</tbody>\n</table>\n<p>We’re excited to announce that the ability to merge organizations is available for all accounts. With this feature, admins can now merge two organizations into one. This helps you save time by not having to manually move data from one organization to another.</p>\n<p><span style=\"font-weight: 400;\">This announcement includes the following topics:</span></p>\n<ul>\n<li><a href=\"#h_01GD3S97RDYVTAFTQ8WR9878VF\" target=\"_self\"><span style=\"font-weight: 400;\">What is changing?</span></a></li>\n<li><a href=\"#h_01GD3S9GD63FPDGQSEFY88M3ND\" target=\"_self\"><span style=\"font-weight: 400;\">Why is Zendesk making this change?</span></a></li>\n<li><a href=\"#h_01GD3S9TSPXM7M4WHYKYF4E84M\" target=\"_self\"><span style=\"font-weight: 400;\">What do I need to do?</span></a></li>\n</ul>\n<h2 id=\"h_01GD3S97RDYVTAFTQ8WR9878VF\"><span style=\"font-weight: 400;\">What is changing?</span></h2>\n<p>Admins can merge one organization into another. When organizations are merged, all users, tickets (including archived and closed tickets), and domains are merged into one organization. Changes related to an organization merge are reflected in the audit log and in the ticket events of affected tickets. <br>A <a href=\"https://developer.zendesk.com/api-reference/ticketing/organizations/organizations/#merge-organization-with-another-organization\" target=\"_blank\" rel=\"noopener noreferrer\">public API</a> is also available for merging organizations, showing the status of an organization merge, and listing the merges for a specific organization.</p>\n<h2 id=\"h_01GD3S9GD63FPDGQSEFY88M3ND\"><span style=\"font-weight: 400;\">Why is Zendesk making this change?</span></h2>\n<p>Merging organizations is a long term customer feedback request that we’re committed to addressing. This change will save Zendesk admins hundreds of hours manually updating tickets, users, and organization records to merge orgs.</p>\n<h2 id=\"h_01GD3S9TSPXM7M4WHYKYF4E84M\"><span style=\"font-weight: 400;\">What do I need to do?</span></h2>\n<p>The ability to merge organizations is available to all Zendesk accounts. To learn more, see <a href=\"https://support.zendesk.com/hc/en-us/articles/6216929727898\" target=\"_blank\" rel=\"noopener noreferrer\">Merging organizations</a>.</p>\n<p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/1260801325369\" target=\"_blank\" rel=\"noopener noreferrer\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk Customer Support</a>.</p>",
