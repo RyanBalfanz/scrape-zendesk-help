@@ -1,5 +1,5 @@
 {
-  "count": 4722,
+  "count": 4723,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 158,
@@ -36,6 +36,36 @@
         "ab0_qa"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>I want to add and change the root causes in the category. Where can I find and change the root causes in category in Zendesk QA?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p class=\"p1\">You can find it in <strong>Users and Workspaces</strong> &gt; <strong>Scorecard</strong> &gt; <strong>Create Category</strong> &gt; <strong>Add root causes. </strong></p>\n<p class=\"undefined\"><strong><img src=\"https://support.zendesk.com/hc/article_attachments/7766935560602\" width=\"605\" height=\"350\"></strong></p>\n<p class=\"undefined\">For more information, see this article: <span class=\"s1\"><a href=\"https://support.zendesk.com/hc/en-us/articles/7043759820826-Adding-root-causes-to-a-scorecard#setting-up-root-causes\" target=\"_blank\" rel=\"noopener noreferrer\">Setting up root causes</a>. </span></p>",
+      "user_segment_ids": []
+    },
+    {
+      "id": 7760826230810,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7760826230810.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/7760826230810-Announcing-new-supported-channels-for-intelligent-triage",
+      "author_id": 6160803261338,
+      "comments_disabled": true,
+      "draft": false,
+      "promoted": true,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298833818,
+      "created_at": "2024-08-06T15:18:01Z",
+      "updated_at": "2024-08-07T15:15:51Z",
+      "name": "Announcing new supported channels for intelligent triage",
+      "title": "Announcing new supported channels for intelligent triage",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2024-08-06T15:18:30Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801242670,
+      "content_tag_ids": [],
+      "label_names": [
+        "newsfeed"
+      ],
+      "body": "<table style=\"border-collapse: collapse; width: 100%; height: 44px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"width: 50%; height: 22px;\"><strong>Announced on</strong></td>\n<td style=\"width: 50%; height: 22px;\"><strong>Rollout on</strong></td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 50%; height: 22px;\">August 7, 2024</td>\n<td style=\"width: 50%; height: 22px;\">August 7, 2024</td>\n</tr>\n</tbody>\n</table>\n<p>We’re happy to announce the expansion of <a href=\"https://support.zendesk.com/hc/en-us/articles/4964463770650\">intelligent triage</a> for new native and social messaging channels.</p>\n<p>This announcement answers the following questions:</p>\n<ul>\n<li><a href=\"#h_01J4M4684GN1E2NHTWVEVQBPM2\">What’s changing?</a></li>\n<li><a href=\"#h_01J4M46AT8SGFTEN72RNCZQRA0\">Why is Zendesk making this change?</a></li>\n<li><a href=\"#h_01J4M46DFM57FXB594PNQ9X2W3\">What do I need to do?</a></li>\n</ul>\n<h2 id=\"h_01J4M4684GN1E2NHTWVEVQBPM2\">What’s changing?</h2>\n<p>Tickets originating from native and social messaging channels (non-bot builder) can now be enriched with intent, sentiment, and language predictions. The newly added channels include:</p>\n<ul>\n<li>Email channels<br>\n<ul>\n<li>Facebook Post</li>\n<li>X Corp</li>\n</ul>\n</li>\n<li>Messaging channels<br>\n<ul>\n<li>Native Messaging</li>\n<li>Apple Business Chat</li>\n<li>Google Business Messages</li>\n<li>KakaoTalk</li>\n<li>MessageBird SMS</li>\n<li>Sunshine Conversations API</li>\n</ul>\n</li>\n</ul>\n<h2 id=\"h_01J4M46AT8SGFTEN72RNCZQRA0\">Why is Zendesk making this change?</h2>\n<p>We’re focused on expanding our AI capabilities for all customers. Our teams are continually expanding the email and messaging channels supported to provide the benefit of these features for a wide variety of use cases and workflows.</p>\n<h2 id=\"h_01J4M46DFM57FXB594PNQ9X2W3\">What do I need to do?</h2>\n<p>If you currently <a href=\"https://support.zendesk.com/hc/en-us/articles/4550640560538\">use intelligent triage</a>, the newly supported channels are automatically available on your account. For instructions on configuring channels with intelligent triage, see <a href=\"https://support.zendesk.com/hc/en-us/articles/4550640560538#topic_gpp_p4g_htb\">Turning on and configuring intelligent triage</a>.</p>\n<p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/6447052855194\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\">Zendesk Customer Support</a>.</p>\n<p> </p>",
       "user_segment_ids": []
     },
     {
@@ -922,45 +952,6 @@
         "mt"
       ],
       "body": "<h3 id=\"h_01J3J1YM9B440HAPNMKN8GN9KC\" class=\"p1\">Summary</h3>\n<div id=\"message-list\">\n<p class=\"p1\">On July 23, 2024 from 10:58 UTC to 14:57 UTC, customers on Pod 29 experienced an inability to access Zendesk products (including Admin Center) through the Product Tray. About 1% of customer requests returned 503 errors when accessing authenticated features within Guide, Talk, Chat, Explore, and Support, and customers were unable to open Zendesk’s Product Tray to switch between products. Several errors were presented in the Product Tray as well as in the main web browser page.</p>\n<h3 id=\"h_01J3J22GENDHFTN0CCQYZDAV5A\" class=\"undefined\">Timeline</h3>\n<p class=\"p1\"><strong>July 23, 2024 11:48 AM UTC | July 23, 2024 04:48 AM PT </strong><br>We’re aware of and working on mitigating issues for customers on Pod 29 who are unable to load the Admin Center and are getting “The page isn’t working” error. Other products also seem to be unavailable from the Product tray with “Can’t load Zendesk products. Try again” error. Next update in 30 minutes, or when we have more to share.</p>\n<p class=\"p1\"><strong>July 23, 2024 12:19 PM UTC | July 23, 2024 05:19 AM PT </strong><br>We continue to work towards resolving the access issues surrounding multiple products for customers on Pod 29. Your patience is greatly appreciated.</p>\n<p class=\"p1\"><strong>July 23, 2024 01:22 PM UTC | July 23, 2024 06:22 AM PT </strong><br>We are continuing to work on possible solutions for the access issues affecting multiple products for customers on Pod 29. Thank you for your patience with us during this time.</p>\n<p class=\"undefined\"><strong>July 23, 2024 01:46 PM UTC | July 23, 2024 06:46 AM PT </strong><br>We have implemented a potential fix and we’re noticing a decrease in errors, along with some improvements when loading test accounts on Pod 29. We kindly ask you to clear your cache and cookies, and then try to load Zendesk again. </p>\n<p class=\"p1\"><strong>July 23, 2024 02:06 PM UTC | July 23, 2024 07:06 AM PT </strong><br>Although we’ve been receiving some positive confirmations that things are working, we continue to monitor for possible new spikes in errors. We appreciate your patience while we wait to mark this issue as fully resolved.</p>\n<p class=\"p1\"><strong>July 23, 2024 03:19 PM UTC | July 23, 2024 08:19 AM PT </strong><br>We have identified the root cause of the issue and have rolled back the change to prevent further problems. After additional monitoring, we have confirmed no further errors and are marking this incident as fully resolved.</p>\n</div>\n<h3 id=\"h_01J43TVXAJ48GR9A74B7MY44YP\"> </h3>\n<h3 id=\"h_01J43TVXAJ4F5GCFYGDEQ3J36Y\"><strong>POST-MORTEM</strong></h3>\n<h3 id=\"h_01J43PMGJ1CW4YVM0VZX9JX408\">Root Cause Analysis</h3>\n<p>This incident was caused by the rollout of the new manage team members permission. This release allows agents in custom roles to be granted permission to view and manage other team members and their role assignments as a standalone permission (<a href=\"https://support.zendesk.com/hc/en-us/articles/7536595614746\"><span class=\"wysiwyg-underline\" style=\"color: #1155cc;\">announcement</span></a>). This rollout led to a large increase in requests to the underlying internal permissions service, resulting in capacity saturation of its database cluster. As a result of this traffic, the cluster reached its maximum network bandwidth capacity, causing a networking failure between the cluster and our service’s app servers.</p>\n<h3 id=\"h_01J43PMGJ12M1HD39XYX4Q4KG4\">Resolution</h3>\n<p>To fix this issue, our team initially increased the capacity of the permissions service’s database instance to provide short-term recovery. Once the root cause was identified, our engineers rolled back the permissions feature code change.</p>\n<h3 id=\"h_01J43PMGJ19GEPTG1XFDDV7M68\">Remediation Items</h3>\n<ol>\n<li>Reduce network traffic from permissions checks [In Progress]</li>\n<li>Additional monitors and alerts to detect traffic increases [Scheduled]</li>\n<li>Investigate right-sizing permissions service database capacity [Scheduled]</li>\n</ol>\n<h4 id=\"h_01J3J1YM9BKWACPAPJN13VPD43\"><strong>For more information</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 7659888492954,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7659888492954.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/7659888492954-How-do-I-increase-agent-seats-Video",
-      "author_id": 1900815493244,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405298881178,
-      "created_at": "2024-07-23T04:18:12Z",
-      "updated_at": "2024-07-30T15:05:14Z",
-      "name": "How do I increase agent seats? [Video]",
-      "title": "How do I increase agent seats? [Video]",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2024-07-29T04:18:58Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801135069,
-      "content_tag_ids": [
-        "01GT23ANPKETP5FEHTZ3KV8XBS",
-        "01GT23CR5WV19DHBTHA1XGSGES"
-      ],
-      "label_names": [
-        "ks",
-        "ab0",
-        "mt",
-        "video",
-        "ab0_admin_center",
-        "role_owner",
-        "role_billing_admin"
-      ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>How can I add agent seats to my account? How do I buy additional agent seats?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>Account owners and billing admins can purchase additional agents seats as needed. Admins who aren't the account owner or a billing admin can <a href=\"https://support.zendesk.com/hc/en-us/articles/4408828513434\" target=\"_blank\" rel=\"noopener noreferrer\">request a subscription change</a> to add agent seats.</p>\n<p>The ability to add agent seats depends on your <a href=\"https://support.zendesk.com/hc/en-us/articles/4408833931674-About-Zendesk-account-types-for-billing-and-subscription-management\" target=\"_blank\" rel=\"noopener noreferrer\">account type</a>. For sales-assisted accounts that can't instantly buy agent seats, you'll see a form to request more agents. The request is sent to your sales representative and a service order will be created on your behalf.</p>\n<p>See the video below for a guide on how to add agent seats to your Zendesk account.</p>\n<p><iframe src=\"//www.youtube-nocookie.com/embed/Ta5SjXRYFnM\" width=\"560\" height=\"315\" frameborder=\"0\" allowfullscreen=\"\"></iframe></p>\n<p>For more information, see the article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408881540506\" target=\"_blank\" rel=\"noopener noreferrer\">Adding agent seats to your subscription</a>.</p>",
       "user_segment_ids": []
     }
   ],
