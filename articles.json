@@ -117,7 +117,7 @@
       "vote_count": 0,
       "section_id": 4405298833818,
       "created_at": "2024-08-06T15:18:01Z",
-      "updated_at": "2024-08-07T15:15:51Z",
+      "updated_at": "2024-08-08T15:00:10Z",
       "name": "Announcing new supported channels for intelligent triage",
       "title": "Announcing new supported channels for intelligent triage",
       "source_locale": "en-us",
@@ -129,6 +129,7 @@
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
       "label_names": [
+        "mtpe",
         "newsfeed"
       ],
       "body": "<table style=\"border-collapse: collapse; width: 100%; height: 44px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"width: 50%; height: 22px;\"><strong>Announced on</strong></td>\n<td style=\"width: 50%; height: 22px;\"><strong>Rollout on</strong></td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 50%; height: 22px;\">August 7, 2024</td>\n<td style=\"width: 50%; height: 22px;\">August 7, 2024</td>\n</tr>\n</tbody>\n</table>\n<p>We’re happy to announce the expansion of <a href=\"https://support.zendesk.com/hc/en-us/articles/4964463770650\">intelligent triage</a> for new native and social messaging channels.</p>\n<p>This announcement answers the following questions:</p>\n<ul>\n<li><a href=\"#h_01J4M4684GN1E2NHTWVEVQBPM2\">What’s changing?</a></li>\n<li><a href=\"#h_01J4M46AT8SGFTEN72RNCZQRA0\">Why is Zendesk making this change?</a></li>\n<li><a href=\"#h_01J4M46DFM57FXB594PNQ9X2W3\">What do I need to do?</a></li>\n</ul>\n<h2 id=\"h_01J4M4684GN1E2NHTWVEVQBPM2\">What’s changing?</h2>\n<p>Tickets originating from native and social messaging channels (non-bot builder) can now be enriched with intent, sentiment, and language predictions. The newly added channels include:</p>\n<ul>\n<li>Email channels<br>\n<ul>\n<li>Facebook Post</li>\n<li>X Corp</li>\n</ul>\n</li>\n<li>Messaging channels<br>\n<ul>\n<li>Native Messaging</li>\n<li>Apple Business Chat</li>\n<li>Google Business Messages</li>\n<li>KakaoTalk</li>\n<li>MessageBird SMS</li>\n<li>Sunshine Conversations API</li>\n</ul>\n</li>\n</ul>\n<h2 id=\"h_01J4M46AT8SGFTEN72RNCZQRA0\">Why is Zendesk making this change?</h2>\n<p>We’re focused on expanding our AI capabilities for all customers. Our teams are continually expanding the email and messaging channels supported to provide the benefit of these features for a wide variety of use cases and workflows.</p>\n<h2 id=\"h_01J4M46DFM57FXB594PNQ9X2W3\">What do I need to do?</h2>\n<p>If you currently <a href=\"https://support.zendesk.com/hc/en-us/articles/4550640560538\">use intelligent triage</a>, the newly supported channels are automatically available on your account. For instructions on configuring channels with intelligent triage, see <a href=\"https://support.zendesk.com/hc/en-us/articles/4550640560538#topic_gpp_p4g_htb\">Turning on and configuring intelligent triage</a>.</p>\n<p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/6447052855194\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\">Zendesk Customer Support</a>.</p>\n<p> </p>",
