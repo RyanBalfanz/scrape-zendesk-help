@@ -19,14 +19,14 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2024-08-09T16:13:38Z",
-      "updated_at": "2024-08-09T16:46:04Z",
+      "updated_at": "2024-08-09T17:01:01Z",
       "name": "Service Incident - August 9th, 2024",
       "title": "Service Incident - August 9th, 2024",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-08-09T16:32:13Z",
+      "edited_at": "2024-08-09T16:51:42Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
@@ -34,7 +34,7 @@
         "service_incident",
         "mt"
       ],
-      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>August 09, 2024 04:32 PM UTC | August 09, 2024 09:32 AM PT </strong><br>From 15:46 UTC to 15:57 UTC, Support customers on Pod 17 experienced issues loading tickets. Performance has stabilized and we will continue to monitor performance. Next update in an hour or when we have new information.\n</p>\n<p class=\"p1\"><strong>August 09, 2024 04:13 PM UTC | August 09, 2024 09:13 AM PT </strong><br>We're investigating reports of users being unable to view Support tickets on Pod 17 and are already seeing recovery. We will provide additional updates in 30 mins or sooner as we confirm full stability.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
+      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>August 09, 2024 04:51 PM UTC | August 09, 2024 09:51 AM PT </strong><br>The Support performance issues that occurred on Pod 17 from 15:46 UTC to 15:57 UTC are now fully resolved. We apologize for any inconvenience caused and appreciate your patience.</p>\n<p class=\"p1\"><strong>August 09, 2024 04:32 PM UTC | August 09, 2024 09:32 AM PT </strong><br>From 15:46 UTC to 15:57 UTC, Support customers on Pod 17 experienced issues loading tickets. Performance has stabilized and we will continue to monitor performance. Next update in an hour or when we have new information.\n</p>\n<p class=\"p1\"><strong>August 09, 2024 04:13 PM UTC | August 09, 2024 09:13 AM PT </strong><br>We're investigating reports of users being unable to view Support tickets on Pod 17 and are already seeing recovery. We will provide additional updates in 30 mins or sooner as we confirm full stability.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
       "user_segment_ids": []
     },
     {
