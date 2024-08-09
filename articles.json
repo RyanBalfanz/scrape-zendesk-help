@@ -1,5 +1,5 @@
 {
-  "count": 4726,
+  "count": 4727,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 158,
@@ -70,6 +70,40 @@
         "role_admin"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>What steps can I follow to translate text from the source code of my help center?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>You can use dynamic content to translate text from your help center. The steps to follow are below:</p>\n<ol>\n<li>Enable your <a href=\"https://support.zendesk.com/hc/en-us/articles/4408888770714-Adding-multiple-languages-to-Zendesk-Support#topic_aom_yxz_ye\" target=\"_blank\" rel=\"noopener noreferrer\">locale</a><br><img src=\"https://support.zendesk.com/hc/article_attachments/7775786342554\" alt=\"Locale.png\" width=\"463\"><br>\n<div class=\"p\">\n<div class=\"note note\">\n<span class=\"notetitle\">Note:</span> The language variant must match your help center variant. Otherwise, the text won't be dynamically translated. For example, if your help center is in <strong>English (US)</strong>, then you must enable the <strong>English (United States)</strong> locale. <strong>English (United Kingdom)</strong> won't match.</div>\n</div>\n</li>\n<li>Create your <a href=\"https://support.zendesk.com/hc/en-us/articles/4408882999066-Providing-multiple-language-support-with-dynamic-content#topic_qcy_eci_je\" target=\"_blank\" rel=\"noopener noreferrer\">dynamic content</a> &gt; Generate the language variants for each language you will display</li>\n<li>Copy the placeholder from your dynamic content, which starts with <code>{{dc.</code><br>\n<h2 id=\"01J4S6Q36DD80C6D3QYE24GA0E\"><img src=\"https://support.zendesk.com/hc/article_attachments/7775838464154\" alt=\"Dynamic content.png\" width=\"463\"></h2>\n</li>\n<li>Open the <a href=\"https://support.zendesk.com/hc/en-us/articles/4408839332250-Customizing-your-help-center-theme\" target=\"_blank\" rel=\"noopener noreferrer\">code of your help center</a>\n</li>\n<li>Replace the text you want to translate with the dynamic content placeholder from the step above</li>\n<li>Reformat the placeholder, for example, instead of: <code>{{dc.example_dynamic_content}}</code>, use this format: <code>{{dc 'example_dynamic_content'}}</code>\n</li>\n<li>\n<strong>Publish</strong> your changes<br><img src=\"https://support.zendesk.com/hc/article_attachments/7775838464410\" alt=\"Help center code.png\" width=\"463\">\n</li>\n</ol>",
+      "user_segment_ids": []
+    },
+    {
+      "id": 7773692416666,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7773692416666.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/7773692416666-How-can-the-Ticket-handling-time-be-higher-than-the-Full-Resolution-time",
+      "author_id": 4967137259930,
+      "comments_disabled": false,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298879258,
+      "created_at": "2024-08-08T08:40:50Z",
+      "updated_at": "2024-08-09T15:38:01Z",
+      "name": "How can the Ticket handling time be higher than the Full Resolution time?",
+      "title": "How can the Ticket handling time be higher than the Full Resolution time?",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2024-08-09T15:38:00Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801135069,
+      "content_tag_ids": [],
+      "label_names": [
+        "ab0",
+        "ab0_support",
+        "ab0_explore",
+        "role_admin",
+        "kc"
+      ],
+      "body": "<h2 id=\"h_01HV1QM45P2YP0AT93VZZ99CZN\">Question</h2>\n<p>Why is my <strong>Ticket handling time</strong> value higher than the <strong>Full resolution time</strong> of a ticket?</p>\n<h2 id=\"h_01HV1QMAN8RVMJ9M99WDR6EBJR\">Answer</h2>\n<p>With the <a href=\"https://www.zendesk.com/marketplace/apps/support/35111/time-tracking/\" target=\"_blank\" rel=\"noopener noreferrer\">Time Tracking app</a>, time begins to be tracked from the moment an agent manually opens the ticket, not when the ticket was created.</p>\n<p>When there are no previous updates, and agent solves the ticket on their first interaction, this can lead to confusion.</p>\n<p>Since the counter begins when a ticket is opened, this scenario could apply:</p>\n<ul>\n<li>A ticket is created at 10:32</li>\n<li>Ticket is solved at 10:35 on the first interaction</li>\n<li>Ticket <strong>Full resolution time</strong> would be 3 minutes, or 180 seconds</li>\n<li>When you inspect the ticket event, you see this ticket handling time: <strong>Total time spent (sec) </strong><span><strong>127</strong></span>\n</li>\n</ul>\n<p><span>That last number means the agent had the ticket opened for around 2 minutes before solving the ticket.</span></p>\n<p><span>For more information, see these articles:</span></p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408822487450-Using-the-Time-Tracking-app\" target=\"_blank\" rel=\"noopener noreferrer\">Using the Time Tracking app</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408825230490-Time-Tracking-app-Metrics-you-need-to-be-measuring\" target=\"_blank\" rel=\"noopener noreferrer\">Time Tracking app - Metrics you need to be measuring</a></li>\n</ul>",
       "user_segment_ids": []
     },
     {
@@ -922,39 +956,6 @@
         "role_admin"
       ],
       "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2>\n<p>My end user creates a request from the <a href=\"https://support.zendesk.com/hc/en-us/articles/7178617945498-Viewing-and-configuring-Web-Widget-settings\" target=\"_blank\" rel=\"noopener noreferrer\">Web Widget</a> in messaging and fills in the <strong>Email</strong> field. However, when I open the profile of the end user from the ticket, the <strong>Email</strong> field is empty.</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7698890822682\" alt=\"Profile.png\"></p>\n<h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2>\n<p>The E-mail field can be empty on the end user profile when <strong>Use only verified emails</strong> is selected from your settings. Your end user is not authenticated with JSON Web Token (JWT), and the email address is unverified. For that reason, the email address is not registered in the user profile.</p>\n<p>To solve this, you can accept all types of email addresses. From your <a href=\"https://support.zendesk.com/hc/en-us/articles/4411666638746-Authenticating-end-users-for-messaging#:~:text=they%20don%27t%20own.-,Configuring,-email%20identities\" target=\"_blank\" rel=\"noopener noreferrer\">messaging settings</a>, select <strong>Use both verified and unverified emails</strong>.</p>\n<p><br><img src=\"https://support.zendesk.com/hc/article_attachments/7692254097050\" alt=\"Step 1.png\" width=\"651\"></p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7692229964954\" alt=\"Step 2.png\" width=\"651\"></p>\n<p>This will display all email addresses in the email field for your end users.</p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 7687635782042,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7687635782042.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/7687635782042-Can-I-update-the-coach-in-a-coaching-session",
-      "author_id": 7018378199194,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 7041762819738,
-      "created_at": "2024-07-25T09:27:09Z",
-      "updated_at": "2024-08-06T15:10:55Z",
-      "name": "Can I update the coach in a coaching session?",
-      "title": "Can I update the coach in a coaching session?",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2024-07-30T15:33:11Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801135069,
-      "content_tag_ids": [],
-      "label_names": [
-        "ks",
-        "ab0",
-        "mt",
-        "ab0_qa"
-      ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>I need to change the coach in the coaching session in Zendesk QA. Is there a way to change the coach in the coaching session?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>You can’t change a coach or coachee after the session has been created. Instead, you can share the session with other users or create a new session with a different coach or coachee.</p>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/7043747156506-Coaching-Sessions\">Coaching sessions</a>.</p>",
       "user_segment_ids": []
     }
   ],
