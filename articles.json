@@ -308,14 +308,14 @@
       "vote_count": 0,
       "section_id": 4405298879258,
       "created_at": "2024-08-08T08:40:50Z",
-      "updated_at": "2024-08-13T15:06:26Z",
+      "updated_at": "2024-08-14T16:29:24Z",
       "name": "How can the Ticket handling time be higher than the Full Resolution time?",
       "title": "How can the Ticket handling time be higher than the Full Resolution time?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-08-12T14:25:55Z",
+      "edited_at": "2024-08-14T16:29:23Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -327,7 +327,7 @@
         "role_admin",
         "kc"
       ],
-      "body": "<h2 id=\"h_01HV1QM45P2YP0AT93VZZ99CZN\">Question</h2>\n<p>Why is my <strong>Ticket handling time</strong> value higher than the <strong>Full resolution time</strong> of a ticket?</p>\n<h2 id=\"h_01HV1QMAN8RVMJ9M99WDR6EBJR\">Answer</h2>\n<p>With the <a href=\"https://www.zendesk.com/marketplace/apps/support/35111/time-tracking/\" target=\"_blank\" rel=\"noopener noreferrer\">Time Tracking app</a>, time is tracked from the moment an agent manually opens the ticket, not when the ticket was created.</p>\n<p>When there are no previous updates, and an agent solves the ticket on their first interaction, this can lead to confusion.</p>\n<p>Since the counter begins when a ticket is opened, this scenario could apply:</p>\n<ul>\n<li>Ticket is created at 10:32</li>\n<li>Ticket is solved at 10:35 on the first interaction</li>\n<li>Ticket <strong>Full resolution time</strong> is 3 minutes, or 180 seconds</li>\n<li>When you inspect the ticket event, you see this ticket handling time: <strong>Total time spent (sec) </strong><span><strong>127</strong></span>\n</li>\n</ul>\n<p><span>The last number (Total time spent) means the agent had the ticket opened for 127 seconds (a little over two minutes) before solving the ticket.</span></p>\n<p><span>For more information, see these articles:</span></p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408822487450-Using-the-Time-Tracking-app\" target=\"_blank\" rel=\"noopener noreferrer\">Using the Time Tracking app</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408825230490-Time-Tracking-app-Metrics-you-need-to-be-measuring\" target=\"_blank\" rel=\"noopener noreferrer\">Time Tracking app - Metrics you need to be measuring</a></li>\n</ul>",
+      "body": "<h2 id=\"h_01HV1QM45P2YP0AT93VZZ99CZN\">Question</h2>\n<p>Why is my <strong>Ticket handling time</strong> value higher than the <strong>Full resolution time</strong> of a ticket?</p>\n<h2 id=\"h_01HV1QMAN8RVMJ9M99WDR6EBJR\">Answer</h2>\n<p>With the <a href=\"https://www.zendesk.com/marketplace/apps/support/35111/time-tracking/\" target=\"_blank\" rel=\"noopener noreferrer\">Time Tracking app</a>, time is tracked from the moment an agent manually opens the ticket, not when the ticket was created.</p>\n<p>When there are no previous updates, and an agent solves the ticket on their first interaction, this can lead to confusion.</p>\n<p>Since the counter begins when a ticket is opened, this scenario could apply:</p>\n<ul>\n<li>Ticket is created at 10:32</li>\n<li>Ticket is solved at 10:35 on the first interaction</li>\n<li>Ticket <strong>Full resolution time</strong> is 3 minutes, or 180 seconds</li>\n<li>When you inspect the ticket event, you see this ticket handling time: <strong>Total time spent (sec) 127</strong>\n</li>\n</ul>\n<p>The last number (Total time spent) means the agent had the ticket opened for 127 seconds (a little over two minutes) before solving the ticket.</p>\n<p>For more information, see these articles:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408822487450-Using-the-Time-Tracking-app\" target=\"_blank\" rel=\"noopener noreferrer\">Using the Time Tracking app</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408825230490-Time-Tracking-app-Metrics-you-need-to-be-measuring\" target=\"_blank\" rel=\"noopener noreferrer\">Time Tracking app - Metrics you need to be measuring</a></li>\n</ul>",
       "user_segment_ids": []
     },
     {
