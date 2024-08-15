@@ -51,7 +51,7 @@
       "vote_count": 0,
       "section_id": 4405298833818,
       "created_at": "2024-08-14T17:09:39Z",
-      "updated_at": "2024-08-14T17:42:47Z",
+      "updated_at": "2024-08-15T15:00:09Z",
       "name": "Community Event: Achieving CS Excellence with Workforce Management and Quality Assurance",
       "title": "Community Event: Achieving CS Excellence with Workforce Management and Quality Assurance",
       "source_locale": "en-us",
@@ -62,7 +62,9 @@
       "user_segment_id": null,
       "permission_group_id": 1324079,
       "content_tag_ids": [],
-      "label_names": [],
+      "label_names": [
+        "mtpe"
+      ],
       "body": "<p style=\"box-sizing: border-box; margin: 0px 0px 10.5px; font-family: proxima-nova-1, proxima-nova-2, ' Open Sans' , Helvetica, sans-serif; color: #555555; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\">Join us on August 29 for our next community event focused on achieving customer service excellence through the combination of workforce management (WFM) and quality assurance (QA). Learn best practices from our panel of experts and discover the latest innovations that can elevate your support operations.</p>\n<p style=\"box-sizing: border-box; margin: 0px 0px 10.5px; font-family: proxima-nova-1, proxima-nova-2, ' Open Sans' , Helvetica, sans-serif; color: #555555; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\">Whether you’re new to WFM and QA or seeking in-depth answers to your specific queries, this event will have you covered. Explore how to enhance your workforce management processes, gain valuable insights into improving your workflows, and leverage advanced quality assurance tools. Even if you are completely new to WFM and QA, this event is perfect for you. We’ll walk you through how WFM and QA work together to provide continuous improvement for any support team and showcase our QA and WFM overview demos.</p>\n<p style=\"box-sizing: border-box; margin: 0px 0px 10.5px; font-family: proxima-nova-1, proxima-nova-2, ' Open Sans' , Helvetica, sans-serif; color: #555555; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\"><a href=\"https://usergroups.zendesk.com/e/m6tyxj/\" target=\"_blank\" rel=\"noopener noreferrer\">Sign up now to secure your spot</a> and get your questions answered during our live Q&amp;A session.</p>\n<p> </p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7813697657498\" alt=\"Achieving CS Excellence with Workforce Management and Quality Assurance Main Graphic.png\"></p>",
       "user_segment_ids": []
     },
