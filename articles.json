@@ -19,14 +19,14 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2024-08-15T13:06:32Z",
-      "updated_at": "2024-08-15T13:18:56Z",
+      "updated_at": "2024-08-15T13:46:46Z",
       "name": "Service Incident - August 15th, 2024",
       "title": "Service Incident - August 15th, 2024",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-08-15T13:18:56Z",
+      "edited_at": "2024-08-15T13:46:46Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
@@ -35,7 +35,7 @@
         "mt",
         "rank_low_algolia"
       ],
-      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>August 15, 2024 01:18 PM UTC | August 15, 2024 06:18 AM PT </strong><br>We are rolling back a recent deploy related to Chat triggers. Please note that a possible side effect of this incident is that incorrect Chat tags can be added to chats, and this can cause misrouting. Next update in 30 min.</p>\n<p class=\"p1\"><strong>August 15, 2024 01:06 PM UTC | August 15, 2024 06:06 AM PT </strong><br>We’re currently investigating reports of Chat triggers incorrectly firing, across all Pods. More details soon.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
+      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>August 15, 2024 01:46 PM UTC | August 15, 2024 06:46 AM PT </strong><br>Thank you for your patience while we worked through this incident. Chat triggers are now working as expected, and we no longer see errors related to this issue. We are marking this as fully resolved.</p>\n<p class=\"p1\"><strong>August 15, 2024 01:29 PM UTC | August 15, 2024 06:29 AM PT </strong><br>The rollback for the issue related to Chat triggers firing incorrectly has finished updating across all pods. We appreciate your patience as we monitor the situation until full resolution.</p>\n<p class=\"p1\"><strong>August 15, 2024 01:18 PM UTC | August 15, 2024 06:18 AM PT </strong><br>We are rolling back a recent deploy related to Chat triggers. Please note that a possible side effect of this incident is that incorrect Chat tags can be added to chats, and this can cause misrouting. Next update in 30 min.</p>\n<p class=\"p1\"><strong>August 15, 2024 01:06 PM UTC | August 15, 2024 06:06 AM PT </strong><br>We’re currently investigating reports of Chat triggers incorrectly firing, across all Pods. More details soon.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
       "user_segment_ids": []
     },
     {
