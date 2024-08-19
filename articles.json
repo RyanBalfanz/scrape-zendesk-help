@@ -1,5 +1,5 @@
 {
-  "count": 4743,
+  "count": 4744,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 159,
@@ -226,6 +226,36 @@
         "role_admin"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>Why are tickets automatically routed to my agent? <a href=\"https://support.zendesk.com/hc/en-us/articles/4409149119514-About-omnichannel-routing\" target=\"_blank\" rel=\"noopener noreferrer\">Omnichannel routing</a> is turned off and <a href=\"https://support.zendesk.com/hc/en-us/articles/4409155972378-Managing-your-installed-apps\" target=\"_blank\" rel=\"noopener noreferrer\">no app</a> is assigning tickets.</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7811281569050\" alt=\"Assignment.png\" width=\"141\"></p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>Without omnichannel routing or an app, Zendesk can automatically assign tickets to an agent due to a <a href=\"https://support.zendesk.com/hc/en-us/articles/4408894213018-About-system-ticket-rules\" target=\"_blank\" rel=\"noopener noreferrer\">system ticket rule</a>. The rule assigns tickets to an agent when:</p>\n<ul>\n<li>Only one agent is in the assigned group</li>\n<li>All other agents in the assigned group are either light agents or contributors</li>\n</ul>\n<p>To avoid this, add another agent to your group or don't assign that group to your tickets.</p>\n<div class=\"p\">\n<div class=\"note note\">\n<span class=\"notetitle\">Note:</span> When the system assigns a <strong>New</strong> ticket to an agent, the ticket status changes to <strong>Open</strong>.</div>\n</div>",
+      "user_segment_ids": []
+    },
+    {
+      "id": 7807544385306,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7807544385306.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/7807544385306-Announcing-solved-ticket-reassignment-options",
+      "author_id": 1263082194429,
+      "comments_disabled": true,
+      "draft": false,
+      "promoted": true,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298833818,
+      "created_at": "2024-08-13T22:59:14Z",
+      "updated_at": "2024-08-19T17:39:49Z",
+      "name": "Announcing solved ticket reassignment options",
+      "title": "Announcing solved ticket reassignment options",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2024-08-19T17:37:48Z",
+      "user_segment_id": null,
+      "permission_group_id": 1324079,
+      "content_tag_ids": [],
+      "label_names": [
+        "newsfeed"
+      ],
+      "body": "<table style=\"border-collapse: collapse; width: 100%; height: 44px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Announced on</strong></td>\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Rollout starts</strong></td>\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Rollout ends</strong></td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\"><span style=\"color: #464646;\">Aug 19, 2024</span></td>\n<td style=\"width: 33.3333%; height: 22px;\"><span style=\"color: #464646;\">Aug 19, 2024</span></td>\n<td style=\"width: 33.3333%; height: 22px;\"><span style=\"color: #464646;\">Aug 19, 2024</span></td>\n</tr>\n</tbody>\n</table>\n<p>Zendesk is introducing new reassignment options for solved tickets when an agent is deleted, downgraded, or removed from a group. Admins can now turn on and configure solved ticket reassignment behavior at both the account and group level.</p>\n<p><span style=\"font-weight: 400;\">This announcement includes the following topics:</span></p>\n<ul>\n<li><a href=\"#h_01GD3S97RDYVTAFTQ8WR9878VF\" target=\"_self\"><span style=\"font-weight: 400;\">What is changing?</span></a></li>\n<li><a href=\"#h_01GD3S9GD63FPDGQSEFY88M3ND\" target=\"_self\"><span style=\"font-weight: 400;\">Why is Zendesk making this change?</span></a></li>\n<li><a href=\"#h_01GD3S9TSPXM7M4WHYKYF4E84M\" target=\"_self\"><span style=\"font-weight: 400;\">What do I need to do?</span></a></li>\n</ul>\n<h2 id=\"h_01J5NV57PJX64882F3HAC600PX\"><span style=\"font-weight: 400;\">What is changing?</span></h2>\n<p>Previously, when an agent was deleted, downgraded, or removed from a group, their solved tickets were automatically reassigned to the admin removing them or the longest active team member in the group.</p>\n<p>Now, admins have the option to turn on solved ticket reassignment in Admin Center. Solved ticket reassignment allows you to configure different behavior for how a departing agent’s solved tickets are reassigned.</p>\n<p>Admins can configure solved ticket reassignment options at both the account and group level so that you have the flexibility to configure the behavior that best suits your needs.<br><img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/solved_reassign_account_level2.png\" width=\"500\"></p>\n<div class=\"p\">\n<div class=\"note\">\n<span class=\"notetitle\">Note:</span> If you don’t turn on solved ticket reassignment, then your current solved ticket reassignment behavior doesn’t change. See <a href=\"https://support.zendesk.com/hc/en-us/articles/4408888690842#topic_m51_vq5_w2b\"><span style=\"color: #1155cc;\">Reassigning an agent’s tickets</span></a> for more information.</div>\n</div>\n<h2 id=\"h_01GD3S9GD63FPDGQSEFY88M3ND\"><span style=\"font-weight: 400;\">Why is Zendesk making this change?</span></h2>\n<p>We’re making this change so that you don’t have to manually reassign departing agents’ solved tickets. Additionally, these options give you flexibility to change how solved tickets are automatically reassigned.</p>\n<h2 id=\"h_01GD3S9TSPXM7M4WHYKYF4E84M\"><span style=\"font-weight: 400;\">What do I need to do?</span></h2>\n<p>You don’t need to do anything. Solved ticket reassignment is automatically available to turn on in Admin Center. See Setting reassignment options for groups' solved tickets for more information.</p>\n<p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/1260801325369\" target=\"_blank\" rel=\"noopener noreferrer\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk Customer Support</a>.</p>",
       "user_segment_ids": []
     },
     {
@@ -929,37 +959,6 @@
         "mt"
       ],
       "body": "<h3 id=\"h_01J4796QF3WHSVRY8G11ATKH0Q\" class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<span class=\"wysiwyg-color-black\">On July 31, 2024 from 18:30 UTC to 21:05 UTC, we faced an unforeseen issue that impacted our billing admin page. This problem stemmed from an outage experienced by one of our third-party service providers, Zuora. As a result, customers were unable to preview pricing information, purchase items, or update their subscriptions.</span>\n<h3 id=\"h_01J53QM4ET7BQ59ANH14FZMMVH\" class=\"undefined\">\n<br>Timeline</h3>\n<p class=\"p1\"><strong>July 31, 2024 08:57 PM UTC | July 31, 2024 01:57 PM PT </strong><br>Our engineers have taken Billing out of maintenance mode and restored Billing access now that our partner's service incident has been resolved. You can now update your account subscriptions again. Please clear your browser cache and cookies for the changes to take effect.</p>\n<p class=\"p1\"><strong>July 31, 2024 08:05 PM UTC | July 31, 2024 01:05 PM PT </strong><br>Our billing partner is currently experiencing a service degradation and our engineers have placed Billing in maintenance mode until the degradation is resolved. Subscription changes will be disabled until the service incident is resolved. We will provide another update in one hour or when we have new information to share.</p>\n<p class=\"p1\"><strong>July 31, 2024 07:58 PM UTC | July 31, 2024 12:58 PM PT </strong><br>We are investigating access issues with the Billing admin page. We will provide an update in 30 minutes or when we have more information to share.</p>\n<h3 class=\"undefined\"> </h3>\n<h3 id=\"h_01J53QWS4TZHQSWXXM4XZA9X4W\" class=\"undefined\">Post-Mortem</h3>\n</div>\n<p>During the incident, once the issue was identified, our engineers placed the Billing admin in maintenance mode then restored access once the Zuora service incident resolved.</p>\n<h3 id=\"h_01J53QWWBWM584S455BEH99A5F\">Root Cause Analysis</h3>\n<p>The root cause was a caching issue in Zuora's system, leading to their service outage. As our billing system depends on Zuora for pricing and subscription data, this caused disruptions for our customers when trying to make purchases or view pricing information.</p>\n<h3 id=\"h_01J53QWZVRVQNSYX82H9ANMSWQ\">Resolution</h3>\n<p>Our team liaised with Zuora to ensure a quick resolution. The billing system was temporarily put into maintenance mode to prevent further issues and was closely monitored until Zuora resolved their outage.</p>\n<h3 id=\"h_01J53QX47TE1EEG4GY5A3Z69JY\">Remediation Items</h3>\n<p>To prevent similar issues in the future, we have identified several actions:</p>\n<ol>\n<li>\n<strong style=\"box-sizing: border-box; --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-scroll-snap-strictness: proximity; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgba(59, 130, 246, .5); --tw-ring-offset-shadow: 0 0 rgba(0,0,0,0); --tw-ring-shadow: 0 0 rgba(0,0,0,0); --tw-shadow: 0 0 rgba(0,0,0,0); --tw-shadow-colored: 0 0 rgba(0,0,0,0); font-weight: 600; color: var(--tw-prose-bold); margin-top: 1.25em; margin-bottom: 1.25em; border: 0px solid #e3e3e3;\">Improvements to Maintenance Mode:</strong><span> </span>Ensure that recovery from maintenance mode is seamless for customers, possibly by implementing automatic cache clearing.</li>\n<li>\n<strong style=\"box-sizing: border-box; --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-scroll-snap-strictness: proximity; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgba(59, 130, 246, .5); --tw-ring-offset-shadow: 0 0 rgba(0,0,0,0); --tw-ring-shadow: 0 0 rgba(0,0,0,0); --tw-shadow: 0 0 rgba(0,0,0,0); --tw-shadow-colored: 0 0 rgba(0,0,0,0); font-weight: 600; color: var(--tw-prose-bold); margin-top: 1.25em; margin-bottom: 1.25em; border: 0px solid #e3e3e3;\">Endpoint Review:</strong><span> </span>Assess which endpoints should remain unaffected by billing maintenance mode and document them accordingly.</li>\n<li>\n<strong style=\"box-sizing: border-box; --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-scroll-snap-strictness: proximity; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgba(59, 130, 246, .5); --tw-ring-offset-shadow: 0 0 rgba(0,0,0,0); --tw-ring-shadow: 0 0 rgba(0,0,0,0); --tw-shadow: 0 0 rgba(0,0,0,0); --tw-shadow-colored: 0 0 rgba(0,0,0,0); font-weight: 600; color: var(--tw-prose-bold); margin-top: 1.25em; margin-bottom: 1.25em; border: 0px solid #e3e3e3;\">Automatic Maintenance Mode:</strong><span> </span>Consider implementing additional circuit breakers or automatic notifications within the billing system to enter maintenance mode if Zuora's service degrades or goes down.</li>\n</ol>\n<h4 id=\"h_01J4796QF4VM039K6WEPD64YNP\"><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 7722553989402,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7722553989402.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/7722553989402-Service-Incident-July-31st-2024-Chat-Pod-15-Errors-and-performance-issues",
-      "author_id": 1263082139889,
-      "comments_disabled": true,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405298854426,
-      "created_at": "2024-07-31T01:17:32Z",
-      "updated_at": "2024-08-01T16:16:06Z",
-      "name": "Service Incident - July 31st, 2024 - Chat | Pod 15 - Errors and performance issues",
-      "title": "Service Incident - July 31st, 2024 - Chat | Pod 15 - Errors and performance issues",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2024-08-01T15:44:44Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801242670,
-      "content_tag_ids": [],
-      "label_names": [
-        "service_incident",
-        "mt"
-      ],
-      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\"><p class=\"p1\"><strong>July 31, 2024 01:17 AM UTC | July 30, 2024 06:17 PM PT </strong><br>Between July 30, 2024 18:40 UTC and July 31, 2024 00:30 UTC, Chat customers on Pod 15 may have experienced problems of being unable to change status, accept messages, or presented with error messages. From the backend work that has been done and implemented, this impact should now be fully mitigated. Thank you for your patience, and a root cause will be shared in due course.</p></div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
       "user_segment_ids": []
     }
   ],
