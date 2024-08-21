@@ -115,7 +115,7 @@
       "vote_count": 0,
       "section_id": 7041762819738,
       "created_at": "2024-08-20T09:43:48Z",
-      "updated_at": "2024-08-20T13:07:15Z",
+      "updated_at": "2024-08-21T09:23:22Z",
       "name": "Can the users be anonymous in Zendesk QA?",
       "title": "Can the users be anonymous in Zendesk QA?",
       "source_locale": "en-us",
@@ -438,7 +438,7 @@
       "vote_count": 0,
       "section_id": 7041762819738,
       "created_at": "2024-08-13T16:26:37Z",
-      "updated_at": "2024-08-20T15:20:52Z",
+      "updated_at": "2024-08-21T09:12:22Z",
       "name": "How can I exclude Zendesk bots from review assignments in Zendesk QA?",
       "title": "How can I exclude Zendesk bots from review assignments in Zendesk QA?",
       "source_locale": "en-us",
@@ -455,7 +455,7 @@
         "mt",
         "ab0_qa"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>How can I exclude Zendesk bots from review assignments in Zendesk QA?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>It is only possible to exclude existing users within the workspace. Excluding bot/s (not a user) cannot be added in your filter section by default. </p>\n<p>As a workaround, you can <a href=\"https://support.zendesk.com/hc/en-us/articles/7043759449114-Finding-conversations-to-review-using-custom-filters\" target=\"_blank\" rel=\"noopener noreferrer\">create a filter</a> 'Participant is not bot name' to the assignment by following these steps:</p>\n<ol>\n<li>Click the Conversations icon in the left sidebar.</li>\n<li>Select or create a filter (either public or private)</li>\n<li>Add the following filter conditions:</li>\n</ol>\n<ul>\n<li>\n<strong>Participant</strong> | <strong>is</strong> | &lt;name of your bot&gt;</li>\n<li>\n<strong>Bot</strong> | <strong>is</strong> | &lt;name of your bot&gt;</li>\n<li>Click <strong>Create Filter</strong> to save</li>\n</ul>\n<p>Then you can exclude/ include the bots under reviewer and reviewees from your filter section as shown below:</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7805722709146\" alt=\"Reviewers and reviewees filter.jpg\"></p>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/7043759449114-Finding-conversations-to-review-using-custom-filters\">Finding conversations to review using custom filters</a></p>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>How can I exclude Zendesk bots from review assignments in Zendesk QA?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>It is only possible to exclude existing users within the workspace. Excluding bot/s (not a user) cannot be added in your filter section by default. </p>\n<p>As a workaround, you can <a href=\"https://support.zendesk.com/hc/en-us/articles/7043759449114-Finding-conversations-to-review-using-custom-filters\" target=\"_blank\" rel=\"noopener noreferrer\">create a filter</a> 'Participant is not bot name' to the assignment by following these steps:</p>\n<ol>\n<li>Click the Conversations icon in the left sidebar.</li>\n<li>Select or create a filter (either public or private)</li>\n<li>Add the following filter conditions:</li>\n</ol>\n<ul>\n<li>\n<strong>Participant</strong> | <strong>is</strong> | &lt;name of your bot&gt;</li>\n<li>\n<strong>Bot</strong> | <strong>is</strong> | &lt;name of your bot&gt;</li>\n<li>Click <strong>Create Filter</strong> to save</li>\n</ul>\n<p>Then you can exclude/ include the bots under reviewer and reviewees from your filter section as shown below:</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7856560205082\" alt=\"Reviewers and reviewees filter.jpg\"></p>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/7043759449114-Finding-conversations-to-review-using-custom-filters\">Finding conversations to review using custom filters</a></p>",
       "user_segment_ids": []
     },
     {
