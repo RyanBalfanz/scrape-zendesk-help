@@ -533,14 +533,14 @@
       "vote_count": 0,
       "section_id": 4405303741594,
       "created_at": "2024-08-15T20:01:39Z",
-      "updated_at": "2024-08-20T15:07:15Z",
+      "updated_at": "2024-08-22T14:06:18Z",
       "name": "Generative replies are not generating answers",
       "title": "Generative replies are not generating answers",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-08-15T20:02:09Z",
+      "edited_at": "2024-08-22T14:06:17Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -551,7 +551,7 @@
         "ab0_guide",
         "ab0_bots_automation"
       ],
-      "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2>\n<p>My AI agent with generative replies configured is not able to generate answers from help center articles. Instead, my AI agent sends an error message that says, \"<strong>Sorry I couldn't find a good answer to your question.</strong>\"</p>\n<h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2>\n<p>In order for the AI agent to generate answers, both of the following must be true:</p>\n<ul>\n<li>Your help center must have the setting <strong>Require sign in</strong> disabled</li>\n<li>The articles you want your AI agent to generate answers from must have viewing permissions set to <strong>Visible to everyone</strong>\n</li>\n</ul>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/6138268212634\" target=\"_blank\" rel=\"noopener noreferrer\">Using AI to generate replies in a conversation bot</a>.</p>",
+      "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2>\n<p>My AI agent with generative replies configured is not able to generate answers from help center articles. Instead, my AI agent sends an error message that says: <strong>Sorry I couldn't find a good answer to your question</strong>.</p>\n<h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2>\n<p>For the AI agent to generate answers, both of the following must be true:</p>\n<ul>\n<li>Your help center must have the setting <strong>Require sign in</strong> disabled</li>\n<li>The articles you want your AI agent to generate answers from must have viewing permissions set to <strong>Visible to everyone</strong>\n</li>\n</ul>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/6138268212634\" target=\"_blank\" rel=\"noopener noreferrer\">Using AI to generate replies in a conversation bot</a>.</p>",
       "user_segment_ids": []
     },
     {
