@@ -19,14 +19,14 @@
       "vote_count": 0,
       "section_id": 7041762819738,
       "created_at": "2024-08-22T10:06:20Z",
-      "updated_at": "2024-08-22T10:37:13Z",
+      "updated_at": "2024-08-22T13:01:31Z",
       "name": "Can I change an assignment in Zendesk QA without resetting the cycle?",
       "title": "Can I change an assignment in Zendesk QA without resetting the cycle?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-08-22T10:35:01Z",
+      "edited_at": "2024-08-22T13:01:30Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -35,7 +35,7 @@
         "ab0",
         "ab0_qa"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>I need to update an assignment but I don't want to lose the cycle's progress. Can I change the assignment without resetting the goal?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>When publishing changes to an assignment mid-cycle, your progress won't be reset. All given reviews will count towards the goal of the assignment.  <img src=\"https://support.zendesk.com/hc/article_attachments/7864638503706\"></p>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/7043747327770-Setting-up-assignments#goal\" target=\"_blank\" rel=\"noopener noreferrer\">Setting up assignments</a>.</p>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>I need to update an assignment but I don't want to lose the cycle's progress. Can I change the assignment without resetting the goal?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>When publishing changes to an assignment mid-cycle, your progress won't be reset. All given reviews will count towards the goal of the assignment.  <img src=\"https://support.zendesk.com/hc/article_attachments/7864638503706\" width=\"430\" height=\"266\"></p>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/7043747327770-Setting-up-assignments#goal\" target=\"_blank\" rel=\"noopener noreferrer\">Setting up assignments</a>.</p>",
       "user_segment_ids": []
     },
     {
