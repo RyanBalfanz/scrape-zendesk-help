@@ -212,14 +212,14 @@
       "vote_count": 0,
       "section_id": 4405303740826,
       "created_at": "2024-08-21T06:58:22Z",
-      "updated_at": "2024-08-21T15:58:50Z",
+      "updated_at": "2024-08-22T13:16:39Z",
       "name": "Why does the call disconnect when the browser is refreshed?",
       "title": "Why does the call disconnect when the browser is refreshed?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-08-21T15:58:48Z",
+      "edited_at": "2024-08-22T13:16:38Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -228,7 +228,7 @@
         "ab0",
         "ab0_talk"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p class=\"p1\">Why did the ongoing call disconnect when I refreshed my browser? </p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p class=\"p1\">When you refresh the browser during a Zendesk Talk call, the call may disconnect because the refresh interrupts the active session between the user and the Zendesk server. Here are some reasons for this issue:</p>\n<ol>\n<li class=\"p1\">\n<strong>Session interruption. </strong>When you refresh the browser, it breaks the existing session with the Zendesk Talk server. This interruption terminates ongoing calls.</li>\n<li class=\"p1\">\n<strong>Re-initialization. </strong>Upon refreshing, the browser has to reload all resources and re-establish connections to services. The active call cannot be maintained during this process and gets disconnected.</li>\n<li class=\"p1\">\n<strong>Client-side handling. </strong>Zendesk Talk relies on the client-side application to manage call connections. Refreshing the browser causes the client application to reset, terminating any active calls.</li>\n<li class=\"p1\">\n<strong>WebRTC connection. </strong>Zendesk Talk uses WebRTC (Web Real-Time Communication) to handle voice calls. Refreshing the browser disrupts the WebRTC connection, causing the call to drop.</li>\n</ol>\n<p class=\"p1\">To avoid call disconnections due to browser refreshes:</p>\n<ul>\n<li class=\"p1\">Avoid refreshing the browser while on a call.</li>\n<li class=\"p1\">Open Zendesk in a different window for actions that may require a refresh to avoid affecting the call.</li>\n</ul>\n<p>For more information, see these articles:</p>\n<ul>\n<li>\n<a href=\"https://support.zendesk.com/hc/en-us/articles/4408829651738-How-can-I-troubleshoot-Talk-issues\" target=\"_blank\" rel=\"noopener noreferrer\">How can I troubleshoot Talk issues?</a> </li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408831417498-Talk-network-requirements\" target=\"_blank\" rel=\"noopener noreferrer\">Talk network requirements</a></li>\n<li>\n<a href=\"https://support.zendesk.com/hc/en-us/articles/4408827413146-What-are-the-most-common-Talk-error-messages\" target=\"_blank\" rel=\"noopener noreferrer\">What are the most common Talk error messages?</a> </li>\n</ul>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>Why did the ongoing call disconnect when I refreshed my browser? </p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>When you refresh the browser during a Zendesk Talk call, the call may disconnect because the refresh interrupts the session between you and the Zendesk server. Here are some reasons for this issue:</p>\n<ul>\n<li>Session interruption: Refreshing the browser breaks the session with the Talk server. This interruption disconnects ongoing calls</li>\n<li>Re-initialization: When you refresh, the browser has to reload resources and re-establish connections. The active call can't be maintained during this process and gets disconnected</li>\n<li>Client-side handling: Talk relies on the client-side application to manage call connections. Refreshing the browser resets the client application, terminating active calls</li>\n<li>WebRTC connection: Talk uses WebRTC (Web Real-Time Communication) for voice calls. Refreshing the browser disrupts the WebRTC connection, causing the call to drop</li>\n</ul>\n<p><strong>To avoid call disconnections due to browser refreshes</strong></p>\n<ul>\n<li>Avoid refreshing the browser while on a call.</li>\n<li>Open Zendesk in a different window for actions that may require a refresh to avoid affecting the call.</li>\n</ul>\n<p>For more information, see these articles:</p>\n<ul>\n<li>\n<a href=\"https://support.zendesk.com/hc/en-us/articles/4408829651738-How-can-I-troubleshoot-Talk-issues\" target=\"_blank\" rel=\"noopener noreferrer\">How can I troubleshoot Talk issues?</a> </li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408831417498-Talk-network-requirements\" target=\"_blank\" rel=\"noopener noreferrer\">Talk network requirements</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408827413146-What-are-the-most-common-Talk-error-messages\" target=\"_blank\" rel=\"noopener noreferrer\">What are the most common Talk error messages?</a></li>\n</ul>",
       "user_segment_ids": []
     },
     {
