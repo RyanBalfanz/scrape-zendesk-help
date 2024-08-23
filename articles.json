@@ -438,14 +438,14 @@
       "vote_count": 0,
       "section_id": 7041762819738,
       "created_at": "2024-08-20T13:23:11Z",
-      "updated_at": "2024-08-22T10:37:22Z",
+      "updated_at": "2024-08-23T14:41:24Z",
       "name": "Who can see calibrations in Zendesk QA?",
       "title": "Who can see calibrations in Zendesk QA?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-08-20T13:34:24Z",
+      "edited_at": "2024-08-23T14:41:21Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -454,7 +454,7 @@
         "ab0",
         "ab0_qa"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>Who can see calibrations in Zendesk QA? </p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>Agents do not see any conversation-related information in Calibration. No notifications are sent to reviewers, so it's up to the Workspace Manager or Lead to inform reviewers about the Calibration Session and its due date. </p>\n<p>For more information, see the articles:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/7043724530842-Setting-up-calibration-in-Zendesk-QA\" target=\"_blank\" rel=\"noopener noreferrer\">Setting up calibration in Zendesk QA</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/7043760141978-Understanding-roles-and-permissions-in-Zendesk-QA\" target=\"_blank\" rel=\"noopener noreferrer\">Understanding roles and permissions in Zendesk QA</a></li>\n</ul>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>Who can see calibrations in Zendesk QA?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>Agents do not see any conversation-related information in calibration. No notifications are sent to reviewers. Workspace manager or lead informs reviewers about the calibration session and its due date.</p>\n<p>For more information, see the articles:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/7043724530842-Setting-up-calibration-in-Zendesk-QA\" target=\"_blank\" rel=\"noopener noreferrer\">Setting up calibration in Zendesk QA</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/7043760141978-Understanding-roles-and-permissions-in-Zendesk-QA\" target=\"_blank\" rel=\"noopener noreferrer\">Understanding roles and permissions in Zendesk QA</a></li>\n</ul>",
       "user_segment_ids": []
     },
     {
@@ -791,14 +791,14 @@
       "vote_count": 0,
       "section_id": 7041762819738,
       "created_at": "2024-08-13T16:26:37Z",
-      "updated_at": "2024-08-23T14:29:16Z",
+      "updated_at": "2024-08-23T14:35:30Z",
       "name": "How do I exclude bots from review assignments in Zendesk QA?",
       "title": "How do I exclude bots from review assignments in Zendesk QA?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-08-22T16:30:12Z",
+      "edited_at": "2024-08-23T14:32:36Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -808,7 +808,7 @@
         "mt",
         "ab0_qa"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>I want to exclude bots from review assignments in Zendesk QA. How do I set it up?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>It is only possible to exclude existing users within the workspace. Excluding bot/s (not a user) cannot be added as a condition in your assignment settings by default.</p>\n<p>As a workaround, you can <a href=\"https://support.zendesk.com/hc/en-us/articles/7043759449114-Finding-conversations-to-review-using-custom-filters\" target=\"_blank\" rel=\"noopener noreferrer\">create a filter</a> 'Participant is not bot name' to exclude the bot as participant.</p>\n<p><strong>To add this filter</strong></p>\n<ol>\n<li>Click the <strong>Conversion</strong> icon in the left sidebar.</li>\n<li>Select or create a filter (either public or private)</li>\n<li>Add the filter conditions.</li>\n</ol>\n<ul>\n<li>\n<strong>Participant</strong> | <strong>is</strong> | &lt;name of your bot&gt;</li>\n<li>\n<strong>Bot</strong> | <strong>is</strong> | &lt;name of your bot&gt;</li>\n<li>Click <strong>Create Filter</strong> to save</li>\n</ul>\n<p>Then you can exclude/include the bots under reviewer and reviewees by going to assignment settings where you would want to apply the filter. </p>\n<p><strong>To edit your assignment settings</strong></p>\n<ol>\n<li>Go to the Dashboard.</li>\n<li>Choose the assignment you want to edit.</li>\n<li>Click the dropdown and choose the created filter in reviewer or reviewees. </li>\n</ol>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7856560205082\" alt=\"Reviewers and reviewees filter.jpg\"></p>\n<p>For more information, see these article:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/7043759449114-Finding-conversations-to-review-using-custom-filters\" target=\"_blank\" rel=\"noopener noreferrer\">Finding conversations to review using custom filters.</a></li>\n</ul>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>I want to exclude bots from review assignments in Zendesk QA. How do I set it up?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>You can exclude the bot as a reviewee in the assignments settings.</p>\n<p><strong>To edit your assignment settings</strong></p>\n<ol>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/7043747327770-Setting-up-assignments\" target=\"_blank\" rel=\"noopener noreferrer\">Create an assignment</a></li>\n<li>Under <strong>Reviewers and reviewees</strong>, navigate to <strong>Exclude reviewees</strong>\n</li>\n<li>Click the dropdown and choose your bot from the list</li>\n</ol>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7874007037338\" alt=\"exclude reviewee settings\"></p>\n<p>For more information, see this article:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/7043747327770-Setting-up-assignments\" target=\"_blank\" rel=\"noopener noreferrer\">Setting up assignments</a></li>\n</ul>",
       "user_segment_ids": []
     },
     {
