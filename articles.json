@@ -750,7 +750,7 @@
     {
       "id": 7819019623706,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7819019623706.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/7819019623706-Service-Incident-August-15th-2024",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/7819019623706-Service-Incident-August-15th-2024-Chat-All-Pods-Chat-triggers-being-fired-unexpectedly",
       "author_id": 1263082183609,
       "comments_disabled": true,
       "draft": false,
@@ -760,14 +760,14 @@
       "vote_count": 1,
       "section_id": 4405298854426,
       "created_at": "2024-08-15T13:06:32Z",
-      "updated_at": "2024-08-15T14:00:24Z",
-      "name": "Service Incident - August 15th, 2024",
-      "title": "Service Incident - August 15th, 2024",
+      "updated_at": "2024-08-26T09:15:29Z",
+      "name": "Service Incident - August 15th, 2024 - Chat | All Pods - Chat triggers being fired unexpectedly",
+      "title": "Service Incident - August 15th, 2024 - Chat | All Pods - Chat triggers being fired unexpectedly",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-08-15T13:46:46Z",
+      "edited_at": "2024-08-26T09:14:22Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
@@ -776,7 +776,7 @@
         "mt",
         "rank_low_algolia"
       ],
-      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>August 15, 2024 01:46 PM UTC | August 15, 2024 06:46 AM PT </strong><br>Thank you for your patience while we worked through this incident. Chat triggers are now working as expected, and we no longer see errors related to this issue. We are marking this as fully resolved.</p>\n<p class=\"p1\"><strong>August 15, 2024 01:29 PM UTC | August 15, 2024 06:29 AM PT </strong><br>The rollback for the issue related to Chat triggers firing incorrectly has finished updating across all pods. We appreciate your patience as we monitor the situation until full resolution.</p>\n<p class=\"p1\"><strong>August 15, 2024 01:18 PM UTC | August 15, 2024 06:18 AM PT </strong><br>We are rolling back a recent deploy related to Chat triggers. Please note that a possible side effect of this incident is that incorrect Chat tags can be added to chats, and this can cause misrouting. Next update in 30 min.</p>\n<p class=\"p1\"><strong>August 15, 2024 01:06 PM UTC | August 15, 2024 06:06 AM PT </strong><br>We’re currently investigating reports of Chat triggers incorrectly firing, across all Pods. More details soon.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
+      "body": "<h3 id=\"h_01J66KR6PTPMG5AZ59PD6TZ84C\" class=\"p1\">SUMMARY<strong><br></strong>\n</h3>\n<div id=\"message-list\">\n<p>On August 15, 2024 from 09:45 UTC to 13:19 UTC, Chat customers on multiple pods may have experienced Chat triggers firing incorrectly.  This affected chat tagging, routing, and how automated messages were sent, and customers may have experienced unexpected Chat behaviour.</p>\n<h3 id=\"h_01J66Z9W19YCAXSFTGZKG0N595\"><span style=\"color: #06363c;\">Timeline</span></h3>\n<p><strong><span style=\"color: #16140c;\">August 15, 2024 01:06 PM UTC | August 15, 2024 06:06 AM PT</span></strong><strong><span style=\"color: #16140c;\"><br></span></strong><span style=\"color: #16140c;\">We’re currently investigating reports of Chat triggers incorrectly firing, across all Pods. More details soon.</span></p>\n<p><strong><span style=\"color: #16140c;\">August 15, 2024 01:18 PM UTC | August 15, 2024 06:18 AM PT</span></strong><strong><span style=\"color: #16140c;\"><br></span></strong><span style=\"color: #16140c;\">We are rolling back a recent deploy related to Chat triggers. Please note that a possible side effect of this incident is that incorrect Chat tags can be added to chats, and this can cause misrouting. Next update in 30 min.</span></p>\n<p><strong><span style=\"color: #16140c;\">August 15, 2024 01:29 PM UTC | August 15, 2024 06:29 AM PT</span></strong><strong><span style=\"color: #16140c;\"><br></span></strong><span style=\"color: #16140c;\">The rollback for the issue related to Chat triggers firing incorrectly has finished updating across all pods. We appreciate your patience as we monitor the situation until full resolution.</span></p>\n<p><strong><span style=\"color: #16140c;\">August 15, 2024 01:46 PM UTC | August 15, 2024 06:46 AM PT</span></strong><strong><span style=\"color: #16140c;\"><br></span></strong><span style=\"color: #16140c;\">Thank you for your patience while we worked through this incident. Chat triggers are now working as expected, and we no longer see errors related to this issue. We are marking this as fully resolved.</span></p>\n</div>\n<h3 id=\"h_01J66ZAC9M507HGDS7ENRCZWW3\" class=\"p1\">POST-MORTEM</h3>\n<h3 id=\"h_01J66ZAFDFP2WZPWWXR6XKZPGS\"><span style=\"color: #06363c;\">Root Cause Analysis</span></h3>\n<p>This incident was caused by a new mechanism to evaluate Chat trigger conditions that skipped certain scenarios, resulting in a default action of firing off trigger actions. </p>\n<h3 id=\"h_01J66ZAFDFKKHPFH0PDR7WKMAR\"><span style=\"color: #06363c;\">Resolution</span></h3>\n<p>To fix this issue, a new software version that addresses the trigger condition evaluation gap was deployed.  After further monitoring, we received confirmation of recovery.</p>\n<h3 id=\"h_01J66ZAFDFQJ8C361VYXYP7SFQ\"><span style=\"color: #06363c;\">Remediation Items</span></h3>\n<ol>\n<li>Adding anomaly detection for unusual volumes of trigger actions [Scheduled]</li>\n<li>Implementing additional tests to cover more complex condition scenarios [Scheduled]</li>\n</ol>\n<h4 id=\"h_01J66KR6PTNMK63B719GW10X55\"><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
     },
     {
