@@ -371,14 +371,14 @@
       "vote_count": 0,
       "section_id": 7041762819738,
       "created_at": "2024-08-22T07:16:38Z",
-      "updated_at": "2024-08-23T07:08:26Z",
+      "updated_at": "2024-08-27T12:48:50Z",
       "name": "Do I need to have a Zendesk account to use Zendesk QA?",
       "title": "Do I need to have a Zendesk account to use Zendesk QA?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-08-23T07:08:23Z",
+      "edited_at": "2024-08-27T12:48:48Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -387,7 +387,7 @@
         "ab0",
         "ab0_qa"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>Is a Zendesk account required to use Zendesk QA or can I use it with a different help desk as well?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>You need a Zendesk account to use Zendesk QA, but you can add other help desk connections once you've connected your Zendesk account.</p>\n<p>For more information, see the articles: </p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/7043669502106-Setting-up-your-Zendesk-QA-account-and-connecting-your-help-desk#h_01J16H0B4QHQHW860EQRBFDP79\" target=\"_blank\" rel=\"noopener noreferrer\">Setting up your Zendesk QA account and connecting your help desk</a></li>\n<li><a href=\"Integrating%20Zendesk%20QA\" target=\"_blank\" rel=\"noopener noreferrer\">Integrating Zendesk QA</a></li>\n</ul>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>Is a Zendesk account required to use Zendesk QA or can I use it with a different help desk as well?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>You need a Zendesk account to use Zendesk QA, but you can add other help desk connections once you've connected your Zendesk account.</p>\n<p>For more information, see the articles: </p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/7043669502106-Setting-up-your-Zendesk-QA-account-and-connecting-your-help-desk#h_01J16H0B4QHQHW860EQRBFDP79\" target=\"_blank\" rel=\"noopener noreferrer\">Setting up your Zendesk QA account and connecting your help desk</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/sections/7162489443354-Integrating-Zendesk-QA\" target=\"_blank\" rel=\"noopener noreferrer\">Integrating Zendesk QA</a></li>\n</ul>",
       "user_segment_ids": []
     },
     {
