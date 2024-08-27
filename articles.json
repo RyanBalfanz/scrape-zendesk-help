@@ -51,7 +51,7 @@
       "vote_count": 2,
       "section_id": 4405298847002,
       "created_at": "2024-08-26T14:31:14Z",
-      "updated_at": "2024-08-26T15:08:09Z",
+      "updated_at": "2024-08-27T15:02:07Z",
       "name": "Release notes through 2024-08-23",
       "title": "Release notes through 2024-08-23",
       "source_locale": "en-us",
@@ -82,7 +82,7 @@
       "vote_count": 0,
       "section_id": 4405298833818,
       "created_at": "2024-08-24T21:03:53Z",
-      "updated_at": "2024-08-26T16:56:32Z",
+      "updated_at": "2024-08-27T15:01:53Z",
       "name": "Announcing enhancements to skills in  omnichannel routing",
       "title": "Announcing enhancements to skills in  omnichannel routing",
       "source_locale": "en-us",
@@ -93,7 +93,9 @@
       "user_segment_id": null,
       "permission_group_id": 1324079,
       "content_tag_ids": [],
-      "label_names": [],
+      "label_names": [
+        "mtpe"
+      ],
       "body": "<table style=\"border-collapse: collapse; width: 100%; height: 44px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Announced on</strong></td>\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Rollout starts</strong></td>\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Rollout ends</strong></td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\">August 26, 2024</td>\n<td style=\"width: 33.3333%; height: 22px;\"><span class=\"wysiwyg-color-black\">August 26, 2024</span></td>\n<td style=\"width: 33.3333%; height: 22px;\">September 4, 2024</td>\n</tr>\n</tbody>\n</table>\n<p>Zendesk is pleased to announce more granular control over which skills are required and optional criteria when using skills to route tickets with omnichannel routing. </p>\n<p><span style=\"font-weight: 400;\">This announcement includes the following topics:</span></p>\n<ul>\n<li><a href=\"#h_01GD3S97RDYVTAFTQ8WR9878VF\" target=\"_self\"><span style=\"font-weight: 400;\">What is changing?</span></a></li>\n<li><a href=\"#h_01GD3S9GD63FPDGQSEFY88M3ND\" target=\"_self\"><span style=\"font-weight: 400;\">Why is Zendesk making this change?</span></a></li>\n<li><a href=\"#h_01GD3S9TSPXM7M4WHYKYF4E84M\" target=\"_self\"><span style=\"font-weight: 400;\">What do I need to do?</span></a></li>\n</ul>\n<h2 id=\"h_01GD3S97RDYVTAFTQ8WR9878VF\"><span style=\"font-weight: 400;\">What is changing?</span></h2>\n<p>Until now, omnichannel routing has treated all skills equally. Any skill on a ticket was treated as required until a <a href=\"https://support.zendesk.com/hc/en-us/articles/4828787357210#topic_ag5_tlr_wbc\">skills timeout</a> occurred. After that point, none of the skills remained in consideration when routing a ticket to an agent.</p>\n<p>Now, skills added by ticket triggers can be configured as either <strong>required</strong> or <strong>optional</strong>. Required skills are skills an agent absolutely must have, while optional skills are nice-to-have and subject to the skills timeout in your omnichannel routing configuration. When a skills timeout occurs and a ticket has both required and optional skills, only the optional skills are dropped from consideration. The required skills are preserved as routing criteria for the ticket, so omnichannel routing will continue to wait for an agent with all of the required skills to become available. </p>\n<p>It's important to note that if you don't configure a skills timeout, all skills are treated as required, regardless of how they're designated in the trigger action that added them.</p>\n<p>For more information, see:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/5833458075930\">Adding and managing skills on tickets</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/5833468891674#topic_d2l_bnx_txb\">About using skills to route tickets</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4828787357210\">Managing your omnichannel routing configuration</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408893545882\">Ticket trigger conditions and actions reference</a></li>\n</ul>\n<h2 id=\"h_01GD3S9GD63FPDGQSEFY88M3ND\"><span style=\"font-weight: 400;\">Why is Zendesk making this change?</span></h2>\n<p>We recognize that many customers need to differentiate between skills that are required for a ticket to be successfully and efficiently solved by an agent and skills that are convenient but less critical. Adding this granularity to the skills timeout functionality gives admins more control over how work is routed to agents.</p>\n<h2 id=\"h_01GD3S9TSPXM7M4WHYKYF4E84M\"><span style=\"font-weight: 400;\">What do I need to do?</span></h2>\n<p>To begin using this enhancement, make sure you've configured a <a href=\"https://support.zendesk.com/hc/en-us/articles/4828787357210#topic_ag5_tlr_wbc\">skills timeout</a> for omnichannel routing. Then create or update ticket triggers with the <a href=\"https://support.zendesk.com/hc/en-us/articles/4408893545882\">add skills or set skills actions</a> and specify whether each skill is required or optional.</p>\n<p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\">Zendesk Customer Support</a>.</p>",
       "user_segment_ids": []
     },
@@ -110,7 +112,7 @@
       "vote_count": 0,
       "section_id": 4405303740826,
       "created_at": "2024-08-23T14:55:48Z",
-      "updated_at": "2024-08-23T14:59:19Z",
+      "updated_at": "2024-08-27T15:03:39Z",
       "name": "Why I can't receive a phone verification call from Google?",
       "title": "Why I can't receive a phone verification call from Google?",
       "source_locale": "en-us",
@@ -124,6 +126,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_talk",
         "role_admin"
       ],
@@ -180,7 +183,7 @@
       "vote_count": 0,
       "section_id": 4405298901274,
       "created_at": "2024-08-23T10:25:11Z",
-      "updated_at": "2024-08-23T14:27:29Z",
+      "updated_at": "2024-08-27T15:03:30Z",
       "name": "Attachments are being received as links",
       "title": "Attachments are being received as links",
       "source_locale": "en-us",
@@ -194,6 +197,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_support",
         "role_admin"
       ],
@@ -213,7 +217,7 @@
       "vote_count": 0,
       "section_id": 4405298908954,
       "created_at": "2024-08-22T20:46:44Z",
-      "updated_at": "2024-08-23T14:04:18Z",
+      "updated_at": "2024-08-27T15:04:11Z",
       "name": "Where can I find a list of API documentation?",
       "title": "Where can I find a list of API documentation?",
       "source_locale": "en-us",
@@ -227,6 +231,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "role_developer"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>Is there a comprehensive list of all API documentation available?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>Find below a list of all the available API documentation at Zendesk to assist you in integrating and utilizing the APIs effectively:</p>\n<ul>\n<li><a href=\"https://developer.zendesk.com/api-reference/\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk Developer API</a></li>\n<li><a href=\"https://docs.smooch.io/guide/\" target=\"_blank\" rel=\"noopener noreferrer\">Sunco API</a></li>\n<li><a href=\"https://api.zopim.com/files/meshim/widget/controllers/LiveChatAPI-js.html\" target=\"_blank\" rel=\"noopener noreferrer\">Zopim API</a></li>\n<li><a href=\"https://api.tymeshift.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Tymeshift API</a></li>\n<li><a href=\"https://developer.ultimate.ai/\" target=\"_blank\" rel=\"noopener noreferrer\">Ultimate API</a></li>\n</ul>",
@@ -245,7 +250,7 @@
       "vote_count": 0,
       "section_id": 7041762819738,
       "created_at": "2024-08-22T15:31:31Z",
-      "updated_at": "2024-08-23T11:41:09Z",
+      "updated_at": "2024-08-27T15:05:12Z",
       "name": "Does changing my profile name in Support update my name in Zendesk QA?",
       "title": "Does changing my profile name in Support update my name in Zendesk QA?",
       "source_locale": "en-us",
@@ -310,7 +315,7 @@
       "vote_count": 0,
       "section_id": 7041762819738,
       "created_at": "2024-08-22T10:06:20Z",
-      "updated_at": "2024-08-23T12:10:57Z",
+      "updated_at": "2024-08-27T15:04:50Z",
       "name": "Can I change an assignment in Zendesk QA without resetting the cycle?",
       "title": "Can I change an assignment in Zendesk QA without resetting the cycle?",
       "source_locale": "en-us",
@@ -324,6 +329,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_qa"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>I need to update an assignment but I don't want to lose the cycle's progress. Can I change the assignment without resetting the goal?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>When publishing changes to an assignment mid-cycle, your progress won't reset. All given reviews will count towards the goal of the assignment. <img src=\"https://support.zendesk.com/hc/article_attachments/7864638503706\" alt=\"assignment cycle update\" width=\"430\" height=\"266\"></p>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/7043747327770-Setting-up-assignments#goal\" target=\"_blank\" rel=\"noopener noreferrer\">Setting up assignments</a>.</p>",
@@ -376,7 +382,7 @@
       "vote_count": 0,
       "section_id": 7041762819738,
       "created_at": "2024-08-22T08:05:53Z",
-      "updated_at": "2024-08-23T12:04:20Z",
+      "updated_at": "2024-08-27T15:03:36Z",
       "name": "Can agents see their AutoQA scores in Zendesk QA?",
       "title": "Can agents see their AutoQA scores in Zendesk QA?",
       "source_locale": "en-us",
@@ -390,6 +396,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_qa"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>Can agents see their AutoQA scores in Zendesk QA?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>Agents can see the AutoQA scores for their own tickets if self-reviews are enabled in the workspace.</p>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/7043747123354-Setting-up-autoscoring-in-Zendesk-QA-using-AutoQA\" target=\"_blank\" rel=\"noopener noreferrer\">Setting up autoscoring in Zendesk QA using AutoQA</a>.</p>",
@@ -440,7 +447,7 @@
       "vote_count": 0,
       "section_id": 5346375003802,
       "created_at": "2024-08-21T15:16:26Z",
-      "updated_at": "2024-08-21T15:16:54Z",
+      "updated_at": "2024-08-27T15:06:11Z",
       "name": "Why is there a delay between my IVR initial greeting and the default option?",
       "title": "Why is there a delay between my IVR initial greeting and the default option?",
       "source_locale": "en-us",
@@ -454,6 +461,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_talk",
         "role_admin"
       ],
@@ -473,7 +481,7 @@
       "vote_count": 0,
       "section_id": 7041762819738,
       "created_at": "2024-08-21T08:18:58Z",
-      "updated_at": "2024-08-23T09:43:33Z",
+      "updated_at": "2024-08-27T15:05:03Z",
       "name": "What do the assignments conditions in Zendesk QA mean?",
       "title": "What do the assignments conditions in Zendesk QA mean?",
       "source_locale": "en-us",
@@ -487,6 +495,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_qa"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>I would like to understand how to set up the conditions in assignments. What do these filters mean?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>The conditions of assignments in Zendesk QA are the same as the conversation filters. You can create your own set of filters in the conversation view and convert them into assignments.</p>\n<p>For more information, see the article:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/7043759449114-Finding-conversations-to-review-using-custom-filters#h_01HYBGTNNH3EK3E7S5S0RCGD4B\" target=\"_blank\" rel=\"noopener noreferrer\">Finding conversations to review using custom filters</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/7043747327770-Setting-up-assignments\" target=\"_blank\" rel=\"noopener noreferrer\">Setting up assignments</a></li>\n</ul>",
@@ -505,7 +514,7 @@
       "vote_count": 0,
       "section_id": 7041762819738,
       "created_at": "2024-08-21T07:34:20Z",
-      "updated_at": "2024-08-23T12:09:29Z",
+      "updated_at": "2024-08-27T15:04:37Z",
       "name": "Why am I seeing already reviewed tickets in my assignments in Zendesk QA?",
       "title": "Why am I seeing already reviewed tickets in my assignments in Zendesk QA?",
       "source_locale": "en-us",
@@ -519,6 +528,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_qa"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>I keep getting already reviewed tickets in my assignments, why is that happening?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>The assignments in Zendesk QA do not by default offer only unreviewed tickets. You need to <a href=\"https://support.zendesk.com/hc/en-us/articles/7043747327770-Setting-up-assignments#conditions\" target=\"_blank\" rel=\"noopener noreferrer\">add a condition</a> to your assignment <strong>Review status </strong>|<strong> is </strong>|<strong> not reviewed</strong>.  <img src=\"https://support.zendesk.com/hc/article_attachments/7856189537562\" alt=\"reviewed status filter condition\"></p>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/7043747327770-Setting-up-assignments\" target=\"_blank\" rel=\"noopener noreferrer\">Setting up assignments</a>.</p>",
@@ -537,7 +547,7 @@
       "vote_count": 0,
       "section_id": 4405303740826,
       "created_at": "2024-08-21T06:58:22Z",
-      "updated_at": "2024-08-22T13:16:39Z",
+      "updated_at": "2024-08-27T15:05:56Z",
       "name": "Why does the call disconnect when the browser is refreshed?",
       "title": "Why does the call disconnect when the browser is refreshed?",
       "source_locale": "en-us",
@@ -551,6 +561,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_talk"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>Why did the ongoing call disconnect when I refreshed my browser? </p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>When you refresh the browser during a Zendesk Talk call, the call may disconnect because the refresh interrupts the session between you and the Zendesk server. Here are some reasons for this issue:</p>\n<ul>\n<li>Session interruption: Refreshing the browser breaks the session with the Talk server. This interruption disconnects ongoing calls</li>\n<li>Re-initialization: When you refresh, the browser has to reload resources and re-establish connections. The active call can't be maintained during this process and gets disconnected</li>\n<li>Client-side handling: Talk relies on the client-side application to manage call connections. Refreshing the browser resets the client application, terminating active calls</li>\n<li>WebRTC connection: Talk uses WebRTC (Web Real-Time Communication) for voice calls. Refreshing the browser disrupts the WebRTC connection, causing the call to drop</li>\n</ul>\n<p><strong>To avoid call disconnections due to browser refreshes</strong></p>\n<ul>\n<li>Avoid refreshing the browser while on a call.</li>\n<li>Open Zendesk in a different window for actions that may require a refresh to avoid affecting the call.</li>\n</ul>\n<p>For more information, see these articles:</p>\n<ul>\n<li>\n<a href=\"https://support.zendesk.com/hc/en-us/articles/4408829651738-How-can-I-troubleshoot-Talk-issues\" target=\"_blank\" rel=\"noopener noreferrer\">How can I troubleshoot Talk issues?</a> </li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408831417498-Talk-network-requirements\" target=\"_blank\" rel=\"noopener noreferrer\">Talk network requirements</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408827413146-What-are-the-most-common-Talk-error-messages\" target=\"_blank\" rel=\"noopener noreferrer\">What are the most common Talk error messages?</a></li>\n</ul>",
@@ -569,7 +580,7 @@
       "vote_count": 0,
       "section_id": 4405298901274,
       "created_at": "2024-08-20T16:06:57Z",
-      "updated_at": "2024-08-26T14:59:21Z",
+      "updated_at": "2024-08-27T15:06:38Z",
       "name": "How can I prevent omnichannel routing from routing chat and messaging tickets?",
       "title": "How can I prevent omnichannel routing from routing chat and messaging tickets?",
       "source_locale": "en-us",
@@ -583,6 +594,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_messaging",
         "ab0_chat",
         "role_admin"
@@ -603,7 +615,7 @@
       "vote_count": 0,
       "section_id": 7041762819738,
       "created_at": "2024-08-20T13:23:11Z",
-      "updated_at": "2024-08-23T14:41:24Z",
+      "updated_at": "2024-08-27T15:04:33Z",
       "name": "Who can see calibrations in Zendesk QA?",
       "title": "Who can see calibrations in Zendesk QA?",
       "source_locale": "en-us",
@@ -617,6 +629,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_qa"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>Who can see calibrations in Zendesk QA?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>Agents do not see any conversation-related information in calibration. No notifications are sent to reviewers. Workspace manager or lead informs reviewers about the calibration session and its due date.</p>\n<p>For more information, see the articles:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/7043724530842-Setting-up-calibration-in-Zendesk-QA\" target=\"_blank\" rel=\"noopener noreferrer\">Setting up calibration in Zendesk QA</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/7043760141978-Understanding-roles-and-permissions-in-Zendesk-QA\" target=\"_blank\" rel=\"noopener noreferrer\">Understanding roles and permissions in Zendesk QA</a></li>\n</ul>",
@@ -635,7 +648,7 @@
       "vote_count": 0,
       "section_id": 4405298910106,
       "created_at": "2024-08-20T12:48:28Z",
-      "updated_at": "2024-08-26T20:27:23Z",
+      "updated_at": "2024-08-27T15:09:58Z",
       "name": "5 strategies for building up your help center content for AI",
       "title": "5 strategies for building up your help center content for AI",
       "source_locale": "en-us",
@@ -647,6 +660,7 @@
       "permission_group_id": 1324079,
       "content_tag_ids": [],
       "label_names": [
+        "mt",
         "role_admin"
       ],
       "body": "<body>\n\n<div class=\"body\">\n<div class=\"div docs-wmp-link\" style=\"text-align: right; font-size: 0.8em;\"><a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/5411234991258-plan\" target=\"_blank\">What's my plan?</a></div>\n<p class=\"p\"><img alt=\"Available on all Suite plans\" id=\"topic_jf5_cqm_lcc__image_tzz_4qm_lcc\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/plan_available_suite_all.png\"><img alt=\"Available on all Guide plans\" id=\"topic_jf5_cqm_lcc__image_wzt_qhy_np\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/plan_available_guide_lp.png\"></p>\n<p class=\"p\">Over time, the best strategy for building a solid foundation for effective self-service\n            is to create and maintain a quality knowledge base using our <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408821200538\" target=\"_blank\">recommended best practices</a>. However, if you want to quickly\n            ramp up your knowledge base and enhance the quality of your AI responses, the strategies\n            listed below will help you get started.</p>\n<div class=\"p\">This article contains the following sections:<ul class=\"ul\" id=\"topic_jf5_cqm_lcc__ul_iyp_hbn_lcc\">\n<li class=\"li\"><a class=\"xref\" href=\"#topic_ixv_zbn_lcc\">Strategy 1: Analyze ticket\n                        data</a></li>\n<li class=\"li\"><a class=\"xref\" href=\"#topic_xlh_bcn_lcc\">Strategy 2: Identify common\n                        customer issues</a></li>\n<li class=\"li\"><a class=\"xref\" href=\"#id_y4h_j34_lcc\">Strategy 3: Review existing\n                        content</a></li>\n<li class=\"li\"><a class=\"xref\" href=\"#topic_gjf_ccn_lcc\">Strategy 4: Listen to your\n                        community</a></li>\n<li class=\"li\"><a class=\"xref\" href=\"#topic_amk_dcn_lcc\">Strategy 5: Optimize your\n                        content</a></li>\n</ul>\n</div>\n</div>\n<div aria-labelledby=\"ariaid-title2\" class=\"topic nested1\" id=\"topic_ixv_zbn_lcc\">\n<h2 class=\"title topictitle2\" id=\"ariaid-title2\">Strategy 1: Analyze ticket data</h2>\n<div class=\"body\">\n<div class=\"p\">Analyzing your ticket data is the best way to search for the topics that will help\n                the most customers. Once you know which topics are necessary to proactively help\n                your customers, you can develop or enhance knowledge base articles to provide the\n                missing information. For example, you can analyze your tickets to find:<ul class=\"ul\" id=\"topic_ixv_zbn_lcc__ul_en2_dgn_lcc\">\n<li class=\"li\">Common issues or pain points that users struggle with</li>\n<li class=\"li\">Frequently asked questions</li>\n<li class=\"li\">Known technical issues and workarounds that impact customers</li>\n<li class=\"li\">Time-consuming issues</li>\n</ul>\n</div>\n<div class=\"p\">Analyzing tickets can be a manual process, and may be overwhelming at first. Having a\n                good strategy helps. Here's one process you can use to analyze your tickets and\n                identify required content: <ul class=\"ul\" id=\"topic_ixv_zbn_lcc__ul_snd_xjn_lcc\">\n<li class=\"li\">\n<strong class=\"ph b\">Categorize your tickets</strong>: How you categorize your tickets depends on\n                        the information you're collecting in tickets. Ideally, you'll want to\n                        categorize by issue, using a custom \"about\" field. Then, you can build an\n                        Explore report to see what your major ticket categories and issues are. See\n                            <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408828230554-Best-practices-for-finding-customer-issues-to-start-your-knowledge-base#topic_gk5_2hk_lj\" target=\"_blank\">Categorizing your tickets</a>.</li>\n<li class=\"li\">\n<strong class=\"ph b\">Drill-down into ticket groupings to find common issues</strong>: After you\n                        organize your tickets into categories, you'll want to create a view to dig\n                        into the categories with the most tickets and find the common, high\n                        frequency issues. See <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408828230554-Best-practices-for-finding-customer-issues-to-start-your-knowledge-base#topic_j1d_ghk_lj\" target=\"_blank\">Drill-down into ticket groupings to find\n                            common issues</a>.</li>\n<li class=\"li\">\n<strong class=\"ph b\">Create articles from tickets</strong>: Agents can use the Knowledge section of\n                        the context panel to create or request new help center articles directly\n                        from a ticket within Agent Workspace. See <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408835161114\" target=\"_blank\">Creating and requesting articles in\n                            Knowledge</a>.</li>\n<li class=\"li\">\n<strong class=\"ph b\">Expand article content with generative AI</strong>: If you have the advanced\n                        AI add-on, you can use the text expansion tool within the article editor to\n                        quickly create expanded content for articles. You can write short notes or\n                        bullet points, then use the tool to turn them into complete paragraphs. This\n                        can help you quickly ramp up your help center content. See <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/6267360002714\" target=\"_blank\">Using generative AI to expand and enhance\n                            help center content</a>.</li>\n<li class=\"li\">\n<strong class=\"ph b\">Determine what to document</strong>: Keep a tracking document where you can\n                        record issues you find, then determine what you want to document and set\n                        priorities for creating the content. Start by identifying 5% of your most\n                        common issues, and focus acting on those first. Taking small steps toward\n                        developing knowledge base content to address ticket issues will yield huge\n                        benefits. See <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408828230554-Best-practices-for-finding-customer-issues-to-start-your-knowledge-base#topic_nyy_ghk_lj\" target=\"_blank\">Determine what to document</a>.</li>\n</ul>\n</div>\n</div>\n</div>\n<div aria-labelledby=\"ariaid-title3\" class=\"topic nested1\" id=\"topic_xlh_bcn_lcc\">\n<h2 class=\"title topictitle2\" id=\"ariaid-title3\">Strategy 2: Identify common customer issues</h2>\n<div class=\"body\">\n<div class=\"p\">Once you've looked through your tickets for common customer issues, you can turn to\n                other resources to further investigate your customer pain points. For example, you\n                can analyze the following:<ul class=\"ul\" id=\"topic_xlh_bcn_lcc__ul_gnt_krn_lcc\">\n<li class=\"li\">\n<strong class=\"ph b\">Macros</strong>: If you use macros for common responses to tickets, you can\n                        look at your most used macros to find clues about your common customer pain\n                        points. You can then document the topics covered in those macros in your\n                        knowledge base. Macros that cover known issues and workarounds are a great\n                        resource for creating help articles. </li>\n<li class=\"li\">\n<strong class=\"ph b\">Tags</strong>: You can use the tags on tickets to help pinpoint common issues.\n                        Examine your tag cloud to see the 100 tags that have been most applied to\n                        tickets in the last 30 days. This will help you understand issues that may\n                        require knowledge base articles.</li>\n</ul>\nTo review  macros and tags for common issues, see <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408828230554-Best-practices-for-finding-customer-issues-to-start-your-knowledge-base#topic_d13_lyd_jj\" target=\"_blank\">Looking at other sources to determine customer\n                    issues</a>.</div>\n</div>\n</div>\n<div aria-labelledby=\"ariaid-title4\" class=\"topic nested1\" id=\"id_y4h_j34_lcc\">\n<h2 class=\"title topictitle2\" id=\"ariaid-title4\">Strategy 3: Review existing content</h2>\n<div class=\"body\">\n<p class=\"p\">Existing content can be another source for determining issues and starting your\n                knowledge base. In most cases, it's ready-made content that can go directly in the\n                knowledge base with little or no editing. </p>\n<p class=\"p\">For example, some agents might have informal documentation, or \"cheat sheets,\" that\n                help them remember common issues and workarounds. Other agents may share information\n                with their team via a wiki, internal help center, or other informal process that you\n                could leverage. </p>\n<p class=\"p\">To review strategies for leveraging your existing content, see <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408828230554-Best-practices-for-finding-customer-issues-to-start-your-knowledge-base#topic_d13_lyd_jj\" target=\"_blank\">Looking at other sources to determine customer\n                    issues</a>. </p>\n</div>\n</div>\n<div aria-labelledby=\"ariaid-title5\" class=\"topic nested1\" id=\"topic_gjf_ccn_lcc\">\n<h2 class=\"title topictitle2\" id=\"ariaid-title5\">Strategy 4: Listen to your community</h2>\n<div class=\"body\">\n<div class=\"p\">To learn about common issues and pain points in your community, you can: <ul class=\"ul\" id=\"topic_gjf_ccn_lcc__ul_ung_3g4_lcc\">\n<li class=\"li\">\n<strong class=\"ph b\">Talk to your agents</strong>: Agents can not only tell you what the common\n                        issues are, but often they can articulate exactly what documentation is\n                        required. Meet with agents regularly and encourage them to suggest new\n                        content and participate in content creation or review, where possible.</li>\n<li class=\"li\">\n<strong class=\"ph b\">Listen to your community</strong>: Check the most active threads for possible\n                        points of confusion. If customers are commenting a lot, it might be a source\n                        of frustration that needs documentation. You can monitor your own help\n                        center community forum, if you have one. If not, you can check third-party\n                        community forums where your customers might be talking about your products\n                        and asking questions (for example, Reddit).</li>\n<li class=\"li\">\n<strong class=\"ph b\">Check social media</strong>: Go everywhere your customers are and find out\n                        what they are saying. You might hear about some common issues.</li>\n</ul>\n</div>\n</div>\n</div>\n<div aria-labelledby=\"ariaid-title6\" class=\"topic nested1\" id=\"topic_amk_dcn_lcc\">\n<h2 class=\"title topictitle2\" id=\"ariaid-title6\">Strategy 5: Optimize your content for AI</h2>\n<div class=\"body\">\n<div class=\"p\">Once you identify the issues you need to document, you can either write articles from\n                scratch, <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408835161114\" target=\"_blank\">create articles from tickets</a>, or use <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/6267360002714\" target=\"_blank\">generative AI to expand articles</a> based on minimal bullet\n                lists or notes. No matter how you create articles, you can use these simple\n                strategies to optimize the content and create AI-ready articles in your help\n                center. <ul class=\"ul\" id=\"topic_amk_dcn_lcc__ul_ptw_x34_lcc\">\n<li class=\"li\">\n<strong class=\"ph b\">Use structured formatting</strong>: Use clear titles, subheadings and bullet\n                        points, and apply consistent formatting across all content.</li>\n<li class=\"li\">\n<strong class=\"ph b\">Use minimal images and videos</strong>: AI does not benefit from these\n                        mediums, and they consume resources that would be better spent developing\n                        additional AI-friendly content. If you are using videos, add a description\n                        of what the video is about so that AI can read it.</li>\n<li class=\"li\">\n<strong class=\"ph b\">Focus on one idea</strong>: Concentrate on a single idea, a concise article\n                        title, and emphasize keywords in the initial 75 words to create clear and\n                        focused content, facilitating user comprehension.</li>\n<li class=\"li\">\n<strong class=\"ph b\">Keep it simple</strong>: Keep articles simple, concise, and to the point. Use\n                        clear and straightforward language, avoiding jargon, to ensure easy\n                        comprehension by users of all levels of expertise. </li>\n</ul>\n</div>\n<p class=\"p\">To optimize your articles to improve the quality and accuracy of automated responses,\n                    see<a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408845739162\" target=\"_blank\"> Optimizing your help center content</a>.</p>\n</div>\n</div>\n</body>",
@@ -665,7 +679,7 @@
       "vote_count": 0,
       "section_id": 7041762819738,
       "created_at": "2024-08-20T10:39:16Z",
-      "updated_at": "2024-08-23T11:59:22Z",
+      "updated_at": "2024-08-27T15:04:26Z",
       "name": "How do I partially accept a dispute in Zendesk QA?",
       "title": "How do I partially accept a dispute in Zendesk QA?",
       "source_locale": "en-us",
@@ -679,6 +693,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_qa"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>I don't fully agree with the dispute in Zendesk QA. How can I partially accept a dispute?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>If you agree with only some of the disputed rating categories, select <strong>Accept dispute</strong> and change only the categories you agree with. Once done, the dispute shows as partially accepted. <img src=\"https://support.zendesk.com/hc/article_attachments/7849377223450\" alt=\"partially accepted dispute\"></p>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/7043760048922-Disputing-a-review#resolving-a-dispute\" target=\"_blank\" rel=\"noopener noreferrer\">Disputing a review</a>.</p>",
@@ -854,7 +869,7 @@
       "vote_count": 0,
       "section_id": 4405303741594,
       "created_at": "2024-08-15T20:01:39Z",
-      "updated_at": "2024-08-23T18:42:08Z",
+      "updated_at": "2024-08-27T15:03:46Z",
       "name": "Generative replies are not generating answers",
       "title": "Generative replies are not generating answers",
       "source_locale": "en-us",
@@ -920,7 +935,7 @@
       "vote_count": 0,
       "section_id": 7041762819738,
       "created_at": "2024-08-14T10:59:44Z",
-      "updated_at": "2024-08-21T16:40:35Z",
+      "updated_at": "2024-08-27T15:07:24Z",
       "name": "Can I delete a rejected dispute in Zendesk QA?",
       "title": "Can I delete a rejected dispute in Zendesk QA?",
       "source_locale": "en-us",
@@ -934,6 +949,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_qa"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>Can I delete a dispute that has been rejected?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>Once the dispute has been rejected you cannot make any changes to it. However, you can delete the review and this will remove the existing dispute as well.</p>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/7043760048922-Disputing-a-review#resolving-a-dispute\" target=\"_blank\" rel=\"noopener noreferrer\">Disputing a review</a>.</p>",
@@ -952,7 +968,7 @@
       "vote_count": 0,
       "section_id": 4405298901274,
       "created_at": "2024-08-14T09:27:21Z",
-      "updated_at": "2024-08-21T08:45:11Z",
+      "updated_at": "2024-08-27T15:07:04Z",
       "name": "Why are my tickets automatically routed to a specific agent?",
       "title": "Why are my tickets automatically routed to a specific agent?",
       "source_locale": "en-us",
