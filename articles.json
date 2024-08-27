@@ -378,7 +378,7 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2024-08-22T08:37:17Z",
-      "updated_at": "2024-08-26T08:46:14Z",
+      "updated_at": "2024-08-27T15:46:01Z",
       "name": "Emergency Maintenance - August 24, 2024 | Pods 13, 20, 23, 25, 26, 27, 29 | Support (Agent Workspace Messaging) - Database Maintenance",
       "title": "Emergency Maintenance - August 24, 2024 | Pods 13, 20, 23, 25, 26, 27, 29 | Support (Agent Workspace Messaging) - Database Maintenance",
       "source_locale": "en-us",
@@ -388,9 +388,7 @@
       "edited_at": "2024-08-26T08:40:53Z",
       "user_segment_id": null,
       "permission_group_id": 1324079,
-      "content_tag_ids": [
-        "01J5WKPE38ZET4KEQTF5QNX6J9"
-      ],
+      "content_tag_ids": [],
       "label_names": [
         "mt",
         "maintenance",
