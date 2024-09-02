@@ -1,11 +1,44 @@
 {
-  "count": 4690,
+  "count": 4691,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 157,
   "per_page": 30,
   "previous_page": null,
   "articles": [
+    {
+      "id": 7939205529242,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7939205529242.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/7939205529242-My-agents-don-t-see-the-Customers-page",
+      "author_id": 1266644443030,
+      "comments_disabled": false,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 6279947161626,
+      "created_at": "2024-09-02T15:20:05Z",
+      "updated_at": "2024-09-02T15:24:59Z",
+      "name": "My agents don't see the Customers page",
+      "title": "My agents don't see the Customers page",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2024-09-02T15:24:58Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801135069,
+      "content_tag_ids": [],
+      "label_names": [
+        "ks",
+        "ab0",
+        "ab0_support",
+        "role_admin"
+      ],
+      "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2>\n<p>Agents cannot created end users and do not have access to the <a href=\"https://support.zendesk.com/hc/en-us/articles/4408828129946-About-the-Customers-end-users-page#topic_nbl_3mz_lqb\" target=\"_blank\" rel=\"noopener noreferrer\">Customers</a> page.</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7939175894554\" alt=\"Customers.png\" width=\"326\" height=\"207\"></p>\n<h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2>\n<p>Depending on your plan, you can open the access to the <strong>Customers</strong> page by following these steps:</p>\n<ul>\n<li>On the Support Professional plan or below, the <a href=\"https://support.zendesk.com/hc/en-us/articles/4408886939930-Adding-agents-and-admins#topic_3zw_yl2_yg\" target=\"_blank\" rel=\"noopener noreferrer\">agent profile</a><span> controls the access and in particular</span> the <strong>Access</strong> field &gt; <strong>All tickets</strong> value</li>\n<li>On the Enterprise plan or above, agent permissions are determined by <a href=\"https://support.zendesk.com/hc/en-us/articles/4408882153882\" target=\"_blank\" rel=\"noopener noreferrer\">custom roles</a> &gt; <strong>End-user profile access</strong>\n</li>\n</ul>",
+      "user_segment_ids": []
+    },
     {
       "id": 7939052695066,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7939052695066.json",
@@ -960,37 +993,6 @@
         "rank_low_algolia"
       ],
       "body": "<h3 id=\"h_01J5XWF8QS3FQK72PD0P7S388F\"><strong><span style=\"color: #06363c;\">SUMMARY</span></strong></h3>\n<p>On August 20, 2024 from 00:13 to 10:16 UTC, Support customers on Pods 13, 18, 19, 23, and 25 experienced delays with emails not creating or updating tickets.</p>\n<p> </p>\n<h3 id=\"h_01J5XWF8QSPZFT2QYEC3YJA8SF\"><span style=\"color: #06363c;\">Timeline</span></h3>\n<p><strong>August 20, 2024 02:12 AM UTC | August 19, 2024 07:12 PM PT</strong></p>\n<p>We are aware of an issue with emails not creating or updating tickets across multiple pods. Investigations are currently ongoing and we will provide another update in 30 minutes.</p>\n<p><strong>August 20, 2024 02:32 AM UTC | August 19, 2024 07:32 PM PT</strong></p>\n<p>We have indications in our logs that the issue causing ticket creation and updates may be related to a traffic spike. We are making progress in our investigations, but have not nailed down a root cause just yet. More information in the next 30 minutes.</p>\n<p><strong>August 20, 2024 02:59 AM UTC | August 19, 2024 07:59 PM PT</strong></p>\n<p>Traffic spikes in our email system may result in customers experiencing delays in ticket creation or receiving ticket updates. We are looking at ways to reduce the traffic so that the email queue can be processed. Next update expected in 30 minutes.</p>\n<p><strong>August 20, 2024 03:31 AM UTC | August 19, 2024 08:31 PM PT</strong></p>\n<p>We continue to investigate the issue with our email service that is resulting in delayed ticket updates and ticket creation. Our team is working to mitigate the issue. This issue may affect accounts on pods 13, 18, 19, 23, 25 and 28. Next update in 30 minutes.</p>\n<p><strong>August 20, 2024 04:03 AM UTC | August 19, 2024 09:03 PM PT</strong></p>\n<p>We are currently testing a potential fix for the Support ticket delays. Once that is confirmed to work as intended, we expect to see a reduction in our queued email backlog, resulting in tickets being created and updated. We will provide another update in 30 minutes. Thanks for your patience while we work through this issue.</p>\n<p><strong>August 20, 2024 04:41 AM UTC | August 19, 2024 09:41 PM PT</strong></p>\n<p>Our teams are working at the highest priority to fix the issue with email processing affecting Support ticketing. We expect all emails sent during this incident to start reprocessing once the issue is resolved. We will provide the next update as soon as we have progress to share.</p>\n<p><strong>August 20, 2024 05:33 AM UTC | August 19, 2024 10:33 PM PT</strong></p>\n<p>We continue to work on a fix for the email processing issues on multiple pods. We are rolling out our first potential fix now after successfully testing it. Apologies for the extended impact today; we will provide the next update when we have one. Thank you.</p>\n<p><strong>August 20, 2024 07:29 AM UTC | August 20, 2024 12:29 AM PT</strong></p>\n<p>Our team has rolled out a fix to all affected pods in an attempt to resolve the Support email ticket issues. We are monitoring our email backlog for improvements.</p>\n<p><strong>August 20, 2024 08:41 AM UTC | August 20, 2024 01:41 AM PT</strong></p>\n<p>We can see an improvement to our backlog and are continuing to monitor. Once the backlog has cleared, tickets will start creating at a normal pace again. Unfortunately there is no ETA or workaround at this time. If you need to access the emails in the meantime, we recommend checking the email inbox of the linked email address. We will provide another update when we have one.</p>\n<p><strong>August 20, 2024 10:27 AM UTC | August 20, 2024 03:27 AM PT</strong></p>\n<p>Our team has cleared the backlog, and ticket creation has returned to normal operations. With this, the service incident has been resolved. The backlog has been completed and tickets created or updated in chronological order. All emails impacted by the incident have been reprocessed and none were lost. Please note that you will not need to reconfigure the forwarding integration. We apologise for any inconvenience this may have caused and appreciate your patience.</p>\n<h3 id=\"h_01J5ZBHH2HRERNTWZ7ZP5B44CG\" class=\"p1\"> </h3>\n<h3 id=\"h_01J5XWF8QSMFTQW5BGTP7ZT89Z\"><strong><span style=\"color: #06363c;\">POST-MORTEM</span></strong></h3>\n<h3 id=\"h_01J5XWF8QSN7MRV5A9J5CV0E6P\"><span style=\"color: #06363c;\">Root Cause Analysis</span></h3>\n<p>This incident was caused by an unexpected bug in email routing logic which created an internal routing loop, causing a backup on email processing queues which led to delays.</p>\n<h3 id=\"h_01J5XWF8QS78KWSD6ANHSRYGCW\"><span style=\"color: #06363c;\">Resolution</span></h3>\n<p>To fix this issue, we released an update to address the bug in routing logic and allocated additional resources to allow the backlog of emails to process.</p>\n<h3 id=\"h_01J5XWF8QSTABNTT5T4BY0HTN2\"><span style=\"color: #06363c;\">Remediation Items</span></h3>\n<ol>\n<li>Improve email routing logic to avoid similar scenarios in the future.</li>\n<li>Revisit alerting to improve response times for growing email processing queues.</li>\n<li>Update documentation and runbooks.</li>\n</ol>\n<h4 id=\"h_01J5ZBHH2H7310NY6N7X5FDZ25\"> </h4>\n<h4 id=\"h_01J5XWF171ZBM46D4YRTZRAHBP\"><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 7843597686554,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7843597686554.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/7843597686554-Release-notes-through-2024-08-16",
-      "author_id": 1263082309989,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 1,
-      "vote_count": 1,
-      "section_id": 4405298847002,
-      "created_at": "2024-08-19T15:05:22Z",
-      "updated_at": "2024-08-26T14:24:31Z",
-      "name": "Release notes through 2024-08-16",
-      "title": "Release notes through 2024-08-16",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2024-08-19T16:10:06Z",
-      "user_segment_id": null,
-      "permission_group_id": 1324079,
-      "content_tag_ids": [],
-      "label_names": [
-        "mt",
-        "rank_low_algolia"
-      ],
-      "body": "<div class=\"note tip\">See our <a href=\"https://support.zendesk.com/hc/en-us/articles/7698503636250\" target=\"_blank\" rel=\"noopener noreferrer\">What's New</a> for an overview of what was released in the last month.</div>\n<p>This week's release notes include:</p>\n<ul>\n<li style=\"list-style-type: none;\">\n<ul>\n<li><a href=\"#h_01J2VFJ9MJ101NWFM9JE6VCNJY\">App Marketplace</a></li>\n<li><a href=\"#h_01J51KPAYNDQ1JKPJMEX7JH47Q\">Products with no updates this week</a></li>\n</ul>\n</li>\n</ul>\n<ul>\n<li style=\"list-style-type: none;\"> </li>\n</ul>\n<h2 id=\"h_01J2VFJ9MJ101NWFM9JE6VCNJY\">App Marketplace</h2>\n<div><strong>New</strong></div>\n<div>\n<ul>\n<li>\n<span style=\"white-space: normal;\">AI Sentiment Analysis <strong>(Support)</strong><br></span>AI Sentiment Analysis is designed to provide you with real-time insights into customer emotions. Sentiment Analysis for Zendesk helps you prioritize and route tickets effectively, ensuring each customer gets the attention they deserve. Quickly identify and address negative sentiment, turning issues into opportunities to delight customers.  Prioritize and route tickets based on sentiment and issue, ensuring critical tickets are handled first.  Monitor sentiment trends to identify and address problems early, preventing negative experiences.</li>\n<li>Redact Attachments <strong>(Support)</strong><br>Redact Attachments is designed to help you automatically remove or redact attachments in Zendesk tickets, saving storage costs and protecting sensitive information. With a simple setup, you can ensure all attachments are securely redacted, leaving only the essential ticket information.</li>\n<li>My AskAI for Support <strong>(Support)</strong><br>My AskAI for Support is the easy-to-setup AI customer support agent for your Zendesk workspace that you've been looking for. Available 24/7 to answer your customers’ questions, trained on all your help docs, it knows everything about your business. Save time and money, and allow your CS team to spend more time on Customer Success, complex queries, and higher-value customers and less time on generic, first-line support questions.</li>\n<li>Vexo 128 <strong>(Theme)</strong><br>Vexo 128 is an exceptional Zendesk theme with a sleek, professional design and numerous features. It offers various customizable blocks and call-to-action elements and is easily branded and tailored without coding. This enables the rapid creation of a help center that will impress your customers.</li>\n<li>Gleen Agent Assist <strong>(Support)</strong><br>Gleen Agent Assist helps you revolutionize your customer service.  Gleen Agent Assist is the hallucination-free AI sidekick that transforms agents into customer champions. This powerhouse tool supercharges your support team, dramatically boosting response speed and quality.  Cut average response time by 56%, leaving customers amazed at your lightning-fast service.  Sound like a native in 90+ languages, breaking down communication barriers effortlessly.  Deliver consistently accurate, high-quality responses that hit the mark every time.</li>\n<li>Linked Tickets By Saasly <strong>(Support) (paid)</strong><br>Linked Tickets By Saasly lets you efficiently manage and track tickets collectively, ensuring quick and consistent updates via broadcast messages to keep agents informed.  Centralize tracking as all issues are tracked from the primary ticket.  Efficiently communicate with status updates sent via broadcast messages to all agents.  Easily unlink tickets if necessary and more.</li>\n<li>CSAT-Timer (Support <strong>(paid)</strong><br>CSAT-Timer uses user-defined customizable rules to set timers based on your messaging channels. When a specific channel offers satisfaction, a new timer will be created in the ticket sidebar, displaying the time progress. If the timer expires before the user responds, the ticket will be automatically closed, tagged with Closed-by-CSAT-APP, and a notification will be sent to the top bar app informing the assignee of the closure.</li>\n<li>VOC.AI Chatbot <strong>(Support)</strong><br>VOC.AI Chatbot is a cutting-edge solution designed to revolutionize customer service and streamline your support processes. Train the AI Chatbot with your own materials to handle customer support questions and assist in product recommendations, driving customer purchases and boosting sales.</li>\n<li>Group Field Sync <strong>(Support) (paid)</strong><br>Group Field Sync lets you map and sync any field to the native Group field in Zendesk. This happens in real time, and does not require submitting the ticket. It can even be used to create hide/show logic on forms that react in real time to group changes in the Assignee field.</li>\n<li>Organization Cards <strong>(Support) (paid)</strong><br>Organization Cards keep your support agents informed with essential organization details at their fingertips. This app seamlessly integrates into the Zendesk ticket sidebar, displaying critical organization information directly within the ticket view. It's perfect for teams managing complex customer relationships where every detail matters.</li>\n</ul>\n<p> </p>\n</div>\n<h2 id=\"h_01J51KPAYNDQ1JKPJMEX7JH47Q\">Products with no updates this week</h2>\n<ul>\n<li id=\"h_01J4J6XFF970Z75V6QCXPC2G9M\">Support</li>\n<li>Explore</li>\n<li>\n<p id=\"01J5NJYQ88AY5DKB4RAGY3JF1G\">Mobile SDKs v2.23.0</p>\n</li>\n<li>\n<p id=\"01J5NJYQ88AY5DKB4RAGY3JF1G\">Talk</p>\n</li>\n<li id=\"h_01J4FEXFM8YST0299P5GHKEMFH\"><span>Guide and machine learning</span></li>\n<li id=\"h_01J4FF0YRBT3HX9F3MB7BWQEBJ\">Chat and messaging</li>\n<li id=\"h_01J4FF35R48V8H7RGJQZB6EHD2\">AI agents (formerly bots)</li>\n<li>Admin Center</li>\n<li>Zendesk QA</li>\n</ul>",
       "user_segment_ids": []
     }
   ],
