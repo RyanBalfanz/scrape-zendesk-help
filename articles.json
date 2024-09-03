@@ -47,7 +47,7 @@
       "vote_count": 0,
       "section_id": 4405298847002,
       "created_at": "2024-09-02T17:43:00Z",
-      "updated_at": "2024-09-02T17:55:57Z",
+      "updated_at": "2024-09-03T15:03:14Z",
       "name": "Release notes through 2024-08-30",
       "title": "Release notes through 2024-08-30",
       "source_locale": "en-us",
@@ -78,7 +78,7 @@
       "vote_count": 0,
       "section_id": 6279947161626,
       "created_at": "2024-09-02T15:20:05Z",
-      "updated_at": "2024-09-02T15:24:59Z",
+      "updated_at": "2024-09-03T15:00:42Z",
       "name": "My agents don't see the Customers page",
       "title": "My agents don't see the Customers page",
       "source_locale": "en-us",
@@ -92,6 +92,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_support",
         "role_admin"
       ],
@@ -111,7 +112,7 @@
       "vote_count": 0,
       "section_id": 4405303741594,
       "created_at": "2024-09-02T14:48:52Z",
-      "updated_at": "2024-09-02T14:50:36Z",
+      "updated_at": "2024-09-03T15:02:40Z",
       "name": "How can I create bot responses to words such as hello and thanks?",
       "title": "How can I create bot responses to words such as hello and thanks?",
       "source_locale": "en-us",
@@ -125,6 +126,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_bots_automation",
         "role_admin"
       ],
@@ -209,7 +211,7 @@
       "vote_count": 0,
       "section_id": 4405298910490,
       "created_at": "2024-08-29T15:13:06Z",
-      "updated_at": "2024-08-30T10:51:59Z",
+      "updated_at": "2024-09-03T15:04:55Z",
       "name": "I cannot change the language of my help center",
       "title": "I cannot change the language of my help center",
       "source_locale": "en-us",
@@ -223,6 +225,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_guide",
         "role_admin"
       ],
@@ -274,7 +277,7 @@
       "vote_count": 0,
       "section_id": 4405298855194,
       "created_at": "2024-08-28T12:56:34Z",
-      "updated_at": "2024-08-28T16:24:03Z",
+      "updated_at": "2024-09-03T15:04:50Z",
       "name": "The current month is missing from the Zendesk Support dashboard in Explore",
       "title": "The current month is missing from the Zendesk Support dashboard in Explore",
       "source_locale": "en-us",
@@ -288,6 +291,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_explore",
         "role_admin"
       ],
@@ -307,7 +311,7 @@
       "vote_count": 0,
       "section_id": 4405298877338,
       "created_at": "2024-08-27T22:57:42Z",
-      "updated_at": "2024-09-02T16:41:37Z",
+      "updated_at": "2024-09-03T15:05:48Z",
       "name": "What's new in Zendesk: September 2024",
       "title": "What's new in Zendesk: September 2024",
       "source_locale": "en-us",
@@ -319,6 +323,7 @@
       "permission_group_id": 1324079,
       "content_tag_ids": [],
       "label_names": [
+        "mt",
         "rank_low_algolia"
       ],
       "body": "<p><img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/whats_new_banner.jpg\" alt=\"whats_new_banner.jpg\" width=\"600\"></p>\n<div class=\"note tip\">\n<span class=\"notetitle\"></span>Click <strong>Follow</strong> in the <a href=\"https://support.zendesk.com/hc/en-us/sections/4405298877338\" target=\"_blank\" rel=\"noopener\">What's New section</a> to be notified each month when the What's New is published.</div>\n<p>Check out what's new in the last month:</p>\n<ul>\n<li><a href=\"#objects-and-rules\">Objects and rules</a></li>\n<li><a href=\"#accounts-and-billing\">Accounts and billing</a></li>\n<li><a href=\"#people\">People</a></li>\n<li><a href=\"#h_01J6CHW9613WY6P8HADEH2C5C1\">Agent Workspace</a></li>\n<li><a href=\"#h_01J6CMTAB7R96Z5PYP08VMVWJ6\">Support</a></li>\n<li><a href=\"#h_01J6CMPCAYRAM9RVQTGAJNT61C\">Explore</a></li>\n<li><a href=\"#h_01J6CZXNVMWPXYPFCQ114HYCHR\">Zendesk WFM</a></li>\n<li><a href=\"#h_01J6DBTB25BQJZ90GQW13QGMGB\">AI agents and bots</a></li>\n<li><a href=\"#h_01J6CMZ3JJCTKKRCYHRE5F1Z4F\">Security</a></li>\n<li><a href=\"#01J6CSVV0FSDAJMCT697D0ZKHE\">Developer</a></li>\n</ul>\n<p>Also don't miss:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408829663642\" target=\"_blank\" rel=\"noopener\">Zendesk early access programs</a></li>\n<li><a href=\"https://www.youtube.com/watch?v=n0qm5hsPXQk&amp;list=PLb00xo9zloI79P2ZP4DDXMrbNmOprjo43\" target=\"_blank\" rel=\"noopener\">What's new videos on YouTube</a></li>\n</ul>\n<div id=\"objects-and-rules\" class=\"nested\">\n<h2 id=\"h_01J6CHW961JF2G22D936AN8TS4\">Objects and rules</h2>\n<ul>\n<li style=\"margin-bottom: 6pt;\">\n<strong>Skills on a ticket can be configured as required or optional</strong> when omnichannel routing is on and you're using ticket triggers to assign the skills to the ticket. Optional skills are subject to the skills timeout in the routing configuration. See <a href=\"https://support.zendesk.com/hc/en-us/articles/5833458075930\" target=\"_blank\" rel=\"noopener\">Adding and managing skills on tickets</a>.\n<p style=\"margin-bottom: 4pt; margin-top: 6pt;\"><img style=\"border: 1px solid #ddd; border-radius: 4px; padding: 5px;\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/ocr_skills_priority_trigger.png\" alt=\"\"></p>\n</li>\n</ul>\n</div>\n<div id=\"accounts-and-billing\" class=\"nested\">\n<h2 id=\"h_01J6CHW961DZDSN4JTW45FM6H0\">Accounts and billing</h2>\n<ul>\n<li>\n<strong>The pod number and the data center location for your account</strong> are displayed at the bottom of the Admin Center Home page with links to account status information. Your subdomain appears at the top of the page. See <a href=\"https://support.zendesk.com/hc/en-us/articles/4408829092506\" target=\"_blank\" rel=\"noopener noreferrer\">What is a Pod? </a><br>\n<p class=\"p\"><img id=\"topic_jn2_cd3_rmb__image_ncq_xkd_smb\" class=\"image img-screenshot\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/admin_home_pod.png\" width=\"700\"></p>\n</li>\n<li>\n<strong style=\"box-sizing: inherit;\">Eligible Support customers can try out the Collaboration add-on </strong>free for 30 days free before deciding to purchase. This add-on includes <a href=\"https://support.zendesk.com/hc/en-us/articles/4408846501402\" target=\"_blank\" rel=\"noopener noreferrer\">light agents</a> and <a href=\"https://support.zendesk.com/hc/en-us/articles/4408844206746\" target=\"_blank\" rel=\"noopener noreferrer\">side conversations</a>. You must have a Support Professional plan or above. See<span> </span><a href=\"https://support.zendesk.com/hc/en-us/articles/4726042295194\" target=\"_blank\" rel=\"noopener noreferrer\">Trying out a plan or feature upgrade</a>.<br>\n<p class=\"p\"><img id=\"topic_jn2_cd3_rmb__image_ncq_xkd_smb\" class=\"image img-screenshot\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/trial_upgrade_collaboration.png\" width=\"600\"></p>\n</li>\n<li style=\"margin-bottom: 6pt;\">\n<strong>Premium sandboxes now replicate support addresses</strong>. This enhancement streamlines the process of getting premium sandboxes up and running as functional test environments. See <a href=\"https://support.zendesk.com/hc/en-us/articles/4408822049818\" target=\"_blank\" rel=\"noopener\">Creating a premium sandbox with data replication</a>.</li>\n<li style=\"margin-bottom: 6pt;\">\n<strong>You can now sync subscription data to existing sandboxes</strong> on Enterprise plans. Syncing subscription data, including products, add-ons, and cancelations, to an existing sandbox helps keep your sandbox relevant for testing purposes and reduces the frequency with which they need to be replaced. See <a href=\"https://support.zendesk.com/hc/en-us/articles/7414296161818\" target=\"_blank\" rel=\"noopener\">Syncing products and add-ons to sandboxes</a>.\n<p style=\"margin-bottom: 4pt; margin-top: 6pt;\"><img style=\"border: 1px solid #ddd; border-radius: 4px; padding: 5px;\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/sandbox_sync_subscription_data.png\" alt=\"\"></p>\n</li>\n</ul>\n</div>\n<div id=\"people\" class=\"nested\">\n<h2 id=\"h_01J6CHW961R30S3R3SG4K1Q2T3\">People</h2>\n<ul>\n<li style=\"margin-bottom: 6pt;\">\n<strong>You can now configure different behavior for how a departing agent’s solved tickets are reassigned</strong>. Reassignment behavior can be configured at both the account-level and group-level. See <a href=\"https://support.zendesk.com/hc/en-us/articles/7431999772954\" target=\"_blank\" rel=\"noopener noreferrer\">Setting reassignment options for groups' solved tickets</a>.<br><img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/solved_reassign_show_group.png\" width=\"600\">\n</li>\n</ul>\n</div>\n<div id=\"[unclassified]\" class=\"nested\">\n<h2 id=\"h_01J6CHW9613WY6P8HADEH2C5C1\">Agent Workspace</h2>\n<ul>\n<li>\n<span class=\"wysiwyg-color-black\"><strong>New scrolling options for ticket conversations</strong> in the Zendesk Agent Workspace. Agents can use a single click to see the newest or oldest message in a conversation. See <a href=\"https://support.zendesk.com/hc/en-us/articles/4408831849882#topic_jn2_cd3_rmb\" target=\"_blank\" rel=\"noopener noreferrer\">Scrolling through a conversation</a>. <br></span>\n<p class=\"p\"><img id=\"topic_jn2_cd3_rmb__image_ncq_xkd_smb\" class=\"image img-screenshot\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/aw_scroll_see_newest.png\" width=\"400\"></p>\n</li>\n</ul>\n<h2 id=\"h_01J6CMTAB7R96Z5PYP08VMVWJ6\">Support</h2>\n<ul>\n<li>\n<strong>Expanded channel support for intelligent triage</strong> to include more native and social messaging support. For email channels, the new options are Facebook Post and X Corp. For messaging channels, the new options are Native Messaging, Apple Business Chat, Google Business Messages, KakaoTalk, MessageBird SMS, and Sunshine Conversations API. See <a href=\"https://support.zendesk.com/hc/en-us/articles/4550640560538\">Automatically detecting customer intent, language, and sentiment</a>.</li>\n<li>\n<strong>Custom objects cards are now configurable for customers </strong>on Professional plans and above. Custom objects cards appear in the record preview panel in the Agent Workspace. Like the user essentials card, you can configure a custom object card by adding, removing, and reordering its fields. See <a href=\"https://support.zendesk.com/hc/en-us/articles/5768595554714\" target=\"_blank\" rel=\"noopener noreferrer\">Configuring cards to view additional information in the Agent Workspace</a>.<br><img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/cards_select_card_type.png\" width=\"600\">\n</li>\n</ul>\n<h2 id=\"h_01J6CWJYPFD5JNHB2JCPKD9J7F\">Messaging</h2>\n<ul>\n<li>\n<span><strong>Ticket tags for messaging triggers</strong> are designed to help customers add ticket tags to messaging conversations. This enables admins to set up and execute automations, improving operational efficiency and reporting of messaging tickets. See <a href=\"https://support.zendesk.com/hc/en-us/articles/6058753945242-Working-with-messaging-triggers-in-Admin-Center#topic_w1p_vpn_q5b\">Working with messaging triggers in Admin Center</a>.</span><span></span>\n</li>\n</ul>\n<h2 id=\"h_01J6CMPCAYRAM9RVQTGAJNT61C\">Explore</h2>\n<ul>\n<li>\n<strong>Filtered views feature in the beta dashboard builder</strong> makes it easy to switch between different filter settings on a single dashboard tab. A filtered view acts as a bookmark that returns a viewer to a saved state within a dashboard tab without having to manually set the dashboard’s filters. See <a href=\"https://support.zendesk.com/hc/en-us/articles/7610243884826\">Bookmarking dashboard states with filtered views</a>.<br><img id=\"topic_jn2_cd3_rmb__image_ncq_xkd_smb\" class=\"image img-screenshot\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/explore_filtered_view_dropdown_example.png\" width=\"600\">\n</li>\n</ul>\n<h2 id=\"h_01J6CZXNVMWPXYPFCQ114HYCHR\">Zendesk WFM</h2>\n<ul>\n<li>\n<strong>Admins can now configure Task lock settings at the team member level.</strong> Task lock allows agents to stay clocked into a single ticket or task while opening other tickets. This is helpful, for example, when an agent needs to research past tickets while continuing to track the time for a ticket they're working on. See <a href=\"https://support.zendesk.com/hc/en-us/articles/7446325512730\"><span class=\"wysiwyg-underline\" style=\"color: #1155cc;\">Editing WFM team member profiles</span></a>.<br><img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/wfm_task_lock_user_profile.png\" width=\"600\">\n</li>\n<li>\n<strong>Export WFM team member data to a CSV file</strong>. Admins can now also export team member data to a CSV file to use it as a backup file or to analyze agents' information more thoroughly to quickly identify settings that have been changed or need to be updated. See <a href=\"https://support.zendesk.com/hc/en-us/articles/7446311222042\"><span class=\"wysiwyg-underline\" style=\"color: #1155cc;\">Exporting WFM team member data</span></a><br><img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/wfm_user_mgmt_export.png\" width=\"600\">.</li>\n<li>\n<strong>Changing</strong> <strong>talk states based on general tasks</strong>. Admins can now automatically sync general tasks with specific talk statuses. When agents clock into a general task from the WFM app in the top navigation bar in Support, it now also automatically sets their Talk availability status, as defined by the admin for that general task. See <a href=\"https://support.zendesk.com/hc/en-us/articles/6443329426330\"><span class=\"wysiwyg-underline\" style=\"color: #1155cc;\">Setting up WFM general tasks</span></a>.<br><img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/wfm_set_talk_status.png\" width=\"600\">\n</li>\n</ul>\n<h2 id=\"h_01J6DBTB25BQJZ90GQW13QGMGB\">AI agents and bots</h2>\n<ul>\n<li>\n<strong>The automated resolutions pricing model for AI agents is now live.</strong> The automated resolution pricing and overage calculation takes effect on accounts using AI agent features based on several factors, including account renewal date and previous usage commitments. See <a href=\"https://support.zendesk.com/hc/en-us/articles/5352026794010\" target=\"_blank\" rel=\"noopener noreferrer\">About automated resolutions for AI agents</a>.</li>\n<li>\n<strong>Admins can provide feedback on the effectiveness of an automated resolution</strong> in a conversation transcript. Zendesk uses this feedback to improve AI agent performance for all customers. See <a href=\"https://support.zendesk.com/hc/en-us/articles/7043105495706#topic_nnl_nfv_ncc\" target=\"_blank\" rel=\"noopener noreferrer\">Submitting feedback to Zendesk on automated resolutions</a>.</li>\n</ul>\n<h2 id=\"h_01J6CMZ3JJCTKKRCYHRE5F1Z4F\">Security</h2>\n<ul>\n<li>\n<strong>Customers without the Advanced Data Protection &amp; Privacy add-on can add a condition to their deletion schedule.</strong> For example, you can delete tickets that include or exclude a specific brand, group, or ticket tag. See <a href=\"https://support.zendesk.com/hc/en-us/articles/6062884435866\" target=\"_blank\" rel=\"noopener noreferrer\">Creating deletion schedules for data retention policies</a>. </li>\n</ul>\n<h2 id=\"01J6CSVV0FSDAJMCT697D0ZKHE\">Developer</h2>\n<ul>\n<li>\n<strong>Inline article attachments are now localized.</strong> They are linked to a specific translation of an article rather than to the article itself. This means that the same image embedded in two different translations of the same article will generate two separate article_attachment records, each with its own unique ID. See <a href=\"https://developer.zendesk.com/api-reference/help_center/help-center-api/article_attachments/\">Article Attachments</a>.</li>\n<li>\n<strong>The Guide Media Objects API </strong>is now available. Guide media objects are files that can be added to help center articles either as embedded in the text or as attachments. The API provides CRUD (create, read, update, delete) capabilities, as well as features like file renaming and replacement, categorization, and permission controls. See the <a href=\"https://developer.zendesk.com/api-reference/help_center/help-center-api/guide_medias/\">Guide media objects</a> API reference.</li>\n<li>\n<strong>Zendesk Support OAuth grant types.</strong> On February 17, 2025, Zendesk will stop accepting the use of implicit grants and password grants as valid grant types for obtaining OAuth access tokens. This applies to all <code>/api/v2</code> APIs except the Live Chat API. If you're using OAuth 2.0 to authenticate API requests, you must switch to the authorization code grant flow. See <a href=\"https://support.zendesk.com/hc/en-us/articles/4408845965210\">Using OAuth authentication with your application</a>.</li>\n</ul>\n</div>",
@@ -369,7 +374,7 @@
       "vote_count": 0,
       "section_id": 7041762819738,
       "created_at": "2024-08-27T11:57:09Z",
-      "updated_at": "2024-08-28T07:45:45Z",
+      "updated_at": "2024-09-03T15:00:46Z",
       "name": "Does it matter who I select as a reviewee in calibrations in Zendesk QA?",
       "title": "Does it matter who I select as a reviewee in calibrations in Zendesk QA?",
       "source_locale": "en-us",
@@ -383,6 +388,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_qa"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>When I'm doing calibrations in Zendesk QA, does it matter who the reviewee is?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>Calibration review score does not affect the user's internal quality score. The reviewee on the calibration is not relevant.</p>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/7043724530842-Setting-up-calibration-in-Zendesk-QA\" target=\"_blank\" rel=\"noopener noreferrer\">Setting up calibration in Zendesk QA</a>.</p>",
@@ -432,7 +438,7 @@
       "vote_count": 0,
       "section_id": 4405303740826,
       "created_at": "2024-08-23T14:55:48Z",
-      "updated_at": "2024-08-28T16:51:42Z",
+      "updated_at": "2024-09-03T15:04:03Z",
       "name": "Why can't I receive a phone verification call from Google?",
       "title": "Why can't I receive a phone verification call from Google?",
       "source_locale": "en-us",
@@ -466,7 +472,7 @@
       "vote_count": 0,
       "section_id": 6970673920794,
       "created_at": "2024-08-23T14:30:16Z",
-      "updated_at": "2024-08-28T09:52:50Z",
+      "updated_at": "2024-09-03T15:00:46Z",
       "name": "Why isn't the AI bot providing the correct answer or article?",
       "title": "Why isn't the AI bot providing the correct answer or article?",
       "source_locale": "en-us",
@@ -483,6 +489,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "generative reply",
         "bot AI reply",
         "bot AI not working"
@@ -503,7 +510,7 @@
       "vote_count": 0,
       "section_id": 4405298901274,
       "created_at": "2024-08-23T10:25:11Z",
-      "updated_at": "2024-08-29T10:33:15Z",
+      "updated_at": "2024-09-03T15:03:14Z",
       "name": "My customers receive attachments as links",
       "title": "My customers receive attachments as links",
       "source_locale": "en-us",
@@ -634,7 +641,7 @@
       "vote_count": 0,
       "section_id": 7041762819738,
       "created_at": "2024-08-22T10:45:35Z",
-      "updated_at": "2024-08-29T08:48:40Z",
+      "updated_at": "2024-09-03T15:05:08Z",
       "name": "How can I search for specific tickets in Zendesk QA?",
       "title": "How can I search for specific tickets in Zendesk QA?",
       "source_locale": "en-us",
@@ -648,6 +655,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_qa"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>I want to review specific tickets in Zendesk QA. How can I find them?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>Search for specific tickets by their IDs.</p>\n<p><strong>To perform a search in Zendesk QA</strong></p>\n<ol>\n<li>Navigate to <strong>Conversations</strong> view</li>\n<li>Under <strong>Public filters</strong>, select any filter</li>\n<li>Use the search bar at the bottom of the ticket list</li>\n</ol>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7888541392410\" alt=\"ticket search bar\"></p>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/7043661945370-Using-the-Conversations-view\" target=\"_blank\" rel=\"noopener noreferrer\">Using the Conversations view</a>.</p>",
@@ -731,7 +739,7 @@
       "vote_count": 0,
       "section_id": 7041762819738,
       "created_at": "2024-08-22T08:05:53Z",
-      "updated_at": "2024-08-28T07:16:58Z",
+      "updated_at": "2024-09-03T15:04:41Z",
       "name": "Can agents see their AutoQA scores in Zendesk QA?",
       "title": "Can agents see their AutoQA scores in Zendesk QA?",
       "source_locale": "en-us",
@@ -764,7 +772,7 @@
       "vote_count": 0,
       "section_id": 7041762819738,
       "created_at": "2024-08-22T07:16:38Z",
-      "updated_at": "2024-08-27T12:48:50Z",
+      "updated_at": "2024-09-03T15:05:33Z",
       "name": "Do I need to have a Zendesk account to use Zendesk QA?",
       "title": "Do I need to have a Zendesk account to use Zendesk QA?",
       "source_locale": "en-us",
@@ -778,6 +786,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_qa"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>Is a Zendesk account required to use Zendesk QA or can I use it with a different help desk as well?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>You need a Zendesk account to use Zendesk QA, but you can add other help desk connections once you've connected your Zendesk account.</p>\n<p>For more information, see the articles: </p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/7043669502106-Setting-up-your-Zendesk-QA-account-and-connecting-your-help-desk#h_01J16H0B4QHQHW860EQRBFDP79\" target=\"_blank\" rel=\"noopener noreferrer\">Setting up your Zendesk QA account and connecting your help desk</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/sections/7162489443354-Integrating-Zendesk-QA\" target=\"_blank\" rel=\"noopener noreferrer\">Integrating Zendesk QA</a></li>\n</ul>",
@@ -830,7 +839,7 @@
       "vote_count": 0,
       "section_id": 7041762819738,
       "created_at": "2024-08-21T08:18:58Z",
-      "updated_at": "2024-08-28T12:32:17Z",
+      "updated_at": "2024-09-03T15:05:37Z",
       "name": "What do the assignments conditions in Zendesk QA mean?",
       "title": "What do the assignments conditions in Zendesk QA mean?",
       "source_locale": "en-us",
