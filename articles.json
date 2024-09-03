@@ -19,14 +19,14 @@
       "vote_count": 0,
       "section_id": 4405298850586,
       "created_at": "2024-09-03T15:30:19Z",
-      "updated_at": "2024-09-03T15:30:25Z",
+      "updated_at": "2024-09-03T15:32:02Z",
       "name": "How can I export all tabs from a dashboard?",
       "title": "How can I export all tabs from a dashboard?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-09-03T15:30:25Z",
+      "edited_at": "2024-09-03T15:32:00Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -36,7 +36,7 @@
         "ab0_explore",
         "role_admin"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>In Explore, I'd like to export all the tabs from my dashboard. How can I proceed?</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7946708539418\" alt=\"Export.png\" width=\"320\" height=\"158\"></p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>In dashboards, you can only export tabs one by one. As a workaround, export each tab separately. Then, use an external tool to merge your documents.</p>\n<p>For example, if you exported several PDF files, use an external tool to merge those files.</p>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4483481898266-Exporting-dashboard-tabs-and-reports\" target=\"_blank\" rel=\"noopener noreferrer\">Exporting dashboard tabs and reports</a>.</p>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>In Explore, I'd like to export all the tabs from my dashboard. How can I proceed?</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7946708539418\" alt=\"Export.png\" width=\"320\" height=\"158\"></p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>In dashboards, you can only export tabs one by one. As a workaround, export each tab separately. Then, use an external tool to merge your documents. For example, if you exported several PDF files, use an external tool to merge those files.</p>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4483481898266-Exporting-dashboard-tabs-and-reports\" target=\"_blank\" rel=\"noopener noreferrer\">Exporting dashboard tabs and reports</a>.</p>",
       "user_segment_ids": []
     },
     {
@@ -52,14 +52,14 @@
       "vote_count": 0,
       "section_id": 4405298900122,
       "created_at": "2024-09-03T15:15:46Z",
-      "updated_at": "2024-09-03T15:23:25Z",
+      "updated_at": "2024-09-03T15:46:53Z",
       "name": "I'm seeing performance issues and need to flush my DNS",
       "title": "I'm seeing performance issues and need to flush my DNS",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-09-03T15:23:24Z",
+      "edited_at": "2024-09-03T15:46:51Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -70,7 +70,7 @@
         "ab0_admin_center",
         "role_agent"
       ],
-      "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2>\n<p><span>I encounter errors in Zendesk related to a corrupt domain name system (DNS) cache. The device of the agent who is impacted shows one of those symptoms:</span></p>\n<ul>\n<li>Difficulty accessing Zendesk</li>\n<li>Slow loading times or unresponsive pages</li>\n<li>Unexpected error messages or connection timeouts</li>\n<li>Data is not updating or syncing correctly</li>\n<li>Issues that can't be reproduced on another device, or a different environment, and a few agent are impacted</li>\n</ul>\n<h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2>\n<p><span>Ask your network administrator or technical team to read and follow the steps below, as they might affect other services and solutions you're using.</span></p>\n<h3 id=\"h_01J6W6SH5F3KZ5K0B0KT30NRNC\">On Windows</h3>\n<ol>\n<li>Open <strong>Command Prompt</strong><br>\n<ul>\n<li>Press <code>Win + R</code> to open the Run dialog box</li>\n<li>Type <code>cmd</code> and press <code>Enter</code> to open the command prompt</li>\n</ul>\n</li>\n<li>Execute the DNS flush command<br>\n<ul>\n<li>In the command prompt window, type this command:<br><code>ipconfig /flushdns</code>\n</li>\n<li>Press <code>Enter</code>, you should see a message indicating that the DNS resolver cache was successfully flushed.</li>\n</ul>\n</li>\n<li>Restart your browser<br>\n<ul>\n<li>Close and reopen your browser to ensure the changes take effect</li>\n<li>Attempt to access Zendesk again and verify if the issues are resolved</li>\n</ul>\n</li>\n</ol>\n<h3 id=\"h_01J6W6SN6QVJX73YVD8FRKY1MD\">For macOS</h3>\n<ol>\n<li>Open <strong>Terminal</strong><br>\n<ul>\n<li>Press <strong>Command</strong> and <strong>Space</strong> to open <strong>Spotlight Search</strong>\n</li>\n<li>Type <strong>Terminal</strong> and press <strong>Enter</strong> to open the <strong>Terminal</strong> app</li>\n</ul>\n</li>\n<li>Execute a flush command<br>\n<ul>\n<li>In the <strong>Terminal</strong> window, type this command:<br><code>sudo killall -HUP mDNSResponder</code>\n</li>\n<li>Press <strong>Enter</strong>, and enter your admin password</li>\n</ul>\n</li>\n<li>Restart your browser<br>\n<ul>\n<li>Close and reopen your browser, to ensure the changes take effect</li>\n<li>Attempt to access Zendesk again and verify if the issues are resolved</li>\n</ul>\n</li>\n</ol>\n<p><span>When you flush your DNS, you can resolve common issues related to outdated records, DNS poisoning, or changes in network configuration affecting Zendesk. </span></p>\n<div class=\"p\">\n<div class=\"note note\">\n<span class=\"notetitle\">Disclaimer:</span> This article is provided as a general guideline for troubleshooting issues related to your DNS, which may impact your Zendesk experience. Zendesk does not support the troubleshooting of external environments. Contact your technical team for further assistance.</div>\n</div>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408835803930-How-can-I-solve-general-performance-issues-in-my-Zendesk-account\" target=\"_blank\" rel=\"noopener noreferrer\">How can I solve general performance issues in my Zendesk account?</a></p>",
+      "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2>\n<p><span>I encountered errors in Zendesk related to a corrupt domain name system (DNS) cache. The devices of agents affected by this have at least one of the following symptoms:</span></p>\n<ul>\n<li>Difficulty accessing Zendesk</li>\n<li>Slow loading times or unresponsive pages</li>\n<li>Unexpected error messages or connection timeouts</li>\n<li>Data is not updating or syncing correctly</li>\n<li>Issues that can't be reproduced on another device, or a different environment, and a few agent are impacted</li>\n</ul>\n<h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2>\n<p><span>Flushing your DNS can resolve common issues related to outdated records, DNS poisoning, or changes in network configuration affecting Zendesk. Ask your network administrator or technical team to perform the following steps. Note that these steps might affect other services and solutions you're using.</span></p>\n<h3 id=\"h_01J6W6SH5F3KZ5K0B0KT30NRNC\">On Windows</h3>\n<ol>\n<li>Open a <strong>Command Prompt</strong>.<br>\n<ul>\n<li>Press <code>Win + R</code> to open the Run dialog box.</li>\n<li>Type <code>cmd</code> and press <code>Enter</code> to open the command prompt.</li>\n</ul>\n</li>\n<li>In the command prompt, type <code>ipconfig /flushdns</code> and press <code>Enter</code>.<br>You should see a response indicating that the DNS resolver cache was successfully flushed.</li>\n<li>Close and re-open your browser, then attempt to access Zendesk again to verify that the issue was resolved.</li>\n</ol>\n<h3 id=\"h_01J6W6SN6QVJX73YVD8FRKY1MD\">On macOS</h3>\n<ol>\n<li>Open a <strong>Terminal</strong>.<br>\n<ul>\n<li>Press <strong>Command</strong> and <strong>Space</strong> to open <strong>Spotlight Search</strong>\n</li>\n<li>Type <strong>Terminal</strong> and press <strong>Enter</strong> to open the <strong>Terminal</strong> app</li>\n</ul>\n</li>\n<li>In the <strong>Terminal</strong> window, type <code>sudo killall -HUP mDNSResponder</code> and press <strong>Enter</strong>. When prompted, enter your admin password.</li>\n<li>Close and re-open your browser, then attempt to access Zendesk again to verify that the issue was resolved.</li>\n</ol>\n<div class=\"p\">\n<div class=\"note note\">\n<span class=\"notetitle\">Disclaimer:</span> This article is provided as a general guideline for troubleshooting issues related to your DNS, which may impact your Zendesk experience. Zendesk does not support the troubleshooting of external environments. Contact your technical team for further assistance.</div>\n</div>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408835803930-How-can-I-solve-general-performance-issues-in-my-Zendesk-account\" target=\"_blank\" rel=\"noopener noreferrer\">How can I solve general performance issues in my Zendesk account?</a></p>",
       "user_segment_ids": []
     },
     {
