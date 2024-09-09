@@ -1,5 +1,5 @@
 {
-  "count": 4701,
+  "count": 4702,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 157,
@@ -395,6 +395,36 @@
         "role_admin"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>In messaging, I noticed my bot doesn't respond when customers write hello or thank you. How can I create responses?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<ol>\n<li>You can create an <a href=\"https://support.zendesk.com/hc/en-us/articles/4422584657434-Creating-conversation-bot-answers-for-common-customer-questions#topic_nm5_w5f_wbc\" target=\"_blank\" rel=\"noopener noreferrer\">answer flow</a> for each option<br><img src=\"https://support.zendesk.com/hc/article_attachments/7939098917530\" alt=\"Create an answer.png\" width=\"341\" height=\"214\">\n</li>\n<li>For <strong>When to show this answer</strong>, add the keywords of your choice &gt; <strong>Next</strong><br><img src=\"https://support.zendesk.com/hc/article_attachments/7939052693274\" alt=\"When to show this answer.png\" width=\"341\" height=\"348\">\n</li>\n<li>Create the flow of your choice<br><img src=\"https://support.zendesk.com/hc/article_attachments/7939052693658\" alt=\"Flow.png\" width=\"341\" height=\"397\">\n</li>\n<li>Click <strong>Done</strong> &gt; <strong>Publish bot</strong>\n</li>\n</ol>",
+      "user_segment_ids": []
+    },
+    {
+      "id": 7923753040794,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7923753040794.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/7923753040794-Announcing-education-pre-trained-intents-for-intelligent-triage-and-AI-agents",
+      "author_id": 6160803261338,
+      "comments_disabled": true,
+      "draft": false,
+      "promoted": true,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298833818,
+      "created_at": "2024-08-30T19:53:01Z",
+      "updated_at": "2024-09-09T16:01:56Z",
+      "name": "Announcing education pre-trained intents for intelligent triage and AI agents",
+      "title": "Announcing education pre-trained intents for intelligent triage and AI agents",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2024-09-09T16:01:14Z",
+      "user_segment_id": null,
+      "permission_group_id": 1324079,
+      "content_tag_ids": [],
+      "label_names": [
+        "newsfeed"
+      ],
+      "body": "<table style=\"border-collapse: collapse; width: 100%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 50%;\"><strong>Announced on</strong></td>\n<td style=\"width: 50%;\"><strong>Rollout on</strong></td>\n</tr>\n<tr>\n<td style=\"width: 50%;\">September 9, 2024</td>\n<td style=\"width: 50%;\">September 9, 2024</td>\n</tr>\n</tbody>\n</table>\n<p>We're happy to announce that we now support pre-trained intents for the education industry. These intents can be used with <a href=\"https://support.zendesk.com/hc/en-us/articles/4964463770650\">intelligent triage</a> and <a href=\"https://support.zendesk.com/hc/en-us/articles/6970583409690\">AI agents</a>, offering automated and consistent classification of incoming tickets and conversations, which can be leveraged in business rules, workflows, routing, and more.</p>\n<p>This announcement answers the following questions:</p>\n<ul>\n<li><a href=\"#h_01J6JDHPCEG5TQ9D9SDX5XEH6E\">What’s changing?</a></li>\n<li><a href=\"#h_01J6JDHRYV4V4EBCSZ91VZC9W5\">Why is Zendesk making this change?</a></li>\n<li><a href=\"#h_01J6JDHY83B8EMJ9SFV7CCQ1BJ\">What do I need to do?</a></li>\n</ul>\n<h2 id=\"h_01J6JDHPCEG5TQ9D9SDX5XEH6E\">What’s changing?</h2>\n<p>We’ve expanded our coverage of intents by supporting pre-trained intents for the education industry, aiming to meet the specific needs of managing and updating information about education courses, examinations, admissions, scholarships, and student life.</p>\n<p>Now, you can enhance your tickets with industry-specific intents tailored for the education industry. This will provide valuable insights into your ticket patterns, helping you identify the most relevant intents for your business. Additionally, it will streamline the triage process and, ultimately, reduce the volume of incoming tickets by enabling smarter automation.</p>\n<h2 id=\"h_01J6JDHRYV4V4EBCSZ91VZC9W5\">Why is Zendesk making this change?</h2>\n<p>We’re focused on expanding the capabilities of AI for all customers. Our teams are continually training existing and new models to provide the benefit of these features for a wide variety of use cases and workflows.</p>\n<h2 id=\"h_01J6JDHY83B8EMJ9SFV7CCQ1BJ\">What do I need to do?</h2>\n<p>If you want to leverage intents to better understand your business use cases or create workflows, see <a href=\"https://support.zendesk.com/hc/en-us/articles/4550640560538\">Automatically detecting customer intent, language, and sentiment</a>.</p>\n<p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/6447052855194\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\">Zendesk Customer Support</a>.</p>",
       "user_segment_ids": []
     },
     {
@@ -954,39 +984,6 @@
         "ab0_qa"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>I want to review specific tickets in Zendesk QA. How can I find them?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>Search for specific tickets by their IDs.</p>\n<p><strong>To perform a search in Zendesk QA</strong></p>\n<ol>\n<li>Navigate to <strong>Conversations</strong> view</li>\n<li>Under <strong>Public filters</strong>, select any filter</li>\n<li>Use the search bar at the bottom of the ticket list</li>\n</ol>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7888541392410\" alt=\"ticket search bar\"></p>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/7043661945370-Using-the-Conversations-view\" target=\"_blank\" rel=\"noopener noreferrer\">Using the Conversations view</a>.</p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 7864532773530,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7864532773530.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/7864532773530-Can-I-change-an-assignment-in-Zendesk-QA-without-resetting-the-cycle",
-      "author_id": 7018378199194,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 7041762819738,
-      "created_at": "2024-08-22T10:06:20Z",
-      "updated_at": "2024-08-27T18:07:11Z",
-      "name": "Can I change an assignment in Zendesk QA without resetting the cycle?",
-      "title": "Can I change an assignment in Zendesk QA without resetting the cycle?",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2024-08-27T18:07:08Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801135069,
-      "content_tag_ids": [],
-      "label_names": [
-        "ks",
-        "ab0",
-        "mt",
-        "ab0_qa"
-      ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>I need to update an assignment but I don't want to lose the cycle's progress. Can I change the assignment without resetting the goal?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>When publishing changes to an assignment mid-cycle, your progress won't reset. All given reviews will count towards the goal of the assignment.</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7864638503706\" alt=\"assignment cycle update\" width=\"430\" height=\"266\"></p>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/7043747327770-Setting-up-assignments#goal\" target=\"_blank\" rel=\"noopener noreferrer\">Setting up assignments</a>.</p>",
       "user_segment_ids": []
     }
   ],
