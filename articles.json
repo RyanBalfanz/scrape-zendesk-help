@@ -511,7 +511,7 @@
       "vote_count": 0,
       "section_id": 4405303741594,
       "created_at": "2024-09-02T14:48:52Z",
-      "updated_at": "2024-09-03T15:02:40Z",
+      "updated_at": "2024-09-10T18:08:22Z",
       "name": "How can I create bot responses to words such as hello and thanks?",
       "title": "How can I create bot responses to words such as hello and thanks?",
       "source_locale": "en-us",
@@ -521,7 +521,9 @@
       "edited_at": "2024-09-02T14:50:35Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
-      "content_tag_ids": [],
+      "content_tag_ids": [
+        "01GT23HJPMK4ENAF5ZVE7H5RR9"
+      ],
       "label_names": [
         "ks",
         "ab0",
