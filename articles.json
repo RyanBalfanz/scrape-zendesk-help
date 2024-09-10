@@ -130,7 +130,7 @@
     {
       "id": 7974013029146,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/7974013029146.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/7974013029146-Tickets-remain-assigned-when-an-agent-is-out-of-office",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/7974013029146-What-happens-to-tickets-when-an-agent-is-out-of-office",
       "author_id": 1266644443030,
       "comments_disabled": false,
       "draft": false,
@@ -140,14 +140,14 @@
       "vote_count": 0,
       "section_id": 4405298879258,
       "created_at": "2024-09-06T14:45:01Z",
-      "updated_at": "2024-09-06T14:47:46Z",
-      "name": "Tickets remain assigned when an agent is out of office",
-      "title": "Tickets remain assigned when an agent is out of office",
+      "updated_at": "2024-09-10T14:33:30Z",
+      "name": "What happens to tickets when an agent is out of office?",
+      "title": "What happens to tickets when an agent is out of office?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-09-06T14:47:45Z",
+      "edited_at": "2024-09-10T14:33:05Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -157,7 +157,7 @@
         "ab0_admin_center",
         "role_admin"
       ],
-      "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2>\n<p>With the <strong>Out of Office</strong> app, tickets remain assigned to my agents.</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7974041472538\" alt=\"Out of office.png\" width=\"546\" height=\"405\"></p>\n<h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2>\n<p>When you notice unexpected errors with the app, follow these steps:</p>\n<ul>\n<li>Try <a href=\"https://support.zendesk.com/hc/en-us/articles/4409155972378-Managing-your-installed-apps#topic_2kj_1t4_ym\" target=\"_blank\" rel=\"noopener noreferrer\">uninstalling</a> and <a href=\"https://www.zendesk.com/marketplace/apps/support/49617/out-of-office/\" target=\"_blank\" rel=\"noopener noreferrer\">reinstalling</a> the app</li>\n<li>Follow the <a href=\"https://www.zendesk.com/marketplace/apps/support/49617/out-of-office/\" target=\"_blank\" rel=\"noopener noreferrer\">How to install</a> tab and re-configure the app for your agents</li>\n</ul>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408828358682-Installing-and-using-the-Out-of-Office-app\" target=\"_blank\" rel=\"noopener noreferrer\">Installing and using the Out of Office app</a>.</p>",
+      "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Question</h2>\n<p>With the <strong>Out of Office</strong> app, tickets remain assigned to my agents. What happens to Zendesk tickets when an agent is out of office?</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/7974041472538\" alt=\"Out of office.png\" width=\"546\" height=\"405\"></p>\n<h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Answer</h2>\n<p>When you notice unexpected errors with the app, follow these steps:</p>\n<ul>\n<li>Try <a href=\"https://support.zendesk.com/hc/en-us/articles/4409155972378-Managing-your-installed-apps#topic_2kj_1t4_ym\" target=\"_blank\" rel=\"noopener noreferrer\">uninstalling</a> and <a href=\"https://www.zendesk.com/marketplace/apps/support/49617/out-of-office/\" target=\"_blank\" rel=\"noopener noreferrer\">reinstalling</a> the app</li>\n<li>Follow the <a href=\"https://www.zendesk.com/marketplace/apps/support/49617/out-of-office/\" target=\"_blank\" rel=\"noopener noreferrer\">How to install</a> tab and re-configure the app for your agents</li>\n</ul>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408828358682-Installing-and-using-the-Out-of-Office-app\" target=\"_blank\" rel=\"noopener noreferrer\">Installing and using the Out of Office app</a>.</p>",
       "user_segment_ids": []
     },
     {
