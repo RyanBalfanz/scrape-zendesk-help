@@ -19,7 +19,7 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2024-09-16T05:12:09Z",
-      "updated_at": "2024-09-16T06:36:01Z",
+      "updated_at": "2024-09-16T07:01:26Z",
       "name": "Service Incident - September 16th, 2024",
       "title": "Service Incident - September 16th, 2024",
       "source_locale": "en-us",
@@ -32,6 +32,7 @@
       "content_tag_ids": [],
       "label_names": [
         "service_incident",
+        "mt",
         "rank_low_algolia"
       ],
       "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>September 16, 2024 06:36 AM UTC | September 15, 2024 11:36 PM PT </strong><br>Our content delivery partner has implemented a fix, and we have reports confirming recovery from some customers. We will continue to monitor and will provide the next update upon full recovery.</p>\n<p class=\"p1\"><strong>September 16, 2024 05:59 AM UTC | September 15, 2024 10:59 PM PT </strong><br>Whilst our content delivery provider is still working on the fix, we are are no longer able to reproduce previous errors. Please refresh your Zendesk instance and let us know if you are seeing any improvements. We continue to work with our CDN provider and will provide another update in 30 minutes.</p>\n<p class=\"p1\"><strong>September 16, 2024 05:33 AM UTC | September 15, 2024 10:33 PM PT </strong><br>Our content delivery provider has identified an issue causing elevated errors at their end and they are implementing a fix. We are continuing to work with them and will provide another update in 30 minutes or when we have more to share.</p>\n<p class=\"p1\"><strong>September 16, 2024 05:12 AM UTC | September 15, 2024 10:12 PM PT </strong><br>We are aware of an issue that may causing symptoms with customers not being able to login, latencies accessing various parts of the Zendesk product, or API calls failing. We are reaching out to our content delivery provider and are working with them.  More information in the next 30 minutes. </p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
