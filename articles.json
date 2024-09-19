@@ -19,14 +19,14 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2024-09-19T09:02:20Z",
-      "updated_at": "2024-09-19T09:46:58Z",
+      "updated_at": "2024-09-19T13:31:25Z",
       "name": "Service Incident - September 19th, 2024",
       "title": "Service Incident - September 19th, 2024",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-09-19T09:36:19Z",
+      "edited_at": "2024-09-19T13:23:43Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
@@ -35,7 +35,7 @@
         "mt",
         "rank_low_algolia"
       ],
-      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>September 19, 2024 09:36 AM UTC | September 19, 2024 02:36 AM PT </strong><br>While our team is actively working to fully resolve the problem and has implemented a potential fix, we are seeing an initial improvement with a decrease in errors. We will continue to monitor the situation and keep you updated with any further developments. Thank you for your patience.</p>\n<p class=\"p1\"><strong>September 19, 2024 09:02 AM UTC | September 19, 2024 02:02 AM PT </strong><br>We are currently experiencing authentication issues that are affecting multiple products and Pods, including Chat, Talk, Support, and Explore. Our team is actively investigating the problem, and we will provide more information as soon as we have further details. Thank you for your patience and understanding.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
+      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>September 19, 2024 01:23 PM UTC | September 19, 2024 06:23 AM PT </strong><br>The authentication issues affecting multiple products and Pods, which specifically caused “This page isn’t working” and HTTP Error 500 messages for customers accessing Zendesk Explore, have been fully resolved. Customers should no longer experience any errors, and normal functionality has been restored. Thank you again for your patience during this time.</p>\n<p class=\"p1\"><strong>September 19, 2024 09:36 AM UTC | September 19, 2024 02:36 AM PT </strong><br>While our team is actively working to fully resolve the problem and has implemented a potential fix, we are seeing an initial improvement with a decrease in errors. We will continue to monitor the situation and keep you updated with any further developments. Thank you for your patience.</p>\n<p class=\"p1\"><strong>September 19, 2024 09:02 AM UTC | September 19, 2024 02:02 AM PT </strong><br>We are currently experiencing authentication issues that are affecting multiple products and Pods, including Chat, Talk, Support, and Explore. Our team is actively investigating the problem, and we will provide more information as soon as we have further details. Thank you for your patience and understanding.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
       "user_segment_ids": []
     },
     {
