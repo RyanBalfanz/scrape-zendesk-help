@@ -153,14 +153,14 @@
       "vote_count": 0,
       "section_id": 4405298908954,
       "created_at": "2024-09-19T14:49:40Z",
-      "updated_at": "2024-09-20T14:32:57Z",
+      "updated_at": "2024-09-20T17:57:08Z",
       "name": "Does the API job contribute to the per-minute rate limit?",
       "title": "Does the API job contribute to the per-minute rate limit?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-09-20T14:30:08Z",
+      "edited_at": "2024-09-20T17:57:02Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -171,7 +171,7 @@
         "role_admin",
         "role_owner"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>Does the API job contribute to the per-minute rate limit?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>The job limit is specific to each endpoint. For instance, with a limit of 700 calls and 30 jobs, you can only make 30 job calls until the count resets. If you request 30 jobs in a minute, that's 30 API calls, leaving you with 670 calls remaining to hit the limit. You can still use other API endpoints until you reach the 700 call limit.</p>\n<p> </p>\n<p>For more information, check our API documentation: <a href=\"https://developer.zendesk.com/api-reference/introduction/rate-limits/\">Rate limits</a></p>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>Does the API job contribute to the per-minute rate limit?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>The job limit is specific to each endpoint. For instance, with a limit of 700 calls and 30 jobs, you can only make 30 job calls until the count resets. If you request 30 jobs in a minute, that's 30 API calls, leaving you with 670 calls remaining to hit the limit. You can still use other API endpoints until you reach the 700 call limit.</p>\n<p>For more information, check our API documentation: <a href=\"https://developer.zendesk.com/api-reference/introduction/rate-limits/\">Rate limits</a></p>",
       "user_segment_ids": []
     },
     {
