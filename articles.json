@@ -350,14 +350,14 @@
       "vote_count": 0,
       "section_id": 4405303741594,
       "created_at": "2024-09-18T05:16:19Z",
-      "updated_at": "2024-09-18T23:09:25Z",
+      "updated_at": "2024-09-23T09:28:35Z",
       "name": "How can I identify the user or create a ticket for an unresolved conversation?",
       "title": "How can I identify the user or create a ticket for an unresolved conversation?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-09-18T23:09:00Z",
+      "edited_at": "2024-09-23T09:28:34Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -367,7 +367,7 @@
         "ab0_bots_automation",
         "role_admin"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>I am reviewing <a href=\"https://support.zendesk.com/hc/en-us/articles/7043105495706-Reviewing-bot-conversation-transcripts\" target=\"_blank\" rel=\"noopener noreferrer\">bot conversation transcripts</a> but want additional information regarding the users involved in unresolved conversations. How can I identify the user or create a ticket for an unresolved conversation?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>It's not possible to extract user-specific data from unresolved bot sessions. To provide further context, the transcript information is primarily designed to offer insights into the interactions that occurred with the bot. This helps in identifying knowledge gaps and areas for improvement. It's not intended to supply specific user information for the purpose of proactive outreach. The focus of improvement areas to help with automated resolutions does not rely on user details, which is why such information is not included in the current conversation transcript data.</p>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/5352026794010-About-automated-resolutions-for-AI-agents\" target=\"_blank\" rel=\"noopener noreferrer\">About automated resolutions for AI agents</a>.</p>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>I am reviewing <a href=\"https://support.zendesk.com/hc/en-us/articles/7043105495706-Reviewing-bot-conversation-transcripts\" target=\"_blank\" rel=\"noopener noreferrer\">bot conversation transcripts</a> but want additional information regarding the users involved in unresolved conversations. How can I identify the user or create a ticket for an unresolved conversation?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>It's not possible to extract user-specific data from unresolved bot sessions. The transcript information is primarily designed to offer insights into the interactions that occurred with the bot. This helps in identifying knowledge gaps and areas for improvement.</p>\n<p>Conversations transcripts aren't intended to supply specific user information for the purpose of proactive outreach. The focus of improvement areas to help with automated resolutions does not rely on user details, which is why such information is not included in the current conversation transcript data. Instead, it's encouraged to <a href=\"https://support.zendesk.com/hc/en-us/articles/7043105495706-Reviewing-bot-conversation-transcripts#topic_ock_jt2_ybc\" target=\"_blank\" rel=\"noopener noreferrer\">optimize your articles and conversation flows</a> and <a href=\"https://support.zendesk.com/hc/en-us/articles/7043105495706-Reviewing-bot-conversation-transcripts#topic_nnl_nfv_ncc\" target=\"_blank\" rel=\"noopener noreferrer\">send feedback to Zendesk</a> to improve automated resolutions.</p>\n<p>For more information, see the article: <a href=\"https://support.zendesk.com/hc/en-us/articles/5352026794010-About-automated-resolutions-for-AI-agents\" target=\"_blank\" rel=\"noopener noreferrer\">About automated resolutions for AI agents</a>.</p>",
       "user_segment_ids": []
     },
     {
