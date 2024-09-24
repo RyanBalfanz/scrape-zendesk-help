@@ -136,7 +136,7 @@
     {
       "id": 8056513658010,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8056513658010.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/8056513658010-Why-is-the-API-step-in-Bot-via-the-web-widget-failing-to-create-tickets-for-new-users",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/8056513658010-Why-is-the-API-step-in-the-web-widget-bot-failing-to-create-tickets-for-new-users",
       "author_id": 1264158225009,
       "comments_disabled": false,
       "draft": false,
@@ -146,14 +146,14 @@
       "vote_count": 0,
       "section_id": 6970673920794,
       "created_at": "2024-09-20T15:54:45Z",
-      "updated_at": "2024-09-24T15:02:14Z",
-      "name": "Why is the API step in Bot via the web widget failing to create tickets for new users?",
-      "title": "Why is the API step in Bot via the web widget failing to create tickets for new users?",
+      "updated_at": "2024-09-24T16:52:52Z",
+      "name": "Why is the API step in the web widget bot failing to create tickets for new users?",
+      "title": "Why is the API step in the web widget bot failing to create tickets for new users?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-09-21T07:31:07Z",
+      "edited_at": "2024-09-24T16:52:44Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -164,7 +164,7 @@
         "API step",
         "BOT API ticket creation error"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p class=\"p1\">Why is the API step in the Bot web widget failing to create tickets for new users but working for existing users?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p class=\"p1\">There is a permission error. The user in the <a href=\"https://support.zendesk.com/hc/en-us/articles/5040378297626-Creating-API-connections-for-the-bot-builder\" target=\"_blank\" rel=\"noopener noreferrer\">API connection settings </a>may have been downgraded to an agent role, allowing the current credentials to create tickets only for existing users.</p>\n<p class=\"p1\">To create tickets for new users, set up a new API connection with an Admin account. This will enable the API step to create tickets for new users.</p>\n<p class=\"undefined\"> For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4572971586586-Using-the-Make-API-call-step-in-a-conversation-bot\" target=\"_blank\" rel=\"noopener noreferrer\">Using the Make API call step in a conversation bot</a><br><br></p>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p class=\"p1\">Why is the API step in the web widget bot failing to create tickets for new users but working for existing users?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p class=\"p1\">There is a permission error. The user in the <a href=\"https://support.zendesk.com/hc/en-us/articles/5040378297626-Creating-API-connections-for-the-bot-builder\" target=\"_blank\" rel=\"noopener noreferrer\">API connection settings </a>may have been downgraded to an agent role, allowing the current credentials to create tickets only for existing users.</p>\n<p class=\"p1\">To create tickets for new users, set up a new API connection with an admin account. This gives the API step admin permissions and enables it to create tickets for new users.</p>\n<p class=\"undefined\">For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4572971586586-Using-the-Make-API-call-step-in-a-conversation-bot\" target=\"_blank\" rel=\"noopener noreferrer\">Using the Make API call step in a conversation bot</a>.<br><br></p>",
       "user_segment_ids": []
     },
     {
