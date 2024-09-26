@@ -37,7 +37,7 @@
     {
       "id": 8087216616986,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8087216616986.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/8087216616986-Why-do-end-users-need-to-click-View-original-email-for-messages-from-external-senders",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/8087216616986-Why-do-users-need-to-click-View-original-email-for-messages-from-external-senders",
       "author_id": 1263082145529,
       "comments_disabled": false,
       "draft": false,
@@ -47,14 +47,14 @@
       "vote_count": 1,
       "section_id": 4405298901274,
       "created_at": "2024-09-25T15:11:57Z",
-      "updated_at": "2024-09-26T14:59:19Z",
-      "name": "Why do end users need to click \"View original email\" for messages from external senders?",
-      "title": "Why do end users need to click \"View original email\" for messages from external senders?",
+      "updated_at": "2024-09-26T17:11:22Z",
+      "name": "Why do users need to click \"View original email\" for messages from external senders?",
+      "title": "Why do users need to click \"View original email\" for messages from external senders?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-09-26T08:27:36Z",
+      "edited_at": "2024-09-26T17:11:17Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -64,7 +64,7 @@
         "ab0_support",
         "ab0_email"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p class=\"p1\">Why do end users have to click \"View original email\" on some tickets when a message says, \"This message is from an external sender\"?</p>\n<h2 id=\"h_01J8PJHRD0FCQGZ8Z5Z9RF0GPM\">Answer:</h2>\n<p class=\"p1\">In Zendesk, the \"View original email\" option appears on some tickets because the email was identified as coming from an external sender. This is a security feature designed to protect users from potential phishing attacks or malicious content.</p>\n<p>Here are a few reasons why this might happen:</p>\n<ul>\n<li>\n<p class=\"p1\">External Sender Warning: Zendesk flags emails from external domains to alert users that the message is not from an internal or trusted source. This helps users be cautious about the content and links within the email.</p>\n</li>\n<li>\n<p class=\"p1\">Email Formatting: Sometimes, the email formatting might not be fully compatible with Zendesk's interface, so viewing the original email ensures that the user sees the content as intended by the sender.</p>\n</li>\n<li>\n<p class=\"p1\">Attachments and Links: Emails with attachments or links might be flagged to ensure that users know potential risks. Viewing the original email can help users verify the authenticity of these elements.</p>\n</li>\n<li>\n<p class=\"p1\">Security Policies: Organizations might have specific security policies in place that require emails from unknown or external sources to be reviewed in their original format, to prevent any automated scripts or hidden content from executing within the Zendesk environment.</p>\n</li>\n</ul>\n<p class=\"p1\">By clicking \"View original email,\" users can see the email in its original format, which can help them better assess the legitimacy and content of the message. Please note that assisting with your email services would be outside of our scope of support, particularly as the yellow banner or the error message \"This message is from an external sender\" appears to be a security warning.</p>\n<p class=\"undefined\">For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408832876442-Viewing-the-HTML-and-original-source-for-incoming-tickets\" target=\"_blank\" rel=\"noopener noreferrer\">Viewing the HTML and original source for incoming tickets</a>. </p>\n<h2 id=\"h_01HV1QMG75WD0BV78NVSTSDJAG\"> </h2>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p class=\"p1\">Why do users have to click \"View original email\" on some tickets when a message says, \"This message is from an external sender\"?</p>\n<h2 id=\"h_01J8PJHRD0FCQGZ8Z5Z9RF0GPM\">Answer:</h2>\n<p class=\"p1\">In Zendesk, the \"View original email\" option appears on some tickets because the email was identified as coming from an external sender. This is a security feature designed to protect users from potential phishing attacks or malicious content.</p>\n<p>Here are a few reasons why this might happen:</p>\n<ul>\n<li>\n<p class=\"p1\">External Sender Warning: Zendesk flags emails from external domains to alert users that the message is not from an internal or trusted source. This helps users be cautious about the content and links within the email.</p>\n</li>\n<li>\n<p class=\"p1\">Email Formatting: Sometimes, the email formatting might not be fully compatible with Zendesk's interface, so viewing the original email ensures that the user sees the content as intended by the sender.</p>\n</li>\n<li>\n<p class=\"p1\">Attachments and Links: Emails with attachments or links might be flagged to ensure that users know potential risks. Viewing the original email can help users verify the authenticity of these elements.</p>\n</li>\n<li>\n<p class=\"p1\">Security Policies: Organizations might have specific security policies in place that require emails from unknown or external sources to be reviewed in their original format, to prevent any automated scripts or hidden content from executing within the Zendesk environment.</p>\n</li>\n</ul>\n<p class=\"p1\">By clicking \"View original email,\" users can see the email in its original format, which can help them better assess the legitimacy and content of the message. Note that providing assistance with your email services is outside the scope of our support because the yellow banner or the error message, \"This message is from an external sender\", is a security warning.</p>\n<p class=\"undefined\">For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408832876442-Viewing-the-HTML-and-original-source-for-incoming-tickets\" target=\"_blank\" rel=\"noopener noreferrer\">Viewing the HTML and original source for incoming tickets</a>. </p>\n<h2 id=\"h_01HV1QMG75WD0BV78NVSTSDJAG\"> </h2>",
       "user_segment_ids": []
     },
     {
