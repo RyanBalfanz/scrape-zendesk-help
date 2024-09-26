@@ -1,5 +1,5 @@
 {
-  "count": 4724,
+  "count": 4726,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 158,
@@ -65,6 +65,34 @@
         "ab0_email"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p class=\"p1\">Why do end users have to click \"View original email\" on some tickets when a message says, \"This message is from an external sender\"?</p>\n<h2 id=\"h_01J8PJHRD0FCQGZ8Z5Z9RF0GPM\">Answer:</h2>\n<p class=\"p1\">In Zendesk, the \"View original email\" option appears on some tickets because the email was identified as coming from an external sender. This is a security feature designed to protect users from potential phishing attacks or malicious content.</p>\n<p>Here are a few reasons why this might happen:</p>\n<ul>\n<li>\n<p class=\"p1\">External Sender Warning: Zendesk flags emails from external domains to alert users that the message is not from an internal or trusted source. This helps users be cautious about the content and links within the email.</p>\n</li>\n<li>\n<p class=\"p1\">Email Formatting: Sometimes, the email formatting might not be fully compatible with Zendesk's interface, so viewing the original email ensures that the user sees the content as intended by the sender.</p>\n</li>\n<li>\n<p class=\"p1\">Attachments and Links: Emails with attachments or links might be flagged to ensure that users know potential risks. Viewing the original email can help users verify the authenticity of these elements.</p>\n</li>\n<li>\n<p class=\"p1\">Security Policies: Organizations might have specific security policies in place that require emails from unknown or external sources to be reviewed in their original format, to prevent any automated scripts or hidden content from executing within the Zendesk environment.</p>\n</li>\n</ul>\n<p class=\"p1\">By clicking \"View original email,\" users can see the email in its original format, which can help them better assess the legitimacy and content of the message. Please note that assisting with your email services would be outside of our scope of support, particularly as the yellow banner or the error message \"This message is from an external sender\" appears to be a security warning.</p>\n<p class=\"undefined\">For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408832876442-Viewing-the-HTML-and-original-source-for-incoming-tickets\" target=\"_blank\" rel=\"noopener noreferrer\">Viewing the HTML and original source for incoming tickets</a>. </p>\n<h2 id=\"h_01HV1QMG75WD0BV78NVSTSDJAG\"> </h2>",
+      "user_segment_ids": []
+    },
+    {
+      "id": 8086190236570,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8086190236570.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/8086190236570-Announcing-the-article-multiplacement-EAP",
+      "author_id": 1263082203269,
+      "comments_disabled": true,
+      "draft": false,
+      "promoted": true,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298833818,
+      "created_at": "2024-09-25T12:14:13Z",
+      "updated_at": "2024-09-26T12:11:55Z",
+      "name": "Announcing the article multiplacement EAP",
+      "title": "Announcing the article multiplacement EAP",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2024-09-26T12:10:41Z",
+      "user_segment_id": null,
+      "permission_group_id": 1324079,
+      "content_tag_ids": [],
+      "label_names": [],
+      "body": "<table>\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"height: 22px; width: 226.391px;\"><strong>Announced on</strong></td>\n<td style=\"height: 22px; width: 226.391px;\"><strong>Enrollment opens</strong></td>\n<td style=\"height: 22px; width: 243.219px;\"><strong>EAP rollout begins</strong></td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"height: 22px; width: 226.391px;\">September 25, 2024</td>\n<td style=\"height: 22px; width: 226.391px;\">September 25, 2024</td>\n<td style=\"height: 22px; width: 243.219px;\">September 30, 2024</td>\n</tr>\n</tbody>\n</table>\n<p><span style=\"color: #464646;\">We are thrilled to announce article multiplacement, the long-awaited capability which allows you to publish an article in multiple sections within and across brands without the cumbersome manual copy and paste work. Article multiplacement is available via our early access program (EAP). You can <a href=\"https://forms.gle/7zqZsuCAXdgaEkS4A\" target=\"_blank\" rel=\"noopener noreferrer\">sign up today </a></span><span style=\"color: #464646;\">and enjoy the benefits the feature brings to your knowledge management!</span></p>\n<p>This announcement includes the following topics:</p>\n<ul>\n<li><a href=\"#h_01HHFF8CJ81SNF7J31S88JMQ7C\">What’s changing?</a></li>\n<li><a href=\"#h_01HHFFXGZ7YTPSJZKGCCXJ0312\">What do I need to do?</a></li>\n</ul>\n<h2 id=\"h_01HHFF8CJ81SNF7J31S88JMQ7C\">What’s changing?</h2>\n<p><span style=\"color: #464646;\">Article multiplacement is designed to help knowledge teams work more efficiently by simplifying the management of articles placed across multiple sections and brands. When creating and managing articles, you’ll be able to add up to ten placements for each article. </span></p>\n<div class=\"non-responsive\"><iframe class=\"iframe embed-responsive-item\" src=\"https://fast.wistia.net/embed/iframe/qre7yvc93j\" width=\"640\" height=\"360\" allowfullscreen=\"true\"></iframe></div>\n<p><span style=\"color: #464646;\">Placements share the same title and body, but have a unique article ID and placement configuration that tells your help center where the article should appear. As a result, when you update the content (body and title) of an article, the content of those placements is automatically updated. This makes it easy to create content once, then effortlessly share it between multiple sections and brands. For more information about the capability, see <a href=\"https://support.zendesk.com/hc/en-us/articles/7867489163930-Placing-articles-in-multiple-sections-with-article-multiplacement-EAP\" target=\"_blank\" rel=\"noopener noreferrer\">Placing articles in multiple sections with article multiplacement (EAP)</a>. </span></p>\n<h2 id=\"h_01HHFFXGZ7YTPSJZKGCCXJ0312\">What do I need to do?</h2>\n<p><a href=\"https://forms.gle/a8i2Jp96bnji7o9R6\" target=\"_blank\" rel=\"noopener noreferrer\">First, sign up!</a> We’ll activate the EAP on your account within a week of your submission. Once you get confirmation that you've been enrolled in the EAP, you'll have the ability to use article multiplacement without any additional action from your side. </p>\n<p><a href=\"https://support.zendesk.com/hc/en-us/community/posts/7697504491674-How-can-I-provide-feedback-for-the-Article-multiplacement-EAP\" target=\"_blank\" rel=\"noopener noreferrer\">Second, share your feedback!</a> Your feedback is crucial to us as we plan future improvements to article multiplacement. We invite you to share your thoughts, report bugs, and provide any suggestions you may have.</p>",
       "user_segment_ids": []
     },
     {
@@ -959,38 +987,6 @@
         "error string too long"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p class=\"p1\">Why is ticket sync failing with an error in the Zendesk Salesforce integration?</p>\n<pre>Ticket ID 123456 failed to sync :: STRING_TOO_LONG :: Description: data value too large </pre>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p class=\"p1\">By default, the body description of a Zendesk ticket is synced with the Salesforce case body, which is a rich content text field. However, Salesforce currently limits this field to <a href=\"https://ideas.salesforce.com/s/idea/a0B8W00000GdpjtUAB/increase-the-character-limit-on-standard-long-text-area-fields\" target=\"_blank\" rel=\"noopener noreferrer\">32,000 characters</a>.</p>\n<p class=\"p1\">There is no workaround at present, but you can consider the following:</p>\n<ol>\n<li>Open a case with the Salesforce Support team and inquire about increasing the character limit for the standard Case \"Description\" long text area field.</li>\n<li class=\"p1\">Avoid creating tickets with more than 32,000 characters in the description. You can also recreate the ticket for the end user with less than 32,000 characters if a long thread was added to a short reply.</li>\n</ol>\n<p class=\"p1\">For more information, refer to this Salesforce article: <a href=\"https://help.salesforce.com/s/articleView?id=000383031&amp;type=1\" target=\"_blank\" rel=\"noopener noreferrer\">The default limit on Long Text Area fields is 32,768 characters</a>. </p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 8013204239258,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8013204239258.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/8013204239258-Service-Incident-September-13th-2024",
-      "author_id": 1263082084489,
-      "comments_disabled": true,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405298854426,
-      "created_at": "2024-09-13T15:49:54Z",
-      "updated_at": "2024-09-13T17:31:14Z",
-      "name": "Service Incident - September 13th, 2024",
-      "title": "Service Incident - September 13th, 2024",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2024-09-13T17:24:33Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801242670,
-      "content_tag_ids": [],
-      "label_names": [
-        "service_incident",
-        "mt",
-        "rank_low_algolia"
-      ],
-      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>September 13, 2024 05:24 PM UTC | September 13, 2024 10:24 AM PT </strong><br>We are happy to report that the issue affecting inbound emails through the Gmail connector has been resolved, and incoming emails are being processed without delays. Thank you for your patience during our investigation.</p>\n<p class=\"p1\"><strong>September 13, 2024 04:45 PM UTC | September 13, 2024 09:45 AM PT </strong><br>We are seeing improvement in the issue causing delays and blocked emails for customers using the Gmail connector. We will continue to monitor the situation until full recovery.</p>\n<p class=\"p1\"><strong>September 13, 2024 03:49 PM UTC | September 13, 2024 08:49 AM PT </strong><br>We are aware of an issue that is causing delays and potentially preventing incoming emails for customers using the Gmail connector. We are working with our vendor to resolve the issue and will provide further updates when we have new information to share.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
       "user_segment_ids": []
     }
   ],
