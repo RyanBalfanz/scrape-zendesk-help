@@ -100,7 +100,7 @@
     {
       "id": 8084641147546,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8084641147546.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/8084641147546-How-can-I-calculate-non-answered-calls-using-the-Talk-Incremental-Exports-API",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/8084641147546-How-can-I-calculate-non-answered-calls-through-the-API",
       "author_id": 1263082103229,
       "comments_disabled": false,
       "draft": false,
@@ -110,14 +110,14 @@
       "vote_count": 0,
       "section_id": 4405303718810,
       "created_at": "2024-09-25T07:35:19Z",
-      "updated_at": "2024-09-26T16:31:59Z",
-      "name": "How can I calculate \"non-answered calls\" using the Talk Incremental Exports API?",
-      "title": "How can I calculate \"non-answered calls\" using the Talk Incremental Exports API?",
+      "updated_at": "2024-09-27T07:21:25Z",
+      "name": "How can I calculate non-answered calls through the API?",
+      "title": "How can I calculate non-answered calls through the API?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-09-26T16:30:59Z",
+      "edited_at": "2024-09-27T07:21:21Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -127,7 +127,7 @@
         "ab0_talk",
         "ab0_explore"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p class=\"p1\">I'm extracting and comparing data from the Talk Incremental Exports API and I want to calculate non-answered calls to match the Explore \"Non-answered calls\" metric. How can I do that?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p class=\"p1\">Zendesk marks calls as Not Answered in the raw data received via the Incremental Calls Export API when all of the following conditions are true.</p>\n<table style=\"border-collapse: collapse; width: 100%; height: 154px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\">JSON Object</td>\n<td style=\"width: 33.3333%; height: 22px;\">Condition</td>\n<td style=\"width: 33.3333%; height: 22px;\">JSON Value</td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\">call direction</td>\n<td style=\"width: 33.3333%; height: 22px;\">is</td>\n<td style=\"width: 33.3333%; height: 22px;\">inbound</td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\">completion_status</td>\n<td style=\"width: 33.3333%; height: 22px;\">is</td>\n<td style=\"width: 33.3333%; height: 22px;\">completed</td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\">talk_time</td>\n<td style=\"width: 33.3333%; height: 22px;\">is</td>\n<td style=\"width: 33.3333%; height: 22px;\">0</td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\">voicemail</td>\n<td style=\"width: 33.3333%; height: 22px;\">is</td>\n<td style=\"width: 33.3333%; height: 22px;\">FALSE</td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\">ivr_action</td>\n<td style=\"width: 33.3333%; height: 22px;\">is not</td>\n<td style=\"width: 33.3333%; height: 22px;\">phone_number OR textback OR voicemail</td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\">overflowed</td>\n<td style=\"width: 33.3333%; height: 22px;\">is</td>\n<td style=\"width: 33.3333%; height: 22px;\">FALSE</td>\n</tr>\n</tbody>\n</table>\n<p>For more information, see <a href=\"https://developer.zendesk.com/api-reference/voice/talk-api/incremental_exports/#:~:text=queue%22%20or%20%22web_widget%22-,completion_status,-string\" target=\"_blank\" rel=\"noopener noreferrer\">Incremental Exports</a> in our developer documentation.  </p>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p class=\"p1\">I want to use the <a href=\"https://developer.zendesk.com/api-reference/voice/talk-api/incremental_exports/#incremental-calls-export\" target=\"_blank\" rel=\"noopener noreferrer\">Incremental Calls Export</a> endpoint to extract data about non-answered calls in Talk. Then, I want to compare that data to match the <strong>Non-answered calls</strong> metric in Explore. How can I do that?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p class=\"p1\">Zendesk marks calls as non-answered in the raw data received through the Incremental Calls Export API when all of the below conditions are true.</p>\n<table style=\"border-collapse: collapse; width: 100%; height: 154px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\">JSON object</td>\n<td style=\"width: 33.3333%; height: 22px;\">Condition</td>\n<td style=\"width: 33.3333%; height: 22px;\">JSON value</td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\">direction</td>\n<td style=\"width: 33.3333%; height: 22px;\">is</td>\n<td style=\"width: 33.3333%; height: 22px;\">inbound</td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\">completion_status</td>\n<td style=\"width: 33.3333%; height: 22px;\">is</td>\n<td style=\"width: 33.3333%; height: 22px;\">completed</td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\">talk_time</td>\n<td style=\"width: 33.3333%; height: 22px;\">is</td>\n<td style=\"width: 33.3333%; height: 22px;\">0</td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\">voicemail</td>\n<td style=\"width: 33.3333%; height: 22px;\">is</td>\n<td style=\"width: 33.3333%; height: 22px;\">FALSE</td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\">ivr_action</td>\n<td style=\"width: 33.3333%; height: 22px;\">is not</td>\n<td style=\"width: 33.3333%; height: 22px;\">phone_number OR textback OR voicemail</td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\">overflowed</td>\n<td style=\"width: 33.3333%; height: 22px;\">is</td>\n<td style=\"width: 33.3333%; height: 22px;\">FALSE</td>\n</tr>\n</tbody>\n</table>\n<p> </p>",
       "user_segment_ids": []
     },
     {
