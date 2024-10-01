@@ -1,5 +1,5 @@
 {
-  "count": 4739,
+  "count": 4740,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 158,
@@ -300,6 +300,36 @@
         "role_admin"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>Is there a character limit for bot messages when choosing the present option step with WhatsApp?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>Yes, there is a 128-character limit for text fields. Exceeding this will truncate your text. If you need to share more details, consider linking to a Help Article with complete instructions.</p>\n<p>For general information and limits regarding WhatsApp, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408842821786-Adding-WhatsApp-channels-to-the-Agent-Workspace\">Adding WhatsApp channels to the Agent Workspace</a></p>",
+      "user_segment_ids": []
+    },
+    {
+      "id": 8079736409882,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8079736409882.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/8079736409882-Announcing-help-center-support-for-shared-media",
+      "author_id": 1267427309749,
+      "comments_disabled": true,
+      "draft": false,
+      "promoted": true,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298833818,
+      "created_at": "2024-09-24T14:21:37Z",
+      "updated_at": "2024-10-01T13:06:21Z",
+      "name": "Announcing help center support for shared media",
+      "title": "Announcing help center support for shared media",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2024-10-01T13:04:26Z",
+      "user_segment_id": null,
+      "permission_group_id": 1324079,
+      "content_tag_ids": [],
+      "label_names": [
+        "rank_low_algolia"
+      ],
+      "body": "<table>\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"height: 22px; width: 226.391px;\"><strong>Announced on</strong></td>\n<td style=\"height: 22px; width: 226.391px;\"><strong>Rollout starts</strong></td>\n<td style=\"height: 22px; width: 243.219px;\"><strong>Rollout ends</strong></td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"height: 22px; width: 226.391px;\">October 1, 2024</td>\n<td style=\"height: 22px; width: 226.391px;\">October 1, 2024</td>\n<td style=\"height: 22px; width: 243.219px;\">October 1, 2024</td>\n</tr>\n</tbody>\n</table>\n<p>We're excited to introduce the ability for content writers to share media files with one another via a new Shared with all tab in the Guide media library. This enhancement facilitates a more collaborative and efficient content creation workflow within your help center.</p>\n<p>This announcement includes the following topics:</p>\n<ul>\n<li><a href=\"#h_01HHFF8CJ81SNF7J31S88JMQ7C\">What’s changing, and why?</a></li>\n<li><a href=\"#h_01HHFFAF1X68BA89ZM74ZTR8NK\">Why is Zendesk making this change?</a></li>\n<li><a href=\"#h_01HHFFXGZ7YTPSJZKGCCXJ0312\">What do I need to do?</a></li>\n</ul>\n<h2 id=\"h_01HHFF8CJ81SNF7J31S88JMQ7C\">What’s changing, and why?</h2>\n<p>Previously, only Guide admins had the ability to share media files with all content writers. With this release, content writers (agents) can now share their own media files, making them available to other content writers in their account. When an agent shares a media file that they’ve uploaded, it’s tagged as \"Shared\" and becomes accessible to all other agents who have access to the media library. The media file can then be used in articles created by the agents. Shared media files can only be unshared or deleted by the content writer who originally shared them.</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/8079838878746\" alt=\"GMS-announcement.png\"></p>\n<h2 id=\"h_01HHFFAF1X68BA89ZM74ZTR8NK\">Why is Zendesk making this change?</h2>\n<p>This change gives help center content authors more autonomy and fosters a collaborative environment. By allowing agents to share media files among themselves, we are simplifying the content creation process and reducing dependencies on Guide admins. This ultimately results in a more agile and efficient workflow</p>\n<h2 id=\"h_01HHFFXGZ7YTPSJZKGCCXJ0312\">What do I need to do?</h2>\n<p>No immediate action is required on your part. Your team can begin using this new functionality right away. To learn more, see <a href=\"https://support.zendesk.com/hc/en-us/articles/5020384367002\" target=\"_blank\" rel=\"noopener noreferrer\">Working with images in the media library</a>.</p>\n<p><span style=\"color: #1d1c1d;\">If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/1260801308530\" target=\"_blank\" rel=\"noopener noreferrer\">community forum</a> </span><span style=\"color: #1d1c1d;\">where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact<a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\" target=\"_blank\" rel=\"noopener noreferrer\"> Zendesk Customer Support</a>.</span></p>",
       "user_segment_ids": []
     },
     {
@@ -948,42 +978,6 @@
         "rank_low_algolia"
       ],
       "body": "<div class=\"note tip\">See our <a href=\"https://support.zendesk.com/hc/en-us/articles/6074145307162\" target=\"_blank\" rel=\"noopener noreferrer\">What's New</a> for an overview of what was released in the last month.</div>\n<p>This week's release notes include:</p>\n<ul>\n<li style=\"list-style-type: none;\">\n<ul>\n<li><a href=\"#h_01J8ASKVZ79NBKX4X3842GC6X1\">Guide and machine learning</a></li>\n<li><a href=\"#h_01J8ATJRADKEC4PE2BBXDY75V7\">Mobile SDKs</a></li>\n<li><a href=\"#h_01J2VFJ9MJ101NWFM9JE6VCNJY\">App Marketplace</a></li>\n<li><a href=\"#h_01J51KPAYNDQ1JKPJMEX7JH47Q\">Products with no updates this week</a></li>\n</ul>\n</li>\n</ul>\n<p> </p>\n<h2 id=\"h_01J8ASKVZ79NBKX4X3842GC6X1\">Guide and machine learning</h2>\n<p><strong>New</strong></p>\n<ul>\n<li>\n<p>Merging suggestions: <span>Merging suggestions identify other tickets that could be merged with the ticket the agent is handling. This helps reduce duplicated effort and enhances customer communication, increasing agent productivity and customer satisfaction. See </span><a href=\"https://support.zendesk.com/hc/en-us/articles/6885971957914\">Merging related tickets based on suggestions</a>.</p>\n</li>\n<li>\n<p>Automated resolutions: Added<span> </span><em>ai_agent_automated_resolution</em><span> </span>tag to tickets using advanced autoreply that meet the automated resolution definition.</p>\n</li>\n</ul>\n<h2 id=\"h_01J8ATJRADKEC4PE2BBXDY75V7\">Mobile SDKs</h2>\n<p id=\"h_01J534N95HCF4PP4SJYTMSBMQV\" class=\"h4 h3\"><strong>Fixed</strong></p>\n<ul>\n<li>\n<p>Resolved an issue where images captured with the device camera were not displaying in conversation.</p>\n</li>\n</ul>\n<h2 id=\"h_01J2VFJ9MJ101NWFM9JE6VCNJY\">App Marketplace</h2>\n<div>\n<strong>New</strong>\n<ul>\n<li>AI Summary Assistant <strong>(Support)</strong>\n<ul>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1068603/ai-summary-assistant/\">AI Summary Assistant</a><span> </span>uses AI technology to summarize tickets and store the summary as a comment or in a custom field to reference later. This app will help agents and managers quickly and easily get a ticket summary to assist in ticket reviews; manager chats with agents, and troubleshooting escalations.</li>\n</ul>\n</li>\n<li>Postal Code Address Register <strong>(Support)</strong>\n<ul>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1063508/postal-code-address-register/?\">Postal Code Address Register</a><span> </span>converts the entered postal code to an address in Zendesk. This application is specific to Japan and only supports postal codes in Japan).</li>\n</ul>\n</li>\n<li>Download Call Recordings <strong>(Support) (paid)</strong>\n<ul>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1065409/download-call-recordings/?\">Download Call Recordings</a><span> </span>is a powerful and intuitive Zendesk sidebar app designed to streamline the management of call recordings. This app provides customer service agents with quick and easy access to all call recordings associated with a ticket, enabling them to play and download recordings directly within the Zendesk interface.</li>\n</ul>\n</li>\n<li>Sondar CSAT Surveys <strong>(Support)</strong>\n<ul>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1069462/sondar-csat-surveys/?queryID=81a23f7a5df98ad5aa0b151cfe96ec2d\">Sondar CSAT Surveys</a><span> </span>is the easiest way to add CSAT, NPS, and CES surveys to Zendesk email triggers.  Surveys are embedded in the emails you’re sending, not separate ones. They seamlessly integrate with Zendesk’s event-triggered or time-based workflows for effortless automation.</li>\n</ul>\n</li>\n<li>Tasks and Subticket's by Saasly <strong>(Support)</strong>\n<ul>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1067145/tasks-and-subtickets-by-saasly/\">Tasks and Subticket's by Saasly</a><span> </span>lets you create, rearrange, and complete tasks on the go. For task lists that you frequently use, you can save them for easy reuse and apply them to any ticket whenever necessary. And that's just the beginning. This powerful project management tool offers much more, helping you achieve greater efficiency and organization within Zendesk.</li>\n</ul>\n</li>\n<li>Health &amp; Wellness<span> </span><strong>(Theme)</strong>\n<ul>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/themes/279/health--wellness/\">Health &amp; Wellness</a><span> </span>has powerful tools to create a seamless and beautiful self-service portal. Easily apply your branding, customize components, and more with both beginner-friendly and advanced options. Highlight essential content on your homepage with up to eight customizable blocks; no coding is required. Automatically highlight essential information, provide seamless navigation, and ensure your articles are visually appealing.</li>\n</ul>\n</li>\n<li>Bixo 128 <strong>(Theme)</strong>\n<ul>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/themes/280/bixo-128/\">Bixo 128</a><span> </span>is a theme that stands out for its professional and visually appealing design, packed with features. The theme also includes a highly customizable homepage, with an easy-to-use option to toggle various homepage sections, giving you complete control over the layout. All are easily brandable without coding, enabling the rapid launch of an engaging help center.</li>\n</ul>\n</li>\n<li>Redact Ticket Attachments <strong>(Support) (paid)</strong>\n<ul>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1068770/redact-ticket-attachments/\">Redact Ticket Attachments</a><span> </span>is designed to help businesses manage their Zendesk storage by automatically redacting ticket attachments based on a specified date range. As your Zendesk instance grows, the accumulation of large attachments can quickly consume valuable storage space, resulting in increased costs and slower system performance. This app offers a simple yet powerful solution to free up storage while ensuring data security.</li>\n</ul>\n</li>\n<li>Lumin <strong>(Sell)</strong>\n<ul>\n<li>\n<strong><a href=\"https://www.zendesk.com/marketplace/apps/sell/1068397/lumin/\">Lumin</a><span> </span></strong>helps you upload documents and send them to signers without opening Lumin and other apps. The app shows the latest updated contract status and keeps documents organized. Create, send, sign, and manage contracts directly in Zendesk Sell without switching between different applications.</li>\n</ul>\n</li>\n<li>AI Reply Writer<span> </span><strong>(Support)</strong>\n<ul>\n<li>AI Reply Writer uses AI technology to reply to tickets in Zendesk. This app will help agents craft message replies to tickets using context from the ticket comments and allow agents to provide the best-in-class support your customers expect. </li>\n</ul>\n</li>\n<li>Bagel Ai<span> <strong>(Support)</strong></span>\n<ul>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1055001/bagel-ai/\">Bagel Ai</a><span> </span>is a product intelligence platform that helps companies accelerate revenue. Product teams can continuously quantify and validate their roadmap to maximize its impact and seamlessly empower their stakeholders to win more deals.  With Bagel’s Zendesk application, support reps can quickly escalate tickets as product requests and track progress automatically, closing the feedback loop between support and product teams. Bagel AI ensures that product requests are treated fairly, quickly, and efficiently without depending on manual processes:</li>\n</ul>\n</li>\n<li>\n<span>AI Tagger <strong>(Support)</strong></span>\n<ul>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1070670/ai-tagger/\"><span>AI Tagger</span></a><span> </span>automatically tags your Zendesk tickets using AI. Save time by avoiding manual tagging, improve routing with automations, and gain deeper insights into customer issues.  Define the tag list and application rules, and the app will run in the background, instantly applying relevant tags to all incoming tickets.</li>\n</ul>\n</li>\n</ul>\n</div>\n<h2 id=\"h_01J51KPAYNDQ1JKPJMEX7JH47Q\">Products with no updates this week</h2>\n<ul>\n<li>Support</li>\n<li>AI agents (formerly bots)</li>\n<li>Explore</li>\n<li>Talk</li>\n<li>Chat and messaging</li>\n<li>Admin Center</li>\n<li>Zendesk QA</li>\n</ul>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 8029335233050,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8029335233050.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/8029335233050-How-can-I-prevent-customers-from-solving-their-tickets",
-      "author_id": 1266644443030,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405298901274,
-      "created_at": "2024-09-16T15:19:19Z",
-      "updated_at": "2024-10-01T12:16:06Z",
-      "name": "How can I prevent customers from solving their tickets?",
-      "title": "How can I prevent customers from solving their tickets?",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2024-09-16T15:36:49Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801135069,
-      "content_tag_ids": [],
-      "label_names": [
-        "ks",
-        "ab0",
-        "mt",
-        "ab0_support",
-        "ab0_guide",
-        "role_admin",
-        "qsg_visual"
-      ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>From my contact form and article suggestions, customers are able to solve their own ticket. How can I prevent my end users from closing their ticket?</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/8029402420506\" alt=\"Reply.png\" width=\"400\" height=\"231\"></p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>You can prevent your users from solving tickets, by following either of these steps:</p>\n<ul>\n<li>Create a <a href=\"https://support.zendesk.com/hc/en-us/articles/4408886797466-Creating-ticket-triggers-for-automatic-ticket-updates-and-notifications#topic_qfk_s23_vsb\" target=\"_blank\" rel=\"noopener noreferrer\">trigger</a> to automatically re-open the tickets solved by your end users<br><img src=\"https://support.zendesk.com/hc/article_attachments/8029340284698\" alt=\"Trigger condition.png\" width=\"400\" height=\"171\"><img src=\"https://support.zendesk.com/hc/article_attachments/8029402421146\" alt=\"Trigger action.png\" width=\"400\" height=\"117\">\n</li>\n<li>Otherwise, remove article suggestions by unticking <a href=\"https://support.zendesk.com/hc/en-us/articles/4408820951450-Using-autoreplies-to-recommend-articles-in-web-forms#topic_plc_xjt_kcb\" target=\"_blank\" rel=\"noopener noreferrer\">Web form channel enabled</a><br><img src=\"https://support.zendesk.com/hc/article_attachments/8029409269402\" alt=\"Setting.png\" width=\"400\" height=\"140\">\n</li>\n</ul>",
       "user_segment_ids": []
     }
   ],
