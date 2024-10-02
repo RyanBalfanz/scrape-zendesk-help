@@ -970,7 +970,7 @@
     {
       "id": 8043037831962,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8043037831962.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/8043037831962-How-to-update-your-Zendesk-help-center-profile",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/8043037831962-How-can-I-update-my-Zendesk-help-center-profile",
       "author_id": 1263082087049,
       "comments_disabled": true,
       "draft": false,
@@ -980,14 +980,14 @@
       "vote_count": 0,
       "section_id": 5133246599962,
       "created_at": "2024-09-18T14:04:30Z",
-      "updated_at": "2024-09-27T08:08:46Z",
-      "name": "How to update your Zendesk help center profile",
-      "title": "How to update your Zendesk help center profile",
+      "updated_at": "2024-10-02T07:32:52Z",
+      "name": "How can I update my Zendesk help center profile?",
+      "title": "How can I update my Zendesk help center profile?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-09-18T14:05:20Z",
+      "edited_at": "2024-10-02T07:32:37Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -995,7 +995,7 @@
         "help center profiles",
         "mt"
       ],
-      "body": "<p>Our Zendesk Help Center is more than just a support platform—it's a space for our community to connect, interact, and help each other out. Personalizing your profile on the help center is a way to express your identity within our community. It allows other members to recognize you, strengthens relationships, and fosters better communication. <br><br>Keeping your profile updated also ensures that any assistance or responses provided are better suited to your needs. These steps are here to guide you on how to update and make edits to your profile in the Zendesk Help Center.</p>\n<p> </p>\n<h3 id=\"h_01J82Q3DXQJJV9TPYDEWEG2KJ0\">To personalize your profile</h3>\n<ol>\n<li>Access your user profile by clicking on your profile name/icon at the top right corner of the page and then selecting <strong>My profile</strong>. <br><img src=\"https://support.zendesk.com/hc/article_attachments/8043050422170\" width=\"624\" height=\"195\"><br><br>\n</li>\n<li>On your profile page, click <strong>Edit profile</strong>. <br><img src=\"https://support.zendesk.com/hc/article_attachments/8043037831322\" width=\"618\" height=\"272\"><br><br>\n</li>\n<li>After you select <strong>Edit profile</strong>, you will see a pop-up to edit your profile. You can update the following information:\n<ul>\n<li>Name</li>\n<li>Profile photo</li>\n<li>Email</li>\n<li>Phone</li>\n<li>Two-factor authentication</li>\n<li>Description</li>\n</ul>\n</li>\n</ol>\n<p class=\"wysiwyg-indent1\"><br>Once you’re happy with these changes, click the <strong>OK </strong>button.<br><img src=\"https://support.zendesk.com/hc/article_attachments/8043037831706\" width=\"456\" height=\"667\"></p>\n<p><br>That's it! You've now successfully updated your profile in our Zendesk Help Center.</p>",
+      "body": "<p class=\"p1\">The Zendesk Help Center is more than just a support platform; it's a space for our community to connect, interact, and help each other. Personalizing your profile in the help center is a way to express your identity within our community. It allows other members to recognize you, strengthens relationships, and fosters better communication.</p>\n<p class=\"p1\">Keeping your profile updated also ensures that any assistance or responses are better suited to your needs. These steps are here to guide you on how to update and make edits to your profile in the Zendesk Help Center.</p>\n<h3 id=\"h_01J82Q3DXQJJV9TPYDEWEG2KJ0\">To personalize your profile</h3>\n<ol>\n<li>\n<p class=\"p1\">Access your user profile by clicking on your profile name/icon at the top right corner of the page and then selecting <strong>My profile</strong>.</p>\n<img src=\"https://support.zendesk.com/hc/article_attachments/8043050422170\" width=\"624\" height=\"195\"><br><br>\n</li>\n<li>On your profile page, click on <strong>Edit profile</strong>. <br><img src=\"https://support.zendesk.com/hc/article_attachments/8043037831322\" width=\"618\" height=\"272\"><br><br>\n</li>\n<li>When you select <strong>Edit profile</strong>, a pop-up will appear, enabling you to update the following information: \n<ul>\n<li>Name</li>\n<li>Profile photo</li>\n<li>Email</li>\n<li>Phone</li>\n<li>Two-factor authentication</li>\n<li>Description</li>\n</ul>\n</li>\n</ol>\n<p class=\"wysiwyg-indent1\"><img src=\"https://support.zendesk.com/hc/article_attachments/8043037831706\" width=\"456\" height=\"667\"></p>\n<p class=\"p1\">Once you've made the desired changes, click the <strong>OK</strong> button. You have now successfully updated your profile in our Zendesk Help Center.</p>",
       "user_segment_ids": []
     }
   ],
