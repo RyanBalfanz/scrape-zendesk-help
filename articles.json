@@ -135,7 +135,7 @@
     {
       "id": 8124255668890,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8124255668890.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/8124255668890-Will-our-conversation-bots-in-the-sandbox-disappear-if-we-deactivate-messaging",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/8124255668890-Will-my-conversation-bots-in-the-sandbox-disappear-if-we-deactivate-messaging",
       "author_id": 1263659882649,
       "comments_disabled": false,
       "draft": false,
@@ -145,14 +145,14 @@
       "vote_count": 0,
       "section_id": 6970673920794,
       "created_at": "2024-10-01T20:02:11Z",
-      "updated_at": "2024-10-02T22:38:03Z",
-      "name": "Will our conversation bots in the sandbox disappear if we deactivate messaging?",
-      "title": "Will our conversation bots in the sandbox disappear if we deactivate messaging?",
+      "updated_at": "2024-10-03T10:18:06Z",
+      "name": "Will my conversation bots in the sandbox disappear if we deactivate messaging?",
+      "title": "Will my conversation bots in the sandbox disappear if we deactivate messaging?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-10-02T22:38:02Z",
+      "edited_at": "2024-10-03T10:18:05Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -162,7 +162,7 @@
         "ab0",
         "conversation bot"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>We created conversation bots in the sandbox. If we deactivate messaging, will they disappear?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>Messaging functionality is required to implement conversation bots. Removing the messaging Web Widgets will cause your bots to disappear. </p>\n<p>For more information, see the article <a href=\"https://support.zendesk.com/hc/en-us/articles/4408829224858\" target=\"_blank\" rel=\"noopener noreferrer\">Removing Web Widget to deactivate messaging for web and mobile</a>.</p>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>I created conversation bots in the sandbox. If I deactivate messaging, will they disappear?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>Messaging functionality is required to implement conversation bots. <a href=\"https://support.zendesk.com/hc/en-us/articles/4408829224858-Removing-Web-Widget-to-deactivate-messaging-for-web-and-mobile\" target=\"_blank\" rel=\"noopener noreferrer\">Removing the messaging Web Widgets</a> will cause your bots to disappear.</p>",
       "user_segment_ids": []
     },
     {
