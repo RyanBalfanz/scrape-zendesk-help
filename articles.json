@@ -583,14 +583,14 @@
       "vote_count": 0,
       "section_id": 4405303730330,
       "created_at": "2024-09-24T14:54:48Z",
-      "updated_at": "2024-10-03T16:57:42Z",
+      "updated_at": "2024-10-03T17:14:05Z",
       "name": "Is there a character limit for bot messages in WhatsApp?",
       "title": "Is there a character limit for bot messages in WhatsApp?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-10-03T16:57:40Z",
+      "edited_at": "2024-10-03T17:14:04Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -602,7 +602,7 @@
         "ab0_bots_automation",
         "role_admin"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>I'm using bot builder to create a bot for WhatsApp. Is there a character limit for bot messages in the present option step with WhatsApp?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>Yes. Bot builder has a 128-character limit for all bot message fields. This limit applies to all step types and all messaging channels. Exceeding this limit will truncate your text. If your message requires more space, consider linking to a help center article with more information.</p>\n<p>For more information about bot builder, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408836323738\" target=\"_blank\" rel=\"noopener noreferrer\">Understanding the step types for bot answers</a>.</p>\n<p>For general information about WhatsApp, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408842821786-Adding-WhatsApp-channels-to-the-Agent-Workspace\">Adding WhatsApp channels to the Agent Workspace</a></p>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>I'm using bot builder to create a bot for WhatsApp. Is there a character limit for bot messages in the Present options step with WhatsApp?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>Yes. Bot builder has a 128-character limit for all bot message fields. This limit applies to all step types and all messaging channels. Exceeding this limit will truncate your text. If your message requires more space, consider linking to a help center article with more information.</p>\n<p>For more information about bot builder, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408836323738\" target=\"_blank\" rel=\"noopener noreferrer\">Understanding the step types for bot answers</a>.</p>\n<p>For general information about WhatsApp, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408842821786-Adding-WhatsApp-channels-to-the-Agent-Workspace\">Adding WhatsApp channels to the Agent Workspace</a></p>",
       "user_segment_ids": []
     },
     {
