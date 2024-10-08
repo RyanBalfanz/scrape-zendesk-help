@@ -19,14 +19,14 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2024-10-08T03:52:16Z",
-      "updated_at": "2024-10-08T03:52:16Z",
+      "updated_at": "2024-10-08T05:52:03Z",
       "name": "Service Incident - October 8th, 2024",
       "title": "Service Incident - October 8th, 2024",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-10-08T03:52:16Z",
+      "edited_at": "2024-10-08T05:52:03Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
@@ -34,7 +34,7 @@
         "service_incident",
         "rank_low_algolia"
       ],
-      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\"><p class=\"p1\"><strong>October 08, 2024 03:52 AM UTC | October 07, 2024 08:52 PM PT </strong><br>Our engineering teams are aware of issues being experienced by a small subset of customers using Ultimate chat bots over the last 5 hours. Due to some complexities, investigations have been slow moving. We will provide another update in 2 hours. Thanks for your patience while we work through this issue.</p></div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
+      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>October 08, 2024 05:52 AM UTC | October 07, 2024 10:52 PM PT </strong><br>Our engineering team has identified the root cause of the issue impacting some Ultimate chat bots. We are currently testing some options to fix this issue. This will be the final update posted to the Zendesk status page. Please refer to the Ultimate status page for future updates: https://status.ultimate.ai/incidents/hkttfhfgrplq.</p>\n<p class=\"p1\"><strong>October 08, 2024 03:52 AM UTC | October 07, 2024 08:52 PM PT </strong><br>Our engineering teams are aware of issues being experienced by a small subset of customers using Ultimate chat bots over the last 5 hours. Due to some complexities, investigations have been slow moving. We will provide another update in 2 hours. Thanks for your patience while we work through this issue.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
       "user_segment_ids": []
     },
     {
