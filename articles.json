@@ -9,7 +9,7 @@
     {
       "id": 8169071862170,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8169071862170.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/8169071862170-Explore-dashboard-bookmarks-display-inaccurate-data",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/8169071862170-Explore-dashboards-display-inaccurate-data-when-I-use-bookmarks",
       "author_id": 1263214223609,
       "comments_disabled": false,
       "draft": false,
@@ -19,14 +19,14 @@
       "vote_count": 0,
       "section_id": 4405298855194,
       "created_at": "2024-10-09T13:27:44Z",
-      "updated_at": "2024-10-09T13:31:08Z",
-      "name": "Explore dashboard bookmarks display inaccurate data",
-      "title": "Explore dashboard bookmarks display inaccurate data",
+      "updated_at": "2024-10-09T13:38:01Z",
+      "name": "Explore dashboards display inaccurate data when I use bookmarks",
+      "title": "Explore dashboards display inaccurate data when I use bookmarks",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-10-09T13:31:08Z",
+      "edited_at": "2024-10-09T13:38:01Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -36,7 +36,7 @@
         "ab0_explore",
         "role_agent"
       ],
-      "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2>\n<p>I have added bookmarks to different tabs of a dashboard in Explore. When I move from one tab to the other, I see inaccurate data. </p>\n<h2 id=\"h_01J9RQ2V0KWA6BVSN4RP4SZCGN\">Resolution</h2>\n<p>In the classic dashboard builder in Explore, the activation of a bookmark on a tab will apply the filters from the previously visited tabs. To reset the data filters in the current tab, refresh your browser.<br>This behaviour has been improved in the <a href=\"https://support.zendesk.com/hc/en-us/articles/4408830235930-Working-with-the-dashboard-builder-Beta\" target=\"_blank\" rel=\"noopener noreferrer\">new dashboard builder (beta)</a> where you no </p>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408819299610-Working-with-dashboard-bookmarks\" target=\"_blank\" rel=\"noopener noreferrer\">Working with dashboard bookmarks</a>.</p>",
+      "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2>\n<p>I have added bookmarks in several tabs of a dashboard in Explore. When I move from one tab to the other, I see inaccurate data. </p>\n<h2 id=\"h_01J9RQ2V0KWA6BVSN4RP4SZCGN\">Resolution</h2>\n<p>In the classic dashboard builder in Explore, the activation of a bookmark on a tab will apply the filters from the previously visited tabs. To reset the data filters in the current tab, refresh your browser.<br>This behaviour has been improved in the <a href=\"https://support.zendesk.com/hc/en-us/articles/4408830235930-Working-with-the-dashboard-builder-Beta\" target=\"_blank\" rel=\"noopener noreferrer\">new dashboard builder (beta)</a> to avoid confusion. </p>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408819299610-Working-with-dashboard-bookmarks\" target=\"_blank\" rel=\"noopener noreferrer\">Working with dashboard bookmarks</a>.</p>",
       "user_segment_ids": []
     },
     {
