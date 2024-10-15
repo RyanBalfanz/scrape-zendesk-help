@@ -19,14 +19,14 @@
       "vote_count": 0,
       "section_id": 4405298879258,
       "created_at": "2024-10-15T10:55:18Z",
-      "updated_at": "2024-10-15T10:58:42Z",
+      "updated_at": "2024-10-15T12:43:43Z",
       "name": "How can I receive support for API and custom scripts?",
       "title": "How can I receive support for API and custom scripts?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-10-15T10:58:42Z",
+      "edited_at": "2024-10-15T12:43:43Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -36,7 +36,7 @@
         "ab0_bots_automation",
         "role_admin"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>I am using the Zendesk API in a custom script and seeing unexpected behaviors. Where can I find support?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>Zendesk Customer Support does not provide support on custom code with API and third-party platforms. For support, you can:</p>\n<ul>\n<li>Refer to the <a href=\"https://support.zendesk.com/hc/en-us/community/topics/1260801854210-Zendesk-APIs\" target=\"_blank\" rel=\"noopener noreferrer\">Developer Community</a>\n</li>\n<li>Ask a <a href=\"https://www.zendesk.com/marketplace/partners/\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk partner</a>\n</li>\n<li>Or use <a href=\"https://www.zendesk.com/customer-experience/professional-services/\" target=\"_blank\" rel=\"noopener noreferrer\">Professional services</a>\n</li>\n</ul>\n<p>For more information, see this article: <a href=\"https://developer.zendesk.com/api-reference/introduction/introduction/\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk API</a>.</p>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>I am using the Zendesk API in a custom script and seeing unexpected behaviors. Where can I find support?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>Zendesk Customer Support does not provide support on custom code with API and third-party platforms. For support, you can do one of the following:</p>\n<ul>\n<li>Refer to the <a href=\"https://support.zendesk.com/hc/en-us/community/topics/1260801854210-Zendesk-APIs\" target=\"_blank\" rel=\"noopener noreferrer\">Developer Community</a>\n</li>\n<li>Ask a <a href=\"https://www.zendesk.com/marketplace/partners/\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk partner</a>\n</li>\n<li>Use <a href=\"https://www.zendesk.com/customer-experience/professional-services/\" target=\"_blank\" rel=\"noopener noreferrer\">Professional services</a>\n</li>\n</ul>\n<p>For more information, see this article: <a href=\"https://developer.zendesk.com/api-reference/introduction/introduction/\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk API</a>.</p>",
       "user_segment_ids": []
     },
     {
