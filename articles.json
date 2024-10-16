@@ -19,14 +19,14 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2024-10-16T12:35:29Z",
-      "updated_at": "2024-10-16T13:31:31Z",
+      "updated_at": "2024-10-16T13:45:10Z",
       "name": "Service Incident - October 16th, 2024",
       "title": "Service Incident - October 16th, 2024",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-10-16T13:27:28Z",
+      "edited_at": "2024-10-16T13:45:10Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
@@ -35,7 +35,7 @@
         "mt",
         "rank_low_algolia"
       ],
-      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>October 16, 2024 01:27 PM UTC | October 16, 2024 06:27 AM PT </strong><br>We are actively working to resolve the service incident that is causing delays in email functionality. We will provide further updates as more information becomes available.</p>\n<p class=\"p1\"><strong>October 16, 2024 12:35 PM UTC | October 16, 2024 05:35 AM PT </strong><br>Our teams are investigating a delay in email processing which is impacting Zendesk accounts on pod29. We will provide more information as it is available.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
+      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>October 16, 2024 01:45 PM UTC | October 16, 2024 06:45 AM PT </strong><br>We have observed some improvements in our logs concerning the service disruption affecting email delivery. After further investigation we believe these delays only impacted inbound emails. We are still investigating the issue and will provide an update as soon as we have confirmation.</p>\n<p class=\"p1\"><strong>October 16, 2024 01:27 PM UTC | October 16, 2024 06:27 AM PT </strong><br>We are actively working to resolve the service incident that is causing delays in email functionality. We will provide further updates as more information becomes available.</p>\n<p class=\"p1\"><strong>October 16, 2024 12:35 PM UTC | October 16, 2024 05:35 AM PT </strong><br>Our teams are investigating a delay in email processing which is impacting Zendesk accounts on pod29. We will provide more information as it is available.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
       "user_segment_ids": []
     },
     {
