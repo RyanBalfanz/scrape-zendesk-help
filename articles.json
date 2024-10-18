@@ -1,5 +1,5 @@
 {
-  "count": 4799,
+  "count": 4800,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 160,
@@ -72,6 +72,40 @@
         "role_owner"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>Can I stop agents from accessing the Talk dashboard?</p>\n<h2 id=\"h_01JADT4QXKJNY6VMGP1DSTMKS0\">Answer</h2>\n<p>Yes, you can restrict agents from accessing the Talk dashboard.</p>\n<p><strong>To prevent agents from accessing the Talk dashboard</strong></p>\n<ol>\n<li>In <strong>Admin Center</strong>, click <strong>People</strong> in the sidebar, then select <strong>Team</strong> &gt; <strong>Roles</strong>\n</li>\n<li>Select <strong>Staff</strong>\n</li>\n<li>Under the Analytics header, deselect <strong>View Talk dashboard</strong>\n</li>\n</ol>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408831823514-Analyzing-call-activity-with-the-Talk-dashboard\">Analyzing call activity with the Talk dashboard</a>.</p>",
+      "user_segment_ids": []
+    },
+    {
+      "id": 8208064666778,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8208064666778.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/8208064666778-WeChat-outbound-messages-are-not-delivered",
+      "author_id": 5769521897882,
+      "comments_disabled": false,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405303730330,
+      "created_at": "2024-10-16T13:46:09Z",
+      "updated_at": "2024-10-18T13:39:31Z",
+      "name": "WeChat outbound messages are not delivered",
+      "title": "WeChat outbound messages are not delivered",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2024-10-18T13:39:31Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801135069,
+      "content_tag_ids": [],
+      "label_names": [
+        "ks",
+        "ab0",
+        "ab0_support",
+        "ab0_messaging",
+        "role_admin"
+      ],
+      "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2>\n<p>I connected an official WeChat account as part of the messaging social channels into my Zendesk account. Although I receive messages from my customers, the outbound messages display the error: <strong>Not delivered</strong>.</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/8220675797914\" alt=\"Not delivered2.png\"></p>\n<h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2>\n<p>After you add WeChat, inbound messages may come through without issues. However, Zendesk Sunshine Conversations won't be able to call the API to send outbound messages back to WeChat if the WeChat account is not verified. To solve the issue, check that you have linked a <a href=\"https://walkthechat.com/wechat-official-account-simple-guide/#wechat-verification\" target=\"_blank\" rel=\"noopener noreferrer\">verified WeChat offical account</a>.</p>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408820034970-Adding-WeChat-social-messaging-channels\" target=\"_blank\" rel=\"noopener noreferrer\">Adding WeChat social messaging channels</a></p>",
       "user_segment_ids": []
     },
     {
@@ -977,39 +1011,6 @@
         "ab0_explore"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>I want to use the <a href=\"https://developer.zendesk.com/api-reference/voice/talk-api/incremental_exports/#incremental-calls-export\" target=\"_blank\" rel=\"noopener noreferrer\">Incremental Calls Export</a> endpoint to extract data about non-answered calls in Talk. Then, I want to compare that data to match the <strong>Non-answered calls</strong> metric in Explore. How can I do that?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>Zendesk marks calls as non-answered in the raw data received through the Incremental Calls Export API when all of the below conditions are true.</p>\n<table style=\"border-collapse: collapse; width: 100%; height: 154px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\">JSON object</td>\n<td style=\"width: 33.3333%; height: 22px;\">Condition</td>\n<td style=\"width: 33.3333%; height: 22px;\">JSON value</td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\">direction</td>\n<td style=\"width: 33.3333%; height: 22px;\">is</td>\n<td style=\"width: 33.3333%; height: 22px;\">inbound</td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\">completion_status</td>\n<td style=\"width: 33.3333%; height: 22px;\">is</td>\n<td style=\"width: 33.3333%; height: 22px;\">completed</td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\">talk_time</td>\n<td style=\"width: 33.3333%; height: 22px;\">is</td>\n<td style=\"width: 33.3333%; height: 22px;\">0</td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\">voicemail</td>\n<td style=\"width: 33.3333%; height: 22px;\">is</td>\n<td style=\"width: 33.3333%; height: 22px;\">FALSE</td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\">ivr_action</td>\n<td style=\"width: 33.3333%; height: 22px;\">is not</td>\n<td style=\"width: 33.3333%; height: 22px;\">phone_number OR textback OR voicemail</td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\">overflowed</td>\n<td style=\"width: 33.3333%; height: 22px;\">is</td>\n<td style=\"width: 33.3333%; height: 22px;\">FALSE</td>\n</tr>\n</tbody>\n</table>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 8084346591002,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8084346591002.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/8084346591002-Can-I-turn-off-the-bot-generative-reply-for-agents-using-JavaScript",
-      "author_id": 1263082103229,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405303741594,
-      "created_at": "2024-09-25T06:51:15Z",
-      "updated_at": "2024-10-08T15:02:58Z",
-      "name": "Can I turn off the bot generative reply for agents using JavaScript?",
-      "title": "Can I turn off the bot generative reply for agents using JavaScript?",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2024-10-04T07:32:46Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801135069,
-      "content_tag_ids": [],
-      "label_names": [
-        "ks",
-        "ab0",
-        "mt",
-        "ab0_bots_automation"
-      ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>Is it possible to disable the bot generative reply for agents using JavaScript?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>No, you can only turn it off in the Admin center, and it will be disabled for both agents and end users. For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/6948495103002-Turning-on-generative-AI-features-for-agents-and-the-help-center\" target=\"_blank\" rel=\"noopener noreferrer\">Turning on generative AI features for agents and the help center</a>.  </p>",
       "user_segment_ids": []
     }
   ],
