@@ -154,14 +154,14 @@
       "vote_count": 0,
       "section_id": 4405303730330,
       "created_at": "2024-10-16T13:46:09Z",
-      "updated_at": "2024-10-22T15:02:30Z",
+      "updated_at": "2024-10-23T09:17:59Z",
       "name": "WeChat outbound messages are not delivered",
       "title": "WeChat outbound messages are not delivered",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-10-18T13:39:31Z",
+      "edited_at": "2024-10-23T09:17:59Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -173,7 +173,7 @@
         "ab0_messaging",
         "role_admin"
       ],
-      "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2>\n<p>I connected an official WeChat account as part of the messaging social channels into my Zendesk account. Although I receive messages from my customers, the outbound messages display the error: <strong>Not delivered</strong>.</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/8220675797914\" alt=\"Not delivered2.png\"></p>\n<h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2>\n<p>After you add WeChat, inbound messages may come through without issues. However, Zendesk Sunshine Conversations won't be able to call the API to send outbound messages back to WeChat if the WeChat account is not verified. To solve the issue, check that you have linked a <a href=\"https://walkthechat.com/wechat-official-account-simple-guide/#wechat-verification\" target=\"_blank\" rel=\"noopener noreferrer\">verified WeChat offical account</a>.</p>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408820034970-Adding-WeChat-social-messaging-channels\" target=\"_blank\" rel=\"noopener noreferrer\">Adding WeChat social messaging channels</a></p>",
+      "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2>\n<p>I connected an official WeChat account as part of the messaging social channels into my Zendesk account. Although I receive messages from my customers, the outbound messages display the error: <strong>Not delivered</strong>.</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/8248948122906\" alt=\"we chat not delivered.png\" width=\"694\" height=\"366\"></p>\n<h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2>\n<p>After you add WeChat, inbound messages may come through without issues. However, Zendesk Sunshine Conversations won't be able to call the API to send outbound messages back to WeChat if the WeChat account is not verified. To solve the issue, check that you have linked a <a href=\"https://walkthechat.com/wechat-official-account-simple-guide/#wechat-verification\" target=\"_blank\" rel=\"noopener noreferrer\">verified WeChat offical account</a>.</p>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408820034970-Adding-WeChat-social-messaging-channels\" target=\"_blank\" rel=\"noopener noreferrer\">Adding WeChat social messaging channels</a></p>",
       "user_segment_ids": []
     },
     {
