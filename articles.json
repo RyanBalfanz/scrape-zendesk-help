@@ -452,7 +452,7 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2024-10-13T23:57:44Z",
-      "updated_at": "2024-10-23T00:06:47Z",
+      "updated_at": "2024-10-23T07:01:21Z",
       "name": "Scheduled Maintenance - November 5 & 6, 2024 | All Pods - Explore",
       "title": "Scheduled Maintenance - November 5 & 6, 2024 | All Pods - Explore",
       "source_locale": "en-us",
@@ -465,6 +465,7 @@
       "content_tag_ids": [],
       "label_names": [
         "explore",
+        "mt",
         "maintenance",
         "scheduled maintenance",
         "2024"
