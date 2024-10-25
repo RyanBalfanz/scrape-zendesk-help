@@ -47,7 +47,7 @@
       "vote_count": 8,
       "section_id": 4405298833818,
       "created_at": "2024-10-24T19:09:57Z",
-      "updated_at": "2024-10-24T19:09:57Z",
+      "updated_at": "2024-10-25T15:00:11Z",
       "name": "Advisory: Increase in phishing attempts to Zendesk accounts",
       "title": "Advisory: Increase in phishing attempts to Zendesk accounts",
       "source_locale": "en-us",
@@ -58,7 +58,9 @@
       "user_segment_id": null,
       "permission_group_id": 1324079,
       "content_tag_ids": [],
-      "label_names": [],
+      "label_names": [
+        "mtpe"
+      ],
       "body": "<p><span style=\"color: #374151;\">We would like to bring to your attention a recent increase in malicious emails targeting Zendesk accounts. These emails are designed to phish for login information and may impersonate official Zendesk communications through similar language and imagery. </span><strong><span style=\"color: #374151;\">Zendesk will never request your credentials via email, and Zendesk does not send tickets to your Zendesk account as a means of communication.</span></strong></p>\n<p><span style=\"color: #374151;\">To help you recognize and avoid phishing attempts, you can review the following resources:</span></p>\n<ul>\n<li><a href=\"https://www.zendesk.com/blog/spot-phishing-attack/\"><span class=\"wysiwyg-underline\" style=\"color: #1155cc;\">How to spot a phishing attack</span></a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408833946394-Resources-for-preventing-and-managing-spam\"><span class=\"wysiwyg-underline\" style=\"color: #1155cc;\">Resources for preventing and managing spam</span></a></li>\n</ul>\n<p><span style=\"color: #374151;\">We urge you to exercise caution if you receive any messages requesting password resets or the sharing of credentials. If you encounter any issues accessing your account or require further assistance, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\">Zendesk Customer Support</a></span><span style=\"color: #16140c; background-color: #fefaf2;\">.</span></p>\n<p><span style=\"color: #374151;\">Thank you for your attention to this important matter.</span></p>",
       "user_segment_ids": []
     },
@@ -108,7 +110,7 @@
       "vote_count": 1,
       "section_id": 4405298833818,
       "created_at": "2024-10-23T14:48:23Z",
-      "updated_at": "2024-10-24T13:35:59Z",
+      "updated_at": "2024-10-25T15:00:12Z",
       "name": "Announcing improved precision and more recommendations for similar tickets",
       "title": "Announcing improved precision and more recommendations for similar tickets",
       "source_locale": "en-us",
@@ -120,6 +122,7 @@
       "permission_group_id": 1324079,
       "content_tag_ids": [],
       "label_names": [
+        "mtpe",
         "newsfeed"
       ],
       "body": "<table style=\"border-collapse: collapse; width: 100%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 33.3333%;\"><strong>Announced on</strong></td>\n<td style=\"width: 33.3333%;\"><strong>Rollout starts</strong></td>\n<td style=\"width: 33.3333%;\"><strong>Rollout ends</strong></td>\n</tr>\n<tr>\n<td style=\"width: 33.3333%;\">October 24, 2024</td>\n<td style=\"width: 33.3333%;\">October 24, 2024</td>\n<td style=\"width: 33.3333%;\">October 28, 2024</td>\n</tr>\n</tbody>\n</table>\n<p>We're excited to announce key improvements to the <a href=\"https://support.zendesk.com/hc/en-us/articles/6154115110170\">similar tickets feature</a>. You'll now experience better precision in similar ticket recommendations, along with more recommendations overall.<br>This announcement includes the following topics:</p>\n<ul>\n<li><a href=\"#h_01JAWXJ2GB1VH0RTAB79SFCGAM\">What’s changing?</a></li>\n<li><a href=\"#h_01JAWXJFXG821CKH748RAP10Z6\">Why is Zendesk making this change?</a></li>\n<li><a href=\"#h_01JAWXJMP4382CP8913FAZFWRJ\">What do I need to do?</a></li>\n</ul>\n<h2 id=\"h_01JAWXJ2GB1VH0RTAB79SFCGAM\">What's changing?</h2>\n<p>The similar tickets feature, currently in an early access program (EAP), has already garnered strong interest. The improvements in the recommendations' precision and the increase in overall number of recommendations were achieved by leveraging generative AI. We believe it will greatly enhance this feature's usefulness and adoption.</p>\n<p>Additionally, we've made the similar tickets feature available to more customers by removing the requirement to have the <a href=\"https://support.zendesk.com/hc/en-us/articles/4550640560538#topic_gpp_p4g_htb\">intent prediction type turned on</a>. This means that all customers with the <a href=\"https://support.zendesk.com/hc/en-us/articles/5524125586330\">Advanced AI add-on</a> can now benefit from similar tickets without any extra setup.</p>\n<h2 id=\"h_01JAWXJFXG821CKH748RAP10Z6\">Why is Zendesk making this change?</h2>\n<p>Based on your feedback, we recognized two key areas needing improvement: the precision and availability of similar ticket recommendations. You often noticed similar tickets existed but weren't seeing enough of them. When they did appear, they sometimes weren't useful due to the complexity and unstructured nature of the ticket content.</p>\n<p>These enhancements are designed to support all agents across a wide range of tickets, from the simplest to the most complex, as well as from the most frequent to the rarest cases. Ultimately, we expect them to boost efficiency, reduce resolution times, and improve customer satisfaction.</p>\n<h2 id=\"h_01JAWXJMP4382CP8913FAZFWRJ\">What do I need to do?</h2>\n<p>If you've already <a href=\"https://docs.google.com/forms/d/e/1FAIpQLScjMd9__L7RXEtZvS9IQLQz_3--OOZxam2FsIh2BX72lraFTA/viewform\">signed up for the similar tickets EAP</a> and <a href=\"https://support.zendesk.com/hc/en-us/articles/8036381366426\">turned similar tickets on</a>, then no further action is necessary. This change will be automatically available after the rollout ends on October 28.</p>\n<p>If you have the Advanced AI add-on but haven't yet signed up for the EAP, you can <a href=\"https://docs.google.com/forms/d/e/1FAIpQLScjMd9__L7RXEtZvS9IQLQz_3--OOZxam2FsIh2BX72lraFTA/viewform\">sign up for the EAP here</a>. For more information on using the feature, see <a href=\"https://support.zendesk.com/hc/en-us/articles/6154115110170\">Finding tickets similar to the current ticket (EAP)</a>.</p>\n<p>If you’re interested in the Advanced AI add-on, see <a href=\"https://support.zendesk.com/hc/en-us/articles/5715517808026-Buying-the-Advanced-AI-add-on\">Buying the Advanced AI add-on</a> or contact your Zendesk account representative.</p>\n<p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/6447052855194\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\">Zendesk Customer Support</a>.</p>",
