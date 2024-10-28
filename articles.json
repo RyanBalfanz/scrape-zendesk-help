@@ -19,14 +19,14 @@
       "vote_count": 1,
       "section_id": 4405298854426,
       "created_at": "2024-10-28T18:51:31Z",
-      "updated_at": "2024-10-28T19:21:22Z",
+      "updated_at": "2024-10-28T19:45:29Z",
       "name": "Service Incident - October 28th, 2024",
       "title": "Service Incident - October 28th, 2024",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-10-28T19:21:22Z",
+      "edited_at": "2024-10-28T19:38:25Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
@@ -35,7 +35,7 @@
         "mt",
         "rank_low_algolia"
       ],
-      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>October 28, 2024 07:21 PM UTC | October 28, 2024 12:21 PM PT </strong><br>We have rolled back a recent update and are beginning to see improvement in the issue affecting Explore customers, causing 502 errors and latency when attempting to load dashboards and reports. We will continue to monitor until full recovery. Please let us know if you continue to experience any issues.</p>\n<p class=\"p1\"><strong>October 28, 2024 07:02 PM UTC | October 28, 2024 12:02 PM PT </strong><br>We have confirmed an issue affecting Explore customers causing 502 errors and latency when attempting to load default and custom dashboards and reports. Our team is investigating and we will provide further updates within the next 30 minutes.</p>\n<p class=\"p1\"><strong>October 28, 2024 06:51 PM UTC | October 28, 2024 11:51 AM PT </strong><br>We are receiving reports of issues loading reports and dashboards in Explore across multiple pods and our team is investigating. More updates to follow shortly.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
+      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>October 28, 2024 07:38 PM UTC | October 28, 2024 12:38 PM PT </strong><br>We are happy to report that the issue affecting Explore dashboard and report loading has been resolved. Thank you for your patience during our investigation.</p>\n<p class=\"p1\"><strong>October 28, 2024 07:21 PM UTC | October 28, 2024 12:21 PM PT </strong><br>We have rolled back a recent update and are beginning to see improvement in the issue affecting Explore customers, causing 502 errors and latency when attempting to load dashboards and reports. We will continue to monitor until full recovery. Please let us know if you continue to experience any issues.</p>\n<p class=\"p1\"><strong>October 28, 2024 07:02 PM UTC | October 28, 2024 12:02 PM PT </strong><br>We have confirmed an issue affecting Explore customers causing 502 errors and latency when attempting to load default and custom dashboards and reports. Our team is investigating and we will provide further updates within the next 30 minutes.</p>\n<p class=\"p1\"><strong>October 28, 2024 06:51 PM UTC | October 28, 2024 11:51 AM PT </strong><br>We are receiving reports of issues loading reports and dashboards in Explore across multiple pods and our team is investigating. More updates to follow shortly.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
       "user_segment_ids": []
     },
     {
