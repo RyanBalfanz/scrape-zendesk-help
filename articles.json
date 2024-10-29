@@ -81,14 +81,14 @@
       "vote_count": 0,
       "section_id": 4405303738522,
       "created_at": "2024-10-28T16:15:32Z",
-      "updated_at": "2024-10-29T16:26:57Z",
+      "updated_at": "2024-10-29T17:33:01Z",
       "name": "Can I bypass the 7-day rule for Facebook Messenger responses?",
       "title": "Can I bypass the 7-day rule for Facebook Messenger responses?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-10-29T15:04:52Z",
+      "edited_at": "2024-10-29T17:33:01Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -99,7 +99,7 @@
         "role_admin",
         "role_owner"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>Can I bypass the 7-day rule for Facebook Messenger responses?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>No, you cannot bypass the 7-day rule in Facebook Messenger. This limitation is in place to ensure businesses engage in meaningful interactions with users.</p>\n<p>For more information on this topic, you can refer to this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408835753370-Adding-Facebook-Messenger-channels#topic_drz_ybj_smb\" target=\"_blank\" rel=\"noopener noreferrer\">Adding Facebook Messenger channels</a></p>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>Can I bypass the 7-day rule for Facebook Messenger responses?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>No, you cannot bypass the 7-day rule in Facebook Messenger. This limitation is in place to ensure businesses engage in meaningful interactions with users.</p>\n<p>For more information, see the article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408835753370-Adding-Facebook-Messenger-channels#topic_drz_ybj_smb\" target=\"_blank\" rel=\"noopener noreferrer\">Adding Facebook Messenger channels</a></p>",
       "user_segment_ids": []
     },
     {
