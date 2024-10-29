@@ -51,7 +51,7 @@
       "vote_count": 0,
       "section_id": 4405298833818,
       "created_at": "2024-10-28T17:17:11Z",
-      "updated_at": "2024-10-28T23:34:09Z",
+      "updated_at": "2024-10-29T15:01:11Z",
       "name": "Announcing Department Spaces",
       "title": "Announcing Department Spaces",
       "source_locale": "en-us",
@@ -62,7 +62,9 @@
       "user_segment_id": null,
       "permission_group_id": 1324079,
       "content_tag_ids": [],
-      "label_names": [],
+      "label_names": [
+        "mtpe"
+      ],
       "body": "<table style=\"border-collapse: collapse; width: 100%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 31.1428%;\"><strong>Announced on</strong></td>\n<td style=\"width: 32.8572%;\"><strong>Rollout starts</strong></td>\n<td style=\"width: 36%;\"><strong>Rollout ends</strong></td>\n</tr>\n<tr>\n<td style=\"width: 31.1428%;\">October 28, 2024</td>\n<td style=\"width: 32.8572%;\">October 28, 2024</td>\n<td style=\"width: 36%;\">November 21, 2024</td>\n</tr>\n</tbody>\n</table>\n<p>Today, we're launching Department Spaces, a major enhancement to give you greater control over your organization. Department Spaces allows you to segment access to your Zendesk data by the internal divisions of your company. Keep your regional, departmental, brand, or business units separate with stronger privacy protections on ticket data. Assign your teams to the outward and inward-facing functions they serve and keep data in the right hands.  </p>\n<p>Zendesk has offered brands as a way of presenting multiple outward-facing identities to your customers for many years. Department Spaces now allows you to control internal access to the divisions of your company, making your Zendesk configuration a true enterprise solution.</p>\n<div class=\"p\">\n<div class=\"note note\">\n<span class=\"notetitle\">Note:</span> Department Spaces cannot be used with Talk, messaging, and Chat. It is also <a href=\"https://support.zendesk.com/hc/en-us/articles/8125262923802\" target=\"_blank\" rel=\"noopener noreferrer\">not recommended with omnichannel routing</a>.</div>\n</div>\n<p>This announcement includes the following sections: </p>\n<ul>\n<li><a href=\"#h_01JBA1ZX0WNTV48WRBZA4346RH\">What is changing?</a></li>\n<li><a href=\"#h_01JBA2220W8RQ1B68H2Z2V2HK2\">Why is Zendesk making this change?</a></li>\n<li><a href=\"#h_01JBA23XTQXDYC62YZK4PX5G0K\">What do I need to do?</a></li>\n</ul>\n<h2 id=\"h_01JBA1ZX0WNTV48WRBZA4346RH\">What is changing?</h2>\n<p>Department Spaces use the <em>brands</em> objects found within Zendesk today, and we’ll be incrementally changing the naming to reflect the move to <em>departments</em>. </p>\n<p>This feature allows agents to belong to specific departments, <a href=\"https://support.zendesk.com/hc/en-us/articles/7584022494874\" target=\"_blank\" rel=\"noopener noreferrer\">determining their ticket access</a>. Department Spaces is for customers with complex organizations and for managing Employee Service, enabling partitioned data access for multiple departments or brands within one instance. Departments can be used to partition brands, regions, internal functions, or lines of business.</p>\n<h2 id=\"h_01JBA2220W8RQ1B68H2Z2V2HK2\">Why is Zendesk making this change?</h2>\n<p>We are implementing these changes to address the need for granular data access controls within a single instance and the challenge of managing multiple instances. These changes allow for enhanced scalability within our product, allowing customers to partition ticket access based on agent membership in departments.</p>\n<h2 id=\"h_01JBA23XTQXDYC62YZK4PX5G0K\">What do I need to do?</h2>\n<p>No action is required to use Department Spaces. Ticket access will remain the same if you do nothing to team member membership.</p>\n<p>If you currently use Chat, messaging, or Talk, do not use Department Spaces. All team members must be members of all brands.</p>\n<p>If you have omnichannel routing turned on, <a href=\"https://support.zendesk.com/hc/en-us/articles/8125262923802\" target=\"_blank\" rel=\"noopener noreferrer\">we do not recommend using Department Spaces</a>. Omnichannel routing is not compatible with team member brand membership, and tickets may not get routed appropriately.</p>\n<p>We are working on ensuring omnichannel routing, Talk, messaging, and Chat all working with Department Spaces in the near future.</p>\n<p>To access these new features, customers must be on a Support or Suite Enterprise plan. Additionally, customers will need to <a href=\"https://support.zendesk.com/hc/en-us/articles/7584022494874#topic_p4k_grx_xbc\" target=\"_blank\" rel=\"noopener noreferrer\">remove team members from departments</a> if they’d like to restrict access to certain tickets. Administrators can now assign team members to specific brands, limiting their access to tickets outside of their assigned brand unless explicitly added via CC.</p>\n<p>Thank you for your attention to these important updates as we continue to enhance the Zendesk experience for our customers.</p>\n<p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/4408860477850\" target=\"_blank\" rel=\"noopener noreferrer\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk Customer Support</a>.</p>\n<p> </p>",
       "user_segment_ids": []
     },
@@ -79,7 +81,7 @@
       "vote_count": 1,
       "section_id": 4405298847002,
       "created_at": "2024-10-28T16:00:06Z",
-      "updated_at": "2024-10-28T16:17:29Z",
+      "updated_at": "2024-10-29T15:02:18Z",
       "name": "Release notes through 2024-10-25",
       "title": "Release notes through 2024-10-25",
       "source_locale": "en-us",
@@ -100,7 +102,7 @@
     {
       "id": 8277250954394,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8277250954394.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/8277250954394-Which-dataset-should-I-use-to-report-on-Omnichannel",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/8277250954394-Which-dataset-should-I-use-to-report-on-omnichannel-work",
       "author_id": 1264158224649,
       "comments_disabled": false,
       "draft": false,
@@ -110,14 +112,14 @@
       "vote_count": 0,
       "section_id": 4405303718810,
       "created_at": "2024-10-28T14:33:33Z",
-      "updated_at": "2024-10-29T14:32:54Z",
-      "name": "Which dataset should I use to report on Omnichannel?",
-      "title": "Which dataset should I use to report on Omnichannel?",
+      "updated_at": "2024-10-29T15:09:16Z",
+      "name": "Which dataset should I use to report on omnichannel work?",
+      "title": "Which dataset should I use to report on omnichannel work?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-10-29T14:32:54Z",
+      "edited_at": "2024-10-29T15:09:16Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -128,7 +130,7 @@
         "role_agent",
         "role_admin"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>Which dataset should I use to report on Omnichannel?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>Currently there are three datasets available in Explore to report on Omnichannel. The dataset that you need to use depends on your goal:</p>\n<ul>\n<li><a href=\"#h_01JB9S2AWC3VBC79701V4Y96KD\"> Omnichannel - Agent productivity</a></li>\n<li><a href=\"#h_01JB9S5CS6AFHNHWM2QX3H49TG\">Omnichannel - agent state</a></li>\n<li><a href=\"#h_01JB9S6YWGC17AXHVR7ZZR2HGJ\">Omnichannel - agent state daily</a></li>\n</ul>\n<h2 id=\"h_01JB9S2AWC3VBC79701V4Y96KD\">Agent Productivity Dataset</h2>\n<p>This dataset focuses on the work items offered and assigned to agents. It details how agents use their capacity, such as number of tickets handled or response times.</p>\n<p>Use this dataset when you want to analyze how well agents manage their workloads and productivity levels, or to assess agents' performance based on the number of tasks completed and capacity.</p>\n<h3 id=\"h_01JBC9NEKAAJ2DJ550HEA7PJSE\">Example use case: I want to evaluate how effectively agents handle their workload</h3>\n<p>Analyze how many tickets each agent resolves in a given period, compare that to their available time, and identify top performers or those who may need additional training or support.</p>\n<h2 id=\"h_01JB9S5CS6AFHNHWM2QX3H49TG\">Agent State Dataset</h2>\n<p>This dataset tracks how long agents spend in different states, such as <strong>Online</strong>, <strong>Away</strong>, <strong>Transfer</strong> <strong>Only</strong>, <strong>Invisible</strong>, and <strong>Offline,</strong> and it records state changes with timestamps.</p>\n<p>Use this dataset when you need detailed insights into individual agent behavior and specific timing of state changes, to understand agent availability and patterns during peak times.</p>\n<h3 id=\"h_01JBC9VXQV06N87J67R40G354J\">Example Use Case: I want to manage staffing more effectively</h3>\n<p>Analyze how often agents switch between the status <strong>Online</strong> and <strong>Away</strong> during a busy period. This allows you to identify time frames when agents aren't available and correlate this data with call volumes or ticket inflow.</p>\n<h2 id=\"h_01JB9S6YWGC17AXHVR7ZZR2HGJ\">Agent State Daily Dataset</h2>\n<p>This dataset provides aggregated information summarized on a daily basis about how groups and agents spend their time across channels.</p>\n<p>Use this dataset to get an aggregated overview of agent performance across days and track general trends in agent behavior.</p>\n<h3 id=\"h_01JBCA6G3RJ9G5MSGBVCK4RQSK\">Example Use Case: I want to quickly see trends in agent availability or inactivity</h3>\n<p>Build a high-level overview of agent performance over a week, without the need to analyze detailed timestamps.</p>\n<p>For more information, see these articles:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/5600290657434-Metrics-and-attributes-for-agent-state-and-activity\" target=\"_blank\" rel=\"noopener noreferrer\">Metrics and attributes for agent state and activity</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408839218842-Understanding-datasets\" target=\"_blank\" rel=\"noopener noreferrer\">Understanding datasets</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/6362240787226-Why-is-the-per-channel-agent-status-time-different-than-the-unified-agent-status-time\" target=\"_blank\" rel=\"noopener noreferrer\">Why is the per-channel agent status time different than the unified agent status time?</a></li>\n</ul>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>Which dataset should I use to report on omnichannel work?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>Currently there are three datasets available in Explore to report on omnichannel tickets. The dataset that you need to use depends on your goal:</p>\n<ul>\n<li><a href=\"#h_01JB9S2AWC3VBC79701V4Y96KD\"> Omnichannel - Agent productivity</a></li>\n<li><a href=\"#h_01JB9S5CS6AFHNHWM2QX3H49TG\">Omnichannel - agent state</a></li>\n<li><a href=\"#h_01JB9S6YWGC17AXHVR7ZZR2HGJ\">Omnichannel - agent state daily</a></li>\n</ul>\n<h2 id=\"h_01JB9S2AWC3VBC79701V4Y96KD\">Agent productivity dataset</h2>\n<p>This dataset focuses on the work offered and assigned to agents. It details how agents use their capacity, such as number of tickets handled or response times.</p>\n<p>Use this dataset when you want to analyze how well agents manage their workloads and productivity levels, or to assess agents' performance based on the number of tasks completed and capacity.</p>\n<h3 id=\"h_01JBC9NEKAAJ2DJ550HEA7PJSE\">Example use case: I want to evaluate how effectively agents handle their workload</h3>\n<p>Analyze how many tickets each agent resolves in a given period, compare that to their available time, and identify top performers or those who may need additional training or support.</p>\n<h2 id=\"h_01JB9S5CS6AFHNHWM2QX3H49TG\">Agent state dataset</h2>\n<p>This dataset tracks how long agents spend in different states, such as <strong>Online</strong>, <strong>Away</strong>, <strong>Transfer</strong> <strong>Only</strong>, <strong>Invisible</strong>, and <strong>Offline</strong>. It records state changes with timestamps.</p>\n<p>Use this dataset when you need detailed insights into individual agent behavior and specific timing of state changes, to understand agent availability and patterns during peak times.</p>\n<h3 id=\"h_01JBC9VXQV06N87J67R40G354J\">Example use case: I want to manage staffing more effectively</h3>\n<p>Analyze how often agents switch between the status <strong>Online</strong> and <strong>Away</strong> during a busy period. This allows you to identify time frames when agents aren't available and correlate this data with call volumes or ticket inflow.</p>\n<h2 id=\"h_01JB9S6YWGC17AXHVR7ZZR2HGJ\">Agent state daily dataset</h2>\n<p>This dataset provides aggregated information summarized on a daily basis about how groups and agents spend their time across channels.</p>\n<p>Use this dataset to get an aggregated overview of agent performance across days and track general trends in agent behavior.</p>\n<h3 id=\"h_01JBCA6G3RJ9G5MSGBVCK4RQSK\">Example use case: I want to quickly see trends in agent availability or inactivity</h3>\n<p>Build a high-level overview of agent performance over a week, without the need to analyze detailed timestamps.</p>\n<p>For more information, see these articles:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/5600290657434-Metrics-and-attributes-for-agent-state-and-activity\" target=\"_blank\" rel=\"noopener noreferrer\">Metrics and attributes for agent state and activity</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408839218842-Understanding-datasets\" target=\"_blank\" rel=\"noopener noreferrer\">Understanding datasets</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/6362240787226-Why-is-the-per-channel-agent-status-time-different-than-the-unified-agent-status-time\" target=\"_blank\" rel=\"noopener noreferrer\">Why is the per-channel agent status time different than the unified agent status time?</a></li>\n</ul>",
       "user_segment_ids": []
     },
     {
@@ -144,7 +146,7 @@
       "vote_count": 0,
       "section_id": 4405298889242,
       "created_at": "2024-10-25T16:00:21Z",
-      "updated_at": "2024-10-29T00:32:21Z",
+      "updated_at": "2024-10-29T15:02:39Z",
       "name": "Deprecation of OAuth access token reference path in ZIS",
       "title": "Deprecation of OAuth access token reference path in ZIS",
       "source_locale": "en-us",
@@ -156,6 +158,7 @@
       "permission_group_id": 1324079,
       "content_tag_ids": [],
       "label_names": [
+        "mt",
         "newsfeed"
       ],
       "body": "<table style=\"border-collapse: collapse; width: 100%; height: 44px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Announced on</strong></td>\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Rollout starts</strong></td>\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Rollout ends</strong></td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\">October 28, 2024</td>\n<td style=\"width: 33.3333%; height: 22px;\">December 5, 2024</td>\n<td style=\"width: 33.3333%; height: 22px;\">December 5, 2024</td>\n</tr>\n</tbody>\n</table>\n<p>We’re announcing an upcoming update to the way that OAuth connections can be referenced within Zendesk Integration Services (ZIS) flows and custom actions.</p>\n<p><span style=\"font-weight: 400;\">This announcement includes the following topics:</span></p>\n<ul>\n<li><a href=\"#h_01GD3S97RDYVTAFTQ8WR9878VF\" target=\"_self\"><span style=\"font-weight: 400;\">What is changing?</span></a></li>\n<li><a href=\"#h_01GD3S9GD63FPDGQSEFY88M3ND\" target=\"_self\"><span style=\"font-weight: 400;\">Why is Zendesk making this change?</span></a></li>\n<li><a href=\"#h_01GD3S9TSPXM7M4WHYKYF4E84M\" target=\"_self\"><span style=\"font-weight: 400;\">What do I need to do?</span></a></li>\n</ul>\n<h2 id=\"h_01GD3S97RDYVTAFTQ8WR9878VF\"><span style=\"font-weight: 400;\">What is changing?</span></h2>\n<p>Historically, developers using ZIS could reference the access token of an OAuth connection in a flow or custom action using the path <code>$.connections.{oauth_connection_name}.access_token</code>.</p>\n<p>When Zendesk announced support for additional authentication methods in ZIS connections, we introduced a new way to make use of connections in ZIS actions with the <code>connectionName</code> property.</p>\n<p>Until now, both referencing methods were supported. Going forward, bundles can no longer be uploaded or updated if they contain an OAuth access token reference path.</p>\n<h2 id=\"h_01GD3S9GD63FPDGQSEFY88M3ND\"><span style=\"font-weight: 400;\">Why is Zendesk making this change?</span></h2>\n<p>This change will keep your credentials safer and further limits the opportunities for them to be exposed or captured by an attacker.</p>\n<h2 id=\"h_01GD3S9TSPXM7M4WHYKYF4E84M\"><span style=\"font-weight: 400;\">What do I need to do?</span></h2>\n<p>No immediate action is required, as flows currently running will continue to execute without issue. However, developers who are either creating a new bundle or updating an existing ZIS bundle must make sure to eliminate any references to an OAuth access token reference path. Instead, use the <code>connectionName</code> property to refer to the connection in your custom action definitions. For more information, refer to <a href=\"https://developer.zendesk.com/documentation/integration-services/developer-guide/understanding-connections/#using-a-connection-to-authenticate-api-requests-in-a-zis-flow\"><span class=\"wysiwyg-underline\" style=\"color: #1155cc;\">Using a connection to authenticate API requests in a ZIS flow</span></a>.</p>\n<p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\">Zendesk Customer Support</a>.</p>",
@@ -234,7 +237,7 @@
       "vote_count": 2,
       "section_id": 4405303730330,
       "created_at": "2024-10-23T18:56:14Z",
-      "updated_at": "2024-10-25T16:57:32Z",
+      "updated_at": "2024-10-29T15:02:43Z",
       "name": "How can I customize the Web Widget to remain open when the page loads?",
       "title": "How can I customize the Web Widget to remain open when the page loads?",
       "source_locale": "en-us",
@@ -247,6 +250,7 @@
       "content_tag_ids": [],
       "label_names": [
         "ab0",
+        "mt",
         "KS",
         "custom code",
         "ab0_messaging"
@@ -433,7 +437,7 @@
       "vote_count": 0,
       "section_id": 4405303730330,
       "created_at": "2024-10-16T13:46:09Z",
-      "updated_at": "2024-10-23T09:17:59Z",
+      "updated_at": "2024-10-29T15:03:51Z",
       "name": "WeChat outbound messages are not delivered",
       "title": "WeChat outbound messages are not delivered",
       "source_locale": "en-us",
