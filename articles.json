@@ -37,7 +37,7 @@
     {
       "id": 8283840612378,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8283840612378.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/8283840612378-Can-I-export-ticket-field-data-and-which-form-they-re-associated-with-in-a-CSV-file",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/8283840612378-Can-I-export-ticket-field-data-and-associated-ticket-forms-in-a-CSV-file",
       "author_id": 1263659882649,
       "comments_disabled": false,
       "draft": false,
@@ -47,14 +47,14 @@
       "vote_count": 0,
       "section_id": 5346334218778,
       "created_at": "2024-10-29T14:37:40Z",
-      "updated_at": "2024-10-30T15:45:18Z",
-      "name": "Can I export ticket field data and which form they're associated with in a CSV file?",
-      "title": "Can I export ticket field data and which form they're associated with in a CSV file?",
+      "updated_at": "2024-10-30T16:08:13Z",
+      "name": "Can I export ticket field data and associated ticket forms in a CSV file?",
+      "title": "Can I export ticket field data and associated ticket forms in a CSV file?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-10-30T15:45:18Z",
+      "edited_at": "2024-10-30T16:08:13Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -65,7 +65,7 @@
         "ab0_admin_center",
         "role_admin"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>I need to pull the ticket fields together with the form those fields are used with. Can I export ticket field data and which form they're associated with in a CSV file?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>No, it isn't possible to export ticket field data with their associated ticket form. As a workaround, use the Show Ticket Forms API to get the information on the ticket form to include the ticket fields associated with it and the conditions set on the ticket form.</p>\n<p>For more information, see this article: <a href=\"https://developer.zendesk.com/api-reference/ticketing/tickets/ticket_forms/#show-ticket-form\" target=\"_blank\" rel=\"noopener noreferrer\">Show Ticket Form</a></p>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>I need to pull data from my Zendesk account that shows the ticket fields together with the form where those fields are used. Can I export ticket field data and associated ticket forms with in a CSV file?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>No, it isn't possible to export ticket field data with their associated ticket forms. As a workaround, use the Show Ticket Forms API to get the information on the ticket form to include the ticket fields associated with it and the conditions set on the ticket form.</p>\n<p>For more information, see this article: <a href=\"https://developer.zendesk.com/api-reference/ticketing/tickets/ticket_forms/#show-ticket-form\" target=\"_blank\" rel=\"noopener noreferrer\">Show Ticket Form</a></p>",
       "user_segment_ids": []
     },
     {
