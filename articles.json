@@ -834,7 +834,7 @@
     {
       "id": 8207850684698,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8207850684698.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/8207850684698-Service-Incident-October-16th-2024",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/8207850684698-Service-Incident-October-16-2024-Support-Pod-29-Inbound-email-delays",
       "author_id": 1263082148649,
       "comments_disabled": true,
       "draft": false,
@@ -844,14 +844,14 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2024-10-16T12:35:29Z",
-      "updated_at": "2024-10-16T14:16:30Z",
-      "name": "Service Incident - October 16th, 2024",
-      "title": "Service Incident - October 16th, 2024",
+      "updated_at": "2024-11-01T04:48:13Z",
+      "name": "Service Incident - October 16, 2024 - Support | Pod 29 - Inbound email delays",
+      "title": "Service Incident - October 16, 2024 - Support | Pod 29 - Inbound email delays",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-10-16T14:06:01Z",
+      "edited_at": "2024-11-01T04:47:37Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
@@ -860,7 +860,7 @@
         "mt",
         "rank_low_algolia"
       ],
-      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>October 16, 2024 02:06 PM UTC | October 16, 2024 07:06 AM PT </strong><br>We are happy to report that email delays for inbound emails on Pod29 is now solved. Thank you for your patience.\nWe will publish a post-mortem on these events as soon as it is completed</p>\n<p class=\"p1\"><strong>October 16, 2024 01:45 PM UTC | October 16, 2024 06:45 AM PT </strong><br>We have observed some improvements in our logs concerning the service disruption affecting email delivery. After further investigation we believe these delays only impacted inbound emails. We are still investigating the issue and will provide an update as soon as we have confirmation.</p>\n<p class=\"p1\"><strong>October 16, 2024 01:27 PM UTC | October 16, 2024 06:27 AM PT </strong><br>We are actively working to resolve the service incident that is causing delays in email functionality. We will provide further updates as more information becomes available.</p>\n<p class=\"p1\"><strong>October 16, 2024 12:35 PM UTC | October 16, 2024 05:35 AM PT </strong><br>Our teams are investigating a delay in email processing which is impacting Zendesk accounts on pod29. We will provide more information as it is available.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
+      "body": "<h3 id=\"h_01JBK0DZVE1J280NRAKZY95VSK\">Summary</h3>\n<p>On October 16, 2024 from 06:24 UTC to 14:52 UTC, some Zendesk customers on Pod 29 experienced inbound email processing delays leading to delayed ticket creation and ticket updates in Support.</p>\n<h3 id=\"h_01JBK0EEKJ5E9GFXGWWHQ2THJE\">Timeline</h3>\n<p><strong>October 16, 2024 12:35 PM UTC | October 16, 2024 05:35 AM PT </strong><br>Our teams are investigating a delay in email processing which is impacting Zendesk accounts on pod29. We will provide more information as it is available.</p>\n<p><strong>October 16, 2024 01:27 PM UTC | October 16, 2024 06:27 AM PT </strong><br>We are actively working to resolve the service incident that is causing delays in email functionality. We will provide further updates as more information becomes available.</p>\n<p><strong>October 16, 2024 01:45 PM UTC | October 16, 2024 06:45 AM PT </strong><br>We have observed some improvements in our logs concerning the service disruption affecting email delivery. After further investigation we believe these delays only impacted inbound emails. We are still investigating the issue and will provide an update as soon as we have confirmation.</p>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>October 16, 2024 02:06 PM UTC | October 16, 2024 07:06 AM PT </strong><br>We are happy to report that email delays for inbound emails on Pod29 is now solved. Thank you for your patience. We will publish a post-mortem on these events as soon as it is completed.</p>\n</div>\n<h3 id=\"h_01JBK0FDBN4W4ZCBC32V814VVD\">Root Cause Analysis</h3>\n<p>This incident was primarily caused by a memory capacity issue in our backend search services. The email delays were exacerbated by a secondary issue introduced by our initial fix that sought to resolve the root cause in the search service. This secondary issue halted email processing for 30-60 minutes before our team fully identified the issues.</p>\n<h3 id=\"h_01JBK0FDBN0H22N13R82N67XD3\">Resolution</h3>\n<p>To fix this issue, our team identified two changes that caused the primary and secondary issues in this incident and rolled back both changes to previous working version of our software.</p>\n<h3 id=\"h_01JBK0FDBNG1EESK4EFAJJ1150\">Remediation Items</h3>\n<ol>\n<li>Increase sensitivity of existing monitors for quicker alerting [Scheduled]</li>\n<li>Set up additional monitoring for search service [Scheduled]</li>\n<li>Rebalance search service resources to account for new features [Scheduled]</li>\n</ol>\n<h4 id=\"h_01JBK0C1XVH25S0TPJSFSFCW6T\"><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
     },
     {
