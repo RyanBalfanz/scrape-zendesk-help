@@ -102,7 +102,7 @@
     {
       "id": 8300453325338,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8300453325338.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/8300453325338-Why-are-exported-Chrome-HAR-files-returning-0-bytes",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/8300453325338-Why-are-exported-Chrome-HAR-files-returning-zero-bytes",
       "author_id": 4967137259930,
       "comments_disabled": false,
       "draft": false,
@@ -112,14 +112,14 @@
       "vote_count": 0,
       "section_id": 4405298900122,
       "created_at": "2024-11-01T10:53:50Z",
-      "updated_at": "2024-11-04T06:25:11Z",
-      "name": "Why are exported Chrome HAR files returning 0 bytes?",
-      "title": "Why are exported Chrome HAR files returning 0 bytes?",
+      "updated_at": "2024-11-04T19:03:13Z",
+      "name": "Why are exported Chrome HAR files returning zero bytes?",
+      "title": "Why are exported Chrome HAR files returning zero bytes?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-11-04T06:25:08Z",
+      "edited_at": "2024-11-04T19:03:13Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -130,7 +130,7 @@
         "role_agent",
         "role_admin"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>I'm trying to export a HAR file from Chrome but is returning a 0 bytes file, why is that?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>Google has implemented recent changes that require adjustments to enable the download of files containing sensitive data. Failure to make these modifications may result in an empty HAR file.</p>\n<p>For more information, see the Google announcement: <a href=\"https://developer.chrome.com/blog/new-in-devtools-130?hl=en\" target=\"_blank\" rel=\"noopener noreferrer\">What's new in DevTools, Chrome 130</a></p>\n<p>To enable HAR exports with sensitive data, go to <strong>Settings &gt; Preferences &gt; Network &gt; Allow to generate HAR with sensitive data</strong>. The <strong>Network</strong> panel will mark the download <strong>Export</strong> button with an arrow. Long-click the button and select <strong>Export HAR (with sensitive data)</strong> from the drop-down menu.</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/8300453324954\" alt=\"Inspect.gif\"></p>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408828867098-Generating-a-HAR-file-for-troubleshooting\">Generating a HAR file for troubleshooting</a></p>\n<p> </p>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>I'm trying to export a HAR file from Chrome but it is returning a file with zero bytes, why is that?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>Google recently made changes that require adjustments so that files containing sensitive data can be downloaded. Failure to make these adjustments may result in an empty HAR file.</p>\n<p>For more information, see the Google announcement: <a href=\"https://developer.chrome.com/blog/new-in-devtools-130?hl=en\" target=\"_blank\" rel=\"noopener noreferrer\">What's new in DevTools, Chrome 130</a></p>\n<p><strong>To enable HAR exports with sensitive data</strong></p>\n<ol>\n<li>Open Chrome.</li>\n<li>Look for the <strong>⋮</strong> button and select <strong>More Tools &gt; Developer Tools</strong>.</li>\n<li>Click <strong>Preferences &gt; Network</strong>.</li>\n<li>Select the <strong>Allow to generate HAR (with sensitive data)</strong> check box.</li>\n<li>Return to the <strong>Network</strong> panel and long-click the <strong>Export</strong> button marked with an arrow.</li>\n<li>Select <strong>Export HAR (with sensitive data)</strong> from the drop-down menu.<br><img class=\"image img-screenshot\" src=\"https://support.zendesk.com/hc/article_attachments/8300453324954\" alt=\"Inspect.gif\"><br>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408828867098-Generating-a-HAR-file-for-troubleshooting\">Generating a HAR file for troubleshooting</a>.</li>\n</ol>",
       "user_segment_ids": []
     },
     {
