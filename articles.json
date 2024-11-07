@@ -19,7 +19,7 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2024-11-07T13:03:06Z",
-      "updated_at": "2024-11-07T13:03:06Z",
+      "updated_at": "2024-11-07T13:16:41Z",
       "name": "Service Incident - November 7th, 2024",
       "title": "Service Incident - November 7th, 2024",
       "source_locale": "en-us",
@@ -32,6 +32,7 @@
       "content_tag_ids": [],
       "label_names": [
         "service_incident",
+        "mt",
         "rank_low_algolia"
       ],
       "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\"><p class=\"p1\"><strong>November 07, 2024 01:03 PM UTC | November 07, 2024 05:03 AM PT </strong><br>We’re experiencing some delays with ticket creation and conversation loading times for messaging customers on pod 28. Our team is working to resolve the issue and restore full service as quickly as possible.</p></div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
