@@ -1,5 +1,5 @@
 {
-  "count": 4844,
+  "count": 4845,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 162,
@@ -632,6 +632,41 @@
       "user_segment_ids": []
     },
     {
+      "id": 8290688602906,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8290688602906.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/8290688602906-Previewing-articles-as-you-edit-in-the-knowledge-base",
+      "author_id": 1901646271844,
+      "comments_disabled": false,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298910106,
+      "created_at": "2024-10-30T15:43:43Z",
+      "updated_at": "2024-11-12T15:11:53Z",
+      "name": "Previewing articles as you edit in the knowledge base",
+      "title": "Previewing articles as you edit in the knowledge base",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2024-11-01T15:46:46Z",
+      "user_segment_id": null,
+      "permission_group_id": 1324079,
+      "content_tag_ids": [],
+      "label_names": [
+        "Guide",
+        "article",
+        "preview",
+        "article editor",
+        "Knowledge",
+        "role_admin"
+      ],
+      "body": "<body>\n\n<div class=\"body\">\n<div class=\"div docs-wmp-link\" style=\"text-align: right; font-size: 0.8em;\"><a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/5411234991258-plan\" target=\"_blank\">What's my plan?</a></div>\n<p class=\"p\"><img alt=\"Available on all Suite plans\" id=\"topic_mjt_p5j_fdc__image_arl_bwj_fdc\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/plan_available_suite_all.png\"><img alt=\"Available on all Guide plans\" id=\"topic_mjt_p5j_fdc__image_wzt_qhy_np\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/plan_available_guide_lp.png\"></p>\n<p class=\"p\">When creating and editing articles, you can preview how your article will look, even\n            before you save your changes. Article previews open in a new browser tab and can be\n            refreshed each time you add or edit content in the article editor.</p>\n<p class=\"p\">Because article preview allows you to see how your article will appear in the help center\n            both before and after you save an article, it's an effective tool for making sure\n            content appears correctly before saving. You can discard unwanted changes before you\n            save the article, preventing necessary rework.</p>\n<div class=\"p\">This article covers the following topics:<ul class=\"ul\" id=\"topic_mjt_p5j_fdc__ul_wpn_pyj_fdc\">\n<li class=\"li\"><a class=\"xref\" href=\"#topic_pzz_ryj_fdc\">Previewing unpublished articles</a></li>\n<li class=\"li\"><a class=\"xref\" href=\"#topic_trw_syj_fdc\">Previewing edits to published articles</a></li>\n</ul>\n</div>\n</div>\n<div aria-labelledby=\"ariaid-title2\" class=\"topic nested1\" id=\"topic_pzz_ryj_fdc\">\n<h2 class=\"title topictitle2\" id=\"ariaid-title2\">Previewing unpublished articles</h2>\n<div class=\"body\">\n<p class=\"p\">When you create a new article, you can preview how the article will appear in your\n                help center, both before and after saving. </p>\n<div class=\"p\">\n<strong class=\"ph b\">To preview unpublished articles</strong><ol class=\"ol\" id=\"topic_pzz_ryj_fdc__ol_yk3_dkq_fdc\">\n<li class=\"li\">In your help center, <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408839258778-Creating-and-editing-articles-in-the-knowledge-base#topic_bpt_tdq_cy\" target=\"_blank\">add a new article</a> and enter your\n                        content. </li>\n<li class=\"li\">Click the <strong class=\"ph b\">Preview</strong> button.<p class=\"p\">The article opens in a new tab in Preview\n                            mode. </p>\n<p class=\"p\"><img class=\"image\" id=\"topic_pzz_ryj_fdc__image_i1q_cnq_fdc\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/guide-preview-new-live.png\" width=\"600\"></p>\n</li>\n<li class=\"li\">To make and preview additional edits, leave the Preview tab open and do the\n                            following:<ol class=\"ol\" id=\"topic_pzz_ryj_fdc__ol_n2n_d4q_fdc\" type=\"a\">\n<li class=\"li\">Return to the article editor and add or update content.</li>\n<li class=\"li\">Click the Preview tab to return to the Preview tab you already have\n                                open.</li>\n<li class=\"li\">Refresh the browser page to display the new edits or additions.</li>\n</ol>\n<p class=\"p\">When you're ready, you can save and publish the article. See <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408839258778-Creating-and-editing-articles-in-the-knowledge-base\" target=\"_blank\">Creating and editing articles in the\n                                knowledge base</a>.</p>\n</li>\n</ol>\n</div>\n</div>\n</div>\n<div aria-labelledby=\"ariaid-title3\" class=\"topic nested1\" id=\"topic_trw_syj_fdc\">\n<h2 class=\"title topictitle2\" id=\"ariaid-title3\">Previewing edits to published articles</h2>\n<div class=\"body\">\n<p class=\"p\">When editing a published article, you can preview either the edits you are making on\n                the published version of the article.</p>\n<p class=\"p\"><strong class=\"ph b\">To preview edits to published articles</strong></p>\n<ol class=\"ol\" id=\"topic_trw_syj_fdc__ol_gkp_3pq_fdc\">\n<li class=\"li\">In your help center, <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408839258778-Creating-and-editing-articles-in-the-knowledge-base#topic_1rt_tdq_cy\" target=\"_blank\">open an article in edit mode</a>.</li>\n<li class=\"li\">\n<a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408839258778\" target=\"_blank\">Add or edit content</a>. </li>\n<li class=\"li\">Click the arrow next to the <strong class=\"ph b\">Preview</strong> button to select one of the following\n                        options:<ul class=\"ul\" id=\"topic_trw_syj_fdc__ul_gdc_dqq_fdc\">\n<li class=\"li\">\n<strong class=\"ph b\">Published article </strong>- Last published version of the article. This\n                            opens the version that is live in your help center.</li>\n<li class=\"li\">\n<strong class=\"ph b\">Preview</strong> - Current saved or unsaved version of the published\n                            article that you are editing. This version opens in a new tab in Preview\n                            mode and displays the changes you have made to the article.</li>\n</ul>\n<p class=\"p\"><img class=\"image\" id=\"topic_trw_syj_fdc__image_ush_jqq_fdc\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/guide-pub-preview-button.png\" width=\"200\"></p>\n</li>\n<li class=\"li\">To make and preview additional edits, leave the Preview tab open and do the\n                        following:<ul class=\"ul\" id=\"topic_trw_syj_fdc__ul_ugb_1ky_fdc\">\n<li class=\"li\">Return to the article editor and add or update content.</li>\n<li class=\"li\">Click the Preview tab to return to the Preview mode.</li>\n<li class=\"li\">Refresh the browser page to display the new edits or additions.</li>\n</ul>\n<p class=\"p\">When you're ready, you can save and publish the article. See <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408839258778-Creating-and-editing-articles-in-the-knowledge-base\" target=\"_blank\">Creating and editing articles in the\n                            knowledge base</a>.</p>\n</li>\n</ol>\n</div>\n</div>\n</body>",
+      "user_segment_ids": []
+    },
+    {
       "id": 8290186573466,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8290186573466.json",
       "html_url": "https://support.zendesk.com/hc/en-us/articles/8290186573466-Announcing-CSAT-public-API-and-updates-to-CSAT-email",
@@ -918,37 +953,6 @@
         "role_owner"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>Can I bypass the 7-day rule for Facebook Messenger responses?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>No, you cannot bypass the 7-day rule in Facebook Messenger. This limitation is in place to ensure businesses engage in meaningful interactions with users.</p>\n<p>For more information, see the article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408835753370-Adding-Facebook-Messenger-channels#topic_drz_ybj_smb\" target=\"_blank\" rel=\"noopener noreferrer\">Adding Facebook Messenger channels</a></p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 8277618578330,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8277618578330.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/8277618578330-Release-notes-through-2024-10-25",
-      "author_id": 1263082309989,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 1,
-      "vote_count": 1,
-      "section_id": 4405298847002,
-      "created_at": "2024-10-28T16:00:06Z",
-      "updated_at": "2024-11-03T18:21:12Z",
-      "name": "Release notes through 2024-10-25",
-      "title": "Release notes through 2024-10-25",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2024-10-28T16:16:50Z",
-      "user_segment_id": null,
-      "permission_group_id": 1324079,
-      "content_tag_ids": [],
-      "label_names": [
-        "mt",
-        "rank_low_algolia"
-      ],
-      "body": "<div class=\"note tip\">See our <a href=\"https://support.zendesk.com/hc/en-us/articles/6199645601946\" target=\"_blank\" rel=\"noopener noreferrer\">What's New</a> for an overview of what was released in the last month.</div>\n<p>This week's release notes include:</p>\n<ul>\n<li><a href=\"#h_01JAQX1QCWHBA5HE2SVM143EWH\">Guide and AI agents</a></li>\n<li><a href=\"#h_01JAQXDQCBMP301JQQW1TCS464\">Talk</a></li>\n<li><a href=\"#h_01JB9XZEYBRPT1R92NAQPH6372\">Advanced AI</a></li>\n<li><a href=\"#h_01J2VFJ9MJ101NWFM9JE6VCNJY\">App Marketplace</a></li>\n<li><a href=\"#h_01J51KPAYNDQ1JKPJMEX7JH47Q\">Products with no updates this week</a></li>\n</ul>\n<h2 id=\"h_01JAQX1QCWHBA5HE2SVM143EWH\"><span><span>Guide and AI agents</span></span></h2>\n<p><strong>New</strong></p>\n<ul>\n<li class=\"p1\">We've rolled out <a href=\"https://support.zendesk.com/hc/en-us/articles/6675063083418\">semantic search</a> for external content.</li>\n<li class=\"p1\"><span><span>We've </span>launched the <a href=\"https://support.zendesk.com/hc/en-us/articles/8157433800090-Introducing-the-Redirect-Rules-API\">Redirect Rules API</a>, designed to enhance your ability to manage page redirects for objects or URLs that return an HTTP 404 response.</span></li>\n</ul>\n<h2 id=\"h_01JAQXDQCBMP301JQQW1TCS464\">Talk</h2>\n<p><strong>Fixed</strong></p>\n<ul>\n<li>Fixed a bug where, in certain high-volume cases, a repeated SMS from the same user wouldn't be added to the existing ticket.</li>\n</ul>\n<h2 id=\"h_01JB9XZEYBRPT1R92NAQPH6372\"><span class=\"s1\">Advanced AI</span></h2>\n<ul>\n<li>\n<span>We've made key improvements to the<span> </span></span><a href=\"https://support.zendesk.com/hc/en-us/articles/6154115110170\">similar tickets feature</a><span>. You'll now experience better precision in similar ticket recommendations, along with more recommendations overall.</span>\n</li>\n</ul>\n<h2 id=\"h_01J2VFJ9MJ101NWFM9JE6VCNJY\">App Marketplace</h2>\n<div>\n<div>\n<strong><strong>New</strong></strong>\n<ul>\n<li>External ID Editor<span> <strong>(Support) (paid)</strong></span>\n<ul>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/571789/external-id-editor/\"><span>External ID Editor</span></a><span> enables</span> you to modify the Zendesk system field for \"External ID,\" which is not present on tickets.  Edit the external ID from the users, tickets, or organization page.</li>\n</ul>\n</li>\n<li>Lead Mapper <strong>(Sell)</strong>\n<ul>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/sell/1076708/lead-mapper/\">Lead Mapper</a><span> </span>gives visual customer locations and helps manage routes on a map directly from Zendesk Sell. Gain superior oversight of your business operations using the powerful map feature that provides a bird's eye view of all accounts and prospects. Make informed decisions easily using the intuitive data visualization that identifies growth potential and areas requiring improvements in real time.</li>\n</ul>\n</li>\n<li>Route 101 Attachment Redaction Service <strong>(Support)</strong>\n<ul>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1077912/route-101-attachment-redaction-service/\">Route 101 Attachment Redaction Service</a><span> </span>helps you take control of your Zendesk storage costs and improve data management. With<span style=\"color: #16140c;\"> </span>Ticket Redaction Service, you can automatically migrate Zendesk ticket attachments to an S3 bucket on your infrastructure. This app helps streamline your Zendesk operations, giving you more control over your data storage, improving compliance with data retention, and significantly reducing storage costs.</li>\n</ul>\n</li>\n<li>ZenMention <strong>(Support) (paid)</strong>\n<ul>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1078823/zenmention/\">ZenMention</a><span> </span>helps you auto-forward Zendesk mentions to Slack.  This app ensures that every Zendesk comment mentioning an agent is sent directly to Slack, with the ticket link, comment text, sender’s name, and any images or attachments.</li>\n</ul>\n</li>\n<li>Ticket Manager <strong>(Support)</strong>\n<ul>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1052422/ticket-manager/\">Ticket Manager</a><span> </span>helps you simplify and automate the creation and editing of tickets in bulk.  Use CSV files and customizable rules to bulk create or edit tickets.  Monitor the status of the process and view any errors. Quickly view a history of submitted processes.  </li>\n</ul>\n</li>\n<li>LiveX AI Avatai <strong>(Support)</strong>\n<ul>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1078701/livex-ai-avatai/\">LiveX AI Avatai</a><span> </span>revolutionizes customer support by seamlessly integrating with Zendesk, enhancing how businesses interact with their customers. With LiveX AI Avatai, Zendesk users can transform their support capabilities, benefiting from an AI agent that responds to inquiries and takes action on the customer's behalf.<span><span> </span>It can initiate ticket creation, provide real-time updates, and even offer solutions without human intervention, reducing response times and improving efficiency.</span>\n</li>\n</ul>\n</li>\n<li>Hide Ticket Forms <strong>(Support)</strong>\n<ul>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1079617/hide-ticket-forms/\">Hide Ticket Forms</a><span> </span>makes it easy to hide ticket forms in the Agent Interface. Follow the simple setup instructions to choose which forms should be hidden. Then, choose which groups or roles should have the forms hidden.</li>\n</ul>\n</li>\n<li>File Manager by Opservator<span> <strong>(Support) (paid)</strong></span>\n<ul>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1077758/file-manager-by-opservator/\"><span>File Manager by Opservator</span></a><span> </span>helps you search, backup, and delete your ticket attachments to optimize storage space.  You can use search filters such as ticket creation period, ticket status, brand, group, and even attachment size!  Download any relevant files found in the search and permanently remove any unnecessary files.</li>\n</ul>\n</li>\n<li>\n<span>AI Assistant<span> </span><strong>(Support)</strong></span><span></span>\n<ul>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1066925/ai-assistant/\"><span>AI Assistant</span></a><span> </span>is a state-of-the-art tool designed to transform customer support experiences. Leveraging advanced AI algorithms, AI Assistant understands and responds to customer queries, providing precise and relevant answers.</li>\n</ul>\n</li>\n</ul>\n</div>\n</div>\n<h2 id=\"h_01J51KPAYNDQ1JKPJMEX7JH47Q\">Products with no updates this week</h2>\n<ul>\n<li>Support</li>\n<li>Explore</li>\n<li>Chat and messaging</li>\n<li>Zendesk WFM</li>\n<li>Admin Center</li>\n<li>Mobile SDKs</li>\n<li>Zendesk QA</li>\n</ul>",
       "user_segment_ids": []
     }
   ],
