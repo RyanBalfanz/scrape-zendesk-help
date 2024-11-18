@@ -19,7 +19,7 @@
       "vote_count": 0,
       "section_id": 4405298847002,
       "created_at": "2024-11-17T22:11:57Z",
-      "updated_at": "2024-11-17T22:33:53Z",
+      "updated_at": "2024-11-18T16:01:34Z",
       "name": "Release notes through 2024-11-15",
       "title": "Release notes through 2024-11-15",
       "source_locale": "en-us",
@@ -50,7 +50,7 @@
       "vote_count": 1,
       "section_id": 4405298833818,
       "created_at": "2024-11-15T16:10:46Z",
-      "updated_at": "2024-11-15T16:11:22Z",
+      "updated_at": "2024-11-18T16:00:12Z",
       "name": "Announcing consolidation of Ultimate and Zendesk Help Centers",
       "title": "Announcing consolidation of Ultimate and Zendesk Help Centers",
       "source_locale": "en-us",
@@ -61,7 +61,9 @@
       "user_segment_id": null,
       "permission_group_id": 1324079,
       "content_tag_ids": [],
-      "label_names": [],
+      "label_names": [
+        "mtpe"
+      ],
       "body": "<p>As Zendesk continues merging operations with Ultimate.ai, content from Ultimate’s Knowledge Base (support.ultimate.ai) will be available exclusively via Zendesk’s Help Center (support.zendesk.com) after November 20, 2024. </p>\n<h3 id=\"h_01JCR9BKJQ3WSHBN5SZ7XZS33B\">What does this mean?</h3>\n<p>Information about getting started with Ultimate, using Ultimate tools, and other topics like FAQs, advice, troubleshooting, and best practices for Ultimate will all live on support.zendesk.com rather than support.ultimate.ai.</p>\n<h3 id=\"h_01JCR9BQ14SXE7K8XZV0V9SDGF\">What do I need to do?</h3>\n<p>Zendesk’s Help Center content is publicly accessible, so you won't need to log in to read articles or Community discussions, but you’ll need to log in to comment, up or downvote content, and to participate in <a href=\"https://support.zendesk.com/hc/en-us/community/topics\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk’s community</a> discussions. Here’s <a href=\"https://support.zendesk.com/hc/en-us/articles/4408831684762\" target=\"_blank\" rel=\"noopener noreferrer\">how to sign up for free access</a>. Access to Ultimate’s legacy Knowledge Base will be discontinued after November 20, 2024.   </p>\n<p>If you have feedback or questions related to this announcement, visit our community forum where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact Zendesk Customer Support.</p>",
       "user_segment_ids": []
     },
@@ -171,7 +173,7 @@
       "vote_count": 0,
       "section_id": 4405298833818,
       "created_at": "2024-11-14T17:37:15Z",
-      "updated_at": "2024-11-14T18:26:36Z",
+      "updated_at": "2024-11-18T16:00:12Z",
       "name": "Announcing enhanced side conversation child ticket settings",
       "title": "Announcing enhanced side conversation child ticket settings",
       "source_locale": "en-us",
@@ -182,7 +184,9 @@
       "user_segment_id": null,
       "permission_group_id": 1324079,
       "content_tag_ids": [],
-      "label_names": [],
+      "label_names": [
+        "mtpe"
+      ],
       "body": "<table style=\"border-collapse: collapse; width: 100%; height: 44px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Announced on</strong></td>\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Rollout starts</strong></td>\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Rollout ends</strong></td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\">November 14, 2024</td>\n<td style=\"width: 33.3333%; height: 22px;\">November 14, 2024</td>\n<td style=\"width: 33.3333%; height: 22px;\">November 20, 2024</td>\n</tr>\n</tbody>\n</table>\n<p>Zendesk is introducing enhanced settings for side conversation child tickets. These new settings offer you more control over your child ticket workflows</p>\n<p><span style=\"font-weight: 400;\">This announcement includes the following topics:</span></p>\n<ul>\n<li><a href=\"#h_01GD3S97RDYVTAFTQ8WR9878VF\">What is changing?</a></li>\n<li><a href=\"#h_01GD3S9TSPXM7M4WHYKYF4E84M\">Why is Zendesk making this change?</a></li>\n<li><a href=\"#h_01GD3S9TSPXM7M4WHYKYF4E84M\">What do I need to do?</a></li>\n</ul>\n<h2 id=\"h_01GD3S97RDYVTAFTQ8WR9878VF\"><span style=\"font-weight: 400;\">What is changing?</span></h2>\n<p>Admins can now configure child ticket settings by:</p>\n<ul>\n<li>Deciding which comment type to show on child tickets. Select either Public comment, Internal note, or match the ticket’s privacy.</li>\n<li>Allowing internal notes in your side conversations.</li>\n<li>Choosing to sync the status of the side conversation with the child ticket.</li>\n<li>Selecting which ticket fields are available for agents to include in child tickets, including the ticket requester. Additionally, you can set ticket fields to always be copied to the child ticket.</li>\n</ul>\n<p class=\"wysiwyg-indent1\">The new child ticket settings are available in Admin Center.</p>\n<p class=\"wysiwyg-indent1\"> <img class=\"image img-screenshot\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/sc_child_ticket_settings_1.png\" alt=\"child ticket settings in admin center, including options for comment types, internal notes, and status updates\" width=\"500\"></p>\n<p class=\"wysiwyg-indent1\"><img class=\"image img-screenshot\" src=\"https://zen-marketing-documentation.s3.us-west-1.amazonaws.com/docs/en/sc_child_ticket_settings_2.png\" alt=\"alt\" width=\"500\"></p>\n<h2 id=\"h_01GD3S9GD63FPDGQSEFY88M3ND\"><span style=\"font-weight: 400;\">Why is Zendesk making this change?</span></h2>\n<p>Zendesk is making this change so that you have more flexibility and control over your child ticket workflows.</p>\n<h2 id=\"h_01GD3S9TSPXM7M4WHYKYF4E84M\"><span style=\"font-weight: 400;\">What do I need to do?</span></h2>\n<p>The new child ticket settings are automatically available. To learn more, see <a href=\"https://support.zendesk.com/hc/en-us/articles/8364222553498\" target=\"_blank\" rel=\"noopener noreferrer\">Configuring side conversation child ticket settings</a>.</p>\n<p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/1260801325369\" target=\"_blank\" rel=\"noopener noreferrer\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk Customer Support</a>.</p>",
       "user_segment_ids": []
     },
