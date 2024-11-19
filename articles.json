@@ -174,14 +174,14 @@
       "vote_count": 0,
       "section_id": 4405298901274,
       "created_at": "2024-11-15T14:43:47Z",
-      "updated_at": "2024-11-19T16:04:54Z",
+      "updated_at": "2024-11-19T16:20:21Z",
       "name": "Why didn't the results of my scheduled deletion reach the maximum count?",
       "title": "Why didn't the results of my scheduled deletion reach the maximum count?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-11-15T18:07:49Z",
+      "edited_at": "2024-11-19T16:20:21Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -192,7 +192,7 @@
         "ab0_support",
         "role_admin"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>I created a <a href=\"https://support.zendesk.com/hc/en-us/articles/6062884435866-Creating-ticket-deletion-schedules-for-data-retention-policies#:~:text=Deletion%20schedules%20start%20to%20delete%20eligible%20tickets%20within%2072%20hours%20of%20activation.%20Up%20to%20200%2C000%20tickets%C2%A0per%20account%20per%20day%C2%A0will%20be%20deleted.\" target=\"_blank\" rel=\"noopener noreferrer\">deletion schedule</a> for my tickets and I know up to 200,000 tickets could be deleted per day on my account.</p>\n<p>However, I noticed that the number of deleted tickets is less than the limit, despite the initial preview showing more tickets than 200,000. Why?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>You may see fewer than 200,000 tickets because some<span> tickets will be skipped during the ticket deletion. Tickets that are not yet archived will not be deleted. However, the original preview count will include non-archived tickets.</span></p>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>I created a <a href=\"https://support.zendesk.com/hc/en-us/articles/6062884435866-Creating-ticket-deletion-schedules-for-data-retention-policies#:~:text=Deletion%20schedules%20start%20to%20delete%20eligible%20tickets%20within%2072%20hours%20of%20activation.%20Up%20to%20200%2C000%20tickets%C2%A0per%20account%20per%20day%C2%A0will%20be%20deleted.\" target=\"_blank\" rel=\"noopener noreferrer\">deletion schedule</a> for my tickets and I know up to 200,000 tickets could be deleted per day on my account.</p>\n<p>However, I noticed that the number of deleted tickets is less than the limit, despite the initial preview showing more tickets than 200,000. Why?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>You may see fewer than 200,000 tickets because some<span> tickets will be skipped during the ticket deletion. Tickets that are not yet archived will not be deleted. </span></p>",
       "user_segment_ids": []
     },
     {
