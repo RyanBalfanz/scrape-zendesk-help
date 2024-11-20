@@ -19,7 +19,7 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2024-11-20T09:45:15Z",
-      "updated_at": "2024-11-20T09:45:15Z",
+      "updated_at": "2024-11-20T10:02:02Z",
       "name": "Service Incident - November 20th, 2024",
       "title": "Service Incident - November 20th, 2024",
       "source_locale": "en-us",
@@ -32,6 +32,7 @@
       "content_tag_ids": [],
       "label_names": [
         "service_incident",
+        "mt",
         "rank_low_algolia"
       ],
       "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\"><p class=\"p1\"><strong>November 20, 2024 09:45 AM UTC | November 20, 2024 01:45 AM PT </strong><br>Some WFM customers may have experienced reports resetting to zero when using team or location filters over the past 36 hours. This issue has now been resolved for all data moving forward. We are actively working to backfill the affected data. We sincerely apologize for any inconvenience this may have caused and appreciate your understanding.</p></div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
