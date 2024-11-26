@@ -1,5 +1,5 @@
 {
-  "count": 4908,
+  "count": 4909,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 164,
@@ -79,7 +79,7 @@
       "vote_count": 0,
       "section_id": 4405298847002,
       "created_at": "2024-11-24T22:06:42Z",
-      "updated_at": "2024-11-25T23:04:42Z",
+      "updated_at": "2024-11-26T16:02:39Z",
       "name": "Release notes through 2024-11-22",
       "title": "Release notes through 2024-11-22",
       "source_locale": "en-us",
@@ -326,7 +326,7 @@
       "vote_count": 0,
       "section_id": 5634465167514,
       "created_at": "2024-11-20T17:57:45Z",
-      "updated_at": "2024-11-22T22:58:33Z",
+      "updated_at": "2024-11-26T16:03:18Z",
       "name": "Understanding how to format email notifications",
       "title": "Understanding how to format email notifications",
       "source_locale": "en-us",
@@ -338,6 +338,7 @@
       "permission_group_id": 1324079,
       "content_tag_ids": [],
       "label_names": [
+        "mt",
         "role_admin"
       ],
       "body": "<body>\n\n<div class=\"body\">\n<div class=\"div docs-wmp-link\" style=\"text-align: right; font-size: 0.8em;\"><a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/5411234991258-plan\" target=\"_blank\">What's my plan?</a></div>\n<p class=\"p\"><img alt=\"Available on all Suite plans\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/plan_available_suite_all.png\"><img alt=\"Available on all Support plans\" id=\"topic_ss1_1qg_ldc__image_jph_zvy_np\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/plan_available_all.png\"></p>\n<p class=\"p\"><a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408886797466\" target=\"_blank\">Ticket triggers</a> are the primary method by which\n            notifications are sent to end users from your account. However, they can also be sent by\n            automations and other business rules. Notifications to users can be sent by email, text\n            message, or posts on X (formerly Twitter). Of these, only email supports formatted\n            content. Text messages and X posts must be in plain text.</p>\n<div class=\"p\">There are two layers to consider when formatting email notifications:  <ul class=\"ul\" id=\"topic_ss1_1qg_ldc__ul_xhw_ssg_ldc\">\n<li class=\"li\">\n<strong class=\"ph b\">HTML template</strong>: The HTML template for emails controls the overall design\n                    and structure of email notifications. See <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408886168090\" target=\"_blank\">Customizing your email templates for\n                        notifications</a>. </li>\n<li class=\"li\">\n<strong class=\"ph b\">Notification body</strong>: The body of the notification is the text inserted into\n                    the <code class=\"ph codeph\">{{content}}</code> placeholder of the email templates. This can be\n                    plain text or formatted text, and is defined within the trigger's notification\n                    action.</li>\n</ul>\n</div>\n<div class=\"p\">This article describes the following options and considerations for formatting the\n            content of email notifications:<ul class=\"ul\" id=\"topic_ss1_1qg_ldc__ul_lvs_r2h_ldc\">\n<li class=\"li\"><a class=\"xref\" href=\"#topic_cbj_ytg_ldc\">Using HTML</a></li>\n<li class=\"li\"><a class=\"xref\" href=\"#topic_c1f_ttg_ldc\">Using Liquid markup</a></li>\n</ul>\n</div>\n</div>\n<div aria-labelledby=\"ariaid-title2\" class=\"topic nested1\" id=\"topic_cbj_ytg_ldc\">\n<h2 class=\"title topictitle2\" id=\"ariaid-title2\">Using HTML to format the content of email notifications</h2>\n<div class=\"body\">\n<div class=\"p\">HTML tags can be used to format the body of email notifications sent by ticket\n                triggers and other business rules. However, there are a few considerations to keep\n                in mind:<ul class=\"ul\" id=\"topic_cbj_ytg_ldc__ul_cwg_d5g_ldc\">\n<li class=\"li\">The content you specify for an email notification in a ticket trigger is\n                        inserted into the <code class=\"ph codeph\">{{content}}</code> placeholder in the <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408886168090\" target=\"_blank\">email templates</a>. Ensure the\n                        content you enter in the trigger notification action is compatible with the content of your\n                        email templates.</li>\n<li class=\"li\">The way email clients and web browsers render HTML varies. To provide a more\n                        consistent experience and to reduce issues, such as being interpreted as\n                        spam, follow these <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408886168090#topic_i3y_3vc_x3\" target=\"_blank\">guidelines for customizing HTML\n                            emails</a>.</li>\n<li class=\"li\">You might need to compress the HTML for some triggers. You can use\n                        compression tools, such as <a class=\"xref\" href=\"https://www.textfixer.com/html/compress-html-compression.php\" target=\"_blank\">Text Fixer</a>.</li>\n<li class=\"li\">If you see extra gaps or spaces in the content emailed to customers, remove\n                        all unnecessary characters, such as line breaks.</li>\n<li class=\"li\">HTML isn't supported when using dynamic content in the body of the email\n                        notification action for ticket triggers.</li>\n</ul>\n</div>\n</div>\n</div>\n<div aria-labelledby=\"ariaid-title3\" class=\"topic nested1\" id=\"topic_c1f_ttg_ldc\">\n<h2 class=\"title topictitle2\" id=\"ariaid-title3\">Using Liquid markup to format the content of email notifications</h2>\n<div class=\"body\">\n<p class=\"p\"><a class=\"xref\" href=\"https://shopify.github.io/liquid/\" target=\"_blank\">Liquid</a> is a templating language for rendering HTML. It's the mechanism\n                that enables the automated placement of data in email notifications using\n                placeholders. In addition to placeholders, Liquid can also be used to create simple\n                programming logic about how the content is expressed in the notification, such as\n                if/else statements, case statements, and variable assignments. </p>\n<p class=\"p\">For more information and examples, see <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408883291290\" target=\"_blank\">Understanding Liquid markup and Zendesk Support</a>.</p>\n</div>\n</div>\n</body>",
@@ -573,7 +574,7 @@
       "vote_count": 0,
       "section_id": 4405298901274,
       "created_at": "2024-11-15T14:43:47Z",
-      "updated_at": "2024-11-19T16:20:21Z",
+      "updated_at": "2024-11-26T16:02:51Z",
       "name": "Why didn't the results of my scheduled deletion reach the maximum count?",
       "title": "Why didn't the results of my scheduled deletion reach the maximum count?",
       "source_locale": "en-us",
@@ -731,7 +732,7 @@
       "vote_count": 0,
       "section_id": 4405298882330,
       "created_at": "2024-11-14T05:20:53Z",
-      "updated_at": "2024-11-20T00:06:10Z",
+      "updated_at": "2024-11-26T16:04:47Z",
       "name": "Allowing agents to end messaging sessions",
       "title": "Allowing agents to end messaging sessions",
       "source_locale": "en-us",
@@ -744,6 +745,7 @@
       "content_tag_ids": [],
       "label_names": [
         "messaging",
+        "mt",
         "end",
         "session"
       ],
@@ -763,7 +765,7 @@
       "vote_count": 1,
       "section_id": 5392381126682,
       "created_at": "2024-11-12T21:44:07Z",
-      "updated_at": "2024-11-26T14:25:56Z",
+      "updated_at": "2024-11-26T16:04:50Z",
       "name": "Configuring side conversation child ticket settings",
       "title": "Configuring side conversation child ticket settings",
       "source_locale": "en-us",
