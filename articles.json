@@ -551,7 +551,7 @@
     {
       "id": 8375146910106,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8375146910106.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/8375146910106-Service-Incident-November-14th-2024",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/8375146910106-Service-Incident-November-14-2024-Network-errors-accessing-Explore-dashboards-and-reports",
       "author_id": 1263082077509,
       "comments_disabled": true,
       "draft": false,
@@ -561,14 +561,14 @@
       "vote_count": 1,
       "section_id": 4405298854426,
       "created_at": "2024-11-14T15:18:56Z",
-      "updated_at": "2024-11-14T18:16:28Z",
-      "name": "Service Incident - November 14th, 2024",
-      "title": "Service Incident - November 14th, 2024",
+      "updated_at": "2024-12-03T20:09:50Z",
+      "name": "Service Incident - November 14, 2024 - Network errors accessing Explore dashboards and reports",
+      "title": "Service Incident - November 14, 2024 - Network errors accessing Explore dashboards and reports",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-11-14T18:11:53Z",
+      "edited_at": "2024-12-03T20:08:41Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
@@ -577,7 +577,7 @@
         "mt",
         "rank_low_algolia"
       ],
-      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>November 14, 2024 06:11 PM UTC | November 14, 2024 10:11 AM PT </strong><br>We are happy to report that the issue causing \"Network Error\" messages when loading Explore dashboards or reports has been solved. Thank you for your patience during our investigation.</p>\n<p class=\"p1\"><strong>November 14, 2024 03:18 PM UTC | November 14, 2024 07:18 AM PT </strong><br>Some Explore users may see a \"Network Error\" message when loading dashboards or reports. If this happens, clearing your browser’s cookies and cache should resolve the issue. We apologise for the inconvenience.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
+      "body": "<h3 id=\"h_01JE721T8P5HWYG1QBWC7QT420\" class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<p>On November 14, 2024 from 14:15 UTC to 23:20 UTC, customers using Explore experienced network errors accessing reports and dashboards. </p>\n<p> </p>\n<h3 id=\"h_01JE7228SWDYEC5RYDXCJEKRD7\"><span style=\"color: #06363c;\">Timeline</span></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>November 14, 2024 06:11 PM UTC | November 14, 2024 10:11 AM PT </strong><br>We are happy to report that the issue causing \"Network Error\" messages when loading Explore dashboards or reports has been solved. Thank you for your patience during our investigation.</p>\n<p class=\"p1\"><strong>November 14, 2024 03:18 PM UTC | November 14, 2024 07:18 AM PT </strong><br>Some Explore users may see a \"Network Error\" message when loading dashboards or reports. If this happens, clearing your browser’s cookies and cache should resolve the issue. We apologise for the inconvenience.<br><br></p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<h4 id=\"h_01JE722XS32Y18CNGNEY00TJZ6\"><span style=\"color: #666666;\">Root Cause Analysis</span></h4>\n<p class=\"wysiwyg-indent0.5\">This incident was caused by a network change that increased the number of headers sent to the Explore service beyond its configured limit. This led to the service failing silently, resulting in the dashboards not loading for customers.<br><br></p>\n<h4 id=\"h_01JE722XS3YYT9DBTXZSZVZEY5\"><span style=\"color: #666666;\">Resolution</span></h4>\n<p class=\"wysiwyg-indent0.5\">To resolve this issue, the network team was paged to investigate the changes. Upon identifying the problem, they reverted the changes that added excessive headers, which restored normal functionality for the Explore Dashboards.<br><br></p>\n<h4 id=\"h_01JE722XS3DVGCGCAEE09BV4KH\"><span style=\"color: #666666;\">Remediation Items</span></h4>\n<ul>\n<li>Improve existing implementation tools: Review and enhance the tools used for managing header limits in API requests to prevent similar incidents.</li>\n<li>Create additional alerts: Set up alerts for monitoring header counts and other critical metrics to detect issues before they impact customers.</li>\n<li>Add connection limits on specific applications: Implement connection limits on APIs to ensure they do not exceed operational thresholds, reducing the risk of future incidents.</li>\n</ul>\n<h4 id=\"h_01JE721T8PMJTA6M0KP0YZ2WKP\"><strong><br>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
     },
     {
