@@ -77,14 +77,14 @@
       "vote_count": 0,
       "section_id": 5346375003802,
       "created_at": "2024-12-05T16:09:05Z",
-      "updated_at": "2024-12-06T16:14:13Z",
+      "updated_at": "2024-12-06T17:44:43Z",
       "name": "Can I automatically change my voicemail greeting based on the day of the week?",
       "title": "Can I automatically change my voicemail greeting based on the day of the week?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-12-06T16:09:01Z",
+      "edited_at": "2024-12-06T17:44:42Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -95,7 +95,7 @@
         "role_admin",
         "role_owner"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>Can I automatically change my voicemail greeting based on the day of the week?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>You cannot automate voicemail greetings based on the day of the week. There is no automatic functionality for changing them by day or automatically in general. Users must update their greetings themselves.</p>\n<p>If you want to know how to add a voicemail, see the article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4830381017754-How-do-I-add-a-voicemail-and-greetings-in-Talk\" target=\"_blank\" rel=\"noopener noreferrer\">How do I add a voicemail and greetings in Talk?</a></p>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>Can I automatically change my voicemail greeting based on the day of the week?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>You cannot automatically update voicemail greetings. They must be updated manually. See <a href=\"https://support.zendesk.com/hc/en-us/articles/4408821594650\" target=\"_blank\" rel=\"noopener noreferrer\">Managing outgoing greetings</a> for more information.</p>\n<p> </p>",
       "user_segment_ids": []
     },
     {
