@@ -1,5 +1,5 @@
 {
-  "count": 4924,
+  "count": 4925,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 165,
@@ -245,6 +245,40 @@
         "mtpe"
       ],
       "body": "<p>We've heard feedback from many users in the Zendesk help center (support.zendesk.com) that you would like to have easier access to more video content to guide you in configuring, using, troubleshooting, and reporting on Zendesk. </p>\n<h3 id=\"h_01JE7CBG95NCX39WSCW7HMPMTY\">What does this mean?</h3>\n<p>Starting December 4, you'll now see videos included in help center search results, and you'll be able to browse and search videos exclusively within our <a href=\"https://support.zendesk.com/hc/en-us/p/video\" target=\"_blank\" rel=\"noopener noreferrer\">video library</a>. <br><br>Select <strong>Video</strong> when searching to scope your results to include video. Note that videos are included in search results by default, among articles and Community discussions.</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/8481113438362\" alt=\"Screenshot 2024-12-03 at 5.12.32 PM.png\"><br><br></p>\n<p>You can also find the video library by clicking the <strong>Video </strong>category from the home page or from the <strong>Knowledge base</strong> navigation bar: </p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/8481100686234\" alt=\"Screenshot 2024-12-03 at 5.14.56 PM.png\"><img src=\"https://support.zendesk.com/hc/article_attachments/8481100686490\" alt=\"Screenshot 2024-12-03 at 5.14.48 PM.png\"></p>\n<h3 id=\"h_01JE7CBTM2V7KYQTSXWWEWJ348\">What do I need to do?</h3>\n<p>If you prefer to learn from video, check out the video library or individual videos in search results. We'd love to hear your thoughts about our video offerings in <a href=\"https://support.zendesk.com/hc/en-us/community/posts/7804864320282-Help-us-improve-Zendesk-video-content-Share-your-feedback\">this community discussion</a>. For general assistance with your Zendesk products, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk Customer Support</a>.</p>",
+      "user_segment_ids": []
+    },
+    {
+      "id": 8481078181914,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8481078181914.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/8481078181914-How-can-I-rename-the-metric-names-in-my-Explore-report",
+      "author_id": 1263082275489,
+      "comments_disabled": false,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298855578,
+      "created_at": "2024-12-03T23:15:20Z",
+      "updated_at": "2024-12-09T07:17:47Z",
+      "name": "How can I rename the metric names in my Explore report?",
+      "title": "How can I rename the metric names in my Explore report?",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2024-12-09T07:17:45Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801135069,
+      "content_tag_ids": [],
+      "label_names": [
+        "ks",
+        "ab0",
+        "ab0_explore",
+        "role_agent",
+        "role_admin"
+      ],
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>I am utilizing the same metric with various aggregators. How can I rename the individual metrics in my Explore report for better clarity and differentiation?</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/8511079189786\"></p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>If you want to rename individual metrics in your report perform the steps below:</p>\n<ol>\n<li>From the Chart configuration menu ( <img id=\"topic_xrl_mz5_3jb__image_dwv_kdw_3jb\" class=\"image\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/Explore_chart_configuration.png\" alt=\"\" width=\"16\" height=\"16\">) , click <strong class=\"ph b\">Chart</strong>\n</li>\n<li class=\"li\">On the <strong class=\"ph b\">Chart</strong> page, enable <strong class=\"ph b\">Show Aggregators</strong>\n</li>\n<li>Click on the column heading in the report and type the new heading name</li>\n</ol>\n<p>Each column heading can now be renamed individually to improve clarity and differentiation.</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/8511036579226\"></p>\n<p> </p>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408827297946-Customizing-your-chart-type-and-options\" target=\"_blank\" rel=\"noopener noreferrer\">Customizing your chart type and options</a>.</p>",
       "user_segment_ids": []
     },
     {
@@ -910,40 +944,6 @@
         "mt"
       ],
       "body": "<body>\n\n<div class=\"body\">\n<div class=\"div docs-wmp-link\" style=\"text-align: right; font-size: 0.8em;\"><a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/5411234991258-plan\" target=\"_blank\">What's my plan?</a></div>\n<p class=\"p\"><img alt=\"Available on Suite Professional plans and above\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/plan_available_suite_pee.png\"><img alt=\"Available on Support Professional plans and above with add-on\" id=\"topic_d5y_k4y_fdb__image_dwy_mqk_3bc\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/plan_available_add_p_add_e.png\"></p>\n<div class=\"note fastpath\" style=\"margin-right: 0px;\">\n<span class=\"fastpathtitle\">Quick Look: </span> <span class=\"ph\">Admin Center &gt; Workspaces &gt; Agent tools &gt; Side\n                                conversations</span>\n</div>\n<p class=\"p\"><a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408844206746\" target=\"_blank\">Side conversations</a> are spaces within a ticket where agents can have\n      a separate conversation with a specific group of people, or discuss concerns or a course of\n      action. A <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408836521498\" target=\"_blank\">side conversation child ticket</a> is a separate ticket\n      that is subordinate to a side conversation. </p>\n<p class=\"p\">When you <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408832279962\" target=\"_blank\">activate side conversation child tickets</a>, you can also\n      configure additional options that offer more control over your workflows.</p>\n<p class=\"p\" dir=\"ltr\">Related articles:</p>\n<ul class=\"ul\" id=\"topic_d5y_k4y_fdb__ul_amy_4k3_jdc\">\n<li class=\"li\" dir=\"ltr\"><a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408832279962\" target=\"_blank\">Activating and deactivating side conversations</a></li>\n<li class=\"li\"><a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408836521498\" target=\"_blank\">Using side conversation child tickets</a></li>\n</ul>\n<p class=\"p\">You must be an admin to configure additional child ticket settings.</p>\n<p class=\"p\"><strong class=\"ph b\">To configure settings for side conversation child tickets</strong></p>\n<ol class=\"ol\" id=\"topic_d5y_k4y_fdb__ol_y4j_wk3_jdc\">\n<li class=\"li\"><span class=\"ph\">In <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4581766374554#topic_hfg_dyz_1hb\" target=\"_blank\">Admin Center</a>, click <img class=\"image\" id=\"topic_d5y_k4y_fdb__d8e1125\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/ac_workspaces_icon.png\">\n<strong class=\"ph b\">Workspaces</strong> in the sidebar, then select <strong class=\"ph b\">Agent tools &gt; Side\n      conversations</strong>.</span></li>\n<li class=\"li\">Select the check box for <strong class=\"ph b\">Turn on child tickets</strong> if it’s not already selected.</li>\n<li class=\"li\">Select a <strong class=\"ph b\">Comment type</strong> to determine how replies appear on child tickets.<p class=\"p\"><img class=\"image img-screenshot\" id=\"topic_d5y_k4y_fdb__image_il5_gl3_jdc\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/sc_child_ticket_settings_1.png\" width=\"500\"></p>\n<p class=\"p\">Choose from the following:</p>\n<ul class=\"ul\" id=\"topic_d5y_k4y_fdb__ul_a2w_hl3_jdc\">\n<li class=\"li\">\n<strong class=\"ph b\">Public</strong>: Child tickets are started as public tickets, meaning that comments are\n            initially public replies. Agents can switch between public replies and internal notes in\n            the composer. This is the default behavior.</li>\n<li class=\"li\">\n<strong class=\"ph b\">Internal</strong>: Child tickets are started as private tickets, meaning that comments\n            are internal notes. Child tickets remain private and all replies are published as\n            internal notes regardless of ticket privacy.</li>\n<li class=\"li\">\n<strong class=\"ph b\">Match ticket status</strong>: Child tickets are started as private tickets, meaning that\n            comments are initially internal notes. When the child ticket is changed to a public\n            ticket (that is, when an agent changes the comment type to public reply and confirms\n            they want to make the ticket public), then comments are published as public\n            replies.</li>\n</ul>\n</li>\n<li class=\"li\">(Optional) In the <strong class=\"ph b\">Private notes</strong> section, select the check box if you want to\n        include internal notes in child ticket conversations.<p class=\"p\">Only agents can see these notes, not\n          the requester.</p>\n</li>\n<li class=\"li\">(Optional) The <strong class=\"ph b\">Status updates</strong> check box is selected by default. This option closes\n        the side conversation after the child ticket is solved and reopens it if the child ticket is\n        reopened. Its status changes are shown in the parent ticket’s <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408829602970\" target=\"_blank\">events</a>.<p class=\"p\">Deselect the check box if you don’t want to receive an\n          update when the child ticket is solved or reopened. </p>\n</li>\n<li class=\"li\">(Optional) In the <strong class=\"ph b\">Include recipient address</strong> section, select the check box to\n        include the original ticket recipient's email address in the child ticket.</li>\n<li class=\"li\">In the <strong class=\"ph b\">Ticket fields</strong> section, select which ticket fields are available for agents\n        to include in child tickets.<p class=\"p\"><img class=\"image img-screenshot\" id=\"topic_d5y_k4y_fdb__image_bxy_rl3_jdc\" src=\"https://zen-marketing-documentation.s3.us-west-1.amazonaws.com/docs/en/sc_child_ticket_settings_2.png\" width=\"500\"></p>\n<div class=\"p\">Configure whether a field is included\n          by default or allow agents to select which fields to copy to child tickets. You can also\n          deselect both checkboxes for a field to prevent agents from copying the field to the child\n            ticket.<div class=\"note note\">\n<span class=\"notetitle\">Note:</span> If you configure fields to be included by default, they're not included\n            when a trigger action creates a child ticket side conversation.</div>\n</div>\n<p class=\"p\">If you want\n          to always include a field in a child ticket, select the field’s check box for <strong class=\"ph b\">Include\n            by default</strong> and deselect the <strong class=\"ph b\">Show selector</strong> check box.</p>\n<p class=\"p\">See <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408836521498#topic_pyp_gcg_qtb\" target=\"_blank\">Copying fields to child tickets</a>.</p>\n</li>\n<li class=\"li\">Click <strong class=\"ph b\">Save</strong>.</li>\n</ol>\n</div>\n</body>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 8360709142938,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8360709142938.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/8360709142938-On-tickets-my-ticket-form-automatically-changes-after-an-update",
-      "author_id": 4967137259930,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405298900890,
-      "created_at": "2024-11-12T08:57:32Z",
-      "updated_at": "2024-11-20T17:11:41Z",
-      "name": "On tickets, my ticket form automatically changes after an update",
-      "title": "On tickets, my ticket form automatically changes after an update",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2024-11-12T18:16:46Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801135069,
-      "content_tag_ids": [],
-      "label_names": [
-        "ks",
-        "ab0",
-        "mt",
-        "ab0_support",
-        "role_admin"
-      ],
-      "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2>\n<p>I'm trying to change the form on a ticket. However, the ticket form keeps reverting to the original value.</p>\n<h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2>\n<p>A ticket form may automatically change after a ticket update for the following reasons: </p>\n<ul>\n<li>A trigger acted on the ticket</li>\n<li>The contextual workspace feature enforces the ticket form for your workspace</li>\n</ul>\n<h3 id=\"h_01JCGHAFWM2WYDWTD4QKQ4031H\">Verify if a trigger is firing</h3>\n<p>Open the <a href=\"https://support.zendesk.com/hc/en-us/articles/4408829602970-Viewing-all-events-for-ticket-updates\" target=\"_blank\" rel=\"noopener noreferrer\">ticket events</a> and check if a trigger changed the form. You may need to correct the conditions of <a href=\"https://support.zendesk.com/hc/en-us/articles/4408882237722-Managing-ticket-triggers#topic_dwq_zoy_tb\" target=\"_blank\" rel=\"noopener noreferrer\">your trigger</a>.<br><img src=\"https://support.zendesk.com/hc/article_attachments/8362607776410\" alt=\"Ticket.png\" width=\"381\" height=\"221\"></p>\n<h3 id=\"h_01JCGHAKMC69CD3GGZ97S12YA1\">Ensure that contextual workspaces are not enforcing the ticket form</h3>\n<p>Verify if <a href=\"https://support.zendesk.com/hc/en-us/articles/4408833498906-Setting-up-contextual-workspaces#topic_ryq_tzl_bcc\" target=\"_blank\" rel=\"noopener noreferrer\">contextual workspaces</a> are in use on the account.</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/8362607777050\" alt=\"Workspace.png\" width=\"312\" height=\"31\"></p>\n<p>If an active workspace exists, confirm if the ticket matches the conditions for your workspace. You can change your conditions so that the ticket no longer matches the workspace.</p>",
       "user_segment_ids": []
     }
   ],
