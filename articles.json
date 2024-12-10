@@ -108,14 +108,14 @@
       "vote_count": 0,
       "section_id": 6302086250394,
       "created_at": "2024-12-06T16:51:47Z",
-      "updated_at": "2024-12-09T14:51:29Z",
+      "updated_at": "2024-12-10T07:41:22Z",
       "name": "Can I use the visitor page URL condition to trigger a proactive message if I use the web widget on a SAP website?",
       "title": "Can I use the visitor page URL condition to trigger a proactive message if I use the web widget on a SAP website?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-12-09T14:51:24Z",
+      "edited_at": "2024-12-10T07:41:22Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [
@@ -129,7 +129,7 @@
         "ab0_messaging",
         "role_admin"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>Can I use the visitor page URL condition to trigger a proactive message if I use the web widget on a SAP website?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>No, currently the condition <a href=\"https://support.zendesk.com/hc/en-us/articles/5511218058650-Proactive-messaging-conditions-and-events-reference#:~:text=Value-,Page%20URL,-Visitor\" target=\"_blank\" rel=\"noopener noreferrer\">visitor page URL</a> for proactive messages is not supported if the web widget is installed on a SAP website. This limitation is due to the way SAP websites are structured.</p>\n<p>SAP website sites employ a mechanism that allows users to navigate between different pages without the need to force a full page reload. As a result, the Document Object Model (DOM) and the associated page doesn't refresh during navigation.</p>\n<p>Because of the lack of page reload, the necessary checks and updates cannot be performed in real-time in place and therefore, the web widget cannot accurately determine the visitor's current location within the site. </p>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/5511266103834-Creating-proactive-messages-for-the-Web-Widget\">Creating proactive messages for the Web Widget</a><br><br></p>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>Can I use the visitor page URL condition to trigger a proactive message if I use the web widget on a SAP website?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>No, currently the condition <a href=\"https://support.zendesk.com/hc/en-us/articles/5511218058650-Proactive-messaging-conditions-and-events-reference#:~:text=Value-,Page%20URL,-Visitor\" target=\"_blank\" rel=\"noopener noreferrer\">visitor page URL</a> for proactive messages is not supported if the web widget is installed on a SAP website. This limitation is due to the way SAP websites are structured.</p>\n<p>SAP websites employ a mechanism that allows users to navigate between different pages without the need to force a full page reload. As a result, the Document Object Model (DOM) and the associated page doesn't refresh during navigation.</p>\n<p>Because of the lack of page reload, the necessary checks and updates cannot be performed in real-time in place and therefore, the web widget cannot accurately determine the visitor's current location within the site. </p>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/5511266103834-Creating-proactive-messages-for-the-Web-Widget\">Creating proactive messages for the Web Widget</a><br><br></p>",
       "user_segment_ids": []
     },
     {
