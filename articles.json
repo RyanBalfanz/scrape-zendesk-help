@@ -366,14 +366,14 @@
       "vote_count": 0,
       "section_id": 4405298850586,
       "created_at": "2024-12-03T15:25:57Z",
-      "updated_at": "2024-12-10T14:43:27Z",
+      "updated_at": "2024-12-10T15:11:12Z",
       "name": "How are tickets captured from article searches in Explore?",
       "title": "How are tickets captured from article searches in Explore?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-12-10T14:43:27Z",
+      "edited_at": "2024-12-10T15:11:11Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -383,7 +383,7 @@
         "ab0_explore",
         "role_agent"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>How are tickets captured from article searches in Explore?</p>\n<h2 id=\"h_01JERG70EYHRHBAFVHF3PS2PSX\"><span>Answer</span></h2>\n<p>The <strong>Ticket Created</strong> metric is related to the help_center_data <a href=\"https://support.zendesk.com/hc/en-us/articles/4408824378650-Zendesk-In-Product-Cookie-Policy\" target=\"_blank\" rel=\"noopener noreferrer\">cookie</a>. When users search the help center, this cookie saves their search terms, which helps Zendesk identify if a ticket was created as a result of that specific search.</p>\n<p>The Guide datasets are event-based. While Zendesk can detect when a ticket is created, it doesn't track individual ticket IDs.</p>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4409155064090-Metrics-and-attributes-for-Zendesk-Guide\" target=\"_blank\" rel=\"noopener noreferrer\">Metrics and attributes for Zendesk Guide.</a></p>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>How are tickets captured from article searches in Explore?</p>\n<h2 id=\"h_01JERG70EYHRHBAFVHF3PS2PSX\"><span>Answer</span></h2>\n<p>The <strong>Ticket Created</strong> metric is related to the <code>help_center_data</code> <a href=\"https://support.zendesk.com/hc/en-us/articles/4408824378650-Zendesk-In-Product-Cookie-Policy\" target=\"_blank\" rel=\"noopener noreferrer\">cookie</a>. When users search the help center, this cookie saves search terms. Zendesk can identify if a ticket was created as a result of that specific search.</p>\n<p>However, Guide datasets are based on events. While Zendesk detects the creation of a ticket, individual ticket IDs are not tracked.</p>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4409155064090-Metrics-and-attributes-for-Zendesk-Guide\" target=\"_blank\" rel=\"noopener noreferrer\">Metrics and attributes for Zendesk Guide</a>.</p>",
       "user_segment_ids": []
     },
     {
