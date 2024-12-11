@@ -19,21 +19,21 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2024-12-11T18:16:14Z",
-      "updated_at": "2024-12-11T18:31:25Z",
+      "updated_at": "2024-12-11T18:46:24Z",
       "name": "Service Incident - December 11, 2024",
       "title": "Service Incident - December 11, 2024",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-12-11T18:16:14Z",
+      "edited_at": "2024-12-11T18:38:42Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
       "label_names": [
         "mt"
       ],
-      "body": "<h3 id=\"h_01HTHGD3YVFX05QKV5JCGGMZCS\" class=\"p1\"><strong>SUMMARY</strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><span class=\"wysiwyg-color-black40\" style=\"color: #000000;\"><strong>December 11, 2024 06:15 PM UTC | December 11, 2024 10:14 AM PT</strong></span><br>We are aware of a partner provider outage affecting WhatsApp, Messenger, and Instagram. We are working with the provider to restore services and will provide further updates soon.</p>\n<p class=\"p1\"> </p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p>\n<h4 id=\"h_01HTHGD3YVS7RVQDA6MFRRVQZ8\"><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
+      "body": "<h3 id=\"h_01HTHGD3YVFX05QKV5JCGGMZCS\" class=\"p1\"><strong>SUMMARY</strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><span class=\"wysiwyg-color-black40\" style=\"color: #000000;\"><strong>December 11, 2024 06:35 PM UTC | December 11, 2024 10:35 AM PT</strong></span></p>\n<p class=\"undefined\"><span class=\"wysiwyg-color-black40\" style=\"color: #000000;\">Our team continues their work with our partner provider to restore service to WhatsApp, Messenger, and Instagram. We will provide another update in one hour or when we have new information to share.</span></p>\n<p class=\"p1\"><span class=\"wysiwyg-color-black40\" style=\"color: #000000;\"><strong>December 11, 2024 06:15 PM UTC | December 11, 2024 10:14 AM PT</strong></span><br>We are aware of a partner provider outage affecting WhatsApp, Messenger, and Instagram. We are working with the provider to restore services and will provide further updates soon.</p>\n<p class=\"p1\"> </p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p>\n<h4 id=\"h_01HTHGD3YVS7RVQDA6MFRRVQZ8\"><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
     },
     {
