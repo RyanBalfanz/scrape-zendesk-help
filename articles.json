@@ -1,11 +1,42 @@
 {
-  "count": 4936,
+  "count": 4937,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 165,
   "per_page": 30,
   "previous_page": null,
   "articles": [
+    {
+      "id": 8549556790042,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8549556790042.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/8549556790042-Service-Incident-December-16th-2024",
+      "author_id": 1263082110769,
+      "comments_disabled": true,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298854426,
+      "created_at": "2024-12-16T03:01:24Z",
+      "updated_at": "2024-12-16T03:01:24Z",
+      "name": "Service Incident - December 16th, 2024",
+      "title": "Service Incident - December 16th, 2024",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2024-12-16T03:01:24Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801242670,
+      "content_tag_ids": [],
+      "label_names": [
+        "service_incident",
+        "rank_low_algolia"
+      ],
+      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\"><p class=\"p1\"><strong>December 16, 2024 03:01 AM UTC | December 15, 2024 07:01 PM PT </strong><br>We have received reports of errors and access issues in Tymeshift and Workforce Management. Our team is looking into this issue at the highest priority. More information to come soon.</p></div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
+      "user_segment_ids": []
+    },
     {
       "id": 8549072155802,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8549072155802.json",
@@ -919,38 +950,6 @@
         "role_admin"
       ],
       "body": "<body>\n\n<div class=\"body\">\n<div class=\"div docs-wmp-link\" style=\"text-align: right; font-size: 0.8em;\"><a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/5411234991258-plan\" target=\"_blank\">What's my plan?</a></div>\n<p class=\"p\"><img alt=\"Available on all Suite plans\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/plan_available_suite_all.png\"><img alt=\"Available on all Support plans\" id=\"topic_ss1_1qg_ldc__image_jph_zvy_np\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/plan_available_all.png\"></p>\n<p class=\"p\"><a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408886797466\" target=\"_blank\">Ticket triggers</a> are the primary method by which\n            notifications are sent to end users from your account. However, they can also be sent by\n            automations and other business rules. Notifications to users can be sent by email, text\n            message, or posts on X (formerly Twitter). Of these, only email supports formatted\n            content. Text messages and X posts must be in plain text.</p>\n<div class=\"p\">There are two layers to consider when formatting email notifications:  <ul class=\"ul\" id=\"topic_ss1_1qg_ldc__ul_xhw_ssg_ldc\">\n<li class=\"li\">\n<strong class=\"ph b\">HTML template</strong>: The HTML template for emails controls the overall design\n                    and structure of email notifications. See <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408886168090\" target=\"_blank\">Customizing your email templates for\n                        notifications</a>. </li>\n<li class=\"li\">\n<strong class=\"ph b\">Notification body</strong>: The body of the notification is the text inserted into\n                    the <code class=\"ph codeph\">{{content}}</code> placeholder of the email templates. This can be\n                    plain text or formatted text, and is defined within the trigger's notification\n                    action.</li>\n</ul>\n</div>\n<div class=\"p\">This article describes the following options and considerations for formatting the\n            content of email notifications:<ul class=\"ul\" id=\"topic_ss1_1qg_ldc__ul_lvs_r2h_ldc\">\n<li class=\"li\"><a class=\"xref\" href=\"#topic_cbj_ytg_ldc\">Using HTML</a></li>\n<li class=\"li\"><a class=\"xref\" href=\"#topic_c1f_ttg_ldc\">Using Liquid markup</a></li>\n</ul>\n</div>\n</div>\n<div aria-labelledby=\"ariaid-title2\" class=\"topic nested1\" id=\"topic_cbj_ytg_ldc\">\n<h2 class=\"title topictitle2\" id=\"ariaid-title2\">Using HTML to format the content of email notifications</h2>\n<div class=\"body\">\n<div class=\"p\">HTML tags can be used to format the body of email notifications sent by ticket\n                triggers and other business rules. However, there are a few considerations to keep\n                in mind:<ul class=\"ul\" id=\"topic_cbj_ytg_ldc__ul_cwg_d5g_ldc\">\n<li class=\"li\">The content you specify for an email notification in a ticket trigger is\n                        inserted into the <code class=\"ph codeph\">{{content}}</code> placeholder in the <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408886168090\" target=\"_blank\">email templates</a>. Ensure the\n                        content you enter in the trigger notification action is compatible with the content of your\n                        email templates.</li>\n<li class=\"li\">The way email clients and web browsers render HTML varies. To provide a more\n                        consistent experience and to reduce issues, such as being interpreted as\n                        spam, follow these <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408886168090#topic_i3y_3vc_x3\" target=\"_blank\">guidelines for customizing HTML\n                            emails</a>.</li>\n<li class=\"li\">You might need to compress the HTML for some triggers. You can use\n                        compression tools, such as <a class=\"xref\" href=\"https://www.textfixer.com/html/compress-html-compression.php\" target=\"_blank\">Text Fixer</a>.</li>\n<li class=\"li\">If you see extra gaps or spaces in the content emailed to customers, remove\n                        all unnecessary characters, such as line breaks.</li>\n<li class=\"li\">HTML isn't supported when using dynamic content in the body of the email\n                        notification action for ticket triggers.</li>\n</ul>\n</div>\n</div>\n</div>\n<div aria-labelledby=\"ariaid-title3\" class=\"topic nested1\" id=\"topic_c1f_ttg_ldc\">\n<h2 class=\"title topictitle2\" id=\"ariaid-title3\">Using Liquid markup to format the content of email notifications</h2>\n<div class=\"body\">\n<p class=\"p\"><a class=\"xref\" href=\"https://shopify.github.io/liquid/\" target=\"_blank\">Liquid</a> is a templating language for rendering HTML. It's the mechanism\n                that enables the automated placement of data in email notifications using\n                placeholders. In addition to placeholders, Liquid can also be used to create simple\n                programming logic about how the content is expressed in the notification, such as\n                if/else statements, case statements, and variable assignments. </p>\n<p class=\"p\">For more information and examples, see <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408883291290\" target=\"_blank\">Understanding Liquid markup and Zendesk Support</a>.</p>\n</div>\n</div>\n</body>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 8405557873050,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8405557873050.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/8405557873050-Service-Incident-November-20-2024-Zendesk-WFM-All-Pods-Reports-resetting-to-zero-when-using-team-or-location-filters",
-      "author_id": 1263082115469,
-      "comments_disabled": true,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405298854426,
-      "created_at": "2024-11-20T09:45:15Z",
-      "updated_at": "2024-12-04T20:15:36Z",
-      "name": "Service Incident - November 20, 2024 - Zendesk WFM | All Pods - Reports resetting to zero when using team or location filters",
-      "title": "Service Incident - November 20, 2024 - Zendesk WFM | All Pods - Reports resetting to zero when using team or location filters",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2024-12-04T20:09:54Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801242670,
-      "content_tag_ids": [],
-      "label_names": [
-        "service_incident",
-        "mt",
-        "rank_low_algolia"
-      ],
-      "body": "<h3 id=\"h_01JE9MF7286CEFT0N4YD8YR2YQ\" class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p>From November 18, 2024 at 14:00 UTC to 9:25 UTC on November 20, Zendesk WFM customers in all Pods which have reports configured to group results using Location and Team properties started reporting that metrics were showing 0s in these cases, whereas for the same reporting period grouped by different properties reports were showing results. </p>\n<p>This issue impacted only reports that used Location and Teams properties.</p>\n<p class=\"p1\"> </p>\n<h3 id=\"01JE9MFWZKANXRT6X5KEWX4B9D\" class=\"p1\"><strong>TIMELINE</strong></h3>\n<p class=\"p1\"><strong>November 20, 2024 09:45 AM UTC | November 20, 2024 01:45 AM PT </strong><br>Some WFM customers may have experienced reports resetting to zero when using team or location filters over the past 36 hours. This issue has now been resolved for all data moving forward. We are actively working to backfill the affected data. We sincerely apologize for any inconvenience this may have caused and appreciate your understanding.</p>\n</div>\n<p class=\"p1\"> </p>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<h4 id=\"h_01JE9MMNZN3WR674NJ4T8NT00V\"><span style=\"color: #666666;\">Root Cause Analysis</span></h4>\n<p>This incident was caused by a misconfiguration in the application following a recent release. The update introduced a new templating system that changed how the application constructed the URL for collecting Location and Team property values. This change broke the HTTP client, preventing it from locating the necessary service and leading to the skipping of data enrichment after five retries. As a result, the reports could not retrieve the required data, resulting in zero metrics being displayed.</p>\n<h4 id=\"h_01JE9MMNZN2AAYMGHR53N1HA57\"><span style=\"color: #666666;\"><br>Resolution</span></h4>\n<p>To resolve this issue, we rolled back the recent changes to the templating system, restoring the previous functionality that correctly constructed the URLs for data enrichment. This allowed the service to successfully retrieve Location and Team property values, restoring accurate reporting for affected customers.</p>\n<h4 id=\"h_01JE9MMNZNADFQC1HF4R38YZXM\"><span style=\"color: #666666;\"><br>Remediation Items</span></h4>\n<ol>\n<li>Implement alerts for increased error logs in the environment to proactively address issues before they impact customers.</li>\n<li>Conduct a thorough review of the templating system and its configurations to ensure no similar misconfigurations occur in the future.</li>\n<li>Enhance the monitoring of the service to catch data enrichment failures earlier in the process.</li>\n<li>Establish a more robust testing protocol for future releases to identify potential issues with data collection mechanisms before deployment.</li>\n</ol>\n<h4> </h4>\n<h4 id=\"h_01JE9MF7281H972SJ3JXFYKQEM\"><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
     }
   ],
