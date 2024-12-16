@@ -19,14 +19,14 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2024-12-16T03:01:24Z",
-      "updated_at": "2024-12-16T04:51:49Z",
+      "updated_at": "2024-12-16T05:25:21Z",
       "name": "Service Incident - December 16th, 2024",
       "title": "Service Incident - December 16th, 2024",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2024-12-16T04:51:49Z",
+      "edited_at": "2024-12-16T05:25:21Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
@@ -34,7 +34,7 @@
         "service_incident",
         "rank_low_algolia"
       ],
-      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>December 16, 2024 04:51 AM UTC | December 15, 2024 08:51 PM PT </strong><br>We have identified the potential cause of the issue impacting Tymeshift / Workforce Management and deployed a fix. We are currently monitoring our systems for recovery. If you have a ticket with our support team, please reply to it reporting any improvements you may be seeing.</p>\n<p class=\"p1\"><strong>December 16, 2024 03:44 AM UTC | December 15, 2024 07:44 PM PT </strong><br>We continue to investigate the access errors affecting Tymeshift and Workforce Management across multiple pods. We will provide the next update when we have new information to share. Thanks for your patience while we work through this issue.</p>\n<p class=\"p1\"><strong>December 16, 2024 03:01 AM UTC | December 15, 2024 07:01 PM PT </strong><br>We have received reports of errors and access issues in Tymeshift and Workforce Management. Our team is looking into this issue at the highest priority. More information to come soon.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
+      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>December 16, 2024 05:25 AM UTC | December 15, 2024 09:25 PM PT </strong><br>We are happy to report that the Tymeshift and Workforce Management access issue is now resolved. Thanks for your patience while we worked through this issue today.</p>\n<p class=\"p1\"><strong>December 16, 2024 04:51 AM UTC | December 15, 2024 08:51 PM PT </strong><br>We have identified the potential cause of the issue impacting Tymeshift / Workforce Management and deployed a fix. We are currently monitoring our systems for recovery. If you have a ticket with our support team, please reply to it reporting any improvements you may be seeing.</p>\n<p class=\"p1\"><strong>December 16, 2024 03:44 AM UTC | December 15, 2024 07:44 PM PT </strong><br>We continue to investigate the access errors affecting Tymeshift and Workforce Management across multiple pods. We will provide the next update when we have new information to share. Thanks for your patience while we work through this issue.</p>\n<p class=\"p1\"><strong>December 16, 2024 03:01 AM UTC | December 15, 2024 07:01 PM PT </strong><br>We have received reports of errors and access issues in Tymeshift and Workforce Management. Our team is looking into this issue at the highest priority. More information to come soon.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
       "user_segment_ids": []
     },
     {
