@@ -141,9 +141,9 @@
       "position": 0,
       "vote_sum": 1,
       "vote_count": 1,
-      "section_id": 4405298846618,
+      "section_id": 4405298901274,
       "created_at": "2024-12-13T22:35:51Z",
-      "updated_at": "2024-12-17T16:04:43Z",
+      "updated_at": "2024-12-18T10:31:07Z",
       "name": "Some agents cannot access tickets they are assigned to in their groups",
       "title": "Some agents cannot access tickets they are assigned to in their groups",
       "source_locale": "en-us",
@@ -155,11 +155,12 @@
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
       "label_names": [
-        "multibrand",
         "ks",
         "ab0",
         "mt",
-        "'support'"
+        "ab0_support",
+        "role_agent",
+        "role_admin"
       ],
       "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue Symptoms</h2>\n<ul>\n<li>Some agents in your account cannot see their tickets.</li>\n<li>If an agent is affected, they may encounter the error message: <strong>The ticket you are trying to open is not visible to agents in your group(s).</strong>\n</li>\n</ul>\n<p class=\"wysiwyg-text-align-center\"><img src=\"https://support.zendesk.com/hc/article_attachments/8539197719194\" alt=\"Error: The ticket you are trying to open is not visible to agents in your group\" width=\"577\" height=\"272\"></p>\n<h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution Steps</h2>\n<p>With the launch of <a href=\"https://support.zendesk.com/hc/en-us/articles/7584022494874-Restricting-agent-ticket-access-by-brand-Department-Spaces\" target=\"_blank\" rel=\"noopener noreferrer\">department spaces</a>, we had to run a backfill for all enterprise accounts. If an agent was in a downgraded state during the backfill, they were treated as an end user.</p>\n<p>If the backfill completed before the downgraded agents had been upgraded, then those agents lost access to all tickets. The admin or team member managing the upgrade will need to add the upgraded agent to relevant brands to allow them to access tickets.</p>\n<p>A quick way to identify impacted users is to search for all team members without brands and assign them to the appropriate brands as needed.</p>\n<p>Go to <strong>Admin Center &gt; People &gt; Team Members</strong> and select the name of the team member. Select <strong>Manage Brand Membership</strong> and choose the brands you’d like to add the team member to. Click <strong>Save</strong>.</p>\n<p>This particular situation only happens to agents that were downgraded during the backfill process and will not affect agents that are downgraded and upgraded after the backfill was completed.</p>\n<p>In the future, when an agent is downgraded and upgraded, they will maintain their brand associations as previously configured.</p>\n<h4 id=\"h_01JF11QTRWPA36W2S3AXPZZBW8\"><strong>How to find team members without brands</strong></h4>\n<ol>\n<li>Locate and record the ID numbers for all your brands.\n<ol>\n<li>In <a href=\"https://support.zendesk.com/hc/en-us/articles/4581766374554-Using-Zendesk-Admin-Center#topic_hfg_dyz_1hb\" target=\"_blank\" rel=\"noopener noreferrer\">Admin Center</a>, click Account in the sidebar, then select <strong>Brand Management &gt; Brands</strong>.</li>\n<li>Click the name of your first brand.</li>\n<li>Note the brand ID in the URL (e.g., 7589783592859).</li>\n<li>Repeat steps 1-3 for all of your brands to create a complete list of all your brand IDs.</li>\n</ol>\n</li>\n<li>In <a href=\"https://support.zendesk.com/hc/en-us/articles/4581766374554-Using-Zendesk-Admin-Center#topic_hfg_dyz_1hb\" target=\"_blank\" rel=\"noopener noreferrer\">Admin Center</a>, click People in the sidebar, then select <strong>Team &gt; Team Members</strong>.</li>\n<li>In the <strong>Search Team Members</strong> box, type the following search, listing all your brands for each <code>brand_id</code> entry. For example, the search string below searches for all team members in all brands, where 2 brands exist: 7589783592859 and 7589791042859:<br><code>type:user role:agent role:admin -brand_id:7589783592859 -brand_id:7589791042859</code><br>All team members with no brands should display.</li>\n<li>Select the team members in the list, then click <strong>Manage Brand Membership</strong>.</li>\n<li>Add the team members to brands. See <a href=\"https://support.zendesk.com/hc/en-us/articles/8533042068122#topic_p4k_grx_xbc\">Adding or Removing Team Members from Brands</a>.</li>\n<li>Click <strong>Save</strong>.</li>\n</ol>\n<h4 id=\"h_01JF11RJ22V5BVCTQY7M2B4SNW\"><strong>Future Looking</strong></h4>\n<p>In the future, we plan to add granular settings for account owners and admins to configure how you would like your agents to behave upon creation.</p>\n<p>For example, some companies may want to enable newly-created agents to be added to all brands, while others may decide that new agents should be added to no brands by default. We intend to add settings to ensure such flexibility so that you can scale your business within Zendesk to match your needs.</p>\n<p>For more information, see the article: <a href=\"https://support.zendesk.com/hc/en-us/articles/7584022494874-Restricting-agent-ticket-access-by-brand-Department-Spaces\" target=\"_blank\" rel=\"noopener noreferrer\">Restricting Agent Ticket Access by Brand (Department Spaces)</a>.</p>",
       "user_segment_ids": []
