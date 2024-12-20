@@ -1,5 +1,5 @@
 {
-  "count": 4952,
+  "count": 4953,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 166,
@@ -742,7 +742,7 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2024-12-06T10:15:09Z",
-      "updated_at": "2024-12-20T15:11:14Z",
+      "updated_at": "2024-12-20T15:16:25Z",
       "name": "Service Incident - December 6, 2024 - All Pods | Mobile SDK 400 errors",
       "title": "Service Incident - December 6, 2024 - All Pods | Mobile SDK 400 errors",
       "source_locale": "en-us",
