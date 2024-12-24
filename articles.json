@@ -1,11 +1,45 @@
 {
-  "count": 4953,
+  "count": 4954,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 166,
   "per_page": 30,
   "previous_page": null,
   "articles": [
+    {
+      "id": 8596705470490,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8596705470490.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/8596705470490-Can-I-set-tags-to-none-in-triggers",
+      "author_id": 1900815493044,
+      "comments_disabled": false,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298901274,
+      "created_at": "2024-12-24T15:44:30Z",
+      "updated_at": "2024-12-24T15:44:56Z",
+      "name": "Can I set tags to none in triggers?",
+      "title": "Can I set tags to none in triggers?",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2024-12-24T15:44:56Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801135069,
+      "content_tag_ids": [],
+      "label_names": [
+        "ks",
+        "ab0",
+        "ab0_support",
+        "role_admin",
+        "role_owner"
+      ],
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>Can I set tags to none in triggers?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>Yes, you can. Leaving the field empty usually results in an error.</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/8596705465242\"></p>\n<p>However, using quotation marks allows you to save the trigger.</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/8596705465626\"></p>\n<p> </p>\n<p>Once saved, opening the trigger will show the field as empty, meaning it will remove all tags when executed.</p>",
+      "user_segment_ids": []
+    },
     {
       "id": 8587724168346,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8587724168346.json",
@@ -920,36 +954,6 @@
         "role_admin"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>I am utilizing the same metric with various aggregators. How can I rename the individual metrics in my Explore report for better clarity and differentiation?</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/8511079189786\"></p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p><strong>To rename individual metrics in your report</strong></p>\n<ol>\n<li>From the Chart configuration menu ( <img id=\"topic_xrl_mz5_3jb__image_dwv_kdw_3jb\" class=\"image\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/Explore_chart_configuration.png\" alt=\"\" width=\"16\" height=\"16\">) , click <strong class=\"ph b\">Chart.</strong>\n</li>\n<li class=\"li\">On the <strong class=\"ph b\">Chart</strong> page, enable <strong class=\"ph b\">Show Aggregators.</strong>\n</li>\n<li>Click the column heading in the report and type the new heading name.</li>\n</ol>\n<p>Each column heading can now be renamed individually to improve clarity and differentiation.</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/8511036579226\"></p>\n<p> </p>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408827297946-Customizing-your-chart-type-and-options\" target=\"_blank\" rel=\"noopener noreferrer\">Customizing your chart type and options</a>.</p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 8479214407450,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8479214407450.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/8479214407450-Service-Incident-December-3-2024-Explore-EU-Explore-5xx-level-errors-and-access-issues",
-      "author_id": 1263082084489,
-      "comments_disabled": true,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405298854426,
-      "created_at": "2024-12-03T16:24:39Z",
-      "updated_at": "2024-12-09T21:16:23Z",
-      "name": "Service Incident - December 3, 2024 - Explore | EU - Explore 5xx level errors and access issues",
-      "title": "Service Incident - December 3, 2024 - Explore | EU - Explore 5xx level errors and access issues",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2024-12-09T21:02:42Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801242670,
-      "content_tag_ids": [],
-      "label_names": [
-        "mt"
-      ],
-      "body": "<h3 id=\"h_01HTHGD3YVFX05QKV5JCGGMZCS\" class=\"p1\"><strong>SUMMARY</strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><span class=\"wysiwyg-color-black40\" style=\"color: #000000;\"><strong>December 3, 2024 04:24 PM UTC | December 3, 2024 8:24 AM PT</strong></span><br>Between 15:09 and 15:37 UTC today, December 3, 2024, Explore customers in EU experienced 5xx level errors and access issues reaching dashboards and reports. These issues have been resolved and access has been restored at this time.</p>\n<p class=\"p1\"> </p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<h4 id=\"h_01JEPKKEYCC5FY8THTZDTFH0G2\"><span class=\"wysiwyg-color-black\" style=\"color: #666666;\">Root Cause Analysis</span></h4>\n<h4 id=\"h_01JEPKKEYCG6PS8S5VE43WTNB3\"><span class=\"wysiwyg-color-black\" style=\"color: #666666;\">The incident was caused by a mistake in a technical command during a system update. This error led to a misdirection of traffic, causing issues for our European customers trying to access their Explore dashboards.</span></h4>\n<h4 id=\"h_01JEPKKEYCN8Q22AQWHSNFENBR\"><span class=\"wysiwyg-color-black\" style=\"color: #666666;\"><br>Resolution</span></h4>\n<h4 id=\"h_01JEPKKEYCVVJC0YYDB3ADS8SH\"><span class=\"wysiwyg-color-black\" style=\"color: #666666;\">Our technical team quickly corrected the issue by redirecting the traffic to the appropriate system, which restored access to the Explore dashboards for all affected customers.</span></h4>\n<h4 id=\"h_01JEPKKEYCDPWM57F3KB1EN4VB\"><span class=\"wysiwyg-color-black\" style=\"color: #666666;\"><br>Remediation Items</span></h4>\n<ol>\n<li>\n<h4 id=\"h_01JEPKKEYC6NCHZAXJKGN0MKDP\"><span class=\"wysiwyg-color-black\" style=\"color: #666666;\">Review Procedures: We will re-evaluate our operational procedures to ensure that all technical settings are correct before making changes.</span></h4>\n</li>\n<li>\n<h4 id=\"h_01JEPKKEYCXJB5X3XS727XZY8C\"><span class=\"wysiwyg-color-black\" style=\"color: #666666;\">Improve Technical Tools: Enhancements will be made to our traffic management tools to prevent similar errors in the future.</span></h4>\n</li>\n<li>\n<h4 id=\"h_01JEPKKEYC0S81PHMZ84YKV4FZ\"><span class=\"wysiwyg-color-black\" style=\"color: #666666;\">Reduce Single Points of Failure: We are investigating ways to ensure that our systems are more resilient and do not rely on a single component, improving overall reliability.</span></h4>\n</li>\n<li>\n<h4 id=\"h_01JEPKKEYC2Q3J2BBS02XDYS8R\"><span class=\"wysiwyg-color-black\" style=\"color: #666666;\">Strengthen Review Processes: We will implement more thorough checks for our technical procedures to catch potential issues before they affect our customers.</span></h4>\n</li>\n<li>\n<h4 id=\"h_01JEPKKEYCBYMCRHJHM1VHBGQ8\"><span class=\"wysiwyg-color-black\" style=\"color: #666666;\">Enhance Service Reliability: We will review our service performance standards to ensure we consistently meet high expectations for uptime and reliability.</span></h4>\n</li>\n</ol>\n<h4 id=\"h_01HTHGD3YVS7RVQDA6MFRRVQZ8\"><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
     }
   ],
