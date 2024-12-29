@@ -1,11 +1,42 @@
 {
-  "count": 4956,
+  "count": 4957,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 166,
   "per_page": 30,
   "previous_page": null,
   "articles": [
+    {
+      "id": 8620657435802,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8620657435802.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/8620657435802-Release-notes-through-2024-12-27",
+      "author_id": 1263082309989,
+      "comments_disabled": true,
+      "draft": false,
+      "promoted": true,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298847002,
+      "created_at": "2024-12-29T20:49:51Z",
+      "updated_at": "2024-12-29T20:51:19Z",
+      "name": "Release notes through 2024-12-27",
+      "title": "Release notes through 2024-12-27",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2024-12-29T20:51:09Z",
+      "user_segment_id": null,
+      "permission_group_id": 1324079,
+      "content_tag_ids": [],
+      "label_names": [
+        "mt",
+        "rank_low_algolia"
+      ],
+      "body": "<div class=\"note tip\">See our <a href=\"https://support.zendesk.com/hc/en-us/articles/8447930673946\" target=\"_blank\" rel=\"noopener noreferrer\">What's New</a> for an overview of what was released in the last month.</div>\n<p>This week's release notes include:</p>\n<ul>\n<li><a href=\"#h_01JGA2H67J9ATSC4X0G6F2Z3YZ\">Zendesk WFM</a></li>\n<li><a href=\"#h_01JEMJSB6V2V5EN33PJ88TZMA2\">App Marketplace</a></li>\n<li><a href=\"#h_01JGA2YGRMZEQMVHNQRVWN0MQE\">Products with no updates this week</a></li>\n</ul>\n<h2 id=\"h_01JGA2H67J9ATSC4X0G6F2Z3YZ\">Zendesk WFM</h2>\n<p id=\"h_01JGA2HBY2T108Q3ZTMYCEHWJA\"><strong>New:</strong></p>\n<ul>\n<li>The <a href=\"https://support.zendesk.com/hc/en-us/articles/8570839565722-Mapping-general-tasks-to-workstreams-for-schedule-adherence-customization\">general tasks and schedule adherence</a> capability lets you map general tasks to workstreams.</li>\n</ul>\n<p> </p>\n<h2 id=\"h_01JEMJSB6V2V5EN33PJ88TZMA2\"><span>App Marketplace</span></h2>\n<div><strong>New:</strong></div>\n<ul>\n<li>Jarvis Helpdesk AI Copilot <strong>(Support)</strong>\n<ul>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1089481/jarvis-helpdesk-ai-copilot/\">Jarvis Helpdesk AI Copilot</a><span> </span>is the AI-powered assistant that helps your CX team resolve Zendesk tickets faster and more efficiently. Get a quick summary of Zendesk tickets, track response times, and analyze customer sentiment to improve your support quality.  Autodraft personalized responses based on ticket content and your knowledge base, ensuring replies are accurate and tailored to the customer's needs.<span> </span><span> </span>Turn a few keywords or notes into a professional response, making it easy to address a wide range of customer inquiries.  Set the tone of your AI responses, train the AI using your Zendesk macros and knowledge base, and enforce custom business rules to align with your company’s standards.</li>\n</ul>\n</li>\n</ul>\n<h2 id=\"h_01JGA2YGRMZEQMVHNQRVWN0MQE\"><span>Products with no updates this week</span></h2>\n<ul>\n<li>Support</li>\n<li id=\"h_01JEMJNJGENVH412Y50NDF551T\">Talk</li>\n<li>AI agents and knowledge</li>\n<li>Mobile SDKs</li>\n<li>Explore</li>\n<li>Chat and messaging</li>\n<li>Admin Center</li>\n<li>Zendesk QA</li>\n</ul>",
+      "user_segment_ids": []
+    },
     {
       "id": 8596705470490,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8596705470490.json",
@@ -935,38 +966,6 @@
         "mtpe"
       ],
       "body": "<table style=\"border-collapse: collapse; width: 100%; height: 44px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Announced on</strong></td>\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Publish date</strong></td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\">December 17, 2024</td>\n<td style=\"width: 33.3333%; height: 22px;\">December 17, 2024</td>\n</tr>\n</tbody>\n</table>\n<p><span>We're excited to announce the release of a new article, <a href=\"https://support.zendesk.com/hc/en-us/articles/8324525934746\" target=\"_blank\" rel=\"noopener noreferrer\">Trending Explore recipes</a>. We know from your feedback you appreciate the Explore recipes. The recipes provide simple and focused tutorials on creating reports based on common business scenarios. They are also a great way to learn how to create your own reports.</span></p>\n<p><span>With so many recipes available (over 150), finding the specific recipe you need or the most popular can be challenging. To help you, we've created a monthly article that showcases the top 20 Explore recipes based on page views. This list will help you quickly identify the most popular recipes that customers benefit from, ensuring you have access to the best resources for your reporting needs. For example, here are the top five recipes for December 2024:</span></p>\n<ol>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408820652058\" target=\"_blank\" rel=\"noopener\">Reporting on first reply time</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408823364250\" target=\"_blank\" rel=\"noopener\">Declined and missed calls by ticket ID and agent leg</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408825110682\" target=\"_blank\" rel=\"noopener\">Reporting on created and solved tickets</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408825376282\" target=\"_blank\" rel=\"noopener\">Display all customer satisfaction comments</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408831024922\" target=\"_blank\" rel=\"noopener\">Reporting on the duration of fields</a></li>\n</ol>\n<h2 id=\"h_01JFAQ8SYKP23BK11Z4XHEM1KE\"><span>What do I need to do?</span></h2>\n<p><span>Bookmark the <a href=\"https://support.zendesk.com/hc/en-us/articles/8324525934746\" target=\"_blank\" rel=\"noopener noreferrer\">Trending Explore recipes</a> article and return monthly to see what's popular. If you'd like to receive an email when the article is updated, from the top of the article, click <strong>Follow</strong>.</span></p>\n<p><span>For a list of all Explore recipes, <a href=\"https://support.zendesk.com/hc/en-us/articles/4409149172890\" target=\"_blank\" rel=\"noopener noreferrer\">see this article</a>.</span></p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 8482298635034,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8482298635034.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/8482298635034-Service-Incident-December-4th-2024",
-      "author_id": 1264663901409,
-      "comments_disabled": true,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 1,
-      "vote_count": 1,
-      "section_id": 4405298854426,
-      "created_at": "2024-12-04T03:41:04Z",
-      "updated_at": "2024-12-05T17:12:23Z",
-      "name": "Service Incident - December 4th, 2024",
-      "title": "Service Incident - December 4th, 2024",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2024-12-04T04:29:11Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801242670,
-      "content_tag_ids": [],
-      "label_names": [
-        "service_incident",
-        "mt",
-        "rank_low_algolia"
-      ],
-      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>December 04, 2024 04:29 AM UTC | December 03, 2024 08:29 PM PT </strong><br>We are happy to report that the issues with loading some Side Conversations have been resolved. Please refresh your browser, and if you encounter any further issues, feel free to reach out. Thank you for your patience.</p>\n<p class=\"p1\"><strong>December 04, 2024 03:58 AM UTC | December 03, 2024 07:58 PM PT </strong><br>We have identified the issue impacting some Side Conversations from loading and are working towards mitigation.</p>\n<p class=\"p1\"><strong>December 04, 2024 03:41 AM UTC | December 03, 2024 07:41 PM PT </strong><br>We are investigating reports of Side Conversations not loading for customers. More information to follow.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about your Zendesk, check out our <a href=\"https://status.zendesk.com\">system status page</a>. The summary of our post-mortem investigation is usually posted here a few days after the incident has ended. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
       "user_segment_ids": []
     }
   ],
