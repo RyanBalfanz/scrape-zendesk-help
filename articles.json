@@ -1,11 +1,41 @@
 {
-  "count": 4962,
+  "count": 4963,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 166,
   "per_page": 30,
   "previous_page": null,
   "articles": [
+    {
+      "id": 8661047534106,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8661047534106.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/8661047534106-Announcing-discontinuation-of-legacy-versions-of-AI-features-features-now-included-in-agent-copilot",
+      "author_id": 1263082169349,
+      "comments_disabled": true,
+      "draft": false,
+      "promoted": true,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298833818,
+      "created_at": "2025-01-06T17:20:52Z",
+      "updated_at": "2025-01-06T17:29:40Z",
+      "name": "Announcing discontinuation of legacy versions of AI features features now included in agent copilot",
+      "title": "Announcing discontinuation of legacy versions of AI features features now included in agent copilot",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2025-01-06T17:25:23Z",
+      "user_segment_id": null,
+      "permission_group_id": 1324079,
+      "content_tag_ids": [],
+      "label_names": [
+        "newsfeed"
+      ],
+      "body": "<table style=\"border-collapse: collapse; width: 100%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 50%;\"><strong>Announced on</strong></td>\n<td style=\"width: 50%;\"><strong>Rollout on</strong></td>\n</tr>\n<tr>\n<td style=\"width: 50%;\">January 6, 2025</td>\n<td style=\"width: 50%;\">February 6, 2025</td>\n</tr>\n</tbody>\n</table>\n<p>As <a href=\"https://support.zendesk.com/hc/en-us/articles/8050438152090\">recently announced</a>, Zendesk’s agent copilot is now generally available, with a broad set of tools designed to assist agents so they can efficiently provide the best possible customer experience.</p>\n<p>Customers using the legacy version of these features were given time to upgrade to the new experience. Today, we're announcing an official date when the legacy versions of these features will be discontinued.</p>\n<p>You are a legacy customer if you purchased Advanced AI before or on October 9, 2024 and haven’t <a href=\"https://support.zendesk.com/hc/en-us/articles/8014386337050\">migrated to the new agent copilot experience</a>.</p>\n<p>This announcement contains the following topics:</p>\n<ul>\n<li><a href=\"#h_01JGYA0DAT7M1W3XQ6BJS7828S\">What's changing?</a></li>\n<li><a href=\"#h_01JGYA2HXKTBTX9DDN555ZMMJZ\">What do I need to do?</a></li>\n<li><a href=\"#h_01JGYA2N2NFAHS928JTPT69ZWX\">Questions?</a></li>\n</ul>\n<h2 id=\"h_01JGYA0DAT7M1W3XQ6BJS7828S\">What's changing?</h2>\n<p>Some AI features like intent, summary, and merging suggestions are now intuitively embedded in the Agent Workspace UI as part of agent copilot, allowing your agents to more seamlessly leverage them while handling tickets. As a result, we’ll be deprecating old versions of these features on February 6, 2025. Any accounts that haven’t opted in to the new experience by that date will automatically see the new and improved functionality beginning February 10, 2025.</p>\n<p>You can find a <a href=\"https://support.zendesk.com/hc/en-us/articles/8014386337050#topic_skp_fpw_xcc\">full list of these features here</a> and see their legacy experience in the “Before opting in to agent copilot” column, and the new experience in the “After opting in to agent copilot” column.</p>\n<h2 id=\"h_01JGYA2HXKTBTX9DDN555ZMMJZ\">What do I need to do?</h2>\n<p>If you purchased Advanced AI on or before October 9, 2024 and are using any of the legacy functionality noted above, we encourage you to:</p>\n<ul>\n<li>Review <a href=\"https://support.zendesk.com/hc/en-us/articles/8014386337050#topic_tpn_hpw_xcc\">How to opt in to agent copilot</a>.</li>\n<li>Inform your agents of the upcoming <a href=\"https://support.zendesk.com/hc/en-us/articles/8014386337050#topic_skp_fpw_xcc\">enhancements to the user experience</a>.</li>\n<li>When you’re ready, opt in to the new experience by <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSd_G23gkL1exQ-jV5Ea2wc_AMf5xNQQKITf-8R98vnVriXRuQ/viewform\">completing this form</a> prior to February 6, 2025.</li>\n</ul>\n<h2 id=\"h_01JGYA2N2NFAHS928JTPT69ZWX\">Questions?</h2>\n<p>For additional detail, see <a href=\"https://support.zendesk.com/hc/en-us/articles/7908817636378\">About agent copilot</a>.</p>\n<p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/6447052855194\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\">Zendesk Customer Support</a>.</p>",
+      "user_segment_ids": []
+    },
     {
       "id": 8655813647770,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8655813647770.json",
@@ -924,37 +954,6 @@
         "rank_low_algolia"
       ],
       "body": "<div class=\"note tip\">See our <a href=\"https://support.zendesk.com/hc/en-us/articles/8447930673946\" target=\"_blank\" rel=\"noopener noreferrer\">What's New</a> for an overview of what was released in the last month.</div>\n<p>This week's release notes include:</p>\n<ul>\n<li id=\"h_01JEMJNJGENVH412Y50NDF551T\"><a href=\"#h_01JEMJNJGENVH412Y50NDF551T\">Talk</a></li>\n<li><a href=\"#h_01JEMJSB6V2V5EN33PJ88TZMA2\">App Marketplace</a></li>\n<li><a href=\"#h_01JEMJSB6V8CW0J723QBY14VR5\">Products with no updates this week</a></li>\n</ul>\n<h2 id=\"h_01JEMJNJGENVH412Y50NDF551T\"><span>Talk</span></h2>\n<p><strong>Fixed:</strong></p>\n<ul>\n<li>We have corrected a billing error related to Talk that occurred between May 1 and May 4, 2024, which resulted in some accounts being overcharged for Talk usage. A refund in the form of Talk credits was issued to any affected accounts on November 26, 2024. To verify if your account received a Talk credit refund, visit Admin Center &gt; Talk and email &gt; Talk &gt; Usage charges and export a Talk credits CSV.</li>\n</ul>\n<h2 id=\"h_01JEMJSB6V2V5EN33PJ88TZMA2\"><span>App Marketplace</span></h2>\n<div><strong>New:</strong></div>\n<ul>\n<li>Advanced Custom Object List <strong>(Support)</strong>\n<ul>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1086289/advanced-custom-object-list/\">Advanced Custom Object List</a><span> </span>offers an efficient, simple, and usable way to view and manage your Zendesk Custom Objects.  Display all your data in an advanced table with all your fields.  Search for records by text field, open new records, open the edit page in one click, open the lookup record edit page, and export all data in CSV files.</li>\n</ul>\n</li>\n<li>Thoughtly <strong>(Support)</strong>\n<ul>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1085741/thoughtly/\">Thoughtly</a><span> </span>is an AI-driven voice agent for seamless customer interactions.  Create Zendesk tickets from AI-powered phone calls conducted through Thoughtly’s platform, ensuring no customer query goes unresolved.  Instantly generate Zendesk tickets from AI phone calls, capturing essential details such as caller information, call duration, and conversation summaries.  Thoughtly’s AI agents manage inbound and outbound calls, gathering critical data and insights that are automatically transferred to Zendesk, streamlining your support process.</li>\n</ul>\n</li>\n<li>Search and Use Sunshine Custom Objects <strong>(Support)</strong>\n<ul>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1088615/search-and-use-sunshine-custom-objects/\">Search and Use Sunshine Custom Objects<span> </span></a>enables you to leverage Zendesk Sunshine Custom Objects seamlessly within your workflows. Use this app to automate data lookups, enrich ticket information, and create powerful business logic without relying on complex middleware or manual data entry. Developed by Knots, this app is designed to streamline your processes, making Sunshine Custom Objects an integral part of your support operations.</li>\n</ul>\n</li>\n<li>Glamify<span> </span><strong>(Theme)</strong>\n<ul>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/themes/288/glamify/\">Glamify</a><span> </span>is a versatile and fully responsive Zendesk Help Center (Guide) theme that seamlessly combines style and functionality. With its sleek design and striking background image, it lends a modern and sophisticated look to your help center. The theme features a full-screen layout with thoughtfully crafted blocks and interactive elements, delivering a light, elegant, and visually engaging experience.</li>\n</ul>\n</li>\n<li>callbox <strong>(Support)</strong>\n<ul>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1087398/callbox/\">callbox</a><span> </span>is the complete platform for customer service and collaboration.  Make and receive calls directly in Zendesk without the need for additional dialers. Calls are automatically recorded and linked to customer tickets, making access and referencing easy.  Access call recordings in ticket activities in Zendesk, providing quick access to customer information and service history. Record all service data in one place to efficiently track requests and make data-driven decisions.  Provide staff with access to a complete history of customer interactions, allowing for personalized service and the building of lasting relationships.</li>\n</ul>\n</li>\n<li>Workday <strong>(Support)</strong>\n<ul>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1081436/workday/\">Workday</a><span> </span>helps you provide faster, more accurate employee service with easy access to employee insights from Workday within Zendesk tickets.  Respond to employee requests faster by giving agents instant access to critical employee information in directly in Zendesk. Improve collaboration across internal departments by centralizing key employee data within Zendesk.  Maintain secure agent permissions aligned to Workday’s restrictive access controls, configurable by admins.  </li>\n</ul>\n</li>\n<li>Smart Role <strong>(Support)</strong>\n<ul>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1071414/smart-role/\">Smart Role</a><span> </span>empowers your team with advanced AI-driven training solutions. Smart Role helps customer support teams simulate real-world scenarios, making onboarding, training, and upskilling more interactive and impactful. With Smart Role, support teams can streamline their processes, reduce onboarding time, and enhance agent performance through scenario-based simulations and automated feedback.</li>\n</ul>\n</li>\n<li>Diabolocom for Sell <strong>(Sell)</strong>\n<ul>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/sell/189225/diabolocom-for-sell/\">Diabolocom for Sell</a><span> </span>empowers sales teams with seamless AI-powered customer interactions.  With Diabolocom, setting up a unified telephony system for your sales team takes just a few clicks, enabling you to accelerate sales almost instantly. Save calls as internal notes for each contact effortlessly.<span><span> </span></span>Initiate calls directly from a lead’s contact page with one click. Quickly find contacts and respond to incoming calls with ease.</li>\n</ul>\n</li>\n</ul>\n<h2 id=\"h_01JEMJSB6V8CW0J723QBY14VR5\"><span>Products with no updates this week</span></h2>\n<ul>\n<li>Support</li>\n<li>Zendesk WFM</li>\n<li>AI agents and knowledge</li>\n<li>Mobile SDKs</li>\n<li>Chat and messaging</li>\n<li>Explore</li>\n<li>Admin Center</li>\n<li>Zendesk QA</li>\n</ul>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 8498753675290,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8498753675290.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/8498753675290-Integration-builder-resources-Ultimate",
-      "author_id": 1264158222289,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 8264334170906,
-      "created_at": "2024-12-06T18:45:40Z",
-      "updated_at": "2024-12-17T20:59:42Z",
-      "name": "Integration builder resources (Ultimate)",
-      "title": "Integration builder resources (Ultimate)",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2024-12-17T20:54:31Z",
-      "user_segment_id": null,
-      "permission_group_id": 1324079,
-      "content_tag_ids": [],
-      "label_names": [
-        "role_admin",
-        "Ultimate"
-      ],
-      "body": "<p>This article provides a list of resources to help you learn about using the integration builder with AI agents (Ultimate):</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/8357756827674\">Custom integration - Preparation</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/8357749781274\">Integration technical requirements</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/8357756844442\">Integration builder explained</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/8357756877466\">JSONata enablement</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/8357756884250\">JSONata cheatsheet</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/8560379152282\">Integration builder FAQs</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/8357749798682\">Output references</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/8560203369242\">Reformatting values in request parameters</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/8357756859546\">Allow IPs to connect Ultimate to your CRM</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/8357749813658\">Using custom authorization with the integration builder</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/8357749820570\">Adding custom functionality to dialogues using fake integrations</a></li>\n</ul>",
       "user_segment_ids": []
     }
   ],
