@@ -245,14 +245,14 @@
       "vote_count": 0,
       "section_id": 4405303730330,
       "created_at": "2025-01-02T09:29:18Z",
-      "updated_at": "2025-01-09T14:31:12Z",
+      "updated_at": "2025-01-09T21:14:12Z",
       "name": "Messaging triggers run even after their conditions no longer meet the criteria",
       "title": "Messaging triggers run even after their conditions no longer meet the criteria",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-01-06T15:59:42Z",
+      "edited_at": "2025-01-09T21:14:12Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -263,7 +263,7 @@
         "ab0_messaging",
         "role_admin"
       ],
-      "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2>\n<p>The <strong>First Reply</strong> standard messaging trigger actions even after an agent has replied.</p>\n<h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2>\n<p>Messaging trigger conditions are only checked once, and then the actions will follow. Once the conditions are met, the trigger cannot be stopped. Having a wait time won't modify this, since the trigger waits the allotted time before sending a message.</p>\n<p>For example, with the standard trigger <strong>First Reply</strong>, the following occurs:</p>\n<ol>\n<li>A customer requests a conversation</li>\n<li>A ticket is created and complies with this condition: <strong>Customer requesting conversation | Is | True</strong>\n</li>\n<li>The trigger starts however, and a certain amount of seconds will pass, before the trigger sends your configured message</li>\n<li>During the wait time, an agent takes ownership of the conversation and replies</li>\n<li>At this point, a condition of <strong>Customer served | Is | False </strong>wouldn't apply anymore, but the trigger is started due in the back-end and the action <strong>Send message to customer</strong> happens</li>\n</ol>\n<p>To avoid this situation, ask your agents to wait until that first message is sent, before sending their own message.</p>\n<p>For more information, see these articles:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/8567613882522-About-the-standard-messaging-triggers#topic_olm_wzd_tdc\" target=\"_blank\" rel=\"noopener noreferrer\">About the standard messaging triggers</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/5973077601562-Understanding-messaging-triggers\" target=\"_blank\" rel=\"noopener noreferrer\">Understanding messaging triggers</a></li>\n</ul>",
+      "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2>\n<p>The standard <strong>First Reply</strong> messaging trigger fires even after an agent has replied.</p>\n<h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2>\n<p>Messaging trigger conditions are only checked once, and then the actions happen. After the conditions are met, the trigger's actions can't be stopped.</p>\n<p>For example, having a wait time won't prevent the trigger from performing the specified actions even if the message no longer meets the trigger's conditions by the time the wait time elapses. Instead, because the conditions were met previously, the trigger would wait the alotted time and then perform its actions, such as sending a message to the customer.</p>\n<p>For example, with the standard <strong>First Reply</strong> trigger, the following occurs:</p>\n<ol>\n<li>A customer requests a conversation.</li>\n<li>Messaging triggers with the run event <strong>When a customer requests a conversation</strong> evaluate the messaging conversation ticket to see if it meets their conditions.</li>\n<li>In this case, the messaging ticket complies with this condition: <strong>Customer requesting conversation | Is | True</strong>.</li>\n<li>The trigger's actions include a 5 second wait time. Therefore, 5 seconds will pass between the trigger's condition(s) being met and the trigger's actions occurring.</li>\n<li>During the wait time, an agent takes ownership of the conversation and replies.</li>\n<li>At this point, the customer has already received a response from an agent, but the trigger's action to send a pre-configured message to customer still happens because the trigger was still in the process of firing.</li>\n</ol>\n<p>To avoid this situation, ask your agents to wait until that first message is sent, before sending their own message.</p>\n<p>For more information, see these articles:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/8567613882522-About-the-standard-messaging-triggers#topic_olm_wzd_tdc\" target=\"_blank\" rel=\"noopener noreferrer\">About the standard messaging triggers</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/5973077601562-Understanding-messaging-triggers\" target=\"_blank\" rel=\"noopener noreferrer\">Understanding messaging triggers</a></li>\n</ul>",
       "user_segment_ids": []
     },
     {
