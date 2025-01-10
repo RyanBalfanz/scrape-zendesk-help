@@ -112,14 +112,14 @@
       "vote_count": 0,
       "section_id": 4405298901274,
       "created_at": "2025-01-08T14:26:10Z",
-      "updated_at": "2025-01-09T21:34:01Z",
+      "updated_at": "2025-01-10T07:22:07Z",
       "name": "Why the assignee of solved parent tickets changed unexpectedly?",
       "title": "Why the assignee of solved parent tickets changed unexpectedly?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-01-09T21:34:01Z",
+      "edited_at": "2025-01-10T07:22:06Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -130,7 +130,7 @@
         "role_agent",
         "role_admin"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>In side conversations, why might the assignee of solved parent tickets changed unexpectedly?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>This could be a result of the <strong>Auto-assign tickets upon solve</strong> setting.</p>\n<p>In side conversations, if the parent ticket is solved without an assignee and <strong>Auto-assign tickets upon solve</strong> is selected, when a child ticket generates a change in the parent ticket, then Zendesk will try to set an assignee for the parent ticket when saving changes to the parent ticket.</p>\n<p>For example:</p>\n<ol>\n<li>\n<strong>Auto-assign tickets upon solve</strong> is turned on in the account.</li>\n<li>Parent ticket is solved by business rule and has no assignee.</li>\n<li>Child ticket is solved by agent.</li>\n<li>The parent ticket is auto-assigned to the agent who solved child ticket.</li>\n</ol>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408832762650-Enabling-auto-assign-for-agents-on-ticket-solve\">Enabling auto-assign for agents on ticket solve</a>.</p>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>In side conversations, why might the assignee of solved parent tickets change unexpectedly?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>This could be a result of the <strong>Auto-assign tickets upon solve</strong> setting.</p>\n<p>In side conversations, if the parent ticket is solved without an assignee and <strong>Auto-assign tickets upon solve</strong> is selected, when a child ticket generates a change in the parent ticket, then Zendesk will try to set an assignee for the parent ticket when saving changes to the parent ticket.</p>\n<p>For example:</p>\n<ol>\n<li>\n<strong>Auto-assign tickets upon solve</strong> is turned on in the account.</li>\n<li>Parent ticket is solved by business rule and has no assignee.</li>\n<li>Child ticket is solved by agent.</li>\n<li>The parent ticket is auto-assigned to the agent who solved child ticket.</li>\n</ol>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408832762650-Enabling-auto-assign-for-agents-on-ticket-solve\">Enabling auto-assign for agents on ticket solve</a>.</p>",
       "user_segment_ids": []
     },
     {
