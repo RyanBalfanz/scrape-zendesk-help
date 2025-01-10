@@ -269,7 +269,7 @@
     {
       "id": 8638126078234,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8638126078234.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/8638126078234-Can-I-reach-an-API-rate-limit-by-updating-tickets-in-the-user-interface",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/8638126078234-Is-it-possible-to-reach-the-API-rate-limit-when-I-update-tickets-in-the-user-interface",
       "author_id": 4967137259930,
       "comments_disabled": false,
       "draft": false,
@@ -279,14 +279,14 @@
       "vote_count": 0,
       "section_id": 4405298908954,
       "created_at": "2025-01-02T08:55:00Z",
-      "updated_at": "2025-01-07T16:03:47Z",
-      "name": "Can I reach an API rate limit by updating tickets in the user interface?",
-      "title": "Can I reach an API rate limit by updating tickets in the user interface?",
+      "updated_at": "2025-01-10T14:11:59Z",
+      "name": "Is it possible to reach the API rate limit when I update tickets in the user interface?",
+      "title": "Is it possible to reach the API rate limit when I update tickets in the user interface?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-01-03T16:47:04Z",
+      "edited_at": "2025-01-10T14:11:59Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -297,7 +297,7 @@
         "ab0_support",
         "role_admin"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>Is it possible to reach a API rate limit when I update tickets in the user interface?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>Yes, although this number doesn't count towards the general API limit for your plan and account. When you update tickets in the user interface, <a href=\"https://developer.zendesk.com/api-reference/introduction/rate-limits/#endpoint-rate-limits\" target=\"_blank\" rel=\"noopener noreferrer\">endpoint rate limits</a> apply.</p>\n<p>When you update tickets in the user interface, you may reach the rate limit of the <strong>Update Ticket</strong> endpoint, which is 100 requests per minute per account.</p>\n<p>This differs, for example, from the general API rate limits for the Suite Enterprise plan, which is set to 700 requests per minute for <strong>Support</strong> and <strong>Help Center</strong> API.</p>\n<p><span>For more information, see this documentation:</span> <a href=\"https://developer.zendesk.com/api-reference/introduction/rate-limits/\" target=\"_blank\" rel=\"noopener noreferrer\">Rate limits</a>.</p>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>Is it possible to reach the API rate limit when I update tickets in the user interface?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>Yes, although this number doesn't count towards the general API limit for your plan and account, when you update tickets in the user interface, the <a href=\"https://developer.zendesk.com/api-reference/introduction/rate-limits/#endpoint-rate-limits\" target=\"_blank\" rel=\"noopener noreferrer\">endpoint rate limits</a> apply.</p>\n<p>You may reach the rate limit of the Update Ticket endpoint, which is 100 requests per minute per account. This differs from the general API rate limit for the Suite Enterprise plan, which is set to 700 requests per minute for Support and Help Center API.</p>\n<p><span>For more information, see this article:</span> <a href=\"https://developer.zendesk.com/api-reference/introduction/rate-limits/\" target=\"_blank\" rel=\"noopener noreferrer\">Rate limits</a>.</p>",
       "user_segment_ids": []
     },
     {
