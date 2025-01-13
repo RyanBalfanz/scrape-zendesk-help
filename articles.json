@@ -78,8 +78,8 @@
       "draft": false,
       "promoted": true,
       "position": 0,
-      "vote_sum": 3,
-      "vote_count": 3,
+      "vote_sum": 4,
+      "vote_count": 4,
       "section_id": 4405298833818,
       "created_at": "2025-01-10T19:03:00Z",
       "updated_at": "2025-01-10T19:15:40Z",
@@ -168,7 +168,7 @@
       "vote_count": 0,
       "section_id": 4405298901274,
       "created_at": "2025-01-08T16:08:18Z",
-      "updated_at": "2025-01-09T15:58:24Z",
+      "updated_at": "2025-01-13T15:47:30Z",
       "name": "Why did I get an email saying test message from Zendesk?",
       "title": "Why did I get an email saying test message from Zendesk?",
       "source_locale": "en-us",
@@ -184,8 +184,7 @@
         "ab0",
         "ab0_support",
         "ab0_email",
-        "role_admin",
-        "role_owner"
+        "role_admin"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>Why did I get an email saying \"Test message from Zendesk\"?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>An email such as \"Test message from Zendesk sent on: 2025-01-01 10:00:00 UTC\" can be received after testing an <a href=\"https://support.zendesk.com/hc/en-us/articles/4408883282458-Notifying-external-email-targets#topic_hvf_eoa_vb\" target=\"_blank\" rel=\"noopener noreferrer\">email target</a>. Email targets enable notifications to external email addresses based on Zendesk Support ticket events.</p>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408835069978-Managing-external-email-targets\">Managing external email targets</a></p>",
       "user_segment_ids": []
