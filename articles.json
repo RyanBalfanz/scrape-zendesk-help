@@ -19,7 +19,7 @@
       "vote_count": 0,
       "section_id": 4405298847002,
       "created_at": "2025-01-19T20:20:01Z",
-      "updated_at": "2025-01-19T20:23:48Z",
+      "updated_at": "2025-01-20T16:02:20Z",
       "name": "Release notes through 2025-1-17",
       "title": "Release notes through 2025-1-17",
       "source_locale": "en-us",
@@ -171,7 +171,7 @@
       "vote_count": 0,
       "section_id": 4405298833818,
       "created_at": "2025-01-14T15:29:49Z",
-      "updated_at": "2025-01-16T16:10:27Z",
+      "updated_at": "2025-01-20T16:00:10Z",
       "name": "Announcing Help Center Integration with Zendesk SDK for Unity",
       "title": "Announcing Help Center Integration with Zendesk SDK for Unity",
       "source_locale": "en-us",
@@ -182,7 +182,9 @@
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
-      "label_names": [],
+      "label_names": [
+        "mtpe"
+      ],
       "body": "<div>\n<table style=\"width: 100%;\">\n<colgroup>\n<col>\n<col>\n</colgroup>\n<tbody>\n<tr>\n<td><strong>Announced on</strong></td>\n<td><strong>Rollout on</strong></td>\n</tr>\n<tr>\n<td>January 16, 2025</td>\n<td>January 15, 2025</td>\n</tr>\n</tbody>\n</table>\n</div>\n<p>We're excited to announce that as of January 15, 2025, help center integration is now available for all customers using the Zendesk SDK for Unity!</p>\n<p>This announcement addresses key questions about this exciting new feature:</p>\n<ul>\n<li><a href=\"#h_01JHJNSXT7GBQT2FKJVC9M9WZC\">What’s changing?</a></li>\n<li><a href=\"#h_01JHJNSXT7SB6PKY5G3R178X8R\">Why is Zendesk making this change?</a></li>\n<li><a href=\"#h_01JHJNSXT7SY5ZJ4PRYAAFS4KD\">What do I need to do?</a></li>\n</ul>\n<h2 id=\"h_01JHJNSXT7GBQT2FKJVC9M9WZC\">What’s changing?</h2>\n<p>Previously, users could only access the help center through a web browser. Now, with the new integration, users can seamlessly access the help center directly within your Unity-based app, enhancing their overall experience.</p>\n<h2 id=\"h_01JHJNSXT7SB6PKY5G3R178X8R\">Why is Zendesk making this change?</h2>\n<p>This integration addresses a significant gap between the Classic and Messaging SDKs, facilitating a smoother migration to the latest SDK generation. Many businesses depend on the help center to empower end users to self-serve, allowing them to quickly and efficiently resolve issues without needing agent assistance.</p>\n<h2 id=\"h_01JHJNSXT7SY5ZJ4PRYAAFS4KD\">What do I need to do?</h2>\n<p>To integrate your help center, follow the guidelines in <a href=\"https://developer.zendesk.com/documentation/zendesk-web-widget-sdks/sdks/unity/help_center/\" target=\"_blank\" rel=\"noopener noreferrer\">Adding help center to your app</a>.</p>\n<p><span style=\"color: #1d1c1d;\">If you have feedback or questions related to this announcement, visit our </span><a href=\"https://support.zendesk.com/hc/en-us/community/topics/1260801308710\" target=\"_blank\" rel=\"noopener noreferrer\">community forum</a><span style=\"color: #1d1c1d;\"> where we collect and manage customer product feedback. </span>If you have any additional questions, please contact <a href=\"https://support.zendesk.com/hc/en-us/community/topics/6447052855194\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk Customer Support</a>.</p>",
       "user_segment_ids": []
     },
