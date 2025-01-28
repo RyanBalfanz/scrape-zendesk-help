@@ -1,11 +1,47 @@
 {
-  "count": 4933,
+  "count": 4934,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 165,
   "per_page": 30,
   "previous_page": null,
   "articles": [
+    {
+      "id": 8795127002266,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8795127002266.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/8795127002266-How-can-prebuilt-dashboards-in-Explore-enhance-my-reporting-and-analytics-experience",
+      "author_id": 8284543895322,
+      "comments_disabled": false,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405303718426,
+      "created_at": "2025-01-28T16:50:34Z",
+      "updated_at": "2025-01-28T16:52:05Z",
+      "name": "How can prebuilt dashboards in Explore enhance my reporting and analytics experience?",
+      "title": "How can prebuilt dashboards in Explore enhance my reporting and analytics experience?",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2025-01-28T16:52:05Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801135069,
+      "content_tag_ids": [
+        "01GT23CR5WV19DHBTHA1XGSGES"
+      ],
+      "label_names": [
+        "ks",
+        "ab0",
+        "video",
+        "ab0_explore",
+        "role_admin"
+      ],
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>What are prebuilt dashboards? How can they address my reporting and analytics needs?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>Prebuilt dashboards are ready-made compilations of reports that offer insights into important metrics without needing much setup. They follow reporting best practices by offering clear visuals and organized data that fit common workflows. This allows you to quickly access important information, simplify reporting, and make informed decisions.</p>\n<p>Dashboards with the <strong>Zendesk</strong> icon are all prebuilt. Among these dashboards, the <strong>Zendesk Support</strong> dashboard specifically highlights your Support data.</p>\n<p><iframe src=\"//www.youtube-nocookie.com/embed/N5-aFVQBeyo\" width=\"560\" height=\"315\" frameborder=\"0\" allowfullscreen=\"\"></iframe></p>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408835985434-Overview-of-the-Zendesk-Support-dashboard\" target=\"_blank\" rel=\"noopener noreferrer\">Overview of the Zendesk Support dashboard</a></p>",
+      "user_segment_ids": []
+    },
     {
       "id": 8783893680922,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8783893680922.json",
@@ -946,37 +982,6 @@
         "role_owner"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>Can I set tags to none in Support triggers?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>Yes, you can set tags to none. Leaving the field blank causes an error message prompting you to enter a value.</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/8596705465242\"></p>\n<p>However, using double quotation marks (\"\") allows you to save the trigger.</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/8596705465626\"></p>\n<p>Saving and reopening the trigger will show the field as empty, which means it will remove all tags upon execution.</p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 8595908287642,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8595908287642.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/8595908287642-Zendesk-QA-account-settings-non-migrated-accounts",
-      "author_id": 7404826698138,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 7162489443354,
-      "created_at": "2024-12-24T12:26:22Z",
-      "updated_at": "2025-01-14T16:06:25Z",
-      "name": "Zendesk QA account settings (non-migrated accounts) ",
-      "title": "Zendesk QA account settings (non-migrated accounts) ",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2025-01-09T14:09:49Z",
-      "user_segment_id": null,
-      "permission_group_id": 1324079,
-      "content_tag_ids": [],
-      "label_names": [
-        "mt",
-        "role_admin"
-      ],
-      "body": "<body>\n\n<div class=\"body\">\n<div class=\"div docs-wmp-link\" style=\"text-align: right; font-size: 0.8em;\"><a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/5411234991258-plan\" target=\"_blank\">What's my plan?</a></div>\n<p class=\"p\"><img alt=\"Available on all Suite plans with add-on\" id=\"topic-1__image_h24_wyh_hzb\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/plan_available_suite_add_all.png\"><img alt=\"Available on all Support plans with add-on\" id=\"topic-1__image_uys_wv1_cbc\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/plan_available_all_add.png\"></p>\n<div class=\"p\">\n<div class=\"note fastpath\" style=\"margin-right: 0px;\">\n<span class=\"fastpathtitle\">Quick Look: </span>  Zendesk QA &gt; Settings </div>\n</div>\n<div class=\"p\">\n<div class=\"note attention\">\n<span class=\"attentiontitle\"></span>  These settings apply only to <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/7767725508506\" target=\"_blank\">Zendesk QA customers who have not yet been migrated and are still using\n          the Klaus app for sign-in</a>. If you’re accessing Zendesk QA through the product tray\n        already, see <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/7043669430426\" target=\"_blank\">Viewing and updating Zendesk QA account\n        settings</a>.</div>\n</div>\n<p class=\"p\" dir=\"ltr\">For assistance with these features, <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850#h_01FB4BHCQN7EX10B0FK7JBTS78\" target=\"_blank\">contact your Zendesk Sales Representative</a>.</p>\n<p class=\"p\" dir=\"ltr\"><strong class=\"ph b\">To access and edit your account settings</strong></p>\n<ol class=\"ol\" id=\"topic-1__ol_wy4_2rs_5dc\">\n<li class=\"li\" dir=\"ltr\">In Zendesk QA, click your profile icon in the bottom-left corner.</li>\n<li class=\"li\" dir=\"ltr\"><span class=\"ph\">Click the <strong class=\"ph b\">Settings</strong> (<img class=\"image\" height=\"17\" id=\"topic-1__d7e2013\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/zqa_settings.png\" width=\"20\">) icon.</span></li>\n<li class=\"li\" dir=\"ltr\">In addition to the options mentioned under <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/7043669430426\" target=\"_blank\">Viewing and updating Zendesk QA account settings</a>, you may still be\n        able to access and edit the following settings:<ul class=\"ul\" id=\"topic-1__ul_csk_qrs_5dc\">\n<li class=\"li\" dir=\"ltr\">\n<strong class=\"ph b\">General:</strong> Choose a name for your company to be listed. You can also\n            delete conversations. Deleting a ticket in Zendesk QA also deletes associated\n            conversation reviews. New and already migrated customers can manage these settings in\n            Zendesk’s Admin Center. See <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408832379546\" target=\"_blank\">Admin Center settings</a>.</li>\n<li class=\"li\" dir=\"ltr\">\n<strong class=\"ph b\">Surveys: </strong>Zendesk QA embedded surveys allowed customers to leave a\n            rating for an interaction with the support team by clicking on the survey in the email\n            signature. The link leads customers to a landing page where they can leave a comment\n            about the support interaction. New and migrated customers should use <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/7689997846554\" target=\"_blank\">Zendesk’s customizable CSAT experience</a>.</li>\n<li class=\"li\" dir=\"ltr\">\n<strong class=\"ph b\">Authentications: </strong>Select the authentication settings for how users\n            sign in to Zendesk QA. New and already migrated customers can manage these settings in\n            Zendesk’s Admin Center. See <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/5380943678106\" target=\"_blank\">Giving users different ways to sign into Zendesk</a>.</li>\n<li class=\"li\" dir=\"ltr\">\n<strong class=\"ph b\">Subscriptions: </strong>Admins for accounts not yet migrated may still be able\n            to view their subscription settings here. New and already migrated customers can manage\n            these settings in Zendesk’s Admin Center. See <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408832379546\" target=\"_blank\">Admin Center settings</a>.</li>\n</ul>\n</li>\n</ol>\n</div>\n</body>",
       "user_segment_ids": []
     }
   ],
