@@ -19,17 +19,18 @@
       "vote_count": 0,
       "section_id": 4405303718426,
       "created_at": "2025-01-28T16:50:34Z",
-      "updated_at": "2025-01-28T16:52:05Z",
+      "updated_at": "2025-01-29T10:51:53Z",
       "name": "How can prebuilt dashboards in Explore enhance my reporting and analytics experience?",
       "title": "How can prebuilt dashboards in Explore enhance my reporting and analytics experience?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-01-28T16:52:05Z",
+      "edited_at": "2025-01-29T10:51:53Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [
+        "01GT23C57E9F1X71ZTSYK48R75",
         "01GT23CR5WV19DHBTHA1XGSGES"
       ],
       "label_names": [
@@ -39,7 +40,7 @@
         "ab0_explore",
         "role_admin"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>What are prebuilt dashboards? How can they address my reporting and analytics needs?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>Prebuilt dashboards are ready-made compilations of reports that offer insights into important metrics without needing much setup. They follow reporting best practices by offering clear visuals and organized data that fit common workflows. This allows you to quickly access important information, simplify reporting, and make informed decisions.</p>\n<p>Dashboards with the <strong>Zendesk</strong> icon are all prebuilt. Among these dashboards, the <strong>Zendesk Support</strong> dashboard specifically highlights your Support data.</p>\n<p><iframe src=\"//www.youtube-nocookie.com/embed/N5-aFVQBeyo\" width=\"560\" height=\"315\" frameborder=\"0\" allowfullscreen=\"\"></iframe></p>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408835985434-Overview-of-the-Zendesk-Support-dashboard\" target=\"_blank\" rel=\"noopener noreferrer\">Overview of the Zendesk Support dashboard</a></p>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>What are prebuilt dashboards? How can they address my reporting and analytics needs?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>Prebuilt dashboards are ready-made compilations of reports that offer insights into important metrics without needing much setup. They follow reporting best practices by offering clear visuals and organized data that fit common workflows. This allows you to quickly access important information, simplify reporting, and make informed decisions.</p>\n<p>Dashboards with the <strong>Zendesk</strong> icon are all prebuilt. Among these dashboards, the <strong>Zendesk Support</strong> dashboard specifically highlights your Support data.</p>\n<p><iframe src=\"//www.youtube-nocookie.com/embed/N5-aFVQBeyo\" width=\"560\" height=\"315\" frameborder=\"0\" allowfullscreen=\"\"></iframe></p>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408835985434-Overview-of-the-Zendesk-Support-dashboard\" target=\"_blank\" rel=\"noopener noreferrer\">Overview of the Zendesk Support dashboard</a>.</p>",
       "user_segment_ids": []
     },
     {
