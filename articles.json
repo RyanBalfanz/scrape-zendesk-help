@@ -172,7 +172,7 @@
     {
       "id": 8723543534618,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8723543534618.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/8723543534618-Service-Incident-January-16th-2025",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/8723543534618-Service-Incident-January-16-2025-Chat-Pod-19-issues-with-viewing-recent-chats-export-emails-and-ticket-creation",
       "author_id": 1263082129829,
       "comments_disabled": true,
       "draft": false,
@@ -182,14 +182,14 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2025-01-16T10:39:10Z",
-      "updated_at": "2025-01-16T11:31:26Z",
-      "name": "Service Incident - January 16th, 2025",
-      "title": "Service Incident - January 16th, 2025",
+      "updated_at": "2025-01-29T19:24:18Z",
+      "name": "Service Incident - January 16, 2025 - Chat | Pod 19 - issues with viewing recent chats, export emails, and ticket creation",
+      "title": "Service Incident - January 16, 2025 - Chat | Pod 19 - issues with viewing recent chats, export emails, and ticket creation",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-01-16T11:26:05Z",
+      "edited_at": "2025-01-29T19:23:45Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
@@ -198,7 +198,7 @@
         "mt",
         "rank_low_algolia"
       ],
-      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>January 16, 2025 11:26 AM UTC | January 16, 2025 03:26 AM PT </strong><br>We are pleased to inform you that the issues affecting our Chat service for our customers on POD19 have now been resolved. We sincerely appreciate your patience and understanding during this time.</p>\n<p class=\"p1\"><strong>January 16, 2025 11:00 AM UTC | January 16, 2025 03:00 AM PT </strong><br>We have made significant progress in recovering functionality, including the ability to view recent chats, receive chat export emails, and create tickets.\nWe will continue to monitor the situation closely and work diligently to enhance your experience. Thank you for your patience and understanding during this time.</p>\n<p class=\"p1\"><strong>January 16, 2025 10:39 AM UTC | January 16, 2025 02:39 AM PT </strong><br>We are currently experiencing an issue with our chat services on Pod 19, which may prevent you from viewing recent chats, receiving chat export emails, and creating tickets. Our team is actively working to resolve these problems as quickly as possible. Thank you for your patience.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
+      "body": "<h3 id=\"h_01JJSR3YT11Q44H6Q5C4QZSCH9\" class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<p>On January 16th, 2025 from 9:40 UTC to 10:47 UTC some Chat customers on Pod 19 experienced issues viewing recent chats, receiving chat export emails, and creating tickets from chats.<br><br></p>\n<div id=\"message-list\">\n<h4 id=\"h_01JJSR3YT1DJX3HQ98FDYB3PJQ\"><strong>TIMELINE</strong></h4>\n<p class=\"p1\"><strong>January 16, 2025 11:26 AM UTC | January 16, 2025 03:26 AM PT </strong><br>We are pleased to inform you that the issues affecting our Chat service for our customers on POD19 have now been resolved. We sincerely appreciate your patience and understanding during this time.</p>\n<p class=\"p1\"><strong>January 16, 2025 11:00 AM UTC | January 16, 2025 03:00 AM PT </strong><br>We have made significant progress in recovering functionality, including the ability to view recent chats, receive chat export emails, and create tickets. We will continue to monitor the situation closely and work diligently to enhance your experience. Thank you for your patience and understanding during this time.</p>\n<p class=\"p1\"><strong>January 16, 2025 10:39 AM UTC | January 16, 2025 02:39 AM PT </strong><br>We are currently experiencing an issue with our chat services on Pod 19, which may prevent you from viewing recent chats, receiving chat export emails, and creating tickets. Our team is actively working to resolve these problems as quickly as possible. Thank you for your patience.</p>\n</div>\n<p class=\"undefined\"><strong><br>POST-MORTEM</strong></p>\n<h4 id=\"h_01JJSR8GTXD8Y9W85ADX5ERT6R\"><span style=\"color: #666666;\">Root Cause Analysis</span></h4>\n<p>This incident was caused by a chat service reaching its memory limits, which led to a continuous restart cycle. Each restart generated additional metadata in our in-memory database, causing memory bloat until the system eventually ran out of memory, impacting other services that shared the same database instance.<br><br></p>\n<h4 id=\"h_01JJSR8GTXKZTH7451QJ1ZNNW3\"><span style=\"color: #666666;\">Resolution</span></h4>\n<p>To resolve the issue, the team removed unnecessary metadata and unacknowledged keys from the database to free up memory. Additionally, the instance types were increased to accommodate the load, and a successful deployment of the service was completed.<br><br></p>\n<h4 id=\"h_01JJSR8GTX8EPSFVNSPE0ZGJG5\"><span style=\"color: #666666;\">Remediation Items</span></h4>\n<ol>\n<li>Add Alerts: Implemented alerts for Out of Memory (OOM) conditions in the chat service.</li>\n<li>Adjust Memory Limits: Lowered the threshold for memory limits to allow for earlier intervention before reaching critical levels.</li>\n<li>Runbook Improvements: Enhanced documentation and runbooks for handling the chat service and database key management.</li>\n<li>Database Clustering: Planned to separate the database instances for different services to avoid shared memory issues in the future.</li>\n</ol>\n<h4 id=\"01JJSR6R044WBG58MKN9PX5VGG\"><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
     },
     {
