@@ -1,11 +1,47 @@
 {
-  "count": 4940,
+  "count": 4941,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 165,
   "per_page": 30,
   "previous_page": null,
   "articles": [
+    {
+      "id": 8842271875098,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8842271875098.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/8842271875098-Can-I-add-custom-fields-in-Sell",
+      "author_id": 8284543895322,
+      "comments_disabled": false,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298880026,
+      "created_at": "2025-02-05T18:32:33Z",
+      "updated_at": "2025-02-05T18:35:38Z",
+      "name": "Can I add custom fields in Sell?",
+      "title": "Can I add custom fields in Sell?",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2025-02-05T18:35:38Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801135069,
+      "content_tag_ids": [
+        "01GT23C04H6F5QAN50W7K4WP5N",
+        "01GT23CR5WV19DHBTHA1XGSGES"
+      ],
+      "label_names": [
+        "ks",
+        "ab0",
+        "ab0_sell",
+        "role_admin"
+      ],
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>I want to track specific information for my sales leads. Can I add custom fields in my Sell account?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>You can add custom fields in Sell to track specific information for your leads. This feature allows you to tailor the data you collect according to your needs. They are more organized and less susceptible to user error.</p>\n<p><iframe src=\"//www.youtube-nocookie.com/embed/YNOFjVQUFUg\" width=\"560\" height=\"315\" frameborder=\"0\" allowfullscreen=\"\"></iframe></p>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408838289562-Creating-and-managing-custom-fields-in-Sell\" target=\"_blank\" rel=\"noopener noreferrer\">Creating and managing custom fields in Sell</a></p>",
+      "user_segment_ids": []
+    },
     {
       "id": 8840417872410,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8840417872410.json",
@@ -949,40 +985,6 @@
         "rank_low_algolia"
       ],
       "body": "<div class=\"note tip\">See our <a href=\"https://support.zendesk.com/hc/en-us/articles/8566042707994\" target=\"_blank\" rel=\"noopener noreferrer\">What's New</a> for an overview of what was released in the last month.</div>\n<p>This week's release notes include:</p>\n<ul>\n<li><a href=\"#h_01JGW2JFEVHYMSN9XS0T8C31AR\">AI agents and knowledge</a></li>\n<li><a href=\"#h_01JGA2YGRMZEQMVHNQRVWN0MQE\">Products with no updates this week</a></li>\n</ul>\n<h2 id=\"h_01JGW2JFEVHYMSN9XS0T8C31AR\">AI agents and knowledge</h2>\n<ul>\n<li>\n<p><span>Auto-assist:</span></p>\n<ul>\n<li>\n<p>Switched to the latest snapshot of GPT4o for improved accuracy of suggestions.</p>\n</li>\n<li>\n<p>Introduced a fix that significantly decreases instances of auto-assist, providing similar suggestions in a row.</p>\n</li>\n</ul>\n</li>\n</ul>\n<h2 id=\"h_01JGA2YGRMZEQMVHNQRVWN0MQE\"><span>Products with no updates this week</span></h2>\n<ul>\n<li>Support</li>\n<li id=\"h_01JEMJNJGENVH412Y50NDF551T\">Talk</li>\n<li>Mobile SDKs</li>\n<li>Explore</li>\n<li>Chat and messaging</li>\n<li>Admin Center</li>\n<li>Zendesk QA</li>\n<li>Zendesk WFM</li>\n<li>\n<p><span>App Marketplace</span></p>\n</li>\n</ul>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 8638335485466,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8638335485466.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/8638335485466-Messaging-triggers-run-even-after-their-conditions-no-longer-meet-the-criteria",
-      "author_id": 4967137259930,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405303730330,
-      "created_at": "2025-01-02T09:29:18Z",
-      "updated_at": "2025-01-14T16:05:01Z",
-      "name": "Messaging triggers run even after their conditions no longer meet the criteria",
-      "title": "Messaging triggers run even after their conditions no longer meet the criteria",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2025-01-10T10:52:58Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801135069,
-      "content_tag_ids": [],
-      "label_names": [
-        "ks",
-        "ab0",
-        "mt",
-        "ab0_messaging",
-        "role_admin"
-      ],
-      "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2>\n<p>The standard <strong>First Reply</strong> messaging trigger fires even after an agent has replied.</p>\n<h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2>\n<p>Messaging trigger conditions are only checked once, and then the actions happen. After the conditions are met, the trigger's actions can't be stopped.</p>\n<p>For example, having a wait time won't prevent the trigger from performing the specified actions even if the message no longer meets the trigger's conditions by the time the wait time elapses. Instead, because the conditions were met previously, the trigger would wait the alotted time and then perform its actions, such as sending a message to the customer.</p>\n<p>For example, with the standard <strong>First Reply</strong> trigger, the following occurs:</p>\n<ol>\n<li>A customer requests a conversation.</li>\n<li>Messaging triggers with the run event <strong>When a customer requests a conversation</strong> evaluate the messaging conversation ticket to see if it meets their conditions.</li>\n<li>In this case, the messaging ticket complies with this condition: <strong>Customer requesting conversation | Is | True</strong>.</li>\n<li>The trigger's actions include a 5 second wait time. Therefore, 5 seconds will pass between the trigger's condition(s) being met and the trigger's actions occurring.</li>\n<li>During the wait time, an agent takes ownership of the conversation and replies.</li>\n<li>At this point, the customer has already received a response from an agent, but the trigger's action to send a pre-configured message to customer still happens because the trigger was still in the process of firing.</li>\n</ol>\n<p>To avoid this situation, ask your agents to wait until that first message is sent, before sending their own message.</p>\n<p>For more information, see these articles:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/8567613882522-About-the-standard-messaging-triggers#topic_olm_wzd_tdc\" target=\"_blank\" rel=\"noopener noreferrer\">About the standard messaging triggers</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/5973077601562-Understanding-messaging-triggers\" target=\"_blank\" rel=\"noopener noreferrer\">Understanding messaging triggers</a></li>\n</ul>",
       "user_segment_ids": []
     }
   ],
