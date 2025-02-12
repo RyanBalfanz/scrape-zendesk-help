@@ -1,5 +1,5 @@
 {
-  "count": 4954,
+  "count": 4956,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 166,
@@ -144,7 +144,7 @@
       "vote_count": 0,
       "section_id": 4405303737370,
       "created_at": "2025-02-07T14:03:25Z",
-      "updated_at": "2025-02-11T16:05:02Z",
+      "updated_at": "2025-02-12T17:12:57Z",
       "name": "Why do the email addresses swap between the To and CC fields in some tickets?",
       "title": "Why do the email addresses swap between the To and CC fields in some tickets?",
       "source_locale": "en-us",
