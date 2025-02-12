@@ -1,11 +1,41 @@
 {
-  "count": 4956,
+  "count": 4957,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 166,
   "per_page": 30,
   "previous_page": null,
   "articles": [
+    {
+      "id": 8872052872474,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8872052872474.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/8872052872474-Announcing-the-ability-to-require-two-factor-authentication-for-end-users",
+      "author_id": 1263082095609,
+      "comments_disabled": true,
+      "draft": false,
+      "promoted": true,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298833818,
+      "created_at": "2025-02-10T23:31:14Z",
+      "updated_at": "2025-02-12T19:20:26Z",
+      "name": "Announcing the ability to require two-factor authentication for end users",
+      "title": "Announcing the ability to require two-factor authentication for end users",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2025-02-12T19:18:28Z",
+      "user_segment_id": null,
+      "permission_group_id": 1324079,
+      "content_tag_ids": [],
+      "label_names": [
+        "newsfeed"
+      ],
+      "body": "<table style=\"border-collapse: collapse; width: 100%; height: 44px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Announced on</strong></td>\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Rollout on</strong></td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\">February 12, 2025</td>\n<td style=\"width: 33.3333%; height: 22px;\"><span class=\"wysiwyg-color-black\">February 12, 2025</span></td>\n</tr>\n</tbody>\n</table>\n<p>Starting today, all customers can require two-factor authentication when end users sign in.</p>\n<p><span style=\"font-weight: 400;\">This announcement includes the following topics:</span></p>\n<ul>\n<li><a href=\"#h_01GD3S97RDYVTAFTQ8WR9878VF\">What's changing?</a></li>\n<li><a href=\"#h_01GD3S9GD63FPDGQSEFY88M3ND\">Why is Zendesk making this change?</a></li>\n<li><a href=\"#h_01GD3S9TSPXM7M4WHYKYF4E84M\">What do I need to do?</a></li>\n</ul>\n<h2 id=\"h_01GD3S97RDYVTAFTQ8WR9878VF\"><span style=\"font-weight: 400;\">What's changing? </span></h2>\n<p>Admins can now require end users to use two-factor authentication when they sign in to help center. Before today, this was optional for end users to turn on for themselves.</p>\n<p class=\"p\"><img class=\"image img-screenshot\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/2FA_require_end_user.png\" width=\"500\"></p>\n<p>When two-factor authentication is turned on, end users will be asked to enter a passcode after entering their password. Users can get the passcode from a two-factor authentication app installed on their mobile device. Users must install a two-factor authentication app (such as <a href=\"https://support.google.com/accounts/answer/1066447\" target=\"_blank\" rel=\"noopener noreferrer\">Google Authenticator</a>, <a href=\"https://www.authy.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Authy</a>, or <a href=\"https://duo.com/product/trusted-users/two-factor-authentication/duo-mobile\" target=\"_blank\" rel=\"noopener noreferrer\">Duo Mobile</a>) on their mobile device to receive a passcode.</p>\n<h2 id=\"h_01GD3S9GD63FPDGQSEFY88M3ND\"><span style=\"font-weight: 400;\">Why is Zendesk making this change?</span></h2>\n<p>Zendesk is making this change to better align with best security practices and industry standards. In today’s security climate, relying on a password as your only authentication method is not enough, and requiring two-factor authentication helps ensure that the credentials being used are connected to a valid user.</p>\n<p>The ability to require two-factor authentication for end users ensures that all users adhere to the same security standards, resulting in enhanced protection against unauthorized access and a stronger overall security posture.</p>\n<h2 id=\"h_01GD3S9TSPXM7M4WHYKYF4E84M\"><span style=\"font-weight: 400;\">What do I need to do?</span></h2>\n<p>If you want to require two-factor authentication for all end users, go to Admin Center &gt; <strong>Account</strong> &gt; <strong>Security</strong> &gt; <strong>Advanced</strong> &gt; <strong>Authentication</strong> and select <strong>Require two-factor authentication (2FA) for end users</strong>. After this setting is turned on, end users will be required to set up two-factor authentication the next time they sign in. See <a href=\"https://support.zendesk.com/hc/en-us/articles/4408826974874\" target=\"_blank\" rel=\"noopener noreferrer\">Managing two-factor authentication</a> for details.</p>\n<p>Leave this setting turned off if you want end users to optionally set up two-factor authentication for their own use.</p>\n<p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/4408860477850-Feedback-Admin-Center\" target=\"_blank\" rel=\"noopener noreferrer\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk Customer Support</a>.</p>",
+      "user_segment_ids": []
+    },
     {
       "id": 8870901623706,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8870901623706.json",
@@ -941,38 +971,6 @@
         "role_agent"
       ],
       "body": "<div class=\"p\">\n<div class=\"note note\">\n<span class=\"notetitle\"><strong>Disclaimer</strong>:</span> This article is provided for instructional purposes only. Zendesk does not support or guarantee third-party tools. Try searching for a solution online or contact Kaspersky for support with the tool.</div>\n</div>\n<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2>\n<p>Whenever I sign in to Zendesk, my screen is blank. No pages are loading. This issue happens from multiple browsers.</p>\n<h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2>\n<p>If you sign in and your screen is blank, you may be using a proxy or firewall that blocks websites such as Zendesk. Typically, Kaspersky or NordVPN may prevent Zendesk from loading or return a 404 error.</p>\n<p><strong>To resolve this error with Kaspersky</strong></p>\n<ol>\n<li>In <strong>Kaspersky</strong>, go to <strong>Security</strong>, on the left side.</li>\n<li>Click the <strong>Settings</strong> gear icon.</li>\n<li>Under <strong>Network settings</strong>, clear this option: <strong>Inject script into web traffic to interact with web pages</strong>.<strong><br><img src=\"https://support.zendesk.com/hc/article_attachments/8705176826010\" alt=\"Kaspersky.png\" width=\"494\" height=\"324\"></strong>\n</li>\n</ol>\n<p>In addition, once you are successfully logged in:</p>\n<ol>\n<li>Open your <a href=\"https://support.zendesk.com/hc/en-us/articles/4408835022490-Viewing-and-editing-your-user-profile-in-Zendesk-Support#topic_jmd_3ww_41b\" target=\"_blank\" rel=\"noopener noreferrer\">user profile</a>.</li>\n<li>From the left, select a <strong>Language</strong>.<strong><br><img src=\"https://support.zendesk.com/hc/article_attachments/8705176826266\" alt=\"Profile.png\" width=\"393\" height=\"473\"><br></strong>\n</li>\n</ol>\n<p>This ensures that any <a href=\"https://support.zendesk.com/hc/en-us/articles/4581766374554-Using-Zendesk-Admin-Center#topic_hfg_dyz_1hb\" target=\"_blank\" rel=\"noopener noreferrer\">Admin Center</a> pages can load properly as well.</p>\n<p>For more information, see these articles:</p>\n<ul>\n<li><a href=\"https://forum.kaspersky.com/topic/zendesk-down-loads-being-blocked-%E2%80%9Cinject-script-into-web-traffic-to-interact-with-web-pages-%E2%80%9C-18787/\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk downloads are blocked by Kaspersky</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408823813274-Why-do-I-get-a-blank-screen-when-trying-to-load-Zendesk-Chat\" target=\"_blank\" rel=\"noopener noreferrer\">Why do I get a blank screen when trying to load Zendesk Chat?</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408842860186-Configuring-your-firewall-for-use-with-Zendesk\" target=\"_blank\" rel=\"noopener noreferrer\">Configuring your firewall for use with Zendesk</a></li>\n</ul>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 8704027742106,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8704027742106.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/8704027742106-Service-Incident-January-13-2025-Messaging-Pod-17-Messaging-Triggers-not-executing",
-      "author_id": 1263082077509,
-      "comments_disabled": true,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405298854426,
-      "created_at": "2025-01-13T11:51:44Z",
-      "updated_at": "2025-01-29T20:02:43Z",
-      "name": "Service Incident - January 13, 2025 - Messaging | Pod 17 - Messaging Triggers not executing",
-      "title": "Service Incident - January 13, 2025 - Messaging | Pod 17 - Messaging Triggers not executing",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2025-01-29T19:48:25Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801242670,
-      "content_tag_ids": [],
-      "label_names": [
-        "service_incident",
-        "mt",
-        "rank_low_algolia"
-      ],
-      "body": "<p id=\"h_01JJSSGQ816B7DWKBZFCZHPJBV\" class=\"p1\"><strong>SUMMARY<br></strong>On January 13th, 2025 from 11:07 UTC to 12:07 UTC, customers on Pod 17 experienced issues with Messaging Triggers not executing.<br><br><strong>TIMELINE</strong></p>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>January 13, 2025 12:24 PM UTC | January 13, 2025 04:24 AM PT </strong><br>The recent Messaging issue has been fully resolved, and our services are back to full operability! Thank you for your patience during this time. Our team will continue to monitor our systems closely to ensure everything runs smoothly. We appreciate your support and are here for any questions or feedback you may have!</p>\n<p class=\"p1\"><strong>January 13, 2025 11:51 AM UTC | January 13, 2025 03:51 AM PT </strong><br>We are investigating issues with Messaging Triggers executing for our customers on POD17.</p>\n</div>\n<p class=\"undefined\"><strong><br>POST-MORTEM</strong></p>\n<h4 id=\"h_01JJSSMS5Z6T6VTXN4ES2VAC1W\"><span style=\"color: #666666;\">Root Cause Analysis</span></h4>\n<p>This incident was caused by premature terminations of consumers for the Messaging ticket log events service, which occurred while the service was still running. As a result, the consumers were unable to process incoming events, leading to a complete halt in the evaluation and execution of Messaging Triggers on Pod 17.<br><br></p>\n<h4 id=\"h_01JJSSMS5ZSKRJMGB7DWRESHDG\"><span style=\"color: #666666;\">Resolution</span></h4>\n<p>To resolve this issue, we identified the configuration error that set the maximum number of records to be processed in a single batch to 500 instead of the intended 250. By correcting this typo and reducing the max records value, we aimed to decrease the likelihood of consumer terminations due to timeout issues.<br><br></p>\n<h4 id=\"h_01JJSSMS5Z5CAZA40C7Q8J1X2G\"><span style=\"color: #666666;\">Remediation Items</span></h4>\n<ol>\n<li>Implement a health check to detect premature terminations of consumers.</li>\n<li>Create a monitor to track the number of running consumers.</li>\n<li>Establish a monitor to monitor stopped partitions for the Tessaging ticket log events consumer.</li>\n<li>Add a consumer lag status widget to the Messaging Trigger Service dashboard.</li>\n<li>Create a new metric to measure the time taken to process a batch of messages from the messaging ticket log events topic.</li>\n</ol>\n<p>These remediations are designed to enhance monitoring and prevent similar incidents in the future, ensuring the stability and reliability of the Messaging Trigger Service.</p>\n<h4 id=\"h_01JJSSGQ81P64W2XN7WNJHBR2W\"><strong><br>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
     }
   ],
