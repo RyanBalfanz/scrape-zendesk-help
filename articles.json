@@ -140,25 +140,24 @@
       "vote_count": 0,
       "section_id": 8243901746970,
       "created_at": "2025-02-07T17:08:31Z",
-      "updated_at": "2025-02-10T17:10:03Z",
+      "updated_at": "2025-02-13T11:58:35Z",
       "name": "What are the conversation statuses for AI agents - Advanced?",
       "title": "What are the conversation statuses for AI agents - Advanced?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-02-10T16:02:17Z",
+      "edited_at": "2025-02-13T11:58:35Z",
       "user_segment_id": null,
-      "permission_group_id": 1260801242670,
+      "permission_group_id": 1260801135069,
       "content_tag_ids": [],
       "label_names": [
         "ks",
         "ab0",
         "ab0_bots_automation",
-        "role_admin",
-        "Ultimate"
+        "role_admin"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>I noticed conversation statuses with automatically detected values. Which statuses are available?</p>\n<h2 id=\"01JKR84N102N5MF6VMHE27MC7H\">Answer</h2>\n<p>A conversation status is assigned as soon as an AI agent responds. Statuses help users report and filter conversation logs to assess the effectiveness of AI agents. A conversation's status may change throughout the session based on the dialogue and is recalculated with each visitor interaction.</p>\n<p>After a session ends, the conversation status is updated to its final state. The end of a session depends on the type of bot used:</p>\n<ul>\n<li>For ticket bots, sessions end after 72 hours.</li>\n<li>For chat bots, the session duration depends on the CRM platform. Typically, the session ends on escalation or defaults to 2 hours.</li>\n</ul>\n<p>You will find the meaning of each status below.</p>\n<h3 id=\"h_01JKR8DYFPEDEGW4JJ62JY07G9\"><span style=\"color: #434343;\">Conversation statuses for chat AI agents</span></h3>\n<ul>\n<li>\n<strong>Agent escalation</strong>: The conversation was successfully transferred to a human agent.</li>\n<li>\n<strong>Bot handled</strong>: The conversation contained meaningful intent, did not attempt escalation, and ended without the bot misunderstanding a message.</li>\n<li>\n<strong>Custom escalation</strong>: The conversation contained a custom escalation label.</li>\n<li>\n<strong>Email escalation</strong>: The conversation was successfully emailed to the support team.</li>\n<li>\n<strong>Escalation failed</strong>: The conversation contained an unsuccessful escalation attempt.</li>\n</ul>\n<h3 id=\"h_01JKR8E3D4GX1K35GFBQS4PYQM\">Conversation statuses for ticket AI agents</h3>\n<ul>\n<li>\n<strong>Not understood</strong>: The last message was not understood, and no actions or replies were triggered.</li>\n<li>\n<strong>Recognized intent</strong>: The last message was understood, and no actions or replies were triggered.</li>\n<li>\n<strong>Processed</strong>: Actions were taken but no reply was sent except for the default reply, or the reply was empty.\n<div class=\"p\">\n<div class=\"note note\">\n<span class=\"notetitle\"><strong>Note</strong>:</span> Conversations answered by a human agent are considered processed.</div>\n</div>\n</li>\n<li>\n<strong>Answered</strong>: The last message was understood, and a reply was sent.</li>\n</ul>\n<p>For more information, see these articles:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/8357756447898-Bot-Analytics-Explained\">Bot analytics explained</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/8357749580186-Conversation-Logs-Explained\">Conversation logs explained</a></li>\n</ul>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>I noticed conversation statuses with automatically detected values. Which statuses are available?</p>\n<h2 id=\"01JKR84N102N5MF6VMHE27MC7H\">Answer</h2>\n<p>A conversation status is assigned as soon as an AI agent responds. Statuses help users report and filter conversation logs to assess the effectiveness of AI agents. A conversation's status may change throughout the session based on the dialogue and is recalculated with each visitor interaction.</p>\n<p>After a session ends, the conversation status is updated to its final state. The end of a session depends on the type of bot used:</p>\n<ul>\n<li>For ticket bots, sessions end after 72 hours</li>\n<li>For chat bots, the session duration depends on the CRM platform. Typically, the session ends on escalation or defaults to 2 hours</li>\n</ul>\n<p>You will find the meaning of each status below.</p>\n<h3 id=\"h_01JKR8DYFPEDEGW4JJ62JY07G9\">Conversation statuses for chat AI agents</h3>\n<ul>\n<li>\n<strong>Agent escalation</strong>: The conversation was successfully transferred to a human agent</li>\n<li>\n<strong>Bot handled</strong>: The conversation contained meaningful intent, did not attempt escalation, and ended without the bot misunderstanding a message</li>\n<li>\n<strong>Custom escalation</strong>: The conversation contained a custom escalation label</li>\n<li>\n<strong>Email escalation</strong>: The conversation was successfully emailed to the support team</li>\n<li>\n<strong>Escalation failed</strong>: The conversation contained an unsuccessful escalation attempt</li>\n</ul>\n<h3 id=\"h_01JKR8E3D4GX1K35GFBQS4PYQM\">Conversation statuses for ticket AI agents</h3>\n<ul>\n<li>\n<strong>Not understood</strong>: The last message was not understood, and no actions or replies were triggered</li>\n<li>\n<strong>Recognized intent</strong>: The last message was understood, and no actions or replies were triggered</li>\n<li>\n<strong>Processed</strong>: Actions were taken but no reply was sent except for the default reply, or the reply was empty\n<div class=\"p\">\n<div class=\"note note\">\n<span class=\"notetitle\"><strong>Note</strong>:</span> Conversations answered by a human agent are considered processed</div>\n</div>\n</li>\n<li>\n<strong>Answered</strong>: The last message was understood, and a reply was sent</li>\n</ul>\n<p>For more information, see these articles:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/8357756447898-Bot-Analytics-Explained\">Bot analytics explained</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/8357749580186-Conversation-Logs-Explained\">Conversation logs explained</a></li>\n</ul>",
       "user_segment_ids": []
     },
     {
@@ -174,14 +173,14 @@
       "vote_count": 0,
       "section_id": 4405303737370,
       "created_at": "2025-02-07T14:03:25Z",
-      "updated_at": "2025-02-12T17:12:57Z",
+      "updated_at": "2025-02-13T11:56:03Z",
       "name": "Why do the email addresses swap between the To and CC fields in some tickets?",
       "title": "Why do the email addresses swap between the To and CC fields in some tickets?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-02-10T21:10:23Z",
+      "edited_at": "2025-02-13T11:56:03Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -193,7 +192,7 @@
         "role_agent",
         "role_admin"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>Why do the email addresses swap between the To and CC fields in some tickets?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>This happens when the support address is located in the CC field instead of the To field in the original inbound email.</p>\n<p>Zendesk is designed to be a ticketing platform rather than an email platform; therefore, the logic is different. While the original email may show the support address in the CC field, the Zendesk UI moves this address to the To field to indicate which support address the email was sent to.</p>\n<p>Additionally, recipients are moved to the CC field. This lets agents know who their response will be sent back to, and agents can ensure all recipients are included in the email. The same happens in a ticket where the inbound email is sent to any external email address, and the subdomain support email address is CCed.</p>\n<p>For more information, see the article: <a href=\"https://support.zendesk.com/hc/en-us/articles/5179445630234-Understanding-CCs-and-followers\" target=\"_blank\" rel=\"noopener noreferrer\">Understanding CCs and followers</a>.</p>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>Why do the email addresses swap between the To and CC fields in some tickets?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>This happens when the support address is located in the CC field instead of the To field in the original inbound email.</p>\n<p>Zendesk is designed to be a ticketing platform rather than an email platform. Therefore, the logic is different. While the original email may show the support address in the CC field, the Zendesk UI moves this address to the To field to indicate which support address the email was sent to.</p>\n<p>Additionally, recipients are moved to the CC field. This lets agents know who their response will be sent back to, and agents can ensure all recipients are included in the email. The same happens in a ticket where the inbound email is sent to any external email address, and the subdomain support email address is CCed. For more information, see the article: <a href=\"https://support.zendesk.com/hc/en-us/articles/5179445630234-Understanding-CCs-and-followers\" target=\"_blank\" rel=\"noopener noreferrer\">Understanding CCs and followers</a>.</p>",
       "user_segment_ids": []
     },
     {
