@@ -19,14 +19,14 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2025-02-13T19:31:39Z",
-      "updated_at": "2025-02-13T19:46:25Z",
+      "updated_at": "2025-02-13T20:00:57Z",
       "name": "Service Incident - February 13th, 2025",
       "title": "Service Incident - February 13th, 2025",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-02-13T19:46:04Z",
+      "edited_at": "2025-02-13T19:56:20Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
@@ -35,7 +35,7 @@
         "mt",
         "rank_low_algolia"
       ],
-      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>February 13, 2025 07:46 PM UTC | February 13, 2025 11:46 AM PT </strong><br>We have confirmed an issue preventing new Guide article updates from being published on pod 13. Our team is investigating and we will provide new information as soon as it's available.</p>\n<p class=\"p1\"><strong>February 13, 2025 07:31 PM UTC | February 13, 2025 11:31 AM PT </strong><br>We are receiving reports of issues publishing changes to Guide articles on Pod 13. We will provide further updates shortly.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
+      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>February 13, 2025 07:56 PM UTC | February 13, 2025 11:56 AM PT </strong><br>We are happy to report that the issue preventing new Guide article updates from being published in pod 13 has been resolved, and Guide article updates are correctly being reflected in the Help Center. Thank you for your patience during our investigation.</p>\n<p class=\"p1\"><strong>February 13, 2025 07:46 PM UTC | February 13, 2025 11:46 AM PT </strong><br>We have confirmed an issue preventing new Guide article updates from being published on pod 13. Our team is investigating and we will provide new information as soon as it's available.</p>\n<p class=\"p1\"><strong>February 13, 2025 07:31 PM UTC | February 13, 2025 11:31 AM PT </strong><br>We are receiving reports of issues publishing changes to Guide articles on Pod 13. We will provide further updates shortly.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
       "user_segment_ids": []
     },
     {
