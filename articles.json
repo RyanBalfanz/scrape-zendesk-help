@@ -19,14 +19,14 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2025-02-15T01:54:02Z",
-      "updated_at": "2025-02-15T02:08:49Z",
+      "updated_at": "2025-02-15T06:07:27Z",
       "name": "Service Incident - February 15th, 2025",
       "title": "Service Incident - February 15th, 2025",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-02-15T02:08:49Z",
+      "edited_at": "2025-02-15T06:07:27Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
@@ -34,7 +34,7 @@
         "service_incident",
         "rank_low_algolia"
       ],
-      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>February 15, 2025 02:08 AM UTC | February 14, 2025 06:08 PM PT </strong><br>We have rolled a fix for the outbound email issues experienced. We will monitor the situation. Thank you for your patience</p>\n<p class=\"p1\"><strong>February 15, 2025 01:54 AM UTC | February 14, 2025 05:54 PM PT </strong><br>Our team have identified an issue with the outbound email service impacting Sell customers. They are currently working on a fix. More to come soon. </p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
+      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>February 15, 2025 06:07 AM UTC | February 14, 2025 10:07 PM PT </strong><br>We're happy to report that all outbound email issues impacting Sell have been resolved. Thank you for your patience. \n</p>\n<p class=\"p1\"><strong>February 15, 2025 02:08 AM UTC | February 14, 2025 06:08 PM PT </strong><br>We have rolled a fix for the outbound email issues experienced. We will monitor the situation. Thank you for your patience</p>\n<p class=\"p1\"><strong>February 15, 2025 01:54 AM UTC | February 14, 2025 05:54 PM PT </strong><br>Our team have identified an issue with the outbound email service impacting Sell customers. They are currently working on a fix. More to come soon. </p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
       "user_segment_ids": []
     },
     {
