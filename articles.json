@@ -47,7 +47,7 @@
       "vote_count": 0,
       "section_id": 4405303718426,
       "created_at": "2025-02-21T01:51:40Z",
-      "updated_at": "2025-02-21T02:29:07Z",
+      "updated_at": "2025-02-21T10:42:04Z",
       "name": "How can I create a dashboard to gain insights about my business?",
       "title": "How can I create a dashboard to gain insights about my business?",
       "source_locale": "en-us",
@@ -57,7 +57,10 @@
       "edited_at": "2025-02-21T02:29:07Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
-      "content_tag_ids": [],
+      "content_tag_ids": [
+        "01GT23C57E9F1X71ZTSYK48R75",
+        "01GT23CR5WV19DHBTHA1XGSGES"
+      ],
       "label_names": [
         "ks",
         "ab0",
