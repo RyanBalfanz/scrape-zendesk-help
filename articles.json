@@ -19,14 +19,14 @@
       "vote_count": 0,
       "section_id": 4405303718426,
       "created_at": "2025-02-21T01:51:40Z",
-      "updated_at": "2025-02-21T01:51:40Z",
+      "updated_at": "2025-02-21T02:29:07Z",
       "name": "How can I create a dashboard to gain insights about my business?",
       "title": "How can I create a dashboard to gain insights about my business?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-02-21T01:51:40Z",
+      "edited_at": "2025-02-21T02:29:07Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -38,7 +38,7 @@
         "role_admin",
         "role_owner"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>How can I create my first dashboard? How do I share a dashboard with my team?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>In Explore, you can clone a prebuilt dashboard, start a new one from scratch, or <a href=\"https://support.zendesk.com/hc/en-us/articles/4408831595418\" target=\"_blank\" rel=\"noopener noreferrer\">create a dashboard</a> from a template. The dashboard builder is an interactive tool that lets you add and customize components, such as reports and filters. Publish and share the dashboard to provide your teams with data about your business across the Zendesk products.</p>\n<p>Watch the video below to learn how to start with dashboards.</p>\n<p><iframe src=\"//www.youtube-nocookie.com/embed/NtU9vuAvFvA\" width=\"560\" height=\"315\" frameborder=\"0\" allowfullscreen=\"\"></iframe></p>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>How can I create my first dashboard? How do I share a dashboard with my team?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>In Explore, you can clone a prebuilt dashboard, start a new one from scratch, or <a href=\"https://support.zendesk.com/hc/en-us/articles/4408831595418\" target=\"_blank\" rel=\"noopener noreferrer\">create a dashboard</a> from a template. The dashboard builder is an interactive tool that lets you add and customize components, such as reports and filters. Publish and share the dashboard to provide your teams with data about your business across the Zendesk products.</p>\n<p>Watch the video below to learn how to get started with dashboards.</p>\n<p><iframe src=\"//www.youtube-nocookie.com/embed/NtU9vuAvFvA\" width=\"560\" height=\"315\" frameborder=\"0\" allowfullscreen=\"\"></iframe></p>\n<div id=\"topic_zcc_5yr_my__note_eny_g13_bbc\" class=\"note attention\">\n<span class=\"attentiontitle\"></span> The information in this article covers the new Explore dashboard builder, released in November 2024. The legacy dashboard builder will remain available until Q4 2025. If you’re using the legacy dashboard builder and need help, see <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/8210448879002\" target=\"_blank\" rel=\"noopener\">About the legacy Explore dashboard builder</a>.</div>",
       "user_segment_ids": []
     },
     {
