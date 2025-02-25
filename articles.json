@@ -1,5 +1,5 @@
 {
-  "count": 4977,
+  "count": 4978,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 166,
@@ -346,6 +346,34 @@
         "rank_low_algolia"
       ],
       "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>February 13, 2025 05:37 PM UTC | February 13, 2025 09:37 AM PT </strong><br>We are happy to report that we have resolved the issue affecting some AI Agents causing technical errors, and as such will be restoring the Z2 Widget to contact Zendesk Support. Thank you for your patience during our investigation.</p>\n<p class=\"p1\"><strong>February 13, 2025 04:14 PM UTC | February 13, 2025 08:14 AM PT </strong><br>We are aware of an issue affecting a subset of AI Agents, including those on our Z2 Widget to contact Zendesk Support (https://status.openai.com/). While we investigate, we will be failing over to the web form for any requests to Zendesk Support.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
+      "user_segment_ids": []
+    },
+    {
+      "id": 8888442708506,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8888442708506.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/8888442708506-Announcing-AI-translations-for-articles-in-the-new-Guide-editor-EAP",
+      "author_id": 1267427309749,
+      "comments_disabled": true,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298833818,
+      "created_at": "2025-02-13T15:41:18Z",
+      "updated_at": "2025-02-25T13:23:20Z",
+      "name": "Announcing AI translations for articles in the new Guide editor (EAP)",
+      "title": "Announcing AI translations for articles in the new Guide editor (EAP)",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2025-02-18T13:52:54Z",
+      "user_segment_id": null,
+      "permission_group_id": 1324079,
+      "content_tag_ids": [],
+      "label_names": [],
+      "body": "<table style=\"border-collapse: collapse; width: 100%; height: 44px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"width: 25%;\"><strong>Announced on</strong></td>\n<td style=\"width: 25%; height: 22px;\"><strong>Enrollment starts</strong></td>\n<td style=\"width: 50%; height: a 22px;\"><strong>EAP rollout begins</strong></td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 25%;\">February 25, 2025</td>\n<td style=\"width: 25%; height: 22px;\">February 25, 2025</td>\n<td style=\"width: 50%; height: 22px;\">March 3, 2025</td>\n</tr>\n</tbody>\n</table>\n<p>We’re excited to announce the launch of the AI translations for articles Early Access Program (EAP). This new feature uses AI to help you quickly create article translations within your knowledge base, making it easier to provide support in multiple languages.</p>\n<p>This announcement includes the following topics:</p>\n<ul>\n<li><a href=\"#h_01JJ7VZ97E39STAN2YS3ZJPE3G\">What's changing?</a></li>\n<li><a href=\"#h_01JJ7VZK3ES8JQGP9ZYY7CREG5\">Why is Zendesk making this change?</a></li>\n<li><a href=\"#h_01JJ7VZPE69GYQTJJ91C5VP4DN\">What do I need to do?</a></li>\n<li><a href=\"#h_01JJKZXJMC5RJ24VMN570JH4EK\">Limitations</a></li>\n</ul>\n<h2 id=\"h_01JJ7VZ97E39STAN2YS3ZJPE3G\">What’s changing?</h2>\n<p>AI translation for articles lets you generate translations for articles directly within the article editor. If your help center supports multiple languages, you can create an article in your default language, then use the AI translation feature to automatically translate the article into any language supported by your help center.</p>\n<p>AI translation for articles provides support for all languages supported by <a href=\"https://support.zendesk.com/hc/en-us/articles/4408821324826-Zendesk-language-support-by-product\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk Guide</a>.</p>\n<div class=\"non-responsive\"><iframe class=\"iframe embed-responsive-item\" src=\"https://fast.wistia.net/embed/iframe/ec9m8qh4l4\" width=\"640\" height=\"360\" allowfullscreen=\"true\"></iframe></div>\n<h2 id=\"h_01JJ7VZK3ES8JQGP9ZYY7CREG5\">Why is Zendesk making this change?</h2>\n<p>AI translation for articles empowers users to generate quick, easy, and cost-effective translations directly within the article editor. This enhancement allows users to instantly translate content into supported languages. Users can create, review, edit, and publish translations seamlessly within their workflow.</p>\n<h2 id=\"h_01JJ7VZPE69GYQTJJ91C5VP4DN\">What do I need to do?</h2>\n<p>To participate in the AI translation for articles EAP, you ‘ll need the following:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/5524125586330-About-Zendesk-Advanced-AI\" target=\"_blank\" rel=\"noopener noreferrer\">Advanced AI add-on</a></li>\n<li>Access to the New Editor (<a href=\"https://support.zendesk.com/hc/en-us/community/posts/7624145244570-What-is-the-New-Article-Editor-EAP-and-how-do-I-use-it\" target=\"_blank\" rel=\"noopener noreferrer\">sign up here</a>)</li>\n<li>Help center configured to support multiple languages</li>\n</ul>\n<p><a href=\"https://docs.google.com/forms/d/e/1FAIpQLSdYiSP5c6xy-OADzkZ_hYRNMjhn4BW_OOOHFHTE8tEYVeY_8w/viewform?usp=sf_link\" target=\"_blank\" rel=\"noopener noreferrer\">Sign up for the EAP </a>and we'll activate it on your account as soon as we start the rollout. Once you receive confirmation of your enrollment, follow the steps outlined in our documentation to set up and start using the AI translation for articles feature. See <a href=\"https://support.zendesk.com/hc/en-us/articles/8717609637018\" target=\"_blank\" rel=\"noopener noreferrer\">Translating articles in your help center using AI</a>.</p>\n<h2 id=\"h_01JJKZXJMC5RJ24VMN570JH4EK\">Limitations</h2>\n<p>As this is an EAP, there are some limitations to be aware of:</p>\n<ul>\n<li>The AI translation for articles feature does not currently support content blocks.</li>\n<li>Certain languages may have limited availability, depending on your help center's configuration.</li>\n</ul>\n<p>We’re committed to continuously improving your Zendesk experience. Stay tuned for more updates!</p>\n<p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/8158068036250\" target=\"_blank\" rel=\"noopener noreferrer\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk Customer Support</a>.</p>",
       "user_segment_ids": []
     },
     {
@@ -937,37 +965,6 @@
         "role_agent"
       ],
       "body": "<h2 id=\"h_01JJM8B0D4SQKVEMAPWDB6049B\">Question</h2>\n<p>What causes the system to change a task to the <strong>Offline</strong> status? This behavior happens when a specific task is assigned and when agents are either working or taking a break.</p>\n<h2 id=\"h_01JJM8B0D4NKE9QQBKP49ZW1N1\">Answer</h2>\n<p>This behavior is expected when the computer experiences a loss of connectivity, such as going offline, entering sleep mode, or being disconnected from the internet for a certain duration. The system automatically updates the task status to <strong>Offline</strong> due to network inactivity.</p>\n<p>To mitigate this situation and maintain the status of ongoing tasks, agents can utilize the task lock feature. This feature allows them to lock the task they are currently engaged in when they anticipate that their computer might lose its active internet connection or when there is a lack of activity.</p>\n<p>By locking the task, agents can ensure that their progress is preserved, and the task will not be automatically switched to <strong>Offline</strong> status, allowing for a smoother workflow and minimizing disruptions.</p>\n<p>For further details on how to implement the task lock feature, refer to these articles:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/6443329357210-Activating-task-lock\" target=\"_blank\" rel=\"noopener noreferrer\">Activating task lock</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/6443329257114-Using-task-lock\" target=\"_blank\" rel=\"noopener noreferrer\">Using task lock</a></li>\n</ul>\n<p> </p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 8742467087258,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8742467087258.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/8742467087258-Release-notes-through-2025-1-17",
-      "author_id": 1263082309989,
-      "comments_disabled": true,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405298847002,
-      "created_at": "2025-01-19T20:20:01Z",
-      "updated_at": "2025-01-26T18:34:01Z",
-      "name": "Release notes through 2025-1-17",
-      "title": "Release notes through 2025-1-17",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2025-01-19T20:23:48Z",
-      "user_segment_id": null,
-      "permission_group_id": 1324079,
-      "content_tag_ids": [],
-      "label_names": [
-        "mt",
-        "rank_low_algolia"
-      ],
-      "body": "<div class=\"note tip\">See our <a href=\"https://support.zendesk.com/hc/en-us/articles/8566042707994\" target=\"_blank\" rel=\"noopener noreferrer\">What's New</a> for an overview of what was released in the last month.</div>\n<p>This week's release notes include:</p>\n<ul>\n<li><a href=\"#h_01JHE37ZQR07MDP03Z7YBT2V3A\">Advanced AI</a></li>\n<li><a href=\"#h_01JHE34QNKXH2R5EN9DF4S26FQ\">App Marketplace</a></li>\n<li><a href=\"#h_01JGA2YGRMZEQMVHNQRVWN0MQE\">Products with no updates this week</a></li>\n</ul>\n<h2 id=\"h_01JHE37ZQR07MDP03Z7YBT2V3A\">Advanced AI</h2>\n<p><strong>New:</strong></p>\n<ul>\n<li>\n<span>Last year, we introduced the first customization phase, enabling customers to<span> </span></span><a href=\"https://support.zendesk.com/hc/en-us/articles/6298065502874#topic_qbn_ln3_fzb\">edit intent labels</a><span>. Today, we're taking it further by allowing you to request new intents. This enhancement aims to capture every incoming request with greater granularity and understand it better, resulting in more accurate answers and higher-quality service.</span>\n</li>\n</ul>\n<h2 id=\"h_01JHE34QNKXH2R5EN9DF4S26FQ\"><span>App Marketplace</span></h2>\n<div>\n<div><strong>New:</strong></div>\n<ul>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1079456/hamsa-transcribe/\">Hamsa Transcribe</a> <strong>(Support)</strong>\n<ul>\n<li>Hamsa Transcribe is a leading provider of AI-driven voice solutions committed to enhancing business communications through intelligent voice interactions. It specializes in mastering the complexities of Arabic dialects, ensuring precise and meaningful engagements for organizations across various industries. Hamsa Transcribe seamlessly integrates with Zendesk, offering accurate and reliable call transcription services tailored to Arabic dialects. Its solution provides high-quality transcriptions and advanced sentiment analysis, enabling you to capture every detail and understand the emotions behind your customer interactions.</li>\n</ul>\n</li>\n</ul>\n</div>\n<h2 id=\"h_01JGA2YGRMZEQMVHNQRVWN0MQE\"><span>Products with no updates this week</span></h2>\n<ul>\n<li>Support</li>\n<li>Mobile SDKs</li>\n<li>AI agents and knowledge</li>\n<li>Explore</li>\n<li>Talk</li>\n<li>Chat and messaging</li>\n<li>Admin Center</li>\n<li>Zendesk QA</li>\n<li>Zendesk WFM</li>\n</ul>",
       "user_segment_ids": []
     }
   ],
