@@ -587,7 +587,7 @@
     {
       "id": 8840417872410,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8840417872410.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/8840417872410-Service-Incident-February-5th-2025",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/8840417872410-Service-Incident-February-5-2025-Guide-Login-issues-on-mobile-browsers",
       "author_id": 1263082077509,
       "comments_disabled": true,
       "draft": false,
@@ -597,14 +597,14 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2025-02-05T11:29:51Z",
-      "updated_at": "2025-02-05T12:01:33Z",
-      "name": "Service Incident - February 5th, 2025",
-      "title": "Service Incident - February 5th, 2025",
+      "updated_at": "2025-02-25T21:46:29Z",
+      "name": "Service Incident - February 5, 2025 - Guide - Login issues on mobile browsers",
+      "title": "Service Incident - February 5, 2025 - Guide - Login issues on mobile browsers",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-02-05T11:48:08Z",
+      "edited_at": "2025-02-25T21:40:02Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
@@ -613,7 +613,7 @@
         "mt",
         "rank_low_algolia"
       ],
-      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>February 05, 2025 11:48 AM UTC | February 05, 2025 03:48 AM PT </strong><br>We are pleased to inform you that the login issues with our guide service have been identified and resolved by our engineering team. You should now be able to access the service without any problems.\nThank you for your patience and understanding during this incident. If you continue to experience any issues, please reach out to our support team.</p>\n<p class=\"p1\"><strong>February 05, 2025 11:29 AM UTC | February 05, 2025 03:29 AM PT </strong><br>We are experiencing service degradation with our guide service login from mobile browsers. If you encounter errors while accessing your account, please try logging in from a desktop. Our team is actively working to resolve the issue.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
+      "body": "<h3 id=\"h_01JMZGQ36WE31W6WW7AH69ZEZS\" class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\">On February 5, 2025 from 10:50 UTC to 12:03 UTC, some Guide customers may have experienced degraded login functionality when accessing Guide from mobile browsers.</p>\n<p class=\"undefined\"> </p>\n<h3 id=\"h_01JMZGRTK9RPSN6YHMQWHN1K67\" class=\"undefined\">TIMELINE</h3>\n<p class=\"p1\"><strong>February 05, 2025 11:48 AM UTC | February 05, 2025 03:48 AM PT </strong><br>We are pleased to inform you that the login issues with our guide service have been identified and resolved by our engineering team. You should now be able to access the service without any problems. Thank you for your patience and understanding during this incident. If you continue to experience any issues, please reach out to our support team.</p>\n<p class=\"p1\"><strong>February 05, 2025 11:29 AM UTC | February 05, 2025 03:29 AM PT </strong><br>We are experiencing service degradation with our guide service login from mobile browsers. If you encounter errors while accessing your account, please try logging in from a desktop. Our team is actively working to resolve the issue.</p>\n</div>\n<p class=\"undefined\"><strong><br>POST-MORTEM</strong></p>\n<h4 id=\"h_01JMZGSS2GQE8FN0KZCQ0J3VMZ\"><span style=\"color: #666666;\">Root Cause Analysis</span></h4>\n<p>This incident was caused by a bug that re-enabled an old rollout flag instead of removing it. The deployment of that code led to the mobile login feature being disrupted. The bug was able to reach production undetected due to insufficient testing and monitoring.</p>\n<h4 id=\"h_01JMZGSS2GB0TXA8SXW3ZZRX00\"><span style=\"color: #666666;\"><br>Resolution</span></h4>\n<p>To resolve the issue, the team executed a rollback of the deployment that had introduced the defect. This action restored normal functionality for the mobile authentication process, allowing users to log in successfully again.</p>\n<h4 id=\"h_01JMZGSS2GR0C5YHW8Z1C3EMPN\"><span style=\"color: #666666;\"><br>Remediation Items</span></h4>\n<ol>\n<li>Monitor for Guide Login Failures: Implement a monitoring system to detect and alert on Guide login failures promptly.</li>\n<li>Update Login Overview Dashboard: Enhance the visibility of a login overview dashboard by adding graphs for login methods to better track performance.</li>\n<li>Canary Style Reduction in rollout flags: Implement a canary deployment strategy for rollout flags to minimize risk during future changes.</li>\n<li>E2E/Regression Tests for Mobile Authentication: Develop end-to-end and regression tests specifically for Guide mobile authentication flows to catch issues before deployment.</li>\n</ol>\n<h4 id=\"h_01JMZGQ36W1JHJCVXRG1F6M6VD\"><strong><br>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
     },
     {
