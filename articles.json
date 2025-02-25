@@ -289,7 +289,7 @@
     {
       "id": 8889379485210,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8889379485210.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/8889379485210-Service-Incident-February-13th-2025",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/8889379485210-Service-Incident-February-13th-2025-Guide-Pod-13-Issues-publishing-article-updates",
       "author_id": 1263082084489,
       "comments_disabled": true,
       "draft": false,
@@ -299,14 +299,14 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2025-02-13T19:31:39Z",
-      "updated_at": "2025-02-13T20:00:57Z",
-      "name": "Service Incident - February 13th, 2025",
-      "title": "Service Incident - February 13th, 2025",
+      "updated_at": "2025-02-25T22:31:16Z",
+      "name": "Service Incident - February 13th, 2025 - Guide | Pod 13 - Issues publishing article updates",
+      "title": "Service Incident - February 13th, 2025 - Guide | Pod 13 - Issues publishing article updates",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-02-13T19:56:20Z",
+      "edited_at": "2025-02-25T22:15:21Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
@@ -315,7 +315,7 @@
         "mt",
         "rank_low_algolia"
       ],
-      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>February 13, 2025 07:56 PM UTC | February 13, 2025 11:56 AM PT </strong><br>We are happy to report that the issue preventing new Guide article updates from being published in pod 13 has been resolved, and Guide article updates are correctly being reflected in the Help Center. Thank you for your patience during our investigation.</p>\n<p class=\"p1\"><strong>February 13, 2025 07:46 PM UTC | February 13, 2025 11:46 AM PT </strong><br>We have confirmed an issue preventing new Guide article updates from being published on pod 13. Our team is investigating and we will provide new information as soon as it's available.</p>\n<p class=\"p1\"><strong>February 13, 2025 07:31 PM UTC | February 13, 2025 11:31 AM PT </strong><br>We are receiving reports of issues publishing changes to Guide articles on Pod 13. We will provide further updates shortly.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
+      "body": "<h3 id=\"h_01JMZJMVTH9DW5GADF8F14VFA4\" class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<p>On February 13, 2025 from 15:50 UTC to 19:48 UTC, Guide customers on Pod 13 experienced issues publishing article updates.<br><br></p>\n<h3 id=\"h_01JMZJPG5RH2A1PT5FHZ59G1X4\">TIMELINE</h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>February 13, 2025 07:56 PM UTC | February 13, 2025 11:56 AM PT </strong><br>We are happy to report that the issue preventing new Guide article updates from being published in pod 13 has been resolved, and Guide article updates are correctly being reflected in the Help Center. Thank you for your patience during our investigation.</p>\n<p class=\"p1\"><strong>February 13, 2025 07:46 PM UTC | February 13, 2025 11:46 AM PT </strong><br>We have confirmed an issue preventing new Guide article updates from being published on pod 13. Our team is investigating and we will provide new information as soon as it's available.</p>\n<p class=\"p1\"><strong>February 13, 2025 07:31 PM UTC | February 13, 2025 11:31 AM PT </strong><br>We are receiving reports of issues publishing changes to Guide articles on Pod 13. We will provide further updates shortly.</p>\n</div>\n<p class=\"p1\"> </p>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<h4 id=\"h_01JMZJQ98DA93V0KYS4EMTWET4\"><span style=\"color: #666666;\">Root Cause Analysis</span></h4>\n<p>This incident was caused by a consumer that stopped processing updates but did not crash, which meant it was not automatically restarted. As a result, updates to articles were not propagated to the Help Center, affecting user access to the latest information.</p>\n<h4 id=\"h_01JMZJQ98D11W9A4TRB4X36BZX\"><span style=\"color: #666666;\"><br>Resolution</span></h4>\n<p>To fix this issue, the team redeployed the Guide Article Service to Pod 13. This action restarted the consumer, allowing it to resume its function and propagate updates to the Help Center effectively.</p>\n<h4 id=\"h_01JMZJQ98DVABCYD8NQTQC3PYN\"><span style=\"color: #666666;\"><br>Remediation Items</span></h4>\n<ol>\n<li>Exit Consumer Process on Non-Retriable Errors: Implement a process that ensures the consumer exits in the event of non-retriable errors, allowing for automatic restarts and minimizing downtime.</li>\n<li>Enhance Monitoring: Review and improve existing monitoring systems to ensure that similar consumer issues are detected and addressed proactively.</li>\n<li>Alerting Improvements: Refine alerting criteria to ensure timely notifications of consumer failures, enabling quicker response times.</li>\n<li>Documentation of Consumer Behavior: Create comprehensive documentation outlining expected consumer behavior during various failure scenarios to aid in troubleshooting.</li>\n<li>Regular Health Checks: Establish regular health checks for consumers to detect issues early and prevent impacts on service delivery.</li>\n</ol>\n<h4 id=\"h_01JMZJMVTHC7CDTATX43S6KS76\"><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
     },
     {
