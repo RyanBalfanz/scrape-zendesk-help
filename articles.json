@@ -1,11 +1,41 @@
 {
-  "count": 4979,
+  "count": 4980,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 166,
   "per_page": 30,
   "previous_page": null,
   "articles": [
+    {
+      "id": 8944498156186,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8944498156186.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/8944498156186-Announcing-the-Zendesk-essentials-Live-tutorials",
+      "author_id": 1263082087049,
+      "comments_disabled": true,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298833818,
+      "created_at": "2025-02-24T18:20:16Z",
+      "updated_at": "2025-02-25T16:30:24Z",
+      "name": "Announcing the Zendesk essentials: Live tutorials",
+      "title": "Announcing the Zendesk essentials: Live tutorials",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2025-02-25T16:30:23Z",
+      "user_segment_id": null,
+      "permission_group_id": 1324079,
+      "content_tag_ids": [],
+      "label_names": [
+        "digital_adoption_events"
+      ],
+      "body": "<p>Zendesk is introducing a new series of live tutorial webinars called Zendesk essentials. These are informative sessions designed for newcomers or anyone looking to optimize their use of core features and functionality. Whether you're just starting out or seeking to refresh your skills, this series will provide fundamental education and real examples of common configurations to help you get the most out of Zendesk.</p>\n<p>This announcement includes the following topics:</p>\n<ul>\n<li><a href=\"#h_01JMWJVB51DR0Z0QWEY5BZCDWM\">What to expect</a></li>\n<li><a href=\"#h_01JMWJWGVSA8PCKE79S52BN5KQ\">Which sessions will happen in March?</a></li>\n<li><a href=\"#h_01JMWJXARQ8T8FVH2E7QZZQ0AG\">What do I need to do?</a></li>\n</ul>\n<h2 id=\"h_01JMWJVB51DR0Z0QWEY5BZCDWM\">What to expect</h2>\n<ul>\n<li>Comprehensive overviews: Each session offers a thorough introduction to the key features of Zendesk Support, ensuring you can effectively utilize the platform</li>\n<li>Step-by-step tutorials: These easy-to-follow tutorials will guide you through real workflows that other Zendesk users have found beneficial, providing both instruction and inspiration for your own use cases</li>\n<li>Best practices: Gain valuable insights from Zendesk experts and fellow users to avoid common pitfalls and build for the future</li>\n<li>Interactive Q&amp;A: Engage in live discussions where you can ask questions and receive real-time assistance from Zendesk experts</li>\n</ul>\n<h2 id=\"h_01JMWJWGVSA8PCKE79S52BN5KQ\">Which sessions will happen in March?</h2>\n<p>The team will publish an announcement a week ahead of each event in the <a href=\"https://support.zendesk.com/hc/en-us/community/topics/1260801308650\" target=\"_blank\" rel=\"noopener noreferrer\">Announcements</a> topic of the Zendesk Community. To know more about what is planned for the month of March, see the table below.</p>\n<table style=\"border-collapse: collapse; width: 100%; height: 44px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"width: 46.7618%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Session event</strong></td>\n<td style=\"width: 19.9048%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Date and time</strong></td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 46.7618%; height: 22px;\"><a href=\"https://usergroups.zendesk.com/events/details/zendesk-zendesk-essentials-live-tutorials-presents-building-your-ideal-zendesk-account-part-1-organizing-your-team/\" target=\"_blank\" rel=\"noopener noreferrer\">Building your ideal Zendesk account - Part 1: Organizing your team</a></td>\n<td style=\"width: 19.9048%; height: 22px;\">\n<p>March 4th, 2025</p>\n<p>11:00 AM CST (UTC-06)</p>\n</td>\n</tr>\n<tr>\n<td style=\"width: 46.7618%;\"><a href=\"https://usergroups.zendesk.com/events/details/zendesk-zendesk-essentials-live-tutorials-presents-building-your-ideal-zendesk-account-part-2-automating-ticket-assignments/\" target=\"_blank\" rel=\"noopener noreferrer\">Building your ideal Zendesk account - Part 2: Automating ticket assignments</a></td>\n<td style=\"width: 19.9048%;\">\n<p>March 11th, 2025</p>\n<p>11:00 AM CST (UTC-06)</p>\n</td>\n</tr>\n<tr>\n<td style=\"width: 46.7618%;\">\n<p>Building your ideal Zendesk account - Part 3: Managing escalations and implementing macros</p>\n</td>\n<td style=\"width: 19.9048%;\">\n<p>March 18th, 2025</p>\n<p>11:00 AM CST (UTC-06)</p>\n</td>\n</tr>\n<tr>\n<td style=\"width: 46.7618%;\">Building your ideal Zendesk account - Part 4: Prioritizing and tracking tickets with custom views</td>\n<td style=\"width: 19.9048%;\">\n<p>March 25th, 2025</p>\n<p>11:00 AM CST (UTC-06)</p>\n</td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"h_01JMWJXARQ8T8FVH2E7QZZQ0AG\">What do I need to do?</h2>\n<p>Visit the <a href=\"https://usergroups.zendesk.com/zendesk-essentials-live-tutorials/\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk essentials: Live tutorials</a> series page and click <strong>Join</strong> today to stay updated on past and upcoming events.</p>\n<p>By attending these webinars, you'll gain a deeper understanding of core Zendesk functionality, ideas for your own workflows, and access to a community of experts and peers eager to share their learnings.</p>",
+      "user_segment_ids": []
+    },
     {
       "id": 8941154006554,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8941154006554.json",
@@ -931,37 +961,6 @@
         "role_admin"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>What are prebuilt dashboards? How can they address my reporting and analytics needs?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>Prebuilt dashboards are ready-made compilations of reports that offer insights into important metrics without needing much setup. They follow reporting best practices by offering clear visuals and organized data that fit common workflows. This allows you to quickly access important information, simplify reporting, and make informed decisions.</p>\n<p>Dashboards with the <strong>Zendesk</strong> icon are all prebuilt. Among these dashboards, the <strong>Zendesk Support</strong> dashboard specifically highlights your Support data.</p>\n<p><iframe src=\"//www.youtube-nocookie.com/embed/N5-aFVQBeyo\" width=\"560\" height=\"315\" frameborder=\"0\" allowfullscreen=\"\"></iframe></p>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408835985434-Overview-of-the-Zendesk-Support-dashboard\" target=\"_blank\" rel=\"noopener noreferrer\">Overview of the Zendesk Support dashboard</a>.</p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 8783893680922,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8783893680922.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/8783893680922-Release-notes-through-2025-1-24",
-      "author_id": 1263082309989,
-      "comments_disabled": true,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405298847002,
-      "created_at": "2025-01-26T18:38:08Z",
-      "updated_at": "2025-02-02T19:52:59Z",
-      "name": "Release notes through 2025-1-24",
-      "title": "Release notes through 2025-1-24",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2025-01-26T18:56:42Z",
-      "user_segment_id": null,
-      "permission_group_id": 1324079,
-      "content_tag_ids": [],
-      "label_names": [
-        "mt",
-        "rank_low_algolia"
-      ],
-      "body": "<div class=\"note tip\">See our <a href=\"https://support.zendesk.com/hc/en-us/articles/8566042707994\" target=\"_blank\" rel=\"noopener noreferrer\">What's New</a> for an overview of what was released in the last month.</div>\n<p>This week's release notes include:</p>\n<ul>\n<li><a href=\"#h_01JHE37ZQR07MDP03Z7YBT2V3A\">Advanced AI</a></li>\n<li><a href=\"#h_01JJHYC063QBH0TFAJTRRZQ88P\">Explore</a></li>\n<li><a href=\"#h_01JHE34QNKXH2R5EN9DF4S26FQ\">App Marketplace</a></li>\n<li><a href=\"#h_01JGA2YGRMZEQMVHNQRVWN0MQE\">Products with no updates this week</a></li>\n</ul>\n<h2 id=\"h_01JHE37ZQR07MDP03Z7YBT2V3A\">Advanced AI</h2>\n<p><strong>New:</strong></p>\n<ul>\n<li>\n<span><span><a href=\"https://support.zendesk.com/hc/en-us/articles/8752925601946\" target=\"_blank\" rel=\"noopener noreferrer\">Auto a</a></span></span><a href=\"https://support.zendesk.com/hc/en-us/articles/8752925601946\">ssist</a><span><span> </span>can now read certain ticket fields. This enhancement boosts auto assist’s accuracy when suggesting the next best response to agents, helping to ensure recommendations align with your existing procedures.</span>\n</li>\n<li>\n<a href=\"https://support.zendesk.com/hc/en-us/articles/8761963171226\" target=\"_blank\" rel=\"noopener noreferrer\">Custom intents</a> can now be created instantly, added immediately to your intent list, and made available immediately to start predicting incoming tickets' intent.<span> </span>\n</li>\n</ul>\n<h2 id=\"h_01JJHYC063QBH0TFAJTRRZQ88P\">Explore</h2>\n<p><strong>Fixed:</strong></p>\n<ul>\n<li>Reports with many columns and rows would fail to export due to the amount of data that needed to be processed in the background. This issue is resolved now; any report displayed in Explore can be exported.</li>\n<li>On 4th November 2024, we began replacing null values with space characters. We found some side effects due to this update. A follow-up update has been released to ensure the null values are replaced with a single <a href=\"https://en.wikipedia.org/wiki/Non-breaking_space\">non-breaking space</a><span>. If you prefer to display these values as NULL, this setting can be adjusted in Report builder &gt; Result manipulations &gt; SQL options.</span>\n</li>\n</ul>\n<h2 id=\"h_01JHE34QNKXH2R5EN9DF4S26FQ\"><span>App Marketplace</span></h2>\n<div>\n<div><strong>New:</strong></div>\n<ul>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1099268/internalsmartnotes/\">InternalSmartNotes</a> <strong>(Support) (paid)</strong>\n<ul>\n<li>InternalSmartNotes is a Zendesk-enhanced application designed to improve support team efficiency.  InternalSmartNotes allows support agents to add and manage internal notes directly within the Zendesk ticket interface.  The app can facilitate seamless case handovers with structured forms capturing problem descriptions, investigation summaries, and severity levels or even provide customizable checklists for different failover types, ensuring all necessary readiness tasks are completed and documented.</li>\n</ul>\n</li>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1099179/ai-summary-generator/\">AI Summary Generator<span> </span></a><strong>(Support) (paid)</strong>\n<ul>\n<li>AI Summary Generator easily creates AI-powered summaries whenever needed, either on-demand, triggered by a tag, or automatically when a ticket is solved.  The summary can update the ticket's subject line or populate a custom text field for flexible and easy ticket analysis.</li>\n</ul>\n</li>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1100995/ticket-flow-lite/\">Ticket Flow Lite</a> <strong>(Support) (paid)</strong>\n<ul>\n<li>Ticket Flow Lite revolutionizes ticket management by giving administrators the power to customize dropdown field options based on ticket context. Agents see only the most relevant information tailored to the ticket’s form and classification, ensuring clarity and efficiency. This app provides extended functionality for Zendesk, enabling advanced field customizations without compromising data integrity or administrative ease.</li>\n</ul>\n</li>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1101369/process-csv/\">Process CSV</a> <strong>(Support)</strong>\n<ul>\n<li>Process CSV lets you handle CSV data directly from ticket attachments, updating Zendesk and connected systems like CRMs. This is not just from customers and clients - even legacy systems without an API can send CSV files to Zendesk, where the data is immediately usable, eliminating manual work and enabling further automation.</li>\n</ul>\n</li>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1101126/wrangle/\">Wrangle</a> <strong>(Support)</strong>\n<ul>\n<li>Wrangle makes creating a Zendesk ticket as easy as sending a message in Slack. Ticket updates and replies are synced bi-directionally between Slack and Zendesk. No training, no context switching — provide service from any Slack channel, DM, or thread.  Turn any message into a ticket automatically or by emoji, enhance transparency by showing users the status of their ticket, and escalate internally without leaving Slack.</li>\n</ul>\n</li>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1095169/utm-coach-autotagger/\">UTM Coach Autotagger</a> <strong>(Support) (paid)</strong>\n<ul>\n<li>UTM Coach Autotagger helps you make sure each link in each email you send is properly tagged and enables you to add user-level tracking for CDPs, analytics, and other systems.  With UTM Coach Autotagger, you’ll never have to worry again about whether the traffic from your support emails is properly tagged and thus attributed.</li>\n</ul>\n</li>\n</ul>\n</div>\n<h2 id=\"h_01JGA2YGRMZEQMVHNQRVWN0MQE\"><span>Products with no updates this week</span></h2>\n<ul>\n<li>Support</li>\n<li>Mobile SDKs</li>\n<li>AI agents and knowledge</li>\n<li>Talk</li>\n<li>Chat and messaging</li>\n<li>Admin Center</li>\n<li>Zendesk QA</li>\n<li>Zendesk WFM</li>\n</ul>",
       "user_segment_ids": []
     }
   ],
