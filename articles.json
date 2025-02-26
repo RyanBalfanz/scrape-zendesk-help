@@ -1,11 +1,41 @@
 {
-  "count": 4980,
+  "count": 4981,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
-  "page_count": 166,
+  "page_count": 167,
   "per_page": 30,
   "previous_page": null,
   "articles": [
+    {
+      "id": 8948823362458,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8948823362458.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/8948823362458-Announcing-enhanced-similar-ticket-results-boosted-by-intents-and-entities",
+      "author_id": 7005961966746,
+      "comments_disabled": true,
+      "draft": false,
+      "promoted": true,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298833818,
+      "created_at": "2025-02-25T12:30:40Z",
+      "updated_at": "2025-02-26T14:01:41Z",
+      "name": "Announcing enhanced similar ticket results boosted by intents and entities",
+      "title": "Announcing enhanced similar ticket results boosted by intents and entities",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2025-02-25T12:32:57Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801242670,
+      "content_tag_ids": [],
+      "label_names": [
+        "newsfeed"
+      ],
+      "body": "<table style=\"border-collapse: collapse; width: 100%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 50%;\"><strong>Announced on</strong></td>\n<td style=\"width: 50%;\"><strong>Rollout on</strong></td>\n</tr>\n<tr>\n<td style=\"width: 50%;\">February 26, 2025</td>\n<td style=\"width: 50%;\">February 26, 2025</td>\n</tr>\n</tbody>\n</table>\n<p>We're excited to share new updates to the similar tickets feature. Now, similar ticket results are boosted by shared intents and entity detection. This means agents are shown more relevant similar tickets, which helps them solve tickets faster.</p>\n<p>This announcement contains the following topics:</p>\n<ul>\n<li><a href=\"#h_01JMYHCQVV4E0V2V3XT7CRTW7S\">What’s changing?</a></li>\n<li><a href=\"#h_01JMYHCKZBXDN2W4FP9M6HMQYH\">Why is Zendesk making this change?</a></li>\n<li><a href=\"#h_01JMYHCHFRXNDXKR378420Z327\">What do I have to do?</a></li>\n</ul>\n<h2 id=\"h_01JMYHCQVV4E0V2V3XT7CRTW7S\">What’s changing?</h2>\n<p>To increase the relevance of similar tickets, we’ve updated our search algorithm with the following improvements:</p>\n<ul>\n<li>\n<strong>Intent matching</strong>: Similar ticket candidates with a high-confidence <a href=\"https://support.zendesk.com/hc/en-us/articles/4550640560538\">intent</a> match to the base ticket receive a score boost. This prioritizes alignment with the “why” behind the ticket (for example, refund request).</li>\n<li>\n<strong>Entity matching</strong>: Similar ticket candidates with matching <a href=\"https://support.zendesk.com/hc/en-us/articles/6711181959194\">entities</a> to the base ticket receive a score boost. This prioritizes alignment with the “what” of the ticket (for example, iPhone 15).</li>\n<li>\n<strong>Time decay</strong>: Recent similar tickets are prioritized over older ones, ensuring recommendations remain timely and relevant.</li>\n</ul>\n<p>For example, say a user opens a ticket to upgrade their current subscription to a higher-tier plan (called \"Premium\"). If there’s a high-confidence \"Upgrade subscription\" intent and a defined entity for \"Premium,\" agents can quickly access similar tickets that share the same intent and entity. This allows them to understand previous upgrade processes, review terms offered to other users, and ensure a smooth transition for the user.</p>\n<p>Previously, we relied solely on keywords from the user's first message, making our ability to find similar tickets dependent on how issues were phrased. With this update, we improve similarity precision anytime there’s an intent and/or entity match, ensuring more accurate and relevant recommendations.</p>\n<h2 id=\"h_01JMYHCKZBXDN2W4FP9M6HMQYH\">Why is Zendesk making this change?</h2>\n<p>These updates increase the relevance of similar tickets by boosting results based on existing intents and entities. This means agents are more likely to see relevant results that help them solve tickets faster.</p>\n<h2 id=\"h_01JMYHCHFRXNDXKR378420Z327\">What do I have to do?</h2>\n<p>You don’t need to take any action. These enhancements will be automatically available from February 26, 2025 onwards to all Advanced AI customers enrolled into the similar tickets EAP. To learn more about how similar tickets work, see <a href=\"https://support.zendesk.com/hc/en-us/articles/8036381366426\">Turning on similar tickets (EAP)</a>.</p>\n<p>While no action is required, for those looking to improve the precision of similar ticket recommendations, consider the following (if you haven’t already):</p>\n<ul>\n<li>\n<a href=\"https://support.zendesk.com/hc/en-us/articles/4550640560538#topic_gpp_p4g_htb\">Turn on intents</a>: Ensure intents are activated to improve recommendation accuracy.</li>\n<li>\n<a href=\"https://support.zendesk.com/hc/en-us/articles/8718789695002\">Sign up for the custom intents EAP</a>: This EAP allows you to tailor intents to align with your unique business needs for greater precision.</li>\n<li>\n<a href=\"https://support.zendesk.com/hc/en-us/articles/6711181959194\">Sign up for the entity detection EAP</a>: This EAP allows you to identify unique information in ticket conversations to refine results.</li>\n</ul>\n<p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/6447052855194\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\">Zendesk Customer Support</a>.</p>",
+      "user_segment_ids": []
+    },
     {
       "id": 8944498156186,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8944498156186.json",
@@ -940,38 +970,6 @@
         "rank_low_algolia"
       ],
       "body": "<div class=\"note tip\">See our <a href=\"https://support.zendesk.com/hc/en-us/articles/8566042707994\" target=\"_blank\" rel=\"noopener noreferrer\">What's New</a> for an overview of what was released in the last month.</div>\n<p>This week's release notes include:</p>\n<ul>\n<li><a href=\"#h_01JHE37ZQR07MDP03Z7YBT2V3A\">Advanced AI</a></li>\n<li><a href=\"#h_01JHE34QNKXH2R5EN9DF4S26FQ\">App Marketplace</a></li>\n<li><a href=\"#h_01JGA2YGRMZEQMVHNQRVWN0MQE\">Products with no updates this week</a></li>\n</ul>\n<h2 id=\"h_01JHE37ZQR07MDP03Z7YBT2V3A\">Advanced AI</h2>\n<p><strong>New:</strong></p>\n<ul>\n<li>\n<span>Last year, we introduced the first customization phase, enabling customers to<span> </span></span><a href=\"https://support.zendesk.com/hc/en-us/articles/6298065502874#topic_qbn_ln3_fzb\">edit intent labels</a><span>. Today, we're taking it further by allowing you to request new intents. This enhancement aims to capture every incoming request with greater granularity and understand it better, resulting in more accurate answers and higher-quality service.</span>\n</li>\n</ul>\n<h2 id=\"h_01JHE34QNKXH2R5EN9DF4S26FQ\"><span>App Marketplace</span></h2>\n<div>\n<div><strong>New:</strong></div>\n<ul>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1079456/hamsa-transcribe/\">Hamsa Transcribe</a> <strong>(Support)</strong>\n<ul>\n<li>Hamsa Transcribe is a leading provider of AI-driven voice solutions committed to enhancing business communications through intelligent voice interactions. It specializes in mastering the complexities of Arabic dialects, ensuring precise and meaningful engagements for organizations across various industries. Hamsa Transcribe seamlessly integrates with Zendesk, offering accurate and reliable call transcription services tailored to Arabic dialects. Its solution provides high-quality transcriptions and advanced sentiment analysis, enabling you to capture every detail and understand the emotions behind your customer interactions.</li>\n</ul>\n</li>\n</ul>\n</div>\n<h2 id=\"h_01JGA2YGRMZEQMVHNQRVWN0MQE\"><span>Products with no updates this week</span></h2>\n<ul>\n<li>Support</li>\n<li>Mobile SDKs</li>\n<li>AI agents and knowledge</li>\n<li>Explore</li>\n<li>Talk</li>\n<li>Chat and messaging</li>\n<li>Admin Center</li>\n<li>Zendesk QA</li>\n<li>Zendesk WFM</li>\n</ul>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 8723543534618,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8723543534618.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/8723543534618-Service-Incident-January-16-2025-Chat-Pod-19-issues-with-viewing-recent-chats-export-emails-and-ticket-creation",
-      "author_id": 1263082129829,
-      "comments_disabled": true,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405298854426,
-      "created_at": "2025-01-16T10:39:10Z",
-      "updated_at": "2025-01-29T19:32:43Z",
-      "name": "Service Incident - January 16, 2025 - Chat | Pod 19 - issues with viewing recent chats, export emails, and ticket creation",
-      "title": "Service Incident - January 16, 2025 - Chat | Pod 19 - issues with viewing recent chats, export emails, and ticket creation",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2025-01-29T19:23:45Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801242670,
-      "content_tag_ids": [],
-      "label_names": [
-        "service_incident",
-        "mt",
-        "rank_low_algolia"
-      ],
-      "body": "<h3 id=\"h_01JJSR3YT11Q44H6Q5C4QZSCH9\" class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<p>On January 16th, 2025 from 9:40 UTC to 10:47 UTC some Chat customers on Pod 19 experienced issues viewing recent chats, receiving chat export emails, and creating tickets from chats.<br><br></p>\n<div id=\"message-list\">\n<h4 id=\"h_01JJSR3YT1DJX3HQ98FDYB3PJQ\"><strong>TIMELINE</strong></h4>\n<p class=\"p1\"><strong>January 16, 2025 11:26 AM UTC | January 16, 2025 03:26 AM PT </strong><br>We are pleased to inform you that the issues affecting our Chat service for our customers on POD19 have now been resolved. We sincerely appreciate your patience and understanding during this time.</p>\n<p class=\"p1\"><strong>January 16, 2025 11:00 AM UTC | January 16, 2025 03:00 AM PT </strong><br>We have made significant progress in recovering functionality, including the ability to view recent chats, receive chat export emails, and create tickets. We will continue to monitor the situation closely and work diligently to enhance your experience. Thank you for your patience and understanding during this time.</p>\n<p class=\"p1\"><strong>January 16, 2025 10:39 AM UTC | January 16, 2025 02:39 AM PT </strong><br>We are currently experiencing an issue with our chat services on Pod 19, which may prevent you from viewing recent chats, receiving chat export emails, and creating tickets. Our team is actively working to resolve these problems as quickly as possible. Thank you for your patience.</p>\n</div>\n<p class=\"undefined\"><strong><br>POST-MORTEM</strong></p>\n<h4 id=\"h_01JJSR8GTXD8Y9W85ADX5ERT6R\"><span style=\"color: #666666;\">Root Cause Analysis</span></h4>\n<p>This incident was caused by a chat service reaching its memory limits, which led to a continuous restart cycle. Each restart generated additional metadata in our in-memory database, causing memory bloat until the system eventually ran out of memory, impacting other services that shared the same database instance.<br><br></p>\n<h4 id=\"h_01JJSR8GTXKZTH7451QJ1ZNNW3\"><span style=\"color: #666666;\">Resolution</span></h4>\n<p>To resolve the issue, the team removed unnecessary metadata and unacknowledged keys from the database to free up memory. Additionally, the instance types were increased to accommodate the load, and a successful deployment of the service was completed.<br><br></p>\n<h4 id=\"h_01JJSR8GTX8EPSFVNSPE0ZGJG5\"><span style=\"color: #666666;\">Remediation Items</span></h4>\n<ol>\n<li>Add Alerts: Implemented alerts for Out of Memory (OOM) conditions in the chat service.</li>\n<li>Adjust Memory Limits: Lowered the threshold for memory limits to allow for earlier intervention before reaching critical levels.</li>\n<li>Runbook Improvements: Enhanced documentation and runbooks for handling the chat service and database key management.</li>\n<li>Database Clustering: Planned to separate the database instances for different services to avoid shared memory issues in the future.</li>\n</ol>\n<h4 id=\"01JJSR6R044WBG58MKN9PX5VGG\"><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
     }
   ],
