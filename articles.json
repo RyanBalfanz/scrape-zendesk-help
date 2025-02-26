@@ -1,11 +1,42 @@
 {
-  "count": 4983,
+  "count": 4984,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 167,
   "per_page": 30,
   "previous_page": null,
   "articles": [
+    {
+      "id": 8955850908314,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8955850908314.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/8955850908314-Service-Incident-February-26th-2025",
+      "author_id": 1263082084489,
+      "comments_disabled": true,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298854426,
+      "created_at": "2025-02-26T18:08:02Z",
+      "updated_at": "2025-02-26T18:08:02Z",
+      "name": "Service Incident - February 26th, 2025",
+      "title": "Service Incident - February 26th, 2025",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2025-02-26T18:08:02Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801242670,
+      "content_tag_ids": [],
+      "label_names": [
+        "service_incident",
+        "rank_low_algolia"
+      ],
+      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\"><p class=\"p1\"><strong>February 26, 2025 06:08 PM UTC | February 26, 2025 10:08 AM PT </strong><br>We are aware of an issue impacting Talk customers on pod 17, causing issues moving between agent statuses, sometimes getting stuck in wrap-up mode. Our team is investigating and we will provide further updates as soon as they are available.</p></div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
+      "user_segment_ids": []
+    },
     {
       "id": 8948823362458,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8948823362458.json",
@@ -933,37 +964,6 @@
         "role_admin"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>What are prebuilt dashboards? How can they address my reporting and analytics needs?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>Prebuilt dashboards are ready-made compilations of reports that offer insights into important metrics without needing much setup. They follow reporting best practices by offering clear visuals and organized data that fit common workflows. This allows you to quickly access important information, simplify reporting, and make informed decisions.</p>\n<p>Dashboards with the <strong>Zendesk</strong> icon are all prebuilt. Among these dashboards, the <strong>Zendesk Support</strong> dashboard specifically highlights your Support data.</p>\n<p><iframe src=\"//www.youtube-nocookie.com/embed/N5-aFVQBeyo\" width=\"560\" height=\"315\" frameborder=\"0\" allowfullscreen=\"\"></iframe></p>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408835985434-Overview-of-the-Zendesk-Support-dashboard\" target=\"_blank\" rel=\"noopener noreferrer\">Overview of the Zendesk Support dashboard</a>.</p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 8783893680922,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8783893680922.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/8783893680922-Release-notes-through-2025-1-24",
-      "author_id": 1263082309989,
-      "comments_disabled": true,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405298847002,
-      "created_at": "2025-01-26T18:38:08Z",
-      "updated_at": "2025-02-02T19:52:59Z",
-      "name": "Release notes through 2025-1-24",
-      "title": "Release notes through 2025-1-24",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2025-01-26T18:56:42Z",
-      "user_segment_id": null,
-      "permission_group_id": 1324079,
-      "content_tag_ids": [],
-      "label_names": [
-        "mt",
-        "rank_low_algolia"
-      ],
-      "body": "<div class=\"note tip\">See our <a href=\"https://support.zendesk.com/hc/en-us/articles/8566042707994\" target=\"_blank\" rel=\"noopener noreferrer\">What's New</a> for an overview of what was released in the last month.</div>\n<p>This week's release notes include:</p>\n<ul>\n<li><a href=\"#h_01JHE37ZQR07MDP03Z7YBT2V3A\">Advanced AI</a></li>\n<li><a href=\"#h_01JJHYC063QBH0TFAJTRRZQ88P\">Explore</a></li>\n<li><a href=\"#h_01JHE34QNKXH2R5EN9DF4S26FQ\">App Marketplace</a></li>\n<li><a href=\"#h_01JGA2YGRMZEQMVHNQRVWN0MQE\">Products with no updates this week</a></li>\n</ul>\n<h2 id=\"h_01JHE37ZQR07MDP03Z7YBT2V3A\">Advanced AI</h2>\n<p><strong>New:</strong></p>\n<ul>\n<li>\n<span><span><a href=\"https://support.zendesk.com/hc/en-us/articles/8752925601946\" target=\"_blank\" rel=\"noopener noreferrer\">Auto a</a></span></span><a href=\"https://support.zendesk.com/hc/en-us/articles/8752925601946\">ssist</a><span><span> </span>can now read certain ticket fields. This enhancement boosts auto assist’s accuracy when suggesting the next best response to agents, helping to ensure recommendations align with your existing procedures.</span>\n</li>\n<li>\n<a href=\"https://support.zendesk.com/hc/en-us/articles/8761963171226\" target=\"_blank\" rel=\"noopener noreferrer\">Custom intents</a> can now be created instantly, added immediately to your intent list, and made available immediately to start predicting incoming tickets' intent.<span> </span>\n</li>\n</ul>\n<h2 id=\"h_01JJHYC063QBH0TFAJTRRZQ88P\">Explore</h2>\n<p><strong>Fixed:</strong></p>\n<ul>\n<li>Reports with many columns and rows would fail to export due to the amount of data that needed to be processed in the background. This issue is resolved now; any report displayed in Explore can be exported.</li>\n<li>On 4th November 2024, we began replacing null values with space characters. We found some side effects due to this update. A follow-up update has been released to ensure the null values are replaced with a single <a href=\"https://en.wikipedia.org/wiki/Non-breaking_space\">non-breaking space</a><span>. If you prefer to display these values as NULL, this setting can be adjusted in Report builder &gt; Result manipulations &gt; SQL options.</span>\n</li>\n</ul>\n<h2 id=\"h_01JHE34QNKXH2R5EN9DF4S26FQ\"><span>App Marketplace</span></h2>\n<div>\n<div><strong>New:</strong></div>\n<ul>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1099268/internalsmartnotes/\">InternalSmartNotes</a> <strong>(Support) (paid)</strong>\n<ul>\n<li>InternalSmartNotes is a Zendesk-enhanced application designed to improve support team efficiency.  InternalSmartNotes allows support agents to add and manage internal notes directly within the Zendesk ticket interface.  The app can facilitate seamless case handovers with structured forms capturing problem descriptions, investigation summaries, and severity levels or even provide customizable checklists for different failover types, ensuring all necessary readiness tasks are completed and documented.</li>\n</ul>\n</li>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1099179/ai-summary-generator/\">AI Summary Generator<span> </span></a><strong>(Support) (paid)</strong>\n<ul>\n<li>AI Summary Generator easily creates AI-powered summaries whenever needed, either on-demand, triggered by a tag, or automatically when a ticket is solved.  The summary can update the ticket's subject line or populate a custom text field for flexible and easy ticket analysis.</li>\n</ul>\n</li>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1100995/ticket-flow-lite/\">Ticket Flow Lite</a> <strong>(Support) (paid)</strong>\n<ul>\n<li>Ticket Flow Lite revolutionizes ticket management by giving administrators the power to customize dropdown field options based on ticket context. Agents see only the most relevant information tailored to the ticket’s form and classification, ensuring clarity and efficiency. This app provides extended functionality for Zendesk, enabling advanced field customizations without compromising data integrity or administrative ease.</li>\n</ul>\n</li>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1101369/process-csv/\">Process CSV</a> <strong>(Support)</strong>\n<ul>\n<li>Process CSV lets you handle CSV data directly from ticket attachments, updating Zendesk and connected systems like CRMs. This is not just from customers and clients - even legacy systems without an API can send CSV files to Zendesk, where the data is immediately usable, eliminating manual work and enabling further automation.</li>\n</ul>\n</li>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1101126/wrangle/\">Wrangle</a> <strong>(Support)</strong>\n<ul>\n<li>Wrangle makes creating a Zendesk ticket as easy as sending a message in Slack. Ticket updates and replies are synced bi-directionally between Slack and Zendesk. No training, no context switching — provide service from any Slack channel, DM, or thread.  Turn any message into a ticket automatically or by emoji, enhance transparency by showing users the status of their ticket, and escalate internally without leaving Slack.</li>\n</ul>\n</li>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1095169/utm-coach-autotagger/\">UTM Coach Autotagger</a> <strong>(Support) (paid)</strong>\n<ul>\n<li>UTM Coach Autotagger helps you make sure each link in each email you send is properly tagged and enables you to add user-level tracking for CDPs, analytics, and other systems.  With UTM Coach Autotagger, you’ll never have to worry again about whether the traffic from your support emails is properly tagged and thus attributed.</li>\n</ul>\n</li>\n</ul>\n</div>\n<h2 id=\"h_01JGA2YGRMZEQMVHNQRVWN0MQE\"><span>Products with no updates this week</span></h2>\n<ul>\n<li>Support</li>\n<li>Mobile SDKs</li>\n<li>AI agents and knowledge</li>\n<li>Talk</li>\n<li>Chat and messaging</li>\n<li>Admin Center</li>\n<li>Zendesk QA</li>\n<li>Zendesk WFM</li>\n</ul>",
       "user_segment_ids": []
     }
   ],
