@@ -9,7 +9,7 @@
     {
       "id": 8960743738906,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8960743738906.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/8960743738906-How-does-omnichannel-routing-interprete-the-channel-of-a-messaging-ticket-when-it-becomes-inactive",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/8960743738906-How-does-omnichannel-routing-interpret-the-channel-of-a-messaging-ticket-when-the-message-becomes-inactive",
       "author_id": 1263214223609,
       "comments_disabled": false,
       "draft": false,
@@ -19,14 +19,14 @@
       "vote_count": 0,
       "section_id": 4405298900890,
       "created_at": "2025-02-27T14:12:52Z",
-      "updated_at": "2025-02-27T14:31:26Z",
-      "name": "How does omnichannel routing interprete the channel of a messaging ticket when it becomes inactive?",
-      "title": "How does omnichannel routing interprete the channel of a messaging ticket when it becomes inactive?",
+      "updated_at": "2025-02-27T14:52:40Z",
+      "name": "How does omnichannel routing interpret the channel of a messaging ticket when the message becomes inactive?",
+      "title": "How does omnichannel routing interpret the channel of a messaging ticket when the message becomes inactive?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-02-27T14:31:26Z",
+      "edited_at": "2025-02-27T14:52:40Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -36,7 +36,7 @@
         "ab0_admin_center",
         "role_admin"
       ],
-      "body": "<h2 id=\"h_01HV1QM45P2YP0AT93VZZ99CZN\">Question</h2>\n<p>I created a workflow to route inactive messaging tickets once they become inactive. Then, my agents can reply using both channels, messaging and email. How does omnichannel routing interprete the channel of a messaging ticket when it becomes inactive?</p>\n<h2 id=\"h_01HV1QMAN8RVMJ9M99WDR6EBJR\">Answer</h2>\n<p>Omnichannel routing always applies and evaluates the initial channel of a ticket. This applies to cases where a messaging ticket becomes inactive, or even if an end user or an agent replies to the ticket from a different channel.</p>\n<p>For more information, see these articles:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4828787357210-Managing-your-omnichannel-routing-configuration\" target=\"_blank\" rel=\"noopener noreferrer\">Managing your omnichannel routing configuration</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408824097050-About-Zendesk-channels\" target=\"_blank\" rel=\"noopener noreferrer\">About Zendesk channels</a></li>\n</ul>",
+      "body": "<h2 id=\"h_01HV1QM45P2YP0AT93VZZ99CZN\">Question</h2>\n<p>I created a workflow to route messaging tickets once the message becomes inactive. Then, my agents can reply using both channels, messaging and email. How does omnichannel routing interpret the channel of a messaging ticket when the message becomes inactive?</p>\n<h2 id=\"h_01HV1QMAN8RVMJ9M99WDR6EBJR\">Answer</h2>\n<p>Omnichannel routing always applies and evaluates the initial channel of a ticket. This applies to cases where a messaging ticket becomes inactive or if an end user or an agent replies to the ticket from a different channel.</p>\n<p>For more information, see these articles:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4828787357210-Managing-your-omnichannel-routing-configuration\" target=\"_blank\" rel=\"noopener noreferrer\">Managing your omnichannel routing configuration</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408824097050-About-Zendesk-channels\" target=\"_blank\" rel=\"noopener noreferrer\">About Zendesk channels</a></li>\n</ul>",
       "user_segment_ids": []
     },
     {
