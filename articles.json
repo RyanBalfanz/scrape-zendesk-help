@@ -1,11 +1,44 @@
 {
-  "count": 4981,
+  "count": 4982,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 167,
   "per_page": 30,
   "previous_page": null,
   "articles": [
+    {
+      "id": 8960743738906,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8960743738906.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/8960743738906-How-does-omnichannel-routing-interprete-the-channel-of-a-messaging-ticket-when-it-becomes-inactive",
+      "author_id": 1263214223609,
+      "comments_disabled": false,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298900890,
+      "created_at": "2025-02-27T14:12:52Z",
+      "updated_at": "2025-02-27T14:31:26Z",
+      "name": "How does omnichannel routing interprete the channel of a messaging ticket when it becomes inactive?",
+      "title": "How does omnichannel routing interprete the channel of a messaging ticket when it becomes inactive?",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2025-02-27T14:31:26Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801135069,
+      "content_tag_ids": [],
+      "label_names": [
+        "ab0_support",
+        "ab0_messaging",
+        "ab0_admin_center",
+        "role_admin"
+      ],
+      "body": "<h2 id=\"h_01HV1QM45P2YP0AT93VZZ99CZN\">Question</h2>\n<p>I created a workflow to route inactive messaging tickets once they become inactive. Then, my agents can reply using both channels, messaging and email. How does omnichannel routing interprete the channel of a messaging ticket when it becomes inactive?</p>\n<h2 id=\"h_01HV1QMAN8RVMJ9M99WDR6EBJR\">Answer</h2>\n<p>Omnichannel routing always applies and evaluates the initial channel of a ticket. This applies to cases where a messaging ticket becomes inactive, or even if an end user or an agent replies to the ticket from a different channel.</p>\n<p>For more information, see these articles:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4828787357210-Managing-your-omnichannel-routing-configuration\" target=\"_blank\" rel=\"noopener noreferrer\">Managing your omnichannel routing configuration</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408824097050-About-Zendesk-channels\" target=\"_blank\" rel=\"noopener noreferrer\">About Zendesk channels</a></li>\n</ul>",
+      "user_segment_ids": []
+    },
     {
       "id": 8955850908314,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8955850908314.json",
@@ -927,44 +960,6 @@
         "rank_low_algolia"
       ],
       "body": "<p><img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/whats_new_banner.jpg\" alt=\"whats_new_banner.jpg\" width=\"600\"></p>\n<div class=\"note tip\">\n<span class=\"notetitle\"></span>Click <strong>Follow</strong> in the <a href=\"https://support.zendesk.com/hc/en-us/sections/4405298877338\" target=\"_blank\" rel=\"noopener\">What's New section</a> to be notified each month when the What's New is published.</div>\n<p>Check out what's new in the last month:</p>\n<ul>\n<li><a href=\"#h_01JJSDDQVT51TAT3KE105VFEF5\">Support</a></li>\n<li><a href=\"#accounts-and-billing\">Accounts and billing</a></li>\n<li><a href=\"#h_01JJSBD1G5C38W3BMST2ZK1QN1\">Security</a></li>\n<li><a href=\"#people\">People</a></li>\n<li><a href=\"#messaging-and-bots\">Messaging and AI agents</a></li>\n<li><a href=\"#h_01JJT0GQ73BZYW98H5N9YYHJQC\">Explore</a></li>\n<li><a href=\"#h_01JJT0BQ5TYY5C5D4N1F76M9G1\">Talk</a></li>\n<li><a href=\"#h_01JJSDTP4MV3G7HVC5BVAP3NG4\">Quality assurance</a></li>\n<li><a href=\"#h_01JJSDTP4MV3G7HVC5BVAP3NG4\">New and notable</a></li>\n</ul>\n<p>Also don't miss:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408829663642\" target=\"_blank\" rel=\"noopener\">Zendesk early access programs</a></li>\n<li><a href=\"https://www.youtube.com/watch?v=n0qm5hsPXQk&amp;list=PLb00xo9zloI79P2ZP4DDXMrbNmOprjo43\" target=\"_blank\" rel=\"noopener\">What's new videos on YouTube</a></li>\n</ul>\n<div id=\"accounts-and-billing\" class=\"nested\">\n<h2 id=\"h_01JJSDDQVT51TAT3KE105VFEF5\">Support</h2>\n<ul>\n<li>\n<strong>The similar tickets and merging suggestions features are now segmented by brand.</strong> This means an agent will see similar tickets and merging suggestions only for tickets in the same brand as the base ticket the agent is working on. See <a href=\"https://support.zendesk.com/hc/en-us/articles/6154115110170\">Finding tickets similar to the current ticket (EAP)</a> and <a href=\"https://support.zendesk.com/hc/en-us/articles/6885971957914\">Merging related tickets based on suggestions</a>.</li>\n<li>\n<strong>Auto assist now has access to read certain ticket fields.</strong> This means you can write procedures in plain language referencing these ticket fields and auto assist will use this information to suggest the best responses. Auto assist can read the following ticket fields:<br>\n<ul>\n<li>Assignee email</li>\n<li>Brand</li>\n<li>Priority</li>\n<li>Requester email</li>\n<li>Requester name</li>\n<li>Status</li>\n<li>Subject</li>\n<li>Type</li>\n</ul>\nSee <a href=\"https://support.zendesk.com/hc/en-us/articles/7924047699738\">Creating and managing procedures for auto assist</a>.</li>\n<li>\n<strong>Side conversations are available exclusively in the context panel</strong> for all users with side conversations and the Agent Workspace activated. Access to side conversations in the context panel is activated automatically. See <a href=\"https://support.zendesk.com/hc/en-us/articles/8163299196058\" target=\"_blank\" rel=\"noopener noreferrer\">Announcing consolidated access to side conversations in the context panel</a>.</li>\n</ul>\n<h2 id=\"h_01JJSBD1G5XB4AJBVATGEHZXCX\">Accounts and billing</h2>\n<ul>\n<li>\n<strong>Try out products and add-ons in a temporary sandbox environment that reflects your production account's configuration and data</strong>. Available to customers with Zendesk Suite Growth plans and above or Support Enterprise plans. Trial sandbox environments can be requested through <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\">Zendesk Customer Support</a> or <a href=\"https://www.zendesk.com/contact/?_gl=1*1jka33g*_ga*MTc4NjEzOTYyNy4xNzM0NDYxMjkz*_ga_0G6FC9CS2V*MTczODE2NDY2Mi4xMTAuMS4xNzM4MTY1MzA1LjYuMC4w\">Zendesk Sales</a>. See <a href=\"https://support.zendesk.com/hc/en-us/articles/6150628316058\" target=\"_blank\" rel=\"noopener\">About Zendesk sandbox environments</a>.</li>\n</ul>\n</div>\n<div id=\"people\" class=\"nested\">\n<h2 id=\"h_01JJSBD1G5C38W3BMST2ZK1QN1\">Security</h2>\n<ul>\n<li>\n<strong>Agents in custom roles can now be granted permission to manage potentially malicious attachments</strong>. Admins and agents with this permission can review the flagged attachments and override security measures that occur when the Zendesk malware scanner deems an attachment to be malicious. See <a href=\"https://support.zendesk.com/hc/en-us/articles/4483794022170\">Managing malicious attachments</a>.\n<p><img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/support_ticket_attachment_malware_scan.png\" alt=\"Malicious attachment detected on a ticket.\" width=\"800\"></p>\n</li>\n<li>\n<strong>Advanced encryption has been added to the Advanced Data Privacy and Protection add-on (ADPP)</strong>. Advanced encryption is an enhancement to Zendesk's standard encryption and provides an additional layer of security for personally identifiable information (PII) within Zendesk by giving you control over your encryption keys. Specifically, with advanced encryption, you can encrypt user fields, such as name, alias, and signature, across Support, Guide, Talk, and Admin Center with keys stored in your key management system. See <a href=\"https://support.zendesk.com/hc/en-us/articles/5517626234138\">Setting up advanced encryption (ADPP add-on)</a>.</li>\n<li>\n<strong>Admins and agents in custom roles can create end-user deletion schedules</strong>, helping you manage your data storage and comply with global privacy legislation. End-user deletion schedules delete end users who haven't been active with your company for a certain period of time. See <a href=\"https://support.zendesk.com/hc/en-us/articles/6062884435866\" target=\"_blank\" rel=\"noopener noreferrer\">Creating end-user deletion schedules</a>.</li>\n<li>\n<strong>Tickets are now automatically created for all comments on Facebook posts</strong> that aren't already associated with a ticket when using Zendesk's Facebook channel v2. See <a href=\"https://support.zendesk.com/hc/en-us/articles/4408819897242#topic_j5v_lwr_hdc\">Migrating to Facebook channel v2</a>.</li>\n</ul>\n<h2 id=\"h_01JJW6Z1N5JDS78GJSMF9B4XBW\">People</h2>\n<ul>\n<li>\n<strong>Admins can manage team members' group membership in bulk</strong> instead of managing each individually on the Team members page. Additionally, admins can now view and filter team members by their group membership. See <a href=\"https://support.zendesk.com/hc/en-us/articles/4408821536794\" target=\"_blank\" rel=\"noopener noreferrer\">Viewing and managing team member group membership</a>.\n<p><img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/groups_team_members_bulk_select.png\" alt=\"Multiple users selected on the Team members page. Group membership is displayed and can be edited in bulk.\" width=\"800\"></p>\n</li>\n</ul>\n</div>\n<div id=\"messaging-and-bots\" class=\"nested\">\n<h2 id=\"h_01JJSBD1G59AFHMYETX6YC00NM\">Messaging and AI agents</h2>\n<ul>\n<li>\n<strong>Apple Messages for Business is back.</strong> Adding it to your Zendesk configuration lets your end users connect with both live agents and advanced AI agents through the Messages app on their Apple devices. See <a href=\"https://support.zendesk.com/hc/en-us/articles/8030634178458\" target=\"_blank\" rel=\"noopener\">Adding and configuring the Apple Messages for Business channel</a>.</li>\n<li>\n<p><strong>A new Ticket Details tab on the Performance Overview dashboard</strong> shows the performance of advanced AI agents on the email channel. By providing you with insights into key automation metrics, this dashboard helps you report on the value of AI agent outcomes and make data-driven decisions to improve future efficiency. See <a href=\"https://support.ultimate.ai/hc/en-us/articles/9623757595922\">Analyzing AI agents with the Performance Overview dashboard</a>.<br><img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/ultimate_ticket_details_tab.png\" alt=\"\"></p>\n</li>\n<li>\n<p><strong>Instructions and custom tone of voice for advanced AI agents are now available.</strong> Instructions allow you to refine an AI agent's responses, such as including specific language, avoiding certain phrases, or ensuring key information is included in replies. Custom tone of voice allows you to define the type of language the AI agent uses when responding to customers. See <a href=\"https://support.zendesk.com/hc/en-us/articles/8357749291290\">Using instructions to influence AI agent responses</a> and <a href=\"https://support.zendesk.com/hc/en-us/articles/8357758773658\">Customizing the persona and tone of voice for your AI agent</a>.<br><img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/ultimate_persona_tone_of_voice.png\" alt=\"\"></p>\n</li>\n</ul>\n<h2 id=\"h_01JJT0GQ73BZYW98H5N9YYHJQC\">Explore</h2>\n<ul>\n<li>\n<span><strong>Zendesk is introducing a 90-day data retention limit for the </strong></span><strong>Omnichannel: Agent daily state</strong><span><span><strong> dataset in Explore</strong> starting April 21, 2025. This will improve report loading speeds and ensure the dataset's correct functioning. See </span></span><a href=\"https://support.zendesk.com/hc/en-us/articles/5600290657434\" target=\"_blank\" rel=\"noopener noreferrer\">Metrics and attributes for agent state and activity</a>.</li>\n<li><span><strong>Zendesk is introducing a 37-month data retention limit for Explore</strong> starting July 7, 2025. This is designed to provide a significant performance boost to reports with minimal negative impact on the overall reporting experience. </span></li>\n</ul>\n<h2 id=\"h_01JJT0BQ5TYY5C5D4N1F76M9G1\">Talk</h2>\n<ul>\n<li>\n<strong>Talk SIP-IN lines support Interactive Voice Response (IVR)</strong>. <span>With this release, SIP-IN lines can now use phone trees (IVR), enhancing call management beyond simple group routing. See <a href=\"https://support.zendesk.com/hc/en-us/articles/4408885628698\" target=\"_blank\" rel=\"noopener noreferrer\">Routing incoming calls with IVR</a>.</span>\n</li>\n</ul>\n<h2 id=\"h_01JJSDTP4MV3G7HVC5BVAP3NG4\">Quality assurance</h2>\n<ul>\n<li>\n<strong>Custom phrase-match and improved Zendesk QA filter options for AutoQA categories and Spotlights</strong>. See <a href=\"https://support.zendesk.com/hc/en-us/articles/7043747123354-Setting-up-autoscoring-in-Zendesk-QA-using-AutoQA\" target=\"_blank\" rel=\"noopener noreferrer\">Setting up autoscoring</a> and <a href=\"https://support.zendesk.com/hc/en-us/articles/7043759586074-Using-Zendesk-QA-Spotlight-insights-to-filter-conversations\" target=\"_blank\" rel=\"noopener noreferrer\">Using Spotlights</a>.\n<p><img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/zqa_create_category.png\" width=\"412\" height=\"389\"></p>\n</li>\n<li>\n<strong>Zendesk Talk Partner Edition offers a new pre-built telephony integration</strong> with Five9 that plugs directly into Zendesk QA. See <a href=\"https://support.zendesk.com/hc/en-us/articles/8536077648538#activate_voice_qa_via_talk_partner_edition\" target=\"_blank\" rel=\"noopener noreferrer\">Activating Voice QA with Zendesk Talk Partner Edition</a>.</li>\n</ul>\n<h2 id=\"01JJV64QQX4CP0D8ASGBSVG9K2\">New and notable</h2>\n<ul>\n<li>Are you using your Zendesk account to its full potential? We've published an article that you can use to appraise your account and help you get the best possible results from Zendesk. The article includes upgrade recommendations based on data from customers who have already successfully upgraded. See <a href=\"https://support.zendesk.com/hc/en-us/articles/8537970542874\" target=\"_blank\" rel=\"noopener noreferrer\">Appraising and increasing the effectiveness of your Zendesk account.</a>\n</li>\n<li>The new <a href=\"https://support.zendesk.com/hc/en-us/articles/8414886738970\">Zendesk email design cookbook</a> provides HTML recipes for customizing the look of emails sent from your account. Customizing the look of your email can help you enhance brand consistency and improve customer engagement.</li>\n<li>A new tutorial in the developer docs, <a href=\"https://developer.zendesk.com/documentation/ticketing/using-the-zendesk-api/audit-logs/\">Using audit logs to track account activity</a>, shows you how to use the <a href=\"https://developer.zendesk.com/api-reference/ticketing/account-configuration/audit_logs/\">Audit Log API</a> to monitor account setting changes within a specified date range, and retrieve information about the user responsible for those changes. </li>\n</ul>\n</div>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 8795127002266,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8795127002266.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/8795127002266-How-can-prebuilt-dashboards-in-Explore-enhance-my-reporting-and-analytics-experience",
-      "author_id": 8284543895322,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405303718426,
-      "created_at": "2025-01-28T16:50:34Z",
-      "updated_at": "2025-02-04T16:02:08Z",
-      "name": "How can prebuilt dashboards in Explore enhance my reporting and analytics experience?",
-      "title": "How can prebuilt dashboards in Explore enhance my reporting and analytics experience?",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2025-01-29T10:51:53Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801135069,
-      "content_tag_ids": [
-        "01GT23C57E9F1X71ZTSYK48R75",
-        "01GT23CR5WV19DHBTHA1XGSGES"
-      ],
-      "label_names": [
-        "ks",
-        "ab0",
-        "mt",
-        "video",
-        "ab0_explore",
-        "role_admin"
-      ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>What are prebuilt dashboards? How can they address my reporting and analytics needs?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>Prebuilt dashboards are ready-made compilations of reports that offer insights into important metrics without needing much setup. They follow reporting best practices by offering clear visuals and organized data that fit common workflows. This allows you to quickly access important information, simplify reporting, and make informed decisions.</p>\n<p>Dashboards with the <strong>Zendesk</strong> icon are all prebuilt. Among these dashboards, the <strong>Zendesk Support</strong> dashboard specifically highlights your Support data.</p>\n<p><iframe src=\"//www.youtube-nocookie.com/embed/N5-aFVQBeyo\" width=\"560\" height=\"315\" frameborder=\"0\" allowfullscreen=\"\"></iframe></p>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408835985434-Overview-of-the-Zendesk-Support-dashboard\" target=\"_blank\" rel=\"noopener noreferrer\">Overview of the Zendesk Support dashboard</a>.</p>",
       "user_segment_ids": []
     }
   ],
