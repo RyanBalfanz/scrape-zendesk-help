@@ -1,5 +1,5 @@
 {
-  "count": 4982,
+  "count": 4981,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 167,
@@ -323,7 +323,7 @@
     {
       "id": 8895686955290,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8895686955290.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/8895686955290-Service-Incident-February-15th-2025",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/8895686955290-Service-Incident-February-15-2025-Sell-Office365-Email-sending-and-syncing-issues",
       "author_id": 1263082349409,
       "comments_disabled": true,
       "draft": false,
@@ -333,14 +333,14 @@
       "vote_count": 1,
       "section_id": 4405298854426,
       "created_at": "2025-02-15T01:54:02Z",
-      "updated_at": "2025-02-15T08:01:29Z",
-      "name": "Service Incident - February 15th, 2025",
-      "title": "Service Incident - February 15th, 2025",
+      "updated_at": "2025-02-27T15:46:25Z",
+      "name": "Service Incident - February 15, 2025 - Sell | Office365 - Email sending and syncing issues",
+      "title": "Service Incident - February 15, 2025 - Sell | Office365 - Email sending and syncing issues",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-02-15T06:07:27Z",
+      "edited_at": "2025-02-27T15:42:21Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
@@ -349,7 +349,7 @@
         "mt",
         "rank_low_algolia"
       ],
-      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>February 15, 2025 06:07 AM UTC | February 14, 2025 10:07 PM PT </strong><br>We're happy to report that all outbound email issues impacting Sell have been resolved. Thank you for your patience. \n</p>\n<p class=\"p1\"><strong>February 15, 2025 02:08 AM UTC | February 14, 2025 06:08 PM PT </strong><br>We have rolled a fix for the outbound email issues experienced. We will monitor the situation. Thank you for your patience</p>\n<p class=\"p1\"><strong>February 15, 2025 01:54 AM UTC | February 14, 2025 05:54 PM PT </strong><br>Our team have identified an issue with the outbound email service impacting Sell customers. They are currently working on a fix. More to come soon. </p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
+      "body": "<h3 id=\"h_01JN4126M92QPGX8SNC1B464TC\" class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\">On February 14, 2025 from 11:30 UTC to February 15, 6:08 UTC, Sell customers using the Office 365 integration via OAuth experienced issues sending and syncing emails in Sell.</p>\n<p class=\"undefined\"> </p>\n<h3 id=\"h_01JN413YTDYF0HGSQE5J5DGP7C\" class=\"undefined\">TIMELINE</h3>\n<p class=\"p1\"><strong>February 15, 2025 06:07 AM UTC | February 14, 2025 10:07 PM PT </strong><br>We're happy to report that all outbound email issues impacting Sell have been resolved. Thank you for your patience.</p>\n<p class=\"p1\"><strong>February 15, 2025 02:08 AM UTC | February 14, 2025 06:08 PM PT </strong><br>We have rolled a fix for the outbound email issues experienced. We will monitor the situation. Thank you for your patience</p>\n<p class=\"p1\"><strong>February 15, 2025 01:54 AM UTC | February 14, 2025 05:54 PM PT </strong><br>Our team have identified an issue with the outbound email service impacting Sell customers. They are currently working on a fix. More to come soon.</p>\n</div>\n<p class=\"p1\"> </p>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<h4 id=\"h_01JN414QQQ24HT6WRNDFVE6P0X\"><span style=\"color: #666666;\">Root Cause Analysis</span></h4>\n<p>This incident was caused by the expiration of OAuth2 secrets generated in the Microsoft Azure portal on February 14, 2025. The secrets were still in use by the services, leading to failures in outbound email functionality and email syncing for Sell customers.</p>\n<h4 id=\"h_01JN414QQQ0PGXDGA9FKBF2TFM\"><span style=\"color: #666666;\"><br>Resolution</span></h4>\n<p>To resolve the issue, the team rotated the expired secret credentials and redeployed the affected services, which restored the email functionality for customers.</p>\n<h4 id=\"h_01JN414QQQ7RE03TRB5DB7B7EW\"><span style=\"color: #666666;\"><br>Remediation Items</span></h4>\n<ol>\n<li>Implement Expiration Alerts: Create a monitor that raises alerts for expiring OAuth2 credentials one month in advance to ensure timely rotations.</li>\n<li>Provide Azure Access: Grant access to the Azure portal for the Sell team to facilitate quicker responses to similar issues in the future.</li>\n<li>Create Latency Monitor: Develop a latency monitor for the Mailman sendout process to identify delays in email delivery.</li>\n<li>Implement Backoff Mechanism: Introduce a backoff mechanism to handle authentication problems more gracefully, reducing the impact of similar incidents.</li>\n</ol>\n<p>By addressing these items, the team aims to prevent future occurrences of similar issues and enhance overall service reliability.</p>\n<h4> </h4>\n<h4 id=\"h_01JN4126M9F3Y9PSDBNEMEMR0T\"><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
     },
     {
