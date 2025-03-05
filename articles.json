@@ -19,14 +19,14 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2025-03-05T07:51:04Z",
-      "updated_at": "2025-03-05T08:31:40Z",
+      "updated_at": "2025-03-05T09:03:12Z",
       "name": "Service Incident - March 5th, 2025",
       "title": "Service Incident - March 5th, 2025",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-03-05T08:20:56Z",
+      "edited_at": "2025-03-05T09:03:12Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
@@ -35,7 +35,7 @@
         "mt",
         "rank_low_algolia"
       ],
-      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>March 05, 2025 08:20 AM UTC | March 05, 2025 12:20 AM PT </strong><br>Our engineers continue to work at the highest priority on the issue impacting email delivery on Pod 25. We don't have a fix ETA at this stage but will continue to update you on our progress. Next update is in 30 mins.</p>\n<p class=\"p1\"><strong>March 05, 2025 07:51 AM UTC | March 04, 2025 11:51 PM PT </strong><br>We have identified an issue with email processing on Pod 25 that may result in delayed inbound emails and outbound ticket notifications in Support. Inbound email delays may result in delayed ticket creation. We are working on resolving the issue and will provide the next update when we have more to share.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
+      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>March 05, 2025 09:03 AM UTC | March 05, 2025 01:03 AM PT </strong><br>We have identified the root cause of the email delays on Pod 25 and are working to reprocess the email backlog. New emails are starting to be relayed correctly now, however some stuck emails need further work by our team. Thanks for your patience while we work through this issue. Next update in 1 hour.</p>\n<p class=\"p1\"><strong>March 05, 2025 08:20 AM UTC | March 05, 2025 12:20 AM PT </strong><br>Our engineers continue to work at the highest priority on the issue impacting email delivery on Pod 25. We don't have a fix ETA at this stage but will continue to update you on our progress. Next update is in 30 mins.</p>\n<p class=\"p1\"><strong>March 05, 2025 07:51 AM UTC | March 04, 2025 11:51 PM PT </strong><br>We have identified an issue with email processing on Pod 25 that may result in delayed inbound emails and outbound ticket notifications in Support. Inbound email delays may result in delayed ticket creation. We are working on resolving the issue and will provide the next update when we have more to share.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
       "user_segment_ids": []
     },
     {
