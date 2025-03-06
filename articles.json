@@ -192,7 +192,7 @@
     {
       "id": 8967391744154,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8967391744154.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/8967391744154-Service-Incident-February-28th-2025",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/8967391744154-Service-Incident-February-28-2025-Support-Pods-23-27-Issues-with-selecting-drop-down-values-and-Type-field",
       "author_id": 1263082084489,
       "comments_disabled": true,
       "draft": false,
@@ -202,14 +202,14 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2025-02-28T17:34:10Z",
-      "updated_at": "2025-03-03T17:11:59Z",
-      "name": "Service Incident - February 28th, 2025",
-      "title": "Service Incident - February 28th, 2025",
+      "updated_at": "2025-03-06T21:25:10Z",
+      "name": "Service Incident - February 28, 2025 - Support | Pods 23, 27 - Issues with selecting drop-down values and Type field",
+      "title": "Service Incident - February 28, 2025 - Support | Pods 23, 27 - Issues with selecting drop-down values and Type field",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-02-28T17:52:52Z",
+      "edited_at": "2025-03-06T21:24:35Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
@@ -218,7 +218,7 @@
         "mt",
         "rank_low_algolia"
       ],
-      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>February 28, 2025 05:52 PM UTC | February 28, 2025 09:52 AM PT </strong><br>We have confirmed a recent update which caused the issues with the \"Type\" dropdown field, and have rolled back that update. After reloading your browser, please let us know if you continue to experience any issues.</p>\n<p class=\"p1\"><strong>February 28, 2025 05:48 PM UTC | February 28, 2025 09:48 AM PT </strong><br>We have confirmed an issue affecting the \"Type\" dropdown field, causing the dropdown options to not show up. Our team is investigating and we will provide additional information as soon as we have it.</p>\n<p class=\"p1\"><strong>February 28, 2025 05:34 PM UTC | February 28, 2025 09:34 AM PT </strong><br>We are receiving reports across several pods of issues selecting options from drop-down fields, including some default fields like \"Type\". We will provide further updates shortly.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
+      "body": "<h3 id=\"h_01JNPN581KHC5P8YKT3P5Q60TK\" class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\">On February 28, 2025, from 10:29 UTC to 17:50 UTC, some customers on PODs 23 and 27 experienced issues with the Type and Due Date dropdowns in the Support ticketing system. They were unable to open the dropdown, and the options were not being populated correctly.</p>\n<p class=\"undefined\"> </p>\n<h3 id=\"h_01JNPNF9YQ6002EANN2N386EEW\" class=\"p1\"><strong>TIMELINE</strong></h3>\n<p class=\"p1\"><strong>February 28, 2025 05:52 PM UTC | February 28, 2025 09:52 AM PT </strong><br>We have confirmed a recent update which caused the issues with the \"Type\" dropdown field, and have rolled back that update. After reloading your browser, please let us know if you continue to experience any issues.</p>\n<p class=\"p1\"><strong>February 28, 2025 05:48 PM UTC | February 28, 2025 09:48 AM PT </strong><br>We have confirmed an issue affecting the \"Type\" dropdown field, causing the dropdown options to not show up. Our team is investigating and we will provide additional information as soon as we have it.</p>\n<p class=\"p1\"><strong>February 28, 2025 05:34 PM UTC | February 28, 2025 09:34 AM PT </strong><br>We are receiving reports across several pods of issues selecting options from drop-down fields, including some default fields like \"Type\". We will provide further updates shortly.</p>\n</div>\n<p class=\"p1\"> </p>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<h4 id=\"h_01JNPNG0C50Q1KBKXJFF24R6M8\"><span style=\"color: #666666;\">Root Cause Analysis</span></h4>\n<p>This incident was caused by a compatibility issue arising from the deployment of updates to the Type and Priority fields in the ticketing system. Specifically, when an account that had previously supported ticket forms was downgraded to a plan without this feature, the system failed to properly sync the backend queries, resulting in incomplete data being presented in the UI. This inconsistency led to the Type dropdown not populating correctly for affected customers.</p>\n<h4 id=\"h_01JNPNG0C5496JF0BP4DVZXPWW\"><span style=\"color: #666666;\"><br>Resolution</span></h4>\n<p>To resolve this issue, the on-call team rolled back the deployment to the previous stable version, effectively reverting the changes that caused the incident. This action restored normal functionality to the Type dropdown and addressed the related issues with the Due Date field.</p>\n<h4 id=\"h_01JNPNG0C5V7Y5PQTSQSHQSKRX\"><span style=\"color: #666666;\"><br>Remediation Items</span></h4>\n<ol>\n<li>Implement a check in the UI to bypass form responses when the account does not have the ticket-forms feature, ensuring all active ticket fields are loaded correctly.</li>\n<li>Modify the backend to associate all ticket fields with the default form when no forms are available in an account, preventing incomplete data from being presented in the UI.</li>\n<li>Increase test coverage for smoke tests to include scenarios where accounts are downgraded, ensuring that similar issues can be identified before deployment.</li>\n<li>Create additional alerts for monitoring changes to the Type and Priority fields to quickly detect any future discrepancies.</li>\n</ol>\n<p>By addressing these remediation items, we aim to prevent similar incidents from occurring in the future and enhance the overall stability of our ticketing system.</p>\n<h4> </h4>\n<h4 id=\"h_01JNPN581KWN6HYYEHF7VT3S18\"><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
     },
     {
