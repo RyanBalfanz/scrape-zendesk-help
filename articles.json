@@ -7,36 +7,6 @@
   "previous_page": null,
   "articles": [
     {
-      "id": 8993286049178,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8993286049178.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/8993286049178-Announcing-the-inclusion-of-automated-resolutions-from-autoreplies-when-tickets-are-created-via-API-and-Web-Widget-Classic",
-      "author_id": 1263082263949,
-      "comments_disabled": true,
-      "draft": false,
-      "promoted": true,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405298833818,
-      "created_at": "2025-03-06T20:06:50Z",
-      "updated_at": "2025-03-06T20:09:38Z",
-      "name": "Announcing the inclusion of automated resolutions from autoreplies when tickets are created via API and Web Widget (Classic)",
-      "title": "Announcing the inclusion of automated resolutions from autoreplies when tickets are created via API and Web Widget (Classic)",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2025-03-06T20:08:01Z",
-      "user_segment_id": null,
-      "permission_group_id": 1324079,
-      "content_tag_ids": [],
-      "label_names": [
-        "newsfeed"
-      ],
-      "body": "<table style=\"border-collapse: collapse; width: 100%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 50%;\"><strong>Announced on</strong></td>\n<td style=\"width: 50%;\"><strong>Rollout starts from</strong></td>\n</tr>\n<tr>\n<td style=\"width: 50%;\">March 6, 2025</td>\n<td style=\"width: 50%;\">April 7, 2025</td>\n</tr>\n</tbody>\n</table>\n<p>Zendesk is releasing an update to include tickets created via the API and Web Widget (Classic) channels in the evaluation for <a href=\"https://support.zendesk.com/hc/en-us/articles/5352026794010#topic_o2r_13x_4wb\">automated resolutions in autoreplies with articles</a>. This change  ensures that the automated resolution definition is applied equally across all applicable tickets.</p>\n<p>This article contains the following topics:</p>\n<ul>\n<li><a href=\"#h_01JNPGZ2HED7XB9N7MBYRX9SDJ\">What’s changing?</a></li>\n<li><a href=\"#h_01JNPGZ5KBM4ZJZSKFFMACCBPT\">Why is Zendesk making this change?</a></li>\n<li><a href=\"#h_01JNPGZ8AQQR4JZVMQKDM4HAMK\">What do I need to do?</a></li>\n</ul>\n<h2 id=\"h_01JNPGZ2HED7XB9N7MBYRX9SDJ\">What’s changing?</h2>\n<p>Previously tickets created via the API and Web Widget (Classic) channels that used the Autoreplies with article trigger action were excluded from the evaluation for <a href=\"https://support.zendesk.com/hc/en-us/articles/5352026794010#topic_o2r_13x_4wb\">automated resolutions in autoreplies with articles</a>. </p>\n<p>Now if a ticket meets the definition, regardless of the channel through which the ticket was created, it will be counted as an automated resolution. </p>\n<h2 id=\"h_01JNPGZ5KBM4ZJZSKFFMACCBPT\">Why is Zendesk making this change?</h2>\n<p>This change is being made to ensure that the automated resolution definition is applied equally across all tickets that meet the definition of an automated resolution.  </p>\n<h2 id=\"h_01JNPGZ8AQQR4JZVMQKDM4HAMK\">What do I need to do?</h2>\n<p>No action is needed on your part. You can manage your automated resolutions on your account at any time by following the directions <a href=\"https://support.zendesk.com/hc/en-us/articles/6958358659226\">here</a>. </p>\n<p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/6447052855194\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\">Zendesk Customer Support</a>.</p>",
-      "user_segment_ids": []
-    },
-    {
       "id": 8986239825562,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8986239825562.json",
       "html_url": "https://support.zendesk.com/hc/en-us/articles/8986239825562-Service-Incident-March-5th-2025",
@@ -126,36 +96,6 @@
       "content_tag_ids": [],
       "label_names": [],
       "body": "<table style=\"border-collapse: collapse; width: 100%; height: 44px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Announced on</strong></td>\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Rollout on</strong></td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\">March 4, 2025</td>\n<td style=\"width: 33.3333%; height: 22px;\">March 4, 2025</td>\n</tr>\n</tbody>\n</table>\n<p>Starting today, Zendesk is adding support for the <a href=\"https://datatracker.ietf.org/doc/html/rfc6749#section-4.4\" target=\"_blank\" rel=\"noopener noreferrer\">Client Credentials grant type</a> for confidential OAuth clients. </p>\n<p><span style=\"font-weight: 400;\">This announcement includes the following topics:</span></p>\n<ul>\n<li><a href=\"#h_01GD3S97RDYVTAFTQ8WR9878VF\">What's changing?</a></li>\n<li><a href=\"#h_01GD3S9GD63FPDGQSEFY88M3ND\">Why is Zendesk making this change?</a></li>\n<li><a href=\"#h_01GD3S9TSPXM7M4WHYKYF4E84M\">What do I need to do?</a></li>\n</ul>\n<h2 id=\"h_01GD3S97RDYVTAFTQ8WR9878VF\"><span style=\"font-weight: 400;\">What's changing?</span></h2>\n<p>The Client Credentials grant type is now available, allowing applications to request an access token to access their own resources without needing user authentication.</p>\n<p>The flow is initiated by passing a valid <strong>client_secret</strong> parameter to the <strong>/oauth/tokens</strong> endpoint with <strong>grant_type: client_credentials</strong> to generate a new OAuth access token. This means you can now generate a new OAuth access token specifically for your application, allowing you to interact with Zendesk APIs more efficiently.</p>\n<p>This grant type is exclusively for confidential OAuth clients, ensuring that sensitive client secrets are securely managed.</p>\n<h2 id=\"h_01GD3S9GD63FPDGQSEFY88M3ND\"><span style=\"font-weight: 400;\">Why is Zendesk making this change?</span></h2>\n<p>This update further aligns us with the OAuth 2.0 standards, providing customers with more robust and flexible API authentication. </p>\n<h2 id=\"h_01GD3S9TSPXM7M4WHYKYF4E84M\"><span style=\"font-weight: 400;\">What do I need to do?</span></h2>\n<p>This grant type is available for you to adopt if you so choose. Learn more about <a href=\"https://support.zendesk.com/hc/en-us/articles/4408845965210-Using-OAuth-authentication-with-your-application\" target=\"_blank\" rel=\"noopener noreferrer\">using OAuth with your application</a>.</p>\n<p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/4408860477850\" target=\"_blank\" rel=\"noopener noreferrer\">community forum </a>where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk Customer Support</a>.</p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 8979465162906,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8979465162906.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/8979465162906-Announcing-the-approval-request-process-EAP",
-      "author_id": 6903994145562,
-      "comments_disabled": true,
-      "draft": false,
-      "promoted": true,
-      "position": 0,
-      "vote_sum": 1,
-      "vote_count": 1,
-      "section_id": 4405298833818,
-      "created_at": "2025-03-03T18:13:23Z",
-      "updated_at": "2025-03-06T16:00:17Z",
-      "name": "Announcing the approval request process EAP",
-      "title": "Announcing the approval request process EAP",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2025-03-05T17:20:26Z",
-      "user_segment_id": null,
-      "permission_group_id": 1324079,
-      "content_tag_ids": [],
-      "label_names": [
-        "mtpe"
-      ],
-      "body": "<table style=\"border-collapse: collapse; width: 100%; height: 44px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Announced on</strong></td>\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Rollout starts</strong></td>\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Rollout ends</strong></td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\">March 05, 2025</td>\n<td style=\"width: 33.3333%; height: 22px;\"><span class=\"wysiwyg-color-black\">March 05, 2025</span></td>\n<td style=\"width: 33.3333%; height: 22px;\">May 31, 2025</td>\n</tr>\n</tbody>\n</table>\n<p><span style=\"font-weight: 400;\">Zendesk is introducing the Approvals early access program (EAP).</span></p>\n<p><span style=\"font-weight: 400;\">Approvals are requests that agents make on behalf of other agents and end users. You can use approvals to increase agent efficiency, ensure compliance, maintain quality control, and provide transparency within your organization.</span><span style=\"font-weight: 400;\"></span></p>\n<p><span style=\"font-weight: 400;\">This announcement includes the following topics:</span></p>\n<ul>\n<li><a href=\"#h_01GD3S97RDYVTAFTQ8WR9878VF\" target=\"_self\"><span style=\"font-weight: 400;\">What is changing?</span></a></li>\n<li><a href=\"#h_01GD3S9GD63FPDGQSEFY88M3ND\" target=\"_self\"><span style=\"font-weight: 400;\">Why is Zendesk making this change?</span></a></li>\n<li><a href=\"#h_01GD3S9TSPXM7M4WHYKYF4E84M\" target=\"_self\"><span style=\"font-weight: 400;\">What do I need to do?</span></a></li>\n</ul>\n<h2 id=\"h_01GD3S97RDYVTAFTQ8WR9878VF\"><span style=\"font-weight: 400;\">What is changing?</span></h2>\n<p>Approvals are a new feature that allow agents to send approval requests to other agents or end users that have the authority to make approval decisions. Approvers can approve or deny requests from either the Zendesk Agent Workspace or your help center (if they are end users). </p>\n<p><img class=\"image img-screenshot\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/es_approvals_workflow_chart2.png\" width=\"800\"></p>\n<p>Depending on how your organization uses Zendesk, you can use approvals for both customer service and employee service needs. You may want to use approvals to manage software access requests, payroll issues, and refunds.</p>\n<h2 id=\"h_01GD3S9GD63FPDGQSEFY88M3ND\"><span style=\"font-weight: 400;\">Why is Zendesk making this change?</span></h2>\n<p>Zendesk is implementing this change so that approval requests can be generated directly within the platform. This gives agents and admins a seamless compliance experience because approvals are monitored and automatically tracked within Zendesk.</p>\n<h2 id=\"h_01JNH6JTAYWG9D64B7P2B53JAW\"><span style=\"font-weight: 400;\">What do I need to do?<br></span></h2>\n<p>Approvals are currently in an early access program (EAP) and all accounts are eligible to participate in the EAP. When this feature GAs, it will be restricted to Customer Service Suite Professional plans and above and all <a href=\"https://support.zendesk.com/hc/en-us/articles/8767884917914\" target=\"_blank\" rel=\"noopener noreferrer\">Employee Service Suite plans</a>. You can <a href=\"https://docs.google.com/forms/d/1tgEY0eb3NKYos-85v8014XUVPs5kh3UA1LqhEMjVrI0/viewform?edit_requested=true\" target=\"_blank\" rel=\"noopener noreferrer\">sign up for the EAP here</a>.</p>\n<p><span style=\"color: #16140c;\">We value your feedback. You can share your thoughts in our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/8689974498586\" target=\"_blank\" rel=\"noopener noreferrer\">EAP community</a> or contact your customer success manager.</span></p>\n<p><span style=\"color: #16140c;\">To learn more, see <a href=\"https://support.zendesk.com/hc/en-us/articles/8481179038490\" target=\"_blank\" rel=\"noopener noreferrer\">About approvals and how they work</a>.</span></p>\n<p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/1260801325369\" target=\"_blank\" rel=\"noopener noreferrer\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk Customer Support</a>.</p>",
       "user_segment_ids": []
     },
     {
@@ -316,6 +256,34 @@
         "role_admin"
       ],
       "body": "<h2 id=\"h_01HV1QM45P2YP0AT93VZZ99CZN\">Question</h2>\n<p>I created a workflow to route messaging tickets once the message becomes inactive. Then, my agents can reply using both channels, messaging and email. How does omnichannel routing interpret the channel of a messaging ticket when the message becomes inactive?</p>\n<h2 id=\"h_01HV1QMAN8RVMJ9M99WDR6EBJR\">Answer</h2>\n<p>Omnichannel routing always applies and evaluates the initial channel of a ticket. This applies to cases where a messaging ticket becomes inactive or if an end user or an agent replies to the ticket from a different channel.</p>\n<p>For more information, see these articles:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4828787357210-Managing-your-omnichannel-routing-configuration\" target=\"_blank\" rel=\"noopener noreferrer\">Managing your omnichannel routing configuration</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408824097050-About-Zendesk-channels\" target=\"_blank\" rel=\"noopener noreferrer\">About Zendesk channels</a></li>\n</ul>",
+      "user_segment_ids": []
+    },
+    {
+      "id": 8956869655962,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8956869655962.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/8956869655962-Announcing-enhancements-to-custom-object-record-lists",
+      "author_id": 1902738075884,
+      "comments_disabled": true,
+      "draft": false,
+      "promoted": true,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298833818,
+      "created_at": "2025-02-26T22:04:11Z",
+      "updated_at": "2025-03-06T23:54:35Z",
+      "name": "Announcing enhancements to custom object record lists",
+      "title": "Announcing enhancements to custom object record lists",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2025-03-06T21:50:04Z",
+      "user_segment_id": null,
+      "permission_group_id": 1324079,
+      "content_tag_ids": [],
+      "label_names": [],
+      "body": "<table style=\"border-collapse: collapse; width: 100%; height: 44px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Announced on</strong></td>\n<td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\"><strong>Rollout on</strong></td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 33.3333%; height: 22px;\">March 6, 2025</td>\n<td style=\"width: 33.3333%; height: 22px;\"><span class=\"wysiwyg-color-black\">March 6, 2025</span></td>\n</tr>\n</tbody>\n</table>\n<p>Zendesk is pleased to announce enhancements to the custom object records lists.</p>\n<p><span style=\"font-weight: 400;\">This announcement includes the following topics:</span></p>\n<ul>\n<li><a href=\"#h_01GD3S97RDYVTAFTQ8WR9878VF\" target=\"_self\"><span style=\"font-weight: 400;\">What is changing?</span></a></li>\n<li><a href=\"#h_01GD3S9GD63FPDGQSEFY88M3ND\" target=\"_self\"><span style=\"font-weight: 400;\">Why is Zendesk making this change?</span></a></li>\n<li><a href=\"#h_01GD3S9TSPXM7M4WHYKYF4E84M\" target=\"_self\"><span style=\"font-weight: 400;\">What do I need to do?</span></a></li>\n</ul>\n<h2 id=\"h_01GD3S97RDYVTAFTQ8WR9878VF\"><span style=\"font-weight: 400;\">What is changing?</span></h2>\n<p>The lists of custom object records now include the object's first three custom fields as columns in the table, in addition to the record's name, date created, and last updated date which have always been included.</p>\n<p>In the following example, <em>Product category</em>, <em>Available in</em>, and <em>Discontinued</em> are arranged as the first three custom fields defined for the object and are therefore visible as columns in the record list.</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/8992419079834\" alt=\"List view enhancement.gif\"></p>\n<p>Additionally, the record lists can now be sorted by name and last updated date. </p>\n<h2 id=\"h_01GD3S9GD63FPDGQSEFY88M3ND\"><span style=\"font-weight: 400;\">Why is Zendesk making this change?</span></h2>\n<p>These changes are designed to make the Custom object records page easier and more efficient to use. Sorting the record lists by key columns makes it easier to find specific records, and including the most important information about records in the list view means agents can more efficiently find what they need. </p>\n<h2 id=\"h_01GD3S9TSPXM7M4WHYKYF4E84M\"><span style=\"font-weight: 400;\">What do I need to do?</span></h2>\n<p>This change is available to all accounts with custom objects. No action is required, but admins can review and <a href=\"https://support.zendesk.com/hc/en-us/articles/6084239129626#topic_v5q_3wf_syb\">reorder</a> the fields for each custom object to ensure the most useful fields are listed first. Agents can begin using the new sort options for columns when viewing record lists.</p>\n<p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\">Zendesk Customer Support</a>.</p>",
       "user_segment_ids": []
     },
     {
@@ -954,6 +922,43 @@
         "role_admin"
       ],
       "body": "<body>\n\n<div class=\"body\">\n<div class=\"article-banners\" translate=\"no\">\n<div id=\"docs-wmp-link\">\n<a href=\"https://support.zendesk.com/hc/en-us/articles/5411234991258-plan\" rel=\"noopener\" target=\"_blank\">What's my plan?</a>\n</div>\n\n\n<div class=\"article-banner\" id=\"addon_wfm\">\n<table>\n<tbody>\n<tr>\n<td>\n<strong>Add-on</strong>\n</td>\n<td>Workforce Management (WFM) or Workforce Engagement Management (WEM)</td>\n</tr>\n</tbody>\n</table>\n</div>\n\n</div>\n<p class=\"p\" dir=\"ltr\">As an agent, you can request to take any unassigned shifts visible in your <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/6443374353434\" target=\"_blank\">Agent Schedule</a> in Zendesk. All shift requests must be approved by\n      your manager before they are officially assigned to you.</p>\n<p class=\"p\" dir=\"ltr\">Keep in mind that when a shift request is approved, the requested shift is added to\n      your schedule and replaces any previously scheduled shift for that day.</p>\n<p class=\"p\"><strong class=\"ph b\">To request an unassigned shift</strong></p>\n<ol class=\"ol\" id=\"topic-1__ol_z2k_qdb_h2c\">\n<li class=\"li\" dir=\"ltr\"><span class=\"ph\">In <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408838272410\" target=\"_blank\">Support</a>, click the <strong class=\"ph b\">Zendesk Workforce Management</strong> icon\n          (<img class=\"image\" id=\"topic-1__d8e2062\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/wfm_logo_icon.png\" width=\"16\">) in the sidebar.</span></li>\n<li class=\"li\" dir=\"ltr\">Click the <strong class=\"ph b\">Available Shifts</strong> icon (<img class=\"image\" id=\"topic-1__image_m2y_lfb_h2c\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/wfm_available_shifts_icon.png\" width=\"22\">) in the top navigation bar. <p class=\"p\">This opens the\n          Available shifts dialog, with a list of all unassigned shifts you’re eligible to\n          request.</p>\n<p class=\"p\" dir=\"ltr\"><img class=\"image\" id=\"topic-1__image_ukd_htc_32c\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/wfm_agent_request_unassigned_shift.png\" width=\"800\"></p>\n</li>\n<li class=\"li\">Within the <strong class=\"ph b\">Available shifts</strong> dialog, hover over the shift you want to take and click\n          <strong class=\"ph b\">Request shift</strong>.<p class=\"p\">After you submit a request to take an unassigned shift, it's\n          listed as <em class=\"ph i\">Pending approval</em> on the Shift requests list. If your manager approves\n          your request, your schedule is updated to reflect that and the shift becomes unavailable\n          to all other agents. If your manager denies your request, the shift is no longer\n          accessible to you to view or request.</p>\n<p class=\"p\">Regardless of your manager's decision, after a\n          request is approved or denied, it is removed from your Shift requests list.</p>\n</li>\n</ol>\n</div>\n<script id=\"article-banners-script\">\n    //<![CDATA[\n      const style = document.createElement('style');\n      style.innerHTML = `#styled-article-body{padding:1rem 0 0}#article-body #docs-wmp-link{text-align:right;font-size:.8em}#article-body .article-banners{margin-bottom:1rem}#article-body .article-banner{border:1px solid #ded7ca;background-color:#f6f0e6;margin:0 0 3px;line-height:1}#article-body .article-banner table{border-collapse:collapse;border:none;margin:0;width:auto}#article-body .article-banner td{padding:8px 6px 8px;border:none;font-size:.85em}#article-body .article-banner td:nth-child(2){border-left:1px solid #d0c9bd}#article-body .article-banner strong{font-weight:400;text-shadow:0 0 1px rgba(0,0,0,.5);letter-spacing:.5px}@media (min-width:1600px){#article-body .article-banner td{font-size:.8em}#article-body .docs-wmp-link{font-size:.7em}}`;\n      document.head.appendChild(style);\n    //]]>\n    </script>\n</body>",
+      "user_segment_ids": []
+    },
+    {
+      "id": 8842271875098,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8842271875098.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/8842271875098-Can-I-add-custom-fields-in-Sell",
+      "author_id": 8284543895322,
+      "comments_disabled": false,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298880026,
+      "created_at": "2025-02-05T18:32:33Z",
+      "updated_at": "2025-02-11T16:07:56Z",
+      "name": "Can I add custom fields in Sell?",
+      "title": "Can I add custom fields in Sell?",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2025-02-06T09:35:41Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801135069,
+      "content_tag_ids": [
+        "01GT23C04H6F5QAN50W7K4WP5N",
+        "01GT23CR5WV19DHBTHA1XGSGES"
+      ],
+      "label_names": [
+        "ks",
+        "ab0",
+        "mt",
+        "ab0_sell",
+        "role_admin"
+      ],
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>I want to track specific information for my sales leads. Can I add custom fields in my Sell account?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>You can add custom fields in Sell to track specific information for your leads. This feature allows you to tailor the data you collect according to your needs. They are more organized and less susceptible to user error.</p>\n<p><iframe src=\"//www.youtube-nocookie.com/embed/YNOFjVQUFUg\" width=\"560\" height=\"315\" frameborder=\"0\" allowfullscreen=\"\"></iframe></p>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408838289562-Creating-and-managing-custom-fields-in-Sell\" target=\"_blank\" rel=\"noopener noreferrer\">Creating and managing custom fields in Sell</a>.</p>",
       "user_segment_ids": []
     }
   ],
