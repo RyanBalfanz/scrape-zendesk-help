@@ -19,7 +19,7 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2025-03-10T19:03:11Z",
-      "updated_at": "2025-03-10T19:09:51Z",
+      "updated_at": "2025-03-10T19:16:26Z",
       "name": "Service Incident - March 10th, 2025",
       "title": "Service Incident - March 10th, 2025",
       "source_locale": "en-us",
@@ -32,6 +32,7 @@
       "content_tag_ids": [],
       "label_names": [
         "service_incident",
+        "mt",
         "rank_low_algolia"
       ],
       "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>March 10, 2025 07:09 PM UTC | March 10, 2025 12:09 PM PT </strong><br>We have found that some connections to Sunshine Conversations SDKs may have experienced continued errors until approximately 19:06 UTC; however, that issue is now also resolved.</p>\n<p class=\"p1\"><strong>March 10, 2025 07:03 PM UTC | March 10, 2025 12:03 PM PT </strong><br>Between 18:42 and 18:53 UTC on March 10, 2025, Messaging via Sunshine Conversations on Pod 26 experienced delays and errors sending messages. This included messages to contact Zendesk Support via our widget at support.zendesk.com. The degradation has ended and messages should send as expected at this time. We apologize for any disruption this may have caused.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
