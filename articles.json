@@ -576,7 +576,7 @@
     {
       "id": 8965894581018,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/8965894581018.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/8965894581018-Service-Incident-February-28th-2025",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/8965894581018-Service-Incident-February-28-2025-Help-Center-Multiple-Pods-Access-issues-and-429-Errors",
       "author_id": 1263082077509,
       "comments_disabled": true,
       "draft": false,
@@ -586,14 +586,14 @@
       "vote_count": 2,
       "section_id": 4405298854426,
       "created_at": "2025-02-28T11:51:26Z",
-      "updated_at": "2025-03-03T17:11:58Z",
-      "name": "Service Incident - February 28th, 2025",
-      "title": "Service Incident - February 28th, 2025",
+      "updated_at": "2025-03-12T17:05:51Z",
+      "name": "Service Incident - February 28, 2025 - Help Center | Multiple Pods - Access issues and 429 Errors",
+      "title": "Service Incident - February 28, 2025 - Help Center | Multiple Pods - Access issues and 429 Errors",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-02-28T12:22:43Z",
+      "edited_at": "2025-03-12T17:05:15Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
@@ -602,7 +602,7 @@
         "mt",
         "rank_low_algolia"
       ],
-      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>February 28, 2025 12:22 PM UTC | February 28, 2025 04:22 AM PT </strong><br>We're happy to report that the issues causing Help Center to be unavailable, returning 429 errors have now been resolved. Thank you for your patience.</p>\n<p class=\"p1\"><strong>February 28, 2025 12:04 PM UTC | February 28, 2025 04:04 AM PT </strong><br>We are seeing Help Center services recovering and our engineering team continues to monitor the situation.\nIn case you still receive 429 errors when oprning Help Center, please reach out to us!</p>\n<p class=\"p1\"><strong>February 28, 2025 11:51 AM UTC | February 28, 2025 03:51 AM PT </strong><br>Our engineering team is currently working on an issue causing Help Center to return a 429 error for our customers across multiple Pods. We will provide further updates as soon as they become available.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
+      "body": "<h3 id=\"h_01JP5MBHYP0QTQ7RHB096BQFAZ\" class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<p>On February 28, 2025 from 11:00 UTC to 12:00 UTC, customers using Help Center in multiple Pods experienced 429 errors and issues accessing Help Center pages.<br><br></p>\n<h3 id=\"h_01JP5MYSYZ0VC4BQR0WH5KV3ZN\">TIMELINE</h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>February 28, 2025 12:22 PM UTC | February 28, 2025 04:22 AM PT </strong><br>We're happy to report that the issues causing Help Center to be unavailable, returning 429 errors have now been resolved. Thank you for your patience.</p>\n<p class=\"p1\"><strong>February 28, 2025 12:04 PM UTC | February 28, 2025 04:04 AM PT </strong><br>We are seeing Help Center services recovering and our engineering team continues to monitor the situation. In case you still receive 429 errors when oprning Help Center, please reach out to us!</p>\n<p class=\"p1\"><strong>February 28, 2025 11:51 AM UTC | February 28, 2025 03:51 AM PT </strong><br>Our engineering team is currently working on an issue causing Help Center to return a 429 error for our customers across multiple Pods. We will provide further updates as soon as they become available.<br><br></p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<h4 id=\"h_01JP5N1GRSTYTC19FXT7AZTX29\"><span style=\"color: #666666;\">Root Cause Analysis</span></h4>\n<p>This incident was caused by an infrastructure configuration change. This configuration was unable to handle connections effectively, leading to timeouts and failures when the application attempted to connect. As a result, customers experienced rate-limiting and 429 errors, blocking their requests and access to the Help Center.<br><br></p>\n<h4 id=\"h_01JP5N1GRSBXM5K9KN9J3QW8PV\"><span style=\"color: #666666;\">Resolution</span></h4>\n<p>To resolve this issue, the team rolled back the recent infrastructure changes. This action restored the availability of the service, allowing the application to successfully establish connections and process customer requests.<br><br></p>\n<h4 id=\"h_01JP5N1GRS0ETK14W5AW6PH4EE\"><span style=\"color: #666666;\">Remediation Items</span></h4>\n<ol>\n<li>Implement improved monitoring and alerting for connection errors to identify issues before they affect customers.</li>\n<li>Revise the existing infrastructure documentation to clarify the limitations of this intended change.</li>\n<li>Enhance the Help Center’s error handling to provide clearer communication to users experiencing rate-limiting, such as updating the messaging for 429 errors.</li>\n<li>Conduct a thorough review of the code responsible for handling connections to prevent similar failures in the future.</li>\n</ol>\n<h4 id=\"h_01JP5MBHYPBJAC9Q7AKYK6RT2B\"><strong><br>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
     },
     {
