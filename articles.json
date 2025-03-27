@@ -1,5 +1,5 @@
 {
-  "count": 5065,
+  "count": 5066,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 169,
@@ -99,6 +99,39 @@
         "role_admin"
       ],
       "body": "<h2 id=\"h_01HV1QM45P2YP0AT93VZZ99CZN\">Question</h2>\n<p>Can I send an automated email to my customers when they submit a messaging ticket?</p>\n<h2 id=\"h_01HV1QMAN8RVMJ9M99WDR6EBJR\">Answer</h2>\n<p>Yes, you can <a href=\"https://support.zendesk.com/hc/en-us/articles/4408886797466-Creating-ticket-triggers-for-automatic-ticket-updates-and-notifications\" target=\"_blank\" rel=\"noopener noreferrer\">create a trigger</a> to fire an email to the requester of the ticket.</p>\n<ol>\n<li>In the <strong>Meet ALL of the following conditions </strong>section, add the following conditions\n<ul>\n<li><strong>Ticket &gt; Ticket is created</strong></li>\n<li><strong>Ticket &gt; Status category is not Solved</strong></li>\n<li><strong>Ticket details &gt; Current user is (end-user)</strong></li>\n<li><strong>Ticket &gt; channel is Messaging<br><br></strong></li>\n</ul>\n</li>\n<li>In the <strong>Actions </strong>section, add the following action\n<ul>\n<li><strong>Notify by &gt; User email Ticket &gt; (Requester)</strong></li>\n</ul>\n</li>\n</ol>\n<p><strong><img src=\"https://support.zendesk.com/hc/article_attachments/9063192018970\" alt=\"actions.png\"></strong></p>\n<p> </p>\n<div class=\"note note\">\n<span class=\"notetitle\">Note:</span> The end user is not able to add a CC at the moment of the creation of the messaging ticket and therefore, the action <strong>Notify by &gt; User email Ticket &gt; (Requester and CCs)</strong> doesn't suit this workflow.</div>\n<p id=\"h_01HV1QMG75WD0BV78NVSTSDJAG\">For more details, see the following article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408893545882-Ticket-trigger-conditions-and-actions-reference\" target=\"_blank\" rel=\"noopener noreferrer\">Ticket trigger conditions and actions reference</a></p>",
+      "user_segment_ids": []
+    },
+    {
+      "id": 9062219816858,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9062219816858.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/9062219816858-How-can-I-format-notes-when-importing-leads-or-contacts-into-Sell-using-a-CSV-file",
+      "author_id": 4967137259930,
+      "comments_disabled": false,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298880410,
+      "created_at": "2025-03-25T09:16:52Z",
+      "updated_at": "2025-03-27T06:20:27Z",
+      "name": "How can I format notes when importing leads or contacts into Sell using a CSV file?",
+      "title": "How can I format notes when importing leads or contacts into Sell using a CSV file?",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2025-03-27T06:19:01Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801135069,
+      "content_tag_ids": [],
+      "label_names": [
+        "ks",
+        "ab0",
+        "ab0_sell",
+        "role_admin"
+      ],
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>How can I format notes when importing leads or contacts into Sell using a CSV file?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>When you import leads or contacts into Sell using a CSV file, the file format supports only plain text. However, you can use <a href=\"https://support.zendesk.com/hc/en-us/articles/4408846544922-Formatting-text-with-Markdown\" target=\"_blank\" rel=\"noopener noreferrer\">markdown</a> language to format notes in the CSV file. This allows you to enhance the readability and presentation of your notes effectively for leads or contacts.</p>\n<p>For example, to add notes in bold, surround the text with double asterisks (**).</p>\n<p>Below is an example of how this looks like using a simple CSV file:</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/9062235977498\" alt=\"csv.png\"></p>\n<p>Map the values and notes in the imported lead as follows:</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/9062235977626\" alt=\"note.png\"></p>\n<p>For more information, see this article:</p>\n<ul>\n<li><a href=\"%20https://support.zendesk.com/hc/en-us/articles/4408838742682-Creating-a-CSV-file-to-import-leads-contacts-or-deals\" target=\"_blank\" rel=\"noopener noreferrer\">Creating a CSV file to import leads, contacts, or deals</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408845638298-Importing-leads-and-contacts-using-a-CSV-file\" target=\"_blank\" rel=\"noopener noreferrer\">Importing leads and contacts using a CSV file</a></li>\n</ul>",
       "user_segment_ids": []
     },
     {
@@ -512,8 +545,8 @@
       "draft": false,
       "promoted": true,
       "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
+      "vote_sum": 1,
+      "vote_count": 1,
       "section_id": 4405298833818,
       "created_at": "2025-03-17T16:12:00Z",
       "updated_at": "2025-03-27T00:02:04Z",
@@ -911,37 +944,6 @@
         "rank_low_algolia"
       ],
       "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>March 10, 2025 11:26 PM UTC | March 10, 2025 04:26 PM PT </strong><br>We are happy to report that the backfills have been completed for the affected Korean and Japanese Guide articles. Thank you for your patience during this extended incident.</p>\n<p class=\"p1\"><strong>March 10, 2025 05:56 PM UTC | March 10, 2025 10:56 AM PT </strong><br>The backfill has completed, however we are still catching up in some of the affected pods. New articles and article updates may still experience some delays. We will update when we have fully recovered.</p>\n<p class=\"p1\"><strong>March 10, 2025 03:04 PM UTC | March 10, 2025 08:04 AM PT </strong><br>Our engineers continue their work on backfilling the fix for all of the impacted Pods for the issue with garbled Korean and Japanese characters rendering garbled search results and articles. So far the issue has been amended on Pods 13, 15, 17, 19, 20, 26, 27 and 29. With Pods 18, 23 and 25 still being in progress.</p>\n<p class=\"p1\"><strong>March 10, 2025 11:32 AM UTC | March 10, 2025 04:32 AM PT </strong><br>We would like to provide you with an update regarding the ongoing efforts of our engineering team to address the issue of garbled characters in Guide search results and articles related to Japanese content.\n\nWe are pleased to inform you that a fix has been implemented, which ensures that newly created or edited content will no longer experience this issue. Additionally, the team is actively working on backfilling this fix for existing content.\n\nWhile progress on Pod 25 is still underway, the team has successfully completed the necessary work on content hosted on Pod 26 and has now commenced efforts on Pod 27. They will continue to address this issue across all affected Pods.\n\nThank you for your understanding and support as we work to resolve this matter.</p>\n<p class=\"p1\"><strong>March 10, 2025 05:53 AM UTC | March 09, 2025 10:53 PM PT </strong><br>A full backfill is currently running to fix all remaining issues on Pod 25. If your account is on a different Pod, please rest assured that our team is working to restore the correct search and article results on all Pods. We will post a final update when all backfills are finished.</p>\n<p class=\"p1\"><strong>March 10, 2025 04:52 AM UTC | March 09, 2025 09:52 PM PT </strong><br>We have identified and fixed the issue impacting Korean and Japanese articles and search results in Guide. Please refresh the impacted articles/searches and try again. We will provide a final update when we confirm full resolution of the issue.</p>\n<p class=\"p1\"><strong>March 10, 2025 04:28 AM UTC | March 09, 2025 09:28 PM PT </strong><br>We have received reports of garbled characters in Guide search results and articles for Japanese content on Pod 25. We are currently investigating the issue. We will provide an update when we have more information to share.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
-      "user_segment_ids": []
-    },
-    {
-      "id": 9003738363162,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9003738363162.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/9003738363162-Release-notes-through-2025-3-7",
-      "author_id": 1263082309989,
-      "comments_disabled": true,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405298847002,
-      "created_at": "2025-03-09T19:53:03Z",
-      "updated_at": "2025-03-17T01:29:22Z",
-      "name": "Release notes through 2025-3-7",
-      "title": "Release notes through 2025-3-7",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2025-03-10T15:49:25Z",
-      "user_segment_id": null,
-      "permission_group_id": 1324079,
-      "content_tag_ids": [],
-      "label_names": [
-        "mt",
-        "rank_low_algolia"
-      ],
-      "body": "<div class=\"note tip\">See our <a href=\"https://support.zendesk.com/hc/en-us/articles/8950832095002\" target=\"_blank\" rel=\"noopener noreferrer\">What's New</a> for an overview of what was released in the last month.</div>\n<p>This week's release notes include:</p>\n<ul>\n<li><a href=\"#h_01JP0BTF6ABFV430FZZPX6X4VV\">Support</a></li>\n<li><a href=\"#h_01JNEEYDBWBEZWNVH8MTHPT2YW\">AI agents and knowledge</a></li>\n<li><a href=\"#h_01JNRT9HTY04M5G8838DVXYAV6\">Advanced AI</a></li>\n<li><a href=\"#h_01JMQPHVNTV6NQS0HFX73CNJCX\">Chat and messaging</a></li>\n<li><a href=\"#h_01JNY7TF189TFVGQX7W108WA1Z\">Explore</a></li>\n<li><a href=\"#h_01JM8MJPK7J51J3QY7XABWZFY0\">App Marketplace</a></li>\n<li><a href=\"#h_01JGA2YGRMZEQMVHNQRVWN0MQE\">Products with no updates this week</a></li>\n</ul>\n<h2 id=\"h_01JP0BTF6ABFV430FZZPX6X4VV\">Support</h2>\n<p><strong>New:</strong></p>\n<ul>\n<li>\n<span>We’ve made some </span><em>shady</em><span> changes—literally. Our ticket status badge colors now meet accessibility contrast standards, and yes, that includes tweaking our shades of grey (not quite 50, but close). It has better readability and the same great ticket status updates.</span>\n</li>\n</ul>\n<h2 id=\"h_01JNEEYDBWBEZWNVH8MTHPT2YW\">AI agents and knowledge</h2>\n<p><strong>Fixed:</strong></p>\n<p id=\"h_01JNRT9HTY04M5G8838DVXYAV6\" class=\"h5\"><strong>Advanced AI</strong></p>\n<ul>\n<li>Ultimate GPT - Scheduled knowledge source reimports re-enabled for selected accounts</li>\n</ul>\n<p id=\"h_01JNRT9NPSHJ6QY274C9451RC7\" class=\"h5\"><strong>Customer portal</strong></p>\n<ul>\n<li>Fixed an issue that prevented the Submit a request link from appearing on article pages.</li>\n<li>Fixed an issue causing organizations with lowercase first letters to be sorted wrong in the ticket form dropdown</li>\n</ul>\n<h2 id=\"h_01JHE37ZQR07MDP03Z7YBT2V3A\">Advanced AI</h2>\n<p id=\"h_01J87S17W2PV0NM8XK0NS1GCV1\"><strong>New:</strong></p>\n<ul>\n<li>\n<p>Auto assist can now:</p>\n<ul>\n<li>Read tags on a ticket</li>\n<li>Update and read standard fields on a ticket: ticket type, ticket priority</li>\n<li>Update the following ticket custom field types on a ticket: text, checkbox, number, decimal, date, regex</li>\n<li>Read ticket custom field types on a ticket; all types except lookup relationship</li>\n</ul>\n</li>\n</ul>\n<h2 id=\"h_01JMQPHVNTV6NQS0HFX73CNJCX\"><span>Chat and messaging</span></h2>\n<p><strong>Fixed:</strong></p>\n<ul>\n<li>Made the messaging trigger agent avatar consistent with the AI agent avatar</li>\n</ul>\n<h2 id=\"h_01JNY7TF189TFVGQX7W108WA1Z\">Explore</h2>\n<p><strong>New:</strong></p>\n<ul>\n<li>Exports generated via the <a href=\"https://support.zendesk.com/hc/en-us/articles/6037992005914-Exporting-datasets-from-Explore\"><span class=\"wysiwyg-underline\" style=\"color: #1155cc;\">dataset exporter</span></a> for the Guide: Knowledge Capture dataset are now filtered using the engagement date. Previously, they were filtered via the article creation date, which resulted in some article activity missing from the export.</li>\n<li>\n<strong>Updater agent name</strong><span> attribute was added to the Support: Updates history dataset. This attribute provides the quickest way to display agent names in the report.</span>\n</li>\n</ul>\n<h2 id=\"h_01JM8MJPK7J51J3QY7XABWZFY0\">App Marketplace</h2>\n<div>\n<div>\n<div><strong>New:</strong></div>\n<ul>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1110146/process-excel/\">Process Excel</a> <strong>(Support)</strong>\n<ul>\n<li>Process Excel automatically extracts and lets you use data from Excel files in Zendesk.  Process Excel automatically processes Excel files and integrates its data into Zendesk, enabling automatic updating of ticket fields and finding the Excel data in Zendesk search. Add an API integration, which connects Zendesk to other systems for complete data synchronization.</li>\n</ul>\n</li>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1110671/help-center-scorecard/\">Help Center Scorecard</a> <strong>(Support)</strong>\n<ul>\n<li>Help Center Scorecard delivers a detailed monthly evaluation of your knowledge base, highlighting what’s working and pinpointing areas for improvement. You can deliver faster, more accurate support with clear, actionable insights.  Strengthen self-service by making content easier to find and understand, boost AI response accuracy with well-structured knowledge base articles, and take advantage of expert-driven insights to enhance content quality.</li>\n</ul>\n</li>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1110900/videoengager/\">VideoEngager</a> <strong>(Support)</strong>\n<ul>\n<li>VideoEngager is a seamless and secure WebRTC-based video chat solution that empowers agents and customers to connect instantly with a single click. Create rich, real-time video interactions that enhance communication, improve customer satisfaction, and drive conversions.</li>\n</ul>\n</li>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1112049/inboxpilot/\">InboxPilot</a> <strong>(Support)</strong>\n<ul>\n<li>InboxPilot is an AI-powered chatbot that automates email drafting for Zendesk users. By leveraging your company’s data, it generates personalized, context-aware email drafts as soon as a ticket is created or updated. Say goodbye to repetitive typing—InboxPilot analyzes ticket details, customer history, and your organization’s tone to craft professional responses in seconds.</li>\n</ul>\n</li>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1073187/zenloop-survey/\">Zenloop Survey</a> <strong>(Support)</strong>\n<ul>\n<li>Zenloop Survey is a leading customer experience management platform that helps companies collect, analyze, and act on customer feedback.  This Zendesk integration automatically sends customer satisfaction surveys through Zenloop when support tickets are closed. Key features:</li>\n</ul>\n</li>\n</ul>\n</div>\n</div>\n<h2 id=\"h_01JGA2YGRMZEQMVHNQRVWN0MQE\"><span>Products with no updates this week</span></h2>\n<ul>\n<li>Talk</li>\n<li>Admin Center</li>\n<li>Mobile SDKs</li>\n<li>Zendesk QA</li>\n<li>Zendesk WFM</li>\n</ul>",
       "user_segment_ids": []
     }
   ],
