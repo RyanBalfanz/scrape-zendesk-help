@@ -1,5 +1,5 @@
 {
-  "count": 5094,
+  "count": 5095,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 170,
@@ -19,14 +19,14 @@
       "vote_count": 1,
       "section_id": 4405298854426,
       "created_at": "2025-04-04T10:25:36Z",
-      "updated_at": "2025-04-04T11:01:36Z",
+      "updated_at": "2025-04-04T11:46:30Z",
       "name": "Service Incident - April 4th, 2025",
       "title": "Service Incident - April 4th, 2025",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-04-04T10:57:02Z",
+      "edited_at": "2025-04-04T11:33:29Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
@@ -35,7 +35,7 @@
         "mt",
         "rank_low_algolia"
       ],
-      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>April 04, 2025 10:57 AM UTC | April 04, 2025 03:57 AM PT </strong><br>We are investigating the issue of Facebook pages becoming unauthorized in Zendesk Support on multiple pods. Our team is currently identifying the underlying cause. Thank you for your patience. Next update in 30 minutes.</p>\n<p class=\"p1\"><strong>April 04, 2025 10:25 AM UTC | April 04, 2025 03:25 AM PT </strong><br>We have received reports of Facebook pages becoming unauthorized in Zendesk Support on multiple pods. Investigation is underway. Please consider replying to your Facebook end users in Facebook for the time being. Next update in 30 mins.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
+      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>April 04, 2025 11:33 AM UTC | April 04, 2025 04:33 AM PT </strong><br>We are still investigating the extent of the issue with the Facebook app showing unauthorized in Zendesk Support issue at the moment. Our team is close to identifying the underlying cause and are engaged with our third party support. We appreciate your patience on this ongoing issue and will provide the next update as it becomes available.</p>\n<p class=\"p1\"><strong>April 04, 2025 10:57 AM UTC | April 04, 2025 03:57 AM PT </strong><br>We are investigating the issue of Facebook pages becoming unauthorized in Zendesk Support on multiple pods. Our team is currently identifying the underlying cause. Thank you for your patience. Next update in 30 minutes.</p>\n<p class=\"p1\"><strong>April 04, 2025 10:25 AM UTC | April 04, 2025 03:25 AM PT </strong><br>We have received reports of Facebook pages becoming unauthorized in Zendesk Support on multiple pods. Investigation is underway. Please consider replying to your Facebook end users in Facebook for the time being. Next update in 30 mins.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
       "user_segment_ids": []
     },
     {
