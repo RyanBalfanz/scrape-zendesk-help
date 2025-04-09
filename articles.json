@@ -312,7 +312,7 @@
     {
       "id": 9089093583386,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9089093583386.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/9089093583386-Why-do-SLA-badges-disappear-even-though-an-SLA-target-fired-on-a-ticket",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/9089093583386-Why-do-SLA-badges-disappear-on-tickets-unexpectedly",
       "author_id": 1263082328829,
       "comments_disabled": false,
       "draft": false,
@@ -322,14 +322,14 @@
       "vote_count": 0,
       "section_id": 4405298900506,
       "created_at": "2025-04-01T13:33:41Z",
-      "updated_at": "2025-04-09T07:08:59Z",
-      "name": "Why do SLA badges disappear even though an SLA target fired on a ticket?",
-      "title": "Why do SLA badges disappear even though an SLA target fired on a ticket?",
+      "updated_at": "2025-04-09T13:49:04Z",
+      "name": "Why do SLA badges disappear on tickets unexpectedly?",
+      "title": "Why do SLA badges disappear on tickets unexpectedly?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-04-09T07:08:59Z",
+      "edited_at": "2025-04-09T13:49:04Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -340,7 +340,7 @@
         "role_agent",
         "role_admin"
       ],
-      "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Question</h2>\n<p>Why do SLA badges disappear even though their SLA targets fired correctly on a ticket?</p>\n<h2 id=\"h_01JRARD11DXCHYFP836AHTJDC8\">Answer</h2>\n<p>When multiple triggers run simultaneously to update a ticket, race conditions may occur. This may happen if a trigger's actions include an <a href=\"https://support.zendesk.com/hc/en-us/articles/4408833721498-Using-autoreplies-to-recommend-articles-in-email-notifications\" target=\"_blank\" rel=\"noopener noreferrer\">autoreply</a> that adds or modifies a field on a ticket and other triggers rely on such field. As a result, this may affect whether an <a href=\"https://support.zendesk.com/hc/en-us/articles/4408829459866-Defining-SLA-policies\" target=\"_blank\" rel=\"noopener noreferrer\">SLA policy</a> matches the ticket and create inconsistencies in the SLA badge. SLA policy calculations are not asynchronous and don't account for the order of events. Consequently, the target may have fired on the ticket and you can see these changes in the UI and in the <a href=\"https://developer.zendesk.com/api-reference/ticketing/tickets/ticket_audits/#list-all-ticket-audits\" target=\"_blank\" rel=\"noopener noreferrer\">Ticket Audits API</a>, but the badge may not display as expected.</p>\n<p>For more information, see the article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408882855578-Can-I-use-a-trigger-and-a-webhook-to-update-tickets\" target=\"_blank\" rel=\"noopener noreferrer\">Can I use a trigger and a webhook to update tickets?</a> </p>",
+      "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Question</h2>\n<p>Why do SLA badges disappear on tickets unexpectedly?</p>\n<h2 id=\"h_01JRARD11DXCHYFP836AHTJDC8\">Answer</h2>\n<p>When multiple triggers run simultaneously to update a ticket, race conditions may occur. This may happen if a trigger's actions include an <a href=\"https://support.zendesk.com/hc/en-us/articles/4408833721498-Using-autoreplies-to-recommend-articles-in-email-notifications\" target=\"_blank\" rel=\"noopener noreferrer\">autoreply</a> that adds or modifies a field on a ticket and other triggers rely on such field.</p>\n<p>As a result, this may affect whether an <a href=\"https://support.zendesk.com/hc/en-us/articles/4408829459866-Defining-SLA-policies\" target=\"_blank\" rel=\"noopener noreferrer\">SLA policy</a> matches the ticket and create inconsistencies in the SLA badge. SLA policy calculations are not asynchronous and don't account for the order of events. Consequently, the target may have fired on the ticket and you can see these changes in the UI and in the <a href=\"https://developer.zendesk.com/api-reference/ticketing/tickets/ticket_audits/#list-all-ticket-audits\" target=\"_blank\" rel=\"noopener noreferrer\">Ticket Audits API</a>, but the badge may not display as expected.</p>\n<p>For more information, see these articles:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408885881498-Troubleshooting-common-SLA-issues\" target=\"_blank\" rel=\"noopener noreferrer\">Troubleshooting common SLA issues</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408882855578-Can-I-use-a-trigger-and-a-webhook-to-update-tickets\" target=\"_blank\" rel=\"noopener noreferrer\">Can I use a trigger and a webhook to update tickets?</a></li>\n</ul>",
       "user_segment_ids": []
     },
     {
@@ -763,14 +763,14 @@
       "vote_count": 0,
       "section_id": 5322462753050,
       "created_at": "2025-03-25T14:07:35Z",
-      "updated_at": "2025-04-08T15:02:51Z",
+      "updated_at": "2025-04-09T13:42:16Z",
       "name": "Can I automatically email end users who submit a messaging ticket?",
       "title": "Can I automatically email end users who submit a messaging ticket?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-04-07T13:16:24Z",
+      "edited_at": "2025-04-09T13:42:16Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -781,7 +781,7 @@
         "ab0_email",
         "role_admin"
       ],
-      "body": "<h2 id=\"h_01HV1QM45P2YP0AT93VZZ99CZN\">Question</h2>\n<p>Can I automatically email end users who submit a messaging ticket?</p>\n<h2 id=\"h_01HV1QMAN8RVMJ9M99WDR6EBJR\">Answer</h2>\n<p>Yes, you can <a href=\"https://support.zendesk.com/hc/en-us/articles/4408886797466-Creating-ticket-triggers-for-automatic-ticket-updates-and-notifications\" target=\"_blank\" rel=\"noopener noreferrer\">create a trigger</a> to fire an email to the requester of the ticket.</p>\n<h3 id=\"h_01JR85PXP934M2AJE7HJ9G03MB\">To create this recipe</h3>\n<ol>\n<li>In the <strong>Meet ALL of the following conditions </strong>section, add these conditions\n<ul>\n<li>\n<strong>Ticket &gt; Ticket </strong>|<strong> is </strong>|<strong> Created</strong>\n</li>\n<li>\n<strong>Ticket &gt; Status category </strong>|<strong> is not</strong> | <strong>Solved</strong>\n</li>\n<li>\n<strong>Ticket details &gt; Current user </strong>|<strong> is </strong>|<strong> (end-user)</strong>\n</li>\n<li>\n<strong>Ticket &gt; channel </strong>|<strong> is </strong>|<strong> Messaging</strong>\n</li>\n</ul>\n</li>\n</ol>\n<p><strong><img src=\"https://support.zendesk.com/hc/article_attachments/9113698199706\" alt=\"conditions.png\"></strong></p>\n<ol>\n<li>In the <strong>Actions </strong>section, add the action below\n<ul>\n<li><strong>Notify by &gt; User email Ticket &gt; (Requester)</strong></li>\n</ul>\n</li>\n</ol>\n<p><strong><img src=\"https://support.zendesk.com/hc/article_attachments/9063192018970\" alt=\"actions.png\"></strong></p>\n<p> </p>\n<div class=\"note note\">\n<span class=\"notetitle\">Note:</span> End users can't add a CC at the moment of the creation of the messaging ticket. Hence, the action <strong>Notify by &gt; User email Ticket &gt; (Requester and CCs)</strong> doesn't suit this workflow.</div>\n<p id=\"h_01HV1QMG75WD0BV78NVSTSDJAG\">For more details, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408893545882-Ticket-trigger-conditions-and-actions-reference\" target=\"_blank\" rel=\"noopener noreferrer\">Ticket trigger conditions and actions reference</a></p>",
+      "body": "<h2 id=\"h_01HV1QM45P2YP0AT93VZZ99CZN\">Question</h2>\n<p>Can I automatically email end users who submit a messaging ticket?</p>\n<h2 id=\"h_01HV1QMAN8RVMJ9M99WDR6EBJR\">Answer</h2>\n<p>Yes, you can <a href=\"https://support.zendesk.com/hc/en-us/articles/4408886797466-Creating-ticket-triggers-for-automatic-ticket-updates-and-notifications\" target=\"_blank\" rel=\"noopener noreferrer\">create a trigger</a> to fire an email to the requester of the ticket.</p>\n<p id=\"h_01JR85PXP934M2AJE7HJ9G03MB\"><strong>To create this recipe</strong></p>\n<ul>\n<li>In the <strong>Meet ALL of the following conditions </strong>section, add these conditions\n<ul>\n<li>\n<strong>Ticket &gt; Ticket </strong>|<strong> is </strong>|<strong> Created</strong>\n</li>\n<li>\n<strong>Ticket &gt; Status category </strong>|<strong> is not</strong> | <strong>Solved</strong>\n</li>\n<li>\n<strong>Ticket details &gt; Current user </strong>|<strong> is </strong>|<strong> (end-user)</strong>\n</li>\n<li>\n<strong>Ticket &gt; channel </strong>|<strong> is </strong>|<strong> Messaging</strong>\n</li>\n</ul>\n</li>\n</ul>\n<p><strong><img src=\"https://support.zendesk.com/hc/article_attachments/9113698199706\" alt=\"conditions.png\"></strong></p>\n<ul>\n<li>In the <strong>Actions </strong>section, add the action below</li>\n<li style=\"list-style-type: none;\">\n<ul>\n<li><strong>Notify by &gt; User email Ticket &gt; (Requester)</strong></li>\n</ul>\n</li>\n</ul>\n<p><strong><img src=\"https://support.zendesk.com/hc/article_attachments/9063192018970\" alt=\"actions.png\"></strong></p>\n<div class=\"note note\">\n<span class=\"notetitle\">Note:</span> End users can't add a CC at the moment of the creation of the messaging ticket. Hence, the action <strong>Notify by &gt; User email Ticket &gt; (Requester and CCs)</strong> doesn't suit this workflow.</div>\n<p id=\"h_01HV1QMG75WD0BV78NVSTSDJAG\">For more details, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408893545882-Ticket-trigger-conditions-and-actions-reference\" target=\"_blank\" rel=\"noopener noreferrer\">Ticket trigger conditions and actions reference</a></p>",
       "user_segment_ids": []
     },
     {
