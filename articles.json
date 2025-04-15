@@ -101,7 +101,7 @@
     {
       "id": 9132114183066,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9132114183066.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/9132114183066-What-trigger-conditions-and-actions-are-available-for-customers-on-the-Essential-plan",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/9132114183066-What-trigger-conditions-and-actions-are-available-on-the-legacy-Support-Essential-plan",
       "author_id": 1263082081969,
       "comments_disabled": false,
       "draft": false,
@@ -111,14 +111,14 @@
       "vote_count": 0,
       "section_id": 5322740495642,
       "created_at": "2025-04-11T13:24:49Z",
-      "updated_at": "2025-04-14T13:24:01Z",
-      "name": "What trigger conditions and actions are available for customers on the Essential plan?",
-      "title": "What trigger conditions and actions are available for customers on the Essential plan?",
+      "updated_at": "2025-04-15T06:16:26Z",
+      "name": "What trigger conditions and actions are available on the legacy Support Essential plan?",
+      "title": "What trigger conditions and actions are available on the legacy Support Essential plan?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-04-14T13:23:59Z",
+      "edited_at": "2025-04-15T06:16:26Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -128,7 +128,7 @@
         "ab0_support",
         "role_admin"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>What trigger conditions and actions are available for customers on the Essential plan?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>On the Essential plan, customers are limited to conditions and actions that are present in the default triggers.</p>\n<p>The conditions are as follows:</p>\n<ul>\n<li>\n<strong>Ticket </strong>&gt; <strong>Assignee</strong>\n</li>\n<li>\n<strong>Ticket </strong>&gt;<strong> Comment</strong>\n</li>\n<li>\n<strong>Ticket </strong>&gt;<strong> Priority</strong>\n</li>\n<li>\n<strong>Ticket </strong>&gt;<strong> Privacy</strong>\n</li>\n<li>\n<strong>Ticket </strong>&gt;<strong> Status</strong>\n</li>\n<li>\n<strong>Ticket </strong>&gt;<strong> Ticket</strong>\n</li>\n<li>\n<strong>Ticket details </strong>&gt;<strong> Current User</strong>\n</li>\n<li>\n<strong>Requester </strong>&gt;<strong> Requester</strong>\n</li>\n</ul>\n<p>The available actions are as follows:</p>\n<ul>\n<li>\n<strong>Notify by </strong>&gt;<strong> User email</strong>\n</li>\n</ul>\n<p>For more information on the default triggers, see these articles:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408828984346-About-the-standard-ticket-triggers\" target=\"_blank\" rel=\"noopener noreferrer\">About the Support default triggers</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408893545882-Ticket-trigger-conditions-and-actions-reference\" target=\"_blank\" rel=\"noopener noreferrer\">Trigger conditions and actions reference</a></li>\n</ul>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>What trigger conditions and actions are available on the legacy Support Essential plan?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>On the Essential plan, customers are limited to conditions and actions that are present in the default triggers.</p>\n<p>The conditions are as follows:</p>\n<ul>\n<li>\n<strong>Ticket </strong>&gt; <strong>Assignee</strong>\n</li>\n<li>\n<strong>Ticket </strong>&gt;<strong> Comment</strong>\n</li>\n<li>\n<strong>Ticket </strong>&gt;<strong> Priority</strong>\n</li>\n<li>\n<strong>Ticket </strong>&gt;<strong> Privacy</strong>\n</li>\n<li>\n<strong>Ticket </strong>&gt;<strong> Status</strong>\n</li>\n<li>\n<strong>Ticket </strong>&gt;<strong> Ticket</strong>\n</li>\n<li>\n<strong>Ticket details </strong>&gt;<strong> Current User</strong>\n</li>\n<li>\n<strong>Requester </strong>&gt;<strong> Requester</strong>\n</li>\n</ul>\n<p>The available actions are as follows:</p>\n<ul>\n<li>\n<strong>Notify by </strong>&gt;<strong> User email</strong>\n</li>\n</ul>\n<p>For more information on the default triggers, see these articles:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408828984346-About-the-standard-ticket-triggers\" target=\"_blank\" rel=\"noopener noreferrer\">About the Support default triggers</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408893545882-Ticket-trigger-conditions-and-actions-reference\" target=\"_blank\" rel=\"noopener noreferrer\">Trigger conditions and actions reference</a></li>\n</ul>",
       "user_segment_ids": []
     },
     {
