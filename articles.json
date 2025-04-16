@@ -662,7 +662,7 @@
     {
       "id": 9076052870938,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9076052870938.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/9076052870938-Service-Incident-March-28th-2025",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/9076052870938-Service-Incident-March-28-2025-Support-Automation-jobs-not-running-on-some-tickets-on-Pods-13-15-26-and-30",
       "author_id": 1263082084489,
       "comments_disabled": true,
       "draft": false,
@@ -672,14 +672,14 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2025-03-28T21:20:24Z",
-      "updated_at": "2025-03-28T21:31:24Z",
-      "name": "Service Incident - March 28th, 2025",
-      "title": "Service Incident - March 28th, 2025",
+      "updated_at": "2025-04-16T04:25:54Z",
+      "name": "Service Incident - March 28, 2025 - Support | Automation jobs not running on some tickets on Pods 13, 15, 26, and 30",
+      "title": "Service Incident - March 28, 2025 - Support | Automation jobs not running on some tickets on Pods 13, 15, 26, and 30",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-03-28T21:20:24Z",
+      "edited_at": "2025-04-16T04:25:06Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
@@ -688,7 +688,7 @@
         "mt",
         "rank_low_algolia"
       ],
-      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\"><p class=\"p1\"><strong>March 28, 2025 09:20 PM UTC | March 28, 2025 02:20 PM PT </strong><br>Between March 27, 2025 at 8:00 UTC and March 28, 2025 at 18:00 UTC, automation jobs across multiple pods experienced issues firing and some automations may have not fired on some tickets. Please log off and log back into your account to ensure automations run again at their next hourly run time. We apologize for any disruption this may have caused.</p></div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
+      "body": "<h3 id=\"h_01JRYBJXA2GPKVXEN9HJJ8F2A1\">Summary</h3>\n<p>From March 27, 2025 at 09:00 UTC until March 28, 2025 at 18:00 UTC, Zendesk Support customers on Pods 13, 15, 26, and 30 may have experienced issues with automations not running on some tickets. This issue required customers to log out and log back in to restore normal operations. This incident affected all active accounts within the last 14 days on these pods, leading to a noticeable decrease in automation jobs.</p>\n<h3 id=\"h_01JRYBHG5V6DJ3ND6VWTD4D5N0\" class=\"p1\">Timeline</h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>March 28, 2025 09:20 PM UTC | March 28, 2025 02:20 PM PT </strong><br>Between March 27, 2025 at 8:00 UTC and March 28, 2025 at 18:00 UTC, automation jobs across multiple pods experienced issues firing and some automations may have not fired on some tickets. Please log off and log back into your account to ensure automations run again at their next hourly run time. We apologize for any disruption this may have caused.</p>\n</div>\n<h3 id=\"h_01JRYBN3DFQSE3FNWPY950WJNK\">Root Cause Analysis</h3>\n<p>This incident was caused by a code change in a backend service for Zendesk Support that stopped updating the internal job for accounts which resulted in the internal automation job failing to run. While the change aimed to enhance performance, it unintentionally disrupted automation jobs.</p>\n<h3 id=\"h_01JRYBN3DF03FWQ165CPHWBJBW\">Resolution</h3>\n<p>To fix this issue, our team identified the problematic code and rolled it back to a previous working version.</p>\n<h3 id=\"h_01JRYBN3DF38WPQPWMEJHVEM21\">Remediation Items</h3>\n<ol>\n<li>Review and adopt alternative solutions for internal Automations jobs.</li>\n<li>Additional monitoring and alerting to ensure we are notified when automations stop running.</li>\n</ol>\n<h4 id=\"h_01JRYBHG5VVQ7EE6MJ3FN6NXBV\"><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
     },
     {
