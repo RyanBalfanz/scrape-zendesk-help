@@ -19,22 +19,23 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2025-04-17T10:01:19Z",
-      "updated_at": "2025-04-17T10:07:57Z",
+      "updated_at": "2025-04-17T10:31:17Z",
       "name": "Service Incident - April 17th, 2025",
       "title": "Service Incident - April 17th, 2025",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-04-17T10:07:57Z",
+      "edited_at": "2025-04-17T10:27:37Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
       "label_names": [
         "service_incident",
+        "mt",
         "rank_low_algolia"
       ],
-      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>April 17, 2025 10:07 AM UTC | April 17, 2025 03:07 AM PT </strong><br>We are pleased to announce that our engineering team has successfully identified and resolved the root cause of the issue that led to some customers experiencing 404 errors while using our ZAF SDK.</p>\n<p class=\"p1\"><strong>April 17, 2025 10:01 AM UTC | April 17, 2025 03:01 AM PT </strong><br>We received reports from some of our customers that they are receiving 400 errors when trying to use our ZAF SDK. Our engineering team has identified the issue and is working on a resolution.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
+      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>April 17, 2025 10:27 AM UTC | April 17, 2025 03:27 AM PT </strong><br>Thank you for your patience as our engineering team monitored system behavior following their recent fix. We are pleased to inform you that this issue is now resolved. Should you continue to experience any issues with the ZAF SDK or applications reliant on it, please do not hesitate to reach out to us.</p>\n<p class=\"p1\"><strong>April 17, 2025 10:07 AM UTC | April 17, 2025 03:07 AM PT </strong><br>We are pleased to announce that our engineering team has successfully identified and resolved the root cause of the issue that led to some customers experiencing 404 errors while using our ZAF SDK.</p>\n<p class=\"p1\"><strong>April 17, 2025 10:01 AM UTC | April 17, 2025 03:01 AM PT </strong><br>We received reports from some of our customers that they are receiving 400 errors when trying to use our ZAF SDK. Our engineering team has identified the issue and is working on a resolution.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
       "user_segment_ids": []
     },
     {
@@ -78,14 +79,14 @@
       "vote_count": 0,
       "section_id": 4405298881562,
       "created_at": "2025-04-16T14:22:54Z",
-      "updated_at": "2025-04-16T15:27:05Z",
+      "updated_at": "2025-04-17T10:19:36Z",
       "name": "Do I need authorization from Zendesk to perform a penetration test?",
       "title": "Do I need authorization from Zendesk to perform a penetration test?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-04-16T15:27:05Z",
+      "edited_at": "2025-04-17T10:19:36Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -98,7 +99,7 @@
         "vulnerability",
         "ab0_support"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>I would like to perform a penetration test. Do I need authorization from Zendesk?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>No, you don't need authorization from Zendesk to perform a penetration test. You can perform this test anytime, but we recommend avoiding Thursdays. Zendesk usually runs deployments on Thursdays, which may cause scanners to report false positives or false negatives.</p>\n<p>To do the test, you must abide by the terms of our <a href=\"https://www.zendesk.co.uk/company/policies-and-guidelines/responsible-disclosure-policy/#\" target=\"_blank\" rel=\"noopener noreferrer\">Responsible Disclosure Policy</a> and ensure you follow the <a href=\"https://hackerone.com/zendesk\" target=\"_blank\" rel=\"noopener noreferrer\">HackerOne</a> guidelines:</p>\n<ul>\n<li>No test likely to cause service outages for other tenants will be tolerated, such as DoS, DDoS, or RDDoS.</li>\n<li>Social engineering Zendesk or sub-contractor activities aren't allowed.</li>\n</ul>\n<p>Once you complete the test, submit your results to <a href=\"mailto:security@zendesk.com\">security@zendesk.com</a> so we can identify any issues.</p>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>I would like to perform a penetration test. Do I need authorization from Zendesk?</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>No, you don't need authorization from Zendesk to perform a penetration test. You can perform this test anytime, but the Zendesk team recommends avoiding Thursdays. Zendesk usually runs deployments on Thursdays, which may cause scanners to report false positives or false negatives.</p>\n<p>To do the test, you must abide by the terms of the <a href=\"https://www.zendesk.co.uk/company/policies-and-guidelines/responsible-disclosure-policy/#\" target=\"_blank\" rel=\"noopener noreferrer\">Responsible Disclosure Policy</a> and ensure you follow the <a href=\"https://hackerone.com/zendesk\" target=\"_blank\" rel=\"noopener noreferrer\">HackerOne</a> guidelines:</p>\n<ul>\n<li>No test likely to cause service outages for other tenants will be tolerated, such as DoS, DDoS, or RDDoS</li>\n<li>Social engineering Zendesk or sub-contractor activities aren't allowed</li>\n</ul>\n<p>Once you complete the test, submit your results to <a href=\"mailto:security@zendesk.com\">security@zendesk.com</a> so the team can identify any issues.</p>",
       "user_segment_ids": []
     },
     {
