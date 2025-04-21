@@ -81,14 +81,14 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2025-04-21T11:59:35Z",
-      "updated_at": "2025-04-21T16:01:40Z",
+      "updated_at": "2025-04-21T23:47:57Z",
       "name": "Service Incident - April 21st, 2025",
       "title": "Service Incident - April 21st, 2025",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-04-21T15:45:31Z",
+      "edited_at": "2025-04-21T23:47:57Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
@@ -97,7 +97,7 @@
         "mt",
         "rank_low_algolia"
       ],
-      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>April 21, 2025 03:45 PM UTC | April 21, 2025 08:45 AM PT </strong><br>We have received confirmation from several users that they are now able to login to Zendesk. Our engineers are currently monitoring this activity for further improvements. We appreciate your patience during this period and we'll provide the latest updates as it becomes available.</p>\n<p class=\"p1\"><strong>April 21, 2025 01:30 PM UTC | April 21, 2025 06:30 AM PT </strong><br>We are still investigating the issue affecting customers in the UAE region experiencing difficulties logging in to Zendesk. Please bear with us as our engineers are on top of this situation. We will provide further updates as it becomes available.</p>\n<p class=\"p1\"><strong>April 21, 2025 11:59 AM UTC | April 21, 2025 04:59 AM PT </strong><br>We have received reports of an issue affecting a subset of customers in the UAE region who may be experiencing difficulties logging into Zendesk. Our engineering teams are actively working to identify the root cause. We will provide further updates as more information becomes available.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
+      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>April 21, 2025 11:47 PM UTC | April 21, 2025 04:47 PM PT </strong><br>Our monitoring has indicated continued improvement in connectivity for UAE customers resulting from yesterday's local ISP issue. If you continue to experience issues in your Zendesk account, please reach out to your local ISP and send us a message too: https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-customer-support. We will send a final update once we have confirmed the issue is resolved.</p>\n<p class=\"p1\"><strong>April 21, 2025 03:45 PM UTC | April 21, 2025 08:45 AM PT </strong><br>We have received confirmation from several users that they are now able to login to Zendesk. Our engineers are currently monitoring this activity for further improvements. We appreciate your patience during this period and we'll provide the latest updates as it becomes available.</p>\n<p class=\"p1\"><strong>April 21, 2025 01:30 PM UTC | April 21, 2025 06:30 AM PT </strong><br>We are still investigating the issue affecting customers in the UAE region experiencing difficulties logging in to Zendesk. Please bear with us as our engineers are on top of this situation. We will provide further updates as it becomes available.</p>\n<p class=\"p1\"><strong>April 21, 2025 11:59 AM UTC | April 21, 2025 04:59 AM PT </strong><br>We have received reports of an issue affecting a subset of customers in the UAE region who may be experiencing difficulties logging into Zendesk. Our engineering teams are actively working to identify the root cause. We will provide further updates as more information becomes available.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
       "user_segment_ids": []
     },
     {
