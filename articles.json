@@ -1,5 +1,5 @@
 {
-  "count": 4806,
+  "count": 4807,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 161,
@@ -36,6 +36,36 @@
         "rank_low_algolia"
       ],
       "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>April 22, 2025 12:30 PM UTC | April 22, 2025 05:30 AM PT </strong><br>We continue to investigate this issue in Zendesk Support where customers are getting an error “Assignee is not a member of the brand”. We have received several feedback that the workaround provided has worked, and our engineers are working with the other customers that are still having some issues. We appreciate your patience on this and we will provide necessary update as it becomes available.</p>\n<p class=\"p1\"><strong>April 22, 2025 11:06 AM UTC | April 22, 2025 04:06 AM PT </strong><br>We are currently investigating the issue in Zendesk Support where customers are getting an error “Assignee is not a member of the brand”. Our engineers are working on the mitigation and testing the fix. We appreciate your patience on this issue and we will provide updates as it becomes available.</p>\n<p class=\"p1\"><strong>April 22, 2025 10:29 AM UTC | April 22, 2025 03:29 AM PT </strong><br>We have received reports of customers getting an error \"Assignee is not a member of the brand” when logging in to Zendesk Support. Our engineers have already been engaged and are working on mitigating the issue. We apologize for this inconvenience. We will provide the next update in 30 minutes.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
+      "user_segment_ids": []
+    },
+    {
+      "id": 9169454351258,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9169454351258.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/9169454351258-Upcoming-Webinars-April-May-2025",
+      "author_id": 1263082087049,
+      "comments_disabled": true,
+      "draft": false,
+      "promoted": true,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298833818,
+      "created_at": "2025-04-21T16:01:51Z",
+      "updated_at": "2025-04-22T16:05:18Z",
+      "name": "Upcoming Webinars: April - May 2025",
+      "title": "Upcoming Webinars: April - May 2025",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2025-04-22T16:00:50Z",
+      "user_segment_id": null,
+      "permission_group_id": 1324079,
+      "content_tag_ids": [],
+      "label_names": [
+        "mtpe"
+      ],
+      "body": "<p class=\"wysiwyg-text-align-left\">Each month at Zendesk, we offer a variety of interactive webinars designed to support and connect with our customers in meaningful ways. Whether you're looking to explore new features in our <strong><a href=\"https://usergroups.zendesk.com/zendesk-community-events/\" target=\"_blank\" rel=\"noopener noreferrer\">Product deep dives</a></strong>, share feedback directly with our product teams during <strong data-start=\"362\" data-end=\"380\">PM Roundtables</strong>, or build foundational knowledge through <a href=\"https://usergroups.zendesk.com/zendesk-essentials-live-tutorials/\" target=\"_blank\" rel=\"noopener noreferrer\"><strong data-start=\"422\" data-end=\"460\">Zendesk essentials: Live tutorials</strong></a>, there’s something for everyone. These sessions are built to keep you informed, engaged, and empowered—offering live demos, real-world use cases, open dialogue, and direct access to our experts.</p>\n<p class=\"wysiwyg-text-align-left\"> </p>\n<hr>\n<table style=\"border-collapse: collapse; width: 102.43%; border: none; height: 347px;\">\n<tbody>\n<tr style=\"height: 347px;\">\n<td style=\"width: 50%; border: none; height: 347px;\">\n<h4 id=\"h_01HRTB94G4KV6MKP7C6S74KHQZ\" class=\"wysiwyg-text-align-center\"><img src=\"https://support.zendesk.com/hc/article_attachments/9169434475034\" alt=\"Photos_People_ZAIS24_EndCustomerBusinessOwner_1x1_01 1.png\" width=\"400\" height=\"400\"></h4>\n</td>\n<td class=\"wysiwyg-text-align-center\" style=\"width: 50%; border: none; height: 347px;\">\n<h3 id=\"01JQ7E38G7E5NZGAW6ED3T4XR7\" class=\"wysiwyg-text-align-left\"><a href=\"https://usergroups.zendesk.com/zendesk-essentials-live-tutorials/\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk essentials: Live tutorials</a></h3>\n<p class=\"wysiwyg-text-align-left\">Weekly, interactive sessions designed to help you get the most out of core Zendesk features. Perfect for beginners or those needing a refresher, these webinars offer live demos, real-world examples, and expert guidance. You'll learn best practices, see common workflows in action, and get your questions answered live—so you can feel confident using Zendesk to support your business.</p>\n<ul>\n<li class=\"wysiwyg-text-align-left\">\n<a href=\"https://usergroups.zendesk.com/events/details/zendesk-zendesk-essentials-live-tutorials-presents-5-steps-to-provide-email-support-step-1-plan-your-setup/\" target=\"_blank\" rel=\"noopener noreferrer\">5 steps to provide email support - Step 1: Plan your setup</a> - April 29</li>\n<li class=\"wysiwyg-text-align-left\">\n<a href=\"https://usergroups.zendesk.com/events/details/zendesk-zendesk-essentials-live-tutorials-presents-5-steps-to-provide-email-support-step-2-organize-your-team/\" target=\"_blank\" rel=\"noopener noreferrer\">5 steps to provide email support - Step 2: Organize your team</a> - May 6</li>\n<li class=\"wysiwyg-text-align-left\">\n<a href=\"https://usergroups.zendesk.com/events/details/zendesk-zendesk-essentials-live-tutorials-presents-5-steps-to-provide-email-support-step-3-build-the-agent-experience/\" target=\"_blank\" rel=\"noopener noreferrer\">5 steps to provide email support: Step 3 - Build the agent experience</a> - May 13</li>\n<li class=\"wysiwyg-text-align-left\">\n<a href=\"https://usergroups.zendesk.com/events/details/zendesk-zendesk-essentials-live-tutorials-presents-5-steps-to-provide-email-support-step-4-build-the-customer-experience/\" target=\"_blank\" rel=\"noopener noreferrer\">5 steps to provide email support: Step 4 - Build the customer experience</a> - May 20</li>\n<li class=\"wysiwyg-text-align-left\">\n<a href=\"https://usergroups.zendesk.com/events/details/zendesk-zendesk-essentials-live-tutorials-presents-5-steps-to-provide-email-support-step-5-final-steps-to-go-live/\" target=\"_blank\" rel=\"noopener noreferrer\">5 steps to provide email support: Step 5 - Final steps to go live</a> - May 27</li>\n</ul>\n</td>\n</tr>\n</tbody>\n</table>\n<hr>\n<div class=\"reactive-grid\">\n<div class=\"row\">\n<div class=\"column text-align-center\">\n<div class=\"wysiwyg-text-align-justify text-align-center\"></div>\n</div>\n</div>\n<div class=\"row\">\n<div class=\"column\">\n<table style=\"border-collapse: collapse; width: 100%; border: none; height: 356px;\">\n<tbody>\n<tr>\n<td style=\"width: 50%; border: none;\">\n<h3 id=\"h_01JS2B0A13T43EPJHD2YQDAJWQ\">Product insights exchange</h3>\n<p>This is your opportunity to connect directly with the Zendesk Product Team in a collaborative, open discussion. These interactive sessions are all about listening to your feedback, understanding the challenges you’re facing, and exploring how we can improve together. What you share doesn’t just stay in the room—your insights help shape the future of our products and influence the direction of what we build next.</p>\n<ul>\n<li>Coming soon!</li>\n</ul>\n</td>\n<td class=\"wysiwyg-text-align-center\" style=\"width: 50%; border: none;\"><img src=\"https://support.zendesk.com/hc/article_attachments/9169434475418\" alt=\"Photos_People_ZAIS24_Admin_1x1_03 1.png\" width=\"400\" height=\"400\"></td>\n</tr>\n</tbody>\n</table>\n</div>\n</div>\n<div class=\"row\"><hr></div>\n<div class=\"row\">\n<div class=\"column mobile-first text-align-center wysiwyg-text-align-center\"><img src=\"https://support.zendesk.com/hc/article_attachments/9169434475674\" alt=\"Photos_People_AgentExperience_Ease_04 2.png\" width=\"544\" height=\"363\"></div>\n<div class=\"column\">\n<h3 id=\"h_01HRTB94G4RC9M9WPV9KJKA6FW\" class=\"wysiwyg-text-align-center\"><a href=\"https://usergroups.zendesk.com/zendesk-community-events/\" target=\"_blank\" rel=\"noopener noreferrer\">Product deep dives</a></h3>\n<p>A front-row seat to what’s new and next at Zendesk. Led by our Product and Product Marketing teams, these sessions highlight the latest features, share best practices, and include live demos to help you get the most out of your Zendesk experience. You’ll also have the chance to ask questions in real time and share feedback that could shape future product development.</p>\n<ul>\n<li>\n<a href=\"https://usergroups.zendesk.com/events/details/zendesk-zendesk-community-events-presents-relate-deep-dive-on-ai-agents-and-knowledge/\" target=\"_blank\" rel=\"noopener noreferrer\">Relate Deep Dive on AI Agents and Knowledge</a> - April 24</li>\n<li>\n<a href=\"https://usergroups.zendesk.com/events/details/zendesk-zendesk-community-events-presents-relate-deep-dive-on-zendesk-employee-service-suite/\" target=\"_blank\" rel=\"noopener noreferrer\">Relate Deep Dive on Zendesk Employee Service Suite</a> - May 14</li>\n<li>\n<a href=\"https://usergroups.zendesk.com/events/details/zendesk-zendesk-community-events-presents-relate-deep-dive-on-ai-tools-for-agents-and-admins/\" target=\"_blank\" rel=\"noopener noreferrer\">Relate Deep Dive on AI Tools for Agents and Admins</a> - May 29</li>\n</ul>\n</div>\n</div>\n<div class=\"row\"><hr></div>\n<div class=\"row\">\n<div class=\"column\">\n<h3 id=\"h_01HRTB94G4RWN00AGTS09M5JCX\">\n<br>Don’t miss out—Sign up today</h3>\n<p><span>We’re looking forward to learning and growing with you this month. These events are designed to help you get more out of Zendesk, connect with our teams, and hear from others in the community. Whether you're here to ask questions, share feedback, or just explore what's new, there's a place for you in every session.<br><br></span></p>\n</div>\n<div class=\"column mobile-first text-align-center wysiwyg-text-align-center\"><img src=\"https://support.zendesk.com/hc/article_attachments/9169434476058\" alt=\"Photos_People_Relate_2025_FinservConsumers_16x9_02 2.png\"></div>\n</div>\n</div>",
       "user_segment_ids": []
     },
     {
@@ -912,41 +942,6 @@
         "role_admin"
       ],
       "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Question</h2>\n<p>Why do service-level agreement (SLA) badges disappear on tickets unexpectedly?</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/9127244281498\" alt=\"no badge.png\"></p>\n<h2 id=\"h_01JRARD11DXCHYFP836AHTJDC8\">Answer</h2>\n<p>When multiple triggers run simultaneously to update a ticket, race conditions may occur. This may happen if the actions include an <a href=\"https://support.zendesk.com/hc/en-us/articles/4408833721498-Using-autoreplies-to-recommend-articles-in-email-notifications\" target=\"_blank\" rel=\"noopener noreferrer\">autoreply</a> that adds, or modifies a field on a ticket, and other triggers rely on such field.</p>\n<p>As a result, this may affect whether an <a href=\"https://support.zendesk.com/hc/en-us/articles/4408829459866-Defining-SLA-policies\" target=\"_blank\" rel=\"noopener noreferrer\">SLA policy,</a> also known as service level agreement, matches the ticket and create inconsistencies in the SLA badge. SLA policy calculations are not asynchronous and don't account for the order of events. Consequently, the target may have fired on the ticket and you can see these changes in the UI and in the <a href=\"https://developer.zendesk.com/api-reference/ticketing/tickets/ticket_audits/#list-all-ticket-audits\" target=\"_blank\" rel=\"noopener noreferrer\">Ticket Audits API</a>, but the badge may not display as expected.</p>\n<p>For more information, see these articles:</p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408885881498-Troubleshooting-common-SLA-issues\" target=\"_blank\" rel=\"noopener noreferrer\">Troubleshooting common SLA issues</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408882855578-Can-I-use-a-trigger-and-a-webhook-to-update-tickets\" target=\"_blank\" rel=\"noopener noreferrer\">Can I use a trigger and a webhook to update tickets?</a></li>\n</ul>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 9085847127322,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9085847127322.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/9085847127322-Error-appears-when-light-agent-tries-to-log-in",
-      "author_id": 8194860553754,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405298900890,
-      "created_at": "2025-03-31T19:16:03Z",
-      "updated_at": "2025-04-08T15:03:07Z",
-      "name": "Error appears when light agent tries to log in",
-      "title": "Error appears when light agent tries to log in",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2025-04-02T13:06:15Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801135069,
-      "content_tag_ids": [],
-      "label_names": [
-        "ks",
-        "ab0",
-        "mt",
-        "ab0_support",
-        "role_agent",
-        "role_admin"
-      ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Issue symptoms</h2>\n<p>The following error appears when light agent tries to log in: <strong>Password entered does not meet the following requirements Reassign tickets assigned to this agent. Password: is invalid.</strong><br><img src=\"https://support.zendesk.com/hc/article_attachments/9089022358554\" alt=\"Login Error Message.png\"></p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Resolution steps</h2>\n<p>Light agents may see this error if they're the assignee on an active ticket. Light agents can't be the assignee of a ticket. To ensure that light agents are not assigned tickets, Zendesk prevents access to their account or update of their credentials while they are listed as the assignee on active tickets. To resolve this, you can either</p>\n<ul>\n<li>\n<a href=\"https://support.zendesk.com/hc/en-us/articles/4408887127450-Manually-assigning-a-ticket\" target=\"_blank\" rel=\"noopener noreferrer\">Reassign</a> all tickets which have the light agent as assignee</li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4409155967258-Changing-an-agent-s-role#topic_qsp_w45_5zb\" target=\"_blank\" rel=\"noopener noreferrer\">Upgrade the light agent's role</a></li>\n</ul>\n<p>For more information, see the article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408846501402-Understanding-and-setting-light-agent-permissions\" target=\"_blank\" rel=\"noopener noreferrer\">Understanding and setting light agent permissions</a></p>",
       "user_segment_ids": []
     }
   ],
