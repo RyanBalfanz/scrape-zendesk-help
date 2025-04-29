@@ -19,14 +19,14 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2025-04-29T11:38:15Z",
-      "updated_at": "2025-04-29T14:01:29Z",
+      "updated_at": "2025-04-29T15:16:19Z",
       "name": "Service Incident - April 29th, 2025",
       "title": "Service Incident - April 29th, 2025",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-04-29T13:45:35Z",
+      "edited_at": "2025-04-29T15:14:56Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
@@ -35,7 +35,7 @@
         "mt",
         "rank_low_algolia"
       ],
-      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>April 29, 2025 01:45 PM UTC | April 29, 2025 06:45 AM PT </strong><br>We continue to investigate the cause of the degradation of application response time for Zendesk customers in Pod 17. Our engineers are currently identifying the root cause and engaging our partners for their investigation. We appreciate you patience and understanding as we work to provide you with an accurate resolution for the root cause of this issue. We will provide updates as it becomes available.</p>\n<p class=\"p1\"><strong>April 29, 2025 11:38 AM UTC | April 29, 2025 04:38 AM PT </strong><br>We received reports from customers on Pod 17 experiencing slowness with Zendesk products between 10:20 and 10:40 UTC. Our engineers have confirmed that the system has recovered and are currently investigating the root cause. We apologize for the inconvenience and appreciate your patience as we work to resolve this issue. We will provide updates as they become available.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
+      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>April 29, 2025 03:14 PM UTC | April 29, 2025 08:14 AM PT </strong><br>We are pleased to inform you that the degradation of application response time for Zendesk customers in pod 17 has been resolved. We thank you for your understanding and patience as we worked to resolved this issue.</p>\n<p class=\"p1\"><strong>April 29, 2025 01:45 PM UTC | April 29, 2025 06:45 AM PT </strong><br>We continue to investigate the cause of the degradation of application response time for Zendesk customers in Pod 17. Our engineers are currently identifying the root cause and engaging our partners for their investigation. We appreciate you patience and understanding as we work to provide you with an accurate resolution for the root cause of this issue. We will provide updates as it becomes available.</p>\n<p class=\"p1\"><strong>April 29, 2025 11:38 AM UTC | April 29, 2025 04:38 AM PT </strong><br>We received reports from customers on Pod 17 experiencing slowness with Zendesk products between 10:20 and 10:40 UTC. Our engineers have confirmed that the system has recovered and are currently investigating the root cause. We apologize for the inconvenience and appreciate your patience as we work to resolve this issue. We will provide updates as they become available.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
       "user_segment_ids": []
     },
     {
