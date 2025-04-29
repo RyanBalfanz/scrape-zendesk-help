@@ -733,7 +733,7 @@
     {
       "id": 9118517654170,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9118517654170.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/9118517654170-Service-Incident-April-8th-2025",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/9118517654170-Service-Incident-April-8-2025-Zendesk-QA-All-Pods-Scorecard-and-review-submission-failures",
       "author_id": 9005790397722,
       "comments_disabled": true,
       "draft": false,
@@ -743,14 +743,14 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2025-04-08T15:02:28Z",
-      "updated_at": "2025-04-08T16:31:19Z",
-      "name": "Service Incident - April 8th, 2025",
-      "title": "Service Incident - April 8th, 2025",
+      "updated_at": "2025-04-29T06:24:14Z",
+      "name": "Service Incident - April 8, 2025 - Zendesk QA | All Pods - Scorecard and review submission failures",
+      "title": "Service Incident - April 8, 2025 - Zendesk QA | All Pods - Scorecard and review submission failures",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-04-08T16:21:38Z",
+      "edited_at": "2025-04-29T06:23:44Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
@@ -759,7 +759,7 @@
         "mt",
         "rank_low_algolia"
       ],
-      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>April 08, 2025 04:21 PM UTC | April 08, 2025 09:21 AM PT </strong><br>We are pleased to inform you that the issue of the QA Scorecards failing to load in Zendesk QA on multiple pods has been resolved. Our engineers confirmed that the fix was successful. We thank you for your patience on this issue.</p>\n<p class=\"p1\"><strong>April 08, 2025 03:37 PM UTC | April 08, 2025 08:37 AM PT </strong><br>We continue to investigate the issue of the QA Scorecards failing to load in Zendesk QA on multiple pods. Our engineers have rolled back some potentially problematic changes. We appreciate your patience and we will provide the next update in 30 minutes.</p>\n<p class=\"p1\"><strong>April 08, 2025 03:02 PM UTC | April 08, 2025 08:02 AM PT </strong><br>We have received reports of the QA Scorecards failing to load in Zendesk QA on multiple pods. We are currently engaging our engineers to assist with this issue. Investigation is underway. We apologize for this inconvenience and we will be providing the next update in 30 minutes.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
+      "body": "<h3 id=\"h_01JT02R1HYBD6N6GNJFDHN8NCC\">Summary</h3>\n<p>On April 8, 2025 from 12:27 UTC to 16:13 UTC, Zendesk QA customers experienced multiple issues with the product including scorecard loading failures and review submission failures.</p>\n<h3 id=\"h_01JT02QQE8F3YEAPR299WN22FD\">Timeline</h3>\n<p><strong>April 08, 2025 03:02 PM UTC | April 08, 2025 08:02 AM PT </strong><br>We have received reports of the QA Scorecards failing to load in Zendesk QA on multiple pods. We are currently engaging our engineers to assist with this issue. Investigation is underway. We apologize for this inconvenience and we will be providing the next update in 30 minutes.</p>\n<p><strong>April 08, 2025 03:37 PM UTC | April 08, 2025 08:37 AM PT </strong><br>We continue to investigate the issue of the QA Scorecards failing to load in Zendesk QA on multiple pods. Our engineers have rolled back some potentially problematic changes. We appreciate your patience and we will provide the next update in 30 minutes.</p>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>April 08, 2025 04:21 PM UTC | April 08, 2025 09:21 AM PT </strong><br>We are pleased to inform you that the issue of the QA Scorecards failing to load in Zendesk QA on multiple pods has been resolved. Our engineers confirmed that the fix was successful. We thank you for your patience on this issue.</p>\n</div>\n<h3 id=\"h_01JT02QC3HSJMMAFFTA56YJMJB\"><span style=\"color: #06363c;\">Root Cause Analysis</span></h3>\n<p>This incident was caused by a bug in a recent change to our backend real-time messaging service that manages communication between multiple applications. The issue occurred intermittently when concurrent publishing events were handled.</p>\n<h3 id=\"h_01JT02QC3JAP2AW6D3YZ2MXWKK\"><span style=\"color: #06363c;\">Resolution</span></h3>\n<p>To fix this issue, our team identified the change and rolled our application back to a previous working version. The issue was subsequently fixed prior to re-releasing it back into our product.</p>\n<h3 id=\"h_01JT02QC3JEP6QQBCANXX5SZN9\"><span style=\"color: #06363c;\">Remediation Items</span></h3>\n<ol>\n<li>Investigate the possibility of adding a recovery handler to our internal service.</li>\n<li>Additional monitoring to catch similar failures if they happen again.</li>\n</ol>\n<h4 id=\"h_01JT02E5EBYRZW50W7CEPPKER6\"><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
     },
     {
