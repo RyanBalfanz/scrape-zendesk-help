@@ -838,7 +838,7 @@
     {
       "id": 9150287180698,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9150287180698.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/9150287180698-Service-Incident-April-16th-2025",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/9150287180698-Service-Incident-April-16th-2025-Post-mortem-inc-2025-04-16-a-Sev-2-Pod25-Customers-may-experience-latency-and-failures-when-processing-tickets-chats-and-messaging",
       "author_id": 1900815493464,
       "comments_disabled": true,
       "draft": false,
@@ -848,14 +848,14 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2025-04-16T05:29:55Z",
-      "updated_at": "2025-04-17T16:21:44Z",
-      "name": "Service Incident - April 16th, 2025",
-      "title": "Service Incident - April 16th, 2025",
+      "updated_at": "2025-05-06T12:01:35Z",
+      "name": "Service Incident - April 16th, 2025 - [Post-mortem] #inc-2025-04-16-a (Sev 2) Pod25 Customers may experience latency and failures when processing tickets, chats and messaging",
+      "title": "Service Incident - April 16th, 2025 - [Post-mortem] #inc-2025-04-16-a (Sev 2) Pod25 Customers may experience latency and failures when processing tickets, chats and messaging",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-04-16T07:04:40Z",
+      "edited_at": "2025-05-06T11:51:04Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
@@ -864,7 +864,7 @@
         "mt",
         "rank_low_algolia"
       ],
-      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>April 16, 2025 07:04 AM UTC | April 16, 2025 12:04 AM PT </strong><br>We are pleased to inform you that the performance issues affecting multiple products on Pod 25 have been resolved. Inbound emails and tickets received during the incident have already been reprocessed and should appear in Support accounts now. Thank you for your patience and understanding during this time.</p>\n<p class=\"p1\"><strong>April 16, 2025 06:01 AM UTC | April 15, 2025 11:01 PM PT </strong><br>We continue to monitor our systems following full recovery of the performance issues impacting multiple products on Pod 25. Please let us know if you continue to experience errors in our products. We will provide a final update soon.</p>\n<p class=\"p1\"><strong>April 16, 2025 05:29 AM UTC | April 15, 2025 10:29 PM PT </strong><br>We have detected issues on Pod 25 across multiple products since 04:55 UTC. Recovery is being observed, however our team continues to investigate. Some symptoms may include latency and failures experienced by customers when processing tickets, chats, voice, and messaging. More to come.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
+      "body": "<h3 id=\"h_01JTFP8X6SZG795HCTBTFYSVTY\"><strong><span style=\"color: #434343;\">SUMMARY</span></strong></h3>\n<p>On April 16, 2025 from 04:55 UTC to 05:15 UTC, Zendesk Support and Chat customers on Pod 25 may have experienced multiple issues including ticket creation/update errors, chat connection errors, ticket SLA breaches and issues accepting voice calls.</p>\n<h3 id=\"h_01JTFP8X6SSCAF9RBMAEP7XGM7\"><strong><span style=\"color: #434343;\">Timeline</span></strong></h3>\n<p><strong>April 16, 2025 05:29 AM UTC | April 15, 2025 10:29 PM PT</strong></p>\n<p>We have detected issues on Pod 25 across multiple products since 04:55 UTC. Recovery is being observed, however our team continues to investigate. Some symptoms may include latency and failures experienced by customers when processing tickets, chats, voice, and messaging. More to come.</p>\n<p><strong>April 16, 2025 06:01 AM UTC | April 15, 2025 11:01 PM PT</strong></p>\n<p>We continue to monitor our systems following full recovery of the performance issues impacting multiple products on Pod 25. Please let us know if you continue to experience errors in our products. We will provide a final update soon.</p>\n<p><strong>April 16, 2025 06:01 AM UTC | April 15, 2025 11:01 PM PT</strong></p>\n<p>We continue to monitor our systems following full recovery of the performance issues impacting multiple products on Pod 25. Please let us know if you continue to experience errors in our products. We will provide a final update soon.</p>\n<h3 id=\"h_01JTFP8X6SM7ZK0W4BHX4KHQMH\"><strong><span style=\"color: #434343;\">Root Cause Analysis</span></strong></h3>\n<p>This incident was caused by a bug in a third-party container management service that led to an unexpected shutdown of an internal messaging broker. This in turn caused a downstream capacity issue that resulted in the various issues experienced by our customers.</p>\n<h3 id=\"h_01JTFP8X6SARX604WWXXKW3NWZ\"><strong><span style=\"color: #434343;\">Resolution</span></strong></h3>\n<p>The cluster handling the internal messaging broker recovered on its own once it went back online, with no intervention.</p>\n<h3 id=\"h_01JTFP8X6ST4J84C075Z65GZA2\"><strong><span style=\"color: #434343;\">Remediation Items</span></strong></h3>\n<ol>\n<li>Review alerting mechanism for improvements to prevent peak time maintenance activities.</li>\n<li>Investigate customer ticket trend detection for this incident to improve detection time.</li>\n</ol>\n<h4 id=\"h_01JTFP82AVK0B13GKE9N1W6SS8\"><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
     },
     {
