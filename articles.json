@@ -1,5 +1,5 @@
 {
-  "count": 4803,
+  "count": 4804,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 161,
@@ -271,6 +271,39 @@
       "content_tag_ids": [],
       "label_names": [],
       "body": "<p>Creating agentic AI agents - Advanced</p><p>\n    <script id=\"article-redirect-script\">\n      //<![CDATA[\n      const section_id = '9068201702554';\n      const url = 'https://support.zendesk.com/hc/en-us/sections/' + section_id;\n      location.href = url;\n      //]]>\n    </script>\n  </p>",
+      "user_segment_ids": []
+    },
+    {
+      "id": 9211145289626,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9211145289626.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/9211145289626-Why-do-AI-agents-provide-an-answer-in-a-language-different-from-their-settings",
+      "author_id": 1264158225009,
+      "comments_disabled": false,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 8988994355994,
+      "created_at": "2025-05-02T14:14:17Z",
+      "updated_at": "2025-05-08T13:57:12Z",
+      "name": "Why do AI agents provide an answer in a language different from their settings?",
+      "title": "Why do AI agents provide an answer in a language different from their settings?",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2025-05-08T13:56:47Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801135069,
+      "content_tag_ids": [],
+      "label_names": [
+        "ks",
+        "ab0",
+        "role_admin",
+        "AI agent languages"
+      ],
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>I have selected one default language and one language for translation. Why do AI agents provide an answer in a language different from its settings?<br><br><img style=\"aspect-ratio: 589/411; width: 67.84%;\" class=\"image_resized wysiwyg-image-resized\" src=\"https://support.zendesk.com/hc/article_attachments/9211115851162\" width=\"589\" height=\"411\"></p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>AI agents Essential and Advanced provide an answer in the <a href=\"https://support.zendesk.com/hc/en-us/articles/4408821324826-Zendesk-language-support-by-product#h_01GYJ1PBVKD26QN3E8JNS3X3TX:~:text=Languages%20supported%20by%20Zendesk%20AI%20agents\">supported languages</a> for AI agents, independently from the configuration in the <strong>Language</strong> tab. The language set up from this tab only applies to the text provided by an admin in the <strong>Behaviour</strong> tab.</p><p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408842754202-Managing-languages-in-an-AI-agent-for-messaging\" target=\"_blank\" rel=\"noopener noreferrer\">Managing languages in an AI agent for messaging</a></p>",
       "user_segment_ids": []
     },
     {
@@ -901,38 +934,6 @@
         "qsg_visual"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p><strong>Forum topic</strong> is available in the <strong>Ticket Channel</strong> field when I create a trigger. What does this mean?</p>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/9173024229146\" alt=\"Forum topic trigger.png\"></p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p><strong>Forum topic</strong> refers to the original version of the web portal for end users. This portal is now deprecated, and our product <a href=\"https://support.zendesk.com/hc/en-us/articles/4408823954970-Welcome-to-Guide-for-help-center\" target=\"_blank\" rel=\"noopener noreferrer\">Guide</a> is available instead. When you create a trigger, use <strong>Ticket </strong>&gt;<strong> Channel </strong>|<strong> is </strong>| <strong>Help Center post</strong> to detect tickets created from the following actions in the help center:</p>\n<ul>\n<li>An article comment</li>\n<li>A community post</li>\n<li>A community post comment</li>\n</ul>\n<p><img src=\"https://support.zendesk.com/hc/article_attachments/9173024229274\" alt=\"Help center post trigger.png\"></p>\n<p>For more information, see these articles: </p>\n<ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408824097050-About-Zendesk-channels\" target=\"_blank\" rel=\"noopener noreferrer\">About Zendesk channels</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408893545882-Ticket-trigger-conditions-and-actions-reference\">Ticket trigger conditions and actions reference</a></li>\n</ul>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 9168766045338,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9168766045338.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/9168766045338-Service-Incident-April-21st-2025",
-      "author_id": 9005790397722,
-      "comments_disabled": true,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405298854426,
-      "created_at": "2025-04-21T11:59:35Z",
-      "updated_at": "2025-05-01T12:01:29Z",
-      "name": "Service Incident - April 21st, 2025",
-      "title": "Service Incident - April 21st, 2025",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2025-05-01T11:49:27Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801242670,
-      "content_tag_ids": [],
-      "label_names": [
-        "service_incident",
-        "mt",
-        "rank_low_algolia"
-      ],
-      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>May 01, 2025 11:49 AM UTC | May 01, 2025 04:49 AM PT </strong><br>Our investigation indicates this issue is related to network routing issues in the UAE region with a local ISP outside of Zendesk's network. Zendesk continues to advocate with regional network partners to bring light to this issue, however we encourage all customers who are still experiencing connectivity issues to reach out to their local ISP. Customers will need to mention that they have connectivity issues to their Zendesk subdomain and provide your subdomain to the ISP. If you have further issues after contacting your ISP, please feel free to contact us: https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-customer-support.</p>\n<p class=\"p1\"><strong>April 21, 2025 11:47 PM UTC | April 21, 2025 04:47 PM PT </strong><br>Our monitoring has indicated continued improvement in connectivity for UAE customers resulting from yesterday's local ISP issue. If you continue to experience issues in your Zendesk account, please reach out to your local ISP and send us a message too: https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-customer-support. We will send a final update once we have confirmed the issue is resolved.</p>\n<p class=\"p1\"><strong>April 21, 2025 03:45 PM UTC | April 21, 2025 08:45 AM PT </strong><br>We have received confirmation from several users that they are now able to login to Zendesk. Our engineers are currently monitoring this activity for further improvements. We appreciate your patience during this period and we'll provide the latest updates as it becomes available.</p>\n<p class=\"p1\"><strong>April 21, 2025 01:30 PM UTC | April 21, 2025 06:30 AM PT </strong><br>We are still investigating the issue affecting customers in the UAE region experiencing difficulties logging in to Zendesk. Please bear with us as our engineers are on top of this situation. We will provide further updates as it becomes available.</p>\n<p class=\"p1\"><strong>April 21, 2025 11:59 AM UTC | April 21, 2025 04:59 AM PT </strong><br>We have received reports of an issue affecting a subset of customers in the UAE region who may be experiencing difficulties logging into Zendesk. Our engineering teams are actively working to identify the root cause. We will provide further updates as more information becomes available.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
       "user_segment_ids": []
     }
   ],
