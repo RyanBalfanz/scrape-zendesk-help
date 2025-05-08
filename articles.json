@@ -79,7 +79,7 @@
       "vote_count": 0,
       "section_id": 4405298833818,
       "created_at": "2025-05-07T14:45:26Z",
-      "updated_at": "2025-05-07T20:37:08Z",
+      "updated_at": "2025-05-08T15:00:30Z",
       "name": "Announcing consistent terminology across AI agents",
       "title": "Announcing consistent terminology across AI agents",
       "source_locale": "en-us",
@@ -90,7 +90,9 @@
       "user_segment_id": null,
       "permission_group_id": 1324079,
       "content_tag_ids": [],
-      "label_names": [],
+      "label_names": [
+        "mtpe"
+      ],
       "body": "<figure style=\"width: 100%;\" class=\"wysiwyg-table\"><table style=\"border-style: solid; border-width: 1px;\"><tbody>\n<tr>\n<td style=\"border-style: solid; border-width: 1px;\"><strong>Announced on</strong></td>\n<td style=\"border-style: solid; border-width: 1px;\"><strong>Rollout on</strong></td>\n</tr>\n<tr>\n<td style=\"border-style: solid; border-width: 1px;\">May 7, 2025</td>\n<td style=\"border-style: solid; border-width: 1px;\">May 7, 2025</td>\n</tr>\n</tbody></table></figure><p>We are happy to announce that we have made changes to certain terms used in the <a href=\"https://support.zendesk.com/hc/en-us/articles/8725042447002\">AI agents - Advanced</a> UI to align the terminology across Zendesk AI agent functionality.  </p><p>This announcement contains the following topics:</p><ul>\n<li><a href=\"#h_01JTNK68MXAR4PGFTXTJS2341B\">What's changing?</a></li>\n<li><a href=\"#h_01JTNK6HMKCMSZDMJ0KRNPVWQG\">Why is Zendesk making this change?</a></li>\n<li><a href=\"#h_01JTNK6N6Q01D9RXM91VHDQDGN\">What do I need to do?</a></li>\n</ul><h2 id=\"h_01JTNK68MXAR4PGFTXTJS2341B\">What's changing?</h2><p>We have updated the names of certain terms and features in the product. You will now see the following new names for the existing features and concepts:</p><ul>\n<li>UltimateGPT is now called generative replies.</li>\n<li>The chat channel (in AI agents - Advanced) is now called messaging.</li>\n<li>The ticket channel (in AI agents - Advanced) is now called email.</li>\n<li>Content entities are now called entities.</li>\n<li>Visitors are now called customers.</li>\n</ul><h2 id=\"h_01JTNK6HMKCMSZDMJ0KRNPVWQG\">Why is Zendesk making this change?</h2><p>We are making this change to align our terminology across AI agents - Essential and AI agents - Advanced, making the entire experience more consistent and clear.</p><h2 id=\"h_01JTNK6N6Q01D9RXM91VHDQDGN\">What do I need to do?</h2><p>There is no action required on your part. The changes will be reflected directly in the product, and you will see the new terms for the features mentioned above.</p><p>Updates to terminology in the help center articles will follow in the coming weeks.</p><p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/6447052855194\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\">Zendesk Customer Support</a>.</p>",
       "user_segment_ids": []
     },
