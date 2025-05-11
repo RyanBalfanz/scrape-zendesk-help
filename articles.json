@@ -19,14 +19,14 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2025-05-11T10:20:20Z",
-      "updated_at": "2025-05-11T11:01:18Z",
+      "updated_at": "2025-05-11T11:46:26Z",
       "name": "Service Incident - May 11th, 2025",
       "title": "Service Incident - May 11th, 2025",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-05-11T10:54:50Z",
+      "edited_at": "2025-05-11T11:39:44Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
@@ -35,7 +35,7 @@
         "mt",
         "rank_low_algolia"
       ],
-      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>May 11, 2025 10:54 AM UTC | May 11, 2025 03:54 AM PT </strong><br>Our engineering team identified that the issue was due to front-end assets not loading. We redeployed the service, and the issue is now resolved. Zendesk QA is fully operational, and we will continue to monitor for the next 30 minutes. Thank you for your patience.</p>\n<p class=\"p1\"><strong>May 11, 2025 10:20 AM UTC | May 11, 2025 03:20 AM PT </strong><br>We are currently experiencing an outage affecting Zendesk QA for multiple customers. Our team is actively investigating the issue. We will provide the next update in 30 minutes.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
+      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>May 11, 2025 11:39 AM UTC | May 11, 2025 04:39 AM PT </strong><br>We are happy to report that Zendesk QA is fully operational. Thank you for your patience and understanding while we worked to resolve the issue.</p>\n<p class=\"p1\"><strong>May 11, 2025 10:54 AM UTC | May 11, 2025 03:54 AM PT </strong><br>Our engineering team identified that the issue was due to front-end assets not loading. We redeployed the service, and the issue is now resolved. Zendesk QA is fully operational, and we will continue to monitor for the next 30 minutes. Thank you for your patience.</p>\n<p class=\"p1\"><strong>May 11, 2025 10:20 AM UTC | May 11, 2025 03:20 AM PT </strong><br>We are currently experiencing an outage affecting Zendesk QA for multiple customers. Our team is actively investigating the issue. We will provide the next update in 30 minutes.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
       "user_segment_ids": []
     },
     {
