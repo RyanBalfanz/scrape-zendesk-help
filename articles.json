@@ -83,14 +83,14 @@
       "vote_count": 0,
       "section_id": 4405298901658,
       "created_at": "2025-05-09T13:34:05Z",
-      "updated_at": "2025-05-12T13:54:58Z",
+      "updated_at": "2025-05-12T15:09:35Z",
       "name": "Why should I remove legacy DNS entries?",
       "title": "Why should I remove legacy DNS entries?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-05-12T13:36:46Z",
+      "edited_at": "2025-05-12T15:09:35Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -101,7 +101,7 @@
         "ab0_email",
         "role_admin"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>Why should I remove legacy DNS entries?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>Previously, Zendesk recommended adding the four cname records below. We now recommend that you remove these legacy DNS entries. Only legacy customers will have them and, while these records will cause no harm, it's best practice to remove non-functional records of any kind.</p><pre>zendesk1.yourdomain.com &gt;&gt; mail1.zendesk.com\nzendesk2.yourdomain.com &gt;&gt; mail2.zendesk.com\nzendesk3.yourdomain.com &gt;&gt; mail3.zendesk.com\nzendesk4.yourdomain.com &gt;&gt; mail4.zendesk.com</pre><p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408832543770-Allowing-Zendesk-to-send-email-on-behalf-of-your-email-domain?page=1&amp;sort_by=created_at&amp;sort_order=desc#:~:text=Removing%20legacy%20DNS%20entries\" target=\"_blank\" rel=\"noopener noreferrer\">Allowing Zendesk to send email on behalf of your email domain</a></p>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>Why should I remove legacy DNS entries?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>Previously, Zendesk recommended adding the four cname records below. We now recommend that you remove these legacy DNS entries. Only legacy customers will have them. While these records will cause no harm, it's best practice to remove non-functional records of any kind.</p><pre>zendesk1.yourdomain.com &gt;&gt; mail1.zendesk.com\nzendesk2.yourdomain.com &gt;&gt; mail2.zendesk.com\nzendesk3.yourdomain.com &gt;&gt; mail3.zendesk.com\nzendesk4.yourdomain.com &gt;&gt; mail4.zendesk.com</pre><p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408832543770-Allowing-Zendesk-to-send-email-on-behalf-of-your-email-domain?page=1&amp;sort_by=created_at&amp;sort_order=desc#:~:text=Removing%20legacy%20DNS%20entries\" target=\"_blank\" rel=\"noopener noreferrer\">Allowing Zendesk to send email on behalf of your email domain</a>.</p>",
       "user_segment_ids": []
     },
     {
