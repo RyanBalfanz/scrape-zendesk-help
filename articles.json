@@ -19,14 +19,14 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2025-05-13T12:58:33Z",
-      "updated_at": "2025-05-13T13:01:33Z",
+      "updated_at": "2025-05-13T13:31:29Z",
       "name": "Service Incident - May 13th, 2025",
       "title": "Service Incident - May 13th, 2025",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-05-13T12:58:33Z",
+      "edited_at": "2025-05-13T13:29:45Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
@@ -35,7 +35,7 @@
         "mt",
         "rank_low_algolia"
       ],
-      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\"><p class=\"p1\"><strong>May 13, 2025 12:58 PM UTC | May 13, 2025 05:58 AM PT </strong><br>We have received reports of customers unable to login to their Ultimates AI accounts and getting a message saying 'Couldn't authenticate user'. Our engineers are investigating the source of the issue. We apologize for the inconvenience and ask for your patience as we work to resolve this issue. We will provide updates as it becomes available.</p></div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
+      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>May 13, 2025 01:29 PM UTC | May 13, 2025 06:29 AM PT </strong><br>We are pleased to report that the issue where customers are unable to login to their Ultimates AI accounts has been mitigated. Our engineers have applied the fix and are monitoring the system activity. We would like to ask for your cooperation to test if you are now able to get back into your Ultimate AI accounts and reply back to us with the results. Your quick responses will be highly appreciated.</p>\n<p class=\"p1\"><strong>May 13, 2025 12:58 PM UTC | May 13, 2025 05:58 AM PT </strong><br>We have received reports of customers unable to login to their Ultimates AI accounts and getting a message saying 'Couldn't authenticate user'. Our engineers are investigating the source of the issue. We apologize for the inconvenience and ask for your patience as we work to resolve this issue. We will provide updates as it becomes available.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
       "user_segment_ids": []
     },
     {
