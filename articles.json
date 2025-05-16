@@ -224,7 +224,7 @@
     {
       "id": 9243317796122,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9243317796122.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/9243317796122-Service-Incident-May-11th-2025",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/9243317796122-Service-Incident-May-11-2025-All-Pods-Zendesk-QA-is-down-for-multiple-customers",
       "author_id": 1264663901409,
       "comments_disabled": true,
       "draft": false,
@@ -234,14 +234,14 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2025-05-11T10:20:20Z",
-      "updated_at": "2025-05-12T16:21:09Z",
-      "name": "Service Incident - May 11th, 2025",
-      "title": "Service Incident - May 11th, 2025",
+      "updated_at": "2025-05-16T14:01:39Z",
+      "name": "Service Incident - May 11, 2025 - All Pods | Zendesk QA is down for multiple customers",
+      "title": "Service Incident - May 11, 2025 - All Pods | Zendesk QA is down for multiple customers",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-05-11T11:39:44Z",
+      "edited_at": "2025-05-16T13:53:11Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
@@ -250,7 +250,7 @@
         "mt",
         "rank_low_algolia"
       ],
-      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>May 11, 2025 11:39 AM UTC | May 11, 2025 04:39 AM PT </strong><br>We are happy to report that Zendesk QA is fully operational. Thank you for your patience and understanding while we worked to resolve the issue.</p>\n<p class=\"p1\"><strong>May 11, 2025 10:54 AM UTC | May 11, 2025 03:54 AM PT </strong><br>Our engineering team identified that the issue was due to front-end assets not loading. We redeployed the service, and the issue is now resolved. Zendesk QA is fully operational, and we will continue to monitor for the next 30 minutes. Thank you for your patience.</p>\n<p class=\"p1\"><strong>May 11, 2025 10:20 AM UTC | May 11, 2025 03:20 AM PT </strong><br>We are currently experiencing an outage affecting Zendesk QA for multiple customers. Our team is actively investigating the issue. We will provide the next update in 30 minutes.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
+      "body": "<h3 id=\"h_01JVBVHGE7ZZ9HKEVHNJXK0769\"><strong><span style=\"color: #06363c;\">Summary</span></strong></h3>\n<p class=\"wysiwyg-text-align-justify\">On May 11, 2025, from 03:44 UTC to 10:43 UTC, Zendesk QA customers experienced issues loading the Zendesk QA UI, causing the application to display only a loading screen. During this period, some users encountered 404 errors and blank screens.</p>\n<h3 id=\"h_01JVBVHGE73ZVHQ54ZQFJN517M\"><strong><span style=\"color: #06363c;\">Timeline</span></strong></h3>\n<p class=\"wysiwyg-text-align-justify\"><strong>May 11, 2025 10:20 AM UTC | May 11, 2025 03:20 AM PT</strong></p>\n<p class=\"wysiwyg-text-align-justify\">We are currently experiencing an outage affecting Zendesk QA for multiple customers. Our team is actively investigating the issue. We will provide the next update in 30 minutes.</p>\n<p class=\"wysiwyg-text-align-justify\"><strong>May 11, 2025 10:54 AM UTC | May 11, 2025 03:54 AM PT</strong></p>\n<p class=\"wysiwyg-text-align-justify\">Our engineering team identified that the issue was due to front-end assets not loading. We redeployed the service, and the issue is now resolved. Zendesk QA is fully operational, and we will continue to monitor for the next 30 minutes. Thank you for your patience.</p>\n<p class=\"wysiwyg-text-align-justify\"><strong>May 11, 2025 11:39 AM UTC | May 11, 2025 04:39 AM PT</strong></p>\n<p class=\"wysiwyg-text-align-justify\">We are happy to report that Zendesk QA is fully operational. Thank you for your patience and understanding while we worked to resolve the issue.</p>\n<h3 id=\"h_01JVBVHGE7ERZWXB49RDPD97J4\"><strong><span style=\"color: #06363c;\">Root Cause Analysis</span></strong></h3>\n<p class=\"wysiwyg-text-align-justify\">This incident was caused by an error during the preparation of a recent update, which unintentionally included incorrect components in the production environment. As a result, when system updates were applied, some users experienced issues with the application not loading correctly.</p>\n<h3 id=\"h_01JVBVHGE7A4VEB3KJ6NPYRZV3\"><strong><span style=\"color: #06363c;\">Resolution</span></strong></h3>\n<p class=\"wysiwyg-text-align-justify\">To fix the issue, the application was updated with the correct version, restoring normal functionality for users.</p>\n<h3 id=\"h_01JVBVHGE7QT6801KB24QJAXZW\"><strong><span style=\"color: #06363c;\">Remediation Items</span></strong></h3>\n<ol>\n<li>Review and improve the update process to prevent incorrect components from being included in future releases.</li>\n<li>Strengthen monitoring and alert systems to quickly detect and address issues affecting the user interface.</li>\n<li>Introduce additional monitoring to identify unusual drops in application usage that could signal potential problems.</li>\n</ol>\n<h4 id=\"h_01JVBVGE7GR30TRMS7GJV3Z5X8\"><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
     },
     {
@@ -489,7 +489,7 @@
     {
       "id": 9226182375322,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9226182375322.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/9226182375322-Service-Incident-May-6th-2025",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/9226182375322-Service-Incident-May-6-2025-Multiple-Pods-Support-Placeholders-in-macros-are-no-longer-rendering-agent-aliases-full-agent-names-are-being-exposed",
       "author_id": 1263082084489,
       "comments_disabled": true,
       "draft": false,
@@ -499,14 +499,14 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2025-05-06T20:35:09Z",
-      "updated_at": "2025-05-06T21:16:19Z",
-      "name": "Service Incident - May 6th, 2025",
-      "title": "Service Incident - May 6th, 2025",
+      "updated_at": "2025-05-16T14:01:41Z",
+      "name": "Service Incident - May 6, 2025 - Multiple Pods | Support - Placeholders in macros are no longer rendering agent aliases; full agent names are being exposed",
+      "title": "Service Incident - May 6, 2025 - Multiple Pods | Support - Placeholders in macros are no longer rendering agent aliases; full agent names are being exposed",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-05-06T21:11:54Z",
+      "edited_at": "2025-05-16T13:57:38Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
@@ -515,7 +515,7 @@
         "mt",
         "rank_low_algolia"
       ],
-      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>May 06, 2025 09:11 PM UTC | May 06, 2025 02:11 PM PT </strong><br>We are happy to report that the revert has successfully restored expected functionality to name placeholders used in the composer, and agent aliases are rendering as expected at this time. Thank you for your patience during our investigation.</p>\n<p class=\"p1\"><strong>May 06, 2025 08:48 PM UTC | May 06, 2025 01:48 PM PT </strong><br>We have confirmed an issue causing name placeholders in the composer to incorrectly display the agent name rather than their alias and our team is working to revert the responsible deploy. We will share further updates when we have progress on the revert.</p>\n<p class=\"p1\"><strong>May 06, 2025 08:35 PM UTC | May 06, 2025 01:35 PM PT </strong><br>We are receiving reports of issues incorrectly displaying agent names only when using placeholders in macros with ticket updates when agent aliases should be shown. Trigger-based placeholder updates are not affected. We are investigating and will provide further updates shortly.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
+      "body": "<h3 id=\"h_01JVBSFK81W7CG037VV9HGHP2G\"><strong><span style=\"color: #06363c;\">Summary</span></strong></h3>\n<p class=\"wysiwyg-text-align-justify\">On May 6, 2025, from 13:10 UTC to 20:59 UTC, Customers utilizing macros in ticket updates encountered an issue where agent names were displayed incorrectly. Instead of showing the agent’s configured alias, the system displayed the agent’s full name in ticket comments. This impacted customers who rely on aliases to maintain privacy or ensure clarity in their communications.</p>\n<h3 id=\"h_01JVBSFK82R7DQFZAAFJV9ZZ5V\"><strong><span style=\"color: #06363c;\">Timeline</span></strong></h3>\n<p class=\"wysiwyg-text-align-justify\"><strong>May 06, 2025 08:35 PM UTC | May 06, 2025 01:35 PM PT</strong></p>\n<p class=\"wysiwyg-text-align-justify\">We are receiving reports of issues incorrectly displaying agent names only when using placeholders in macros with ticket updates when agent aliases should be shown. Trigger-based placeholder updates are not affected. We are investigating and will provide further updates shortly.</p>\n<p class=\"wysiwyg-text-align-justify\"><strong>May 06, 2025 08:48 PM UTC | May 06, 2025 01:48 PM PT</strong></p>\n<p class=\"wysiwyg-text-align-justify\">We have confirmed an issue causing name placeholders in the composer to incorrectly display the agent name rather than their alias and our team is working to revert the responsible deploy. We will share further updates when we have progress on the revert.</p>\n<p class=\"wysiwyg-text-align-justify\"><strong>May 06, 2025 09:11 PM UTC | May 06, 2025 02:11 PM PT</strong></p>\n<p class=\"wysiwyg-text-align-justify\">We are happy to report that the revert has successfully restored expected functionality to name placeholders used in the composer, and agent aliases are rendering as expected at this time. Thank you for your patience during our investigation.</p>\n<h3 id=\"h_01JVBSFK82B71FJQB8WD1XMRY8\"><strong><span style=\"color: #06363c;\">Root Cause Analysis</span></strong></h3>\n<p class=\"wysiwyg-text-align-justify\">This incident was caused by a software bug introduced during a recent update, which affected the display of agent names when macros added comments to tickets. The system showed full agent names instead of the intended aliases.</p>\n<h3 id=\"h_01JVBSFK82JGFDYTNT42NWX91R\"><strong><span style=\"color: #06363c;\">Resolution</span></strong></h3>\n<p class=\"wysiwyg-text-align-justify\">To fix the issue, the deployment was rolled back to the previous stable version, restoring the correct display of agent aliases in ticket comments.</p>\n<h3 id=\"h_01JVBSFK82H6XKVSHKB1HM8JRV\"><strong><span style=\"color: #06363c;\">Remediation Items</span></strong></h3>\n<ol>\n<li>Enhance regression testing to better validate the correct display of agent aliases in macros.</li>\n<li>Review and refine the notification process related to untested files to strengthen overall test coverage and reduce potential gaps.</li>\n</ol>\n<h4 id=\"h_01JVBS3J0JAF4HWSSJZ3GNKJCF\"><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
     },
     {
