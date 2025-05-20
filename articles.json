@@ -19,7 +19,7 @@
       "vote_count": 0,
       "section_id": 4405298847002,
       "created_at": "2025-05-18T20:05:08Z",
-      "updated_at": "2025-05-19T15:40:42Z",
+      "updated_at": "2025-05-20T15:03:13Z",
       "name": "Release notes through 2025-05-16",
       "title": "Release notes through 2025-05-16",
       "source_locale": "en-us",
@@ -143,7 +143,7 @@
       "vote_count": 0,
       "section_id": 4405303734554,
       "created_at": "2025-05-14T22:42:24Z",
-      "updated_at": "2025-05-14T23:20:36Z",
+      "updated_at": "2025-05-20T15:04:15Z",
       "name": "Ensuring dark mode compatibility for your Zendesk Support apps",
       "title": "Ensuring dark mode compatibility for your Zendesk Support apps",
       "source_locale": "en-us",
@@ -155,6 +155,7 @@
       "permission_group_id": 1324079,
       "content_tag_ids": [],
       "label_names": [
+        "mt",
         "dark_mode"
       ],
       "body": "<p><strong>Audience: </strong>This article is for Zendesk customers using Support apps.</p><p>As Zendesk supports dark mode, it's important that the apps you use also support it to maintain a consistent and visually comfortable workspace. If an app doesn’t support dark mode, it may appear with bright or mismatched visuals that can be distracting or harder to use. </p><p>This article will help you understand what steps to take based on how your app was created or acquired. <br><br>This article includes these sections:</p><ul>\n<li><a href=\"#h_01JV8EXH7Y7PHNW3CBPFGACJQJ\">Scenario 1: App installed from the Zendesk Marketplace</a></li>\n<li><a href=\"#h_01JV8EXH81B8NJ6T79GCA2S7WB\">Scenario 2: App developed internally by your team</a></li>\n<li><a href=\"#h_01JV8EXH845QGQ5RAVKXG5E84Z\">Scenario 3: App built by Zendesk Professional Services</a></li>\n<li><a href=\"#h_01JV8EXH85JTQE13AZYDAWNVPW\">Scenario 4: App built with Zendesk App Builder</a></li>\n<li>\n<a href=\"#h_01JV8EXH87RJFW50N7K2CKJ65A\">Additional tips</a><br> </li>\n</ul><h2 id=\"h_01JV8EXH7Y7PHNW3CBPFGACJQJ\">Scenario 1: App installed from the Zendesk Marketplace</h2><p><strong>What to do </strong><br>If you installed the app from the Zendesk App Marketplace, the responsibility for dark mode support lies with the app developer.</p><p><strong>Steps to take</strong></p><ol>\n<li>Visit the app’s page in the marketplace.</li>\n<li>Scroll to find the <strong>“Contact Us”</strong> link.</li>\n<li>Reach out to the developer to request dark mode support or inquire about planned updates.</li>\n</ol><div class=\"p\">\n<div class=\"note tip\">\n<span class=\"tiptitle\">Tip:</span> When contacting the developer, mention your current Zendesk theme setting (light or dark) and share screenshots if possible. This helps them prioritize and troubleshoot effectively.</div>\n<h2 id=\"h_01JV8EXH81B8NJ6T79GCA2S7WB\">Scenario 2: App developed internally by your team</h2>\n<p><strong>What to do</strong><br>Your internal development team will need to update the app to support dark mode using Zendesk’s development guidelines.</p>\n<p><strong>Steps to take</strong></p>\n<ol>\n<li>Direct your developers to the <a href=\"https://developer.zendesk.com/api-reference/apps/introduction/\"><span class=\"wysiwyg-underline\">Zendesk developer documentation</span></a>.</li>\n<li>Ensure the app uses the latest version of the <a href=\"https://garden.zendesk.com/\"><span class=\"wysiwyg-underline\">Zendesk Garden design system</span></a>, which includes built-in support for dark mode.</li>\n</ol>\n<div class=\"p\">\n<div class=\"note tip\">\n<span class=\"tiptitle\">Tip:</span> Ask your developers to test the app in both light and dark modes to ensure proper behavior before deploying changes.</div>\n<h2 id=\"h_01JV8EXH845QGQ5RAVKXG5E84Z\">Scenario 3: App built by Zendesk Professional Services</h2>\n<p><strong>What to do</strong><br>Zendesk Professional Services builds custom apps for customers. If they created your app, they can help update it for dark mode.</p>\n<p><strong>Steps to take</strong></p>\n<ol>\n<li>Reach out to your Zendesk account representative or customer success manager.</li>\n<li>Mention that you’re using dark mode and would like assistance with updating your custom app.</li>\n</ol>\n<div class=\"p\">\n<div class=\"note tip\">\n<span class=\"tiptitle\">Tip:</span> If you’re unsure whether Zendesk built the app, check your project documentation or reach out to Zendesk support for clarification.</div>\n<h2 id=\"h_01JV8EXH85JTQE13AZYDAWNVPW\">Scenario 4: App built with Zendesk App Builder</h2>\n<p><strong>What to do</strong><br>If your app was built using Zendesk App Builder, it may need to be rebuilt or recompiled to ensure dark mode support.</p>\n<p><strong>Steps to take</strong></p>\n<ol>\n<li>Locate the original app or reach out to the team that built it.</li>\n<li>Rebuild the app assets using the latest version of <a href=\"https://support.zendesk.com/hc/en-us/articles/9034700691866-Using-the-App-Builder-EAP\"><span class=\"wysiwyg-underline\">App Builder</span></a>, which includes dark mode compatibility features.</li>\n</ol>\n<div class=\"p\">\n<div class=\"note tip\">\n<span class=\"tiptitle\">Tip:</span> Make sure to test in both light and dark themes after rebuilding.</div>\n<h2 id=\"h_01JV8EXH87RJFW50N7K2CKJ65A\">Additional tips</h2>\n<ul>\n<li>\n<strong>How do I know if an app supports dark mode? </strong>Switch the profile menu of your Zendesk instance to dark mode and observe the app's appearance. If the app looks out of place (for example, overly bright or unreadable), it likely doesn't support dark mode.</li>\n<li>\n<strong>Can I force dark mode in an unsupported app? </strong>Not reliably. If an app isn’t designed for dark mode, forcing dark styles may cause functionality or visibility issues.</li>\n<li>\n<strong>Still not sure who built the app? </strong>Visit the <strong>Admin Center &gt; Apps and Integrations &gt; Apps </strong>page. The app name and configuration details can help identify whether it's installed from the Marketplace, built internally, or built by Zendesk.</li>\n</ul>\n</div>\n</div>\n</div>\n</div>",
@@ -203,7 +204,7 @@
       "vote_count": 0,
       "section_id": 4405298903578,
       "created_at": "2025-05-14T13:11:36Z",
-      "updated_at": "2025-05-14T14:48:40Z",
+      "updated_at": "2025-05-20T15:02:24Z",
       "name": "Error: There was an error processing your request",
       "title": "Error: There was an error processing your request",
       "source_locale": "en-us",
@@ -217,6 +218,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_chat",
         "ab0_web_widget",
         "role_admin"
@@ -362,7 +364,7 @@
       "vote_count": 0,
       "section_id": 4405298850586,
       "created_at": "2025-05-09T17:57:24Z",
-      "updated_at": "2025-05-13T23:04:24Z",
+      "updated_at": "2025-05-20T15:02:43Z",
       "name": "Why can't a Talk Team lead view calls in the Talk live dashboard?",
       "title": "Why can't a Talk Team lead view calls in the Talk live dashboard?",
       "source_locale": "en-us",
@@ -380,6 +382,7 @@
         "talk",
         "ks",
         "ab0",
+        "mt",
         "ab0_explore",
         "Team lead"
       ],
@@ -774,7 +777,7 @@
       "vote_count": 0,
       "section_id": 4405303740826,
       "created_at": "2025-05-02T14:40:33Z",
-      "updated_at": "2025-05-13T08:03:41Z",
+      "updated_at": "2025-05-20T15:02:46Z",
       "name": "What does the tag silence in calls report mean?",
       "title": "What does the tag silence in calls report mean?",
       "source_locale": "en-us",
@@ -788,6 +791,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_talk",
         "role_agent",
         "role_admin"
@@ -808,7 +812,7 @@
       "vote_count": 0,
       "section_id": 4405303741594,
       "created_at": "2025-05-02T14:14:17Z",
-      "updated_at": "2025-05-19T13:16:20Z",
+      "updated_at": "2025-05-20T15:02:39Z",
       "name": "Why do AI agents provide an answer in a language different from their settings?",
       "title": "Why do AI agents provide an answer in a language different from their settings?",
       "source_locale": "en-us",
