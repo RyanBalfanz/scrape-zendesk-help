@@ -109,7 +109,7 @@
       "vote_count": 0,
       "section_id": 4405298833818,
       "created_at": "2025-05-19T17:49:33Z",
-      "updated_at": "2025-05-20T23:00:45Z",
+      "updated_at": "2025-05-21T15:00:12Z",
       "name": "Announcing an event log for custom object records",
       "title": "Announcing an event log for custom object records",
       "source_locale": "en-us",
@@ -120,7 +120,9 @@
       "user_segment_id": null,
       "permission_group_id": 1324079,
       "content_tag_ids": [],
-      "label_names": [],
+      "label_names": [
+        "mtpe"
+      ],
       "body": "<table style=\"border-collapse: collapse; width: 100%; height: 44px;\" border=\"1\">\n    <tbody>\n      <tr style=\"height: 22px;\">\n        <td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\">\n          <strong>Announced on</strong>\n        </td>\n        <td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\">\n          <strong>Rollout starts</strong>\n        </td>\n        <td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\">\n          <strong>Rollout ends</strong>\n        </td>\n      </tr>\n      <tr style=\"height: 22px;\">\n        <td style=\"width: 33.3333%; height: 22px;\">May 20, 2025</td>\n        <td style=\"width: 33.3333%; height: 22px;\">\n          <span class=\"wysiwyg-color-black\">May 20, 2025</span>\n        </td>\n        <td style=\"width: 33.3333%; height: 22px;\">May 21, 2025</td>\n      </tr>\n    </tbody>\n  </table><p><span style=\"font-weight: 400;\">Zendesk is excited to announce that a changes to custom object records are now captured in an event log in Agent Workspace.</span></p><p><span style=\"font-weight: 400;\">This announcement includes the following topics:</span></p><ul>\n<li><a href=\"#h_01GD3S97RDYVTAFTQ8WR9878VF\" target=\"_self\"><span style=\"font-weight: 400;\">What is changing?</span></a></li>\n<li><a href=\"#h_01GD3S9GD63FPDGQSEFY88M3ND\" target=\"_self\"><span style=\"font-weight: 400;\">Why is Zendesk making this change?</span></a></li>\n<li><a href=\"#h_01GD3S9TSPXM7M4WHYKYF4E84M\" target=\"_self\"><span style=\"font-weight: 400;\">What do I need to do?</span></a></li>\n</ul><h2 id=\"h_01GD3S97RDYVTAFTQ8WR9878VF\"><span style=\"font-weight: 400;\">What is changing?</span></h2><p>Custom object records contain a lot of important custom data. Previously, it was difficult to identify when and how changes to a record were made. Now, each record includes an Events tab, which displays a log of all updates to the record made by users and triggers after May 20, 2025. Events include field values that are added, removed, or changed.</p><p>For more information, see <a href=\"https://support.zendesk.com/hc/en-us/articles/9174563278874\">Viewing custom object record events</a>.</p><div class=\"p\"><div class=\"note\">\n<span class=\"notetitle\">Note:</span> Record events that occurred prior to May 20, 2025 aren't visible on the Events tab.</div></div><h2 id=\"h_01GD3S9GD63FPDGQSEFY88M3ND\"><span style=\"font-weight: 400;\">Why is Zendesk making this change?</span></h2><p>Zendesk heard from customers that more visibility into record changes was essential. This feature is designed to help admins understand what changes were made to custom object records, when the changes occurred, and by whom.</p><h2 id=\"h_01GD3S9TSPXM7M4WHYKYF4E84M\"><span style=\"font-weight: 400;\">What do I need to do?</span></h2><p>You don't need to do anything. Record changes will begin appearing after May 20, 2025 for all accounts using custom objects.</p><p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\">Zendesk Customer Support</a>.</p>",
       "user_segment_ids": []
     },
@@ -137,7 +139,7 @@
       "vote_count": 0,
       "section_id": 4405298847002,
       "created_at": "2025-05-18T20:05:08Z",
-      "updated_at": "2025-05-20T20:27:10Z",
+      "updated_at": "2025-05-21T15:01:13Z",
       "name": "Release notes through 2025-05-16",
       "title": "Release notes through 2025-05-16",
       "source_locale": "en-us",
@@ -233,7 +235,7 @@
       "vote_count": 0,
       "section_id": 4405298833818,
       "created_at": "2025-05-14T23:56:12Z",
-      "updated_at": "2025-05-20T02:56:14Z",
+      "updated_at": "2025-05-21T15:00:13Z",
       "name": "Announcing inactive messaging conversation reminders for end users",
       "title": "Announcing inactive messaging conversation reminders for end users",
       "source_locale": "en-us",
@@ -244,7 +246,9 @@
       "user_segment_id": null,
       "permission_group_id": 1324079,
       "content_tag_ids": [],
-      "label_names": [],
+      "label_names": [
+        "mtpe"
+      ],
       "body": "<figure style=\"height: 44px; width: 100%;\" class=\"wysiwyg-table\"><table style=\"border-collapse: collapse; border-style: solid; border-width: 1px;\"><tbody>\n<tr style=\"height: 22px;\">\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 50%;\"><strong>Announced on</strong></td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 50%;\"><strong>Rollout on</strong></td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 50%;\">May 20, 2025</td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 50%;\">May 19, 2025</td>\n</tr>\n</tbody></table></figure><p>Zendesk is pleased to announce the release of inactive messaging conversation reminders, an addition to the capacity release setting in messaging. </p><p>This announcement includes the following topics:</p><ul>\n<li><a href=\"#h_01GD3S97RDYVTAFTQ8WR9878VF\" target=\"_self\">What is changing?</a></li>\n<li><a href=\"#h_01GD3S9GD63FPDGQSEFY88M3ND\" target=\"_self\">Why is Zendesk making this change?</a></li>\n<li><a href=\"#h_01GD3S9TSPXM7M4WHYKYF4E84M\" target=\"_self\">What do I need to do?</a></li>\n</ul><h2 id=\"h_01JA6CJCXMBQRBSETDNR44PFYC\">What is changing?</h2><p>We are adding automatic reminders to the capacity release feature in messaging, which lets you  send up to three nudges to end users, encouraging them to respond to the inactive conversation, and resolves the ticket if no response is received.</p><h2 id=\"h_01GD3S9GD63FPDGQSEFY88M3ND\">Why is Zendesk making this change?</h2><p>When an agent is engaged in a conversation with an end user, there are instances where the end user may leave without confirming that the issue has been resolved. This lack of clear communication can leave the agent uncertain about whether the issue is resolved, negatively impacting customer service efficiency. </p><p>This can lead to several challenges: </p><ul>\n<li>\n<strong>Extended resolution time</strong>: Agents may waste time following up with users to reach a resolution, resulting in unresolved tickets and negatively affecting average resolution times.</li>\n<li>\n<strong>Longer wait times</strong>: Accumulated unresolved tickets increase wait times for customers, prolonging their wait for assistance and contributing to a frustrating experience.</li>\n<li>\n<strong>Operational inefficiency</strong>: Uncertainty about conversation statuses can lead to inefficient resource use, with some agents waiting for end-user responses while others are busy with active interactions.</li>\n</ul><h2 id=\"h_01GD3S9TSPXM7M4WHYKYF4E84M\">What do I need to do?</h2><p>Accounts created after May 19, 2025, have inactivity reminders turned on by default. Existing accounts will need to turn on and configure agent capacity settings to use the feature. See <a href=\"https://support.zendesk.com/hc/en-us/articles/7043034053658\" target=\"_blank\" rel=\"noopener noreferrer\">Automatically releasing agent capacity for inactive messaging conversations </a>for more information.</p><p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/1260801308710\" target=\"_blank\" rel=\"noopener noreferrer\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\">Zendesk Customer Support</a>.</p>",
       "user_segment_ids": []
     },
