@@ -381,7 +381,7 @@
     {
       "id": 9251115119770,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9251115119770.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/9251115119770-Service-Incident-May-13th-2025",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/9251115119770-Service-Incident-May-13-2025-Multiple-Pods-Agent-AI-Customers-unable-to-log-in-to-Ultimates-AI-Agents-receiving-Couldn-t-authenticate-user-errors",
       "author_id": 9005790397722,
       "comments_disabled": true,
       "draft": false,
@@ -391,14 +391,14 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2025-05-13T12:58:33Z",
-      "updated_at": "2025-05-13T13:31:29Z",
-      "name": "Service Incident - May 13th, 2025",
-      "title": "Service Incident - May 13th, 2025",
+      "updated_at": "2025-05-22T00:19:22Z",
+      "name": "Service Incident - May 13, 2025 - Multiple Pods | Agent AI - Customers unable to log in to Ultimates AI Agents, receiving “Couldn’t authenticate user” errors",
+      "title": "Service Incident - May 13, 2025 - Multiple Pods | Agent AI - Customers unable to log in to Ultimates AI Agents, receiving “Couldn’t authenticate user” errors",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-05-13T13:29:45Z",
+      "edited_at": "2025-05-22T00:18:30Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
@@ -407,7 +407,7 @@
         "mt",
         "rank_low_algolia"
       ],
-      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>May 13, 2025 01:29 PM UTC | May 13, 2025 06:29 AM PT </strong><br>We are pleased to report that the issue where customers are unable to login to their Ultimates AI accounts has been mitigated. Our engineers have applied the fix and are monitoring the system activity. We would like to ask for your cooperation to test if you are now able to get back into your Ultimate AI accounts and reply back to us with the results. Your quick responses will be highly appreciated.</p>\n<p class=\"p1\"><strong>May 13, 2025 12:58 PM UTC | May 13, 2025 05:58 AM PT </strong><br>We have received reports of customers unable to login to their Ultimates AI accounts and getting a message saying 'Couldn't authenticate user'. Our engineers are investigating the source of the issue. We apologize for the inconvenience and ask for your patience as we work to resolve this issue. We will provide updates as it becomes available.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
+      "body": "<h3 id=\"h_01JVTN2CG4QQXQVJ3EHH37VTBK\"><strong><span style=\"color: #06363c;\">Summary</span></strong></h3>\n<p class=\"wysiwyg-text-align-justify\">On May 13, 2025, from 09:53 UTC to 13:29 UTC, customers in the EU region experienced login failures when accessing their Ultimate AI Agents accounts via Zendesk’s admin center. Users encountered “Couldn’t authenticate user” errors that prevented access to the AI Agents dashboard. Additionally, some billing events related to AI Agents were not processed correctly due to the same underlying issue. While the AI Agents themselves remained functional for end users, the login and billing disruptions impacted customer experience and reporting.</p>\n<h3 id=\"h_01JVTN2CG4ZMZ8E88K8P02ZPXN\"><strong><span style=\"color: #06363c;\">Timeline</span></strong></h3>\n<p class=\"wysiwyg-text-align-justify\"><strong>May 13, 2025 12:58 PM UTC | May 13, 2025 05:58 AM PT</strong></p>\n<p class=\"wysiwyg-text-align-justify\">We have received reports of customers unable to login to their Ultimates AI accounts and getting a message saying 'Couldn't authenticate user'. Our engineers are investigating the source of the issue. We apologize for the inconvenience and ask for your patience as we work to resolve this issue. We will provide updates as it becomes available.</p>\n<p class=\"wysiwyg-text-align-justify\"><strong>May 13, 2025 01:29 PM UTC | May 13, 2025 06:29 AM PT</strong></p>\n<p class=\"wysiwyg-text-align-justify\">We are pleased to report that the issue where customers are unable to login to their Ultimates AI accounts has been mitigated. Our engineers have applied the fix and are monitoring the system activity. We would like to ask for your cooperation to test if you are now able to get back into your Ultimate AI accounts and reply back to us with the results. Your quick responses will be highly appreciated.</p>\n<h3 id=\"h_01JVTN2CG4XESQVYGCEKQDX4J7\"><strong><span style=\"color: #06363c;\">Root Cause Analysis</span></strong></h3>\n<p class=\"wysiwyg-text-align-justify\">The incident was caused by clock drift and network latency issues affecting certain system components responsible for user login and billing processes. These issues led to failures in verifying user access and disruptions in billing event reporting. Additionally, a cache refresh issue was identified that impacted billing accuracy when specific settings were changed.</p>\n<h3 id=\"h_01JVTN2CG5VD05JZHR6G33M3YN\"><strong><span style=\"color: #06363c;\">Resolution</span></strong></h3>\n<p class=\"wysiwyg-text-align-justify\">To fix this issue, we redeployed the affected services onto stable nodes with synchronized clocks and improved network reliability. Additionally, we implemented a fix to resolve the cache refresh problem. These measures restored normal login functionality and ensured accurate billing event processing.</p>\n<h3 id=\"h_01JVTN2CG5M10SVHQT268WH04E\"><strong><span style=\"color: #06363c;\">Remediation Items</span></strong></h3>\n<ol>\n<li>Deploy the permissions service only on reliable nodes with consistent timing to prevent future access verification problems.</li>\n<li>Implement monitoring and alerting for authentication and billing event errors to enable faster detection and response.</li>\n<li>Fix cache management to ensure billing events are accurately tracked when organizational changes occur.</li>\n<li>Continue enhancing error tracking and reporting for AI Agents services.</li>\n</ol>\n<h4 id=\"h_01JVTMP3WRF3PBVVFCE5G08PZS\"><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
     },
     {
