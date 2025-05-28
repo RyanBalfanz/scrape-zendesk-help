@@ -1,5 +1,5 @@
 {
-  "count": 4810,
+  "count": 4811,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 161,
@@ -115,7 +115,7 @@
       "vote_count": 1,
       "section_id": 4405298833818,
       "created_at": "2025-05-22T22:06:17Z",
-      "updated_at": "2025-05-27T23:46:43Z",
+      "updated_at": "2025-05-28T15:00:12Z",
       "name": "Announcing the ability to filter team members without brand assignments",
       "title": "Announcing the ability to filter team members without brand assignments",
       "source_locale": "en-us",
@@ -126,7 +126,9 @@
       "user_segment_id": null,
       "permission_group_id": 1324079,
       "content_tag_ids": [],
-      "label_names": [],
+      "label_names": [
+        "mtpe"
+      ],
       "body": "<table style=\"border-collapse: collapse; width: 100%; height: 44px;\" border=\"1\">\n    <tbody>\n      <tr style=\"height: 22px;\">\n        <td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\">\n          <strong>Announced on</strong>\n        </td>\n        <td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\">\n          <strong>Rollout on</strong>\n        </td>\n      </tr>\n      <tr style=\"height: 22px;\">\n        <td style=\"width: 33.3333%; height: 22px;\">May 27, 2025</td>\n        <td style=\"width: 33.3333%; height: 22px;\">May 27, 2025</td>\n      </tr>\n    </tbody>\n  </table><p>A new filter on the Team members page helps you quickly identify agents missing a brand assignment.</p><p>This announcement includes the following topics:</p><ul>\n<li><a href=\"#h_01JVX05R2NS37KG7VE942XKH01\">What's changing?</a></li>\n<li><a href=\"#h_01JVX0GAVK9H5GS5HKA8TSP003\">Why is Zendesk making this change?</a></li>\n<li><a href=\"#h_01JVX0JYSD25ZKNWBSHK17GM8D\">What do I need to do?</a></li>\n</ul><h2 id=\"h_01JVX05R2NS37KG7VE942XKH01\">What's changing?</h2><p>We’ve added a new <strong>No brand</strong> filter to the Team members page in Admin Center, which allows Enterprise customers to easily view agents who are not assigned to any brand.  See <a href=\"https://support.zendesk.com/hc/en-us/articles/7584022494874#topic_ms4_sky_jfc\" target=\"_blank\" rel=\"noopener noreferrer\">Filtering team members by brand</a> for more information.</p><p><img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/team_members_no_brand.png\" width=\"400\"></p><h2 id=\"h_01JVX0GAVK9H5GS5HKA8TSP003\">Why is Zendesk making this change?</h2><p>With the upcoming rollout of department spaces, ensuring all agents are assigned to a brand is important for maintaining ticket access. This new filter makes it easier to manage your team and confirm brand assignments.</p><h2 id=\"h_01JVX0JYSD25ZKNWBSHK17GM8D\">What do I need to do?</h2><p>There is nothing you need to do. This feature is now automatically available to all enterprise customers in the Admin Center.</p><p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/4408860477850\" target=\"_blank\" rel=\"noopener noreferrer\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk Customer Support</a>.</p><p> </p>",
       "user_segment_ids": []
     },
@@ -775,6 +777,39 @@
       "user_segment_ids": []
     },
     {
+      "id": 9232243522330,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9232243522330.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/9232243522330-Workflow-Deactivate-the-CSAT-survey-email-for-a-specific-customer",
+      "author_id": 1263082286069,
+      "comments_disabled": false,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298901274,
+      "created_at": "2025-05-08T05:09:31Z",
+      "updated_at": "2025-05-28T15:04:21Z",
+      "name": "Workflow: Deactivate the CSAT survey email for a specific customer",
+      "title": "Workflow: Deactivate the CSAT survey email for a specific customer",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2025-05-28T15:04:20Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801135069,
+      "content_tag_ids": [],
+      "label_names": [
+        "ks",
+        "ab0",
+        "ab0_support",
+        "role_admin"
+      ],
+      "body": "<p>This article covers the steps to deactivate the customer satisfaction (CSAT) survey notification for a specific customer.</p><p>The workflow includes the steps below.</p><ul>\n<li><a href=\"#h_01HXY1BFCAPEN08R87P7ENG6TS\">Step 1: Add a tag to the end user profile</a></li>\n<li><a href=\"#01HXY1G18XYBGPX37812NDQPP4\">Step 2: Identify relevant tickets where the end user is a requester</a></li>\n<li><a href=\"#h_01HXY1GYQDRZ3V1Y2A1VJXG88P\">Step 3: Amend the CSAT automation \"Request customer satisfaction rating (System Automation)\"</a></li>\n<li><a href=\"#h_01JTQ3EP90E5Z0EBAT27QQ4CSW\">Step 4: Amend the Messaging CSAT trigger \"Request customer satisfaction rating (messaging)\" </a></li>\n</ul><h3 id=\"h_01HXY1BFCAPEN08R87P7ENG6TS\">Step 1: Add a tag to the end user profile</h3><ol>\n<li>Find the customer ticket in Zendesk and open <a href=\"https://support.zendesk.com/hc/en-us/articles/4408835022490-Viewing-and-editing-your-user-profile-in-Zendesk-Support\" target=\"_blank\" rel=\"noopener noreferrer\">their user profile</a>\n</li>\n<li>Add a unique tag to the <strong>Tags</strong> user field<br> <figure class=\"image wysiwyg-image image-style-block-align-left wysiwyg-image-block-start\"><img style=\"aspect-ratio: 549/553;\" src=\"https://support.zendesk.com/hc/article_attachments/9232223165722\" width=\"549\" height=\"553\"></figure>\n</li>\n</ol><h3 id=\"01HXY1G18XYBGPX37812NDQPP4\">Step 2: Identify relevant tickets where the end user is a requester</h3><p>The user tag applied in Step 1 is not automatically added to existing tickets where the end user is already the requester. For this reason, all <strong>Open</strong>, <strong>Pending</strong> or <strong>On-Hold </strong>tickets where the end user is a requester must be updated with the tag. <br><br><strong>To update these tickets</strong></p><ol>\n<li>Navigate to the end user profile</li>\n<li>Identify the tickets by <a href=\"https://support.zendesk.com/hc/en-us/articles/8263915942938-About-the-ticket-lifecycle-and-ticket-statuses#topic_lqf_myk_fdc\" target=\"_blank\" rel=\"noopener noreferrer\">ticket status </a>and <a href=\"https://support.zendesk.com/hc/en-us/articles/4408886890906-Managing-tickets-in-bulk#topic_oth_lkp_gk\" target=\"_blank\" rel=\"noopener noreferrer\">bulk update </a>these tickets with the tag used in Step 1 </li>\n</ol><h3 id=\"h_01HXY1GYQDRZ3V1Y2A1VJXG88P\">Step 3: Amend the CSAT automation \"Request customer satisfaction rating (System Automation)\" </h3><p><strong>To edit the CSAT automation</strong><br><br>1. In the <a href=\"https://support.zendesk.com/hc/en-us/articles/4581766374554-Using-Zendesk-Admin-Center\" target=\"_blank\" rel=\"noopener noreferrer\">Admin Center</a> go to <strong>Admin &gt; Objects and Rules &gt; Business rules &gt; Automations</strong><br>2<strong>.</strong> Search for the CSAT automation <strong>Request customer satisfaction rating (System Automation) </strong>or the custom automation that sends the CSAT survey to your end users</p><p>3. Under <strong>Meet ALL of the following conditions</strong>, add:</p><ul><li>\n<strong>Ticket: Tags</strong> | <strong>Contains none of the following </strong>| unique tag</li></ul><p><img class=\"image-style-align-left wysiwyg-image-align-start wysiwyg-image-inline\" src=\"https://support.zendesk.com/hc/article_attachments/9232223165850\" width=\"943\" height=\"428\"></p><h3 id=\"h_01JTQ3EP90E5Z0EBAT27QQ4CSW\">Step 4: Amend the Messaging CSAT trigger \"Request customer satisfaction rating (messaging)\" </h3><div class=\"p\"><div class=\"note\">\n<span class=\"notetitle\">Note:</span> The Messaging CSAT trigger is part of the <a href=\"https://support.zendesk.com/hc/en-us/articles/4408886173338-About-the-CSAT-Customer-Satisfaction-user-experience-for-email-and-messaging\" target=\"_blank\" rel=\"noopener noreferrer\">updated CSAT option </a>and is not available in the <a href=\"https://support.zendesk.com/hc/en-us/articles/4408822875034-Enabling-legacy-CSAT-customer-satisfaction-ratings\" target=\"_blank\" rel=\"noopener noreferrer\">Legacy CSAT option</a>\n</div></div><p><strong>To edit the Messaging CSAT trigger</strong></p><ol>\n<li>In the <a href=\"https://support.zendesk.com/hc/en-us/articles/4581766374554-Using-Zendesk-Admin-Center\">Admin Center</a> go to  <strong>Admin &gt; Objects and Rules &gt; Business rules &gt; Triggers</strong>\n</li>\n<li>Search for the Messaging CSAT trigger <strong>Request customer satisfaction rating (messaging) </strong>or the custom automation that sends the Messaging CSAT survey to your end users</li>\n<li>\n<p>Under <strong>Meet ALL of the following conditions</strong>, add:</p>\n<p><strong>Ticket &gt; Tags</strong> |<strong> Contains none of the following </strong>| unique tag</p>\n</li>\n</ol><p><img style=\"aspect-ratio: 705/586; width: 76.95%;\" class=\"image_resized wysiwyg-image-resized image-style-align-left wysiwyg-image-align-start wysiwyg-image-inline\" src=\"https://support.zendesk.com/hc/article_attachments/9232223165978\" width=\"705\" height=\"586\"></p>",
+      "user_segment_ids": []
+    },
+    {
       "id": 9232003770138,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9232003770138.json",
       "html_url": "https://support.zendesk.com/hc/en-us/articles/9232003770138-Scheduled-Maintenance-May-29-2025-Pods-23-28-Zendesk-Messaging-Sunshine-Conversations",
@@ -925,34 +960,6 @@
         "rank_low_algolia"
       ],
       "body": "<div class=\"note tip\">See our <a href=\"https://support.zendesk.com/hc/en-us/articles/9067906531994\" target=\"_blank\" rel=\"noopener noreferrer\">What's New</a> for an overview of what was released last month.</div><p>This week's release notes include:</p><ul>\n<li><a href=\"#h_01JTEK3ZHVKWV77PJG7H0D1G5M\">Chat and messaging</a></li>\n<li><a href=\"#h_01JTEK8010GGMXBJ6K4KGCAXMV\">AI agents and knowledge</a></li>\n<li><a href=\"#h_01JTEK2AF2VRAM5QFE4AD7HBBC\">App Marketplace</a></li>\n<li><a href=\"#h_01JTEK9M5VDF23FR6B186DEJ80\">Products with no updates this week</a></li>\n</ul><h2 id=\"h_01JTEK3ZHVKWV77PJG7H0D1G5M\">Chat and messaging</h2><p><strong>New:</strong></p><ul>\n<li>Messaging triggers enhancements  <ul>\n<li>Adding suspend user as an action. Customers can now run messaging triggers as an action, allowing users to be suspended in real time during a messaging conversation. See <a href=\"https://support.zendesk.com/hc/en-us/articles/8015292388378\" target=\"_blank\" rel=\"noopener noreferrer\">Messaging triggers conditions and actions reference</a>.</li>\n<li>\n<p>Historical reporting for OCR queues for email and messaging channels</p>\n<p>As more customers enable omnichannel queues, visibility into how this configuration improves routing efficiency is essential. Therefore, we introduced the following metrics to address the queue performance dataset. <a href=\"https://drive.google.com/file/d/1iIJist3gIetjSyLzMHyZ_YKz7f0QHz5u/view\" target=\"_blank\" rel=\"noopener noreferrer\">See a demo</a>.</p>\n<ul>\n<li>Queue wait time (Seconds).</li>\n<li>Inbound and outbound ticket volumes.</li>\n<li>Tickets transferred in and out of a queue.</li>\n<li>New tickets entering into the queue.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>Omnichannel engagements dataset and refreshed agent productivity dashboards (<a href=\"https://drive.google.com/file/d/1Xy8cyrugo8QOwGlEtv3Vz0s9iQMWdkrA/view?usp=sharing\">Demo</a>). With the Omnichannel Engagements data set, we enabled supervisors or operations managers to:<ul>\n<li data-stringify-indent=\"0\" data-stringify-border=\"0\">View interaction “legs” (Engagements) across channels and agents within a ticket’s lifecycle.</li>\n<li data-stringify-indent=\"0\" data-stringify-border=\"0\">Monitor agent performance via the updated <strong data-stringify-type=\"bold\">Agent Productivity dashboards</strong><ul>\n<li data-stringify-indent=\"1\" data-stringify-border=\"0\">OCR customers  - Omnichannel: Agent productivity with unified states and custom state, and activity</li>\n<li data-stringify-indent=\"1\" data-stringify-border=\"0\">Non-OCR customers -  Omnichannel: Agent Productivity</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul><h2 id=\"h_01JTEK8010GGMXBJ6K4KGCAXMV\">AI agents and knowledge</h2><p><strong>Fixed:</strong></p><p><strong>AI Agents and Knowledge Insights</strong></p><ul data-stringify-type=\"unordered-list\" data-list-tree=\"true\" data-indent=\"0\" data-border=\"0\"><li data-stringify-indent=\"0\" data-stringify-border=\"0\">Remediated an edge case where some advanced autoreply automated resolutions were duplicated.</li></ul><h2 id=\"h_01JTEK2AF2VRAM5QFE4AD7HBBC\">App Marketplace</h2><div><strong>New:</strong></div><ul>\n<li>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1125006/panic-button/\">Panic Button </a><strong>(Support) (paid)</strong><ul><li>Panic Button is a lightweight and powerful tool that instantly empowers agents to escalate urgent tickets across your Zendesk environment. With a simple, color-coded button added to the ticket sidebar, your team gains the visibility and responsiveness needed to deliver fast, coordinated support when it matters most.  Give your team access to one-click ticket escalation to selected groups or all agents, and color-based visual indicators based on trigger status and permissions.</li></ul>\n</li>\n<li>\n<div>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1126401/json-xml-log-viewer/\">JSON XML LOG Viewer</a> <strong>(Support) (paid)</strong>\n</div>\n<ul><li><div>JSON XML LOG Viewer allows support agents to view JSON, XML, LOG, and TXT attachments directly within tickets, eliminating the need to download files before opening them. The app supports syntax highlighting for better readability for agents.</div></li></ul>\n</li>\n</ul><h2 id=\"h_01JTEK9M5VDF23FR6B186DEJ80\">Products with no updates this week</h2><ul>\n<li>Support</li>\n<li>Copilot</li>\n<li>Talk</li>\n<li>Admin Center</li>\n<li>Explore</li>\n<li>Mobile</li>\n<li>Zendesk QA</li>\n<li>Zendesk WFM</li>\n</ul>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 9212055194522,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9212055194522.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/9212055194522-Integrating-other-platforms-with-AI-agents-Advanced",
-      "author_id": 1264158222289,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 9195452398490,
-      "created_at": "2025-05-02T19:23:25Z",
-      "updated_at": "2025-05-02T19:25:29Z",
-      "name": "Integrating other platforms with AI agents - Advanced",
-      "title": "Integrating other platforms with AI agents - Advanced",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2025-05-02T19:23:25Z",
-      "user_segment_id": null,
-      "permission_group_id": 1324079,
-      "content_tag_ids": [],
-      "label_names": [],
-      "body": "<p>Integrating other platforms with AI agents - Advanced</p><p>\n    <script id=\"article-redirect-script\">\n      //<![CDATA[\n      const section_id = '8264334170906';\n      const url = 'https://support.zendesk.com/hc/en-us/sections/' + section_id;\n      location.href = url;\n      //]]>\n    </script>\n  </p>",
       "user_segment_ids": []
     }
   ],
