@@ -19,14 +19,14 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2025-06-03T14:40:38Z",
-      "updated_at": "2025-06-03T14:46:05Z",
+      "updated_at": "2025-06-03T15:46:21Z",
       "name": "Service Incident - June 3rd, 2025",
       "title": "Service Incident - June 3rd, 2025",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-06-03T14:40:38Z",
+      "edited_at": "2025-06-03T15:35:32Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
@@ -35,7 +35,7 @@
         "mt",
         "rank_low_algolia"
       ],
-      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\"><p class=\"p1\"><strong>June 03, 2025 02:40 PM UTC | June 03, 2025 07:40 AM PT </strong><br>We have received reports of customers having issues with Messaging where the messages are defaulting to internal notes. Our engineers are investigating this issue. We apologize for this inconvenience and will provide updates as it becomes available.</p></div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
+      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>June 03, 2025 03:35 PM UTC | June 03, 2025 08:35 AM PT </strong><br>Our engineers have deployed a fix for the issue with Messaging defaulting to internal notes. Please reload your browser for the fix to take effect, and let us know if you continue to see any issues.</p>\n<p class=\"p1\"><strong>June 03, 2025 02:40 PM UTC | June 03, 2025 07:40 AM PT </strong><br>We have received reports of customers having issues with Messaging where the messages are defaulting to internal notes. Our engineers are investigating this issue. We apologize for this inconvenience and will provide updates as it becomes available.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
       "user_segment_ids": []
     },
     {
