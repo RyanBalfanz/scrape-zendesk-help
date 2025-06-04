@@ -147,7 +147,7 @@
       "vote_count": 0,
       "section_id": 4405298847002,
       "created_at": "2025-06-01T21:12:49Z",
-      "updated_at": "2025-06-03T16:16:25Z",
+      "updated_at": "2025-06-04T15:01:13Z",
       "name": "Release notes through 2025-05-30",
       "title": "Release notes through 2025-05-30",
       "source_locale": "en-us",
@@ -206,7 +206,7 @@
       "vote_count": 0,
       "section_id": 4405298833818,
       "created_at": "2025-05-30T19:04:56Z",
-      "updated_at": "2025-06-03T15:23:55Z",
+      "updated_at": "2025-06-04T15:00:11Z",
       "name": "Announcing automatic redaction of sensitive information with triggers (ADPP add-on)",
       "title": "Announcing automatic redaction of sensitive information with triggers (ADPP add-on)",
       "source_locale": "en-us",
@@ -217,7 +217,9 @@
       "user_segment_id": null,
       "permission_group_id": 1324079,
       "content_tag_ids": [],
-      "label_names": [],
+      "label_names": [
+        "mtpe"
+      ],
       "body": "<figure style=\"height: 44px; width: 100%;\" class=\"wysiwyg-table\"><table style=\"border-collapse: collapse; border-style: solid; border-width: 1px;\"><tbody>\n<tr style=\"height: 22px;\">\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\"><strong>Announced on</strong></td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\"><strong>Rollout on</strong></td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\">June 3, 2025</td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\">June 3, 2025</td>\n</tr>\n</tbody></table></figure><p>We’re excited to announce a new feature that automatically removes personally identifiable information (PII) from ticket comments using a trigger. With this new feature, you can effortlessly protect your customers' privacy by automatically identifying and redacting sensitive information in your Zendesk workflows.</p><p>This announcement includes the following topics:</p><ul>\n<li><a href=\"#h_01JWH8TKNDZMMNWNMKCM0JGA2J\">What's changing?</a></li>\n<li><a href=\"#h_01JWH9EKSGWPCPJXKMVP2WJDZR\">Why is Zendesk making this change?</a></li>\n<li><a href=\"#h_01JWH9GA8Z232VWDPAENXBS8DR\">What do I need to do?</a></li>\n</ul><h2 id=\"h_01JWH8TKNDZMMNWNMKCM0JGA2J\">What's changing?</h2><p>Customers with the <a href=\"https://support.zendesk.com/hc/en-us/articles/6561144266906\" target=\"_blank\" rel=\"noopener noreferrer\">Advanced Data Privacy and Protection (ADPP) add-on</a> can now create <a href=\"https://support.zendesk.com/hc/en-us/articles/4408886797466\" target=\"_blank\" rel=\"noopener noreferrer\">ticket triggers</a> to automatically redact PII in ticket comments. This feature provides full control over when and how PII is protected in Zendesk, eliminating the need for manual redaction.</p><p>Customers can configure which types of PII are included in <a href=\"https://support.zendesk.com/hc/en-us/articles/6669399593882\" target=\"_blank\" rel=\"noopener noreferrer\">redaction suggestions</a> and create a trigger to automatically redact selected PII based on specific conditions. Multiple triggers can be set up to control when various types of PII are removed. For example:</p><ul>\n<li>Trigger 1: Redact credit card number, bank account number, and password as soon as the ticket is created to ensure this data is redacted immediately.</li>\n<li>Trigger 2: Redact social security numbers and date of birth when the tag “verification-pass” is added to a ticket to confirm verification is complete and the PII can be removed.</li>\n<li>Trigger 3: Redact all PII when the ticket status is changed to Closed.</li>\n</ul><p><img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/zag_redaction_trigger.png\" width=\"600\"></p><h2 id=\"h_01JWH9EKSGWPCPJXKMVP2WJDZR\">Why is Zendesk making this change?</h2><p>We recognized the need to make the redaction process a more efficient and less time-consuming way to manage sensitive data. This new feature is designed to save you time and streamline your redaction workflows, making it easier to maintain compliance and protect your customers' privacy.</p><p>You can still redact each piece of PII individually.</p><h2 id=\"h_01JWH9GA8Z232VWDPAENXBS8DR\">What do I need to do?</h2><p>Customers with the ADPP add-on can use this feature now. See <a href=\"https://support.zendesk.com/hc/en-us/articles/9248330321050\" target=\"_blank\" rel=\"noopener noreferrer\">Automatically redacting sensitive information in tickets using triggers</a>.</p><p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/4408860477850\" target=\"_blank\" rel=\"noopener noreferrer\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk Customer Support</a>.</p>",
       "user_segment_ids": []
     },
