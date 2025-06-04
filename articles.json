@@ -1,11 +1,43 @@
 {
-  "count": 4729,
+  "count": 4730,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 158,
   "per_page": 30,
   "previous_page": null,
   "articles": [
+    {
+      "id": 9337346890906,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9337346890906.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/9337346890906-Service-Incident-June-4th-2025",
+      "author_id": 9005790397722,
+      "comments_disabled": true,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298854426,
+      "created_at": "2025-06-04T12:44:46Z",
+      "updated_at": "2025-06-04T12:46:31Z",
+      "name": "Service Incident - June 4th, 2025",
+      "title": "Service Incident - June 4th, 2025",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2025-06-04T12:44:46Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801242670,
+      "content_tag_ids": [],
+      "label_names": [
+        "service_incident",
+        "mt",
+        "rank_low_algolia"
+      ],
+      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\"><p class=\"p1\"><strong>June 04, 2025 12:44 PM UTC | June 04, 2025 05:44 AM PT </strong><br>We have received reports of customers experiencing slow response times in AI Agents. Our engineers are actively investigating this issue and working on a mitigation. We apologize for this inconvenience and will provide updates as it becomes available.</p></div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
+      "user_segment_ids": []
+    },
     {
       "id": 9333637402138,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9333637402138.json",
@@ -906,44 +938,6 @@
         "rank_low_algolia"
       ],
       "body": "<h3 id=\"h_01JVBVHGE7ZZ9HKEVHNJXK0769\"><strong><span style=\"color: #06363c;\">Summary</span></strong></h3>\n<p class=\"wysiwyg-text-align-justify\">On May 11, 2025, from 03:44 UTC to 10:43 UTC, Zendesk QA customers experienced issues loading the Zendesk QA UI, causing the application to display only a loading screen. During this period, some users encountered 404 errors and blank screens.</p>\n<h3 id=\"h_01JVBVHGE73ZVHQ54ZQFJN517M\"><strong><span style=\"color: #06363c;\">Timeline</span></strong></h3>\n<p class=\"wysiwyg-text-align-justify\"><strong>May 11, 2025 10:20 AM UTC | May 11, 2025 03:20 AM PT</strong></p>\n<p class=\"wysiwyg-text-align-justify\">We are currently experiencing an outage affecting Zendesk QA for multiple customers. Our team is actively investigating the issue. We will provide the next update in 30 minutes.</p>\n<p class=\"wysiwyg-text-align-justify\"><strong>May 11, 2025 10:54 AM UTC | May 11, 2025 03:54 AM PT</strong></p>\n<p class=\"wysiwyg-text-align-justify\">Our engineering team identified that the issue was due to front-end assets not loading. We redeployed the service, and the issue is now resolved. Zendesk QA is fully operational, and we will continue to monitor for the next 30 minutes. Thank you for your patience.</p>\n<p class=\"wysiwyg-text-align-justify\"><strong>May 11, 2025 11:39 AM UTC | May 11, 2025 04:39 AM PT</strong></p>\n<p class=\"wysiwyg-text-align-justify\">We are happy to report that Zendesk QA is fully operational. Thank you for your patience and understanding while we worked to resolve the issue.</p>\n<h3 id=\"h_01JVBVHGE7ERZWXB49RDPD97J4\"><strong><span style=\"color: #06363c;\">Root Cause Analysis</span></strong></h3>\n<p class=\"wysiwyg-text-align-justify\">This incident was caused by an error during the preparation of a recent update, which unintentionally included incorrect components in the production environment. As a result, when system updates were applied, some users experienced issues with the application not loading correctly.</p>\n<h3 id=\"h_01JVBVHGE7A4VEB3KJ6NPYRZV3\"><strong><span style=\"color: #06363c;\">Resolution</span></strong></h3>\n<p class=\"wysiwyg-text-align-justify\">To fix the issue, the application was updated with the correct version, restoring normal functionality for users.</p>\n<h3 id=\"h_01JVBVHGE7QT6801KB24QJAXZW\"><strong><span style=\"color: #06363c;\">Remediation Items</span></strong></h3>\n<ol>\n<li>Review and improve the update process to prevent incorrect components from being included in future releases.</li>\n<li>Strengthen monitoring and alert systems to quickly detect and address issues affecting the user interface.</li>\n<li>Introduce additional monitoring to identify unusual drops in application usage that could signal potential problems.</li>\n</ol>\n<h4 id=\"h_01JVBVGE7GR30TRMS7GJV3Z5X8\"><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 9238649971482,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9238649971482.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/9238649971482-Why-can-t-a-Talk-Team-lead-view-calls-in-the-Talk-live-dashboard",
-      "author_id": 1263082315269,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405298850586,
-      "created_at": "2025-05-09T17:57:24Z",
-      "updated_at": "2025-05-20T15:02:43Z",
-      "name": "Why can't a Talk Team lead view calls in the Talk live dashboard?",
-      "title": "Why can't a Talk Team lead view calls in the Talk live dashboard?",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2025-05-13T23:04:23Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801135069,
-      "content_tag_ids": [
-        "01GT23GM8GWKJZVSW5B288Q0WT",
-        "01JT4BM2K4XBSQ5CV8G5FRZ3B9"
-      ],
-      "label_names": [
-        "talk",
-        "ks",
-        "ab0",
-        "mt",
-        "ab0_explore",
-        "Team lead"
-      ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>Why can't a <strong>Talk team lead</strong> view calls in the <a href=\"https://support.zendesk.com/hc/en-us/articles/4408821396762-Analyzing-call-activity-with-the-Talk-Team-dashboard\">Talk live dashboard</a>?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>Access to the Talk dashboard depends on the user's roles and permissions. These are configured differently depending on your plan.</p><p>On non-Enterprise plans, users can be assigned to one of three Talk roles: admin, team lead, or agent. Talk admins and team leads can view the dashboard. Typically, Talk agents can't access the dashboard. However, if a Talk agent is a Support admin, they will have access to the Talk dashboard because Support admins can access the Talk dashboards regardless of their Talk role.  </p><p>On Enterprise plans, to view calls in the <a href=\"https://support.zendesk.com/hc/en-us/articles/4408821396762-Analyzing-call-activity-with-the-Talk-Team-dashboard\" target=\"_blank\" rel=\"noopener noreferrer\">Talk live dashboard</a>, a user must be assigned to a role with both of the following permissions: <strong>Reports permissions &gt; View Talk dashboard</strong>  and <strong>Channels &gt; Manage channels and extensions</strong>. </p><figure class=\"image wysiwyg-image\"><img style=\"aspect-ratio: 770/189;\" src=\"/attachments/token/s5S3rws5nb1KzlixL6YvFCueQ/?name=image.png\" width=\"770\" height=\"189\"></figure><p>For more information on user permissions, see this articles: </p><ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408831823514-Analyzing-call-activity-with-the-Talk-dashboard#topic_xmn_wxx_fv\">Accessing and viewing the Talk dashboard</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408882966170-Giving-agents-access-to-Talk\" target=\"_blank\" rel=\"noopener noreferrer\">Giving agents access to Talk</a></li>\n</ul>",
       "user_segment_ids": []
     }
   ],
