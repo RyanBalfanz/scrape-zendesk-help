@@ -1,5 +1,5 @@
 {
-  "count": 4730,
+  "count": 4731,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 158,
@@ -68,6 +68,34 @@
         "rank_low_algolia"
       ],
       "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>June 03, 2025 03:55 PM UTC | June 03, 2025 08:55 AM PT </strong><br>We are pleased to inform you that the issue with Messaging defaulting to internal notes has been resolved. We appreciate your patience in working with us to resolve this issue.</p>\n<p class=\"p1\"><strong>June 03, 2025 03:35 PM UTC | June 03, 2025 08:35 AM PT </strong><br>Our engineers have deployed a fix for the issue with Messaging defaulting to internal notes. Please reload your browser for the fix to take effect, and let us know if you continue to see any issues.</p>\n<p class=\"p1\"><strong>June 03, 2025 02:40 PM UTC | June 03, 2025 07:40 AM PT </strong><br>We have received reports of customers having issues with Messaging where the messages are defaulting to internal notes. Our engineers are investigating this issue. We apologize for this inconvenience and will provide updates as it becomes available.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
+      "user_segment_ids": []
+    },
+    {
+      "id": 9329765642266,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9329765642266.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/9329765642266-Announcing-trial-cooldown-periods-for-paid-apps",
+      "author_id": 7363164840090,
+      "comments_disabled": false,
+      "draft": false,
+      "promoted": true,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298889242,
+      "created_at": "2025-06-02T18:05:30Z",
+      "updated_at": "2025-06-04T17:48:01Z",
+      "name": "Announcing trial cooldown periods for paid apps",
+      "title": "Announcing trial cooldown periods for paid apps",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2025-06-04T17:46:36Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801242670,
+      "content_tag_ids": [],
+      "label_names": [],
+      "body": "<table style=\"border-collapse: collapse; width: 100%; height: 44px;\" border=\"1\">\n    <tbody>\n      <tr style=\"height: 22px;\">\n        <td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\">\n          <strong>Announced on</strong>\n        </td>\n        <td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\">\n          <strong>Rollout starts</strong>\n        </td>\n        <td style=\"width: 33.3333%; height: 22px;\" bgcolor=\"#F5F5F5\">\n          <strong>Rollout ends</strong>\n        </td>\n      </tr>\n      <tr style=\"height: 22px;\">\n        <td style=\"width: 33.3333%; height: 22px;\">June 3, 2025</td>\n        <td style=\"width: 33.3333%; height: 22px;\">June 2, 2025</td>\n        <td style=\"width: 33.3333%; height: 22px;\">June 30, 2025</td>\n      </tr>\n    </tbody>\n  </table><p id=\"docs-internal-guid-85585c05-7fff-8561-d1e8-4a7690966334\"><span style=\"color: #464646;\">Zendesk is excited to announce the availability of a trial cooldown period feature for paid apps, designed to make the app trial experience more robust. This feature ensures a waiting period between free trial sessions, protecting app developers’ revenue. After a trial expires, a customer can only start a new trial once the cooldown period has elapsed.</span></p><p><span style=\"color: #464646;\">This announcement includes the following topics:</span></p><ul>\n<li><span style=\"color: #464646;\">What is changing?</span></li>\n<li><span style=\"color: #464646;\">Why is Zendesk making this change?</span></li>\n<li><span style=\"color: #464646;\">What do I need to do?</span></li>\n</ul><h2 id=\"h_01JWRW560SWDRZQMV6124EPZZ9\">What is changing?</h2><p>With the addition of the trial cooldown period, developers have the option of setting a customizable waiting time—ranging from 1 to 999 days—before a customer can retry a free trial. This change applies to public apps with paid recurring subscriptions and applies to trials across different plans and multi-instance apps.</p><h2 id=\"h_01JWRW560T4NFX7NW3Z5F82EC6\">Why is Zendesk making this change?</h2><p>By enabling a trial cooldown period, the system ensures that while customers retain trial benefits when switching plans, a controlled and fair approach is maintained. This change aims to support a healthier ecosystem for both developers and customers.</p><h2 id=\"h_01JWRW560TC1GFNVJNXPQSJ9XD\">What do I need to do?</h2><p>If you have a public app with a paid recurring subscription, you can choose to enable this feature. Existing setups remain unchanged unless you decide to activate the cooldown period. </p><p>This feature does not affect free apps or those with one-time payments. Coupon management will continue as before. </p><p>If a customer uninstalls and then re-installs an app during the trial period, any remaining trial days will be retained. However, once the trial expires and the cooldown period is active, the customer can only start a new trial once the cooldown period has elapsed.</p><p><span style=\"color: #1d1c1d;\">If you have feedback or questions related to this announcement, visit our the </span><a href=\"https://support.zendesk.com/hc/en-us/community/topics\"><span style=\"color: #1d1c1d;\">Zendesk community</span></a><span style=\"color: #1d1c1d;\"> where we collect and manage feedback. For general assistance, contact </span><a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-customer-support\"><span style=\"color: #1d1c1d;\">Zendesk customer support</span></a><span style=\"color: #1d1c1d;\">.</span></p><p><span style=\"color: #1d1c1d;\">For the updated instructions, see </span><a href=\"https://developer.zendesk.com/documentation/marketplace/publishing-to-the-marketplace/submit-your-app/\"><span style=\"color: #1d1c1d;\">Submit your app </span></a><span style=\"color: #1d1c1d;\">in the developer documentation.</span></p>",
       "user_segment_ids": []
     },
     {
@@ -908,38 +936,6 @@
         "rank_low_algolia"
       ],
       "body": "<div class=\"note tip\">See our <a href=\"https://support.zendesk.com/hc/en-us/articles/9186870292250\" target=\"_blank\" rel=\"noopener noreferrer\">What's New</a> for an overview of what was released last month.</div><p>This week's release notes include:</p><ul>\n<li><a href=\"#h_01JTEK8010GGMXBJ6K4KGCAXMV\">AI agents and knowledge</a></li>\n<li><a href=\"#h_01JTEK2AF2VRAM5QFE4AD7HBBC\">App Marketplace</a></li>\n<li><a href=\"#h_01JTEK9M5VDF23FR6B186DEJ80\">Products with no updates this week</a></li>\n</ul><h2 id=\"h_01JTEK8010GGMXBJ6K4KGCAXMV\">AI agents and knowledge</h2><p><strong>CSAT:</strong></p><ul><li>The CSAT scale in email has been reverted. It starts from the highest value at the top.</li></ul><p><strong>Knowledge:</strong></p><ul>\n<li>\n<a href=\"https://support.zendesk.com/hc/en-us/articles/9045852082842-Announcing-generative-search-in-the-help-center\" target=\"_blank\" rel=\"noopener noreferrer\">Generative search</a> is generally available.</li>\n<li>The new article editor rollout plan has been <a href=\"https://support.zendesk.com/hc/en-us/articles/9023835920666-Announcing-the-general-availability-of-the-new-Knowledge-article-editor\" target=\"_blank\" rel=\"noopener noreferrer\">announced</a>.</li>\n</ul><h2 id=\"h_01JTEK2AF2VRAM5QFE4AD7HBBC\">App Marketplace</h2><div><strong>New:</strong></div><ul>\n<li>\n<div>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1127055/ordemio-ai-agent-for-support/\">Ordemio AI Agent for Support</a> <strong>(Support)</strong>\n</div>\n<ul><li><div>Ordemio AI Agent is an AI-driven support agent that seamlessly integrates with Zendesk to help customer service teams deliver faster, smarter support. It works alongside your human agents to instantly handle common queries using your existing knowledge base and FAQs, deflecting up to <strong>80%</strong> of repetitive tickets​. Customers get accurate, 24/7 answers in seconds, which instantly reduces your team’s ticket volume and response times. The result is higher customer satisfaction and agents freed to focus on complex, high-value issues instead of FAQs.<br> </div></li></ul>\n</li>\n<li>\n<div>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1112557/manageengine-log360-cloud/\">ManageEngine Log360 Cloud</a> <strong>(Support)</strong>\n</div>\n<ul><li><div>ManageEngine Log360 Cloud is designed for security analysts and IT administrators who use Zendesk as a part of their IT security and management (ITSM) framework. It enables them to monitor and manage their organization's network security seamlessly and directly from the Zendesk interface. Receive instant security alerts for any detected incidents in your Zendesk environment, enabling you to take swift action and mitigate threats. You can also choose to customize or disable notifications for specific alert profiles, based on your operational needs. Create Zendesk tickets automatically for detected security incidents, assign them to network administrators, manage devices, assign priorities, and update statuses— all from within the Zendesk console, thanks to the two-way sync provided by Log360 Cloud. Further, you can also export the incidents as PDF files.</div></li></ul>\n</li>\n</ul><h2 id=\"h_01JTEK9M5VDF23FR6B186DEJ80\">Products with no updates this week</h2><ul>\n<li>Support</li>\n<li>Copilot</li>\n<li>Chat and messaging</li>\n<li>Talk</li>\n<li>Admin Center</li>\n<li>Explore</li>\n<li>Mobile</li>\n<li>Zendesk QA</li>\n<li>Zendesk WFM</li>\n</ul>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 9243317796122,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9243317796122.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/9243317796122-Service-Incident-May-11-2025-All-Pods-Zendesk-QA-is-down-for-multiple-customers",
-      "author_id": 1264663901409,
-      "comments_disabled": true,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405298854426,
-      "created_at": "2025-05-11T10:20:20Z",
-      "updated_at": "2025-05-16T14:01:39Z",
-      "name": "Service Incident - May 11, 2025 - All Pods | Zendesk QA is down for multiple customers",
-      "title": "Service Incident - May 11, 2025 - All Pods | Zendesk QA is down for multiple customers",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2025-05-16T13:53:11Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801242670,
-      "content_tag_ids": [],
-      "label_names": [
-        "service_incident",
-        "mt",
-        "rank_low_algolia"
-      ],
-      "body": "<h3 id=\"h_01JVBVHGE7ZZ9HKEVHNJXK0769\"><strong><span style=\"color: #06363c;\">Summary</span></strong></h3>\n<p class=\"wysiwyg-text-align-justify\">On May 11, 2025, from 03:44 UTC to 10:43 UTC, Zendesk QA customers experienced issues loading the Zendesk QA UI, causing the application to display only a loading screen. During this period, some users encountered 404 errors and blank screens.</p>\n<h3 id=\"h_01JVBVHGE73ZVHQ54ZQFJN517M\"><strong><span style=\"color: #06363c;\">Timeline</span></strong></h3>\n<p class=\"wysiwyg-text-align-justify\"><strong>May 11, 2025 10:20 AM UTC | May 11, 2025 03:20 AM PT</strong></p>\n<p class=\"wysiwyg-text-align-justify\">We are currently experiencing an outage affecting Zendesk QA for multiple customers. Our team is actively investigating the issue. We will provide the next update in 30 minutes.</p>\n<p class=\"wysiwyg-text-align-justify\"><strong>May 11, 2025 10:54 AM UTC | May 11, 2025 03:54 AM PT</strong></p>\n<p class=\"wysiwyg-text-align-justify\">Our engineering team identified that the issue was due to front-end assets not loading. We redeployed the service, and the issue is now resolved. Zendesk QA is fully operational, and we will continue to monitor for the next 30 minutes. Thank you for your patience.</p>\n<p class=\"wysiwyg-text-align-justify\"><strong>May 11, 2025 11:39 AM UTC | May 11, 2025 04:39 AM PT</strong></p>\n<p class=\"wysiwyg-text-align-justify\">We are happy to report that Zendesk QA is fully operational. Thank you for your patience and understanding while we worked to resolve the issue.</p>\n<h3 id=\"h_01JVBVHGE7ERZWXB49RDPD97J4\"><strong><span style=\"color: #06363c;\">Root Cause Analysis</span></strong></h3>\n<p class=\"wysiwyg-text-align-justify\">This incident was caused by an error during the preparation of a recent update, which unintentionally included incorrect components in the production environment. As a result, when system updates were applied, some users experienced issues with the application not loading correctly.</p>\n<h3 id=\"h_01JVBVHGE7A4VEB3KJ6NPYRZV3\"><strong><span style=\"color: #06363c;\">Resolution</span></strong></h3>\n<p class=\"wysiwyg-text-align-justify\">To fix the issue, the application was updated with the correct version, restoring normal functionality for users.</p>\n<h3 id=\"h_01JVBVHGE7QT6801KB24QJAXZW\"><strong><span style=\"color: #06363c;\">Remediation Items</span></strong></h3>\n<ol>\n<li>Review and improve the update process to prevent incorrect components from being included in future releases.</li>\n<li>Strengthen monitoring and alert systems to quickly detect and address issues affecting the user interface.</li>\n<li>Introduce additional monitoring to identify unusual drops in application usage that could signal potential problems.</li>\n</ol>\n<h4 id=\"h_01JVBVGE7GR30TRMS7GJV3Z5X8\"><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
     }
   ],
