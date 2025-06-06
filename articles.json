@@ -1,11 +1,41 @@
 {
-  "count": 4738,
+  "count": 4739,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 158,
   "per_page": 30,
   "previous_page": null,
   "articles": [
+    {
+      "id": 9342329983130,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9342329983130.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/9342329983130-Announcing-generative-replies-for-advanced-email-AI-agents",
+      "author_id": 7202096023194,
+      "comments_disabled": true,
+      "draft": false,
+      "promoted": true,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298833818,
+      "created_at": "2025-06-05T17:57:56Z",
+      "updated_at": "2025-06-06T14:35:59Z",
+      "name": "Announcing generative replies for advanced email AI agents",
+      "title": "Announcing generative replies for advanced email AI agents",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2025-06-06T14:34:37Z",
+      "user_segment_id": null,
+      "permission_group_id": 1324079,
+      "content_tag_ids": [],
+      "label_names": [
+        "newsfeed"
+      ],
+      "body": "<figure style=\"width: 100%;\" class=\"wysiwyg-table\"><table style=\"border-style: solid; border-width: 1px;\"><tbody>\n<tr>\n<td style=\"border-style: solid; border-width: 1px;\"><strong>Announced on</strong></td>\n<td style=\"border-style: solid; border-width: 1px;\"><strong>Rollout on</strong></td>\n</tr>\n<tr>\n<td style=\"border-style: solid; border-width: 1px;\">June 6, 2025</td>\n<td style=\"border-style: solid; border-width: 1px;\">June 4, 2025</td>\n</tr>\n</tbody></table></figure><p>Generative replies are now fully available for email AI agents in the <a href=\"https://support.zendesk.com/hc/en-us/articles/8725042447002\">AI agents - Advanced add-on</a>. This feature has moved from an early access program (EAP) to general availability (GA).</p><p>This announcement contains the following topics:</p><ul>\n<li><a href=\"#h_01JX2T755DJVC3H8MW9WKR08EF\">What’s changing?</a></li>\n<li><a href=\"#h_01JX2T7SK0B80W9BPJE4ZC7VB7\">Why is Zendesk making this change?</a></li>\n<li><a href=\"#h_01JX2T83TZSCAQ9TANXY2KWA45\">What do I need to do?</a></li>\n</ul><h2 id=\"h_01JX2T755DJVC3H8MW9WKR08EF\">What’s changing?</h2><p>Generative replies let you connect an advanced email AI agent to knowledge sources—including Zendesk help centers and other supported help centers, websites, and CSV files—to automatically resolve factual email queries end-to-end. Built to seamlessly integrate with conversation flows, generative replies combine the flexibility of generative AI with the precision and control of scripted flows, giving you complete command over your AI-powered email responses.</p><p><img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/aiaa_email_gen_reply_convo_flow.png\" width=\"600\"></p><h2 id=\"h_01JX2T7SK0B80W9BPJE4ZC7VB7\">Why is Zendesk making this change?</h2><p>Email remains a critical communication channel for many Zendesk customers. Automating factual email replies while maintaining customization and control lets you enhance service efficiency and consistency across channels.</p><h2 id=\"h_01JX2T83TZSCAQ9TANXY2KWA45\">What do I need to do?</h2><p>To get started with generative replies for advanced email AI agents:</p><ol>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/8357749301658\">Import a knowledge source.</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/8357758773658\">Customize the AI agent’s persona.</a></li>\n<li>Deploy generative replies in either or both of the following ways:<ol>\n<li>\n<strong>Include generative replies as part of an otherwise scripted conversation flow.</strong> To do this, <a href=\"https://support.zendesk.com/hc/en-us/articles/8357749315098-About-the-Generative-replies-block-in-conversation-flows-for-advanced-AI-agents?Z2_EN-US%5Bquery%5D=personalise%20\">add the Generative replies block in a dialogue</a>. </li>\n<li>\n<strong>Configure a generative reply that your AI agent uses when no other use case is recognized.</strong> To do this, activate (if needed) and configure the Generative replies <a href=\"https://support.zendesk.com/hc/en-us/articles/8357749481882\">system reply</a>.<ul><li>For existing AI agents not previously part of the early access program (EAP), the Generative replies system reply is visible but <em>inactive</em> by default. For newly created AI agents, the Generative replies system reply is visible and <em>active</em> by default.</li></ul>\n</li>\n</ol>\n</li>\n</ol><p>When this setup is complete, the AI agent automatically generates replies to customer queries, while still giving you the flexibility to <a href=\"https://support.zendesk.com/hc/en-us/articles/8357749315098-About-the-Generative-replies-block-in-conversation-flows-for-advanced-AI-agents#h_01J9RVA5H4QTX9277KTKS9PBKC:~:text=AI%2Dgenerated%20responses%20require%20additional%20language%20for%20email%20AI%20agents\">customize the email greetings and sign-offs</a>. Additionally, you can <a href=\"https://support.zendesk.com/hc/en-us/articles/8357758773658-Customizing-the-persona-tone-of-voice-and-pronoun-formality-for-an-advanced-AI-agent#:~:text=In-,Answer%20length,-%2C%20select%20one%20of\">customize the AI agent’s answer length</a>, with lengths that are appropriate to email (from 150 words all the way up to unlimited length).</p><p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/6447052855194\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\">Zendesk Customer Support</a>.</p>",
+      "user_segment_ids": []
+    },
     {
       "id": 9340024053402,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9340024053402.json",
@@ -937,38 +967,6 @@
         "role_admin"
       ],
       "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2><p>When I use a private window in Firefox, attempts to create a ticket from a <a href=\"https://support.zendesk.com/hc/en-us/articles/4408836216218-Using-Web-Widget-Classic-to-embed-customer-service-in-your-website\" target=\"_blank\" rel=\"noopener noreferrer\">Web Widget (Classic)</a> fail with the error <strong>There was an error processing your request. Please try again later</strong> when an account is host-mapped.</p><figure style=\"width: 38.36%;\" class=\"image wysiwyg-image image-style-block-align-left wysiwyg-image-block-start image_resized wysiwyg-image-resized\"><img style=\"aspect-ratio: 971/1101;\" src=\"https://support.zendesk.com/hc/article_attachments/9255573190682\" alt=\"Error processing.png\" width=\"971\" height=\"1101\"></figure><h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2><p>This is due to Firefox's use of the anti-tracking blocklist provided by <a href=\"disconnect.me\" target=\"_blank\" rel=\"noopener noreferrer\">disconnect.me</a>. Despite attempts to appeal disconnect.me's decision, this platform keeps Zendesk listed as a tracker. As a workaround, use any of the other supported browsers.</p><p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408823994778-Browsers-supported-by-help-center\" target=\"_blank\" rel=\"noopener noreferrer\">Browsers supported by help center</a></p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 9251115119770,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9251115119770.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/9251115119770-Service-Incident-May-13-2025-Multiple-Pods-Agent-AI-Customers-unable-to-log-in-to-Ultimates-AI-Agents-receiving-Couldn-t-authenticate-user-errors",
-      "author_id": 9005790397722,
-      "comments_disabled": true,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405298854426,
-      "created_at": "2025-05-13T12:58:33Z",
-      "updated_at": "2025-05-22T07:01:07Z",
-      "name": "Service Incident - May 13, 2025 - Multiple Pods | Agent AI - Customers unable to log in to Ultimates AI Agents, receiving “Couldn’t authenticate user” errors",
-      "title": "Service Incident - May 13, 2025 - Multiple Pods | Agent AI - Customers unable to log in to Ultimates AI Agents, receiving “Couldn’t authenticate user” errors",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2025-05-22T02:39:00Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801242670,
-      "content_tag_ids": [],
-      "label_names": [
-        "service_incident",
-        "mt",
-        "rank_low_algolia"
-      ],
-      "body": "<h3 id=\"h_01JVTN2CG4QQXQVJ3EHH37VTBK\"><strong><span style=\"color: #06363c;\">Summary</span></strong></h3>\n<p class=\"wysiwyg-text-align-justify\">On May 13, 2025, from 09:53 UTC to 13:29 UTC, customers in the EU region experienced login failures when accessing their Ultimate AI Agents accounts via Zendesk’s admin center. Users encountered “Couldn’t authenticate user” errors that prevented access to the AI Agents dashboard. Additionally, some billing events related to AI Agents were not processed correctly due to the same underlying issue. While the AI Agents themselves remained functional for end users, the login and billing disruptions impacted customer experience and reporting.</p>\n<h3 id=\"h_01JVTN2CG4ZMZ8E88K8P02ZPXN\"><strong><span style=\"color: #06363c;\">Timeline</span></strong></h3>\n<p class=\"wysiwyg-text-align-justify\"><strong>May 13, 2025 12:58 PM UTC | May 13, 2025 05:58 AM PT</strong></p>\n<p class=\"wysiwyg-text-align-justify\">We have received reports of customers unable to login to their Ultimates AI accounts and getting a message saying 'Couldn't authenticate user'. Our engineers are investigating the source of the issue. We apologize for the inconvenience and ask for your patience as we work to resolve this issue. We will provide updates as it becomes available.</p>\n<p class=\"wysiwyg-text-align-justify\"><strong>May 13, 2025 01:29 PM UTC | May 13, 2025 06:29 AM PT</strong></p>\n<p class=\"wysiwyg-text-align-justify\">We are pleased to report that the issue where customers are unable to login to their Ultimates AI accounts has been mitigated. Our engineers have applied the fix and are monitoring the system activity. We would like to ask for your cooperation to test if you are now able to get back into your Ultimate AI accounts and reply back to us with the results. Your quick responses will be highly appreciated.</p>\n<h3 id=\"h_01JVTN2CG4XESQVYGCEKQDX4J7\"><strong><span style=\"color: #06363c;\">Root Cause Analysis</span></strong></h3>\n<p class=\"wysiwyg-text-align-justify\">The incident was caused by clock drift and network latency issues affecting certain system components responsible for user login and billing processes. These issues led to failures in verifying user access and disruptions in billing event reporting. Additionally, a cache refresh issue was identified that impacted billing accuracy when specific settings were changed.</p>\n<h3 id=\"h_01JVTN2CG5VD05JZHR6G33M3YN\"><strong><span style=\"color: #06363c;\">Resolution</span></strong></h3>\n<p class=\"wysiwyg-text-align-justify\">To fix this issue, we redeployed the affected services onto stable nodes with synchronized clocks and improved network reliability. Additionally, we implemented a fix to resolve the cache refresh problem. These measures restored normal login functionality and ensured accurate billing event processing.</p>\n<h3 id=\"h_01JVTN2CG5M10SVHQT268WH04E\"><strong><span style=\"color: #06363c;\">Remediation Items</span></strong></h3>\n<ol>\n<li class=\"wysiwyg-text-align-justify\">Deploy the permissions service only on reliable nodes with consistent timing to prevent future access verification problems.</li>\n<li class=\"wysiwyg-text-align-justify\">Implement monitoring and alerting for authentication and billing event errors to enable faster detection and response.</li>\n<li class=\"wysiwyg-text-align-justify\">Fix cache management to ensure billing events are accurately tracked when organizational changes occur.</li>\n<li class=\"wysiwyg-text-align-justify\">Continue enhancing error tracking and reporting for AI Agents services.</li>\n</ol>\n<h4 id=\"h_01JVTMP3WRF3PBVVFCE5G08PZS\"><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1 wysiwyg-text-align-justify\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
     }
   ],
