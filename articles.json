@@ -19,14 +19,14 @@
       "vote_count": 1,
       "section_id": 4405298854426,
       "created_at": "2025-06-09T08:52:19Z",
-      "updated_at": "2025-06-09T09:46:32Z",
+      "updated_at": "2025-06-09T11:01:21Z",
       "name": "Service Incident - June 9th, 2025",
       "title": "Service Incident - June 9th, 2025",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-06-09T09:36:51Z",
+      "edited_at": "2025-06-09T10:58:06Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
@@ -35,7 +35,7 @@
         "mt",
         "rank_low_algolia"
       ],
-      "body": "<h3 class=\"p1\" id=\"h_01JXA0RZ6W5BKPF20SNAF4J93D\"><strong>SUMMARY</strong></h3><div id=\"message-list\">\n<p class=\"p1\"><strong>June 09, 2025 09:36 AM UTC | June 09, 2025 02:36 AM PT </strong><br>Our engineers are still actively investigating the contributing factors to this issue where customers are unable to search in the Support dashboard and 503 API errors in Messaging. We apologize for this inconvenience and appreciate your patience as our team works to mitigate this issue. We will send updates as it becomes available.</p>\n<p class=\"p1\"><strong>June 09, 2025 08:52 AM UTC | June 09, 2025 01:52 AM PT </strong><br>We are currently aware of the issue affecting support search and messaging trigger problems on Pod 25, which began today at 07:20 UTC. The symptoms include some customers’ messaging triggers not working as expected and difficulties in performing searches using the support search bar. Our engineering team is actively investigating the matter. We will provide an update within the next 30 minutes.</p>\n</div><p class=\"p1\"><strong>POST-MORTEM</strong></p><p class=\"p1\">TBD</p><h4 id=\"h_01JXA0RZ6W3W80B6H5J54NEV8V\"><strong>FOR MORE INFORMATION</strong></h4><p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
+      "body": "<h3 class=\"p1\" id=\"h_01JXA0RZ6W5BKPF20SNAF4J93D\"><strong>SUMMARY</strong></h3><div id=\"message-list\">\n<p class=\"p1\"><strong>June 09, 2025 10:58 AM UTC | June 09, 2025 03:58 AM PT </strong><br>We have received information from our engineers that the issue with the Support Search has subsided at this time. Our team is continuously monitoring the issue to identify the contributing factors that led to this issue. We appreciate your patience and recommend you to follow this communication for significant updates as we will provide it as it becomes available.</p>\n<p class=\"p1\"><strong>June 09, 2025 09:36 AM UTC | June 09, 2025 02:36 AM PT </strong><br>Our engineers are still actively investigating the contributing factors to this issue where customers are unable to search in the Support dashboard and 503 API errors in Messaging. We apologize for this inconvenience and appreciate your patience as our team works to mitigate this issue. We will send updates as it becomes available.</p>\n<p class=\"p1\"><strong>June 09, 2025 08:52 AM UTC | June 09, 2025 01:52 AM PT </strong><br>We are currently aware of the issue affecting support search and messaging trigger problems on Pod 25, which began today at 07:20 UTC. The symptoms include some customers’ messaging triggers not working as expected and difficulties in performing searches using the support search bar. Our engineering team is actively investigating the matter. We will provide an update within the next 30 minutes.</p>\n</div><p class=\"p1\"><strong>POST-MORTEM</strong></p><p class=\"p1\">TBD</p><h4 id=\"h_01JXA0RZ6W3W80B6H5J54NEV8V\"><strong>FOR MORE INFORMATION</strong></h4><p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
     },
     {
