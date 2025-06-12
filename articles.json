@@ -19,7 +19,7 @@
       "vote_count": 1,
       "section_id": 4405298833818,
       "created_at": "2025-06-11T21:20:22Z",
-      "updated_at": "2025-06-11T21:42:22Z",
+      "updated_at": "2025-06-12T15:00:12Z",
       "name": "Announcing multi-instance support for the Salesforce integration ticket view",
       "title": "Announcing multi-instance support for the Salesforce integration ticket view",
       "source_locale": "en-us",
@@ -30,7 +30,9 @@
       "user_segment_id": null,
       "permission_group_id": 1324079,
       "content_tag_ids": [],
-      "label_names": [],
+      "label_names": [
+        "mtpe"
+      ],
       "body": "<figure style=\"height: 44px; width: 100%;\" class=\"wysiwyg-table\"><table style=\"border-collapse: collapse; border-style: solid; border-width: 1px;\"><tbody>\n<tr style=\"height: 22px;\">\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 24.0476%;\"><strong>Announced on</strong></td>\n<td style=\"border-style: solid; border-width: 1px; width: 21.381%;\"><strong>Rollout starts</strong></td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 21.2381%;\"><strong>Rollout ends</strong></td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 24.0476%;\">June 11, 2025</td>\n<td style=\"border-style: solid; border-width: 1px; width: 21.381%;\">June 11, 2025</td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 21.2381%;\">June 25, 2025</td>\n</tr>\n</tbody></table></figure><p>We are excited to announce the launch of multi-instance support for ticket view in the Salesforce integration. Now, you can connect one Salesforce organization to multiple Zendesk accounts—or multiple Salesforce organizations to a single Zendesk account—for ticket view. </p><p>This expansion builds on our earlier <a href=\"https://support.zendesk.com/hc/en-us/articles/9047668723738\" target=\"_blank\" rel=\"noopener noreferrer\">commitment</a> and brings the multi-instance capability, previously available only for the Salesforce app for Zendesk support, to ticket view. We’ve also introduced improvements to ticket view performance and user experience.</p><p>This announcement includes the following topics:</p><ul>\n<li><a href=\"#h_01JXGDVV19M4TWHVP9E5WFDAEB\">What's changing?</a></li>\n<li><a href=\"#h_01JXGE7JXGWCRQNGYJPZNGV6X5\">Why is Zendesk making this change?</a></li>\n<li><a href=\"#h_01JXGDWXK3NP1YM98Y8056SJKT\">What do I need to do?</a></li>\n</ul><h2 id=\"h_01JXGDVV19M4TWHVP9E5WFDAEB\">What's changing?</h2><p>You can now connect multiple Zendesk accounts to a single Salesforce organization for ticket view, and vice versa. This allows admins to manage and view tickets across different Zendesk accounts within the same Salesforce organization, improving flexibility and bringing more value to your integration. Admins can connect more accounts by following <a href=\"https://support.zendesk.com/hc/en-us/articles/4408821555482\" target=\"_blank\" rel=\"noopener noreferrer\">these steps</a>.</p><p><img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/Salesforce_ticket_view_multi_filter.png\" width=\"650\"></p><p>Additionally, we've increased the number of records displayed per page in the ticket view in Salesforce from 5 to 10, providing a more comprehensive and efficient ticket management experience. Follow <a href=\"https://support.zendesk.com/hc/en-us/articles/4408834115738\" target=\"_blank\" rel=\"noopener noreferrer\">these steps</a> to configure the ticket view.</p><h2 id=\"h_01JXGE7JXGWCRQNGYJPZNGV6X5\">Why is Zendesk making this change?</h2><p>We heard from customers that the single-instance limit was a major challenge for both ticket view in Salesforce and the Salesforce app for Zendesk Support. In response, we’re excited to bring multi-instance support to both features. This update delivers on our promise of better connectivity and a smoother user experience by extending multi-instance capabilities to ticket view.</p><h2 id=\"h_01JXGDWXK3NP1YM98Y8056SJKT\">What do I need to do?</h2><p>If you have additional Zendesk accounts or Salesforce organizations you'd like to connect, follow <a href=\"https://support.zendesk.com/hc/en-us/articles/4408821555482\" target=\"_blank\" rel=\"noopener noreferrer\"><span class=\"wysiwyg-underline\">these steps</span></a> to get started.</p><p>If you have any feedback or questions regarding this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/1260801308170\" target=\"_blank\" rel=\"noopener noreferrer\"><span class=\"wysiwyg-underline\">community forum</span></a>, where we actively collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\" target=\"_blank\" rel=\"noopener noreferrer\"><span class=\"wysiwyg-underline\">Zendesk Customer Support</span></a>.</p><p> </p>",
       "user_segment_ids": []
     },
@@ -890,8 +892,8 @@
       "draft": false,
       "promoted": true,
       "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
+      "vote_sum": 1,
+      "vote_count": 1,
       "section_id": 4405298854426,
       "created_at": "2025-05-19T14:39:15Z",
       "updated_at": "2025-05-30T14:16:25Z",
