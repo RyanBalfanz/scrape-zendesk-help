@@ -138,14 +138,14 @@
       "vote_count": 0,
       "section_id": 6279947161626,
       "created_at": "2025-06-13T14:51:24Z",
-      "updated_at": "2025-06-17T15:08:26Z",
+      "updated_at": "2025-06-17T18:55:44Z",
       "name": "Why are emails missing from some end-user profiles?",
       "title": "Why are emails missing from some end-user profiles?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-06-17T15:03:13Z",
+      "edited_at": "2025-06-17T18:55:44Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -155,7 +155,7 @@
         "ab0_web_widget",
         "role_admin"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>Why are emails missing from some end-user profiles?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>When you use the <a href=\"https://support.zendesk.com/hc/en-us/articles/4500748175258-Installing-the-Web-Widget-for-messaging\">Web Widget</a> with <a href=\"https://support.zendesk.com/hc/en-us/articles/4411666638746-Setting-up-user-authentication-for-messaging\">JWT authentication</a>, the email_verified parameter in the authentication must be true.</p><p>When this field is undefined and no email is given, a duplicate profile is created. To solve this, you can merge duplicates. For details, see: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408887695898-Merging-a-user-s-duplicate-account\" target=\"_blank\" rel=\"noopener noreferrer\">Merging a user's duplicate account.</a></p>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>Why are emails missing from some end-user profiles?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>When you use the <a href=\"https://support.zendesk.com/hc/en-us/articles/4500748175258-Installing-the-Web-Widget-for-messaging\">Web Widget</a> with <a href=\"https://support.zendesk.com/hc/en-us/articles/4411666638746-Setting-up-user-authentication-for-messaging\">JWT authentication</a>, the email_verified parameter in the authentication must be <em>true</em>.</p><p>When this field is undefined and no email is given, a duplicate profile is created. To solve this, you can merge duplicates. For details, see: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408887695898-Merging-a-user-s-duplicate-account\" target=\"_blank\" rel=\"noopener noreferrer\">Merging a user's duplicate account.</a></p>",
       "user_segment_ids": []
     },
     {
