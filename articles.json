@@ -227,7 +227,7 @@
     {
       "id": 9358897332890,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9358897332890.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/9358897332890-Service-Incident-June-10th-2025",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/9358897332890-Service-Incident-June-10th-2025-Global-OpenAI-Outage",
       "author_id": 9005790397722,
       "comments_disabled": true,
       "draft": false,
@@ -237,14 +237,14 @@
       "vote_count": 1,
       "section_id": 4405298854426,
       "created_at": "2025-06-10T14:51:06Z",
-      "updated_at": "2025-06-11T16:31:05Z",
-      "name": "Service Incident - June 10th, 2025",
-      "title": "Service Incident - June 10th, 2025",
+      "updated_at": "2025-06-18T14:46:24Z",
+      "name": "Service Incident - June 10th, 2025 - Global OpenAI Outage",
+      "title": "Service Incident - June 10th, 2025 - Global OpenAI Outage",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-06-11T16:26:26Z",
+      "edited_at": "2025-06-18T14:36:15Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
@@ -253,7 +253,7 @@
         "mt",
         "rank_low_algolia"
       ],
-      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>June 11, 2025 04:26 PM UTC | June 11, 2025 09:26 AM PT </strong><br>We are pleased to inform you that the issues impacting services using the OpenAI engine has been resolved. Our engineers received confirmation from our provider that ChatGPT and other components using the OpenAI engine are now operating as normal. We appreciate your patience as our team worked to resolve this issue.</p>\n<p class=\"p1\"><strong>June 10, 2025 06:15 PM UTC | June 10, 2025 11:15 AM PT </strong><br>We are seeing improvement in the behavior causing OpenAI conversations to fail. Our team will continue to work with our partner provider to monitor and ensure full recovery, but please let us know if you experience any further issues in the meantime.</p>\n<p class=\"p1\"><strong>June 10, 2025 02:51 PM UTC | June 10, 2025 07:51 AM PT </strong><br>We have received reports of multiple OpenAI conversations failing. Our engineers have identified that the issue is stemming from a global OpenAI outage and they are currently working with our provider to mitigate this issue. We apologize for the inconvenience and ask for your patience as we work to provide a fix at the soonest. We will provide periodical updates as it becomes available.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
+      "body": "<h3 id=\"h_01JY1QF7KD8EH4WY0ZVM84KYJP\"><span style=\"color: #434343;\"><strong>SUMMARY</strong></span></h3><p>On June 10 2025 from 7:14 UTC to June 11, 2025 16:24 UTC, customers experienced errors and latency issues with Zendesk applications that use the OpenAI engine. </p><h3 id=\"h_01JY1QF7KFQA8EN54A9D1CCH00\"><span style=\"color: #434343;\"><strong>Timeline</strong></span></h3><p><strong>June 10, 2025 02:51 PM UTC | June 10, 2025 07:51 AM PT</strong></p><p>We have received reports of multiple OpenAI conversations failing. Our engineers have identified that the issue is stemming from a global OpenAI outage and they are currently working with our provider to mitigate this issue. We apologize for the inconvenience and ask for your patience as we work to provide a fix at the soonest. We will provide periodical updates as it becomes available.</p><p><strong>June 10, 2025 06:15 PM UTC | June 10, 2025 11:15 AM PT</strong></p><p>We are seeing improvement in the behavior causing OpenAI conversations to fail. Our team will continue to work with our partner provider to monitor and ensure full recovery, but please let us know if you experience any further issues in the meantime.</p><p><strong>June 11, 2025 04:26 PM UTC | June 11, 2025 09:26 AM PT</strong></p><p>We are pleased to inform you that the issues impacting services using the OpenAI engine have been resolved. Our engineers received confirmation from our provider that ChatGPT and other components using the OpenAI engine are now operating as normal. We appreciate your patience as our team worked to resolve this issue.</p><h3 id=\"h_01JY1QF7KG0PJ52XC8JZMKJFZE\"><span style=\"color: #434343;\"><strong>Root Cause Analysis</strong></span></h3><p>This incident was caused by a Global OpenAI outage, impacting customers that use Zendesk applications that utilize the OpenAI engine (i.e. ChatGPT, AI Agents Essentials).</p><h3 id=\"h_01JY1QF7KHSSADM1BWYSCQN4HG\"><span style=\"color: #434343;\"><strong>Resolution</strong></span></h3><p>There was no intervention from the engineers as it was identified to be caused by a global OpenAI outage from the vendor.</p><h3 id=\"h_01JY1QF7KHT3YBJWAHNWM3FJA1\"><span style=\"color: #434343;\"><strong>Remediation Items</strong></span></h3><p>No remediation items listed as this was not caused by Zendesk.</p><h4 id=\"h_01JXYXSKZ5GC8NH9RP3F7WZ6ES\"><strong>FOR MORE INFORMATION</strong></h4><p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
     },
     {
