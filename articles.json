@@ -604,7 +604,7 @@
     {
       "id": 9333637402138,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9333637402138.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/9333637402138-Service-Incident-June-3rd-2025",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/9333637402138-Service-Incident-June-3rd-2025-Native-messaging-tickets-are-being-created-with-internal-notes-set-as-the-default-channel",
       "author_id": 9005790397722,
       "comments_disabled": true,
       "draft": false,
@@ -614,14 +614,14 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2025-06-03T14:40:38Z",
-      "updated_at": "2025-06-04T16:21:12Z",
-      "name": "Service Incident - June 3rd, 2025",
-      "title": "Service Incident - June 3rd, 2025",
+      "updated_at": "2025-06-18T17:01:25Z",
+      "name": "Service Incident - June 3rd, 2025 - Native messaging tickets are being created with internal notes set as the default channel.",
+      "title": "Service Incident - June 3rd, 2025 - Native messaging tickets are being created with internal notes set as the default channel.",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-06-03T15:55:29Z",
+      "edited_at": "2025-06-18T16:57:16Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
@@ -630,7 +630,7 @@
         "mt",
         "rank_low_algolia"
       ],
-      "body": "<h3 class=\"p1\"><strong>SUMMARY<br></strong></h3>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>June 03, 2025 03:55 PM UTC | June 03, 2025 08:55 AM PT </strong><br>We are pleased to inform you that the issue with Messaging defaulting to internal notes has been resolved. We appreciate your patience in working with us to resolve this issue.</p>\n<p class=\"p1\"><strong>June 03, 2025 03:35 PM UTC | June 03, 2025 08:35 AM PT </strong><br>Our engineers have deployed a fix for the issue with Messaging defaulting to internal notes. Please reload your browser for the fix to take effect, and let us know if you continue to see any issues.</p>\n<p class=\"p1\"><strong>June 03, 2025 02:40 PM UTC | June 03, 2025 07:40 AM PT </strong><br>We have received reports of customers having issues with Messaging where the messages are defaulting to internal notes. Our engineers are investigating this issue. We apologize for this inconvenience and will provide updates as it becomes available.</p>\n</div>\n<p class=\"p1\"><strong>POST-MORTEM</strong></p>\n<p class=\"p1\">TBD</p> <h4><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>\n",
+      "body": "<h3 id=\"h_01JY1ZFKDDB95DM757CX1ZVHVY\"><span style=\"color: #434343;\"><strong>SUMMARY</strong></span></h3><p>On June 2, 2025 from 19:15 UTC to June 3, 2025 15:21 UTC, customers experienced issues with the Native Messaging tickets created defaulting to internal notes. </p><h3 id=\"h_01JY1ZFKDF4RQ1P0JAR3WBYE0E\"><span style=\"color: #434343;\"><strong>Timeline</strong></span></h3><p><strong>June 03, 2025 02:40 PM UTC | June 03, 2025 07:40 AM PT</strong></p><p>We have received reports of customers having issues with Messaging where the messages are defaulting to internal notes. Our engineers are investigating this issue. We apologize for this inconvenience and will provide updates as it becomes available.</p><p><strong>June 03, 2025 03:35 PM UTC | June 03, 2025 08:35 AM PT</strong></p><p>Our engineers have deployed a fix for the issue with Messaging defaulting to internal notes. Please reload your browser for the fix to take effect, and let us know if you continue to see any issues.</p><p><strong>June 03, 2025 03:55 PM UTC | June 03, 2025 08:55 AM PT</strong></p><p>We are pleased to inform you that the issue with Messaging defaulting to internal notes has been resolved. We appreciate your patience in working with us to resolve this issue.</p><h3 id=\"h_01JY1ZFKDG135BRNS3WN4ACQ85\"><span style=\"color: #434343;\"><strong>Root Cause Analysis</strong></span></h3><p>A recent code change revealed a timing problem when creating a new messaging ticket. Sometimes, the composer loads before the ticket data is fully ready, so it can't correctly identify the ticket’s original channel. This only happens with new messaging tickets when auto-accept chat is enabled.</p><h3 id=\"h_01JY1ZFKDHNVYN6KJPEPBZ8883\"><span style=\"color: #434343;\"><strong>Resolution</strong></span></h3><p>To fix this issue, our engineers reverted the change that caused the timing problem back to its last known working configuration.</p><h3 id=\"h_01JY1ZFKDHETTS2M7QEGW7E25N\"><span style=\"color: #434343;\"><strong>Remediation Items</strong></span></h3><p>Make sure to test how the channel switcher responds when there is a delay in loading ticket information before deploying the changes to avoid these issues.</p><h4 id=\"h_01JY1ZF8Q5KEGKN5G8YWP2S4JK\"><strong>FOR MORE INFORMATION</strong></h4><p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
     },
     {
