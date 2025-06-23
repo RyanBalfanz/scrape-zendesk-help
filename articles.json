@@ -1,11 +1,42 @@
 {
-  "count": 4743,
+  "count": 4744,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 159,
   "per_page": 30,
   "previous_page": null,
   "articles": [
+    {
+      "id": 9408927288602,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9408927288602.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/9408927288602-Release-notes-through-2025-06-20",
+      "author_id": 1263082309989,
+      "comments_disabled": true,
+      "draft": false,
+      "promoted": true,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298847002,
+      "created_at": "2025-06-23T15:45:07Z",
+      "updated_at": "2025-06-23T18:09:15Z",
+      "name": "Release notes through 2025-06-20",
+      "title": "Release notes through 2025-06-20",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2025-06-23T17:09:48Z",
+      "user_segment_id": null,
+      "permission_group_id": 1324079,
+      "content_tag_ids": [],
+      "label_names": [
+        "mt",
+        "rank_low_algolia"
+      ],
+      "body": "<div class=\"note tip\">See our <a href=\"https://support.zendesk.com/hc/en-us/articles/9304693978522\" target=\"_blank\" rel=\"noopener noreferrer\">What's New</a> for an overview of what was released last month.</div>\n<p>This week's release notes include:</p>\n<ul>\n<li><a href=\"#h_01JYEQMV3597M7CFWYXPHM9GCV\">Support</a></li>\n<li><a href=\"#h_01JYEQMV35J09VFMPM101AZ2V8\">Chat and messaging</a></li>\n<li><a href=\"#h_01JXWK4N5PMWP2WMDR0V1WDVG4\">Copilot</a></li>\n<li><a href=\"#h_01JYEQMV352NS48YGKXJBM409R\">App Marketplace</a></li>\n<li><a href=\"#h_01JTEK9M5VDF23FR6B186DEJ80\">Products with no updates this week</a></li>\n</ul>\n<h2 id=\"h_01JYEQMV3597M7CFWYXPHM9GCV\">Support</h2>\n<p data-renderer-start-pos=\"47\"><span data-renderer-mark=\"true\" data-text-custom-color=\"#ff00ff\"><strong data-renderer-mark=\"true\">Fixed:</strong></span></p>\n<ul>\n<li data-renderer-start-pos=\"69\">The recent release allowing CSAT surveys to be submitted on closed tickets previously required the “Modify Closed Ticket” setting to be enabled. This defect has been corrected and is no longer required for CSAT on closed tickets. </li>\n</ul>\n<h2 id=\"h_01JYEQMV35J09VFMPM101AZ2V8\">Chat and messaging</h2>\n<p><strong>New:</strong></p>\n<ul>\n<li data-stringify-indent=\"0\" data-stringify-border=\"0\">Customers can now utilize brand as a condition for their messaging trigger actions in real-time, enabling them to create a brand-centric trigger experience. See <a href=\"https://support.zendesk.com/hc/en-us/articles/8015292388378-Messaging-triggers-conditions-and-actions-reference\" target=\"_blank\" rel=\"noopener noreferrer\">Messaging triggers conditions and actions reference</a>.</li>\n</ul>\n<h2 id=\"h_01JXWK4N5PMWP2WMDR0V1WDVG4\">Copilot</h2>\n<div>\n<p id=\"h_01J87S17W2PV0NM8XK0NS1GCV1\"><strong>New:</strong></p>\n<ul>\n<li>\n<p><a href=\"https://support.zendesk.com/hc/en-us/articles/9261067837210-Announcing-auto-assist-integration-with-similar-tickets\">A<span>uto assist, a part of the<span> </span></span></a><a href=\"https://support.zendesk.com/hc/en-us/articles/5524125586330\" target=\"_blank\" rel=\"noopener noreferrer\">Copilot add-on</a>, can now rely on similar tickets that were successfully solved in the past. Auto assist uses your <a href=\"https://support.zendesk.com/hc/en-us/articles/8036381366426\" target=\"_blank\" rel=\"noopener noreferrer\">similar tickets</a><span><span> </span>to generate replies when no relevant procedures or public help center articles are found. <a href=\"https://support.zendesk.com/hc/en-us/articles/9261067837210-Announcing-auto-assist-integration-with-similar-tickets\" target=\"_blank\" rel=\"noopener noreferrer\">Read more</a>.</span></p>\n</li>\n<li>\n<p><span>Redaction suggestions, which are part of the Advanced Data Privacy and Protection add-on, can now detect personally identifiable information (PII) <a href=\"https://support.zendesk.com/hc/en-us/articles/9371438948250-Announcing-a-new-language-for-redaction-suggestions\" target=\"_blank\" rel=\"noopener noreferrer\">in Korean</a>.</span></p>\n</li>\n</ul>\n</div>\n<h2 id=\"h_01JYEQMV352NS48YGKXJBM409R\">App Marketplace</h2>\n<div><strong>New:</strong></div>\n<ul>\n<li>\n<div>\n<a href=\"https://www.zendesk.com/marketplace/apps/sell/1124497/contactswing-ai-agents/\">ContactSwing AI Agents</a><span> </span><strong>(Sell)</strong>\n</div>\n<ul>\n<li>\n<div>ContactSwing AI Agents seamlessly integrates with Zendesk Sell to provide intelligent communication capabilities. This powerful app enables sales teams to leverage AI-driven assistants for personalized SMS messaging, voice calls, and email campaigns. Features include automated campaign management, real-time communication tracking, and intelligent conversation flows that help convert leads into customers. Perfect for sales teams looking to scale their outreach efforts while maintaining a personal touch.</div>\n</li>\n</ul>\n</li>\n<li>\n<div>\n<a href=\"https://www.zendesk.com/marketplace/themes/367/rinzai-128/\">Rinzai 128</a><span> </span><strong>(Theme)</strong>\n</div>\n<ul>\n<li>\n<div>Rinzai 128  is a modern and fully customizable Zendesk theme built to elevate your Help Center and Knowledge Base. Powered by Templating API v4, it offers advanced flexibility, seamless design control, and includes the AI Quick Answers feature to boost customer support efficiency.</div>\n</li>\n</ul>\n</li>\n<li>\n<div>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1136283/zemplate/\">Zemplate</a><span> </span><strong>(Support) (paid)</strong>\n</div>\n<ul>\n<li>\n<div>Zemplate is a no-code email template designer. Change colors, spaces, borders and more with simple input and slider controls. Add logos, banners, and more to the header, footer, or background of your emails.  Copy the generated code into the email template settings in the Admin Centre.</div>\n</li>\n</ul>\n</li>\n<li>\n<div>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1139474/zendesk-for-contact-center-dashboards/\">Zendesk for Contact Center Dashboards<span> </span></a><strong>(Support)</strong>\n</div>\n<ul>\n<li>\n<div>Zendesk for Contact Center Dashboards gives you seamless access to your contact center’s core performance metrics and reporting - all in real time and within the familiar Zendesk environment.  Gain immediate visibility into real-time and historical contact center metrics.  Access all four Zendesk for Contact Center dashboards directly within Zendesk.  Monitor agent and team performance effortlessly to make timely, informed decisions.</div>\n</li>\n</ul>\n</li>\n<li>\n<div>\n<a href=\"https://www.zendesk.com/marketplace/themes/366/bucky/\">Bucky</a><span> </span><strong>(Theme)</strong>\n</div>\n<ul>\n<li>Bucky is a sleek and intuitive Zendesk theme built for easy customization. With powerful built-in settings, you can fully brand your Help Center—no coding needed. Created in honor of the greatest husky, it’s as bold and reliable as its namesake.</li>\n</ul>\n</li>\n<li>\n<div>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1134618/trigger-analyzer-2025/\">Trigger Analyzer 2025</a><span> </span><strong>(Support) (paid)</strong>\n</div>\n<ul>\n<li>\n<div>Trigger Analyzer 2025 analyzes your trigger setups, tells you why it fired (or not), and the impact of changes.  Trigger Analyzer 2025 gives you full visibility into your trigger logic, dependencies, and what might happen if you change it. Whether you're building something new, debugging something broken, or trying to understand what's going on, Trigger Analyzer helps you do it without fear.</div>\n</li>\n</ul>\n</li>\n</ul>\n<h2 id=\"h_01JTEK9M5VDF23FR6B186DEJ80\">Products with no updates this week</h2>\n<ul>\n<li>Talk</li>\n<li>Admin Center</li>\n<li id=\"h_01JXZDXC5RQXGRZNVEPZBRSZ58\">AI Agents and Knowledge</li>\n<li id=\"h_01JXWK99DJQ9S5S8TXPJ3T5YS8\">Zendesk Workforce Management (WFM)</li>\n<li id=\"h_01JXWK99DJQ9S5S8TXPJ3T5YS8\">Mobile</li>\n<li>Explore</li>\n<li>Zendesk QA</li>\n</ul>",
+      "user_segment_ids": []
+    },
     {
       "id": 9387269076890,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9387269076890.json",
@@ -946,38 +977,6 @@
         "mt"
       ],
       "body": "<p>Zendesk will perform critical maintenance which will impact performance for some Explore customers for one (1) day on June 4, 2025 during the time listed below.</p><p><strong>Affected products:</strong> Explore</p><div class=\"note\">\n<strong>Important:</strong>  Customers can still run queries in Explore during the maintenance window.</div><div class=\"note tip\">\n<strong>Customers Affected:</strong> Only a subset of customers in the Pods listed below will be impacted by this maintenance program. Owners and Admins of those impacted accounts will be informed via a service notification banner in Zendesk Support that will appear on May 22, 2025.</div><div><figure style=\"width: 100%;\" class=\"wysiwyg-table\"><table class=\"ck-table-resized wysiwyg-table-resized\">\n<colgroup>\n<col style=\"width: NaN%;\">\n<col style=\"width: NaN%;\">\n<col style=\"width: NaN%;\">\n<col style=\"width: NaN%;\">\n</colgroup>\n<tbody>\n<tr>\n<td>Date</td>\n<td><a href=\"https://support.zendesk.com/hc/en-us/articles/4408829092506-What-is-a-Pod\"><span class=\"wysiwyg-underline\">POD</span></a></td>\n<td>Start Time</td>\n<td>End Time</td>\n</tr>\n<tr>\n<td>June 4, 2025</td>\n<td>19</td>\n<td>09:30 UTC / 02:30 PDT</td>\n<td>11:00 UTC / 04:00 PDT</td>\n</tr>\n<tr>\n<td>June 4, 2025</td>\n<td>20</td>\n<td>09:30 UTC / 02:30 PDT</td>\n<td>11:00 UTC / 04:00 PDT</td>\n</tr>\n<tr>\n<td>June 4, 2025</td>\n<td>23</td>\n<td>09:30 UTC / 02:30 PDT</td>\n<td>11:00 UTC / 04:00 PDT</td>\n</tr>\n<tr>\n<td>June 4, 2025</td>\n<td>25</td>\n<td>09:30 UTC / 02:30 PDT</td>\n<td>11:00 UTC / 04:00 PDT</td>\n</tr>\n</tbody>\n</table></figure></div><p><strong>Expected behavior:</strong> Some Zendesk Explore customers will experience a delay in data refresh, which will become noticeable 1 hour after the maintenance starts and is expected to last 1.5 hours.</p><p>Please note that backend data ingestion processes will still occur without issue. The Explore reporting UI and data export features will still be available and Explore real-time dashboards will continue to update as usual. This reduces the impact customers will experience during the maintenance window. </p><p><strong>Why we're doing this:</strong> The Zendesk Explore team is upgrading our databases for increased reliability, security and performance.</p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 9280239706906,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9280239706906.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/9280239706906-Service-Incident-May-21-2025-Support-Messaging-All-Pods-Errors-loading-conversations-in-tickets",
-      "author_id": 1900815493464,
-      "comments_disabled": true,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405298854426,
-      "created_at": "2025-05-21T05:54:23Z",
-      "updated_at": "2025-05-29T07:01:19Z",
-      "name": "Service Incident - May 21, 2025 - Support (Messaging) | All Pods - Errors loading conversations in tickets",
-      "title": "Service Incident - May 21, 2025 - Support (Messaging) | All Pods - Errors loading conversations in tickets",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2025-05-29T03:57:46Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801242670,
-      "content_tag_ids": [],
-      "label_names": [
-        "service_incident",
-        "mt",
-        "rank_low_algolia"
-      ],
-      "body": "<h3 id=\"h_01JWD2M6F7SZQ88WT7CB395GP4\">Summary</h3>\n<p>On May 21, 2025 from 05:13 UTC to 05:51 UTC, Zendesk Support (Messaging) customers on multiple pods experienced issues viewing tickets and communicating with end users in the Messaging interface. Various error codes and error messages prevented agents and end users from communicating with each other.</p>\n<h3 id=\"h_01JWD2MEHDG8RYKXRA941Z9QQX\">Timeline</h3>\n<p><strong>May 21, 2025 05:54 AM UTC | May 20, 2025 10:54 PM PT </strong><br>We are currently aware of an issue in Support where customers are encountering the error message, \"Message couldn’t be loaded.\" Our engineering team is actively working to resolve the problem. We will provide an update within the next 30 minutes.</p>\n<p><strong>May 21, 2025 06:08 AM UTC | May 20, 2025 11:08 PM PT </strong><br>Our engineering team has resolved the issue. Our engineers immediately performed a rollback to resolve the issue. To ensure the fix takes effect on your end, please perform a hard refresh or clear your cache and cookies. Thank you for your patience and cooperation. A final update will be provided shortly.</p>\n<div id=\"message-list\">\n<p class=\"p1\"><strong>May 21, 2025 07:18 AM UTC | May 21, 2025 12:18 AM PT </strong><br>We are pleased to confirm that the issue affecting Support, which caused some customers to receive the error message “Message couldn’t be loaded,” has been resolved. Thank you for your patience and understanding while our team worked to address this.</p>\n</div>\n<h3 id=\"h_01JWD2NJ1S771K06DFZV5W2MYF\">Root Cause Analysis</h3>\n<p>This incident was caused by the introduction of a new field in the API call responsible for fetching ticket conversation data in Support (Messaging). The new code was deployed to accommodate the new field and associated mappings. As part of this release, we unintentionally introduced an invalid mapping of boolean types that resulted in malformed data to be returned by our backend API service. This resulted in the ticket conversation errors experienced by our customers.</p>\n<h3 id=\"h_01JWD2NJ1SAW8XJ4J1XSNFH0EY\">Resolution</h3>\n<p>To fix this issue, our team identified the deploy and rolled it back.</p>\n<h3 id=\"h_01JWD2NJ1SHWGF968Z4BBJQMMZ\">Remediation Items</h3>\n<ol>\n<li>Identify and fix testing gaps that allowed this issue to escape detection in pre-production environments (including smoke tests).</li>\n<li>Investigate canary phase improvements to surface issues before they become widespread.</li>\n<li>Investigate and implement explicit backwards compatibility checks during code design phase.</li>\n</ol>\n<h4 id=\"h_01JWD2CXBMFR8N89T1V10PBGB1\"><strong>FOR MORE INFORMATION</strong></h4>\n<p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
     }
   ],
