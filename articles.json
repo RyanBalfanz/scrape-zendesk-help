@@ -1,8 +1,8 @@
 {
-  "count": 4745,
+  "count": 4738,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
-  "page_count": 159,
+  "page_count": 158,
   "per_page": 30,
   "previous_page": null,
   "articles": [
@@ -19,7 +19,7 @@
       "vote_count": 0,
       "section_id": 4405298833818,
       "created_at": "2025-06-23T17:09:59Z",
-      "updated_at": "2025-06-23T20:27:40Z",
+      "updated_at": "2025-06-24T15:01:50Z",
       "name": "Updates to Microsoft sender requirements",
       "title": "Updates to Microsoft sender requirements",
       "source_locale": "en-us",
@@ -30,7 +30,9 @@
       "user_segment_id": null,
       "permission_group_id": 1324079,
       "content_tag_ids": [],
-      "label_names": [],
+      "label_names": [
+        "mtpe"
+      ],
       "body": "<p>Recently, Microsoft announced that they are <a href=\"https://techcommunity.microsoft.com/blog/microsoftdefenderforoffice365blog/strengthening-email-ecosystem-outlook%E2%80%99s-new-requirements-for-high%E2%80%90volume-senders/4399730\" target=\"_blank\" rel=\"noopener noreferrer\">rolling out changes</a> to help reduce the amount of spam their users receive. This change is a positive development and one in which Zendesk is aligned. You may experience delays or rejections in outbound sending since these changes include requirements related to rate limits, as well as DNS checks to verify the health of your records. Zendesk is always actively monitoring the health of our infrastructure to provide the greatest deliverability possible.</p><p>These changes by Microsoft adhere more closely to the RFC standards, specifically SPF and DKIM. These are standards that Zendesk also abides by and supports with our product. </p><h2 id=\"h_01JYEW0BRS6H1VMSFJABC8YJR3\">Reviewing the health of your Zendesk instance and your domain</h2><p>Due to the changes introduced by Microsoft, accounts may want to review the health of their Zendesk instance, specifically the <strong>Support addresses</strong> section on the Email page in Admin Center and the <strong>Custom Domain for DKIM setup</strong>.</p><p>System support addresses (support@<em>yoursubdomain</em>.zendesk.com) utilize both SPF and DKIM to ensure that they meet sending requirements. The traffic sent from these addresses is authenticated by our own authority with both of these protocols. </p><p>When we are sending traffic on behalf of an account’s domain (support@yourdomain.com):</p><ul>\n<li>\n<strong>Accounts are encouraged to add an SPF record for their external support addresses. </strong>In addition, we encourage customers to examine the health of their own domain’s SPF record (<a href=\"https://easydmarc.com/tools/spf-lookup\" target=\"_blank\" rel=\"noopener noreferrer\">EasyDMARC</a>, <a href=\"https://emailstuff.org/spf/check\" target=\"_blank\" rel=\"noopener noreferrer\">EmailStuff</a>, and <a href=\"https://www.kitterman.com/spf/validate.html?\" target=\"_blank\" rel=\"noopener noreferrer\">Kitterman</a> are helpful tools). If you see errors in any of these verification services, address them with your domain admin or email provider.  </li>\n<li>\n<strong>Enabling DKIM is highly encouraged (after adding the required DNS records). </strong>This adds an additional layer of validation to an account’s outbound email traffic. Please do not enable this feature without first adding the required DNS/cname records.</li>\n<li>\n<strong>Add a DMARC record for your domain. </strong>This is done entirely outside of Zendesk and may require the assistance of your domain admin or email provider.</li>\n</ul><h2 id=\"h_01JYEW64YBR9B249KXQK8V44Z2\">Other considerations for improving the health of your email traffic</h2><ul>\n<li>\n<strong>Remove sales and marketing links</strong> from your agent signatures or from within your triggers, automations, or HTML template. These may be regarded more severely by Microsoft (as well as other recipients, such as Gmail and Yahoo), and may make your transactional support traffic appear to be part of an uninvited sales or marketing attempt.</li>\n<li>\n<strong>Consider removing @outlook.com addresses for email archiving</strong> or replacing them with an address designed to handle increased traffic loads. Microsoft is instituting rate limits. Free email accounts are not designed for commercial archiving purposes.</li>\n<li>\n<strong>Examine your email workflows.</strong> In general, if a user hasn't emailed you first, then the receipt of an automated message can <em>seem</em> like uninvited traffic, particularly to any free email provider.</li>\n</ul><h2 id=\"h_01JYEW7D5D68Y3ZBWB0FW505PP\">Summary</h2><p>Although Zendesk has no control over the behavior or acceptance policies of any external service or resource, it's common for these services to implement changes to more closely adhere to RFC standards. Zendesk monitors updates and changes to these policies to ensure the highest levels of deliverability and encourages our customers to utilize healthy sending practices, which is a partnership between:</p><ol>\n<li>What we do as an email sender</li>\n<li>The DNS records that exist for your domain</li>\n<li>The acceptance policies in place at the receiving service </li>\n</ol><p>While these new requirements from Microsoft align with policies many email servers have been using for quite some time, accounts that have not adopted SPF/DKIM/DMARC or those with invalid records will want to consider leveraging these authentication protocols to your advantage.</p><h2 id=\"h_01JYEW8B444QE0D5N37QHGD6DJ\">Getting assistance</h2><p>If you have any questions about your domain’s DNS records or the health of your domain, refer them to your domain admin or email provider. Zendesk cannot investigate or troubleshoot these issues, as they fall outside our scope of support.</p><p>If you have questions about email that is specific to your Zendesk account, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk Customer Support</a>. If you have product feedback or feature requests related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/4408860477850\" target=\"_blank\" rel=\"noopener noreferrer\">community forum</a> where we collect and manage customer product feedback.</p><p> </p>",
       "user_segment_ids": []
     },
@@ -39,7 +41,7 @@
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9408927288602.json",
       "html_url": "https://support.zendesk.com/hc/en-us/articles/9408927288602-Release-notes-through-2025-06-20",
       "author_id": 1263082309989,
-      "comments_disabled": true,
+      "comments_disabled": false,
       "draft": false,
       "promoted": true,
       "position": 0,
@@ -47,14 +49,14 @@
       "vote_count": 0,
       "section_id": 4405298847002,
       "created_at": "2025-06-23T15:45:07Z",
-      "updated_at": "2025-06-23T18:09:15Z",
+      "updated_at": "2025-06-24T15:10:07Z",
       "name": "Release notes through 2025-06-20",
       "title": "Release notes through 2025-06-20",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-06-23T17:09:48Z",
+      "edited_at": "2025-06-24T15:10:07Z",
       "user_segment_id": null,
       "permission_group_id": 1324079,
       "content_tag_ids": [],
@@ -62,7 +64,7 @@
         "mt",
         "rank_low_algolia"
       ],
-      "body": "<div class=\"note tip\">See our <a href=\"https://support.zendesk.com/hc/en-us/articles/9304693978522\" target=\"_blank\" rel=\"noopener noreferrer\">What's New</a> for an overview of what was released last month.</div>\n<p>This week's release notes include:</p>\n<ul>\n<li><a href=\"#h_01JYEQMV3597M7CFWYXPHM9GCV\">Support</a></li>\n<li><a href=\"#h_01JYEQMV35J09VFMPM101AZ2V8\">Chat and messaging</a></li>\n<li><a href=\"#h_01JXWK4N5PMWP2WMDR0V1WDVG4\">Copilot</a></li>\n<li><a href=\"#h_01JYEQMV352NS48YGKXJBM409R\">App Marketplace</a></li>\n<li><a href=\"#h_01JTEK9M5VDF23FR6B186DEJ80\">Products with no updates this week</a></li>\n</ul>\n<h2 id=\"h_01JYEQMV3597M7CFWYXPHM9GCV\">Support</h2>\n<p data-renderer-start-pos=\"47\"><span data-renderer-mark=\"true\" data-text-custom-color=\"#ff00ff\"><strong data-renderer-mark=\"true\">Fixed:</strong></span></p>\n<ul>\n<li data-renderer-start-pos=\"69\">The recent release allowing CSAT surveys to be submitted on closed tickets previously required the “Modify Closed Ticket” setting to be enabled. This defect has been corrected and is no longer required for CSAT on closed tickets. </li>\n</ul>\n<h2 id=\"h_01JYEQMV35J09VFMPM101AZ2V8\">Chat and messaging</h2>\n<p><strong>New:</strong></p>\n<ul>\n<li data-stringify-indent=\"0\" data-stringify-border=\"0\">Customers can now utilize brand as a condition for their messaging trigger actions in real-time, enabling them to create a brand-centric trigger experience. See <a href=\"https://support.zendesk.com/hc/en-us/articles/8015292388378-Messaging-triggers-conditions-and-actions-reference\" target=\"_blank\" rel=\"noopener noreferrer\">Messaging triggers conditions and actions reference</a>.</li>\n</ul>\n<h2 id=\"h_01JXWK4N5PMWP2WMDR0V1WDVG4\">Copilot</h2>\n<div>\n<p id=\"h_01J87S17W2PV0NM8XK0NS1GCV1\"><strong>New:</strong></p>\n<ul>\n<li>\n<p><a href=\"https://support.zendesk.com/hc/en-us/articles/9261067837210-Announcing-auto-assist-integration-with-similar-tickets\">A<span>uto assist, a part of the<span> </span></span></a><a href=\"https://support.zendesk.com/hc/en-us/articles/5524125586330\" target=\"_blank\" rel=\"noopener noreferrer\">Copilot add-on</a>, can now rely on similar tickets that were successfully solved in the past. Auto assist uses your <a href=\"https://support.zendesk.com/hc/en-us/articles/8036381366426\" target=\"_blank\" rel=\"noopener noreferrer\">similar tickets</a><span><span> </span>to generate replies when no relevant procedures or public help center articles are found. <a href=\"https://support.zendesk.com/hc/en-us/articles/9261067837210-Announcing-auto-assist-integration-with-similar-tickets\" target=\"_blank\" rel=\"noopener noreferrer\">Read more</a>.</span></p>\n</li>\n<li>\n<p><span>Redaction suggestions, which are part of the Advanced Data Privacy and Protection add-on, can now detect personally identifiable information (PII) <a href=\"https://support.zendesk.com/hc/en-us/articles/9371438948250-Announcing-a-new-language-for-redaction-suggestions\" target=\"_blank\" rel=\"noopener noreferrer\">in Korean</a>.</span></p>\n</li>\n</ul>\n</div>\n<h2 id=\"h_01JYEQMV352NS48YGKXJBM409R\">App Marketplace</h2>\n<div><strong>New:</strong></div>\n<ul>\n<li>\n<div>\n<a href=\"https://www.zendesk.com/marketplace/apps/sell/1124497/contactswing-ai-agents/\">ContactSwing AI Agents</a><span> </span><strong>(Sell)</strong>\n</div>\n<ul>\n<li>\n<div>ContactSwing AI Agents seamlessly integrates with Zendesk Sell to provide intelligent communication capabilities. This powerful app enables sales teams to leverage AI-driven assistants for personalized SMS messaging, voice calls, and email campaigns. Features include automated campaign management, real-time communication tracking, and intelligent conversation flows that help convert leads into customers. Perfect for sales teams looking to scale their outreach efforts while maintaining a personal touch.</div>\n</li>\n</ul>\n</li>\n<li>\n<div>\n<a href=\"https://www.zendesk.com/marketplace/themes/367/rinzai-128/\">Rinzai 128</a><span> </span><strong>(Theme)</strong>\n</div>\n<ul>\n<li>\n<div>Rinzai 128  is a modern and fully customizable Zendesk theme built to elevate your Help Center and Knowledge Base. Powered by Templating API v4, it offers advanced flexibility, seamless design control, and includes the AI Quick Answers feature to boost customer support efficiency.</div>\n</li>\n</ul>\n</li>\n<li>\n<div>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1136283/zemplate/\">Zemplate</a><span> </span><strong>(Support) (paid)</strong>\n</div>\n<ul>\n<li>\n<div>Zemplate is a no-code email template designer. Change colors, spaces, borders and more with simple input and slider controls. Add logos, banners, and more to the header, footer, or background of your emails.  Copy the generated code into the email template settings in the Admin Centre.</div>\n</li>\n</ul>\n</li>\n<li>\n<div>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1139474/zendesk-for-contact-center-dashboards/\">Zendesk for Contact Center Dashboards<span> </span></a><strong>(Support)</strong>\n</div>\n<ul>\n<li>\n<div>Zendesk for Contact Center Dashboards gives you seamless access to your contact center’s core performance metrics and reporting - all in real time and within the familiar Zendesk environment.  Gain immediate visibility into real-time and historical contact center metrics.  Access all four Zendesk for Contact Center dashboards directly within Zendesk.  Monitor agent and team performance effortlessly to make timely, informed decisions.</div>\n</li>\n</ul>\n</li>\n<li>\n<div>\n<a href=\"https://www.zendesk.com/marketplace/themes/366/bucky/\">Bucky</a><span> </span><strong>(Theme)</strong>\n</div>\n<ul>\n<li>Bucky is a sleek and intuitive Zendesk theme built for easy customization. With powerful built-in settings, you can fully brand your Help Center—no coding needed. Created in honor of the greatest husky, it’s as bold and reliable as its namesake.</li>\n</ul>\n</li>\n<li>\n<div>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1134618/trigger-analyzer-2025/\">Trigger Analyzer 2025</a><span> </span><strong>(Support) (paid)</strong>\n</div>\n<ul>\n<li>\n<div>Trigger Analyzer 2025 analyzes your trigger setups, tells you why it fired (or not), and the impact of changes.  Trigger Analyzer 2025 gives you full visibility into your trigger logic, dependencies, and what might happen if you change it. Whether you're building something new, debugging something broken, or trying to understand what's going on, Trigger Analyzer helps you do it without fear.</div>\n</li>\n</ul>\n</li>\n</ul>\n<h2 id=\"h_01JTEK9M5VDF23FR6B186DEJ80\">Products with no updates this week</h2>\n<ul>\n<li>Talk</li>\n<li>Admin Center</li>\n<li id=\"h_01JXZDXC5RQXGRZNVEPZBRSZ58\">AI Agents and Knowledge</li>\n<li id=\"h_01JXWK99DJQ9S5S8TXPJ3T5YS8\">Zendesk Workforce Management (WFM)</li>\n<li id=\"h_01JXWK99DJQ9S5S8TXPJ3T5YS8\">Mobile</li>\n<li>Explore</li>\n<li>Zendesk QA</li>\n</ul>",
+      "body": "<div class=\"note tip\">See our <a href=\"https://support.zendesk.com/hc/en-us/articles/9304693978522\" target=\"_blank\" rel=\"noopener noreferrer\">What's New</a> for an overview of what was released last month.</div>\n<p>This week's release notes include:</p>\n<ul>\n<li><a href=\"#h_01JYEQMV3597M7CFWYXPHM9GCV\">Support</a></li>\n<li><a href=\"#h_01JYEQMV35J09VFMPM101AZ2V8\">Chat and messaging</a></li>\n<li><a href=\"#h_01JXWK4N5PMWP2WMDR0V1WDVG4\">Copilot</a></li>\n<li><a href=\"#h_01JYH7QK8Z8TGCH8V7JBZN2XRP\">AI Agents and Knowledge</a></li>\n<li><a href=\"#h_01JYEQMV352NS48YGKXJBM409R\">App Marketplace</a></li>\n<li><a href=\"#h_01JTEK9M5VDF23FR6B186DEJ80\">Products with no updates this week</a></li>\n</ul>\n<h2 id=\"h_01JYEQMV3597M7CFWYXPHM9GCV\">Support</h2>\n<p data-renderer-start-pos=\"47\"><span data-renderer-mark=\"true\" data-text-custom-color=\"#ff00ff\"><strong data-renderer-mark=\"true\">Fixed:</strong></span></p>\n<ul>\n<li data-renderer-start-pos=\"69\">The recent release allowing CSAT surveys to be submitted on closed tickets previously required the “Modify Closed Ticket” setting to be enabled. This defect has been corrected and is no longer required for CSAT on closed tickets. </li>\n</ul>\n<h2 id=\"h_01JYEQMV35J09VFMPM101AZ2V8\">Chat and messaging</h2>\n<p><strong>New:</strong></p>\n<ul>\n<li data-stringify-indent=\"0\" data-stringify-border=\"0\">Customers can now utilize brand as a condition for their messaging trigger actions in real-time, enabling them to create a brand-centric trigger experience. See <a href=\"https://support.zendesk.com/hc/en-us/articles/8015292388378-Messaging-triggers-conditions-and-actions-reference\" target=\"_blank\" rel=\"noopener noreferrer\">Messaging triggers conditions and actions reference</a>.</li>\n</ul>\n<h2 id=\"h_01JXWK4N5PMWP2WMDR0V1WDVG4\">Copilot</h2>\n<div>\n<p id=\"h_01J87S17W2PV0NM8XK0NS1GCV1\"><strong>New:</strong></p>\n<ul>\n<li>\n<p><a href=\"https://support.zendesk.com/hc/en-us/articles/9261067837210-Announcing-auto-assist-integration-with-similar-tickets\">A<span>uto assist, a part of the<span> </span></span></a><a href=\"https://support.zendesk.com/hc/en-us/articles/5524125586330\" target=\"_blank\" rel=\"noopener noreferrer\">Copilot add-on</a>, can now rely on similar tickets that were successfully solved in the past. Auto assist uses your <a href=\"https://support.zendesk.com/hc/en-us/articles/8036381366426\" target=\"_blank\" rel=\"noopener noreferrer\">similar tickets</a><span><span> </span>to generate replies when no relevant procedures or public help center articles are found. <a href=\"https://support.zendesk.com/hc/en-us/articles/9261067837210-Announcing-auto-assist-integration-with-similar-tickets\" target=\"_blank\" rel=\"noopener noreferrer\">Read more</a>.</span></p>\n</li>\n<li>\n<p><span>Redaction suggestions, which are part of the Advanced Data Privacy and Protection add-on, can now detect personally identifiable information (PII) <a href=\"https://support.zendesk.com/hc/en-us/articles/9371438948250-Announcing-a-new-language-for-redaction-suggestions\" target=\"_blank\" rel=\"noopener noreferrer\">in Korean</a>.</span></p>\n</li>\n</ul>\n</div>\n<h2 id=\"h_01JYH7QK8Z8TGCH8V7JBZN2XRP\">AI Agents and Knowledge</h2>\n<p><strong data-stringify-type=\"bold\">New:</strong></p>\n<ul data-stringify-type=\"unordered-list\" data-list-tree=\"true\" data-indent=\"0\" data-border=\"0\">\n<li data-stringify-indent=\"0\" data-stringify-border=\"0\">\n<a href=\"https://support.zendesk.com/hc/en-us/articles/9118856019098-Analyzing-user-session-and-page-efficiency-activity-in-the-help-center\" target=\"_blank\" rel=\"noopener noreferrer\">Knowledge self-service</a> datasets and dashboard were released.</li>\n<li data-stringify-indent=\"0\" data-stringify-border=\"0\">AI Agents Advanced:\n<ul>\n<li data-stringify-indent=\"0\" data-stringify-border=\"0\"><a href=\"https://support.zendesk.com/hc/en-us/articles/8357756417562-Analyzing-generative-reply-performance-for-advanced-AI-agents\" target=\"_blank\" rel=\"noopener noreferrer\" data-stringify-link=\"https://support.zendesk.com/hc/en-us/articles/8357756417562-Analyzing-generative-reply-performance-for-advanced-AI-agents\" data-sk=\"tooltip_parent\">Launched generative reply performance for Gen3 customers</a></li>\n<li data-stringify-indent=\"0\" data-stringify-border=\"0\"><a href=\"https://zendesk.slack.com/archives/C1KEDMNUR/p1749729096716709\" target=\"_blank\" rel=\"noopener noreferrer\" data-stringify-link=\"https://zendesk.slack.com/archives/C1KEDMNUR/p1749729096716709\" data-sk=\"tooltip_parent\">Improved Email (Ticket) Conversation Predictions</a></li>\n<li data-stringify-indent=\"0\" data-stringify-border=\"0\">All new \"Messaging\" AI agents are Gen 3 enabled by default</li>\n<li data-stringify-indent=\"0\" data-stringify-border=\"0\">Clicking on the name &amp; description of a use case in the use case list row opens an edit modal</li>\n<li data-stringify-indent=\"0\" data-stringify-border=\"0\">The generative replies search rule description field is now mandatory</li>\n</ul>\n</li>\n</ul>\n<div><strong data-stringify-type=\"bold\">Fixed:</strong></div>\n<ul>\n<li data-stringify-indent=\"0\" data-stringify-border=\"0\">The procedure agent (agentic AI Agents) no longer sends duplicated or repetitive messages</li>\n<li data-stringify-indent=\"0\" data-stringify-border=\"0\">Fixed a bug that prevented search rules from being automatically copied when copying Generative replies blocks</li>\n<li data-stringify-indent=\"0\" data-stringify-border=\"0\">Temporarily kept the \"Chat with Us\" option hidden in the US dashboard as a response to an incident. We will configure the Support bot and enable it again in a few weeks.</li>\n</ul>\n<h2 id=\"h_01JYEQMV352NS48YGKXJBM409R\">App Marketplace</h2>\n<div><strong>New:</strong></div>\n<ul>\n<li>\n<div>\n<a href=\"https://www.zendesk.com/marketplace/apps/sell/1124497/contactswing-ai-agents/\">ContactSwing AI Agents</a><span> </span><strong>(Sell)</strong>\n</div>\n<ul>\n<li>\n<div>ContactSwing AI Agents seamlessly integrates with Zendesk Sell to provide intelligent communication capabilities. This powerful app enables sales teams to leverage AI-driven assistants for personalized SMS messaging, voice calls, and email campaigns. Features include automated campaign management, real-time communication tracking, and intelligent conversation flows that help convert leads into customers. Perfect for sales teams looking to scale their outreach efforts while maintaining a personal touch.</div>\n</li>\n</ul>\n</li>\n<li>\n<div>\n<a href=\"https://www.zendesk.com/marketplace/themes/367/rinzai-128/\">Rinzai 128</a><span> </span><strong>(Theme)</strong>\n</div>\n<ul>\n<li>\n<div>Rinzai 128  is a modern and fully customizable Zendesk theme built to elevate your Help Center and Knowledge Base. Powered by Templating API v4, it offers advanced flexibility, seamless design control, and includes the AI Quick Answers feature to boost customer support efficiency.</div>\n</li>\n</ul>\n</li>\n<li>\n<div>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1136283/zemplate/\">Zemplate</a><span> </span><strong>(Support) (paid)</strong>\n</div>\n<ul>\n<li>\n<div>Zemplate is a no-code email template designer. Change colors, spaces, borders and more with simple input and slider controls. Add logos, banners, and more to the header, footer, or background of your emails.  Copy the generated code into the email template settings in the Admin Centre.</div>\n</li>\n</ul>\n</li>\n<li>\n<div>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1139474/zendesk-for-contact-center-dashboards/\">Zendesk for Contact Center Dashboards<span> </span></a><strong>(Support)</strong>\n</div>\n<ul>\n<li>\n<div>Zendesk for Contact Center Dashboards gives you seamless access to your contact center’s core performance metrics and reporting - all in real time and within the familiar Zendesk environment.  Gain immediate visibility into real-time and historical contact center metrics.  Access all four Zendesk for Contact Center dashboards directly within Zendesk.  Monitor agent and team performance effortlessly to make timely, informed decisions.</div>\n</li>\n</ul>\n</li>\n<li>\n<div>\n<a href=\"https://www.zendesk.com/marketplace/themes/366/bucky/\">Bucky</a><span> </span><strong>(Theme)</strong>\n</div>\n<ul>\n<li>Bucky is a sleek and intuitive Zendesk theme built for easy customization. With powerful built-in settings, you can fully brand your Help Center—no coding needed. Created in honor of the greatest husky, it’s as bold and reliable as its namesake.</li>\n</ul>\n</li>\n<li>\n<div>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1134618/trigger-analyzer-2025/\">Trigger Analyzer 2025</a><span> </span><strong>(Support) (paid)</strong>\n</div>\n<ul>\n<li>\n<div>Trigger Analyzer 2025 analyzes your trigger setups, tells you why it fired (or not), and the impact of changes.  Trigger Analyzer 2025 gives you full visibility into your trigger logic, dependencies, and what might happen if you change it. Whether you're building something new, debugging something broken, or trying to understand what's going on, Trigger Analyzer helps you do it without fear.</div>\n</li>\n</ul>\n</li>\n</ul>\n<h2 id=\"h_01JTEK9M5VDF23FR6B186DEJ80\">Products with no updates this week</h2>\n<ul>\n<li>Talk</li>\n<li>Admin Center</li>\n<li id=\"h_01JXWK99DJQ9S5S8TXPJ3T5YS8\">Zendesk Workforce Management (WFM)</li>\n<li id=\"h_01JXWK99DJQ9S5S8TXPJ3T5YS8\">Mobile</li>\n<li>Explore</li>\n<li>Zendesk QA</li>\n</ul>",
       "user_segment_ids": []
     },
     {
@@ -169,7 +171,7 @@
       "vote_count": 0,
       "section_id": 6279947161626,
       "created_at": "2025-06-13T14:51:24Z",
-      "updated_at": "2025-06-18T07:31:20Z",
+      "updated_at": "2025-06-24T15:03:50Z",
       "name": "Why are emails missing from some end-user profiles?",
       "title": "Why are emails missing from some end-user profiles?",
       "source_locale": "en-us",
@@ -183,6 +185,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_web_widget",
         "role_admin"
       ],
@@ -221,6 +224,39 @@
         "role_admin"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>Why do I get an Internal Server Error when I connect to the Zendesk Salesforce integration?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>The Internal Server Error occurs because the<strong> Lock sessions to the IP address from which they originated</strong> setting is activated. Deactivate this option as shown below:</p><p><img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/salesforce_session_settings.png\" width=\"1002\" height=\"1022\"></p><p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408821555482-Connecting-your-Salesforce-organization-to-Zendesk\" target=\"_blank\" rel=\"noopener noreferrer\">Connecting your Salesforce organization to Zendesk</a>.</p>",
+      "user_segment_ids": []
+    },
+    {
+      "id": 9369203687450,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9369203687450.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/9369203687450-What-are-character-limitations-for-end-users-in-messaging",
+      "author_id": 1263082258849,
+      "comments_disabled": false,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405303730330,
+      "created_at": "2025-06-13T03:25:59Z",
+      "updated_at": "2025-06-24T15:05:54Z",
+      "name": "What are character limitations for end users in messaging?",
+      "title": "What are character limitations for end users in messaging?",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2025-06-24T15:05:54Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801135069,
+      "content_tag_ids": [],
+      "label_names": [
+        "ab0",
+        "ab0_support",
+        "ab0_messaging",
+        "ab0_web_widget"
+      ],
+      "body": "<h2 id=\"h_01HV1QM45P2YP0AT93VZZ99CZN\">Question</h2><p>Is there a character limitation for customers in the <a href=\"https://support.zendesk.com/hc/en-us/articles/4409103246874-Setting-up-Web-Widget-to-add-messaging-to-your-website-or-help-center\" target=\"_blank\" rel=\"noopener noreferrer\">Web Widget</a>?</p><h2 id=\"h_01HV1QMAN8RVMJ9M99WDR6EBJR\">Answer</h2><p>Yes, the Web Widget has a limit of 4 096 characters for end users.</p><p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408820879258-Is-there-a-character-limit-on-ticket-comments\" target=\"_blank\" rel=\"noopener noreferrer\">Is there a character limit on ticket comments?</a></p>",
       "user_segment_ids": []
     },
     {
@@ -434,7 +470,7 @@
       "vote_count": 0,
       "section_id": 4405303734938,
       "created_at": "2025-06-05T04:43:42Z",
-      "updated_at": "2025-06-18T22:23:59Z",
+      "updated_at": "2025-06-24T15:02:07Z",
       "name": "Recipe: Managing tickets created outside of business hours using End session as a ticket trigger action",
       "title": "Recipe: Managing tickets created outside of business hours using End session as a ticket trigger action",
       "source_locale": "en-us",
@@ -473,7 +509,7 @@
       "vote_count": 0,
       "section_id": 4405303734938,
       "created_at": "2025-06-04T23:17:00Z",
-      "updated_at": "2025-06-18T22:23:54Z",
+      "updated_at": "2025-06-24T15:02:24Z",
       "name": "Recipe: Managing a surge in messaging traffic (omnichannel routing configuration)",
       "title": "Recipe: Managing a surge in messaging traffic (omnichannel routing configuration)",
       "source_locale": "en-us",
@@ -510,7 +546,7 @@
       "vote_count": 0,
       "section_id": 4405303734938,
       "created_at": "2025-06-04T23:15:10Z",
-      "updated_at": "2025-06-18T22:23:40Z",
+      "updated_at": "2025-06-24T15:02:14Z",
       "name": "Recipe: Managing a surge in messaging traffic (messaging routing configuration)",
       "title": "Recipe: Managing a surge in messaging traffic (messaging routing configuration)",
       "source_locale": "en-us",
@@ -611,7 +647,7 @@
       "vote_count": 0,
       "section_id": 4405303734938,
       "created_at": "2025-06-03T12:43:50Z",
-      "updated_at": "2025-06-20T14:05:06Z",
+      "updated_at": "2025-06-24T15:02:11Z",
       "name": "Workflow: Replace the Out of Office app with omnichannel routing in Zendesk",
       "title": "Workflow: Replace the Out of Office app with omnichannel routing in Zendesk",
       "source_locale": "en-us",
@@ -625,6 +661,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_admin_center",
         "role_admin"
       ],
@@ -801,7 +838,7 @@
       "vote_count": 0,
       "section_id": 4405298850586,
       "created_at": "2025-05-29T01:02:57Z",
-      "updated_at": "2025-06-20T13:27:10Z",
+      "updated_at": "2025-06-24T15:03:33Z",
       "name": "Why does the name of the report not update on the dashboard?",
       "title": "Why does the name of the report not update on the dashboard?",
       "source_locale": "en-us",
@@ -816,6 +853,7 @@
         "01JWCS0DJQE6HSCEQBSF6RRN9X"
       ],
       "label_names": [
+        "mt",
         "ab0_explore",
         "role_admin"
       ],
@@ -947,34 +985,6 @@
         "rank_low_algolia"
       ],
       "body": "<h3 id=\"h_01JXFCNZE2P2KWBPS0JXKDPNXY\"><span style=\"color: #434343;\"><strong>SUMMARY</strong></span></h3><p>On May 25, 2025 from 23:00 UTC to May 26, 2025 2:47 UTC, customers experienced an issue where the “Admin” button was missing on the Knowledge page. </p><h3 id=\"h_01JXFCNZE4714EA2ADPC0ZRTEW\"><span style=\"color: #434343;\"><strong>Timeline</strong></span></h3><p><strong>May 26, 2025 02:41 AM UTC | May 25, 2025 07:41 PM PT</strong></p><p>We’re currently investigating an issue where the “Admin” button is missing on the Knowledge page. We’ve received multiple reports and understand the inconvenience this may be causing. Our engineering team is actively working on identifying the root cause and implementing a fix. We’ll continue to provide updates as we learn more. Thank you for your patience and understanding.</p><p><strong>May 26, 2025 03:07 AM UTC | May 25, 2025 08:07 PM PT</strong></p><p>Our team identified this issue being tied to a recent deployment. A rollback was initiated and now the Admin button in Knowledge is once again accessible. Please refresh your browser. Apologies for the inconvenience this may have caused.</p><h3 id=\"h_01JXFCNZE6PT9G7VA0Z3SRW6PR\"><span style=\"color: #434343;\"><strong>Root Cause Analysis</strong></span></h3><p>This incident was caused by a Zendesk software bug, which was not previously identified, causing the Help Center admin navigation bar to be unusable.</p><h3 id=\"h_01JXFCNZE7JHTTC52NS4SWWQJD\"><span style=\"color: #434343;\"><strong>Resolution</strong></span></h3><p>To fix this issue, our engineers rolled back a recent change that caused the software bug, and services were restored shortly after the rollback was applied to all production pods.</p><h3 id=\"h_01JXFCNZE866R9108RAPD1N40C\"><span style=\"color: #434343;\"><strong>Remediation Items</strong></span></h3><ol>\n<li>Engineers will setup additional monitoring after a change deployment to catch unidentified bugs before deploying to production.</li>\n<li>Check and fix the monitoring dashboard for errors for early detection and faster alert response.</li>\n</ol><h4 id=\"h_01JXFCNDZNK80CQQWM3PPK3STT\"><strong>FOR MORE INFORMATION</strong></h4><p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 9281908678810,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9281908678810.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/9281908678810-Scheduled-Maintenance-June-4-2025-Pods-19-20-23-25-Explore-minor-upgrades",
-      "author_id": 9005790397722,
-      "comments_disabled": true,
-      "draft": false,
-      "promoted": true,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405303710618,
-      "created_at": "2025-05-21T14:13:29Z",
-      "updated_at": "2025-05-21T14:41:21Z",
-      "name": "Scheduled Maintenance - June 4, 2025 | Pods 19, 20, 23, 25 - Explore minor upgrades",
-      "title": "Scheduled Maintenance - June 4, 2025 | Pods 19, 20, 23, 25 - Explore minor upgrades",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2025-05-21T14:41:21Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801242670,
-      "content_tag_ids": [],
-      "label_names": [],
-      "body": "<p>Zendesk will perform critical maintenance which will impact performance for some Explore customers for one (1) day on June 4, 2025 during the time listed below.</p><p><strong>Affected products:</strong> Explore</p><p><strong>Important:</strong>  Customers can still run queries in Explore during the maintenance window.</p><div class=\"note tip\">\n<strong>Customers Affected:</strong> Only a subset of customers in the Pods listed below will be impacted by this maintenance program. Owners and Admins of those impacted accounts will be informed via a service notification banner in Zendesk Support that will appear on May 22, 2025 to June 4, 2025.</div><div><figure style=\"width: 100%;\" class=\"wysiwyg-table\"><table class=\"ck-table-resized wysiwyg-table-resized\">\n<colgroup>\n<col style=\"width: NaN%;\">\n<col style=\"width: NaN%;\">\n<col style=\"width: NaN%;\">\n<col style=\"width: NaN%;\">\n</colgroup>\n<tbody>\n<tr>\n<td>Date</td>\n<td><a href=\"https://support.zendesk.com/hc/en-us/articles/4408829092506-What-is-a-Pod\"><span class=\"wysiwyg-underline\">POD</span></a></td>\n<td>Start Time</td>\n<td>End Time</td>\n</tr>\n<tr>\n<td>June 4, 2025</td>\n<td>19</td>\n<td>09:30 UTC / 02:30 PDT</td>\n<td>11:00 UTC / 04:00 PDT</td>\n</tr>\n<tr>\n<td>June 4, 2025</td>\n<td>20</td>\n<td>09:30 UTC / 02:30 PDT</td>\n<td>11:00 UTC / 04:00 PDT</td>\n</tr>\n<tr>\n<td>June 4, 2025</td>\n<td>23</td>\n<td>09:30 UTC / 02:30 PDT</td>\n<td>11:00 UTC / 04:00 PDT</td>\n</tr>\n<tr>\n<td>June 4, 2025</td>\n<td>25</td>\n<td>09:30 UTC / 02:30 PDT</td>\n<td>11:00 UTC / 04:00 PDT</td>\n</tr>\n</tbody>\n</table></figure></div><p><strong>Expected behavior:</strong> Some Zendesk Explore customers will experience a delay in data refresh, which will become noticeable 1 hour after the maintenance starts and is expected to last 1.5 hours.</p><p>Please note that backend data ingestion processes will still occur without issue. The Explore reporting UI and data export features will still be available and Explore real-time dashboards will continue to update as usual. This reduces the impact customers will experience during the maintenance window. </p><p><strong>Why we're doing this:</strong> The Zendesk Explore team is upgrading our databases for increased reliability, security and performance.</p>",
       "user_segment_ids": []
     }
   ],
