@@ -1,5 +1,5 @@
 {
-  "count": 4749,
+  "count": 4750,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 159,
@@ -134,7 +134,7 @@
     {
       "id": 9420328395674,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9420328395674.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/9420328395674-Why-is-my-macro-placeholder-in-a-custom-ticket-field-blank",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/9420328395674-Why-is-my-macro-placeholder-blank-in-a-custom-ticket-field",
       "author_id": 1263659882649,
       "comments_disabled": false,
       "draft": false,
@@ -144,14 +144,14 @@
       "vote_count": 0,
       "section_id": 4405298900506,
       "created_at": "2025-06-26T13:19:38Z",
-      "updated_at": "2025-07-01T09:18:49Z",
-      "name": "Why is my macro placeholder in a custom ticket field blank?",
-      "title": "Why is my macro placeholder in a custom ticket field blank?",
+      "updated_at": "2025-07-01T14:40:59Z",
+      "name": "Why is my macro placeholder blank in a custom ticket field?",
+      "title": "Why is my macro placeholder blank in a custom ticket field?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-07-01T09:18:48Z",
+      "edited_at": "2025-07-01T14:40:59Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -161,7 +161,7 @@
         "ab0_messaging",
         "role_admin"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>Why is my macro placeholder for a custom ticket field blank even though the field has a value and the correct field ID?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>The macro placeholder may appear blank due to one or more of these reasons:</p><ul>\n<li>The placeholder syntax is incorrect</li>\n<li>The field ID does not match the custom ticket field</li>\n<li>The placeholder has spaces instead of underscores</li>\n<li>The field type does not support placeholders in macros</li>\n</ul><p><strong>To fix this</strong></p><ul>\n<li>Check that the placeholder follows the correct format. Suggested options should appear as you type it into the macro action</li>\n<li>Type underscores instead of spaces</li>\n<li>Confirm that the ticket field ID matches the custom field</li>\n<li>Make sure the field type supports placeholders in macros</li>\n</ul><p>For a complete list of available placeholders, see the article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408886858138-Placeholder-reference-for-business-rules\">Placeholder reference for business rules</a>.</p>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>Why is my macro placeholder blank for a custom ticket field even though the field has a value and the correct field ID?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>The macro placeholder may appear blank due to one or more of these reasons:</p><ul>\n<li>The placeholder syntax is incorrect.</li>\n<li>The field ID does not match the custom ticket field.</li>\n<li>The placeholder has spaces instead of underscores.</li>\n<li>The field type does not support placeholders in macros.</li>\n</ul><p><strong>To fix this</strong></p><ul>\n<li>Check that the placeholder follows the correct format. Suggested options should appear as you type it into the macro action.</li>\n<li>Type underscores instead of spaces.</li>\n<li>Confirm that the ticket field ID matches the custom field.</li>\n<li>Make sure the field type supports placeholders in macros.</li>\n</ul><p>For a complete list of available placeholders, see the article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408886858138-Placeholder-reference-for-business-rules\" target=\"_blank\" rel=\"noopener noreferrer\">Placeholder reference for business rules</a>.</p>",
       "user_segment_ids": []
     },
     {
