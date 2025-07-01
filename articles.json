@@ -1,5 +1,5 @@
 {
-  "count": 4750,
+  "count": 4744,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 159,
@@ -19,7 +19,7 @@
       "vote_count": 0,
       "section_id": 4405298833818,
       "created_at": "2025-06-30T17:08:20Z",
-      "updated_at": "2025-06-30T17:51:30Z",
+      "updated_at": "2025-07-01T15:00:47Z",
       "name": "Announcing updates to the Generative AI Agent Tools Explore dataset",
       "title": "Announcing updates to the Generative AI Agent Tools Explore dataset",
       "source_locale": "en-us",
@@ -31,7 +31,7 @@
       "permission_group_id": 1324079,
       "content_tag_ids": [],
       "label_names": [
-        "mt"
+        "mtpe"
       ],
       "body": "<figure style=\"height: 44px; width: 100%;\" class=\"wysiwyg-table\"><table style=\"border-collapse: collapse; border-style: solid; border-width: 1px;\"><tbody>\n<tr style=\"height: 22px;\">\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\"><strong>Announced on</strong></td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\"><strong>Rollout starts</strong></td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\"><strong>Rollout ends</strong></td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\">June 30, 2025</td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\">June 30, 2025</td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\">June 30, 2025</td>\n</tr>\n</tbody></table></figure><p>We're excited to announce an update to the Generative AI Agent Tools dataset in Explore, bringing new metrics, attributes, and dashboard filters to enhance your analytics experience.</p><p>This announcement includes the following topics:</p><ul>\n<li><a href=\"#h_01JZ0WY72Z47FR3EYQ2KGP64KB\">What is changing?</a></li>\n<li><a href=\"#h_01JZ0WY731TAFAJYJ4B163HEHH\">Why is Zendesk making this change?</a></li>\n<li><a href=\"#h_01JZ0WY7318JVCMSGV653BT2C1\">What do I need to do?</a></li>\n</ul><h2 id=\"h_01JZ0WY72Z47FR3EYQ2KGP64KB\"><span style=\"color: #434343;\">What is changing?</span></h2><p>The Generative AI agent tools dataset now includes several new attributes and metrics to provide deeper insights into your tickets and agent activities. New attributes such as ticket channel, ticket assignee, ticket tags, ticket type, ticket brand, ticket form, ticket custom fields, organization name, ticket priority, ticket requester, and ticket problem ID have been added. Additionally, new metrics for agent comments per ticket and public comments per ticket have been added.</p><p>Alongside these dataset enhancements, the pre-built Zendesk AI: Generative AI Agent Tools dashboard has been updated to include two new filters: ticket channel and ticket assignee, giving you more flexibility to analyze your data.</p><p>For more details, see <a href=\"https://support.zendesk.com/hc/en-us/articles/6961660060186-Metrics-and-attributes-for-Zendesk-AI\"><span class=\"wysiwyg-underline\">Metrics and Attributes for Zendesk AI</span></a>.</p><h2 id=\"h_01JZ0WY731TAFAJYJ4B163HEHH\"><span style=\"color: #434343;\">Why is Zendesk making this change?</span></h2><p>Zendesk is committed to empowering customers with more granular and actionable insights within Explore, helping users better understand agent interactions and ticket characteristics. These updates reflect Zendesk's focus on expanding capabilities to analyze AI-related agent activities and optimize workflows effectively.</p><h2 id=\"h_01JZ0WY7318JVCMSGV653BT2C1\"><span style=\"color: #434343;\">What do I need to do?</span></h2><p>No action is required. These updates will automatically appear in your dataset and prebuilt dashboard during the rollout period, ready for you to explore.</p><p>If you have feedback or questions related to this update, please<a href=\"https://support.zendesk.com/hc/en-us/community/topics/1260801325209\"><span class=\"wysiwyg-underline\"> visit our community </span></a>forum where we gather and manage customer product feedback. For general assistance, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\"><span class=\"wysiwyg-underline\">Zendesk Customer Support</span></a>.</p>",
       "user_segment_ids": []
@@ -49,7 +49,7 @@
       "vote_count": 0,
       "section_id": 4405298847002,
       "created_at": "2025-06-30T15:38:36Z",
-      "updated_at": "2025-06-30T15:43:04Z",
+      "updated_at": "2025-07-01T15:03:20Z",
       "name": "Release notes through 2025-06-27",
       "title": "Release notes through 2025-06-27",
       "source_locale": "en-us",
@@ -487,7 +487,7 @@
       "vote_count": 2,
       "section_id": 4405303730330,
       "created_at": "2025-06-13T03:25:59Z",
-      "updated_at": "2025-06-25T08:06:07Z",
+      "updated_at": "2025-07-01T15:03:01Z",
       "name": "What is the character limit for messaging?",
       "title": "What is the character limit for messaging?",
       "source_locale": "en-us",
@@ -500,6 +500,7 @@
       "content_tag_ids": [],
       "label_names": [
         "ab0",
+        "mt",
         "ab0_support",
         "ab0_messaging",
         "ab0_web_widget"
