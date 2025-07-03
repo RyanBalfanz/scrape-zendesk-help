@@ -351,14 +351,14 @@
       "vote_count": 0,
       "section_id": 8243870008090,
       "created_at": "2025-06-25T08:35:26Z",
-      "updated_at": "2025-07-03T13:13:01Z",
+      "updated_at": "2025-07-03T17:39:03Z",
       "name": "AI agent replies with the message: Sorry I couldn't answer your question",
       "title": "AI agent replies with the message: Sorry I couldn't answer your question",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-07-03T13:13:01Z",
+      "edited_at": "2025-07-03T17:39:03Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -370,7 +370,7 @@
         "ab0_bots_automation",
         "role_admin"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Issue symptoms</h2><p>I have installed the web widget in an external site. Despite there is relevant content in my help center, the AI agent replies with the message: <strong>Sorry I couldn't answer your question.</strong></p><p><img src=\"https://support.zendesk.com/hc/article_attachments/9415649473306\" alt=\"sorry.png\" width=\"381\" height=\"702\"></p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Troubleshooting steps</h2><p>This can occur due to a mismatch between the locale loaded in the web widget, based on the end user's browser, and the locale of your AI agent.</p><ol>\n<li>Verify that <a href=\"https://support.zendesk.com/hc/en-us/articles/4408842754202-Managing-languages-in-an-AI-agent-for-messaging#:~:text=Click%20the%20AI%20agent%20you%20want%20to%20update%2C%20then%20click,messages%20to%20activate%20automatic%20translation.\" target=\"_blank\" rel=\"noopener noreferrer\">automatic translation</a> for your AI agent is not active.</li>\n<li>Add the locale manually on in the web widget on your external site to avoid any mismatch between the visitor's browser language and the web widget's. See this article for more details to set the locale: <a href=\"https://developer.zendesk.com/api-reference/widget-messaging/web/core/\" target=\"_blank\" rel=\"noopener noreferrer\">Core messaging Web Widget API</a>.</li>\n</ol><figure class=\"wysiwyg-image\"><img style=\"aspect-ratio: 1145/517;\" src=\"https://support.zendesk.com/hc/article_attachments/9415689596570\" alt=\"locale.png\" width=\"1145\" height=\"517\"></figure><p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408845739162-Optimizing-your-help-center-content-for-AI-agents\" target=\"_blank\" rel=\"noopener noreferrer\">Optimizing your help center content for AI agents</a>.</p>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Issue</h2><p>I have installed the web widget in an external site. Even though there is relevant content in my help center, the AI agent replies with the message: \"Sorry I couldn't answer your question.\"</p><p><img src=\"https://support.zendesk.com/hc/article_attachments/9415649473306\" alt=\"sorry.png\" width=\"381\" height=\"702\"></p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Troubleshooting</h2><p>This can occur due to a mismatch between the locale loaded in the web widget, based on the end user's browser, and the locale of your AI agent.</p><ol>\n<li>Verify that <a href=\"https://support.zendesk.com/hc/en-us/articles/4408842754202-Managing-languages-in-an-AI-agent-for-messaging#:~:text=Click%20the%20AI%20agent%20you%20want%20to%20update%2C%20then%20click,messages%20to%20activate%20automatic%20translation.\" target=\"_blank\" rel=\"noopener noreferrer\">automatic translation</a> for your AI agent is not active.</li>\n<li>Add the locale manually on in the web widget on your external site to avoid any mismatch between the visitor's browser language and the web widget's. See this article for more details to set the locale: <a href=\"https://developer.zendesk.com/api-reference/widget-messaging/web/core/\" target=\"_blank\" rel=\"noopener noreferrer\">Core messaging Web Widget API</a>.</li>\n</ol><figure class=\"wysiwyg-image\"><img style=\"aspect-ratio: 1145/517;\" src=\"https://support.zendesk.com/hc/article_attachments/9415689596570\" alt=\"locale.png\" width=\"1145\" height=\"517\"></figure><p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408845739162-Optimizing-your-help-center-content-for-AI-agents\" target=\"_blank\" rel=\"noopener noreferrer\">Optimizing your help center content for AI agents</a>.</p>",
       "user_segment_ids": []
     },
     {
