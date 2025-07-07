@@ -9,7 +9,7 @@
     {
       "id": 9449932094746,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9449932094746.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/9449932094746-Why-am-I-getting-the-error-authentication-SMTP-authentication-not-provided-or-not-supported-when-integration-email-in-Zendesk-Sales",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/9449932094746-Authentication-error-SMTP-authentication-not-provided-or-not-supported",
       "author_id": 1263082218009,
       "comments_disabled": false,
       "draft": false,
@@ -17,24 +17,27 @@
       "position": 0,
       "vote_sum": 0,
       "vote_count": 0,
-      "section_id": 4405298872474,
+      "section_id": 5322311621402,
       "created_at": "2025-07-04T17:13:59Z",
-      "updated_at": "2025-07-04T17:14:13Z",
-      "name": "Why am I getting the error: authentication: SMTP authentication not provided or not supported when integration email in Zendesk Sales",
-      "title": "Why am I getting the error: authentication: SMTP authentication not provided or not supported when integration email in Zendesk Sales",
+      "updated_at": "2025-07-07T09:41:02Z",
+      "name": "Authentication error: SMTP authentication not provided or not supported",
+      "title": "Authentication error: SMTP authentication not provided or not supported",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-07-04T17:14:13Z",
+      "edited_at": "2025-07-07T09:41:02Z",
       "user_segment_id": null,
-      "permission_group_id": 1260801242670,
+      "permission_group_id": 1260801135069,
       "content_tag_ids": [
         "01H41BTFGYY4GM7X3X562PQ9Z1",
         "01JWCRD0KVM913X0AJYPA8EMKV"
       ],
-      "label_names": [],
-      "body": "<h2 id=\"h_01JZB68YXYBQ5MVTGVZ1FP0NSW\">Issue symptoms</h2><p>I am trying to integrate my email account with my Sell account. I follow the steps to <a href=\"https://support.zendesk.com/hc/en-us/articles/4408821242266\" target=\"_blank\" rel=\"noopener noreferrer\">integrate my email</a> and get the error message <strong>authentication: SMTP authentication not provided or not supported. Please check your SMTP configuration settings</strong>.</p><h2 id=\"h_01JZB68YXYNADKR6Z522YSY0FY\">\n<img src=\"https://support.zendesk.com/hc/article_attachments/9449948125466\" alt=\"Screenshot 2025-04-17 151353.jpeg\" width=\"1020\" height=\"417\">Resolution steps</h2><p>The error message <strong>authentication: SMTP authentication not provided or not supported</strong> indicates that the authorization of our OAUTH application on the Office 365 side was successful but we ran into an SMTP AUTH error when trying to connect the integration. See the following steps to resolve your issue: </p><ol>\n<li>Your email admin needs to enable <strong>SMTP AUTH</strong> on your email account. For more information, see the article: <a href=\"https://docs.microsoft.com/en-us/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission#use-the-microsoft-365-admin-center-to-enable-or-disable-smtp-auth-on-specific-mailboxes\" target=\"_blank\" rel=\"noopener noreferrer\">Use the Microsoft 365 admin center to enable or disable SMTP AUTH on specific mailboxes</a>.</li>\n<li>After enabling the email protocol, follow the steps to <a href=\"https://support.zendesk.com/hc/en-us/articles/4408821242266-Integrating-email-with-Zendesk-Sell#h_01EKABE60Q1JKHZ4JCH5C8HX1T\" target=\"_blank\" rel=\"noopener noreferrer\">integrate your Office 365 email</a>.  </li>\n</ol><div><div>Important: Enabling SMTP alone will not resolve this error message. This email protocol is often disabled in Office 365 by default and an email admin needs to enable both <a href=\"https://support.zendesk.com/hc/en-us/articles/4408829062170-Email-troubleshooting-SMTP-and-IMAP-Settings\" target=\"_blank\" rel=\"noopener noreferrer\">IMAP and SMTP</a> and <a href=\"https://docs.microsoft.com/en-us/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission#use-the-microsoft-365-admin-center-to-enable-or-disable-smtp-auth-on-specific-mailboxes\" target=\"_blank\" rel=\"noopener noreferrer\">SMTP AUTH</a> for the mailbox, as these protocols are what Sell uses to synchronize and send emails in your account.</div></div><p>For more information, see the article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408829007514-Email-troubleshooting-Email-integration-errors#h_01ENNGD2TB09F81NNPVCAPJBJA\" target=\"_blank\" rel=\"noopener noreferrer\">Troubleshooting email integration errors</a>.</p>",
+      "label_names": [
+        "ab0_sell",
+        "role_agent"
+      ],
+      "body": "<h2 id=\"h_01JZB68YXYBQ5MVTGVZ1FP0NSW\">Issue symptoms</h2><p>I am trying to integrate an email account to my Sales account, previously named Sell. I followed the steps to <a href=\"https://support.zendesk.com/hc/en-us/articles/4408821242266\" target=\"_blank\" rel=\"noopener noreferrer\">add my email</a> and see the error message: <strong>Authentication: SMTP authentication not provided or not supported. Please check your SMTP configuration settings</strong>.</p><h2 id=\"h_01JZB68YXYNADKR6Z522YSY0FY\">\n<img src=\"https://support.zendesk.com/hc/article_attachments/9449948125466\" alt=\"SMTP authentication not provided or not supported\" width=\"1020\" height=\"417\">Resolution steps</h2><p>The error message <strong>Authentication: SMTP authentication not provided or not supported</strong> indicates that the authorization of your OAUTH application on the Office 365 side was successful. However, Zendesk ran into an SMTP AUTH error when connecting the integration.</p><p><strong>To resolve your issue</strong></p><ol>\n<li>Ask your email admin to enable <strong>SMTP AUTH</strong> on your email account. For more information, see the article: <a href=\"https://docs.microsoft.com/en-us/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission#use-the-microsoft-365-admin-center-to-enable-or-disable-smtp-auth-on-specific-mailboxes\" target=\"_blank\" rel=\"noopener noreferrer\">Use the Microsoft 365 admin center to enable or disable SMTP AUTH on specific mailboxes</a>\n</li>\n<li>After enabling the email protocol, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408821242266-Integrating-email-with-Zendesk-Sell#h_01EKABE60Q1JKHZ4JCH5C8HX1T\" target=\"_blank\" rel=\"noopener noreferrer\">integrate your Office 365 email</a>\n</li>\n</ol><div class=\"p\"><div class=\"note\">\n<span class=\"notetitle\">Note:</span> Enabling SMTP alone will not resolve this error message. This email protocol is often turned off in Office 365 by default. Your email admin must turn on both <a href=\"https://support.zendesk.com/hc/en-us/articles/4408829062170-Email-troubleshooting-SMTP-and-IMAP-Settings\" target=\"_blank\" rel=\"noopener noreferrer\">IMAP and SMTP</a> and <a href=\"https://docs.microsoft.com/en-us/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission#use-the-microsoft-365-admin-center-to-enable-or-disable-smtp-auth-on-specific-mailboxes\" target=\"_blank\" rel=\"noopener noreferrer\">SMTP AUTH</a> for your mailbox, as Sales uses these protocols to synchronize and send emails to your account.</div></div><p>For more information, see the article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408829007514-Email-troubleshooting-Email-integration-errors#h_01ENNGD2TB09F81NNPVCAPJBJA\" target=\"_blank\" rel=\"noopener noreferrer\">Troubleshooting email integration errors</a>.</p>",
       "user_segment_ids": []
     },
     {
