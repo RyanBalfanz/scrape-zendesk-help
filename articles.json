@@ -1,5 +1,5 @@
 {
-  "count": 4769,
+  "count": 4770,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 159,
@@ -110,7 +110,7 @@
       "vote_count": 0,
       "section_id": 4405298833818,
       "created_at": "2025-07-09T12:23:58Z",
-      "updated_at": "2025-07-09T15:44:46Z",
+      "updated_at": "2025-07-10T15:00:12Z",
       "name": "Announcing macro-triggered public comments in the conversation logs for AI agents - Advanced",
       "title": "Announcing macro-triggered public comments in the conversation logs for AI agents - Advanced",
       "source_locale": "en-us",
@@ -124,6 +124,7 @@
         "01GT23ECEN2RAXWV32SBYGFWN5"
       ],
       "label_names": [
+        "mtpe",
         "newsfeed"
       ],
       "body": "<div><figure style=\"width: 100%;\" class=\"wysiwyg-table\"><table class=\"wysiwyg-table-resized\">\n<colgroup>\n<col style=\"width: NaN%;\">\n<col style=\"width: NaN%;\">\n</colgroup>\n<tbody>\n<tr>\n<td><strong>Announced on</strong></td>\n<td><strong>Rollout on</strong></td>\n</tr>\n<tr>\n<td>July 9, 2025</td>\n<td>July 9, 2025</td>\n</tr>\n</tbody>\n</table></figure></div><p>We’re announcing a change to how email conversation statuses are processed when the AI agent triggers a macro that adds a public comment.</p><p>This announcement includes the following topics:</p><ul>\n<li><a href=\"#h_01JZQVEHNDQNQK0VN4SC8W94N0\"><span class=\"wysiwyg-underline\">What's changing?</span></a></li>\n<li><a href=\"#h_01JZQVEHNER8B8HFBD8HXF7BPX\"><span class=\"wysiwyg-underline\">Why is Zendesk making this change?</span></a></li>\n<li><a href=\"#h_01JZQVEHNEXFYSAWQXSACYJF43\"><span class=\"wysiwyg-underline\">What do I need to do?</span></a></li>\n</ul><h2 id=\"h_01JZQVEHNDQNQK0VN4SC8W94N0\">What's changing?</h2><p>Up until now, conversations where the AI agent triggered a macro were counted as <a href=\"https://support.zendesk.com/hc/en-us/articles/8854858307610-What-are-the-conversation-statuses-for-AI-agents-Advanced#:~:text=replies%20were%20triggered-,Processed,-%3A%20Actions%20were%20taken\"><span class=\"wysiwyg-underline\">Processed</span></a> conversations. Now, we check whether a new public comment was added, and update the conversation with it, displaying it in the <a href=\"https://support.zendesk.com/hc/en-us/articles/8357749580186\"><span class=\"wysiwyg-underline\">conversation logs</span></a>. As these public comments are triggered by the AI agent, they are now displayed as AI agent messages, and the conversation status is updated to <a href=\"https://support.zendesk.com/hc/en-us/articles/8854858307610-What-are-the-conversation-statuses-for-AI-agents-Advanced#:~:text=reply%20was%20empty-,Answered,-%3A%20The%20last%20message\"><span class=\"wysiwyg-underline\">Answered</span></a>.</p><p>This means that automated resolutions are now consumed when an advanced email AI agent triggers a macro that adds a public comment. For more information, see <a href=\"https://support.zendesk.com/hc/en-us/articles/5352026794010#topic_t1f_bqb_g2c\"><span class=\"wysiwyg-underline\">About automated resolutions for AI agents</span></a>.</p><h2 id=\"h_01JZQVEHNER8B8HFBD8HXF7BPX\">Why is Zendesk making this change?</h2><p>This update ensures that reporting and conversation logs accurately reflect automated actions performed by the AI agent. Since the macro-triggered comment constitutes a reply, it is now recorded as part of the automation flow.</p><h2 id=\"h_01JZQVEHNEXFYSAWQXSACYJF43\">What do I need to do?</h2><p>No action is required on your part. This change automatically applies to all new conversations.</p><p>If you haven’t yet enabled<a href=\"https://support.zendesk.com/hc/en-us/articles/8357758805146-Using-conversation-flows-for-email-advanced-AI-agents\"><span class=\"wysiwyg-underline\"> conversation flows for email advanced AI agents</span></a>, now is a great time to explore this functionality. It allows for more detailed reporting, including tracking of reopens and access to the Escalated conversation status.</p><p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/6447052855194\"><span class=\"wysiwyg-underline\">community forum</span></a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\"><span class=\"wysiwyg-underline\">Zendesk Customer Support</span></a>.</p>",
