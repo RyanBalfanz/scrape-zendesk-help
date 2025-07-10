@@ -1,11 +1,41 @@
 {
-  "count": 4768,
+  "count": 4769,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 159,
   "per_page": 30,
   "previous_page": null,
   "articles": [
+    {
+      "id": 9468397875482,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9468397875482.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/9468397875482-Service-Incident-July-10th-2025",
+      "author_id": 1900815493464,
+      "comments_disabled": true,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298854426,
+      "created_at": "2025-07-10T08:13:11Z",
+      "updated_at": "2025-07-10T08:33:30Z",
+      "name": "Service Incident - July 10th, 2025",
+      "title": "Service Incident - July 10th, 2025",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2025-07-10T08:33:30Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801242670,
+      "content_tag_ids": [],
+      "label_names": [
+        "mt"
+      ],
+      "body": "<h3 id=\"h_01JZSP8CWMEB7V30QSS5Q2K3MP\"><span style=\"color: #06363c;\"><strong>SUMMARY</strong></span></h3><p class=\"wysiwyg-text-align-justify\"> </p><p class=\"wysiwyg-text-align-justify\"><strong>July 10, 2025 08:12 AM UTC | July 10, 2025 01:12 AM PT</strong></p><p class=\"wysiwyg-text-align-justify\">We are currently aware of a nationwide access issue impacting Zendesk services for users in Türkiye. We have determined that this is due to networking configuration concerns at multiple ISPs serving the area. We sincerely apologize for the inconvenience and will continue to share developments as they occur.</p><p><strong>POST-MORTEM</strong></p><p>TBD</p><p><strong>FOR MORE INFORMATION</strong></p><p>For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com/\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
+      "user_segment_ids": []
+    },
     {
       "id": 9466268251162,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9466268251162.json",
@@ -909,38 +939,6 @@
         "rank_low_algolia"
       ],
       "body": "<h3 id=\"h_01JYK85Y9T0AHJER1Q121QPZR1\"><span style=\"color: #434343;\"><strong>SUMMARY</strong></span></h3><p>On June 12, 2025 from 17:51 UTC to June 13, 2025 at 2:03 UTC, customers experienced issues with several Zendesk services due to an outage with Google Cloud. </p><h3 id=\"h_01JYK85Y9WCY6ZGF52WEDWD7DJ\"><span style=\"color: #434343;\"><strong>Timeline</strong></span></h3><p><strong>June 12, 2025 07:19 PM UTC | June 12, 2025 12:19 PM PT</strong></p><p>We are aware of a partner provider outage affecting a number of Zendesk services including: Gmail connector, Sunshine Conversations push notifications, AI Agents, QA functionality, Agent Workspace translations, Tymeshift, and BigQuery integrations. We are working with our partner provider to mitigate impact as soon as possible.</p><p><strong>June 12, 2025 07:31 PM UTC | June 12, 2025 12:31 PM PT</strong></p><p>We are beginning to see some signs of improvement from the issue affecting multiple Zendesk services including: Gmail connector, Sunshine Conversations push notifications, AI Agents, QA functionality, Agent Workspace translations, Tymeshift, and BigQuery integrations. We will continue to work with our partner provider to ensure full recovery.</p><p><strong>June 12, 2025 11:58 PM UTC | June 12, 2025 04:58 PM PT</strong></p><p>We have observed full recovery of our partner's services impacting multiple Zendesk features. We will continue to monitor our services and provide a final update when our partner's services are fully recovered.</p><p><strong>June 13, 2025 02:13 AM UTC | June 12, 2025 07:13 PM PT</strong></p><p>We are happy to report that this incident is resolved. Thank you for your patience while we worked with our partner to resolve today’s issues.</p><h3 id=\"h_01JYK85Y9XQ3R9RY0QENVBNMHN\"><span style=\"color: #434343;\"><strong>Root Cause Analysis</strong></span></h3><p>This incident was caused by an incorrect update made to our system that controls access limits, affecting users worldwide and causing external requests to be denied. Ultimately, the issue was caused by an outage with the service provider (Google).</p><h3 id=\"h_01JYK85Y9Y5B89FE627VGR73WN\"><span style=\"color: #434343;\"><strong>Resolution</strong></span></h3><p>To fix this issue, our engineers temporarily skipped the problematic check, which helped most areas recover within 2 hours.</p><h3 id=\"h_01JYK85Y9Y301H750JM4K67ZJF\"><span style=\"color: #434343;\"><strong>Remediation Items</strong></span></h3><p>No remediation is needed since the issue originated with the service provider (Google) and not from Zendesk.</p><h4 id=\"h_01JYK85NW17X4194NHGD0ZT8FM\"><strong>FOR MORE INFORMATION</strong></h4><p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 9358897332890,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9358897332890.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/9358897332890-Service-Incident-June-10th-2025-Global-OpenAI-Outage",
-      "author_id": 9005790397722,
-      "comments_disabled": true,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 1,
-      "vote_count": 1,
-      "section_id": 4405298854426,
-      "created_at": "2025-06-10T14:51:06Z",
-      "updated_at": "2025-06-18T14:46:24Z",
-      "name": "Service Incident - June 10th, 2025 - Global OpenAI Outage",
-      "title": "Service Incident - June 10th, 2025 - Global OpenAI Outage",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2025-06-18T14:36:15Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801242670,
-      "content_tag_ids": [],
-      "label_names": [
-        "service_incident",
-        "mt",
-        "rank_low_algolia"
-      ],
-      "body": "<h3 id=\"h_01JY1QF7KD8EH4WY0ZVM84KYJP\"><span style=\"color: #434343;\"><strong>SUMMARY</strong></span></h3><p>On June 10 2025 from 7:14 UTC to June 11, 2025 16:24 UTC, customers experienced errors and latency issues with Zendesk applications that use the OpenAI engine. </p><h3 id=\"h_01JY1QF7KFQA8EN54A9D1CCH00\"><span style=\"color: #434343;\"><strong>Timeline</strong></span></h3><p><strong>June 10, 2025 02:51 PM UTC | June 10, 2025 07:51 AM PT</strong></p><p>We have received reports of multiple OpenAI conversations failing. Our engineers have identified that the issue is stemming from a global OpenAI outage and they are currently working with our provider to mitigate this issue. We apologize for the inconvenience and ask for your patience as we work to provide a fix at the soonest. We will provide periodical updates as it becomes available.</p><p><strong>June 10, 2025 06:15 PM UTC | June 10, 2025 11:15 AM PT</strong></p><p>We are seeing improvement in the behavior causing OpenAI conversations to fail. Our team will continue to work with our partner provider to monitor and ensure full recovery, but please let us know if you experience any further issues in the meantime.</p><p><strong>June 11, 2025 04:26 PM UTC | June 11, 2025 09:26 AM PT</strong></p><p>We are pleased to inform you that the issues impacting services using the OpenAI engine have been resolved. Our engineers received confirmation from our provider that ChatGPT and other components using the OpenAI engine are now operating as normal. We appreciate your patience as our team worked to resolve this issue.</p><h3 id=\"h_01JY1QF7KG0PJ52XC8JZMKJFZE\"><span style=\"color: #434343;\"><strong>Root Cause Analysis</strong></span></h3><p>This incident was caused by a Global OpenAI outage, impacting customers that use Zendesk applications that utilize the OpenAI engine (i.e. ChatGPT, AI Agents Essentials).</p><h3 id=\"h_01JY1QF7KHSSADM1BWYSCQN4HG\"><span style=\"color: #434343;\"><strong>Resolution</strong></span></h3><p>There was no intervention from the engineers as it was identified to be caused by a global OpenAI outage from the vendor.</p><h3 id=\"h_01JY1QF7KHT3YBJWAHNWM3FJA1\"><span style=\"color: #434343;\"><strong>Remediation Items</strong></span></h3><p>No remediation items listed as this was not caused by Zendesk.</p><h4 id=\"h_01JXYXSKZ5GC8NH9RP3F7WZ6ES\"><strong>FOR MORE INFORMATION</strong></h4><p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
     }
   ],
