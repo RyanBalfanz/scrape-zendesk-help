@@ -229,7 +229,7 @@
       "vote_count": 0,
       "section_id": 5322311621402,
       "created_at": "2025-07-04T17:13:59Z",
-      "updated_at": "2025-07-11T07:56:33Z",
+      "updated_at": "2025-07-11T10:28:48Z",
       "name": "Authentication error: SMTP authentication not provided or not supported",
       "title": "Authentication error: SMTP authentication not provided or not supported",
       "source_locale": "en-us",
@@ -240,8 +240,7 @@
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [
-        "01H41BTFGYY4GM7X3X562PQ9Z1",
-        "01JWCRD0KVM913X0AJYPA8EMKV"
+        "01H41BTFGYY4GM7X3X562PQ9Z1"
       ],
       "label_names": [
         "ab0_sell",
