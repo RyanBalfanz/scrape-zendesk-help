@@ -1,8 +1,8 @@
 {
-  "count": 4802,
+  "count": 4798,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
-  "page_count": 161,
+  "page_count": 160,
   "per_page": 30,
   "previous_page": null,
   "articles": [
