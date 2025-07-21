@@ -15,8 +15,8 @@
       "draft": false,
       "promoted": true,
       "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
+      "vote_sum": 1,
+      "vote_count": 1,
       "section_id": 4405298847002,
       "created_at": "2025-07-21T15:49:34Z",
       "updated_at": "2025-07-21T16:03:23Z",
@@ -50,14 +50,14 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2025-07-21T15:24:34Z",
-      "updated_at": "2025-07-21T15:31:15Z",
+      "updated_at": "2025-07-21T16:31:18Z",
       "name": "Service Incident - July 21, 2025 - Pod 18 | Support inbound and outbound email processing has been halted",
       "title": "Service Incident - July 21, 2025 - Pod 18 | Support inbound and outbound email processing has been halted",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-07-21T15:24:47Z",
+      "edited_at": "2025-07-21T16:26:00Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [
@@ -66,7 +66,7 @@
       "label_names": [
         "mt"
       ],
-      "body": "<h3 id=\"h_01K086C6911918RZTQD1400ZQR\"><span style=\"color: #06363c;\"><strong>Summary</strong></span></h3><p class=\"wysiwyg-text-align-justify\">On July 21, 2023, between 12:10 and 13:48 UTC, customers on Pod 18 may have experienced email delays, both incoming and outgoing. We are happy to report mail is being sent on time once again.</p><p class=\"wysiwyg-text-align-justify\"> </p><h3 class=\"wysiwyg-text-align-justify\" id=\"h_01K0PRT1R9Q45PYS6P7C53297Y\"><span style=\"color: #06363c;\"><strong>Post-mortem</strong></span></h3><p class=\"wysiwyg-text-align-justify\"><span style=\"color: #06363c;\">TBD</span></p><p class=\"wysiwyg-text-align-justify\"> </p><h4 id=\"h_01K086AN7TN2VXG8HZSHSSG4DT\"><strong>FOR MORE INFORMATION</strong></h4><p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
+      "body": "<h3 id=\"h_01K086C6911918RZTQD1400ZQR\"><span style=\"color: #06363c;\"><strong>Summary</strong></span></h3><p class=\"wysiwyg-text-align-justify\">On July 21, 2023, between 12:10 and 13:48 UTC, customers on Pod 18 may have experienced email delays, both incoming and outgoing. We are happy to report mail is being sent on time once again.</p><p class=\"wysiwyg-text-align-justify\"> </p><h3 class=\"wysiwyg-text-align-justify\" id=\"h_01K0PWPHJ2WSZZP7CNCF7GT7J7\"><strong>Timeline</strong></h3><p class=\"wysiwyg-text-align-justify\"><strong>July 21, 2025 16:20 UTC | 09:20 AM PT</strong><br>We are pleased to inform you that the backlog of delayed emails have been processed. Thank you for your patience and understanding during this incident.</p><p class=\"wysiwyg-text-align-justify\"> </p><h3 class=\"wysiwyg-text-align-justify\" id=\"h_01K0PRT1R9Q45PYS6P7C53297Y\"><span style=\"color: #06363c;\"><strong>Post-mortem</strong></span></h3><p class=\"wysiwyg-text-align-justify\"><span style=\"color: #06363c;\">TBD</span></p><p class=\"wysiwyg-text-align-justify\"> </p><h4 id=\"h_01K086AN7TN2VXG8HZSHSSG4DT\"><strong>FOR MORE INFORMATION</strong></h4><p class=\"p1\">For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
     },
     {
