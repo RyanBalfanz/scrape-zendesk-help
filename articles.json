@@ -19,19 +19,21 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2025-07-22T01:52:17Z",
-      "updated_at": "2025-07-22T04:10:19Z",
+      "updated_at": "2025-07-22T07:00:58Z",
       "name": "Service Incident - July 22nd, 2025",
       "title": "Service Incident - July 22nd, 2025",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-07-22T04:10:19Z",
+      "edited_at": "2025-07-22T06:59:10Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
-      "label_names": [],
-      "body": "<h3 id=\"h_01K0QX4QB3C1BMAVNDSCR2280Q\"><span style=\"color: #06363c;\"><strong>SUMMARY</strong></span></h3><p class=\"wysiwyg-text-align-justify\"><strong>July 22, 2025 04:08 AM UTC | July 21, 2025 09:08 PM PT</strong></p><p class=\"wysiwyg-text-align-justify\">According to the Let's Encrypt status page, they have deployed mitigation measures to address the issue. We are also observing successful updates of SSL certificates on accounts. A final update will be provided once the issue has been fully resolved on Let's Encrypt’s end. Thank you for your patience and understanding.</p><p class=\"wysiwyg-text-align-justify\"><strong>July 22, 2025 01:50 AM UTC | July 21, 2025 06:50 PM PT</strong></p><p class=\"wysiwyg-text-align-justify\">Please be advised that Let's Encrypt is currently experiencing downtime, which may result in false notifications indicating misconfigurations in host mapping or CAA records. This issue is external to Zendesk. For the latest status updates and further information, please visit their official status page at <a href=\"https://letsencrypt.status.io/\" target=\"_blank\" rel=\"noopener noreferrer\" data-stringify-link=\"https://letsencrypt.status.io/\" data-sk=\"tooltip_parent\"><strong data-stringify-type=\"bold\">https://letsencrypt.status.io/</strong></a>.</p><p><strong>POST-MORTEM</strong></p><p>TBD</p><p><strong>FOR MORE INFORMATION</strong></p><p>For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com/\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
+      "label_names": [
+        "mt"
+      ],
+      "body": "<h3 id=\"h_01K0QX4QB3C1BMAVNDSCR2280Q\"><span style=\"color: #06363c;\"><strong>SUMMARY</strong></span></h3><p class=\"wysiwyg-text-align-justify\"><strong>July 22, 2025 06:58 AM UTC | July 21, 2025 11:58 PM PT</strong></p><p class=\"wysiwyg-text-align-justify\">We’re pleased to share that the issue on Let’s Encrypt’s side appears to be resolving, and we’re beginning to see improvements reflected within Zendesk as well. You may continue to monitor the official Let's Encrypt status page for updates should you encounter any further issues. Thank you for your patience and understanding.</p><p class=\"wysiwyg-text-align-justify\"><strong>July 22, 2025 04:08 AM UTC | July 21, 2025 09:08 PM PT</strong></p><p class=\"wysiwyg-text-align-justify\">According to the Let's Encrypt status page, they have deployed mitigation measures to address the issue. We are also observing successful updates of SSL certificates on accounts. A final update will be provided once the issue has been fully resolved on Let's Encrypt’s end. Thank you for your patience and understanding.</p><p class=\"wysiwyg-text-align-justify\"><strong>July 22, 2025 01:50 AM UTC | July 21, 2025 06:50 PM PT</strong></p><p class=\"wysiwyg-text-align-justify\">Please be advised that Let's Encrypt is currently experiencing downtime, which may result in false notifications indicating misconfigurations in host mapping or CAA records. This issue is external to Zendesk. For the latest status updates and further information, please visit their official status page at <a href=\"https://letsencrypt.status.io/\" target=\"_blank\" rel=\"noopener noreferrer\" data-stringify-link=\"https://letsencrypt.status.io/\" data-sk=\"tooltip_parent\"><strong data-stringify-type=\"bold\">https://letsencrypt.status.io/</strong></a>.</p><p><strong>POST-MORTEM</strong></p><p>TBD</p><p><strong>FOR MORE INFORMATION</strong></p><p>For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com/\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
     },
     {
