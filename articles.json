@@ -77,7 +77,7 @@
       "vote_count": 2,
       "section_id": 4405298833818,
       "created_at": "2025-07-28T18:07:15Z",
-      "updated_at": "2025-07-29T20:43:19Z",
+      "updated_at": "2025-07-30T15:00:11Z",
       "name": "Announcing instructions for agents in Copilot auto assist procedures",
       "title": "Announcing instructions for agents in Copilot auto assist procedures",
       "source_locale": "en-us",
@@ -88,7 +88,9 @@
       "user_segment_id": null,
       "permission_group_id": 1324079,
       "content_tag_ids": [],
-      "label_names": [],
+      "label_names": [
+        "mtpe"
+      ],
       "body": "<figure style=\"height: 44px; width: 100%;\" class=\"wysiwyg-table wysiwyg-table-align-left\"><table style=\"border-collapse: collapse; border-style: solid; border-width: 1px;\"><tbody>\n<tr style=\"height: 22px;\">\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\"><strong>Announced on</strong></td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\"><strong>Rollout on</strong></td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\">July 29, 2025</td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\">July 29, 2025</td>\n</tr>\n</tbody></table></figure><p>We’re excited to announce that auto assist can now provide direct instructions for agents in the knowledge section in the context panel.</p><p>This allows admins to define auto assist procedures with direct instructions for agents. The instructions you define will be presented to agents at a specific point of the ticket lifecycle.</p><p>You can use these instructions to ask agents to do a specific task. For example, making an update in an internal company system or performing a task that auto assist can’t do.</p><p>This announcement includes the following topics:</p><ul>\n<li><a href=\"#h_01GD3S97RDYVTAFTQ8WR9878VF\" target=\"_self\">What is changing?</a></li>\n<li><a href=\"#h_01GD3S9TSPXM7M4WHYKYF4E84M\" target=\"_self\">What do I need to do?</a></li>\n</ul><h2 id=\"h_01GD3S97RDYVTAFTQ8WR9878VF\">What is changing?</h2><p>Auto assist provides suggestions for replies and actions to agents. We're now adding a third type of suggestion, instructions for agents.</p><p><img class=\"wysiwyg-image img-screenshot\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/ai_auto_assist_agent_review_instructions.png\" width=\"600\"></p><h2 id=\"h_01GD3S9TSPXM7M4WHYKYF4E84M\">What do I need to do?</h2><p>To start providing your agents with instructions, create or edit an auto assist procedure and add instructions by with the <strong>Insert instruction for agents</strong> button. To learn more, see <a href=\"https://support.zendesk.com/hc/en-us/articles/9422234636698-Creating-instructions-for-agents-in-auto-assist-procedures\"><span class=\"wysiwyg-underline\">Creating instructions for agents in auto assist procedures</span></a>.</p><p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/6447052855194\" target=\"_blank\" rel=\"noopener noreferrer\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk Customer Support</a>.</p><p> </p>",
       "user_segment_ids": []
     },
@@ -105,7 +107,7 @@
       "vote_count": 1,
       "section_id": 4405298847002,
       "created_at": "2025-07-28T15:36:56Z",
-      "updated_at": "2025-07-29T20:09:07Z",
+      "updated_at": "2025-07-30T15:01:26Z",
       "name": "Release notes through 2025-07-25",
       "title": "Release notes through 2025-07-25",
       "source_locale": "en-us",
