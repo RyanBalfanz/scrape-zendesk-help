@@ -645,14 +645,14 @@
       "vote_count": 0,
       "section_id": 6255424601626,
       "created_at": "2025-07-17T14:21:54Z",
-      "updated_at": "2025-07-29T15:08:35Z",
+      "updated_at": "2025-07-30T13:39:08Z",
       "name": "How does Zendesk WFM manage data accuracy?",
       "title": "How does Zendesk WFM manage data accuracy?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-07-22T18:52:11Z",
+      "edited_at": "2025-07-30T13:39:08Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -663,7 +663,7 @@
         "ab0_workforce_management",
         "role_agent"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>How can I understand data accuracy and manage issues in WFM?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p><a href=\"https://support.zendesk.com/hc/en-us/articles/6514633060634-Getting-started-with-Zendesk-WFM-Manager-guide\" target=\"_blank\" rel=\"noopener noreferrer\">The Workforce Management (WFM) system</a> processes large volumes of data in near real-time, balancing speed, scalability, and accuracy.</p><p>Because our system operates in a distributed, real-time environment, you may occasionally notice slight differences or inconsistencies in the data. These variations occur because modern data systems rely on eventual consistency. Some differences are temporary, caused by synchronization delays, while others may result from asynchronous processing, network issues, or data spikes. These situations can sometimes lead to incomplete data or data loss, which may require further investigation. However, such differences are typically small in relation to the overall data and rarely impact your day-to-day decisions.</p><p>We understand the importance of accurate data for your operations. That’s why our team continuously monitors system performance and actively incorporates customer feedback. With each new software release, we introduce improvements that reduce discrepancies and enhance data accuracy over time.</p><p>Zendesk continuously monitors for data delays or issues. When we identify a problem, our team investigates and takes manual steps to resolve it. We’re also working to optimize and automate these processes to make them faster and more efficient in the future.</p><div class=\"p\"><div class=\"note\">\n<span class=\"notetitle\">Note:</span> Minor data differences are a normal part of real-time, distributed systems. This is useful to share with your team to help them understand the reasons for occasional small inconsistencies.</div></div>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>How can I understand data accuracy and manage issues in WFM?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p><a href=\"https://support.zendesk.com/hc/en-us/articles/6514633060634-Getting-started-with-Zendesk-WFM-Manager-guide\" target=\"_blank\" rel=\"noopener noreferrer\">The Workforce Management (WFM) system</a> processes large volumes of data in near real-time, balancing speed, scalability, and accuracy.</p><p>Because Zendesk WFM operates in a distributed, real-time environment, you may occasionally notice slight differences or inconsistencies in the data. These variations occur because modern data systems rely on eventual consistency. Some differences are temporary, caused by synchronization delays, while others may result from asynchronous processing, network issues, or data spikes. These situations can sometimes lead to incomplete data or data loss, which may require further investigation. However, such differences are typically small in relation to the overall data and rarely impact your day-to-day decisions.</p><p>The team understands the importance of accurate data for your operations. That’s why the team continuously monitors system performance and actively incorporates customer feedback. With each new software release, Zendesk introduces improvements that reduce discrepancies and enhance data accuracy over time. When a problem is identified, the team investigates and takes manual steps to resolve it.</p><div class=\"p\"><div class=\"note\">\n<span class=\"notetitle\">Note:</span> Minor data differences are a normal part of real-time, distributed systems. This is useful to share with your team to help them understand the reasons for occasional small inconsistencies.</div></div>",
       "user_segment_ids": []
     },
     {
