@@ -19,14 +19,14 @@
       "vote_count": 0,
       "section_id": 4405303730330,
       "created_at": "2025-07-31T14:05:13Z",
-      "updated_at": "2025-07-31T14:19:50Z",
+      "updated_at": "2025-07-31T16:49:03Z",
       "name": "How do app users change their agent status?",
       "title": "How do app users change their agent status?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-07-31T14:19:50Z",
+      "edited_at": "2025-07-31T16:49:03Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -37,7 +37,7 @@
         "role_agent",
         "role_admin"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>How do app users change their agent status?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>At the moment, Zendesk doesn't support the update of the agent status through the <a href=\"https://support.zendesk.com/hc/en-us/articles/4408846407066-About-the-Zendesk-Support-mobile-app\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk Support mobile app</a>. To update your omnichannel status, log into the browser version of Zendesk.</p><p>The Zendesk Support mobile app allows agents to interact with messaging conversations already assigned. However, agents can't accept and action conversations from omnichannel routing directly in the app.</p>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>How do mobile app users change their agent status?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>At the moment, Zendesk doesn't support the update of the agent status through the <a href=\"https://support.zendesk.com/hc/en-us/articles/4408846407066-About-the-Zendesk-Support-mobile-app\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk Support mobile app</a>. To update your omnichannel status, log into the browser version of Zendesk.</p><p>The Zendesk Support mobile app allows agents to interact with messaging conversations already assigned. However, agents can't accept and action conversations from omnichannel routing directly in the app.</p>",
       "user_segment_ids": []
     },
     {
