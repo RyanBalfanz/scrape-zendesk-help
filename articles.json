@@ -1,5 +1,5 @@
 {
-  "count": 4842,
+  "count": 4843,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 162,
@@ -265,21 +265,21 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2025-07-25T13:23:08Z",
-      "updated_at": "2025-07-30T06:10:17Z",
+      "updated_at": "2025-08-01T09:31:17Z",
       "name": "Service Incident - July 25, 2025 - Multiple pods | Customers are unable to use the adherence feature in GCP",
       "title": "Service Incident - July 25, 2025 - Multiple pods | Customers are unable to use the adherence feature in GCP",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-07-25T14:41:36Z",
+      "edited_at": "2025-08-01T09:20:52Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
       "label_names": [
         "mt"
       ],
-      "body": "<h3 id=\"h_01K086CE8VJ446HQWES07M6PA6\"><strong>Timeline</strong></h3><p><strong>July 25, 2025 13:14 UTC | July 25, 2025 06:14 AM PT</strong></p><p>We have received reports of issues affecting the GCP environment and our engineers are actively investigating. We apologize for the inconvenience and appreciate your patience as we work to resolve the matter. Updates will be shared as soon as they become available.</p><p><strong>July 25, 2025 14:35 UTC | July 25, 2025 07:45 AM PT</strong></p><p>Our engineers have identified and resolved the issue preventing customers hosted on GCP from seeing up-to-date agent status values. Please confirm on your end if the issue is now resolved. A prompt response would be greatly appreciated and will help us assist you further.</p><p> </p><h3 id=\"h_01K10VZXD9HYF40WA66VCHPZYY\"><strong>Post-mortem</strong></h3><p>TBD</p><p> </p><h4 id=\"h_01K086AN7TN2VXG8HZSHSSG4DT\"><strong>FOR MORE INFORMATION</strong></h4><p>For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
+      "body": "<h3 id=\"h_01K086CE8VJ446HQWES07M6PA6\"><strong>Timeline</strong></h3><p><strong>July 25, 2025 13:14 UTC | July 25, 2025 06:14 AM PT</strong></p><p>We have received reports of issues affecting the GCP environment and our engineers are actively investigating. We apologize for the inconvenience and appreciate your patience as we work to resolve the matter. Updates will be shared as soon as they become available.</p><p><strong>July 25, 2025 14:35 UTC | July 25, 2025 07:45 AM PT</strong></p><p>Our engineers have identified and resolved the issue preventing customers hosted on GCP from seeing up-to-date agent status values. Please confirm on your end if the issue is now resolved. A prompt response would be greatly appreciated and will help us assist you further.</p><p><strong>August 1, 2025 16:53 UTC | August 1, 2025 01:53 AM PT</strong></p><p>We are pleased to inform you that the issue affecting customers hosted on the Google Cloud Platform, which prevented the display of up-to-date agent status values, has been resolved. Our engineering team has completed the recalculation of all impacted accounts and confirmed that the issue is fully mitigated. We appreciate your patience and understanding while we worked to address this matter.</p><h3 id=\"h_01K10VZXD9HYF40WA66VCHPZYY\"><strong>Post-mortem</strong></h3><p>TBD</p><p> </p><h4 id=\"h_01K086AN7TN2VXG8HZSHSSG4DT\"><strong>FOR MORE INFORMATION</strong></h4><p>For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
     },
     {
