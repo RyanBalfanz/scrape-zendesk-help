@@ -50,21 +50,21 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2025-08-04T15:47:59Z",
-      "updated_at": "2025-08-04T16:01:04Z",
+      "updated_at": "2025-08-04T19:02:45Z",
       "name": "Service Incident - August 04, 2025 - Zendesk QA - Assignments stuck on pending on multiple workspaces for several accounts",
       "title": "Service Incident - August 04, 2025 - Zendesk QA - Assignments stuck on pending on multiple workspaces for several accounts",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-08-04T15:48:10Z",
+      "edited_at": "2025-08-04T19:02:45Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
       "label_names": [
         "mt"
       ],
-      "body": "<h3 id=\"h_01JYK85Y9T0AHJER1Q121QPZR1\"><strong>SUMMARY</strong></h3><p><strong>August 04, 2025 15:45 UTC | August 04, 2025 8:45 AM PT</strong></p><p>We have received reports of some customers experiencing assignments getting stuck in Pending status within the Zendesk QA service. Our engineering team has deployed a fix and is actively monitoring the system to ensure stability.<br>We apologize for any inconvenience this may have caused and appreciate your patience as we continue to address the situation.</p>",
+      "body": "<h3 id=\"h_01JYK85Y9T0AHJER1Q121QPZR1\"><strong>SUMMARY</strong></h3><p><strong>August 04, 2025 19:02 UTC | August 04, 2025 12:02 PM PT</strong></p><p>Zendesk QA assignments being stuck in Pending status has been resolved for nearly all customers. If you continue to see these issues in your account please submit a ticket so we can investigate further.</p><p><br><strong>August 04, 2025 15:45 UTC | August 04, 2025 8:45 AM PT</strong></p><p>We have received reports of some customers experiencing assignments getting stuck in Pending status within the Zendesk QA service. Our engineering team has deployed a fix and is actively monitoring the system to ensure stability.<br>We apologize for any inconvenience this may have caused and appreciate your patience as we continue to address the situation.</p>",
       "user_segment_ids": []
     },
     {
