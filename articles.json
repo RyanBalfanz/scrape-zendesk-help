@@ -1,5 +1,5 @@
 {
-  "count": 4847,
+  "count": 4845,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 162,
@@ -19,7 +19,7 @@
       "vote_count": 1,
       "section_id": 4405298847002,
       "created_at": "2025-08-04T15:53:26Z",
-      "updated_at": "2025-08-04T17:14:55Z",
+      "updated_at": "2025-08-05T15:02:26Z",
       "name": "Release notes through 2025-08-01",
       "title": "Release notes through 2025-08-01",
       "source_locale": "en-us",
@@ -80,7 +80,7 @@
       "vote_count": 0,
       "section_id": 6255362352154,
       "created_at": "2025-08-01T11:28:04Z",
-      "updated_at": "2025-08-01T11:36:38Z",
+      "updated_at": "2025-08-05T15:05:12Z",
       "name": "Why do I see occasional agent status gaps when monitoring agent activity in Zendesk WFM?",
       "title": "Why do I see occasional agent status gaps when monitoring agent activity in Zendesk WFM?",
       "source_locale": "en-us",
@@ -94,6 +94,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_workforce_management"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>Why do I see occasional agent status gaps when monitoring agent activity in Zendesk WFM?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>When you monitor agent activity in real time, you may occasionally observe very short intervals where an agent’s status doesn’t immediately update. This is a natural result of how data flows through modern distributed systems, and how Zendesk WFM processes events in micro‑batches to balance speed and reliability.</p><ul>\n<li>\n<strong>Why it happens</strong>: To ensure high availability and consistency, Zendesk WFM groups rapid status changes into small data windows before it presents them in the UI. This approach prevents dropped events during network blips or momentary high load.</li>\n<li>\n<strong>What you see</strong>: A fraction‑of‑a‑second delay in status updates, typically less than 2 to 3 seconds, during periods of exceptionally rapid activity or transient connectivity fluctuations.</li>\n<li>\n<strong>Why you can trust it</strong>: Even during these brief windows, Zendesk WFM records every single event.</li>\n</ul><p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/6443347506970-About-the-Agent-activity-page\" target=\"_blank\" rel=\"noopener noreferrer\">About the Agent activity page</a>.</p>",
@@ -142,7 +143,7 @@
       "vote_count": 1,
       "section_id": 4405303730330,
       "created_at": "2025-07-31T14:05:13Z",
-      "updated_at": "2025-07-31T16:49:03Z",
+      "updated_at": "2025-08-05T15:03:30Z",
       "name": "How do app users change their agent status?",
       "title": "How do app users change their agent status?",
       "source_locale": "en-us",
@@ -156,6 +157,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_messaging",
         "role_agent",
         "role_admin"
@@ -176,7 +178,7 @@
       "vote_count": 0,
       "section_id": 9248688983706,
       "created_at": "2025-07-30T15:28:32Z",
-      "updated_at": "2025-08-04T19:27:15Z",
+      "updated_at": "2025-08-05T15:06:42Z",
       "name": "Installing AWS CloudFormation stack to support Zendesk for Contact Center",
       "title": "Installing AWS CloudFormation stack to support Zendesk for Contact Center",
       "source_locale": "en-us",
@@ -187,7 +189,9 @@
       "user_segment_id": null,
       "permission_group_id": 1324079,
       "content_tag_ids": [],
-      "label_names": [],
+      "label_names": [
+        "mt"
+      ],
       "body": "<body>\n<div class=\"article-banners\" translate=\"no\">\n<div id=\"docs-wmp-link\">\n<a href=\"https://support.zendesk.com/hc/en-us/articles/5411234991258-plan\" rel=\"noopener\" target=\"_blank\">What's my plan?</a>\n</div>\n\n\n<div class=\"article-banner\" id=\"addon_contact-center\">\n<table>\n<tbody>\n<tr>\n<td>\n<strong>Add-on</strong>\n</td>\n<td>Zendesk for Contact Center</td>\n</tr>\n</tbody>\n</table>\n</div>\n\n</div>\n\n<div class=\"body\">\n\n<p class=\"p\" dir=\"ltr\">The AWS CloudFormation stack links your Amazon Connect and Contact Center\n            instances. After your Contact Center instance has been created by Zendesk, you will\n            receive a CloudFormation template URL needed for the installation. </p>\n<p class=\"p\">You must have an Amazon Connect instance and a Contact Center instance before you can\n            install your AWS CloudFormation stack.</p>\n<p class=\"p\" dir=\"ltr\"><strong class=\"ph b\">To install the Contact Center CloudFormation stack</strong></p>\n<ol class=\"ol\" id=\"installing_cloudformation_stack__ol_est_gs5_dgc\">\n<li class=\"li\">In the AWS Management Console, make sure that <strong class=\"ph b\">Kinesis Stream</strong> data streaming\n                (not Kinesis Firehose) is enabled for the Amazon Connect instance connected to the\n                    deployment.<p class=\"p\" dir=\"ltr\"><img class=\"image\" id=\"installing_cloudformation_stack__image_fst_gs5_dgc\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/cc_cloudformation_1.png\" width=\"600\"></p>\n</li>\n<li class=\"li\" dir=\"ltr\">Open your Amazon Console in the region where your Amazon Connect instance\n                resides, then scroll to the bottom of the page showing details about the stack being\n                installed.</li>\n<li class=\"li\" dir=\"ltr\">Accept the terms, then start the stack installation. <p class=\"p\">The installation\n                    process might take up to 15 minutes. When it's complete, the status appears as\n                    CREATE_COMPLETE next to the new stack in the Amazon Console.</p>\n<p class=\"p\" dir=\"ltr\"><img class=\"image\" id=\"installing_cloudformation_stack__image_gst_gs5_dgc\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/cc_cloudformation_2.png\" width=\"600\"></p>\n</li>\n</ol>\n<p class=\"p\">After the stack installation completes, inform the Zendesk team that created the Contact\n            Center instance so that they can activate the stack to link the Contact Center instance\n            to your Amazon Connect instance.</p>\n<p class=\"p\">After the stack has been activated, sign into the Contact Center instance using the login\n            method set up in Amazon Connect, then install the <a class=\"xref\" href=\"https://www.zendesk.com/marketplace/apps/support/1114151/zendesk-for-contact-center/?queryID=89061040ae5d1e7f2bbea83c5ead6ff6\" target=\"_blank\">Zendesk for Contact Center</a> app in Zendesk and\n            link it to your Contact Center instance.</p>\n</div>\n<script id=\"article-banners-script\">\n    //<![CDATA[\n      const banner_style = document.createElement('style');\n      banner_style.innerHTML = `#styled-article-body{padding:0 0 0}#article-body #docs-wmp-link{text-align:right;font-size:.8em}#article-body .article-banners{margin-bottom:1rem}#article-body .article-banner{border:1px solid #ded7ca;background-color:#f6f0e6;margin:0 0 3px;line-height:1}#article-body .article-banner table{border-collapse:collapse;border:none;margin:0;width:auto}#article-body .article-banner td{padding:8px 6px 8px;border:none;font-size:.85em}#article-body .article-banner td:nth-child(2){border-left:1px solid #d0c9bd}#article-body .article-banner strong{font-weight:400;text-shadow:0 0 1px rgba(0,0,0,.5);letter-spacing:.5px}@media (min-width:1600px){#article-body .article-banner td{font-size:.8em}#article-body .docs-wmp-link{font-size:.7em}}`;\n      document.head.appendChild(banner_style);\n    //]]>\n    </script>\n</body>",
       "user_segment_ids": []
     },
@@ -297,7 +301,7 @@
       "vote_count": 0,
       "section_id": 4405298882330,
       "created_at": "2025-07-28T20:47:34Z",
-      "updated_at": "2025-07-29T13:27:00Z",
+      "updated_at": "2025-08-05T15:07:08Z",
       "name": "Managing IP addresses banned from messaging channels",
       "title": "Managing IP addresses banned from messaging channels",
       "source_locale": "en-us",
@@ -308,7 +312,9 @@
       "user_segment_id": null,
       "permission_group_id": 1324079,
       "content_tag_ids": [],
-      "label_names": [],
+      "label_names": [
+        "mt"
+      ],
       "body": "<body>\n<div class=\"article-banners\" translate=\"no\">\n<div id=\"docs-wmp-link\">\n<a href=\"https://support.zendesk.com/hc/en-us/articles/5411234991258-plan\" rel=\"noopener\" target=\"_blank\">What's my plan?</a>\n</div>\n\n\n<div class=\"article-banner\" id=\"suite_all\">\n<table>\n<tbody>\n<tr>\n<td>\n<strong>All Suites</strong>\n</td>\n<td>Team, Growth, Professional, Enterprise, or Enterprise Plus</td>\n</tr>\n</tbody>\n</table>\n</div>\n\n\n<div class=\"article-banner\" id=\"support_with_msg_all\">\n<table>\n<tbody>\n<tr>\n<td>\n<strong>Support with</strong>\n</td>\n<td>Live chat and messaging Team, Professional, or Enterprise</td>\n</tr>\n</tbody>\n</table>\n</div>\n\n</div>\n\n<div class=\"body\">  <div class=\"p\">\n<div class=\"note note\">\n<span class=\"notetitle\">Note:</span> The feature described in this article is similar to <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408824467098\" target=\"_blank\">banning visitors by IP address in live\n                    chat</a>.</div>\n</div>\n<p class=\"p\">On the Banned IP addresses page you can manage the IP addresses that have been banned\n            from accessing your messaging channels. If <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/9418700382618\" target=\"_blank\">given permission</a>, agents can access and use this page as\n            well.</p>\n<p class=\"p\">This article includes the following sections:</p>\n<div class=\"p\">\n<ul class=\"ul\" id=\"messaging_ban_IP_viewing_managing__ul_i3y_srh_dgc\">\n<li class=\"li\"><a class=\"xref\" href=\"#topic_dhb_vzz_vfc\">Editing IP addresses banned from messaging channels</a></li>\n<li class=\"li\"><a class=\"xref\" href=\"#topic_od3_4rh_dgc\">Deleting IP addresses from the banned list</a></li>\n</ul>\n</div>\n<p class=\"p\">Related articles:</p>\n<div class=\"p\">\n<ul class=\"ul\">\n<li class=\"li\"><a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/9418700382618\" target=\"_blank\">About banning IP addresses from messaging\n                        channels</a></li>\n<li class=\"li\"><a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/9418691150106\" target=\"_blank\">Restricting access to messaging channels by\n                        IP address</a></li>\n<li class=\"li\"><a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/9435777614874\" target=\"_blank\">Accessing and using the Banned IP addresses\n                        page in Admin Center</a></li>\n</ul>\n</div>\n</div>\n<div aria-labelledby=\"ariaid-title2\" class=\"topic nested1\" id=\"topic_dhb_vzz_vfc\">\n<h2 class=\"title topictitle2\" id=\"ariaid-title2\">Editing IP addresses banned from messaging channels</h2>\n<div class=\"body\">\n<p class=\"p\">From the Banned IP addresses page, you can make changes to banned IP\n                entries.</p>\n<p class=\"p\"><strong class=\"ph b\">To update a banned IP address entry</strong></p>\n<div class=\"bodydiv\">\n<ol class=\"ol\" id=\"topic_dhb_vzz_vfc__ol_ldn_pb1_wfc\">\n<li class=\"li\"><span class=\"ph\">In <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4581766374554#topic_hfg_dyz_1hb\" target=\"_blank\">Admin Center</a>, click <img class=\"image\" id=\"topic_dhb_vzz_vfc__d8e824\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/ac_people_icon.png\">\n<strong class=\"ph b\">People</strong> in the sidebar, then select <strong class=\"ph b\">Restrictions &gt; Banned IP\n      addresses</strong>.</span></li>\n<li class=\"li\">Click the IP address you want to update.</li>\n<li class=\"li\">Update the banned IP information as needed:<div class=\"p\">\n<ul class=\"ul\" id=\"topic_dhb_vzz_vfc__ul_um1_sb1_wfc\">\n<li class=\"li\">Enter a new IP address</li>\n<li class=\"li\">Use the drop-down menu to select a new reason for the ban</li>\n<li class=\"li\">Enter any comments you want to include</li>\n</ul>\n</div>\n</li>\n<li class=\"li\">Click <strong class=\"ph b\">Save</strong>.</li>\n</ol>\n</div>\n</div>\n</div>\n<div aria-labelledby=\"ariaid-title3\" class=\"topic nested1\" id=\"topic_od3_4rh_dgc\">\n<h2 class=\"title topictitle2\" id=\"ariaid-title3\">Deleting IP addresses from the banned list</h2>\n<div class=\"body\">\n<p class=\"p\">From the Banned IP addresses page, you can delete (unban) IP addresses from\n                the list.</p>\n<p class=\"p\"><strong class=\"ph b\">To delete a banned IP address from the list</strong></p>\n<div class=\"p\">\n<ol class=\"ol\" id=\"topic_od3_4rh_dgc__ol_qc1_vb1_wfc\">\n<li class=\"li\"><span class=\"ph\">In <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4581766374554#topic_hfg_dyz_1hb\" target=\"_blank\">Admin Center</a>, click <img class=\"image\" id=\"topic_od3_4rh_dgc__d8e824\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/ac_people_icon.png\">\n<strong class=\"ph b\">People</strong> in the sidebar, then select <strong class=\"ph b\">Restrictions &gt; Banned IP\n      addresses</strong>.</span></li>\n<li class=\"li\">Locate the IP address you want to update.</li>\n<li class=\"li\">Click the Options icon (<img class=\"image\" id=\"topic_od3_4rh_dgc__image_zr1_dc1_wfc\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/uc_options_icon.png\">) and select <strong class=\"ph b\">Delete</strong>.</li>\n<li class=\"li\">Click <strong class=\"ph b\">Delete</strong> to confirm the action.</li>\n</ol>\n</div>\n</div>\n</div>\n<script id=\"fast-path-script\">\n    //<![CDATA[\n      const fast_path_style = document.createElement('style');\n      fast_path_style.innerHTML = `#article-body .fastpath{font-size:.9em;background-color:#f3f3f3;border:1px solid #d3d3d3;padding:10px 10px 8px;margin-bottom:16px}#article-body .fastpath::before{content:none!important}`;\n      document.head.appendChild(fast_path_style);\n    //]]>\n    </script><script id=\"article-banners-script\">\n    //<![CDATA[\n      const banner_style = document.createElement('style');\n      banner_style.innerHTML = `#styled-article-body{padding:0 0 0}#article-body #docs-wmp-link{text-align:right;font-size:.8em}#article-body .article-banners{margin-bottom:1rem}#article-body .article-banner{border:1px solid #ded7ca;background-color:#f6f0e6;margin:0 0 3px;line-height:1}#article-body .article-banner table{border-collapse:collapse;border:none;margin:0;width:auto}#article-body .article-banner td{padding:8px 6px 8px;border:none;font-size:.85em}#article-body .article-banner td:nth-child(2){border-left:1px solid #d0c9bd}#article-body .article-banner strong{font-weight:400;text-shadow:0 0 1px rgba(0,0,0,.5);letter-spacing:.5px}@media (min-width:1600px){#article-body .article-banner td{font-size:.8em}#article-body .docs-wmp-link{font-size:.7em}}`;\n      document.head.appendChild(banner_style);\n    //]]>\n    </script>\n</body>",
       "user_segment_ids": []
     },
@@ -325,7 +331,7 @@
       "vote_count": 1,
       "section_id": 4405298847002,
       "created_at": "2025-07-28T15:36:56Z",
-      "updated_at": "2025-08-04T17:12:44Z",
+      "updated_at": "2025-08-05T15:02:21Z",
       "name": "Release notes through 2025-07-25",
       "title": "Release notes through 2025-07-25",
       "source_locale": "en-us",
@@ -640,7 +646,7 @@
       "vote_count": 0,
       "section_id": 6255362352154,
       "created_at": "2025-07-22T13:18:56Z",
-      "updated_at": "2025-08-01T11:23:03Z",
+      "updated_at": "2025-08-05T15:04:59Z",
       "name": "Why do very short agent activities sometimes display without their full ticket details in real time?",
       "title": "Why do very short agent activities sometimes display without their full ticket details in real time?",
       "source_locale": "en-us",
@@ -865,7 +871,7 @@
       "vote_count": 0,
       "section_id": 9148501635354,
       "created_at": "2025-07-17T15:03:29Z",
-      "updated_at": "2025-08-01T12:35:49Z",
+      "updated_at": "2025-08-05T15:03:04Z",
       "name": "Explore recipe: How to capture the date when a macro is applied to a ticket",
       "title": "Explore recipe: How to capture the date when a macro is applied to a ticket",
       "source_locale": "en-us",
@@ -878,6 +884,7 @@
       "content_tag_ids": [],
       "label_names": [
         "explore",
+        "mt",
         "ab0_explore",
         "role_admin"
       ],
