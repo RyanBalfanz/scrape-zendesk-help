@@ -50,21 +50,21 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2025-08-04T15:47:59Z",
-      "updated_at": "2025-08-04T19:16:23Z",
+      "updated_at": "2025-08-06T15:16:19Z",
       "name": "Service Incident - August 04, 2025 - Zendesk QA - Assignments stuck on pending on multiple workspaces for several accounts",
       "title": "Service Incident - August 04, 2025 - Zendesk QA - Assignments stuck on pending on multiple workspaces for several accounts",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-08-04T19:02:45Z",
+      "edited_at": "2025-08-06T15:14:01Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
       "label_names": [
         "mt"
       ],
-      "body": "<h3 id=\"h_01JYK85Y9T0AHJER1Q121QPZR1\"><strong>SUMMARY</strong></h3><p><strong>August 04, 2025 19:02 UTC | August 04, 2025 12:02 PM PT</strong></p><p>Zendesk QA assignments being stuck in Pending status has been resolved for nearly all customers. If you continue to see these issues in your account please submit a ticket so we can investigate further.</p><p><br><strong>August 04, 2025 15:45 UTC | August 04, 2025 8:45 AM PT</strong></p><p>We have received reports of some customers experiencing assignments getting stuck in Pending status within the Zendesk QA service. Our engineering team has deployed a fix and is actively monitoring the system to ensure stability.<br>We apologize for any inconvenience this may have caused and appreciate your patience as we continue to address the situation.</p>",
+      "body": "<h3 id=\"h_01JYK85Y9T0AHJER1Q121QPZR1\"><strong>SUMMARY</strong></h3><p><strong>August 06, 2025 14:57 UTC | August 06, 2025 07:57 AM PT</strong></p><p>We are pleased to inform you that the issue causing some customers’ assignments to get stuck in Pending status within the Zendesk QA service has been resolved. <br>Thank you for your patience and understanding while our team worked diligently to address this matter.<br><br><strong>August 04, 2025 19:02 UTC | August 04, 2025 12:02 PM PT</strong></p><p>Zendesk QA assignments being stuck in Pending status has been resolved for nearly all customers. If you continue to see these issues in your account please submit a ticket so we can investigate further.</p><p><br><strong>August 04, 2025 15:45 UTC | August 04, 2025 8:45 AM PT</strong></p><p>We have received reports of some customers experiencing assignments getting stuck in Pending status within the Zendesk QA service. Our engineering team has deployed a fix and is actively monitoring the system to ensure stability.<br>We apologize for any inconvenience this may have caused and appreciate your patience as we continue to address the situation.</p><p> </p><h4 id=\"h_01K086AN7TN2VXG8HZSHSSG4DT\"><strong>FOR MORE INFORMATION</strong></h4><p>For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com/\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
     },
     {
