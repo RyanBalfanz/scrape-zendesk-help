@@ -615,21 +615,21 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2025-07-24T09:50:37Z",
-      "updated_at": "2025-07-29T14:24:29Z",
+      "updated_at": "2025-08-07T04:18:23Z",
       "name": "Service Incident - July 24, 2025 - All Pods | AI Agents content page is broken",
       "title": "Service Incident - July 24, 2025 - All Pods | AI Agents content page is broken",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-07-24T09:58:00Z",
+      "edited_at": "2025-08-07T04:17:58Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
       "label_names": [
         "mt"
       ],
-      "body": "<h3 id=\"h_01K086C6911918RZTQD1400ZQR\"><strong>Summary</strong></h3><p>On July 24, 2023, from 07:53AM UTC to 08:23UTC, customers are unable to see any content displayed on their AI Agents console.</p><h3 id=\"h_01K086CE8VJ446HQWES07M6PA6\"><strong>Timeline</strong></h3><p><strong>July 24, 2025 7:53 UTC | July 24, 2025 12:53 AM PT</strong></p><p>We identified that the outage on the Use Cases page for AI Agents Advanced was due to incorrect data being received. Following a thorough review, a recovery process was successfully executed, and the page is now fully operational without any further issues. We appreciate your patience and understanding while our team worked to resolve this matter.</p><p> </p><h4 id=\"h_01K086AN7TN2VXG8HZSHSSG4DT\"><strong>FOR MORE INFORMATION</strong></h4><p>For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
+      "body": "<h3 id=\"h_01K21BS5KE20SBFX8BN1Z7RR3Y\"><span style=\"color: #06363c;\"><strong>Summary</strong></span></h3><p>On July 24, 2025, from 7:42 UTC to 8:23 UTC, customers on the primary Europe domain experienced interruptions when accessing the Use Cases page for AI Agents Advanced.</p><h3 id=\"h_01K21BS9H44J5SYNPJ359PXB8Q\"><span style=\"color: #06363c;\"><strong>Timeline</strong></span></h3><p><strong>July 24, 2025 7:53 UTC | July 24, 2025 12:53 AM PT</strong></p><p>We identified that the outage on the Use Cases page for AI Agents Advanced was due to incorrect data being received. Following a thorough review, a recovery process was successfully executed, and the page is now fully operational without any further issues. We appreciate your patience and understanding while our team worked to resolve this matter.</p><h3 id=\"h_01K21BS5KH0Q39E47W81S0ABSJ\"><span style=\"color: #06363c;\"><strong>Root Cause Analysis</strong></span></h3><p>This incident was caused by an unexpected issue during a recent update, which affected the data used to display the content page.</p><h3 id=\"h_01K21BS5KJNPFJA9CY4YFK97B3\"><span style=\"color: #06363c;\"><strong>Resolution</strong></span></h3><p>To fix the issue, the problematic records were identified and removed, followed by the execution of a recovery script to restore full functionality of the Use Cases page.</p><h3 id=\"h_01K21BS5KK20VB8H2JN4DZCEDJ\"><span style=\"color: #06363c;\"><strong>Remediation Items</strong></span></h3><ol>\n<li>Ensure all related deployments are completed in the correct order to prevent validation mismatches.</li>\n<li>Improve deployment documentation and processes to avoid missed production deployments.</li>\n<li>Enhance pre-production testing and verification for data migrations affecting live environments.</li>\n</ol><h4 id=\"h_01K086AN7TN2VXG8HZSHSSG4DT\"><strong>FOR MORE INFORMATION</strong></h4><p>For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
     },
     {
