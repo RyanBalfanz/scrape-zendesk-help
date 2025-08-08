@@ -19,7 +19,7 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2025-08-08T00:03:17Z",
-      "updated_at": "2025-08-08T00:47:05Z",
+      "updated_at": "2025-08-08T07:03:03Z",
       "name": "Service Incident - August 8th, 2025",
       "title": "Service Incident - August 8th, 2025",
       "source_locale": "en-us",
@@ -30,7 +30,9 @@
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
-      "label_names": [],
+      "label_names": [
+        "mt"
+      ],
       "body": "<h3 id=\"h_01K23FN3FN5M0VJ5KVYNS6AK6N\"><span style=\"color: #06363c;\"><strong>SUMMARY</strong></span></h3><p class=\"wysiwyg-text-align-justify\"><strong>August 8, 2025 12:44 AM UTC | August 7, 2025 05:44 PM PT</strong></p><p class=\"wysiwyg-text-align-justify\">We are pleased to inform you that the issue affecting Support has been resolved. Thank you for your patience and cooperation throughout this process.</p><p class=\"wysiwyg-text-align-justify\"><strong>August 8, 2025 12:01 AM UTC | August 7, 2025 05:01 PM PT</strong></p><p class=\"wysiwyg-text-align-justify\">We are aware of an issue affecting Support, where customers are experiencing workflow disruptions related to delays in background job processing, including failed bulk updates and the inability to merge tickets. Our engineering team is actively addressing the problem, and we are beginning to observe performance improvements. We will continue to provide updates as we investigate further. Thank you for your patience and understanding.</p><p><strong>POST-MORTEM</strong></p><p>TBD</p><p><strong>FOR MORE INFORMATION</strong></p><p><span style=\"background-color: #fefaf2; color: #16140c;\">For current system status information about Zendesk and specific impacts to your account, visit our </span><a href=\"https://status.zendesk.com/\"><span class=\"wysiwyg-underline\">system status page</span></a><span style=\"background-color: #fefaf2; color: #16140c;\">. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, </span><a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\"><span class=\"wysiwyg-underline\">contact Zendesk customer support.</span></a></p>",
       "user_segment_ids": []
     },
@@ -320,7 +322,7 @@
       "vote_count": 1,
       "section_id": 4405298854426,
       "created_at": "2025-07-31T17:51:37Z",
-      "updated_at": "2025-08-08T06:10:31Z",
+      "updated_at": "2025-08-08T07:03:01Z",
       "name": "Service Incident - July 31, 2025 - All Pods | Zendesk Sales - Performance degradation and failing calls",
       "title": "Service Incident - July 31, 2025 - All Pods | Zendesk Sales - Performance degradation and failing calls",
       "source_locale": "en-us",
