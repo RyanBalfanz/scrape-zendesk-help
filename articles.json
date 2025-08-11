@@ -77,7 +77,7 @@
       "vote_count": 0,
       "section_id": 4405298833818,
       "created_at": "2025-08-06T22:39:52Z",
-      "updated_at": "2025-08-07T16:05:02Z",
+      "updated_at": "2025-08-11T15:00:09Z",
       "name": "Announcing the auto assist tab in the Zendesk Copilot: Agent productivity dashboard",
       "title": "Announcing the auto assist tab in the Zendesk Copilot: Agent productivity dashboard",
       "source_locale": "en-us",
@@ -88,7 +88,9 @@
       "user_segment_id": null,
       "permission_group_id": 1324079,
       "content_tag_ids": [],
-      "label_names": [],
+      "label_names": [
+        "mtpe"
+      ],
       "body": "<figure style=\"height: 44px; width: 100%;\" class=\"wysiwyg-table wysiwyg-table-align-left\"><table style=\"border-collapse: collapse; border-style: solid; border-width: 1px;\"><tbody>\n<tr style=\"height: 22px;\">\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\"><strong>Announced on</strong></td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\"><strong>Rollout on</strong></td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\">August 07, 2025</td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\">August 07, 2025</td>\n</tr>\n</tbody></table></figure><p>We’re excited to announce the new auto assist tab in the Zendesk Copilot: Agent productivity analytics dashboard. </p><p>This announcement includes the following topics:</p><ul>\n<li><a href=\"#h_01GD3S97RDYVTAFTQ8WR9878VF\" target=\"_self\">What is changing?</a></li>\n<li><a href=\"#h_01GD3S9GD63FPDGQSEFY88M3ND\" target=\"_self\">Why is Zendesk making this change?</a></li>\n<li><a href=\"#h_01GD3S9TSPXM7M4WHYKYF4E84M\" target=\"_self\">What do I need to do?</a></li>\n</ul><h2 id=\"h_01GD3S97RDYVTAFTQ8WR9878VF\">What is changing?</h2><p>A new tab with auto assist usage data is now available on the Zendesk Copilot: Agent productivity analytics dashboard.</p><h2 id=\"h_01GD3S9GD63FPDGQSEFY88M3ND\">Why is Zendesk making this change?</h2><p>Zendesk is making this change so that you can view and understand the most important metrics about auto assist usage, such as acceptance rate per procedure, amount of agents using auto assist, and more. You can can also create custom reports using the auto assist data set to drill down on any metrics important in their work.</p><h2 id=\"h_01GD3S9TSPXM7M4WHYKYF4E84M\">What do I need to do?</h2><p>To view the auto assist tab, go to the product tray and select <strong>Analytics</strong>. Find and open the <strong>Zendesk Copilot: Agent productivity</strong> dashboard, then select the <strong>Auto assist</strong> tab. To learn more, see <a href=\"https://support.zendesk.com/hc/en-us/articles/9308443151258\" target=\"_blank\" rel=\"noopener noreferrer\">Analyzing your Copilot activity</a>.</p><p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/6447052855194\" target=\"_blank\" rel=\"noopener noreferrer\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk Customer Support</a>.</p>",
       "user_segment_ids": []
     },
@@ -105,7 +107,7 @@
       "vote_count": 0,
       "section_id": 4405298833818,
       "created_at": "2025-08-06T21:17:10Z",
-      "updated_at": "2025-08-07T15:49:58Z",
+      "updated_at": "2025-08-11T15:00:09Z",
       "name": "Announcing the removal of the 'Connect other' option to add support addresses",
       "title": "Announcing the removal of the 'Connect other' option to add support addresses",
       "source_locale": "en-us",
@@ -116,7 +118,9 @@
       "user_segment_id": null,
       "permission_group_id": 1324079,
       "content_tag_ids": [],
-      "label_names": [],
+      "label_names": [
+        "mtpe"
+      ],
       "body": "<figure style=\"width: 100%;\" class=\"wysiwyg-table\"><table style=\"border-style: solid; border-width: 1px; margin-left: 0px; margin-right: auto;\"><tbody>\n<tr>\n<td style=\"border-style: solid; border-width: 1px;\"><strong>Announced on</strong></td>\n<td style=\"border-style: solid; border-width: 1px;\"><strong>Rollout on</strong></td>\n</tr>\n<tr>\n<td style=\"border-style: solid; border-width: 1px;\">August 7, 2025</td>\n<td style=\"border-style: solid; border-width: 1px;\">August 7, 2025</td>\n</tr>\n</tbody></table></figure><p>Zendesk has streamlined the process for adding new support addresses in Admin Center by removing the 'Connect other' option, which duplicated the 'Connect external address' feature. No action is required from customers as a result of this change.</p><p>This announcement includes the following topics:</p><ul>\n<li><a href=\"#h_01K1G5PTC1Z633F71HK7HTKAAJ\">What’s changing?</a></li>\n<li><a href=\"#h_01K1G5QMVCZMVF60THS0DTYQY8\">When is Zendesk making this change?</a></li>\n<li><a href=\"#h_01K1G5QEQQGFFW9AXGY88ACMJJ\">What do I need to do?</a></li>\n</ul><h2 id=\"h_01K1G5PTC1Z633F71HK7HTKAAJ\">What’s changing?</h2><p>The 'Connect other' option is no longer available when <a href=\"https://support.zendesk.com/hc/en-us/articles/4408842868506\" target=\"_blank\" rel=\"noopener noreferrer\">adding a new support address</a> in the Email Settings page of Admin Center.  If you had previously used the 'Connect other' option for certain support addresses, you can utilize email forwarding features available with the ‘Connect external address’ option to add support addresses.</p><h2 id=\"h_01K1G5QMVCZMVF60THS0DTYQY8\">Why is Zendesk making this change?</h2><p>Previously, the 'Connect other' option could be used to add or create certain support addresses, but that option duplicated the functionality found within the Email Forwarding option. To simplify this process and minimize confusion, we removed the 'Connect other' option.</p><h2 id=\"h_01K1G5QEQQGFFW9AXGY88ACMJJ\">What do I need to do?</h2><p>No action is required. Any support addresses that were added using the 'Connect other' option in the past will still operate like normal.</p><p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/4408860477850\" target=\"_blank\" rel=\"noopener noreferrer\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk customer support</a>.</p><p> </p>",
       "user_segment_ids": []
     },
