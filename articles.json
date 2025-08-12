@@ -1,5 +1,5 @@
 {
-  "count": 4857,
+  "count": 4858,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 162,
@@ -362,6 +362,41 @@
         "mt"
       ],
       "body": "<h3 id=\"h_01JYK85Y9T0AHJER1Q121QPZR1\"><strong>SUMMARY</strong></h3><p><strong>August 06, 2025 14:57 UTC | August 06, 2025 07:57 AM PT</strong></p><p>We are pleased to inform you that the issue causing some customers’ assignments to get stuck in Pending status within the Zendesk QA service has been resolved. <br>Thank you for your patience and understanding while our team worked diligently to address this matter.<br><br><strong>August 04, 2025 19:02 UTC | August 04, 2025 12:02 PM PT</strong></p><p>Zendesk QA assignments being stuck in Pending status has been resolved for nearly all customers. If you continue to see these issues in your account please submit a ticket so we can investigate further.</p><p><br><strong>August 04, 2025 15:45 UTC | August 04, 2025 8:45 AM PT</strong></p><p>We have received reports of some customers experiencing assignments getting stuck in Pending status within the Zendesk QA service. Our engineering team has deployed a fix and is actively monitoring the system to ensure stability.<br>We apologize for any inconvenience this may have caused and appreciate your patience as we continue to address the situation.</p><p> </p><h4 id=\"h_01K086AN7TN2VXG8HZSHSSG4DT\"><strong>FOR MORE INFORMATION</strong></h4><p>For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com/\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
+      "user_segment_ids": []
+    },
+    {
+      "id": 9551631492250,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9551631492250.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/9551631492250-Error-Redaction-failed-wait-a-moment-then-try-again",
+      "author_id": 8870752769050,
+      "comments_disabled": false,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405303737370,
+      "created_at": "2025-08-01T13:49:01Z",
+      "updated_at": "2025-08-12T05:59:41Z",
+      "name": "Error: Redaction failed – wait a moment, then try again.",
+      "title": "Error: Redaction failed – wait a moment, then try again.",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2025-08-12T05:59:41Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801135069,
+      "content_tag_ids": [],
+      "label_names": [
+        "ks",
+        "ab0",
+        "ab0_support",
+        "ab0_messaging",
+        "role_agent",
+        "role_admin"
+      ],
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Issue symptoms</h2><p>I'm attempting to redact sensitive information on a ticket, but the system returns the error message: <strong>Redaction failed – wait a moment, then try again</strong>.</p><figure style=\"width: 49.91%;\" class=\"wysiwyg-image wysiwyg-image-resized\"><img style=\"aspect-ratio: 610/214;\" src=\"https://p26.zdusercontent.com/attachment/10557657/u8C8EY5r6QYM6OxZ6WsKkY4BJ?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..wg4kIUbnZgpGhwdKKD17bQ.hmNc2Ddzi6dl8A5J1EbKUE6jVTeVJGhH6xleI4pa_sHYJjvZahrxkbYuDYfJ_LQU_YwMh_2Imk9o48raFfNlzKVommGc1qkXpDR7afmQbS63GsknHYD1M6e_ixflEf3KuLT_Qnl2XH85oL8wexziFCftFJ2TJBTV60XbSuQvlR28nfvqVOcpNzkaB4WjKhgkY295Rm_PpZHqZ06dUEMCGqhK79YaEQMPRvVDNsk_Jtf_fr2TDX6XYGqmRVBN72_t3ZL-g7rbealC56rmqkpsgYH1T4b4pey_J4d_V2ADZNQ.lO-PVdDkvyT1JaG1nKf7rw\" width=\"610\" height=\"214\"></figure><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Resolution steps</h2><p><span data-huuid=\"1996781471104460592\">The error <strong>Redaction failed – wait a moment, then try again</strong> can occur when redacting sensitive information, such as passwords or credit card numbers, in tickets.</span><span data-huuid=\"1996781471104460592\"> This issue often occurs when using the</span><span data-huuid=\"1996781471104460281\"> </span><a href=\"https://support.zendesk.com/hc/en-us/articles/4408836216218-Using-Web-Widget-Classic-to-embed-customer-service-in-your-website\" target=\"_blank\" rel=\"noopener noreferrer\" data-hveid=\"CAMQAQ\"><span data-huuid=\"1996781471104460281\">Web Widget (Classic)</span></a><span data-huuid=\"1996781471104460281\"> or handling active</span><span data-huuid=\"1996781471104460281\"> </span><a href=\"https://support.zendesk.com/hc/en-us/articles/4408846454682-About-conversational-support-with-messaging\" target=\"_blank\" rel=\"noopener noreferrer\" data-hveid=\"CAMQAg\"><span data-huuid=\"1996781471104460281\">messaging conversations</span></a><span data-huuid=\"1996781471104460281\">.</span><span data-huuid=\"1996781471104460281\"> It’s commonly associated with a 401 Unauthorized or 422 Unprocessable Entity error.</span></p><div><div>\n<div data-hveid=\"CA4QAQ\" data-ved=\"2ahUKEwiSqpi23emOAxXidUEAHWPTKpwQo_EKegQIDhAB\"><span data-huuid=\"11445650428923009371\">Here are a few of the reasons this could occur:</span></div>\n<div data-hveid=\"CA4QAQ\" data-ved=\"2ahUKEwiSqpi23emOAxXidUEAHWPTKpwQo_EKegQIDhAB\"><span data-huuid=\"11445650428923009371\"></span></div>\n<ul>\n<li><div data-hveid=\"CA4QAQ\" data-ved=\"2ahUKEwiSqpi23emOAxXidUEAHWPTKpwQo_EKegQIDhAB\">\n<span data-huuid=\"11445650428923009288\"><strong>Unauthorised Access:</strong></span><span data-huuid=\"11445650428923009288\"></span> <span data-huuid=\"11445650428923007895\">This error may occur if the <strong>Anybody can submit tickets</strong> setting is disabled in your Zendesk instance.</span><span data-huuid=\"11445650428923007895\" data-cid=\"6d398853-1488-45fd-bb49-da3270b7e819\"></span>\n</div></li>\n<li><div>\n<span data-huuid=\"11445650428923009205\"><strong>Support Address Conflict:</strong></span><span data-huuid=\"11445650428923009205\"></span> <span data-huuid=\"11445650428923007812\">When using the Web Widget (Classic), this error may appear if the requester is set to a support address, which is typically already associated with your Zendesk account.</span><span data-huuid=\"11445650428923007812\" data-cid=\"1d09877a-cc80-41cf-b678-4d7577852bee\"></span>\n</div></li>\n<li><div>\n<span data-huuid=\"11445650428923009122\"><strong>Active Messaging Conversations:</strong></span><span data-huuid=\"11445650428923009122\"></span> <span data-huuid=\"11445650428923007729\">Redaction is not allowed in active messaging conversations. To proceed, wait until the conversation becomes inactive or manually update the ticket status to pending, on-hold, or solved before attempting redaction.</span><span data-huuid=\"11445650428923010432\" data-cid=\"f81db41a-0696-49ea-9276-0d57f444927c\"></span>\n</div></li>\n<li><div>\n<span data-huuid=\"11445650428923007646\"><strong>Browser Issues:</strong></span><span data-huuid=\"11445650428923007646\"></span> <span data-huuid=\"11445650428923010349\">Clearing your browser's cache and cookies, or using an incognito window, can help rule out browser-related issues.</span>\n</div></li>\n<li><div>\n<span data-huuid=\"11445650428923007563\"><strong>App Conflicts:</strong></span><span data-huuid=\"11445650428923007563\"></span> <span data-huuid=\"11445650428923010266\">Browser extensions or apps installed in your Zendesk instance can sometimes interfere with the redaction process. Try disabling them one at a time to identify the source of the issue.</span>\n</div></li>\n<li><div>\n<span data-huuid=\"11445650428923010183\"><strong>Zendesk System Errors:</strong></span><span data-huuid=\"11445650428923010183\"></span> <span data-huuid=\"11445650428923008790\">In rare cases, temporary issues within Zendesk's system may cause redaction attempts to fail. In these situations, waiting briefly and trying again later is a valid and often effective approach.</span>\n</div></li>\n</ul>\n<div>To resolve the error complete the following troubleshooting steps:</div>\n<ol>\n<li><div>\n<span data-huuid=\"2314500813069345980\">Verify that the <strong>Anybody can submit tickets</strong> is enabled. When this feature is disabled, the Web Widget (Classic) cannot be used to submit a ticket. For more information, see the article: </span><a href=\"https://support.zendesk.com/hc/en-us/articles/4408881989018-Enabling-anyone-to-submit-tickets\" target=\"_blank\" rel=\"noopener noreferrer\"><span data-huuid=\"2314500813069345980\">Enabling anyone to submit tickets</span></a><span data-huuid=\"2314500813069345980\">. </span>\n</div></li>\n<li><div><span data-huuid=\"2314500813069347285\">Verify the requester's email address. If you're using the Web Widget (Classic), ensure the requester is not using a support address.</span></div></li>\n<li><div><span data-huuid=\"2314500813069348590\">If you're redacting information in a messaging conversation, wait until the conversation becomes inactive. Redaction is only possible once the conversation is no longer active.</span></div></li>\n<li><div>\n<a href=\"https://support.zendesk.com/hc/en-us/articles/4408823836314-How-to-clear-cache-and-cookies\" target=\"_blank\" rel=\"noopener noreferrer\">Clear your browser's cache and cookies</a>, as this can help resolve issues caused by outdated or corrupted browser data.</div></li>\n<li><div><span data-huuid=\"2314500813069347104\">Try using an incognito or private browsing window to help isolate and identify potential browser-related issues.</span></div></li>\n<li><div>Disable browser extensions to determine if any are interfering with the redaction process.</div></li>\n<li><div>\n<span data-huuid=\"2314500813069345618\">To isolate potential app-related issues, test without any Zendesk apps enabled by adding </span><code><span data-huuid=\"2314500813069345618\">?noapps</span></code><span data-huuid=\"2314500813069345618\"> to the end of the ticket URL.</span><span data-huuid=\"2314500813069346053\" data-cid=\"1700ca84-d00f-4bac-8586-5ad9da820349\"> For more information see the article: </span><a href=\"https://support.zendesk.com/hc/en-us/articles/4408836095514-Troubleshoot-app-issues-in-Zendesk-account\" target=\"_blank\" rel=\"noopener noreferrer\"><span data-huuid=\"2314500813069346053\" data-cid=\"1700ca84-d00f-4bac-8586-5ad9da820349\">Troubleshoot app issues in Zendesk account</span></a><span data-huuid=\"2314500813069346053\" data-cid=\"1700ca84-d00f-4bac-8586-5ad9da820349\">.</span>\n</div></li>\n<li><div>\n<span data-huuid=\"2314500813069345980\">If none of the above steps resolve the issue, contact </span><a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\" target=\"_blank\" rel=\"noopener noreferrer\"><span data-huuid=\"2314500813069345980\">Zendesk Customer Support</span></a><span data-huuid=\"2314500813069345980\"> and include a HAR file to assist with further investigation.</span>\n</div></li>\n</ol>\n<div>\n<span data-huuid=\"2314500813069345980\">For more information, see the article: </span><a href=\"https://support.zendesk.com/hc/en-us/articles/4408846470170-Redacting-ticket-content\" target=\"_blank\" rel=\"noopener noreferrer\"><span data-huuid=\"2314500813069345980\">Redacting ticket content</span></a><span data-huuid=\"2314500813069345980\">.</span>\n</div>\n</div></div>",
       "user_segment_ids": []
     },
     {
@@ -898,40 +933,6 @@
         "mt"
       ],
       "body": "<h3 id=\"h_01K21BS5KE20SBFX8BN1Z7RR3Y\"><span style=\"color: #06363c;\"><strong>Summary</strong></span></h3><p>On July 24, 2025, from 7:42 UTC to 8:23 UTC, customers on the primary Europe domain experienced interruptions when accessing the Use Cases page for AI Agents Advanced.</p><h3 id=\"h_01K21BS9H44J5SYNPJ359PXB8Q\"><span style=\"color: #06363c;\"><strong>Timeline</strong></span></h3><p><strong>July 24, 2025 7:53 UTC | July 24, 2025 12:53 AM PT</strong></p><p>We identified that the outage on the Use Cases page for AI Agents Advanced was due to incorrect data being received. Following a thorough review, a recovery process was successfully executed, and the page is now fully operational without any further issues. We appreciate your patience and understanding while our team worked to resolve this matter.</p><h3 id=\"h_01K21BS5KH0Q39E47W81S0ABSJ\"><span style=\"color: #06363c;\"><strong>Root Cause Analysis</strong></span></h3><p>This incident was caused by an unexpected issue during a recent update, which affected the data used to display the content page.</p><h3 id=\"h_01K21BS5KJNPFJA9CY4YFK97B3\"><span style=\"color: #06363c;\"><strong>Resolution</strong></span></h3><p>To fix the issue, the problematic records were identified and removed, followed by the execution of a recovery script to restore full functionality of the Use Cases page.</p><h3 id=\"h_01K21BS5KK20VB8H2JN4DZCEDJ\"><span style=\"color: #06363c;\"><strong>Remediation Items</strong></span></h3><ol>\n<li>Ensure all related deployments are completed in the correct order to prevent validation mismatches.</li>\n<li>Improve deployment documentation and processes to avoid missed production deployments.</li>\n<li>Enhance pre-production testing and verification for data migrations affecting live environments.</li>\n</ol><h4 id=\"h_01K086AN7TN2VXG8HZSHSSG4DT\"><strong>FOR MORE INFORMATION</strong></h4><p>For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 9520476430874,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9520476430874.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/9520476430874-Can-the-help-center-remain-publicly-accessible-while-requiring-users-to-log-in-when-submitting-tickets",
-      "author_id": 1263082307729,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405303742362,
-      "created_at": "2025-07-24T09:37:07Z",
-      "updated_at": "2025-07-29T15:07:29Z",
-      "name": "Can the help center remain publicly accessible while requiring users to log in when submitting tickets?",
-      "title": "Can the help center remain publicly accessible while requiring users to log in when submitting tickets?",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2025-07-24T12:36:29Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801135069,
-      "content_tag_ids": [],
-      "label_names": [
-        "ks",
-        "ab0",
-        "mt",
-        "ab0_guide",
-        "role_admin"
-      ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>Is there an option to leave the help center open to users, but require them to log in when submitting tickets?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>Yes, Zendesk allows the help center content to be publicly visible for browsing while controlling access to ticket submission through different access settings. However, this behavior is configured globally rather than dynamically toggled per user action in the interface.</p><p>There are <a href=\"https://support.zendesk.com/hc/en-us/articles/4408887573274-Understanding-options-for-end-user-access-and-sign-in#topic_dkn_nfk_v3\" target=\"_blank\" rel=\"noopener noreferrer\">three options</a> for end-user access:</p><ul>\n<li>Open: The help center is fully visible to everyone, and anyone can submit tickets anonymously without signing in</li>\n<li>Closed: The help center content is public, but only users who have been added to your Zendesk account and who sign in can submit tickets</li>\n<li>Restricted: The help center is visible to everyone, but only users with email addresses from approved domains can submit tickets</li>\n</ul><p>In closed and restricted modes, users can browse the help center freely but be asked to sign-in when they attempt to submit tickets.</p>",
       "user_segment_ids": []
     }
   ],
