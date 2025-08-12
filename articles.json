@@ -254,14 +254,14 @@
       "vote_count": 0,
       "section_id": 8243870008090,
       "created_at": "2025-08-05T20:11:20Z",
-      "updated_at": "2025-08-07T12:31:40Z",
+      "updated_at": "2025-08-12T14:41:16Z",
       "name": "Can I add any specific voice or tone requirements to AI agents?",
       "title": "Can I add any specific voice or tone requirements to AI agents?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-08-06T16:24:44Z",
+      "edited_at": "2025-08-12T14:41:16Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -269,7 +269,7 @@
         "ks",
         "ab0"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>How do I control how an AI agent responds to questions? Can I control the formality when using AI to write content?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>Yes, for AI agents, you can set the tone or voice, such as friendly, formal, enthusiastic within the admin center when publishing the bot. For more information, see the article: <a href=\"https://support.zendesk.com/hc/en-us/articles/8357758773658-Customizing-the-persona-tone-of-voice-and-pronoun-formality-for-an-advanced-AI-agent\" target=\"_blank\" rel=\"noopener noreferrer\">Customizing the persona, tone of voice, and pronoun formality for an advanced AI agent</a>. </p><p>For <a href=\"https://support.zendesk.com/hc/en-us/articles/6267360002714-Using-generative-AI-to-expand-and-enhance-help-center-content#topic_kz4_12p_cbc\" target=\"_blank\" rel=\"noopener noreferrer\">AI-assisted article editing</a> through <a href=\"https://support.zendesk.com/hc/en-us/articles/7908817636378-About-agent-copilot\" target=\"_blank\" rel=\"noopener noreferrer\">copilot</a>, you can choose to make content more friendly or more formal depending on your needs.</p>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>How do I control how an AI agent responds to questions? Can I control the formality when using AI to write content?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>Yes, for AI agents, you can set the tone or voice, such as friendly, formal, enthusiastic within the admin center when publishing the bot. For more information, see the article: <a href=\"https://support.zendesk.com/hc/en-us/articles/8357758773658-Customizing-the-persona-tone-of-voice-and-pronoun-formality-for-an-advanced-AI-agent\" target=\"_blank\" rel=\"noopener noreferrer\">Customizing the persona, tone of voice, and pronoun formality for an advanced AI agent</a>. </p><p>For <a href=\"https://support.zendesk.com/hc/en-us/articles/6267360002714-Using-generative-AI-to-expand-and-enhance-help-center-content#topic_kz4_12p_cbc\" target=\"_blank\" rel=\"noopener noreferrer\">AI-assisted article editing</a> through <a href=\"https://support.zendesk.com/hc/en-us/articles/7908817636378-About-agent-copilot\" target=\"_blank\" rel=\"noopener noreferrer\">copilot</a>, you can choose to make content more friendly or more formal depending on your needs.</p><p>Copilot supports communication guidelines. This expanded functionality lets admins define detailed writing instructions covering:</p><ul>\n<li>General communication principles</li>\n<li>Formatting</li>\n<li>Tone and voice</li>\n<li>Length and formality</li>\n<li>Structure</li>\n<li>Greetings and closings</li>\n<li>Writing style and wording</li>\n</ul><p>When communication guidelines are enabled and defined, auto assist and rewrite in your tone follow these rules while adapting to the ticket context. If there is a conflict between inferred style from the conversation and the defined guidelines, the guidelines take priority.</p><p>If communication guidelines are enabled but no rules are defined, the tools rely on the ticket conversation only. If disabled, rewrite in your tone is unavailable and auto assist will not follow any predefined rules.</p>",
       "user_segment_ids": []
     },
     {
