@@ -19,21 +19,21 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2025-08-13T15:42:00Z",
-      "updated_at": "2025-08-13T15:46:11Z",
+      "updated_at": "2025-08-13T16:30:12Z",
       "name": "Service Incident - August 13, 2025 - All pods | AI Agents - AI Agent delays",
       "title": "Service Incident - August 13, 2025 - All pods | AI Agents - AI Agent delays",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-08-13T15:42:09Z",
+      "edited_at": "2025-08-13T16:30:12Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
       "label_names": [
         "mt"
       ],
-      "body": "<h3 id=\"h_01JYK85Y9T0AHJER1Q121QPZR1\"><strong>SUMMARY</strong></h3><p><strong>August 13, 2025 15:38 UTC | August 13, 2025 08:38 AM PT</strong></p><p>We are aware of increased latency in AI Agent bot responses. Some delays approaching up to one minute. We are actively investigating the issue and will update you with more information as soon as it is available.</p>",
+      "body": "<h3 id=\"h_01JYK85Y9T0AHJER1Q121QPZR1\"><strong>SUMMARY</strong></h3><p><strong>August 13, 2025 16:27 UTC | August 13. 2025 09:27 AM PT</strong></p><p>Our engineers have observed improvements in the latency metrics for AI Agent responses. We are actively monitoring system activity to confirm that the issue has been fully resolved.</p><p>Thank you for your patience and understanding. We will continue to provide updates as more information becomes available.</p><p> </p><p><strong>August 13, 2025 15:38 UTC | August 13, 2025 08:38 AM PT</strong></p><p>We are aware of increased latency in AI Agent bot responses. Some delays approaching up to one minute. We are actively investigating the issue and will update you with more information as soon as it is available.</p>",
       "user_segment_ids": []
     },
     {
