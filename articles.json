@@ -540,7 +540,7 @@
     {
       "id": 9546537135514,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9546537135514.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/9546537135514-Why-is-my-customized-RegEX-not-working-in-AI-Agent-Advanced",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/9546537135514-Why-is-my-customized-RegEX-not-working-in-AI-agents-Advanced",
       "author_id": 9380065378842,
       "comments_disabled": false,
       "draft": false,
@@ -550,14 +550,14 @@
       "vote_count": 0,
       "section_id": 8243870008090,
       "created_at": "2025-07-31T08:56:22Z",
-      "updated_at": "2025-08-12T15:11:46Z",
-      "name": "Why is my customized RegEX not working in AI Agent Advanced?",
-      "title": "Why is my customized RegEX not working in AI Agent Advanced?",
+      "updated_at": "2025-08-13T19:01:40Z",
+      "name": "Why is my customized RegEX not working in AI agents - Advanced?",
+      "title": "Why is my customized RegEX not working in AI agents - Advanced?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-08-06T01:46:39Z",
+      "edited_at": "2025-08-13T19:01:39Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -569,7 +569,7 @@
         "ab0_bots_automation",
         "role_admin"
       ],
-      "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2><p>When creating an entity in <a href=\"https://support.zendesk.com/hc/en-us/articles/8725042447002-About-the-AI-agents-Advanced-add-on\">AI agents - Advanced</a> under Content &gt; Entities &gt; New Entity, you can define rules using regular expressions RegEx to match different data sets.</p><p>For example, if you're using a regular expression to match a mix of letters and numbers between 5 and 20 characters long, you might be tempted to use the following pattern:</p><pre class=\"language-plaintext\">(?=.*\\d)[A-Za-z0-9-]{5,20}</pre><p>Although this regular expression is technically correct, it doesn't work when tested in the AI Agent.</p><p>The issue relates to the use of positive lookahead syntax, as shown in the image below. While <a href=\"https://regex101.com/\" target=\"_blank\" rel=\"noopener noreferrer\">regex101.com</a> confirms that the expression correctly matches the dataset, it relies on positive lookahead, which may not be supported in AI Agents – Advanced.</p><figure class=\"wysiwyg-image\"><img style=\"aspect-ratio: 1269/448;\" src=\"https://support.zendesk.com/hc/article_attachments/9567614780186\" width=\"1269\" height=\"448\"></figure><p>The level of support for positive lookahead syntax in AI Agents – Advanced remains unclear.</p><h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2><p>To resolve this issue effectively, avoid using positive lookahead syntax.<br><br>Based on the example above, replace the regular expression with an alternative that doesn't use positive lookahead:</p><pre class=\"language-plaintext\">(?=.*\\d)[A-Za-z0-9-]{5,20}</pre><p>With a regular expression that doesn't use positive lookahead syntax, such as</p><pre class=\"language-plaintext\">[A-Za-z-]*\\d[A-Za-z0-9-]{4,19}</pre><p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/8357749740698-Creating-entities-in-conversation-flows-for-advanced-AI-agents\" target=\"_blank\" rel=\"noopener noreferrer\">Creating entities in conversation flows for advanced AI agents</a></p>",
+      "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2><p>When <a href=\"https://support.zendesk.com/hc/en-us/articles/8357749740698\">creating an entity in an advanced AI agent</a>, you can define rules using regular expressions (RegEx) to match different data sets.</p><p>For example, if you're using a regular expression to match a mix of letters and numbers between 5 and 20 characters long, you might be tempted to use the following pattern:</p><pre class=\"language-plaintext\">(?=.*\\d)[A-Za-z0-9-]{5,20}</pre><p>Although this regular expression is technically correct, it doesn't work when tested in the AI Agent.</p><p>The issue relates to the use of positive lookahead syntax, as shown in the image below. While <a href=\"https://regex101.com/\" target=\"_blank\" rel=\"noopener noreferrer\">regex101.com</a> confirms that the expression correctly matches the dataset, it relies on positive lookahead, which may not be supported in AI Agents – Advanced.</p><figure class=\"wysiwyg-image\"><img style=\"aspect-ratio: 1269/448;\" src=\"https://support.zendesk.com/hc/article_attachments/9567614780186\" width=\"1269\" height=\"448\"></figure><h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2><p>To resolve this issue effectively, avoid using positive lookahead syntax.<br><br>Based on the example above, replace the regular expression with an alternative that doesn't use positive lookahead:</p><pre class=\"language-plaintext\">[A-Za-z-]*\\d[A-Za-z0-9-]{4,19}</pre><p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/8357749740698-Creating-entities-in-conversation-flows-for-advanced-AI-agents\" target=\"_blank\" rel=\"noopener noreferrer\">Creating entities in conversation flows for advanced AI agents</a></p>",
       "user_segment_ids": []
     },
     {
