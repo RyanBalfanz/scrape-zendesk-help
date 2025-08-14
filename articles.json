@@ -160,7 +160,7 @@
     {
       "id": 9575185331226,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9575185331226.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/9575185331226-Service-Incident-August-8th-2025",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/9575185331226-Service-Incident-August-8th-2025-Support-All-Pods-Workflow-disruptions-in-bulk-editing-and-ticket-merge",
       "author_id": 1900815493464,
       "comments_disabled": true,
       "draft": false,
@@ -170,21 +170,21 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2025-08-08T00:03:17Z",
-      "updated_at": "2025-08-08T07:03:03Z",
-      "name": "Service Incident - August 8th, 2025",
-      "title": "Service Incident - August 8th, 2025",
+      "updated_at": "2025-08-14T17:01:17Z",
+      "name": "Service Incident - August 8th, 2025 - Support | All Pods - Workflow disruptions in bulk editing and ticket merge",
+      "title": "Service Incident - August 8th, 2025 - Support | All Pods - Workflow disruptions in bulk editing and ticket merge",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-08-08T00:47:05Z",
+      "edited_at": "2025-08-14T16:58:50Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
       "label_names": [
         "mt"
       ],
-      "body": "<h3 id=\"h_01K23FN3FN5M0VJ5KVYNS6AK6N\"><span style=\"color: #06363c;\"><strong>SUMMARY</strong></span></h3><p class=\"wysiwyg-text-align-justify\"><strong>August 8, 2025 12:44 AM UTC | August 7, 2025 05:44 PM PT</strong></p><p class=\"wysiwyg-text-align-justify\">We are pleased to inform you that the issue affecting Support has been resolved. Thank you for your patience and cooperation throughout this process.</p><p class=\"wysiwyg-text-align-justify\"><strong>August 8, 2025 12:01 AM UTC | August 7, 2025 05:01 PM PT</strong></p><p class=\"wysiwyg-text-align-justify\">We are aware of an issue affecting Support, where customers are experiencing workflow disruptions related to delays in background job processing, including failed bulk updates and the inability to merge tickets. Our engineering team is actively addressing the problem, and we are beginning to observe performance improvements. We will continue to provide updates as we investigate further. Thank you for your patience and understanding.</p><p><strong>POST-MORTEM</strong></p><p>TBD</p><p><strong>FOR MORE INFORMATION</strong></p><p><span style=\"background-color: #fefaf2; color: #16140c;\">For current system status information about Zendesk and specific impacts to your account, visit our </span><a href=\"https://status.zendesk.com/\"><span class=\"wysiwyg-underline\">system status page</span></a><span style=\"background-color: #fefaf2; color: #16140c;\">. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, </span><a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\"><span class=\"wysiwyg-underline\">contact Zendesk customer support.</span></a></p>",
+      "body": "<h3 id=\"h_01K23FN3FN5M0VJ5KVYNS6AK6N\"><span style=\"color: #06363c;\"><strong>SUMMARY</strong></span></h3><p>Between August 7 and August 8, 2025, some Zendesk Support customers experienced problems with workflows such as bulk ticket updates and ticket merging. These issues impacted all Pods but primarily Pod 17 and 20 were impacted.<br><br><strong>TIMELINE</strong></p><p class=\"wysiwyg-text-align-justify\"><strong>August 8, 2025 12:44 AM UTC | August 7, 2025 05:44 PM PT</strong></p><p class=\"wysiwyg-text-align-justify\">We are pleased to inform you that the issue affecting Support has been resolved. Thank you for your patience and cooperation throughout this process.</p><p class=\"wysiwyg-text-align-justify\"><strong>August 8, 2025 12:01 AM UTC | August 7, 2025 05:01 PM PT</strong></p><p class=\"wysiwyg-text-align-justify\">We are aware of an issue affecting Support, where customers are experiencing workflow disruptions related to delays in background job processing, including failed bulk updates and the inability to merge tickets. Our engineering team is actively addressing the problem, and we are beginning to observe performance improvements. We will continue to provide updates as we investigate further. Thank you for your patience and understanding.</p><p> </p><p><strong>POST-MORTEM</strong></p><h4 id=\"h_01K2MR43MZ58HW1BN8BNKRFK4C\">Root-Cause Analysis</h4><p>A recent change to how we handle background tasks (jobs that run behind the scenes to keep your workflows moving) had overly restrictive job scheduling. When a small number of accounts performed very large operations, our system became overloaded and could not keep up. This led to a backlog of tasks, which meant that some customer actions took much longer than usual or failed altogether.</p><h4 id=\"h_01K2MR5R5FYK49K6WF3RZV4KF6\">Resolution</h4><p>As soon as we discovered the problem, our engineering teams:</p><ul>\n<li>Stopped the new background job process in the most affected areas, then across the whole platform, to prevent the issue from getting worse.</li>\n<li>Cleared out the backlog of stuck jobs so that normal processing could resume.</li>\n<li>Closely monitored system health to make sure all customer workflows were restored.</li>\n</ul><h4 id=\"h_01K2MR7J5K1TGDKM7JNM89ABBA\">Remediation Items</h4><p>We are taking several steps to prevent this from happening again:</p><ul>\n<li>Adding new limits and safeguards to stop any single account from overloading the system.</li>\n<li>Improving how we manage and prioritize background tasks, especially during busy times.</li>\n<li>Updating our monitoring so we can spot and fix similar issues  faster.</li>\n</ul><p> </p><p><strong>FOR MORE INFORMATION</strong></p><p><span style=\"background-color: #fefaf2; color: #16140c;\">For current system status information about Zendesk and specific impacts to your account, visit our </span><a href=\"https://status.zendesk.com/\"><span class=\"wysiwyg-underline\">system status page</span></a><span style=\"background-color: #fefaf2; color: #16140c;\">. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, </span><a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\"><span class=\"wysiwyg-underline\">contact Zendesk customer support.</span></a></p>",
       "user_segment_ids": []
     },
     {
