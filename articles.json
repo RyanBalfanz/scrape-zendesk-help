@@ -1,11 +1,41 @@
 {
-  "count": 4862,
+  "count": 4863,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 163,
   "per_page": 30,
   "previous_page": null,
   "articles": [
+    {
+      "id": 9612524497434,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9612524497434.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/9612524497434-Service-Incident-August-18-2025-Zendesk-QA-QA-access-issues-5xx-errors",
+      "author_id": 1263082084489,
+      "comments_disabled": true,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298854426,
+      "created_at": "2025-08-18T20:50:54Z",
+      "updated_at": "2025-08-18T21:05:02Z",
+      "name": "Service Incident - August 18, 2025 - Zendesk QA - QA access issues & 5xx errors",
+      "title": "Service Incident - August 18, 2025 - Zendesk QA - QA access issues & 5xx errors",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2025-08-18T21:05:02Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801242670,
+      "content_tag_ids": [],
+      "label_names": [
+        "mt"
+      ],
+      "body": "<h3 id=\"h_01JYK85Y9T0AHJER1Q121QPZR1\"><span style=\"color: #434343;\"><strong>SUMMARY</strong></span></h3><p><strong>August 18, 2025 22:04 UTC | 14:04 PT</strong></p><p>We have confirmed an issues causing 5xx level errors and preventing access to the Zendesk QA product. Our team is investigating and we will provide further updates in the next 30 minutes.</p><p><strong>August 18, 2025 21:45 UTC | 13:44 PT</strong></p><p>We are receiving reports of access issues and 5xx level errors reaching the QA product across multiple pods. Further information will be posted shortly.</p>",
+      "user_segment_ids": []
+    },
     {
       "id": 9611535601562,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9611535601562.json",
@@ -915,36 +945,6 @@
         "mt"
       ],
       "body": "<p><span style=\"color: #464646;\">Zendesk will perform critical maintenance which will impact performance for customers using Zendesk Sales (Sell) across all Pods on the </span><span style=\"color: #434343;\">20th of August, 2025 </span><span style=\"color: #464646;\">during the times listed below.</span></p><h3 id=\"h_01K11E8RFVQM1Q9M0YB55A1KBV\"><span style=\"color: #434343;\"><strong>Affected products:</strong> Zendesk Sales (Sell)</span></h3><p><span style=\"background-color: #FFF0DB;\"><strong>Important:</strong>  Zendesk Sales customers using any kind of email or core functionality will be impacted, based on the following maintenance dates and timings below</span></p><p><span style=\"background-color: #cfe2f3; color: #464646;\"><strong>Customers Affected: </strong>All Email, Sales and Core Functionality of Zendesk Sales will experience a <strong>brief service disruption of up to 5 minutes</strong> at some time within the maintenance window</span></p><div><figure class=\"wysiwyg-table\"><table class=\"wysiwyg-table-resized\">\n<colgroup>\n<col style=\"width: 34%;\">\n<col style=\"width: 36%;\">\n<col style=\"width: 30%;\">\n</colgroup>\n<tbody>\n<tr>\n<td style=\"text-align: center;\"><span style=\"color: #464646;\"><strong>Date</strong></span></td>\n<td style=\"text-align: center;\"><span style=\"color: #464646;\"><strong>Start Time</strong></span></td>\n<td style=\"text-align: center;\"><span style=\"color: #464646;\"><strong>End Time</strong></span></td>\n</tr>\n<tr>\n<td><span style=\"color: #464646;\">Wed Aug 20, 2025</span></td>\n<td style=\"text-align: center;\">\n<span style=\"color: #464646;\">03:00 UTC / </span><br><span style=\"color: #464646;\">20:00 PDT Aug 19</span><br><br> </td>\n<td style=\"text-align: center;\">\n<span style=\"color: #464646;\">4:00 UTC /</span><br><span style=\"color: #464646;\">21:00 PDT Aug 19 </span>\n</td>\n</tr>\n</tbody>\n</table></figure></div><p><span style=\"color: #464646;\"><strong>Expected behavior:</strong> The</span><a href=\"https://support.zendesk.com/hc/en-us/articles/4408819685274-Communicating-with-Sell\"><span style=\"color: #464646;\"> </span><span class=\"wysiwyg-underline\">Communication Centre in Sell</span></a><span style=\"color: #464646;\"> (Zendesk Sales) will not load and every Sales/Sell customer's interaction with anything related to the functionality of the</span><a href=\"https://support.zendesk.com/hc/en-us/sections/4405298872474-Using-email-in-Sell\"><span style=\"color: #464646;\"> </span><span class=\"wysiwyg-underline\">email</span></a><span style=\"color: #464646;\"> will be impacted, such as receiving/sending emails which can <em>take longer or not happen at all</em>. Other features that might be disturbed are: notifications, data export and import, file upload and sales pipelines automations.</span></p><p><span style=\"color: #464646;\"><strong>Why we're doing this:</strong> The Zendesk Database team is updating databases for increased reliability and performance.</span></p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 9525365886362,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9525365886362.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/9525365886362-Service-Incident-July-25-2025-Multiple-pods-Customers-are-unable-to-use-the-adherence-feature-in-GCP",
-      "author_id": 9005790397722,
-      "comments_disabled": true,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405298854426,
-      "created_at": "2025-07-25T13:23:08Z",
-      "updated_at": "2025-08-01T09:31:17Z",
-      "name": "Service Incident - July 25, 2025 - Multiple pods | Customers are unable to use the adherence feature in GCP",
-      "title": "Service Incident - July 25, 2025 - Multiple pods | Customers are unable to use the adherence feature in GCP",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2025-08-01T09:20:52Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801242670,
-      "content_tag_ids": [],
-      "label_names": [
-        "mt"
-      ],
-      "body": "<h3 id=\"h_01K086CE8VJ446HQWES07M6PA6\"><strong>Timeline</strong></h3><p><strong>July 25, 2025 13:14 UTC | July 25, 2025 06:14 AM PT</strong></p><p>We have received reports of issues affecting the GCP environment and our engineers are actively investigating. We apologize for the inconvenience and appreciate your patience as we work to resolve the matter. Updates will be shared as soon as they become available.</p><p><strong>July 25, 2025 14:35 UTC | July 25, 2025 07:45 AM PT</strong></p><p>Our engineers have identified and resolved the issue preventing customers hosted on GCP from seeing up-to-date agent status values. Please confirm on your end if the issue is now resolved. A prompt response would be greatly appreciated and will help us assist you further.</p><p><strong>August 1, 2025 16:53 UTC | August 1, 2025 01:53 AM PT</strong></p><p>We are pleased to inform you that the issue affecting customers hosted on the Google Cloud Platform, which prevented the display of up-to-date agent status values, has been resolved. Our engineering team has completed the recalculation of all impacted accounts and confirmed that the issue is fully mitigated. We appreciate your patience and understanding while we worked to address this matter.</p><h3 id=\"h_01K10VZXD9HYF40WA66VCHPZYY\"><strong>Post-mortem</strong></h3><p>TBD</p><p> </p><h4 id=\"h_01K086AN7TN2VXG8HZSHSSG4DT\"><strong>FOR MORE INFORMATION</strong></h4><p>For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
     }
   ],
