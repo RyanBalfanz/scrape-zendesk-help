@@ -1,8 +1,8 @@
 {
-  "count": 4862,
+  "count": 4704,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
-  "page_count": 163,
+  "page_count": 157,
   "per_page": 30,
   "previous_page": null,
   "articles": [
@@ -19,21 +19,21 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2025-08-18T20:50:54Z",
-      "updated_at": "2025-08-18T22:30:58Z",
+      "updated_at": "2025-08-19T15:01:51Z",
       "name": "Service Incident - August 18, 2025 - Zendesk QA - QA access issues & 5xx errors",
       "title": "Service Incident - August 18, 2025 - Zendesk QA - QA access issues & 5xx errors",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-08-18T22:28:25Z",
+      "edited_at": "2025-08-19T15:01:51Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
       "label_names": [
         "mt"
       ],
-      "body": "<h3 id=\"h_01JYK85Y9T0AHJER1Q121QPZR1\"><span style=\"color: #434343;\"><strong>SUMMARY</strong></span></h3><p><strong>August 18, 2025 23:26 UTC | 15:26 PT</strong></p><p>We have observed significant improvement from the issue preventing access and causing 5xx level errors in Zendesk QA and are moving to monitor the issue to ensure recovery. We will provide another update when we have reached full resolution.</p><p><strong>August 18, 2025 22:25 UTC | 14:25 PT</strong></p><p>We are beginning to see improvement in the issue preventing access and causing 5xx level errors when reaching the Zendesk QA product. Please let us know if you continue to experience any issues.</p><p><strong>August 18, 2025 22:04 UTC | 14:04 PT</strong></p><p>We have confirmed an issues causing 5xx level errors and preventing access to the Zendesk QA product. Our team is investigating and we will provide further updates in the next 30 minutes.</p><p><strong>August 18, 2025 21:45 UTC | 13:44 PT</strong></p><p>We are receiving reports of access issues and 5xx level errors reaching the QA product across multiple pods. Further information will be posted shortly.</p>",
+      "body": "<h3 id=\"h_01JYK85Y9T0AHJER1Q121QPZR1\"><span style=\"color: #434343;\"><strong>SUMMARY</strong></span></h3><p><strong>August 19, 2025 14:43 UTC | August 19, 2025 07:43 AM PT</strong></p><p>We are pleased to inform you that the issue causing 500 errors when accessing the kibbles.klaus.com URL has been resolved. Our engineers have mitigated the problem, and customers should no longer encounter these errors.<br> <br>We would appreciate your feedback to confirm whether the service is now functioning correctly on your end. Your prompt response will help us provide any further assistance if needed.</p><p><strong>August 18, 2025 23:26 UTC | 15:26 PT</strong></p><p>We have observed significant improvement from the issue preventing access and causing 5xx level errors in Zendesk QA and are moving to monitor the issue to ensure recovery. We will provide another update when we have reached full resolution.</p><p><strong>August 18, 2025 22:25 UTC | 14:25 PT</strong></p><p>We are beginning to see improvement in the issue preventing access and causing 5xx level errors when reaching the Zendesk QA product. Please let us know if you continue to experience any issues.</p><p><strong>August 18, 2025 22:04 UTC | 14:04 PT</strong></p><p>We have confirmed an issues causing 5xx level errors and preventing access to the Zendesk QA product. Our team is investigating and we will provide further updates in the next 30 minutes.</p><p><strong>August 18, 2025 21:45 UTC | 13:44 PT</strong></p><p>We are receiving reports of access issues and 5xx level errors reaching the QA product across multiple pods. Further information will be posted shortly.</p>",
       "user_segment_ids": []
     },
     {
@@ -49,7 +49,7 @@
       "vote_count": 1,
       "section_id": 4405298847002,
       "created_at": "2025-08-18T15:46:46Z",
-      "updated_at": "2025-08-18T16:18:46Z",
+      "updated_at": "2025-08-19T15:05:24Z",
       "name": "Release notes through 2025-08-15",
       "title": "Release notes through 2025-08-15",
       "source_locale": "en-us",
@@ -80,7 +80,7 @@
       "vote_count": 0,
       "section_id": 4405298833818,
       "created_at": "2025-08-15T15:50:05Z",
-      "updated_at": "2025-08-18T19:45:58Z",
+      "updated_at": "2025-08-19T15:01:39Z",
       "name": "Announcing the new external Oauth page in Admin Center",
       "title": "Announcing the new external Oauth page in Admin Center",
       "source_locale": "en-us",
@@ -91,7 +91,9 @@
       "user_segment_id": null,
       "permission_group_id": 1324079,
       "content_tag_ids": [],
-      "label_names": [],
+      "label_names": [
+        "mtpe"
+      ],
       "body": "<figure style=\"height: 44px; width: 100%;\" class=\"wysiwyg-table wysiwyg-table-align-left\"><table style=\"border-collapse: collapse; border-style: solid; border-width: 1px;\"><tbody>\n<tr style=\"height: 22px;\">\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\"><strong>Announced on</strong></td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\"><strong>Rollout starts</strong></td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\"><strong>Rollout ends</strong></td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\">August 18, 2025</td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\">August 18, 2025</td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\">August 18, 2025</td>\n</tr>\n</tbody></table></figure><p>Zendesk is introducing a new page called External OAuth clients in Admin Center. This page displays a list of apps and integrations that use external OAuth (also known as global OAuth) to authenticate and connect to your Zendesk account.</p><p>This announcement includes the following topics:</p><ul>\n<li><a href=\"#h_01GD3S97RDYVTAFTQ8WR9878VF\" target=\"_self\">What is changing?</a></li>\n<li><a href=\"#h_01GD3S9GD63FPDGQSEFY88M3ND\" target=\"_self\">Why is Zendesk making this change?</a></li>\n<li><a href=\"#h_01GD3S9TSPXM7M4WHYKYF4E84M\" target=\"_self\">What do I need to do?</a></li>\n</ul><h2 id=\"h_01GD3S97RDYVTAFTQ8WR9878VF\">What is changing?</h2><p>Admins can now view and manage all authorized third-party integrations that use external OAuth to connect to the account, regardless of which team member set them up. The page lists each integration’s name, description, and managing company. You can also drill down into an integration to see which team member authorized it. To control access, you can revoke all tokens created by an integration or remove tokens for individual team members. Learn more about <a href=\"https://www.google.com/url?q=https://support.zendesk.com/hc/en-us/articles/9447118302362\">External OAuth clients</a>.</p><p><img src=\"https://support.zendesk.com/hc/article_attachments/9601896445594\" width=\"624\" height=\"209\"></p><h2 id=\"h_01GD3S9GD63FPDGQSEFY88M3ND\">Why is Zendesk making this change?</h2><p>Visibility into the apps and integrations that use external OAuth to connect to your account will show you who is accessing your data, and give you confidence in the applications and integrations built on Zendesk’s platform.</p><h2 id=\"h_01GD3S9TSPXM7M4WHYKYF4E84M\">What do I need to do?</h2><p>You don't need to do anything. Your account will automatically get access to the new page in Admin Center.</p><p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\">Zendesk Customer Support</a>.</p>",
       "user_segment_ids": []
     },
@@ -168,7 +170,7 @@
       "vote_count": 0,
       "section_id": 4405298889242,
       "created_at": "2025-08-12T15:09:06Z",
-      "updated_at": "2025-08-12T18:30:06Z",
+      "updated_at": "2025-08-19T15:05:32Z",
       "name": "Developer update: Enhanced security guidelines for third-party apps, integrations, and bots",
       "title": "Developer update: Enhanced security guidelines for third-party apps, integrations, and bots",
       "source_locale": "en-us",
@@ -179,7 +181,9 @@
       "user_segment_id": null,
       "permission_group_id": 1324079,
       "content_tag_ids": [],
-      "label_names": [],
+      "label_names": [
+        "mt"
+      ],
       "body": "<p class=\"wysiwyg-indent1\"> </p><figure style=\"width: 100%;\" class=\"wysiwyg-table\"><table style=\"border-style: solid; border-width: 1px;\"><tbody>\n<tr>\n<td style=\"border-style: solid; border-width: 1px;\"><strong>Announced on</strong></td>\n<td style=\"border-style: solid; border-width: 1px;\"><strong>Rollout complete</strong></td>\n</tr>\n<tr>\n<td style=\"border-style: solid; border-width: 1px;\">August 12, 2025</td>\n<td style=\"border-style: solid; border-width: 1px;\">August 12, 2025</td>\n</tr>\n</tbody></table></figure><p>Zendesk has updated the policies that guide development of public applications, integrations, and bots on our APIs, leveraging modern API security technology and enforcing sensible, consistent patterns. These new policies are designed to prioritize data security and privacy without compromising the flexibility developers expect.</p><p>These changes are aimed at giving customers more confidence in the applications and integrations built on Zendesk’s platform. It will increase their visibility into who is accessing their data, and give Zendesk greater ability to protect that data from misuse.</p><p>This announcement includes the following topics:</p><ul>\n<li><a href=\"#h_01K1TQRHGNWSNTP9E9WZH9SEVR\">What's changing?</a></li>\n<li><a href=\"#h_01K1TQZ6TSW7HVEPX4XQ0QZ3X1\">Why is Zendesk making this change?</a></li>\n<li><a href=\"#h_01K1TR17Z7GJYBDGC09WRMCH4P\">What do I need to do?</a></li>\n<li><a href=\"#h_01K1TR2NTBDKTDXZ5XH85AE41T\">What is coming?</a></li>\n</ul><h2 id=\"h_01K1TQRHGNWSNTP9E9WZH9SEVR\">What's changing?</h2><ul>\n<li>All apps and integrations built for distribution to multiple Zendesk customers must be submitted to the Zendesk Marketplace for review and approval. <a href=\"https://developer.zendesk.com/documentation/marketplace/\" target=\"_blank\" rel=\"noopener noreferrer\">Learn about publishing bots, apps, and themes on the Zendesk Marketplace</a>.</li>\n<li>All apps, integrations and bots must follow the new standards and guidelines. This does not apply to <a href=\"https://developer.zendesk.com/documentation/apps/app-developer-guide/creating-and-managing-private-apps/\" target=\"_blank\" rel=\"noopener noreferrer\">private apps</a> built by customers for their own internal use.<ul>\n<li>Public apps are built on the <a href=\"https://developer.zendesk.com/documentation/apps/\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk App framework</a>. If your public ZAF app needs to make server side calls to the Zendesk APIs, it’s required to use a <a href=\"https://developer.zendesk.com/documentation/marketplace/building-a-marketplace-app/set-up-a-global-oauth-client/\" target=\"_blank\" rel=\"noopener noreferrer\">global OAuth client</a>. <a href=\"https://developer.zendesk.com/documentation/marketplace/publishing-to-the-marketplace/submit-your-app/#submitting-and-sharing-preview-apps\" target=\"_blank\" rel=\"noopener noreferrer\">Preview apps</a> that are built for multiple Zendesk customers must follow the same guidelines.</li>\n<li>Integration apps (also known as Marketing-only apps) are required to use a <a href=\"https://developer.zendesk.com/documentation/marketplace/building-a-marketplace-app/set-up-a-global-oauth-client/\" target=\"_blank\" rel=\"noopener noreferrer\">global OAuth client</a> and each API call must include <a href=\"https://developer.zendesk.com/documentation/marketplace/building-a-marketplace-app/request-header-requirements-for-marketplace-apps/\" target=\"_blank\" rel=\"noopener noreferrer\">custom headers</a> that specify the name of the integration, the organization ID, and the Marketplace app ID.<ul>\n<li>Zendesk will be releasing a new page in Admin Center where customers can view and manage integrations that are using global OAuth access tokens.</li>\n<li>Supporting the <a href=\"https://developer.zendesk.com/api-reference/ticketing/oauth/grant_type_tokens/#refresh-token-grant-type\" target=\"_blank\" rel=\"noopener noreferrer\">refresh token flow</a> will be required for all global OAuth clients <a href=\"https://support.zendesk.com/hc/en-us/articles/9182123625370-Announcing-support-for-OAuth-refresh-token-grant-type-and-OAuth-access-and-refresh-token-expirations\" target=\"_blank\" rel=\"noopener noreferrer\">starting September 30, 2025</a>.</li>\n</ul>\n</li>\n<li>Bots are built following the <a href=\"https://developer.zendesk.com/documentation/conversations/how-to-guides/building-a-marketplace-bot/\" target=\"_blank\" rel=\"noopener noreferrer\">Marketplace bot guidelines</a>.</li>\n</ul>\n</li>\n<li>It is not permissible for any third-party app, integration or bot (whether it’s listed on the Zendesk Marketplace or not) to use a customer’s API credentials (API token or a customer’s own OAuth client) to authenticate API calls.</li>\n<li>You’re required to conform to rules about handling customer data, ensuring it is not misused or exposed to undue risk. We are introducing new limitations on how you can use customer data as outlined in the <a href=\"https://www.zendesk.com/company/agreements-and-terms/application-developer-api-license-agreement/\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk Developer Terms</a>.</li>\n</ul><h2 id=\"h_01K1TQZ6TSW7HVEPX4XQ0QZ3X1\">Why is Zendesk making this change?</h2><p>The security of our APIs and the applications and integrations built on them is more important than ever. As threats like data exfiltration continue to rise year over year, our customers need confidence that their data is protected. Ensuring that all Marketplace applications, integrations and bots follow security best practices—including strong authentication, secure development, and data protection—and undergo formal review by Zendesk is key to maintaining that trust. You can read more in our <a href=\"http://www.zendesk.com/blog/elevating-api-security/\" target=\"_blank\" rel=\"noopener noreferrer\">blog post</a>.</p><h2 id=\"h_01K1TR17Z7GJYBDGC09WRMCH4P\">What do I need to do?</h2><p>You can start making any necessary changes to your existing app, integration, or bot, today. When you’re ready, you will submit <a href=\"https://developer.zendesk.com/documentation/marketplace/publishing-to-the-marketplace/submit-your-app/\" target=\"_blank\" rel=\"noopener noreferrer\">your app</a> (or <a href=\"https://developer.zendesk.com/documentation/marketplace/publishing-to-the-marketplace/submit-your-bot/\" target=\"_blank\" rel=\"noopener noreferrer\">your bot</a>) for Zendesk Marketplace review and approval. If you currently use API tokens or basic authentication with your integration to authenticate with Zendesk APIs, you will need to update your authentication method to use <a href=\"https://support.zendesk.com/hc/en-us/articles/4408845965210-Using-OAuth-authentication-with-your-application\" target=\"_blank\" rel=\"noopener noreferrer\">OAuth</a>. Once the change is completed, you will need to <a href=\"https://developer.zendesk.com/documentation/marketplace/publishing-to-the-marketplace/submit-your-app/#submitting-an-app-update\" target=\"_blank\" rel=\"noopener noreferrer\">submit an update</a> to your existing listing in the Marketplace.</p><p dir=\"ltr\">Zendesk will also be reaching out to third-party app developers with details and time frames for adopting the new standards and guidelines for your existing apps and integrations. </p><p dir=\"ltr\">If you haven’t listed your integration on the Zendesk Marketplace, you need to <a href=\"https://developer.zendesk.com/documentation/marketplace/publishing-to-the-marketplace/create-a-zendesk-marketplace-profile/\" target=\"_blank\" rel=\"noopener noreferrer\">create your Zendesk Marketplace profile</a>, <a href=\"https://developer.zendesk.com/documentation/marketplace/publishing-to-the-marketplace/register-your-organization/\" target=\"_blank\" rel=\"noopener noreferrer\">register your organization</a> and <a href=\"https://developer.zendesk.com/documentation/marketplace/publishing-to-the-marketplace/submit-your-app/#submit-your-app\" target=\"_blank\" rel=\"noopener noreferrer\">submit your app</a> for review and approval.</p><p dir=\"ltr\">To ensure a smooth transition for customers when rolling out the change to using OAuth, you can either: </p><ul>\n<li style=\"list-style-type: disc;\" dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\">Perform a hard cutover. Your customers will all be impacted at the same time and will be required to re-authorize their app or integration. You want to communicate this change to impacted customers in advance to minimize impact.</p></li>\n<li style=\"list-style-type: disc;\" dir=\"ltr\" aria-level=\"1\"><p dir=\"ltr\">Perform a soft cutover and allow your customers to continue to authenticate their calls with the existing authorization implementation until they re-authorize the integration with OAuth. </p></li>\n</ul><p dir=\"ltr\">Starting today, new submissions to the Zendesk Marketplace will be reviewed and approved based on the new standards and guidelines.</p><h2 id=\"h_01K1TR2NTBDKTDXZ5XH85AE41T\">What's coming?</h2><p>Zendesk will continue to modernize and improve the security of our APIs and associated apps, integrations, and bots over time, with better observability and control over the traffic that comes to and from the apps and integrations that customers enable.<br> </p>",
       "user_segment_ids": []
     },
@@ -196,7 +200,7 @@
       "vote_count": 0,
       "section_id": 4405298910106,
       "created_at": "2025-08-11T18:13:20Z",
-      "updated_at": "2025-08-18T16:54:34Z",
+      "updated_at": "2025-08-19T15:06:35Z",
       "name": "Troubleshooting HTML block issues in the new article editor",
       "title": "Troubleshooting HTML block issues in the new article editor",
       "source_locale": "en-us",
@@ -209,6 +213,7 @@
       "content_tag_ids": [],
       "label_names": [
         "html",
+        "mt",
         "article editor",
         "help center article editor",
         "HTML source code",
@@ -262,7 +267,7 @@
       "vote_count": 0,
       "section_id": 4405303738522,
       "created_at": "2025-08-11T13:54:41Z",
-      "updated_at": "2025-08-13T08:12:09Z",
+      "updated_at": "2025-08-19T15:04:49Z",
       "name": "Workflow: How to proactively reach users on WhatsApp channel",
       "title": "Workflow: How to proactively reach users on WhatsApp channel",
       "source_locale": "en-us",
@@ -275,6 +280,7 @@
       "content_tag_ids": [],
       "label_names": [
         "ab0",
+        "mt",
         "KS",
         "ab0_messaging",
         "role_admin"
@@ -387,7 +393,7 @@
       "vote_count": 0,
       "section_id": 8243870008090,
       "created_at": "2025-08-05T20:11:20Z",
-      "updated_at": "2025-08-12T14:41:16Z",
+      "updated_at": "2025-08-19T15:04:34Z",
       "name": "Can I add any specific voice or tone requirements to AI agents?",
       "title": "Can I add any specific voice or tone requirements to AI agents?",
       "source_locale": "en-us",
@@ -400,7 +406,8 @@
       "content_tag_ids": [],
       "label_names": [
         "ks",
-        "ab0"
+        "ab0",
+        "mt"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>How do I control how an AI agent responds to questions? Can I control the formality when using AI to write content?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>Yes, for AI agents, you can set the tone or voice, such as friendly, formal, enthusiastic within the admin center when publishing the bot. For more information, see the article: <a href=\"https://support.zendesk.com/hc/en-us/articles/8357758773658-Customizing-the-persona-tone-of-voice-and-pronoun-formality-for-an-advanced-AI-agent\" target=\"_blank\" rel=\"noopener noreferrer\">Customizing the persona, tone of voice, and pronoun formality for an advanced AI agent</a>. </p><p>For <a href=\"https://support.zendesk.com/hc/en-us/articles/6267360002714-Using-generative-AI-to-expand-and-enhance-help-center-content#topic_kz4_12p_cbc\" target=\"_blank\" rel=\"noopener noreferrer\">AI-assisted article editing</a> through <a href=\"https://support.zendesk.com/hc/en-us/articles/7908817636378-About-agent-copilot\" target=\"_blank\" rel=\"noopener noreferrer\">copilot</a>, you can choose to make content more friendly or more formal depending on your needs.</p><p>Copilot supports communication guidelines. This expanded functionality lets admins define detailed writing instructions covering:</p><ul>\n<li>General communication principles</li>\n<li>Formatting</li>\n<li>Tone and voice</li>\n<li>Length and formality</li>\n<li>Structure</li>\n<li>Greetings and closings</li>\n<li>Writing style and wording</li>\n</ul><p>When communication guidelines are enabled and defined, auto assist and rewrite in your tone follow these rules while adapting to the ticket context. If there is a conflict between inferred style from the conversation and the defined guidelines, the guidelines take priority.</p><p>If communication guidelines are enabled but no rules are defined, the tools rely on the ticket conversation only. If disabled, rewrite in your tone is unavailable and auto assist will not follow any predefined rules.</p>",
       "user_segment_ids": []
@@ -511,7 +518,7 @@
       "vote_count": 0,
       "section_id": 4405303737370,
       "created_at": "2025-08-01T13:49:01Z",
-      "updated_at": "2025-08-14T08:17:16Z",
+      "updated_at": "2025-08-19T15:04:04Z",
       "name": "Error: Redaction failed – wait a moment, then try again",
       "title": "Error: Redaction failed – wait a moment, then try again",
       "source_locale": "en-us",
@@ -525,6 +532,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_support",
         "ab0_messaging",
         "role_agent",
@@ -675,7 +683,7 @@
       "vote_count": 0,
       "section_id": 8243870008090,
       "created_at": "2025-07-31T08:56:22Z",
-      "updated_at": "2025-08-13T19:01:40Z",
+      "updated_at": "2025-08-19T15:04:16Z",
       "name": "Why is my customized RegEX not working in AI agents - Advanced?",
       "title": "Why is my customized RegEX not working in AI agents - Advanced?",
       "source_locale": "en-us",
