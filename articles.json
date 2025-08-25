@@ -1,11 +1,45 @@
 {
-  "count": 4711,
+  "count": 4712,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 158,
   "per_page": 30,
   "previous_page": null,
   "articles": [
+    {
+      "id": 9627255144346,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9627255144346.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/9627255144346-Can-I-edit-custom-ticket-fields-on-closed-tickets",
+      "author_id": 1264158225009,
+      "comments_disabled": false,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 5346334218778,
+      "created_at": "2025-08-22T14:59:59Z",
+      "updated_at": "2025-08-25T13:27:45Z",
+      "name": "Can I edit custom ticket fields on closed tickets?",
+      "title": "Can I edit custom ticket fields on closed tickets?",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2025-08-25T13:27:13Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801135069,
+      "content_tag_ids": [],
+      "label_names": [
+        "ks",
+        "ab0",
+        "ab0_support",
+        "role_admin",
+        "modifying closed tickets"
+      ],
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>Can I edit custom ticket fields on closed tickets?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>Currently, you can edit some of the custom fields on closed tickets. The fields that you can’t edit appear greyed out. Below there is a list of the fields types that you can't edit:<br><br>-Credit card<br>-Number<br>-Regex<br>-Lookup<br>-Due date<br>-Multi-line</p><p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/9561647544986\" target=\"_blank\" rel=\"noopener noreferrer\">Modifying closed tickets</a></p><p> </p>",
+      "user_segment_ids": []
+    },
     {
       "id": 9623389594010,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9623389594010.json",
@@ -920,36 +954,6 @@
         "mt"
       ],
       "body": "<div class=\"note\">\n<strong>Note:</strong> For guides on how Zendesk features can assist with your other obligations under privacy laws, see <a href=\"https://support.zendesk.com/hc/en-us/articles/4408834005530-Complying-with-Privacy-and-Data-Protection-Law-in-Zendesk-products\"><span class=\"wysiwyg-underline\">Complying with Privacy and Data Protection Law in Zendesk products.</span></a>\n</div><p>Various laws, including the General Data Protection Regulation (GDPR), California Consumer Privacy Act (CCPA), artificial intelligence-related laws, and call recording consent rules, may require you to provide legal notices to and/or obtain consent from your end-users.</p><p>Zendesk offers a variety of tools and features that empower you to meet these obligations effectively. Below is an overview of how you can use Zendesk products to provide the necessary notices and obtain consent from your end-users:</p><h3 id=\"h_01K19G6WDD395P9DQJPE6D1QNQ\">1. Call Recording Permissions: Opt-In and Opt-Out Notices</h3><p>If your business records calls, you may be required to inform callers or obtain their consent depending on applicable laws. Zendesk provides options for call recordings, allowing you to comply with opt-in or opt-out requirements.</p><p><em>Learn more:</em><a href=\"https://support.zendesk.com/hc/en-us/articles/4408838605210-Understanding-call-recording-permissions-opt-in-and-opt-out\"><span class=\"wysiwyg-underline\">Understanding call recording permissions (opt-in and opt-out)</span></a>.</p><h3 id=\"h_01K19G6WDFZ7QH3743ZCFN02NR\">2. Legal Notices in Web-Based Widgets and Pre-Chat Form</h3><p><strong>Web-based Widgets: </strong>When engaging with customers via Zendesk’s web-based messaging widgets, you can link to your privacy notice directly within the widget interface. You can also configure other notice options, such as configuring default greeting messages or providing notice through the use of a cookie banner. </p><p><strong>Pre-chat Form Using Web Tools in Zendesk Chat:</strong> You can create a custom pre-chat form using web tools in Zendesk Chat. This pre-chat form can include a checkbox for end-users. You can use the SDK to rebuild the entire widget, add additional disclaimers, and leverage the translations available in multiple languages. When the user submits the form, the account can initiate chat using the zChat.init API. You can add tags to store the consent along with the chat. These tags are available with the chats and can be downloaded by the account in CSV format. Admins can identify the chats and delete the chats where end-users do not wish to have their details stored with the account. Tags can help identify such chats. You can also create a similar notice for your offline forms. Please note that this feature is specific to Zendesk Chat and does not apply to Zendesk Messaging. </p><p><em>Learn more: </em><a href=\"https://support.zendesk.com/hc/en-us/articles/5018479936922-Notifying-end-users-of-legal-terms-in-Zendesk-s-web-based-widgets\"><span class=\"wysiwyg-underline\">Notifying end users of legal terms in Zendesk’s web-based widgets,</span></a><em> </em><a href=\"https://api.zopim.com/web-sdk/#zchat-init-options\"><span class=\"wysiwyg-underline\">zChat.init API (options)</span></a> and <a href=\"https://support.zendesk.com/hc/en-us/sections/4405298916890-Setting-up-Zendesk-Chat\"><span class=\"wysiwyg-underline\">Setting up Zendesk Chat</span></a>.</p><h3 id=\"h_01K19G6WDJCCWBEG1VR1D4B4NG\">3. Legal Notices in Ticket Forms</h3><p>You can add disclaimers or links to your legal or privacy notices, directly within your ticket submission forms. Using the “End-user description” field, you can provide clear information about data handling practices before customers submit their requests.</p><p><em>Learn more</em>: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408836460698-Managing-your-ticket-forms\"><span class=\"wysiwyg-underline\">Managing your ticket forms</span></a>.</p><h3 id=\"h_01K19G6WDM01CX5YB829RSHJFB\">4. Cookie Consent Implementation in Your Help Center</h3><p>If your Help Center uses cookies, you may need to implement cookie consent banners to comply with privacy laws. Zendesk supports adding cookie consent notices and obtaining user consent through customizable banners on your Help Center pages.</p><p><em>Learn more: </em><a href=\"https://support.zendesk.com/hc/en-us/articles/4408834944154-Implementing-cookie-consent-in-your-help-center\"><span class=\"wysiwyg-underline\">Implementing cookie consent in your help center</span></a>.</p><hr><p>By leveraging these Zendesk features, you can efficiently provide legally required notices to help maintain compliance and build trust with your customers.</p><h3 id=\"h_01K19G6WDNCK6MV4VVC1R7K778\">Disclaimer</h3><p>This article is for informational purposes only and does not constitute legal advice. Readers should always seek legal advice before taking any action with respect to the matters discussed herein.</p><p> </p><p> </p><p> </p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 9535836802074,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9535836802074.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/9535836802074-Managing-IP-addresses-banned-from-messaging-channels",
-      "author_id": 1263082050629,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405298882330,
-      "created_at": "2025-07-28T20:47:34Z",
-      "updated_at": "2025-08-22T21:25:59Z",
-      "name": "Managing IP addresses banned from messaging channels",
-      "title": "Managing IP addresses banned from messaging channels",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2025-07-29T13:27:00Z",
-      "user_segment_id": null,
-      "permission_group_id": 1324079,
-      "content_tag_ids": [],
-      "label_names": [
-        "mt"
-      ],
-      "body": "<body>\n<div class=\"article-banners\" translate=\"no\">\n<div id=\"docs-wmp-link\">\n<a href=\"https://support.zendesk.com/hc/en-us/articles/5411234991258-plan\" rel=\"noopener\" target=\"_blank\">What's my plan?</a>\n</div>\n\n\n<div class=\"article-banner\" id=\"suite_all\">\n<table>\n<tbody>\n<tr>\n<td>\n<strong>All Suites</strong>\n</td>\n<td>Team, Growth, Professional, Enterprise, or Enterprise Plus</td>\n</tr>\n</tbody>\n</table>\n</div>\n\n\n<div class=\"article-banner\" id=\"support_with_msg_all\">\n<table>\n<tbody>\n<tr>\n<td>\n<strong>Support with</strong>\n</td>\n<td>Live chat and messaging Team, Professional, or Enterprise</td>\n</tr>\n</tbody>\n</table>\n</div>\n\n</div>\n\n<div class=\"body\">  <div class=\"p\">\n<div class=\"note note\">\n<span class=\"notetitle\">Note:</span> The feature described in this article is similar to <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408824467098\" target=\"_blank\">banning visitors by IP address in live\n                    chat</a>.</div>\n</div>\n<p class=\"p\">On the Banned IP addresses page you can manage the IP addresses that have been banned\n            from accessing your messaging channels. If <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/9418700382618\" target=\"_blank\">given permission</a>, agents can access and use this page as\n            well.</p>\n<p class=\"p\">This article includes the following sections:</p>\n<div class=\"p\">\n<ul class=\"ul\" id=\"messaging_ban_IP_viewing_managing__ul_i3y_srh_dgc\">\n<li class=\"li\"><a class=\"xref\" href=\"#topic_dhb_vzz_vfc\">Editing IP addresses banned from messaging channels</a></li>\n<li class=\"li\"><a class=\"xref\" href=\"#topic_od3_4rh_dgc\">Deleting IP addresses from the banned list</a></li>\n</ul>\n</div>\n<p class=\"p\">Related articles:</p>\n<div class=\"p\">\n<ul class=\"ul\">\n<li class=\"li\"><a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/9418700382618\" target=\"_blank\">About banning IP addresses from messaging\n                        channels</a></li>\n<li class=\"li\"><a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/9418691150106\" target=\"_blank\">Restricting access to messaging channels by\n                        IP address</a></li>\n<li class=\"li\"><a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/9435777614874\" target=\"_blank\">Accessing and using the Banned IP addresses\n                        page in Admin Center</a></li>\n</ul>\n</div>\n</div>\n<div aria-labelledby=\"ariaid-title2\" class=\"topic nested1\" id=\"topic_dhb_vzz_vfc\">\n<h2 class=\"title topictitle2\" id=\"ariaid-title2\">Editing IP addresses banned from messaging channels</h2>\n<div class=\"body\">\n<p class=\"p\">From the Banned IP addresses page, you can make changes to banned IP\n                entries.</p>\n<p class=\"p\"><strong class=\"ph b\">To update a banned IP address entry</strong></p>\n<div class=\"bodydiv\">\n<ol class=\"ol\" id=\"topic_dhb_vzz_vfc__ol_ldn_pb1_wfc\">\n<li class=\"li\"><span class=\"ph\">In <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4581766374554#topic_hfg_dyz_1hb\" target=\"_blank\">Admin Center</a>, click <img class=\"image\" id=\"topic_dhb_vzz_vfc__d8e824\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/ac_people_icon.png\">\n<strong class=\"ph b\">People</strong> in the sidebar, then select <strong class=\"ph b\">Restrictions &gt; Banned IP\n      addresses</strong>.</span></li>\n<li class=\"li\">Click the IP address you want to update.</li>\n<li class=\"li\">Update the banned IP information as needed:<div class=\"p\">\n<ul class=\"ul\" id=\"topic_dhb_vzz_vfc__ul_um1_sb1_wfc\">\n<li class=\"li\">Enter a new IP address</li>\n<li class=\"li\">Use the drop-down menu to select a new reason for the ban</li>\n<li class=\"li\">Enter any comments you want to include</li>\n</ul>\n</div>\n</li>\n<li class=\"li\">Click <strong class=\"ph b\">Save</strong>.</li>\n</ol>\n</div>\n</div>\n</div>\n<div aria-labelledby=\"ariaid-title3\" class=\"topic nested1\" id=\"topic_od3_4rh_dgc\">\n<h2 class=\"title topictitle2\" id=\"ariaid-title3\">Deleting IP addresses from the banned list</h2>\n<div class=\"body\">\n<p class=\"p\">From the Banned IP addresses page, you can delete (unban) IP addresses from\n                the list.</p>\n<p class=\"p\"><strong class=\"ph b\">To delete a banned IP address from the list</strong></p>\n<div class=\"p\">\n<ol class=\"ol\" id=\"topic_od3_4rh_dgc__ol_qc1_vb1_wfc\">\n<li class=\"li\"><span class=\"ph\">In <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4581766374554#topic_hfg_dyz_1hb\" target=\"_blank\">Admin Center</a>, click <img class=\"image\" id=\"topic_od3_4rh_dgc__d8e824\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/ac_people_icon.png\">\n<strong class=\"ph b\">People</strong> in the sidebar, then select <strong class=\"ph b\">Restrictions &gt; Banned IP\n      addresses</strong>.</span></li>\n<li class=\"li\">Locate the IP address you want to update.</li>\n<li class=\"li\">Click the Options icon (<img class=\"image\" id=\"topic_od3_4rh_dgc__image_zr1_dc1_wfc\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/uc_options_icon.png\">) and select <strong class=\"ph b\">Delete</strong>.</li>\n<li class=\"li\">Click <strong class=\"ph b\">Delete</strong> to confirm the action.</li>\n</ol>\n</div>\n</div>\n</div>\n<script id=\"fast-path-script\">\n    //<![CDATA[\n      const fast_path_style = document.createElement('style');\n      fast_path_style.innerHTML = `#article-body .fastpath{font-size:.9em;background-color:#f3f3f3;border:1px solid #d3d3d3;padding:10px 10px 8px;margin-bottom:16px}#article-body .fastpath::before{content:none!important}`;\n      document.head.appendChild(fast_path_style);\n    //]]>\n    </script><script id=\"article-banners-script\">\n    //<![CDATA[\n      const banner_style = document.createElement('style');\n      banner_style.innerHTML = `#styled-article-body{padding:0 0 0}#article-body #docs-wmp-link{text-align:right;font-size:.8em}#article-body .article-banners{margin-bottom:1rem}#article-body .article-banner{border:1px solid #ded7ca;background-color:#f6f0e6;margin:0 0 3px;line-height:1}#article-body .article-banner table{border-collapse:collapse;border:none;margin:0;width:auto}#article-body .article-banner td{padding:8px 6px 8px;border:none;font-size:.85em}#article-body .article-banner td:nth-child(2){border-left:1px solid #d0c9bd}#article-body .article-banner strong{font-weight:400;text-shadow:0 0 1px rgba(0,0,0,.5);letter-spacing:.5px}@media (min-width:1600px){#article-body .article-banner td{font-size:.8em}#article-body .docs-wmp-link{font-size:.7em}}`;\n      document.head.appendChild(banner_style);\n    //]]>\n    </script>\n</body>",
       "user_segment_ids": []
     }
   ],
