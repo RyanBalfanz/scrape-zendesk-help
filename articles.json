@@ -1,11 +1,42 @@
 {
-  "count": 4705,
+  "count": 4706,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 157,
   "per_page": 30,
   "previous_page": null,
   "articles": [
+    {
+      "id": 9661496217882,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9661496217882.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/9661496217882-Release-notes-through-2025-08-29",
+      "author_id": 1263082309989,
+      "comments_disabled": true,
+      "draft": false,
+      "promoted": true,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298847002,
+      "created_at": "2025-08-31T20:09:03Z",
+      "updated_at": "2025-08-31T20:28:32Z",
+      "name": "Release notes through 2025-08-29",
+      "title": "Release notes through 2025-08-29",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2025-08-31T20:28:32Z",
+      "user_segment_id": null,
+      "permission_group_id": 1324079,
+      "content_tag_ids": [],
+      "label_names": [
+        "mt",
+        "rank_low_algolia"
+      ],
+      "body": "<div class=\"note tip\">See our <a href=\"https://support.zendesk.com/hc/en-us/articles/9536605636890\" target=\"_blank\" rel=\"noopener noreferrer\">What's New</a> for an overview of what was released last month.</div>\n<p>This week's release notes include:</p>\n<ul>\n<li><a href=\"#h_01K40W86YD9CZ92B7BR8ZB1735\">Admin Center</a></li>\n<li><a href=\"#h_01K40W86YD31R389BS6HNDPZEC\">Copilot</a></li>\n<li><a href=\"#h_01K40WKWSQ1QN77T2R4G9DN2XS\">App Marketplace</a></li>\n<li><a href=\"#h_01K2YYEFQHAN2HY50FN5ZW2172\">Products with no updates this week</a></li>\n</ul>\n<h2 id=\"h_01K40W86YD9CZ92B7BR8ZB1735\">Admin Center</h2>\n<p><strong>New:</strong></p>\n<ul>\n<li>We've <span>introduced a new page called <a href=\"https://support.zendesk.com/hc/en-us/articles/9601885707802-Announcing-the-new-external-Oauth-page-in-Admin-Center\">External OAuth clients in Admin Center</a>. This page displays a list of apps and integrations that use external OAuth (also known as global OAuth) to authenticate and connect to your Zendesk account.</span>\n</li>\n<li>As part of <a href=\"https://support.zendesk.com/hc/en-us/articles/7386291855386-Announcing-the-deprecation-of-password-access-for-APIs\">the removal of support for password access for API authentication</a>, we've proactively turned off and removed this capability for accounts where our records show no usage of the feature for more than the past 90 days.\n<ul>\n<li>Additionally, accounts that turn off password access will now automatically be enrolled in two-step verification.</li>\n</ul>\n</li>\n<li>The<span> </span><a href=\"https://support.zendesk.com/hc/en-us/articles/9133017754906-Two-step-verification-2SV-continued-rollout-schedule\">continued rollout for two-step verification</a><span> </span>for phase 2 started on August 19 and was completed on August 28. The<span> </span><a href=\"https://support.zendesk.com/hc/en-us/articles/9517764542490-Two-step-verification-2SV-final-rollout-schedule\">third and final rollout</a><span> </span>will begin in October.</li>\n<li>The default content for<span> </span><a href=\"https://support.zendesk.com/hc/en-us/articles/4408824350746-Customizing-the-welcome-email-and-the-account-verification-email\">the welcome email</a><span> </span>has been updated for clarity and a better user experience. This applies to new accounts only. </li>\n</ul>\n<h2 id=\"h_01K40W86YD31R389BS6HNDPZEC\">Copilot</h2>\n<p><strong>New:</strong></p>\n<ul>\n<li id=\"h_01K40WQ5NFZGJRCAYVVBZRN7TH\"><span>We've introduced <a href=\"https://support.zendesk.com/hc/en-us/articles/9642817125786-Announcing-new-Copilot-recommendation-types\">15 new recommendation types</a> for the Copilot add-on. </span></li>\n</ul>\n<h2 id=\"h_01K40WKWSQ1QN77T2R4G9DN2XS\">App Marketplace</h2>\n<div><strong>New:</strong></div>\n<ul>\n<li>\n<div>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1149680/worktual-contact-centre/\">Worktual Contact Centre</a><span> </span><strong>(Support)</strong>\n</div>\n<ul>\n<li>\n<div>Worktual Contact Centre is a cloud-based communications platform designed for businesses and powered by tailored AI solutions.<strong><span> </span></strong>Worktual Contact Centre for Zendesk enables agents to streamline their daily workflows with critical features, including click-to-dial, inbound calling, and omnichannel chat. It enhances your CRM experience by improving workforce productivity, increasing call efficiency, and strengthening customer interactions. The Worktual Contact Centre for Zendesk integration can be quickly deployed on the Zendesk Web App and managed by IT admins. No additional software or hardware is required for installation, maintenance, or upgrades.</div>\n</li>\n</ul>\n</li>\n<li>\n<div>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1156946/midoco-app-by-inspitec/\">MIDOCO App by INSPITEC</a><span> </span><strong>(Support)</strong>\n</div>\n<ul>\n<li>\n<div>MIDOCO App by INSPITEC automatically provides all relevant customer and booking data from MIDOCO when opening or creating a ticket – no system switch or manual data search required. Whether via email, phone, or chat, a live search is performed in MIDOCO based on the contact information in the ticket. A clear overview of the customer profile is returned, including all bookings and associated travel orders, with detailed information on bookings such as package tours, flights, hotels, insurance, car rentals, and more. Tickets can be linked or unlinked to a customer or booking with the click of a button, allowing for a direct jump into MIDOCO for detailed processing. </div>\n</li>\n</ul>\n</li>\n<li>\n<div>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1158133/arlo-interactions/\">Arlo Interactions</a><span> </span><strong>(Support)</strong>\n</div>\n<ul>\n<li>\n<div>Arlo Interactions allows your agents to view the course and event registration held in Arlo for your customer, in either the ticket or customer view. The agent will be able to identify when the customer was registered in Arlo, their current status, and the courses and events for which the customer has registered.  </div>\n</li>\n</ul>\n</li>\n</ul>\n<h2 id=\"h_01K2YYEFQHAN2HY50FN5ZW2172\">Products with no updates this week</h2>\n<ul>\n<li>Support</li>\n<li>Talk</li>\n<li>Knowledge</li>\n<li>AI Agents Advanced</li>\n<li>Messaging and live chat</li>\n<li>Mobile</li>\n<li>Zendesk Workflow Management (WFM)</li>\n<li>Explore</li>\n<li>Zendesk QA</li>\n</ul>",
+      "user_segment_ids": []
+    },
     {
       "id": 9646513178650,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9646513178650.json",
@@ -900,38 +931,6 @@
         "mt"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>Does AI automatically translate articles in my help center if I update the English version? For example, if I update the English copy of an article, will the French translation auto-update?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>Zendesk does not automatically update translations that are generated through the AI translation function. To update your translations, open each translation after you update the English version of the article and use the <strong>Translate</strong> function to update the content.</p><p><img style=\"aspect-ratio: 760/530; width: 43.03%;\" class=\"wysiwyg-image-resized\" src=\"https://support.zendesk.com/hc/article_attachments/9566790367898\" alt=\"Translate function.png\" width=\"760\" height=\"530\"></p><p>For more information, see the article: <a href=\"https://support.zendesk.com/hc/en-us/articles/8717609637018-Translating-articles-in-your-help-center-using-AI\" target=\"_blank\" rel=\"noopener noreferrer\">Translating articles in your help center using AI</a>.</p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 9566707765530,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9566707765530.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/9566707765530-Can-I-add-any-specific-voice-or-tone-requirements-to-AI-agents",
-      "author_id": 1263082122849,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 8243870008090,
-      "created_at": "2025-08-05T20:11:20Z",
-      "updated_at": "2025-08-20T16:21:39Z",
-      "name": "Can I add any specific voice or tone requirements to AI agents?",
-      "title": "Can I add any specific voice or tone requirements to AI agents?",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2025-08-12T14:41:16Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801135069,
-      "content_tag_ids": [],
-      "label_names": [
-        "ks",
-        "ab0",
-        "mt"
-      ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>How do I control how an AI agent responds to questions? Can I control the formality when using AI to write content?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>Yes, for AI agents, you can set the tone or voice, such as friendly, formal, enthusiastic within the admin center when publishing the bot. For more information, see the article: <a href=\"https://support.zendesk.com/hc/en-us/articles/8357758773658-Customizing-the-persona-tone-of-voice-and-pronoun-formality-for-an-advanced-AI-agent\" target=\"_blank\" rel=\"noopener noreferrer\">Customizing the persona, tone of voice, and pronoun formality for an advanced AI agent</a>. </p><p>For <a href=\"https://support.zendesk.com/hc/en-us/articles/6267360002714-Using-generative-AI-to-expand-and-enhance-help-center-content#topic_kz4_12p_cbc\" target=\"_blank\" rel=\"noopener noreferrer\">AI-assisted article editing</a> through <a href=\"https://support.zendesk.com/hc/en-us/articles/7908817636378-About-agent-copilot\" target=\"_blank\" rel=\"noopener noreferrer\">copilot</a>, you can choose to make content more friendly or more formal depending on your needs.</p><p>Copilot supports communication guidelines. This expanded functionality lets admins define detailed writing instructions covering:</p><ul>\n<li>General communication principles</li>\n<li>Formatting</li>\n<li>Tone and voice</li>\n<li>Length and formality</li>\n<li>Structure</li>\n<li>Greetings and closings</li>\n<li>Writing style and wording</li>\n</ul><p>When communication guidelines are enabled and defined, auto assist and rewrite in your tone follow these rules while adapting to the ticket context. If there is a conflict between inferred style from the conversation and the defined guidelines, the guidelines take priority.</p><p>If communication guidelines are enabled but no rules are defined, the tools rely on the ticket conversation only. If disabled, rewrite in your tone is unavailable and auto assist will not follow any predefined rules.</p>",
       "user_segment_ids": []
     }
   ],
