@@ -239,14 +239,14 @@
       "vote_count": 0,
       "section_id": 4405303742362,
       "created_at": "2025-08-27T17:29:40Z",
-      "updated_at": "2025-09-02T15:02:17Z",
+      "updated_at": "2025-09-03T13:51:24Z",
       "name": "How do I preview my help center as a specific user segment?",
       "title": "How do I preview my help center as a specific user segment?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-08-28T14:15:53Z",
+      "edited_at": "2025-09-03T13:51:23Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -256,7 +256,7 @@
         "mt",
         "role_admin"
       ],
-      "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2><p>I need to see what my help center looks like for a specific user segment. I want to confirm that restricted articles display correctly for that group. Since access depends on the signed-in user, I don’t know how to test the view as an end user.</p><h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2><p>Create a dummy test user for the user segment, then assume that user’s identity to preview the help center.</p><ol>\n<li>Create a dummy test user in Zendesk Support</li>\n<li>Add the test user to the user segment you want to test</li>\n<li>Go to <strong>Customers</strong> and select the dummy test user. You can also open a user profile from a ticket, a search, or a customer list</li>\n<li>On the user’s profile, click the user options menu in the top right, next to <strong>New ticket</strong>\n</li>\n<li>\n<p>Select <strong>Assume identity</strong></p>\n<figure class=\"wysiwyg-image\"><img style=\"aspect-ratio: 740/417;\" src=\"https://support.zendesk.com/hc/article_attachments/9645695140378\" alt=\"assume identity\" width=\"740\" height=\"417\"></figure>\n</li>\n<li>A new tab opens where you’re signed in as the dummy test user</li>\n<li>You can move around their view of Zendesk Support and the help center</li>\n<li>While you assume identity, you can’t act as yourself in any tab</li>\n<li>When you’re done, return to the tab and click <strong>Revert identity</strong> to switch back to your account</li>\n</ol><div class=\"p\">\n<div class=\"note\">\n<span class=\"notetitle\">Note:</span> The <strong>Assume identity</strong> option is only available when the help center is active.</div>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408894200474-Assuming-end-users\" target=\"_blank\" rel=\"noopener noreferrer\">Assuming end users</a></p>\n</div>",
+      "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2><p>I need to see what my help center looks like for a specific user segment. I want to confirm that restricted articles display correctly for that group. Since access depends on the signed-in user, I don’t know how to test the view as an end user.</p><h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2><p>Create a dummy test user for the user segment, then assume that user identity to preview the help center.</p><ol>\n<li>Create a dummy test user in Zendesk Support</li>\n<li>Add the test user to the user segment you want to test</li>\n<li>Go to <strong>Customers</strong> and select the dummy test user. You can also open a user profile from a ticket, a search, or a customer list</li>\n<li>On the user’s profile, click the user options menu in the top right, next to <strong>New ticket</strong>\n</li>\n<li>\n<p>Select <strong>Assume identity</strong></p>\n<figure class=\"wysiwyg-image\"><img style=\"aspect-ratio: 740/417;\" src=\"https://support.zendesk.com/hc/article_attachments/9645695140378\" alt=\"assume identity\" width=\"740\" height=\"417\"></figure>\n</li>\n<li>A new tab opens where you’re signed in as the dummy test user</li>\n<li>You can move around their view of Zendesk Support and the help center</li>\n<li>While you assume identity, you can’t act as yourself in any tab</li>\n<li>When you’re done, return to the tab and click <strong>Revert identity</strong> to switch back to your account</li>\n</ol><div class=\"p\">\n<div class=\"note\">\n<span class=\"notetitle\">Note:</span> The <strong>Assume identity</strong> option is only available when the help center is active.</div>\n<p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408894200474-Assuming-end-users\" target=\"_blank\" rel=\"noopener noreferrer\">Assuming end users</a>.</p>\n</div>",
       "user_segment_ids": []
     },
     {
