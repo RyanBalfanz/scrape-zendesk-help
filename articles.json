@@ -1,5 +1,5 @@
 {
-  "count": 4693,
+  "count": 4694,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 157,
@@ -761,6 +761,41 @@
       "user_segment_ids": []
     },
     {
+      "id": 9594134519834,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9594134519834.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/9594134519834-Why-aren-t-CC-d-emails-being-added-to-tickets",
+      "author_id": 1264158225009,
+      "comments_disabled": false,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298901658,
+      "created_at": "2025-08-13T14:50:09Z",
+      "updated_at": "2025-09-03T15:40:21Z",
+      "name": "Why aren't CC'd emails being added to tickets?",
+      "title": "Why aren't CC'd emails being added to tickets?",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2025-09-02T17:13:15Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801135069,
+      "content_tag_ids": [],
+      "label_names": [
+        "ks",
+        "ab0",
+        "ab0_support",
+        "ab0_email",
+        "role_agent",
+        "role_admin"
+      ],
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>I created a ticket and included a user in the CC field of the original email, but Zendesk Support did not display the CC email address in the ticket’s CC field. Why did this happen? </p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>This is expected behavior when the Support instance is closed and configured to <a href=\"https://support.zendesk.com/hc/en-us/articles/4408883658906-Permitting-only-added-users-to-submit-tickets\" target=\"_blank\" rel=\"noopener noreferrer\">permit only added users to submit tickets</a>.</p><p>When you turn off the setting that permits anyone to submit a ticket, only users with registered profiles can create tickets and only they can be included as CCs in those requests. This restriction ensures that only verified users interact with the ticketing system.</p><p>If a user who is not registered tries to create a ticket, the system rejects the ticket. If a registered user adds a non-registered user as a CC on a ticket, the system does not create a profile for the non-registered user in your Zendesk account. As a result, the system excludes that individual as a CC on the ticket and does not send them any notifications related to it.</p><p>This mechanism is designed to maintain the integrity and security of the support system by limiting interactions to known users only. For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408881989018-Enabling-anyone-to-submit-tickets\" target=\"_blank\" rel=\"noopener noreferrer\">Enabling anyone to submit tickets</a>.</p>",
+      "user_segment_ids": []
+    },
+    {
       "id": 9590471542170,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9590471542170.json",
       "html_url": "https://support.zendesk.com/hc/en-us/articles/9590471542170-Developer-update-Enhanced-security-guidelines-for-third-party-apps-integrations-and-bots",
@@ -919,36 +954,6 @@
         "mt"
       ],
       "body": "<h3 id=\"h_01K23FN3FN5M0VJ5KVYNS6AK6N\"><span style=\"color: #06363c;\"><strong>SUMMARY</strong></span></h3><p>Between August 7 and August 8, 2025, some Zendesk Support customers experienced problems with workflows such as bulk ticket updates and ticket merging. These issues impacted all Pods but primarily Pod 17 and 20 were impacted.<br><br><strong>TIMELINE</strong></p><p class=\"wysiwyg-text-align-justify\"><strong>August 8, 2025 12:44 AM UTC | August 7, 2025 05:44 PM PT</strong></p><p class=\"wysiwyg-text-align-justify\">We are pleased to inform you that the issue affecting Support has been resolved. Thank you for your patience and cooperation throughout this process.</p><p class=\"wysiwyg-text-align-justify\"><strong>August 8, 2025 12:01 AM UTC | August 7, 2025 05:01 PM PT</strong></p><p class=\"wysiwyg-text-align-justify\">We are aware of an issue affecting Support, where customers are experiencing workflow disruptions related to delays in background job processing, including failed bulk updates and the inability to merge tickets. Our engineering team is actively addressing the problem, and we are beginning to observe performance improvements. We will continue to provide updates as we investigate further. Thank you for your patience and understanding.</p><p> </p><p><strong>POST-MORTEM</strong></p><h4 id=\"h_01K2MR43MZ58HW1BN8BNKRFK4C\">Root-Cause Analysis</h4><p>A recent change to how we handle background tasks (jobs that run behind the scenes to keep your workflows moving) had overly restrictive job scheduling. When a small number of accounts performed very large operations, our system became overloaded and could not keep up. This led to a backlog of tasks, which meant that some customer actions took much longer than usual or failed altogether.</p><h4 id=\"h_01K2MR5R5FYK49K6WF3RZV4KF6\">Resolution</h4><p>As soon as we discovered the problem, our engineering teams:</p><ul>\n<li>Stopped the new background job process in the most affected areas, then across the whole platform, to prevent the issue from getting worse.</li>\n<li>Cleared out the backlog of stuck jobs so that normal processing could resume.</li>\n<li>Closely monitored system health to make sure all customer workflows were restored.</li>\n</ul><h4 id=\"h_01K2MR7J5K1TGDKM7JNM89ABBA\">Remediation Items</h4><p>We are taking several steps to prevent this from happening again:</p><ul>\n<li>Adding new limits and safeguards to stop any single account from overloading the system.</li>\n<li>Improving how we manage and prioritize background tasks, especially during busy times.</li>\n<li>Updating our monitoring so we can spot and fix similar issues  faster.</li>\n</ul><p> </p><p><strong>FOR MORE INFORMATION</strong></p><p><span style=\"background-color: #fefaf2; color: #16140c;\">For current system status information about Zendesk and specific impacts to your account, visit our </span><a href=\"https://status.zendesk.com/\"><span class=\"wysiwyg-underline\">system status page</span></a><span style=\"background-color: #fefaf2; color: #16140c;\">. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, </span><a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\"><span class=\"wysiwyg-underline\">contact Zendesk customer support.</span></a></p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 9573998909466,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9573998909466.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/9573998909466-Announcing-the-Marketplace-partner-developer-support",
-      "author_id": 1263082135149,
-      "comments_disabled": true,
-      "draft": false,
-      "promoted": true,
-      "position": 0,
-      "vote_sum": 1,
-      "vote_count": 1,
-      "section_id": 4405298889242,
-      "created_at": "2025-08-07T15:43:42Z",
-      "updated_at": "2025-08-12T15:07:17Z",
-      "name": "Announcing the Marketplace partner developer support",
-      "title": "Announcing the Marketplace partner developer support",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2025-08-07T19:37:00Z",
-      "user_segment_id": null,
-      "permission_group_id": 1324079,
-      "content_tag_ids": [],
-      "label_names": [
-        "mt"
-      ],
-      "body": "<figure style=\"width: 100%;\" class=\"wysiwyg-table\"><table style=\"border-style: solid; border-width: 1px;\"><tbody>\n<tr>\n<td style=\"border-style: solid; border-width: 1px;\"><strong>Announced on</strong></td>\n<td style=\"border-style: solid; border-width: 1px;\"><strong>Rollout starts</strong></td>\n<td style=\"border-style: solid; border-width: 1px;\"><strong>Rollout ends</strong></td>\n</tr>\n<tr>\n<td style=\"border-style: solid; border-width: 1px;\">August 11, 2025</td>\n<td style=\"border-style: solid; border-width: 1px;\">August 11, 2025</td>\n<td style=\"border-style: solid; border-width: 1px;\">August 11, 2025</td>\n</tr>\n</tbody></table></figure><p>Zendesk is excited to announce that we've created a new support process specifically for Marketplace partner developers!  We are introducing a new direct line to a team that can help you when you require support with your integrations. With this new, direct line, we hope to simplify our support process and get you the support you deserve!</p><p>This announcement includes the following topics:</p><ul>\n<li><a href=\"#h_01JWRW560SWDRZQMV6124EPZZ9\">What is changing?</a></li>\n<li><a href=\"#h_01JWRW560T4NFX7NW3Z5F82EC6\">Why is Zendesk making this change?</a></li>\n<li><a href=\"#h_01JWRW560TC1GFNVJNXPQSJ9XD\">What do I need to do?</a></li>\n</ul><h2 id=\"h_01JWRW560SWDRZQMV6124EPZZ9\">What is changing?</h2><p>You can reach out to the new Marketplace Partner Developer Support by emailing any questions or issues you have directly to <a href=\"mailto:partner_support@zendesk.com\"><span class=\"wysiwyg-underline\">partner_support@zendesk.com</span></a>. A dedicated team will review and triage your tickets to ensure clear and accurate routing. If you use the existing Support web widget to get in touch, specify that you are a “Marketplace Partner” so your tickets are routed to the appropriate team.</p><h2 id=\"h_01JWRW560T4NFX7NW3Z5F82EC6\">Why is Zendesk making this change?</h2><p>Zendesk recognizes the importance of specialized, efficient support to Marketplace partner developers. As integrations become more complex, developers need a dedicated channel that understands their unique challenges. This new support process and direct process ensures that developers receive timely help tailored specifically to their integration needs.</p><p>Types of issues handled by Marketplace Partner Developer Support:</p><ul>\n<li>Problems or questions related to your integrations listed in the Marketplace</li>\n<li>Issues or bugs with Zendesk products that impact your integrations</li>\n</ul><h3 id=\"h_01K22M45AR49ACNHVJ6SC21VEZ\">How is this different from Marketplace Operations?</h3><p>Marketplace Operations oversees the daily management of the App Marketplace and Marketplace portal. This includes tasks such as publishing and updating apps, themes, bots, and managing public listings and Stripe pricing plane, and coordinating communications with partner developers. Their scope covers: </p><ul>\n<li>App submissions and update processes to the Zendesk Marketplace</li>\n<li>Handling requests related to Global OAuth client creation or modifications</li>\n<li>Managing sponsored account inquiries</li>\n<li>Addressing questions about app listing metrics and performances</li>\n<li>Managing access to the Marketplace portal (apps.zendesk.com)</li>\n</ul><p>Marketplace Operations does <em>not</em> provide troubleshooting or support pertaining to the Zendesk App Framework (ZAF) or API issues.</p><h2 id=\"h_01JWRW560TC1GFNVJNXPQSJ9XD\">What do I need to do?</h2><p>No action is required to benefit from this new support process.</p><p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\">Zendesk Customer Support</a>.</p><p><br> </p>",
       "user_segment_ids": []
     }
   ],
