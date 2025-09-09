@@ -1,5 +1,5 @@
 {
-  "count": 4697,
+  "count": 4682,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 157,
@@ -19,7 +19,7 @@
       "vote_count": 1,
       "section_id": 4405298847002,
       "created_at": "2025-09-07T23:12:48Z",
-      "updated_at": "2025-09-08T15:28:56Z",
+      "updated_at": "2025-09-09T15:06:07Z",
       "name": "Release notes through 2025-09-05",
       "title": "Release notes through 2025-09-05",
       "source_locale": "en-us",
@@ -30,7 +30,9 @@
       "user_segment_id": null,
       "permission_group_id": 1324079,
       "content_tag_ids": [],
-      "label_names": [],
+      "label_names": [
+        "mt"
+      ],
       "body": "<div class=\"note tip\">See our <a href=\"https://support.zendesk.com/hc/en-us/articles/9642327422874\" target=\"_blank\" rel=\"noopener noreferrer\">What's New</a> for an overview of what was released last month.</div><p>This week's release notes include:</p><ul>\n<li><a href=\"#h_01K4K7JB7J8DA00XNDMXP23PYQ\">Support</a></li>\n<li><a href=\"#h_01K4K7AZQKN1XVTNQ0BNYZ3MH7\">AI Agents Advanced</a></li>\n<li><a href=\"#h_01K4K7CQ1SVY54CWT2WZK2JP6X\">Copilot</a></li>\n<li><a href=\"#h_01K4K76X3AFSJAVF4DC7VTTRAK\">Knowledge</a></li>\n<li><a href=\"#h_01K4K7PA5CXMKSWDHNT7GT59Q3\">Zendesk Workflow Management (WFM)</a></li>\n<li><a href=\"#h_01K4K7QX8MR07PH3F9S94AFNXW\">App Marketplace</a></li>\n<li><a href=\"#h_01K4K8MCZXBDPKHY6SFD2Q3DNT\">Products with no updates this week</a></li>\n</ul><h2 id=\"h_01K4K7JB7J8DA00XNDMXP23PYQ\">Support</h2><p data-renderer-start-pos=\"105\"><strong data-renderer-mark=\"true\">New:</strong></p><ul data-indent-level=\"1\">\n<li><p data-renderer-start-pos=\"127\"><strong>Sender Authentication improvements:</strong> We've rolled out authentication support and policies for auto-forwarded email traffic, utilizing ARC (Authenticated Received Chain) headers in our analysis to better preserve and rely on the authentication state when the email arrives at the forwarding domain</p></li>\n<li><p data-renderer-start-pos=\"429\"><strong>Exchange Connector and Gmail connector import functionality:</strong> We have increased the number of recent emails that the Gmail connector will import upon initial connection from 50 to 300, and added new import functionality for the Exchange Connector, also importing the 300 most recent emails.</p></li>\n<li>You can now build filter data availability in all lookup relationship fields, across all objects. Additionally, two new operators are now supported for filtering lookup relationship field values: <em>matches</em> and <em>does not match</em>. This makes it possible to include or exclude records based on any field's value. For example, if a ticket has a dropdown field named <em>Product category</em> and a lookup field named <em>Product</em>, it is possible to configure the <em>Product</em> field to only allow the selection of products that match the value in the ticket's <em>Product category</em> field. This sort of filtering on lookup relationship fields can significantly improve the agent and end-user experiences because it displays only relevant options, reducing errors and increasing efficiency.</li>\n</ul><h2 id=\"h_01K4K7AZQKN1XVTNQ0BNYZ3MH7\">AI Agents Advanced</h2><div><strong data-stringify-type=\"bold\">New:</strong></div><ul data-stringify-type=\"unordered-list\" data-list-tree=\"true\" data-indent=\"0\" data-border=\"0\">\n<li data-stringify-indent=\"0\" data-stringify-border=\"0\">We launched the Looker experience to the first tranche of all remaining customers. This release includes:<ul data-stringify-type=\"unordered-list\" data-list-tree=\"true\" data-indent=\"2\" data-border=\"0\">\n<li data-stringify-indent=\"2\" data-stringify-border=\"0\">Custom resolutions for existing customers only</li>\n<li data-stringify-indent=\"2\" data-stringify-border=\"0\">Unifying the funnel-based metrics into Assisted and Handled</li>\n</ul>\n</li>\n<li data-stringify-indent=\"0\" data-stringify-border=\"0\">New events are available under Events and actions. The \"procedure ended\" and \"knowledge answer provided\" events can be used to trigger actions.</li>\n</ul><h2 id=\"h_01K4K7CQ1SVY54CWT2WZK2JP6X\">Copilot</h2><ul data-stringify-type=\"unordered-list\" data-list-tree=\"true\" data-indent=\"0\" data-border=\"0\"><li>\n<strong>Intelligent Triage:</strong> Released a new version of the sentiment model with more precise sentiment detection, enhanced multilingual accuracy, and sharper sentiment categories.</li></ul><h2 id=\"h_01K4K76X3AFSJAVF4DC7VTTRAK\">Knowledge</h2><h3 id=\"h_01K4CS4CRZQRCA2M5NBVRCF2D7\">Service catalog</h3><p><strong data-stringify-type=\"bold\">New:</strong></p><ul data-stringify-type=\"unordered-list\" data-list-tree=\"true\" data-indent=\"0\" data-border=\"0\"><li data-stringify-indent=\"0\" data-stringify-border=\"0\">Released the <a href=\"https://support.zendesk.com/hc/en-us/articles/8478940252698\">service catalog</a> to general availability. It allows users to easily find and request services and assets from your private help center. </li></ul><h2 id=\"h_01K4K7PA5CXMKSWDHNT7GT59Q3\">Zendesk Workflow Management (WFM)</h2><p><strong>New: </strong></p><ul>\n<li>\n<strong>Reporting and Monitoring:</strong><ul>\n<li>\n<strong>Agent Activity page:</strong> Zendesk WFM now allows you to export a structured CSV of your agent activity timeline directly from the Agent Activity page. This export includes all agent activities, workstreams, general tasks, and untracked time, organized by start and end times for the selected day. With this new functionality, managers and analysts can easily access raw activity data, bring it into external tools, and unlock deeper insights for planning, compliance, and performance analysis. Available today to all Zendesk WFM customers, no setup required..</li>\n<li>\n<strong>Reports:</strong> When grouping by organization in reports, users will now see a clearer distinction between actual organizations and other types of data. Metrics related to non-ticket activity (such as general tasks) and ticket data with no associated organization will now appear under clearly labeled categories like “Non-ticket activity” and “N/A”. This makes it easier to understand precisely where your data comes from and ensures more accurate reporting.</li>\n</ul>\n</li>\n<li>\n<strong>Automations:</strong><ul>\n<li>\n<strong>New run events released:</strong> <em>early to</em> and <em>late to</em>\n</li>\n<li>\n<strong>New conditions released:</strong> <em>start day</em> and <em>end day</em>\n</li>\n</ul>\n</li>\n</ul><p><strong>Fixed:</strong></p><ul><li>\n<strong>Reporting and Monitoring:</strong><ul><li>\n<strong>Agent Activity page:</strong> Fixed a bug that was not allowing editing of activities for customers who have omnichannel routing enabled.</li></ul>\n</li></ul><h2 id=\"h_01K4K7QX8MR07PH3F9S94AFNXW\">App Marketplace</h2><div><strong>New:</strong></div><ul>\n<li>\n<div>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/851395/ticket-fields-to-user-fields-copier/\">Ticket Fields to User Fields Copier</a> <strong>(Support) (paid)</strong>\n</div>\n<ul><li><div>Ticket Fields to User Field Copier helps you transfer data in ticket fields to user fields automatically. By specifying the target ticket field ID, the information can be transferred to user fields. Fields that can be copied include name, phone number, tags, details, and notes. You can also customize the process by entering field IDs and keys. If the destination field already contains information, it will generally be overwritten. If the destination field allows multiple values, the new information will be appended instead of overwriting existing content.</div></li></ul>\n</li>\n<li>\n<div>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1152457/8returns-agent/\">8returns Agent</a> <strong>(Support) </strong>\n</div>\n<ul><li>\n<div>8returns Agent is a support app that displays the details of customers' returns right from their support ticket. It helps support agents to access return information and provide better customer service quickly. The app integrates seamlessly with the 8returns platform, allowing agents to view return details and status without leaving the support interface.</div>\n<div> </div>\n</li></ul>\n</li>\n</ul><h2 id=\"h_01K4K8MCZXBDPKHY6SFD2Q3DNT\">Products with no updates this week</h2><ul>\n<li>Admin Center</li>\n<li>Voice</li>\n<li>Messaging and live chat</li>\n<li>Mobile</li>\n<li>Explore</li>\n<li>Zendesk QA</li>\n</ul>",
       "user_segment_ids": []
     },
@@ -47,7 +49,7 @@
       "vote_count": 0,
       "section_id": 4405303740826,
       "created_at": "2025-09-02T13:28:07Z",
-      "updated_at": "2025-09-04T10:10:26Z",
+      "updated_at": "2025-09-09T15:03:51Z",
       "name": "Why does the voice icon display a red exclamation mark?",
       "title": "Why does the voice icon display a red exclamation mark?",
       "source_locale": "en-us",
@@ -61,6 +63,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_voice",
         "role_agent",
         "role_admin"
@@ -142,7 +145,7 @@
       "vote_count": 0,
       "section_id": 4405298850586,
       "created_at": "2025-08-28T06:46:37Z",
-      "updated_at": "2025-09-03T15:49:14Z",
+      "updated_at": "2025-09-09T15:05:51Z",
       "name": "Why are updater name and updater role missing for WhatsApp tickets?",
       "title": "Why are updater name and updater role missing for WhatsApp tickets?",
       "source_locale": "en-us",
@@ -156,6 +159,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_explore",
         "role_admin"
       ],
@@ -239,7 +243,7 @@
       "vote_count": 0,
       "section_id": 4405303742362,
       "created_at": "2025-08-27T17:29:40Z",
-      "updated_at": "2025-09-03T13:51:24Z",
+      "updated_at": "2025-09-09T15:02:57Z",
       "name": "How do I preview my help center as a specific user segment?",
       "title": "How do I preview my help center as a specific user segment?",
       "source_locale": "en-us",
@@ -272,7 +276,7 @@
       "vote_count": 0,
       "section_id": 4405303740826,
       "created_at": "2025-08-27T12:57:41Z",
-      "updated_at": "2025-09-03T07:46:12Z",
+      "updated_at": "2025-09-09T15:06:02Z",
       "name": "How can I allow microphone access from my browser to voice calls?",
       "title": "How can I allow microphone access from my browser to voice calls?",
       "source_locale": "en-us",
@@ -286,6 +290,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_talk",
         "ab0_voice",
         "role_agent",
@@ -461,7 +466,7 @@
       "vote_count": 0,
       "section_id": 5346334218778,
       "created_at": "2025-08-22T14:59:59Z",
-      "updated_at": "2025-09-05T15:39:55Z",
+      "updated_at": "2025-09-09T15:05:20Z",
       "name": "Can I edit custom ticket fields on closed tickets?",
       "title": "Can I edit custom ticket fields on closed tickets?",
       "source_locale": "en-us",
@@ -475,6 +480,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_support",
         "role_admin",
         "modifying closed tickets"
@@ -799,7 +805,7 @@
       "vote_count": 0,
       "section_id": 4405298901658,
       "created_at": "2025-08-13T14:50:09Z",
-      "updated_at": "2025-09-03T15:40:21Z",
+      "updated_at": "2025-09-09T15:05:49Z",
       "name": "Why aren't CC'd emails being added to tickets?",
       "title": "Why aren't CC'd emails being added to tickets?",
       "source_locale": "en-us",
@@ -813,6 +819,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_support",
         "ab0_email",
         "role_agent",
@@ -834,7 +841,7 @@
       "vote_count": 0,
       "section_id": 4405298889242,
       "created_at": "2025-08-12T15:09:06Z",
-      "updated_at": "2025-09-03T16:36:59Z",
+      "updated_at": "2025-09-09T15:05:15Z",
       "name": "Developer update: Enhanced security guidelines for third-party apps, integrations, and bots",
       "title": "Developer update: Enhanced security guidelines for third-party apps, integrations, and bots",
       "source_locale": "en-us",
