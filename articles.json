@@ -1,5 +1,5 @@
 {
-  "count": 4686,
+  "count": 4687,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 157,
@@ -153,7 +153,7 @@
       "vote_count": 0,
       "section_id": 4405298833818,
       "created_at": "2025-09-16T23:20:58Z",
-      "updated_at": "2025-09-17T20:43:27Z",
+      "updated_at": "2025-09-18T15:00:10Z",
       "name": "Announcing new options for side conversations",
       "title": "Announcing new options for side conversations",
       "source_locale": "en-us",
@@ -165,11 +165,46 @@
       "permission_group_id": 1324079,
       "content_tag_ids": [],
       "label_names": [
+        "mtpe",
         "tickets",
         "side",
         "conversations"
       ],
       "body": "<figure style=\"height: 44px; width: 100%;\" class=\"wysiwyg-table\"><table style=\"border-collapse: collapse; border-style: solid; border-width: 1px;\"><tbody>\n<tr style=\"height: 22px;\">\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 50%;\"><strong>Announced on</strong></td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 50%;\">Rollout on</td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 31.1428%;\">September 17, 2025</td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 32.8572%;\">August 6, 2025</td>\n</tr>\n</tbody></table></figure><p>We are excited to announce the release of a number of new options for configuring side conversations!</p><p>This announcement includes the following sections:</p><ul>\n<li><a href=\"#h_01K5ACXMD9C482P6AG19321Q6D\">What is changing?</a></li>\n<li><a href=\"#h_01K5ACYG35N72P1Y66CBENV4KT\">Why is Zendesk making this change?</a></li>\n<li><a href=\"#h_01K5ACZNXN27SR80V1N6BA02MX\">What do I need to do?</a></li>\n</ul><h2 id=\"h_01K5ACXMD9C482P6AG19321Q6D\">What is changing?</h2><p>Side conversations are spaces in a ticket where agents can have a separate, but related, discussion with a specific group of people.</p><p>We’ve added a number of options to the <a href=\"https://support.zendesk.com/hc/en-us/articles/4408832279962\">side conversations configuration settings</a> including:</p><ul>\n<li>\n<strong>Only show agent email addresses</strong>, which allows admins to restrict which addresses are autocompleted when adding a user to a side conversation. This setting is off by default.</li>\n<li>\n<strong>Allow dynamic subdomain detection</strong>, which lets admins loosen certain requirements on how their Teams tenants are set up. This setting is recommended only when standard troubleshooting can’t resolve an intractable problem, and is off by default.</li>\n<li>\n<strong>Use signatures in side conversations</strong>, which lets admins to control whether signatures are included in side conversations, and whether agent or brand signatures are used. This setting is on by default.</li>\n</ul><h2 id=\"h_01K5ACYG35N72P1Y66CBENV4KT\">Why is Zendesk making this change?</h2><p>These configuration options have long been available to customers, but only with assistance from our Advocacy team. This update gives admins greater control over how side conversations look and perform.</p><h2 id=\"h_01K5ACZNXN27SR80V1N6BA02MX\">What do I need to do?</h2><p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/1260801325369\" target=\"_blank\" rel=\"noopener noreferrer\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\">Zendesk Customer Support</a>.</p>",
+      "user_segment_ids": []
+    },
+    {
+      "id": 9718824336410,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9718824336410.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/9718824336410-How-soon-does-intent-prediction-start-on-tickets-after-activation",
+      "author_id": 1263082122849,
+      "comments_disabled": false,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 8243870008090,
+      "created_at": "2025-09-15T21:56:05Z",
+      "updated_at": "2025-09-18T15:00:33Z",
+      "name": "How soon does intent prediction start on tickets after activation?",
+      "title": "How soon does intent prediction start on tickets after activation?",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2025-09-18T14:59:08Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801135069,
+      "content_tag_ids": [],
+      "label_names": [
+        "ks",
+        "ab0",
+        "ab0_support",
+        "ab0_admin_center",
+        "role_admin"
+      ],
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>I activated intent prediction for my account but I do not see any intent suggestions. How soon does intent prediction start on tickets after activation?</p><p><img style=\"aspect-ratio: 538/283; width: 47%;\" class=\"wysiwyg-image-resized\" src=\"https://support.zendesk.com/hc/article_attachments/9718811920666\" alt=\"No intent suggestions error message.png\" width=\"538\" height=\"283\"></p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>Intent suggestions are available immediately upon activation. Once you turn on the function, newly created tickets will generate intent suggestions from the channels you have selected.</p><p><strong>If intent suggestions do not appear:</strong></p><ul>\n<li>Confirm the ticket channels you have selected. If your tickets are from a channel that is not enabled for intent suggestions, they will not appear.</li>\n<li>Check if your tickets are created or initiated by agents in your account. By default, tickets that agents initiate do not generate intents. You can change this setting and include those tickets by unchecking the option under <strong>Exclusion conditions</strong> in your settings within <strong>AI</strong> &gt; <strong>Intelligent triage</strong> &gt; <strong>Intent</strong> &gt; <strong>Manage settings</strong>.</li>\n</ul><p><img style=\"aspect-ratio: 647/163; width: 77.93%;\" class=\"wysiwyg-image-resized\" src=\"https://support.zendesk.com/hc/article_attachments/9718824336282\" alt=\"Exclusion option for tickets from agents.png\" width=\"647\" height=\"163\"></p><p>For more information, see these articles:</p><ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4550640560538-Automatically-detecting-customer-intent-sentiment-and-language#topic_fh4_brd_hgc\" target=\"_blank\" rel=\"noopener noreferrer\">Automatically detecting customer intent, sentiment, and language </a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/8718789695002-Personalizing-intelligent-triage-by-creating-custom-intents#topic_qp5_c1y_c2c\" target=\"_blank\" rel=\"noopener noreferrer\">Personalizing intelligent triage by creating custom intents </a></li>\n</ul>",
       "user_segment_ids": []
     },
     {
@@ -939,39 +974,6 @@
         "modifying closed tickets"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>Can I edit custom ticket fields on closed tickets?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>Currently, you can edit some of the custom fields on closed tickets.</p><p>The fields that you can’t edit appear grayed out, see their list:</p><ul>\n<li>Credit card</li>\n<li>Number</li>\n<li>Regex</li>\n<li>Lookup</li>\n<li>Due date</li>\n<li>Multi-line</li>\n</ul><p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/7335734335258\" target=\"_blank\" rel=\"noopener noreferrer\">Modifying closed tickets</a>.</p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 9619394629786,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9619394629786.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/9619394629786-Workflow-How-to-hide-the-article-suggestion-search-when-an-end-user-submits-a-support-request",
-      "author_id": 4970807742618,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405303734938,
-      "created_at": "2025-08-20T13:44:26Z",
-      "updated_at": "2025-09-03T13:16:50Z",
-      "name": "Workflow: How to hide the article suggestion search when an end user submits a support request",
-      "title": "Workflow: How to hide the article suggestion search when an end user submits a support request",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2025-09-03T13:16:50Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801135069,
-      "content_tag_ids": [],
-      "label_names": [
-        "ks",
-        "ab0",
-        "ab0_guide",
-        "role_admin"
-      ],
-      "body": "<p>In this tutorial, you'll learn how to hide the article suggestions that display in the contact form of the help center when an end user types in the subject of the request. This is useful to reduce visual noise in the request page.</p><p>The workflow includes the steps below.</p><ul>\n<li><a href=\"#h_01HXY1BFCAPEN08R87P7ENG6TS\">Step 1: Verify the prerequisites</a></li>\n<li><a href=\"#01HXY1G18XYBGPX37812NDQPP4\">Step 2: Make a copy of the theme</a></li>\n<li><a href=\"#h_01K33X2DT8DYC711WZ23SBN05J\">Step 3: Edit the CSS file</a></li>\n<li><a href=\"#h_01K33X2MX6DKWJKH8BCWEHYM49\">Step 4: Edit the CSS code to hide the article suggestions</a></li>\n</ul><h3 id=\"h_01HXY1BFCAPEN08R87P7ENG6TS\">Step 1: Verify the prerequisites</h3><p>This change requires you to <a href=\"https://support.zendesk.com/hc/en-us/articles/4408839332250-Customizing-your-help-center-theme\" target=\"_blank\" rel=\"noopener noreferrer\">edit the theme code</a> of the help center and is only available on Suite Growth plans or higher.</p><h3 id=\"01HXY1G18XYBGPX37812NDQPP4\">Step 2: Make a copy of the theme</h3><p>Before you make changes to your live theme, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408832558874-Editing-the-code-for-your-live-help-center-theme#topic_fvy_vxp_ccb\" target=\"_blank\" rel=\"noopener noreferrer\">make a copy</a> of the theme and update the copied version.</p><h3 id=\"h_01K33X2DT8DYC711WZ23SBN05J\">Step 3:  Edit the CSS file</h3><p><a href=\"https://support.zendesk.com/hc/en-us/articles/4408839332250-Customizing-your-help-center-theme#topic_gxl_3qw_n3\" target=\"_blank\" rel=\"noopener noreferrer\">Edit the CSS file</a> of your help center theme.</p><h3 id=\"h_01K33X2MX6DKWJKH8BCWEHYM49\">Step 4: Edit the CSS code to hide the article suggestions</h3><ol>\n<li>Search for the words <strong>suggestion-list</strong><br><img src=\"https://support.zendesk.com/hc/article_attachments/9636522322970\" alt=\"suggestion-list.png\" width=\"504\" height=\"414\">\n</li>\n<li>\n<p>Replace the code or with the following snippet in your CSS file<br> </p>\n<pre class=\"wysiwyg-code-block\"><code class=\"language-auto\">.form .suggestion-list {\n\ndisplay:none;\n\n}\n\n.form .suggestion-list label {\n\ndisplay:none;\n\n}\n\n.form .suggestion-list li {\n\ndisplay:none;\n\n}\n\n.form .suggestion-list li a:visited {\n\ndisplay:none;\n\n}</code></pre>\n</li>\n<li>Click <strong>Publish </strong>to save the changes</li>\n</ol><div class=\"note\">\n<span class=\"notetitle\"><strong>Disclaimer</strong>:</span> This article is provided for instructional purposes only. Zendesk does not support or guarantee custom code. Zendesk also can't provide support for third-party technologies such as JavaScript, jQuery, or CSS. Post any issues you have in the comments section or try searching for a solution online.</div><p id=\"01J6Y6HXD7SRWEJ27DRGJKCW0R\">For more information, see the following articles:</p><ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408843563418-What-are-the-differences-between-Instant-Search-Article-Suggestion-and-Help-Center-search\" target=\"_blank\" rel=\"noopener noreferrer\">What are the differences between Instant Search, Article Suggestion, and Help Center search?</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408834595738-Understanding-help-center-search-method\" target=\"_blank\" rel=\"noopener noreferrer\">Understanding help center search methods</a></li>\n</ul>",
       "user_segment_ids": []
     }
   ],
