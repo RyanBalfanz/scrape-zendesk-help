@@ -118,14 +118,14 @@
       "vote_count": 0,
       "section_id": 8243870008090,
       "created_at": "2025-09-17T21:44:19Z",
-      "updated_at": "2025-09-18T14:47:50Z",
+      "updated_at": "2025-09-18T18:28:52Z",
       "name": "Is there a limit to the number of steps in a conversation flow?",
       "title": "Is there a limit to the number of steps in a conversation flow?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-09-18T14:47:23Z",
+      "edited_at": "2025-09-18T18:28:52Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -134,7 +134,7 @@
         "ab0",
         "ab0_admin_center"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>How many steps can I use in a conversation flow for an AI agent or bot?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>You can have a maximum of 2000 steps in any individual conversation flow setup.</p><p>Once you reach the maximum number of steps, you will encounter an error message: \"<strong>You've reached the limit</strong>\". You will need to remove steps before you can add more.</p><p>For more information, see the article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4422584657434-Creating-answers-for-common-customer-questions-in-AI-agents-for-messaging-Legacy\" target=\"_blank\" rel=\"noopener noreferrer\">Creating answers for common customer questions in AI agents for messaging (Legacy)</a>.<br> </p>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>How many steps can I use in a conversation flow for an AI agent or bot?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>You can have a maximum of 2000 steps in any individual conversation flow setup.</p><p>Once you reach the maximum number of steps, you will encounter an error message: <strong>You've reached the limit</strong>. Remove steps before you can add more.</p><div class=\"note tip\">\n<span class=\"tiptitle\">Tip:</span> This article describes functionality available only to customers who had a drafted or published Al agent of February 2, 2025. For information about equivalent functionality in the Al agents - Advanced add-on, see <a href=\"https://support.zendesk.com/hc/en-us/sections/8264324615322-Building-dialogues-for-AI-agents-Advanced\" target=\"_blank\" rel=\"noopener noreferrer\">Building dialogues for Al agents - Advanced</a>.</div><p>For more information, see the article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4422584657434-Creating-answers-for-common-customer-questions-in-AI-agents-for-messaging-Legacy\" target=\"_blank\" rel=\"noopener noreferrer\">Creating answers for common customer questions in AI agents for messaging (Legacy)</a>.</p>",
       "user_segment_ids": []
     },
     {
