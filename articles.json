@@ -1,5 +1,5 @@
 {
-  "count": 4685,
+  "count": 4686,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 157,
@@ -73,6 +73,38 @@
         "role_admin"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>How can I ensure artificial intelligence works with third-party websites? For example, Shopify, PrestaShop or other e-commerce platforms. I would like the AI agent to handle customer service for me.</p><p>How can AI answer all questions from end users about orders and updates? I want AI to manage the conversation and return status details of an order, find the order number and provide answers based on questions from my client base.</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>AI agents can respond to general inquiries from your <a href=\"https://support.zendesk.com/hc/en-us/articles/4408846795674-Getting-started-with-your-help-center\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk help center</a>. The default feature looks for relevant information in your documentation to direct users to any matching article.</p><p>To obtain information outside of Zendesk, your set up require additional implementation with third-party platforms. To return order numbers and status updates for platforms like Shopify, you team must:</p><ul>\n<li>Develop their own script with code and make an API request with the <a href=\"https://support.zendesk.com/hc/en-us/articles/4572971586586-Using-the-Make-API-call-step-in-an-AI-agent-for-messaging-Legacy\" target=\"_blank\" rel=\"noopener noreferrer\">Make API call</a> step</li>\n<li>Steps to follow <a href=\"https://support.zendesk.com/hc/en-us/articles/8979864024346-Getting-started-with-AI-agents-with-agentic-AI#topic_lgj_xp2_52c\" target=\"_blank\" rel=\"noopener noreferrer\">with API implementation</a> differ if you purchased the <a href=\"https://support.zendesk.com/hc/en-us/articles/8725042447002-About-the-AI-agents-Advanced-add-on\" target=\"_blank\" rel=\"noopener noreferrer\">AI agents - Advanced</a> add-on</li>\n</ul><div class=\"p\"><div class=\"note warning\">\n<span class=\"warningtitle\">Warning:</span> This article is provided for instructional purposes only. Zendesk does not support or guarantee code. Zendesk also can't provide support for third-party technologies such as API or Shopify.</div></div>",
+      "user_segment_ids": []
+    },
+    {
+      "id": 9727123711642,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9727123711642.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/9727123711642-Is-there-a-limit-to-the-number-of-steps-in-a-conversation-flow",
+      "author_id": 1263082122849,
+      "comments_disabled": false,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 8243870008090,
+      "created_at": "2025-09-17T21:44:19Z",
+      "updated_at": "2025-09-18T14:47:50Z",
+      "name": "Is there a limit to the number of steps in a conversation flow?",
+      "title": "Is there a limit to the number of steps in a conversation flow?",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2025-09-18T14:47:23Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801135069,
+      "content_tag_ids": [],
+      "label_names": [
+        "ks",
+        "ab0",
+        "ab0_admin_center"
+      ],
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>How many steps can I use in a conversation flow for an AI agent or bot?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>You can have a maximum of 2000 steps in any individual conversation flow setup.</p><p>Once you reach the maximum number of steps, you will encounter an error message: \"<strong>You've reached the limit</strong>\". You will need to remove steps before you can add more.</p><p>For more information, see the article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4422584657434-Creating-answers-for-common-customer-questions-in-AI-agents-for-messaging-Legacy\" target=\"_blank\" rel=\"noopener noreferrer\">Creating answers for common customer questions in AI agents for messaging (Legacy)</a>.<br> </p>",
       "user_segment_ids": []
     },
     {
@@ -940,34 +972,6 @@
         "role_admin"
       ],
       "body": "<p>In this tutorial, you'll learn how to hide the article suggestions that display in the contact form of the help center when an end user types in the subject of the request. This is useful to reduce visual noise in the request page.</p><p>The workflow includes the steps below.</p><ul>\n<li><a href=\"#h_01HXY1BFCAPEN08R87P7ENG6TS\">Step 1: Verify the prerequisites</a></li>\n<li><a href=\"#01HXY1G18XYBGPX37812NDQPP4\">Step 2: Make a copy of the theme</a></li>\n<li><a href=\"#h_01K33X2DT8DYC711WZ23SBN05J\">Step 3: Edit the CSS file</a></li>\n<li><a href=\"#h_01K33X2MX6DKWJKH8BCWEHYM49\">Step 4: Edit the CSS code to hide the article suggestions</a></li>\n</ul><h3 id=\"h_01HXY1BFCAPEN08R87P7ENG6TS\">Step 1: Verify the prerequisites</h3><p>This change requires you to <a href=\"https://support.zendesk.com/hc/en-us/articles/4408839332250-Customizing-your-help-center-theme\" target=\"_blank\" rel=\"noopener noreferrer\">edit the theme code</a> of the help center and is only available on Suite Growth plans or higher.</p><h3 id=\"01HXY1G18XYBGPX37812NDQPP4\">Step 2: Make a copy of the theme</h3><p>Before you make changes to your live theme, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408832558874-Editing-the-code-for-your-live-help-center-theme#topic_fvy_vxp_ccb\" target=\"_blank\" rel=\"noopener noreferrer\">make a copy</a> of the theme and update the copied version.</p><h3 id=\"h_01K33X2DT8DYC711WZ23SBN05J\">Step 3:  Edit the CSS file</h3><p><a href=\"https://support.zendesk.com/hc/en-us/articles/4408839332250-Customizing-your-help-center-theme#topic_gxl_3qw_n3\" target=\"_blank\" rel=\"noopener noreferrer\">Edit the CSS file</a> of your help center theme.</p><h3 id=\"h_01K33X2MX6DKWJKH8BCWEHYM49\">Step 4: Edit the CSS code to hide the article suggestions</h3><ol>\n<li>Search for the words <strong>suggestion-list</strong><br><img src=\"https://support.zendesk.com/hc/article_attachments/9636522322970\" alt=\"suggestion-list.png\" width=\"504\" height=\"414\">\n</li>\n<li>\n<p>Replace the code or with the following snippet in your CSS file<br> </p>\n<pre class=\"wysiwyg-code-block\"><code class=\"language-auto\">.form .suggestion-list {\n\ndisplay:none;\n\n}\n\n.form .suggestion-list label {\n\ndisplay:none;\n\n}\n\n.form .suggestion-list li {\n\ndisplay:none;\n\n}\n\n.form .suggestion-list li a:visited {\n\ndisplay:none;\n\n}</code></pre>\n</li>\n<li>Click <strong>Publish </strong>to save the changes</li>\n</ol><div class=\"note\">\n<span class=\"notetitle\"><strong>Disclaimer</strong>:</span> This article is provided for instructional purposes only. Zendesk does not support or guarantee custom code. Zendesk also can't provide support for third-party technologies such as JavaScript, jQuery, or CSS. Post any issues you have in the comments section or try searching for a solution online.</div><p id=\"01J6Y6HXD7SRWEJ27DRGJKCW0R\">For more information, see the following articles:</p><ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408843563418-What-are-the-differences-between-Instant-Search-Article-Suggestion-and-Help-Center-search\" target=\"_blank\" rel=\"noopener noreferrer\">What are the differences between Instant Search, Article Suggestion, and Help Center search?</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/4408834595738-Understanding-help-center-search-method\" target=\"_blank\" rel=\"noopener noreferrer\">Understanding help center search methods</a></li>\n</ul>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 9615994942234,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9615994942234.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/9615994942234-Announcing-redesigned-messaging-notifications-EAP",
-      "author_id": 5260993675418,
-      "comments_disabled": true,
-      "draft": false,
-      "promoted": true,
-      "position": 0,
-      "vote_sum": 2,
-      "vote_count": 2,
-      "section_id": 4405298833818,
-      "created_at": "2025-08-19T17:28:58Z",
-      "updated_at": "2025-09-17T17:46:10Z",
-      "name": "Announcing redesigned messaging notifications (EAP)",
-      "title": "Announcing redesigned messaging notifications (EAP)",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2025-09-17T17:46:09Z",
-      "user_segment_id": null,
-      "permission_group_id": 1324079,
-      "content_tag_ids": [],
-      "label_names": [],
-      "body": "<figure style=\"height: 44px; width: 100%;\" class=\"wysiwyg-table\"><table style=\"border-collapse: collapse; border-style: solid; border-width: 1px;\"><tbody>\n<tr style=\"height: 22px;\">\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\"><strong>Announced on</strong></td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\"><strong>EAP opens</strong></td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\">September 17, 2025</td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\">September 17, 2025</td>\n</tr>\n</tbody></table></figure><p>Zendesk is introducing a redesigned <a href=\"https://support.zendesk.com/hc/en-us/articles/4408829025690\" target=\"_blank\" rel=\"noopener noreferrer\">notifications</a> experience for messaging conversation updates. This notification center will serve as a centralized event center to keep agents up to date on new conversation assignments, new replies from end users, and @mentions from other agents. We’re announcing an open EAP program for this feature so you and your agents can try this new notifications experience and provide us with feedback.  </p><p>This article includes these sections:</p><ul>\n<li><a href=\"#h_01K31P50WD7MZXZXFZX2ESC3RR\">What is changing?</a></li>\n<li><a href=\"#h_01K31PBZDQ80537ZKHPDB67GVN\">Why is Zendesk making this change?</a></li>\n<li>\n<a href=\"#h_01K31PDAPCN95DQ2ZB5PQW9D46\">Who can use it</a>?</li>\n<li><a href=\"#h_01K31PEZ4B95CENEZ3ZZ92N7YS\">What do I need to do?</a></li>\n</ul><h2 id=\"h_01K31P50WD7MZXZXFZX2ESC3RR\">What is changing? </h2><p>Zendesk is transforming the notification tray in the bell icon from a simple work list to a comprehensive record of relevant notified events that persist after being read. This new UI will act as the foundation for future notification use cases. Changes to the notification tray include:</p><ul>\n<li>Toggle to filter unread events</li>\n<li>Notifications appear in chronological order</li>\n<li>Time based list dividers</li>\n<li>Read and unread status indicators</li>\n<li>Aggregated updates related to the same ticket</li>\n<li>Mark all as read button </li>\n</ul><p class=\"p\"><img class=\"wysiwyg-image img-screenshot\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/annoc_notifications_new.png\" width=\"600\"></p><p>On top of the redesigned notification tray we are making some minor copy adjustments to the growl events to add more context to each notification. The main visual changes are content updates to the notification heading and the call to action (CTA).  </p><p class=\"p\"><img class=\"wysiwyg-image img-screenshot\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/annoc_notifications_new_growl.png\" width=\"730\"></p><p>The redesigned notifications will serve all messaging tickets in the Agent Workspace, and moving forward this will enable notifications for other channels, features and products. </p><h2 id=\"h_01K31PBZDQ80537ZKHPDB67GVN\">Why is Zendesk making this change?</h2><p>Our customers have been asking for an improved notifications experience for years now. As a first step, we plan on enhancing the existing notification experience. We will continue to add use cases to cater to our customer needs. </p><h2 id=\"h_01K31PDAPCN95DQ2ZB5PQW9D46\">Who can use it? </h2><p>The new notifications experience is available to all messaging customers in Agent Workspace. If you’re using Zendesk Talk, Zendesk Chat, or primarily work with email and webform tickets, we encourage you to continue operating as usual. We plan to support more channels and use cases at a later date, so keep a look out for an announcement.</p><h2 id=\"h_01K31PEZ4B95CENEZ3ZZ92N7YS\">What do I need to do?</h2><p>If you are an admin with the Zendesk Agent Workspace activated in your account, you can sign up for the Global Notifications EAP. </p><ul>\n<li>Sign up here for the <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSf2syFhVCcHnS6qx1RP28L9ibpATZMFwWb0mLFymn7zcZx8ZQ/viewform\" target=\"_blank\" rel=\"noopener noreferrer\">Global Notifications EAP</a>\n</li>\n<li>Once you sign up, we will activate the redesigned notifications experience for your agents.</li>\n<li>Provide feedback </li>\n</ul><p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/1260801325369\" target=\"_blank\" rel=\"noopener noreferrer\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk Customer Support</a>.</p>",
       "user_segment_ids": []
     }
   ],
