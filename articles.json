@@ -83,14 +83,14 @@
       "vote_count": 0,
       "section_id": 6970673920794,
       "created_at": "2025-09-18T09:31:13Z",
-      "updated_at": "2025-09-18T09:35:44Z",
+      "updated_at": "2025-09-19T08:23:26Z",
       "name": "How can I link my AI agent with my customer orders?",
       "title": "How can I link my AI agent with my customer orders?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-09-18T09:35:43Z",
+      "edited_at": "2025-09-19T08:23:26Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -102,7 +102,7 @@
         "ab0_bots_automation",
         "role_admin"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>How can I ensure artificial intelligence works with third-party websites? For example, Shopify, PrestaShop or other e-commerce platforms. I would like the AI agent to handle customer service for me.</p><p>How can AI answer all questions from end users about orders and updates? I want AI to manage the conversation and return status details of an order, find the order number and provide answers based on questions from my client base.</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>AI agents can respond to general inquiries from your <a href=\"https://support.zendesk.com/hc/en-us/articles/4408846795674-Getting-started-with-your-help-center\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk help center</a>. The default feature looks for relevant information in your documentation to direct users to any matching article.</p><p>To obtain information outside of Zendesk, your set up require additional implementation with third-party platforms. To return order numbers and status updates for platforms like Shopify, you team must:</p><ul>\n<li>Develop their own script with code and make an API request with the <a href=\"https://support.zendesk.com/hc/en-us/articles/4572971586586-Using-the-Make-API-call-step-in-an-AI-agent-for-messaging-Legacy\" target=\"_blank\" rel=\"noopener noreferrer\">Make API call</a> step</li>\n<li>Steps to follow <a href=\"https://support.zendesk.com/hc/en-us/articles/8979864024346-Getting-started-with-AI-agents-with-agentic-AI#topic_lgj_xp2_52c\" target=\"_blank\" rel=\"noopener noreferrer\">with API implementation</a> differ if you purchased the <a href=\"https://support.zendesk.com/hc/en-us/articles/8725042447002-About-the-AI-agents-Advanced-add-on\" target=\"_blank\" rel=\"noopener noreferrer\">AI agents - Advanced</a> add-on</li>\n</ul><div class=\"p\"><div class=\"note warning\">\n<span class=\"warningtitle\">Warning:</span> This article is provided for instructional purposes only. Zendesk does not support or guarantee code. Zendesk also can't provide support for third-party technologies such as API or Shopify.</div></div>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>How can AI work with e-commerce websites like Shopify or PrestaShop to handle customer service? I want an AI agent to answer all customer questions, manage the conversation, and provide order status details.</p><p>I want to use AI to manage customer service on third-party sites like Shopify, PrestaShop, and other e-commerce websites. How can an AI agent answer all user questions and provide real-time order details and updates?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>AI agents can respond to general inquiries from your <a href=\"https://support.zendesk.com/hc/en-us/articles/4408846795674-Getting-started-with-your-help-center\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk help center</a>. The default feature looks for relevant information in your documentation to direct users to any matching article.</p><p>To return order numbers and status updates for platforms like Shopify, your team needs to:</p><ul>\n<li>Develop a custom script that makes an API request using the <a href=\"https://support.zendesk.com/hc/en-us/articles/4572971586586-Using-the-Make-API-call-step-in-an-AI-agent-for-messaging-Legacy\" target=\"_blank\" rel=\"noopener noreferrer\">Make API call</a> step</li>\n<li>Keep in mind that the <a href=\"https://support.zendesk.com/hc/en-us/articles/8979864024346-Getting-started-with-AI-agents-with-agentic-AI#topic_lgj_xp2_52c\" target=\"_blank\" rel=\"noopener noreferrer\">API implementation</a> steps differ if you purchased the <a href=\"https://support.zendesk.com/hc/en-us/articles/8725042447002-About-the-AI-agents-Advanced-add-on\" target=\"_blank\" rel=\"noopener noreferrer\">AI agents - Advanced</a> add-on, as it provides additional features that can simplify or modify the process</li>\n</ul><div class=\"p\"><div class=\"note warning\">\n<span class=\"warningtitle\">Warning:</span> This article is provided for instructional purposes only. Zendesk does not support or guarantee code. Zendesk also can't provide support for third-party technologies such as API or Shopify.</div></div>",
       "user_segment_ids": []
     },
     {
