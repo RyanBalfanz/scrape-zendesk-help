@@ -19,21 +19,21 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2025-09-22T11:40:30Z",
-      "updated_at": "2025-09-22T11:45:54Z",
+      "updated_at": "2025-09-22T14:05:28Z",
       "name": "Service Incident - September 22, 2025 - Pods 13, 15 and 27 | Workforce Management - Messaging unable to establish session with remote server",
       "title": "Service Incident - September 22, 2025 - Pods 13, 15 and 27 | Workforce Management - Messaging unable to establish session with remote server",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-09-22T11:40:42Z",
+      "edited_at": "2025-09-22T14:05:28Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
       "label_names": [
         "mt"
       ],
-      "body": "<h3 id=\"h_01K5RJJXB5MEPESEXDB8MBKTVC\"><span style=\"color: #06363c;\">Timeline</span></h3><p> </p><p><strong>September 22, 2025 11:40 UTC | 04:40 AM PT</strong></p><p>We are currently aware that some customers are encountering a \"Certificate Expired or Invalid\" error when accessing their Outlook application. Our engineering team has identified the root cause and is actively working on a resolution. We apologize for the inconvenience and appreciate your patience as we address this issue. We will provide updates as they become available.</p><p> </p><p><strong>September 22, 2025 07:13 UTC | 12:15 AM PT</strong></p><p>We have identified that some customers have been experiencing email processing issues via Support. Customers are encountering \"Certificate Expired or invalid\" error message.<br>Our engineers are actively investigating this issue. Updates will be provided as soon as it becomes available.<br>We appreciate your understanding as we work to resolve this issue.</p><p> </p><h3 id=\"h_01K5RJJXBA937WNPN6DWDXRA6X\"><span style=\"color: #06363c;\">Root Cause Analysis</span></h3><p>TBD</p><p> </p><h4 id=\"h_01K086AN7TN2VXG8HZSHSSG4DT\"><strong>FOR MORE INFORMATION</strong></h4><p>For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com/\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
+      "body": "<h3 id=\"h_01K5RJJXB5MEPESEXDB8MBKTVC\"><span style=\"color: #06363c;\">Timeline</span></h3><p><strong>September 22, 2025 14:05 UTC | 07:05 AM PT</strong></p><p>Our engineering team has addressed the \"Certificate Expired or Invalid\" error by deploying new certificates across all affected profiles. We kindly ask you to confirm if the issue has been resolved on your side. Should you experience any further problems, please reach out to us so we can assist promptly.</p><p> </p><p><strong>September 22, 2025 11:40 UTC | 04:40 AM PT</strong></p><p>We are currently aware that some customers are encountering a \"Certificate Expired or Invalid\" error when accessing their Outlook application. Our engineering team has identified the root cause and is actively working on a resolution. We apologize for the inconvenience and appreciate your patience as we address this issue. We will provide updates as they become available.</p><p> </p><p><strong>September 22, 2025 07:13 UTC | 12:15 AM PT</strong></p><p>We have identified that some customers have been experiencing email processing issues via Support. Customers are encountering \"Certificate Expired or invalid\" error message.<br>Our engineers are actively investigating this issue. Updates will be provided as soon as it becomes available.<br>We appreciate your understanding as we work to resolve this issue.</p><p> </p><h3 id=\"h_01K5RJJXBA937WNPN6DWDXRA6X\"><span style=\"color: #06363c;\">Root Cause Analysis</span></h3><p>TBD</p><p> </p><h4 id=\"h_01K086AN7TN2VXG8HZSHSSG4DT\"><strong>FOR MORE INFORMATION</strong></h4><p>For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com/\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
     },
     {
