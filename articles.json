@@ -341,14 +341,14 @@
       "vote_count": 0,
       "section_id": 8243870008090,
       "created_at": "2025-09-23T00:58:56Z",
-      "updated_at": "2025-09-30T15:03:17Z",
+      "updated_at": "2025-09-30T15:21:10Z",
       "name": "How does AI generative search choose which article to pull information from?",
       "title": "How does AI generative search choose which article to pull information from?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-09-23T16:12:14Z",
+      "edited_at": "2025-09-30T15:21:09Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -359,7 +359,7 @@
         "ab0_guide",
         "role_admin"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>Which data sources does generative search use? Does the <code>{{generative_answers}}</code> feature respect user access permissions? What AI model does the quick answer use?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>The generative search function respects the <a href=\"https://support.zendesk.com/hc/en-us/articles/4408837707290-Creating-user-segments-for-Guide-user-permissions\" target=\"_blank\" rel=\"noopener noreferrer\">user segments</a> that you set in the <a href=\"https://support.zendesk.com/hc/en-us/articles/9041943683354-Opening-the-help-center-and-accessing-Knowledge-admin\" target=\"_blank\" rel=\"noopener noreferrer\">Knowledge admin</a> settings. The quick answers that users see on your search results page will only be from articles that they have permission to access and view in your help center.</p><p>When a user searches in your help center with generative search enabled, generative AI evaluates the top matching articles and community posts, which then generates an answer. On Enterprise plans where <a href=\"https://support.zendesk.com/hc/en-us/articles/4593564000410-Setting-up-federated-search-in-your-help-center-using-a-search-crawler-or-the-API\" target=\"_blank\" rel=\"noopener noreferrer\">federated search</a> is enabled, quick answers can also pull from your indexed external content.</p><p>Quick answers use Generative AI from OpenAI's large language model (LLM). Zendesk leverages OpenAI’s \"zero data retention\" endpoints, meaning request and response bodies do not persist in any logging mechanism and exist only in memory in order to serve the request. OpenAI doesn't store any data following the delivery of the output.</p><p>For more information, see the article: <a href=\"https://support.zendesk.com/hc/en-us/articles/6059285322522-Generative-AI-at-Zendesk\" target=\"_blank\" rel=\"noopener noreferrer\">Generative AI at Zendesk</a>.</p>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>Which data sources does generative search use? Does the <code>{{generative_answers}}</code> feature respect user access permissions? What AI model does the quick answer use?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>The generative search function respects the <a href=\"https://support.zendesk.com/hc/en-us/articles/4408837707290-Creating-user-segments-for-Guide-user-permissions\" target=\"_blank\" rel=\"noopener noreferrer\">user segments</a> that you set in the <a href=\"https://support.zendesk.com/hc/en-us/articles/9041943683354-Opening-the-help-center-and-accessing-Knowledge-admin\" target=\"_blank\" rel=\"noopener noreferrer\">Knowledge admin</a> settings. The quick answers that users see on your search results page will only be from articles that they have permission to access and view in your help center.</p><p>When a user searches in your help center with generative search enabled, generative AI evaluates the top matching articles and community posts, which then generates an answer. On Enterprise plans where <a href=\"https://support.zendesk.com/hc/en-us/articles/4593564000410-Setting-up-federated-search-in-your-help-center-using-a-search-crawler-or-the-API\" target=\"_blank\" rel=\"noopener noreferrer\">federated search</a> is enabled, quick answers can also pull from your indexed external content.</p><p>Quick answers use Generative AI from OpenAI's large language model (LLM). Zendesk leverages OpenAI’s \"zero data retention\" endpoints, meaning request and response bodies do not persist in any logging mechanism and exist only in memory in order to serve the request. OpenAI doesn't store any data following the delivery of the output.</p><p>This applies to quick answers in both Help center generative search and the Knowledge context panel in Agent workspace. Quick answers in Agent workspace are available to customers with Agent workspace and Knowledge and do not require the Copilot add-on.</p><p>For more information, see the article: <a href=\"https://support.zendesk.com/hc/en-us/articles/6059285322522-Generative-AI-at-Zendesk\" target=\"_blank\" rel=\"noopener noreferrer\">Generative AI at Zendesk</a>.</p>",
       "user_segment_ids": []
     },
     {
