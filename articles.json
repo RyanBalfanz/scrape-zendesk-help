@@ -19,21 +19,21 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2025-10-06T14:50:22Z",
-      "updated_at": "2025-10-06T15:01:06Z",
+      "updated_at": "2025-10-06T15:46:01Z",
       "name": "Service Incident - October 06, 2025 - Multiple pods | Workforce Management - WFM degraded performance",
       "title": "Service Incident - October 06, 2025 - Multiple pods | Workforce Management - WFM degraded performance",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-10-06T14:55:55Z",
+      "edited_at": "2025-10-06T15:41:26Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
       "label_names": [
         "mt"
       ],
-      "body": "<h3 id=\"h_01JYK85Y9T0AHJER1Q121QPZR1\"><strong>SUMMARY</strong></h3><h3 id=\"h_01K6MNVSRY9CHPRF3DXYN0YRH6\"><strong>Timeline</strong></h3><p><strong>October 06, 2025 14:41 UTC | 07:41 AM PT</strong></p><p>We have received reports indicating that some users are experiencing difficulties accessing Workforce Management (WFM). Our engineering team is actively investigating the issue. We apologize for the inconvenience and will provide updates as more information becomes available.</p><p> </p><h4 id=\"h_01K086AN7TN2VXG8HZSHSSG4DT\"><strong>FOR MORE INFORMATION</strong></h4><p>For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com/\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
+      "body": "<h3 id=\"h_01JYK85Y9T0AHJER1Q121QPZR1\"><strong>SUMMARY</strong></h3><h3 id=\"h_01K6MNVSRY9CHPRF3DXYN0YRH6\"><strong>Timeline</strong></h3><p><strong>October 06, 2025 15:39 UTC | 08:39 AM PT</strong></p><p>We’ve received an update from our engineering team that the issue affecting access to Workforce Management (WFM) has been mitigated. We would appreciate your feedback on whether the system is now accessible. Should you continue to experience difficulties, please contact us so we can provide further assistance.</p><p> </p><p><strong>October 06, 2025 14:41 UTC | 07:41 AM PT</strong></p><p>We have received reports indicating that some users are experiencing difficulties accessing Workforce Management (WFM). Our engineering team is actively investigating the issue. We apologize for the inconvenience and will provide updates as more information becomes available.</p><p> </p><h4 id=\"h_01K086AN7TN2VXG8HZSHSSG4DT\"><strong>FOR MORE INFORMATION</strong></h4><p>For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com/\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
     },
     {
