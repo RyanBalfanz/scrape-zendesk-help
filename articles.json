@@ -1,5 +1,5 @@
 {
-  "count": 4854,
+  "count": 4855,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 162,
@@ -34,6 +34,37 @@
         "mt"
       ],
       "body": "<h3 id=\"h_01JYK85Y9T0AHJER1Q121QPZR1\"><strong>SUMMARY</strong></h3><h3 id=\"h_01K6MNVSRY9CHPRF3DXYN0YRH6\"><strong>Timeline</strong></h3><p><strong>October 06, 2025 14:41 UTC | 07:41 AM PT</strong></p><p>We have received reports indicating that some users are experiencing difficulties accessing Workforce Management (WFM). Our engineering team is actively investigating the issue. We apologize for the inconvenience and will provide updates as more information becomes available.</p><p> </p><h4 id=\"h_01K086AN7TN2VXG8HZSHSSG4DT\"><strong>FOR MORE INFORMATION</strong></h4><p>For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com/\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
+      "user_segment_ids": []
+    },
+    {
+      "id": 9793799570842,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9793799570842.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/9793799570842-Release-notes-through-2025-10-03",
+      "author_id": 1263082309989,
+      "comments_disabled": true,
+      "draft": false,
+      "promoted": true,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298847002,
+      "created_at": "2025-10-05T19:57:13Z",
+      "updated_at": "2025-10-06T15:31:13Z",
+      "name": "Release notes through 2025-10-03",
+      "title": "Release notes through 2025-10-03",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2025-10-06T15:31:13Z",
+      "user_segment_id": null,
+      "permission_group_id": 1324079,
+      "content_tag_ids": [],
+      "label_names": [
+        "mt",
+        "rank_low_algolia"
+      ],
+      "body": "<div class=\"note tip\">See our <a href=\"https://support.zendesk.com/hc/en-us/articles/9757314230682\" target=\"_blank\" rel=\"noopener noreferrer\">What's New</a> for an overview of what was released last month.</div><p>This week's release notes include:</p><ul>\n<li data-list-item-id=\"e536b1192fb18fe832a70b45511901943\"><a href=\"#h_01K69HAFNM357WAF4BAWDW7AD1\">Copilot</a></li>\n<li data-list-item-id=\"e52367b45b24b7962d65e8d2506d002bb\"><a href=\"#h_01K6TZMR5Y5WQM825XDTR93AMD\">App Marketplace</a></li>\n<li data-list-item-id=\"e53a89a1bebd79d8ce836dd174e5c45d4\"><a href=\"#h_01K6TZGGGMHETCP1NYPMTVT7XN\">Zendesk Workforce Management (WFM)</a></li>\n<li data-list-item-id=\"e066f89d56fdfe637a774f337a49d2836\"><a href=\"#h_01K6TZJ3JEFQF0VRH1MWQ9TKC4\">Products with no updates this week</a></li>\n</ul><p><span aria-label=\" \" data-stringify-type=\"paragraph-break\"></span></p><p><span aria-label=\" \" data-stringify-type=\"paragraph-break\"></span></p><h2 id=\"h_01K69HAFNM357WAF4BAWDW7AD1\">Copilot</h2><p><strong>New:</strong></p><ul>\n<li data-list-item-id=\"e4ab98e49dd92535ea1c5b17516a2ea7d\">Released <a href=\"https://support.zendesk.com/hc/en-us/articles/9774945282330-Announcing-use-of-custom-fields-in-entities-for-Zendesk-Copilot-customers\">custom fields in entities</a>.</li>\n<li data-list-item-id=\"eb1128cd401e77120592e99b7531ebdcf\">Released <a href=\"https://support.zendesk.com/hc/en-us/articles/9771088619418-Announcing-ticket-summaries-in-reporting-views-as-placeholders-and-via-the-API\">ticket summaries in reporting, views, as placeholders, and via the API.</a>\n</li>\n</ul><h2 id=\"h_01K6TZMR5Y5WQM825XDTR93AMD\">App Marketplace</h2><div><strong>New:</strong></div><ul>\n<li data-list-item-id=\"e4cfb879b59e40b6e756d3507a0cd094d\">\n<div>Ticket Time Analyser  <strong>(Support) (paid)</strong>\n</div>\n<ul><li data-list-item-id=\"e7704426af8f6d51de790b4ca77da61c8\"><div>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1167820/ticket-time-analyser/\">Ticket Time Analyser </a>is ideal for support teams who need detailed insights into ticket workflow through status changes. The app enhances your Zendesk experience by giving you access to real-time status tracking, time duration analysis, comprehensive  reporting, flexible analysis options, and performance insights.  Track things like average handling time per agent and ticket, monitor status change patterns and workflow efficiency, identify tickets with longer resolution times, and more.</div></li></ul>\n</li>\n<li data-list-item-id=\"e7afc1f44a1cdda5e617bca384bacb2eb\">\n<div>Time in Status <strong>(Support) (paid)</strong>\n</div>\n<ul><li data-list-item-id=\"ebf8403833fb5e1de422533e54c338acb\">\n<div>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1165185/time-in-status/\">Time in Status </a>helps you analyze how long each ticket spends in different statuses within Zendesk.</div>\n<p>By providing a clear breakdown of ticket timelines, the app allows support teams to identify workflow delays, improve SLAs, and boost overall productivity.</p>\n</li></ul>\n</li>\n<li data-list-item-id=\"e6b43af7f78f87c0fae23b8c3ac994e02\">\n<div>Send Self-Service <strong>(Support)</strong>\n</div>\n<ul><li data-list-item-id=\"e8e29ae4e61a3c4ccf970cf1af369a169\">\n<div>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1151206/send-self-service/\">Send Self-Service </a>streamlines customer interactions by enabling agents to instantly share secure digital forms, interactive flows, and self-service tasks directly within tickets.  </div>\n<div> </div>\n</li></ul>\n</li>\n</ul><h2 id=\"h_01K6TZGGGMHETCP1NYPMTVT7XN\">Zendesk Workforce Management (WFM)</h2><p><strong>New:</strong></p><ul><li data-list-item-id=\"ec0299cf73f144c91761f23498b9205ec\">Added bulk actions for assigning and unassigning users to or from WFM teams.</li></ul><h2 id=\"h_01K6TZJ3JEFQF0VRH1MWQ9TKC4\">Products with no updates this week</h2><ul>\n<li data-list-item-id=\"e3533aff889a180cec1737636532a2cd7\">Support</li>\n<li data-list-item-id=\"e01c9068bf4bf664d5dbeb5f152101bf1\">AI Agents Advanced</li>\n<li data-list-item-id=\"e4f4e8744e50fb30c3516eb49b8f23589\">Admin Center</li>\n<li data-list-item-id=\"e10107cfa51055a2843fc8c484c48515f\">Voice</li>\n<li data-list-item-id=\"efcae1fb4e8715c4d73a1e8aa5e582113\">Knowledge</li>\n<li data-list-item-id=\"ec417097dc29c856a59f55bf84c67e6b3\">Messaging and live chat</li>\n<li data-list-item-id=\"ede1f36e27db3ae013917297c0513f7cf\">Mobile</li>\n<li data-list-item-id=\"e50c20220fe571548655cf1858ebec792\">Explore</li>\n<li data-list-item-id=\"ecc8a60e7af7a313c5447524e6c73e42a\">Zendesk QA</li>\n</ul>",
       "user_segment_ids": []
     },
     {
@@ -938,34 +969,6 @@
         "role_admin"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>Why does my dynamic <a href=\"https://support.zendesk.com/hc/en-us/articles/8357749513370\">carousel</a> for my advanced AI agent fail to load?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>This error may occur even when everything is set up correctly. If the dynamic carousel intermittently fails to load, it could be due to the API integration not returning a properly formatted array that the carousel can read.</p><p>This block expects a <a href=\"https://support.zendesk.com/hc/en-us/articles/8357749513370-Using-carousels-in-conversation-flows-for-advanced-AI-agents#topic_bzz_fmq_xfc\" target=\"_blank\" rel=\"noopener noreferrer\">parameter of type</a> \"array\". However, some API endpoints may not always return an array, especially when only one product is found. Instead of wrapping the single item in an array, the response may return just the item itself. Without an array in the payload, the carousel will fail to load.</p><p>Here are the symptoms of this behavior:</p><figure class=\"wysiwyg-image\"><img style=\"aspect-ratio: 789/636;\" src=\"https://support.zendesk.com/hc/article_attachments/9749584145306\" width=\"789\" height=\"636\"></figure><p>A <strong>Technical error reply</strong> is observed from the conversation logs, although there aren't many hints on what the error is.</p><p>Inspecting the Network tab in the browser’s Developer Tools reveals that the carousel array is returned empty:</p><figure class=\"wysiwyg-image\"><img style=\"aspect-ratio: 1688/486;\" src=\"https://support.zendesk.com/hc/article_attachments/9749584145690\" width=\"1688\" height=\"486\"></figure><p>To fix this issue, update the JSONata query in the API integration to handle non-array responses and return a structure the carousel can process.</p><p>To illustrate, here’s a sample case:</p><div><pre>data.payload.items.{\n  \"title\": title,\n  \"description\": description,\n  \"imageURL\": imageURL\n}</pre></div><p>To avoid this issue, apply the following workaround by wrapping the data.payload object:</p><pre>($items := data.payload.items; $exists($items[0]) ? $items : [$items])</pre><p>This ensures the carousel functions correctly, even when only a single result is returned.</p><p>When an endpoint returns just one product instead of an array, the \"products\" parameter won’t appear in the response:</p><figure class=\"wysiwyg-image\"><img style=\"aspect-ratio: 1297/430;\" src=\"https://support.zendesk.com/hc/article_attachments/9749611114650\" width=\"1297\" height=\"430\"></figure><p>The object <code>data</code> is not returning an array, and from the API integration settings, we can see that the test fails to retrieve data because it expects a <code>products</code> parameter, which is not returned when only one item is found.</p><p>The <code>data</code> object does not return an array, and the API integration test fails because it expects a <code>products</code> <code>parameter</code> that isn’t included when only a single item is returned.</p><p>To resolve this issue, you can use the following example:</p><pre>($data := data; $exists($data.products) ? $data.products[[0..2]] : [$data]).{\n  \"title\": title,\n  \"description\": $length(description)  128 ? $substring(description, 0, 125) &amp; \"...\" : description,\n  \"thumbnail\": thumbnail,\n  \"id\": id\n}</pre><p> </p><figure class=\"wysiwyg-image\"><img style=\"aspect-ratio: 1248/824;\" src=\"https://support.zendesk.com/hc/article_attachments/9749584145946\" width=\"1248\" height=\"824\"></figure><div class=\"note\">\n<span class=\"notetitle\"><strong>Disclaimer</strong>:</span> This article is provided for instructional purposes only. Zendesk does not provide support for custom code or JSONata queries, and cannot guarantee their functionality. Post any issues you have in the comments section or try searching for a solution online.</div><p>For more information, see the following articles:</p><ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/8357756877466-Using-JSONata-with-advanced-AI-agents\" target=\"_blank\" rel=\"noopener noreferrer\">Using JSONata with advanced AI agents</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/8357756884250-JSONata-reference-for-advanced-AI-agents\" target=\"_blank\" rel=\"noopener noreferrer\">JSONata reference for advanced AI agents</a></li>\n</ul>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 9731451139098,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9731451139098.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/9731451139098-Workflows-Engage-Legacy",
-      "author_id": 1264034018590,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 9734153560474,
-      "created_at": "2025-09-18T22:37:23Z",
-      "updated_at": "2025-09-26T23:52:26Z",
-      "name": "Workflows (Engage Legacy)",
-      "title": "Workflows (Engage Legacy)",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2025-09-26T23:52:26Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801242670,
-      "content_tag_ids": [],
-      "label_names": [],
-      "body": "<p>Use Workflows to suggest, automate and enforce certain activities during a customer interaction.</p>\n\n<h2>How to access Workflows</h2><p>To access workflows you need administrator access. Click on the cogs icon on the left-hand side of the screen to open <strong>Administrator Settings</strong> and select the <strong>Workflows </strong>tab.</p><div><img src=\"https://support.zendesk.com/hc/article_attachments/9731500588954\" width=\"auto\" height=\"auto\" alt=\"\"></div><p>There are five key aspects that you can manage with a workflow:</p><ul>\n<li>\n<strong>Auto-accept:</strong> Incoming contacts can automatically be accepted when you have no active chats or calls.</li>\n<li>\n<strong>Profile creation:</strong> When no existing match is found you can choose to automatically create a new profile, give agents a chance to review contact attributes before creation, or allow agents to fill in details.</li>\n<li>\n<strong>Automatic messages:</strong> Send or suggest messages for new conversations or extended idle periods.</li>\n<li>\n<strong>Interface extensions:</strong> Decide which utilities to display to the agent and where on the Engage desktop they should appear. Choose between the <em>Main Panel</em> or the <em>Side Panel</em>.</li>\n<li>\n<strong>After Contact Work: </strong>Choose the actions agents need to take before closing a contact. These workflows will be applied to all channels (chat, calls and tasks).</li>\n</ul><h2>Default Workflow</h2><p>Each workspace has a default workflow. When you first start using workflows, the following default settings apply:</p><div>\n<table>\n<thead>\n<tr>\n<th>Section</th>\n<th>Default settings</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Auto-accept</td>\n<td>Voice calls - Revert to user-level setting in Connect</td>\n</tr>\n<tr>\n<td></td>\n<td>Webchat and social channels - Never</td>\n</tr>\n<tr>\n<td></td>\n<td>Tasks - Never</td>\n</tr>\n<tr>\n<td>Profile creation</td>\n<td>Prompt agents to review before creating new profiles</td>\n</tr>\n<tr>\n<td>Automatic messages</td>\n<td>These messages are off by default</td>\n</tr>\n<tr>\n<td>After Contact Work</td>\n<td>Internal notes - Optional</td>\n</tr>\n<tr>\n<td></td>\n<td>Resolution Codes - Optional</td>\n</tr>\n<tr>\n<td></td>\n<td>Ignore workflow for specific cases - Off</td>\n</tr>\n</tbody>\n</table>\n</div><h2>Custom Workflow<br>\n</h2><p>You can create a custom workflow to override the default settings.</p><div><img src=\"https://support.zendesk.com/hc/article_attachments/9731476743834\" width=\"auto\" height=\"auto\" alt=\"\"></div><p>‍</p>",
       "user_segment_ids": []
     }
   ],
