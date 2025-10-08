@@ -19,21 +19,21 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2025-10-08T17:31:22Z",
-      "updated_at": "2025-10-08T19:01:18Z",
+      "updated_at": "2025-10-08T19:46:21Z",
       "name": "Service Incident - October 8, 2025 - Pod 27 | Support - Pod 27 tickets not transferring through Omnichannel routing",
       "title": "Service Incident - October 8, 2025 - Pod 27 | Support - Pod 27 tickets not transferring through Omnichannel routing",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-10-08T18:52:07Z",
+      "edited_at": "2025-10-08T19:36:35Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
       "label_names": [
         "mt"
       ],
-      "body": "<h3 id=\"h_01JYK85Y9T0AHJER1Q121QPZR1\"><span style=\"color: #434343;\"><strong>SUMMARY</strong></span></h3><p><strong>October 8, 2025 19:51 UTC | October 8, 2025 11:51 AM PT</strong></p><p>Our team continues to investigate solutions for the issue preventing tickets from assigning through Omnichannel routing on Pod 27. Manual routing of tickets can help to work around some individual cases while our team works to mitigate the impact. We will post further updates when we have new information to share.</p><p><strong>October 8, 2025 18:45 UTC | October 8, 2025 10:45 AM PT</strong></p><p>We have confirmed an issue with Omnichannel routing in Pod 27 causing tickets to not route automatically as expected. Manual routing of these tickets is still functioning in the meantime. We will provide additional information when we have a substantive update to share.</p><p><strong>October 8, 2025 18:30 UTC | October 8, 2025 10:30 AM PT</strong></p><p>We are receiving reports of Omnichannel routing issues on Pod 27, causing tickets to not route automatically. Manual routing is still functioning at this time. Our team is investigating and we will provide further updates shortly.</p><p> </p><h4 id=\"h_01K086AN7TN2VXG8HZSHSSG4DT\"><strong>FOR MORE INFORMATION</strong></h4><p>For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com/\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
+      "body": "<h3 id=\"h_01JYK85Y9T0AHJER1Q121QPZR1\"><span style=\"color: #434343;\"><strong>SUMMARY</strong></span></h3><p><strong>October 8, 2025 20:36 UTC | October 8, 2025 12:36 PM PT</strong><br><br>We are beginning to see improvement from the issue preventing Omnichannel ticket routing for Pod 27 customers. Our team is monitoring recovery, but please let us know if you continue to experience any issues.<br><br><strong>October 8, 2025 19:51 UTC | October 8, 2025 11:51 AM PT</strong></p><p>Our team continues to investigate solutions for the issue preventing tickets from assigning through Omnichannel routing on Pod 27. Manual routing of tickets can help to work around some individual cases while our team works to mitigate the impact. We will post further updates when we have new information to share.</p><p><strong>October 8, 2025 18:45 UTC | October 8, 2025 10:45 AM PT</strong></p><p>We have confirmed an issue with Omnichannel routing in Pod 27 causing tickets to not route automatically as expected. Manual routing of these tickets is still functioning in the meantime. We will provide additional information when we have a substantive update to share.</p><p><strong>October 8, 2025 18:30 UTC | October 8, 2025 10:30 AM PT</strong></p><p>We are receiving reports of Omnichannel routing issues on Pod 27, causing tickets to not route automatically. Manual routing is still functioning at this time. Our team is investigating and we will provide further updates shortly.</p><p> </p><h4 id=\"h_01K086AN7TN2VXG8HZSHSSG4DT\"><strong>FOR MORE INFORMATION</strong></h4><p>For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com/\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
     },
     {
