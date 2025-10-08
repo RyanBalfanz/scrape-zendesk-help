@@ -1,8 +1,8 @@
 {
-  "count": 4861,
+  "count": 4860,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
-  "page_count": 163,
+  "page_count": 162,
   "per_page": 30,
   "previous_page": null,
   "articles": [
@@ -182,21 +182,21 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2025-10-07T10:35:22Z",
-      "updated_at": "2025-10-08T15:30:55Z",
+      "updated_at": "2025-10-08T16:31:22Z",
       "name": "Service Incident - October 07, 2025 - Multiple pods | Support - Unable to update ticket | Error: an app has timed out and has prevented the submission of the ticket.",
       "title": "Service Incident - October 07, 2025 - Multiple pods | Support - Unable to update ticket | Error: an app has timed out and has prevented the submission of the ticket.",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-10-08T15:26:27Z",
+      "edited_at": "2025-10-08T16:16:12Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
       "label_names": [
         "mt"
       ],
-      "body": "<h3 id=\"h_01JYK85Y9T0AHJER1Q121QPZR1\"><strong>SUMMARY</strong></h3><h3 id=\"h_01K6MNVSRY9CHPRF3DXYN0YRH6\"><strong>Timeline</strong></h3><p><strong>October 08, 2025 15:21 UTC | October 07, 2025 08:21 AM PT</strong></p><p>Our engineering team has confirmed that you can now safely re-enable the AppReview plugin if it was disabled as a temporary workaround. We encourage you to provide feedback on whether the ticket submission is now functioning correctly. Should the issue continue, please don’t hesitate to contact us. We apologize for the inconvenience caused and appreciate your cooperation as we work toward a full resolution. We will share updates as they become available.</p><p><strong>October 07, 2025 10:59 UTC | October 07, 2025 03:59 AM PT</strong></p><p>Our engineers have identified the cause of the issue and recommend the following temporary workaround while they work on a permanent fix:</p><ul dir=\"auto\">\n<li data-list-item-id=\"e0931e5bd752d2f7b4931a3bdeaee77e3\">Disable the AppReviews by AppFollow</li>\n<li data-list-item-id=\"e45003ba13ef3ccba508f7222489cb7cd\">Relaunch the ticket console</li>\n</ul><p>Please let us know if this resolves the issue on your end. Should the problem persist, do not hesitate to contact us for further assistance.</p><p><strong>October 07, 2025 10:18 UTC | October 07, 2025 03:18 AM PT</strong></p><p>We have received reports of customers experiencing difficulties updating and submitting tickets in Zendesk Support. Our engineers are actively investigating the issue. We apologize for the inconvenience caused and will provide updates as they become available.</p><p> </p><h4 id=\"h_01K086AN7TN2VXG8HZSHSSG4DT\"><strong>FOR MORE INFORMATION</strong></h4><p>For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com/\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
+      "body": "<h3 id=\"h_01JYK85Y9T0AHJER1Q121QPZR1\"><strong>SUMMARY</strong></h3><h3 id=\"h_01K6MNVSRY9CHPRF3DXYN0YRH6\"><strong>Timeline</strong></h3><p><strong>October 08, 2025 16:13 UTC | October 07, 2025 09:13 AM PT</strong></p><p>We are pleased to inform you that the issue where customers are getting time-out errors when submitting tickets has been fixed. We appreciate your patience as our team worked diligently to resolve this issue.</p><p><strong>October 08, 2025 15:21 UTC | October 07, 2025 08:21 AM PT</strong></p><p>Our engineering team has confirmed that you can now safely re-enable the AppReview plugin if it was disabled as a temporary workaround. We encourage you to provide feedback on whether the ticket submission is now functioning correctly. Should the issue continue, please don’t hesitate to contact us. We apologize for the inconvenience caused and appreciate your cooperation as we work toward a full resolution. We will share updates as they become available.</p><p><strong>October 07, 2025 10:59 UTC | October 07, 2025 03:59 AM PT</strong></p><p>Our engineers have identified the cause of the issue and recommend the following temporary workaround while they work on a permanent fix:</p><ul dir=\"auto\">\n<li data-list-item-id=\"e0931e5bd752d2f7b4931a3bdeaee77e3\">Disable the AppReviews by AppFollow</li>\n<li data-list-item-id=\"e45003ba13ef3ccba508f7222489cb7cd\">Relaunch the ticket console</li>\n</ul><p>Please let us know if this resolves the issue on your end. Should the problem persist, do not hesitate to contact us for further assistance.</p><p><strong>October 07, 2025 10:18 UTC | October 07, 2025 03:18 AM PT</strong></p><p>We have received reports of customers experiencing difficulties updating and submitting tickets in Zendesk Support. Our engineers are actively investigating the issue. We apologize for the inconvenience caused and will provide updates as they become available.</p><p> </p><h4 id=\"h_01K086AN7TN2VXG8HZSHSSG4DT\"><strong>FOR MORE INFORMATION</strong></h4><p>For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com/\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
     },
     {
@@ -423,7 +423,7 @@
       "vote_count": 0,
       "section_id": 4405303738522,
       "created_at": "2025-10-03T12:49:42Z",
-      "updated_at": "2025-10-07T15:07:27Z",
+      "updated_at": "2025-10-08T16:20:54Z",
       "name": "How can I check my WhatsApp usage in WhatsApp Manager?",
       "title": "How can I check my WhatsApp usage in WhatsApp Manager?",
       "source_locale": "en-us",
