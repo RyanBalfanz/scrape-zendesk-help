@@ -1,11 +1,41 @@
 {
-  "count": 4855,
+  "count": 4856,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 162,
   "per_page": 30,
   "previous_page": null,
   "articles": [
+    {
+      "id": 9803704225562,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9803704225562.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/9803704225562-Service-Incident-October-8th-2025",
+      "author_id": 1900815493464,
+      "comments_disabled": true,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298854426,
+      "created_at": "2025-10-08T06:58:20Z",
+      "updated_at": "2025-10-08T07:01:21Z",
+      "name": "Service Incident - October 8th, 2025",
+      "title": "Service Incident - October 8th, 2025",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2025-10-08T06:59:39Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801242670,
+      "content_tag_ids": [],
+      "label_names": [
+        "mt"
+      ],
+      "body": "<h3 id=\"h_01K719P8PK3E19AS92DS6ANV93\"><span style=\"color: #06363c;\"><strong>SUMMARY</strong></span></h3><p class=\"wysiwyg-text-align-justify\"><strong>October 8, 2025 06:56 AM UTC | October 7, 2025 11:56 PM PT</strong></p><p class=\"wysiwyg-text-align-justify\">We are currently aware of the issue affecting accessing and loading dashboards to reporting using the Zendesk Analytics. Our Engineering Team is actively investigating the matter, and we will provide an update as soon as possible. Thank you for your patience and understanding.</p><p class=\"wysiwyg-text-align-justify\"> </p><p><strong>POST-MORTEM</strong></p><p>TBD</p><p><strong>FOR MORE INFORMATION</strong></p><p><span style=\"background-color: #fefaf2; color: #16140c;\">For current system status information about Zendesk and specific impacts to your account, visit our </span><a href=\"https://status.zendesk.com/\"><span class=\"wysiwyg-underline\">system status page</span></a><span style=\"background-color: #fefaf2; color: #16140c;\">. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, </span><a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\"><span class=\"wysiwyg-underline\">contact Zendesk customer support.</span></a></p>",
+      "user_segment_ids": []
+    },
     {
       "id": 9801393318938,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9801393318938.json",
@@ -940,37 +970,6 @@
         "role_admin"
       ],
       "body": "<h2 id=\"h_01J450VHJXQ2BDAYZR4RE1MPMZ\">Issue symptoms</h2><ul>\n<li>When using messaging and with the help center set to “require sign in” mode, generative AI responses are not working for questions asked through the AI agent or chatbot.</li>\n<li>The AI does not generate a reply to known knowledge base content and displays the message: <strong>Sorry I couldn't answer your question</strong>.</li>\n<li>You are not using intents or answers, and have set “Questions without matching intents” to \"Generate a reply”.</li>\n</ul><h2 id=\"h_01J450WAKK2592PRVDA0W1WM0M\">Resolution steps</h2><p>When signed-in users do not receive an answer from existing help center content that is restricted to signed-in users, check the <a href=\"https://support.zendesk.com/hc/en-us/articles/4411666638746-Setting-up-user-authentication-for-messaging\" target=\"_blank\" rel=\"noopener noreferrer\">authentication method</a> you have in place for your users.</p><p>If the SSO method that you have is SAML, this can prevent the AI agent from suggesting content from a restricted help center.</p><p>To address this problem, use JWT to authenticate your users in the Web Widget instead.</p><p>For more information, see the article: <a href=\"https://support.zendesk.com/hc/en-us/articles/8087943201306#topic_xld_jbr_vcc\" target=\"_blank\" rel=\"noopener noreferrer\">Using restricted help center content in AI agent responses</a>.</p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 9743389957914,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9743389957914.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/9743389957914-Release-notes-through-2025-09-19",
-      "author_id": 1263082309989,
-      "comments_disabled": true,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 1,
-      "vote_count": 1,
-      "section_id": 4405298847002,
-      "created_at": "2025-09-22T14:45:43Z",
-      "updated_at": "2025-09-29T01:14:49Z",
-      "name": "Release notes through 2025-09-19",
-      "title": "Release notes through 2025-09-19",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2025-09-22T14:55:42Z",
-      "user_segment_id": null,
-      "permission_group_id": 1324079,
-      "content_tag_ids": [],
-      "label_names": [
-        "mt",
-        "rank_low_algolia"
-      ],
-      "body": "<div class=\"note tip\">See our <a href=\"https://support.zendesk.com/hc/en-us/articles/9642327422874\" target=\"_blank\" rel=\"noopener noreferrer\">What's New</a> for an overview of what was released last month.</div><p>This week's release notes include:</p><ul>\n<li><a href=\"#h_01K4K7CQ1SVY54CWT2WZK2JP6X\">Support</a></li>\n<li><a href=\"#h_01K5RYHN602BKFNZ08Q9DFB4WE\">AI Agents Advanced</a></li>\n<li><a href=\"#h_01K5RYHCKT7V4D4XHDTB4A0HG9\">Products with no updates this week</a></li>\n</ul><h2 id=\"h_01K4K7CQ1SVY54CWT2WZK2JP6X\">Support</h2><p><span data-renderer-mark=\"true\" data-text-custom-color=\"#ff00ff\"><strong data-renderer-mark=\"true\">New:</strong></span></p><ul data-indent-level=\"1\"><li><p data-renderer-start-pos=\"56\">We released <a href=\"https://support.zendesk.com/hc/en-us/articles/9703831101978-Announcing-incremental-export-APIs-for-custom-object-records\" title=\"https://support.zendesk.com/hc/en-us/articles/9703831101978-Announcing-incremental-export-APIs-for-custom-object-records\" data-renderer-mark=\"true\">incremental export APIs for custom objects </a>to help customers build reports on their custom object data in external reporting tools.</p></li></ul><h2 id=\"h_01K5RYHN602BKFNZ08Q9DFB4WE\">AI Agents Advanced</h2><p><strong>New:</strong></p><ul data-stringify-type=\"unordered-list\" data-list-tree=\"true\" data-indent=\"0\" data-border=\"0\">\n<li data-stringify-indent=\"0\" data-stringify-border=\"0\">CSAT: Agents can rate their own tickets where they are requestors. For this to work in messaging, help center authentication must be enabled in the Web Widget. See <a href=\"https://support.zendesk.com/hc/en-us/articles/9495852479770-Turning-help-center-authentication-for-messaging-on-and-off#topic_hrn_ljd_1gc\" target=\"_blank\" rel=\"noopener noreferrer\" data-stringify-link=\"https://support.zendesk.com/hc/en-us/articles/9495852479770-Turning-help-center-authentication-for-messaging-on-and-off#topic_hrn_ljd_1gc\" data-sk=\"tooltip_parent\">Turning on help center authentication</a>\n</li>\n<li>Service catalog: Released the <a href=\"https://support.zendesk.com/hc/en-us/articles/9627766183194-Announcing-the-unified-request-view\">unified request view</a>.</li>\n</ul><div><strong data-stringify-type=\"bold\">Fixed:</strong></div><ul><li><div>CSAT: Agents can no longer change a CSAT score for tickets they are not requestors of if they discover a link.</div></li></ul><h2 id=\"h_01K5RYHCKT7V4D4XHDTB4A0HG9\">Products with no updates this week</h2><ul>\n<li>Admin Center</li>\n<li>Voice</li>\n<li>Copilot</li>\n<li>Knowledge</li>\n<li>Messaging and live chat</li>\n<li>Mobile</li>\n<li>Explore</li>\n<li>App Marketplace</li>\n<li>Zendesk Workforce Management (WFM)</li>\n<li>Zendesk QA</li>\n</ul>",
       "user_segment_ids": []
     }
   ],
