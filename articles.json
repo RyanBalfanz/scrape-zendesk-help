@@ -1,5 +1,5 @@
 {
-  "count": 4864,
+  "count": 4865,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 163,
@@ -34,6 +34,39 @@
         "mt"
       ],
       "body": "<h3 id=\"h_01K762TD1RN9GVX774FJMKQZPD\"><span style=\"color: #06363c;\"><strong>SUMMARY</strong></span></h3><p class=\"wysiwyg-text-align-justify\"><strong>October 10, 2025 03:32 AM UTC | October 9, 2025 08:32 PM PT</strong></p><p class=\"wysiwyg-text-align-justify\">We are aware of an issue with Zendesk Talk causing the error message, \"Talk is unavailable right now.\" Our engineering team implemented a fix. Please refresh your browser and try again. Thank you for your patience and cooperation.</p><p><strong>POST-MORTEM</strong></p><p>TBD</p><p><strong>FOR MORE INFORMATION</strong></p><p><span style=\"background-color: #fefaf2; color: #16140c;\">For current system status information about Zendesk and specific impacts to your account, visit our </span><a href=\"https://status.zendesk.com/\"><span class=\"wysiwyg-underline\">system status page</span></a><span style=\"background-color: #fefaf2; color: #16140c;\">. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, </span><a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\"><span class=\"wysiwyg-underline\">contact Zendesk customer support.</span></a></p>",
+      "user_segment_ids": []
+    },
+    {
+      "id": 9809925062682,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9809925062682.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/9809925062682-How-does-Zendesk-handle-data-privacy-for-AI-products",
+      "author_id": 8284543895322,
+      "comments_disabled": false,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 8243870008090,
+      "created_at": "2025-10-09T17:07:48Z",
+      "updated_at": "2025-10-10T10:14:20Z",
+      "name": "How does Zendesk handle data privacy for AI products?",
+      "title": "How does Zendesk handle data privacy for AI products?",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2025-10-09T18:08:59Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801135069,
+      "content_tag_ids": [],
+      "label_names": [
+        "ks",
+        "ab0",
+        "ab0_bots_automation",
+        "role_admin"
+      ],
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>How does Zendesk handle data privacy for AI products? I need a copy of the Data Processing Agreement (DPA).</p><p>How confident are you at Zendesk that your LLM (large language model) tool can accurately identify health data shared by users? And what safeguards do you have in place to protect this sensitive information?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>Zendesk follows <a href=\"https://www.zendesk.com/newsroom/articles/building-responsible-ai/\" target=\"_blank\" rel=\"noopener noreferrer\">design principles</a> for AI products that prioritize privacy, security, and compliance by design. For more details, refer to the <a href=\"https://www.zendesk.com/company/data-processing-agreement/\" target=\"_blank\" rel=\"noopener noreferrer\">Data Processing Agreement</a>.</p><p>Zendesk sets a <a href=\"https://support.zendesk.com/hc/en-us/articles/8357749625498-About-confidence-thresholds-for-advanced-AI-agents\" target=\"_blank\" rel=\"noopener noreferrer\">confidence threshold</a> to find data and shows how sure it is about each message to reduce errors. You can adjust this threshold to balance accuracy and responses.</p><p>It's important to note that Zendesk uses proprietary machine learning models that are not generative in nature. Because the outputs of these models are labels rather than passages of free text, images, or code, they do not create the risk of customer data being reproduced or shared in an improper context.</p><p>For more information, see the following articles:</p><ul>\n<li data-list-item-id=\"e5ebe13a0367a5ea8e939dd3366f8d224\"><a href=\"https://support.zendesk.com/hc/en-us/articles/5729714731290-Zendesk-AI-Data-Use-Information\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk AI Data Use Information</a></li>\n<li data-list-item-id=\"e18cc729fc12467b720194b63015ba2c1\"><a href=\"https://support.zendesk.com/hc/en-us/articles/7412310217370-Complying-with-Privacy-and-Data-Protection-Law-in-AI-agents-Advanced-Ultimate\" target=\"_blank\" rel=\"noopener noreferrer\">Complying with Privacy and Data Protection Law in AI agents - Advanced (Ultimate)</a></li>\n<li data-list-item-id=\"ee36281fea293365030e0044903b9c774\"><a href=\"https://support.zendesk.com/hc/en-us/articles/4408834005530-Complying-with-Privacy-and-Data-Protection-Law-in-Zendesk-products\" target=\"_blank\" rel=\"noopener noreferrer\">Complying with Privacy and Data Protection Law in Zendesk products</a></li>\n<li data-list-item-id=\"ecbf0d13976143f2849ff577683c54b94\"><a href=\"https://support.zendesk.com/hc/en-us/articles/6059285322522-Generative-AI-at-Zendesk\" target=\"_blank\" rel=\"noopener noreferrer\">Generative AI at Zendesk</a></li>\n</ul><div class=\"p\"><div class=\"note important\">\n<span class=\"importanttitle\">Disclaimer: </span>This article is for informational purposes only and does not constitute legal advice. Readers should always seek legal advice before taking any action with respect to the matters discussed herein.</div></div>",
       "user_segment_ids": []
     },
     {
@@ -922,36 +955,6 @@
         "ab0_bots_automation"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>What happens if I exceed the limit for generative search to provide AI-powered answers to search queries?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>You can choose how your account responds when you reach your automated resolution limit.</p><p>To continue using all functionality of your AI agents at an additional cost, select <strong>Maintain functionality and allow overage</strong>. This lets AI agents continue to serve customers after you exceed your account’s baseline or purchased automated resolutions. When you select this option, your account will be charged for pay-as-you-go automated resolutions when you reach your automated resolution limit.</p><p>To prevent further costs once you reach your automated resolution limit, select <strong>Pause functionality and don't allow overage</strong>. This means your AI agents won't be able to serve customers anymore, and more requests will be routed to live agents. Your settings remain the same while paused and will resume when automated resolutions become available again.</p><p>Impacted capabilities include:</p><div><ul id=\"topic_wxf_zdh_bdc__ul_okr_g33_bdc\">\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/6958358659226-Managing-your-automated-resolutions#topic_l34_b33_bdc\">AI agents for messaging</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/6958358659226-Managing-your-automated-resolutions#topic_ipt_b33_bdc\">Proactive messaging</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/6958358659226-Managing-your-automated-resolutions#topic_uzb_c33_bdc\">AI agents for email and web forms</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/6958358659226-Managing-your-automated-resolutions#topic_frm_c33_bdc\">Article recommendations (Web Widget Classic)</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/6958358659226-Managing-your-automated-resolutions#topic_uqd_tbw_ldc\">AI agents - Advanced</a></li>\n</ul></div><p><img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/bot_overage_limit.png\" alt=\"automated resolution overage\" width=\"735\" height=\"394\"></p><p>For more information, see these articles:</p><ul>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/6958358659226-Managing-your-automated-resolutions\" target=\"_blank\" rel=\"noopener noreferrer\">Managing your automated resolutions</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/8922391373978-Monitoring-automated-resolution-usage\" target=\"_blank\" rel=\"noopener noreferrer\">Monitoring automated resolution usage</a></li>\n<li><a href=\"https://support.zendesk.com/hc/en-us/articles/7043105495706-Reviewing-AI-agent-conversation-transcripts\" target=\"_blank\" rel=\"noopener noreferrer\">Reviewing AI agent conversation transcripts</a></li>\n</ul>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 9745577593242,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9745577593242.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/9745577593242-Emergency-Maintenance-September-26-2025-Support-Knowledge-Voice-Database-Update",
-      "author_id": 1263082110769,
-      "comments_disabled": true,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405298854426,
-      "created_at": "2025-09-23T02:58:22Z",
-      "updated_at": "2025-10-10T05:38:21Z",
-      "name": "Emergency Maintenance - September 26, 2025 | Support, Knowledge & Voice Database Update",
-      "title": "Emergency Maintenance - September 26, 2025 | Support, Knowledge & Voice Database Update",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2025-09-23T04:48:30Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801242670,
-      "content_tag_ids": [],
-      "label_names": [
-        "mt"
-      ],
-      "body": "<p><span style=\"font-weight: 400;\">Zendesk will perform emergency maintenance which will impact performance for some customers on Pod 19 using Support, Knowledge and Voice, during the time listed below.</span></p><p><strong>Affected products: </strong><span style=\"font-weight: 400;\">Support, </span><span style=\"font-weight: 400;\">Knowledge</span><span style=\"font-weight: 400;\"> and Voice interfaces and APIs may be unreachable. All other products reliant on Support, </span><span style=\"font-weight: 400;\">Knowledge</span><span style=\"font-weight: 400;\"> and Voice data may have a degraded experience.</span></p><div class=\"note\">\n<span class=\"notetitle\"><strong>Important: </strong></span>Impacted customers will be notified through the in-product messaging banner in Support. If neither the account owner nor any admin sees the banner overlayed at the top of the Support interface, your account will not be impacted.</div><div class=\"p\"><div class=\"note tip\">\n<span class=\"tiptitle\"><strong>Customers Affected: </strong></span>Zendesk customers on a single database cluster will experience a maximum service disruption of 3 minutes at some time within the maintenance window.</div></div><table style=\"height: 150px; margin-left: 0px; margin-right: auto;\" width=\"562\">\n  <tbody>\n    <tr>\n      <td class=\"wysiwyg-text-align-center\" style=\"width: 190.521px;\">\n        <p>\n          <strong>Date</strong>\n        </p>\n      </td>\n      <td class=\"wysiwyg-text-align-center\" style=\"width: 56.0243px;\">\n        <p>\n          <a href=\"https://support.zendesk.com/hc/en-us/articles/4408829092506-What-is-a-Pod\" target=\"_self\"><strong>POD</strong></a>\n        </p>\n      </td>\n      <td class=\"wysiwyg-text-align-center\" style=\"width: 134.931px;\">\n        <p>\n          <strong>Start Time</strong>\n        </p>\n      </td>\n      <td class=\"wysiwyg-text-align-center\" style=\"width: 134.965px;\">\n        <p>\n          <strong>End Time</strong>\n        </p>\n      </td>\n    </tr>\n    <tr>\n      <td style=\"width: 190.521px;\">\n        <p>\n          <span style=\"font-weight: 400;\">September 26, 2025</span>\n        </p>\n      </td>\n      <td class=\"wysiwyg-text-align-center\" style=\"width: 56.0243px;\">\n        <p>\n          <span style=\"font-weight: 400;\"> 19</span>\n        </p>\n      </td>\n      <td class=\"wysiwyg-text-align-center\" style=\"width: 134.931px;\">\n        <p>\n          <span style=\"font-weight: 400;\"> 03:00 UTC /</span><span style=\"font-weight: 400;\"><br></span><em><span style=\"font-weight: 400;\">20:00 PT (Sept 25)</span></em>\n        </p>\n      </td>\n      <td class=\"wysiwyg-text-align-center\" style=\"width: 134.965px;\">\n        <p>\n          <span style=\"font-weight: 400;\"> 04:00 UTC /</span><span style=\"font-weight: 400;\"><br></span><em><span style=\"font-weight: 400;\">21:00 PT (Sept 25)</span></em>\n        </p>\n      </td>\n    </tr>\n  </tbody>\n</table><p><strong>Expected behavior: </strong><span style=\"font-weight: 400;\">The Support, </span><span style=\"font-weight: 400;\">Knowledge</span><span style=\"font-weight: 400;\"> and Voice interfaces may briefly be unreachable, and your agents may experience server error screens, sluggish response times, issues bulk updating tickets, refreshing ticket views, and Voice dropped calls. Some API calls that retrieve data from these products may also fail. </span></p><p><span style=\"font-weight: 400;\">Other products and integrations that are reliant on the data from Support, </span><span style=\"font-weight: 400;\">Knowledge</span><span style=\"font-weight: 400;\"> and Voice will also be degraded. </span></p><p><span style=\"font-weight: 400;\">Please note that backend processes such as email processing will continue to operate as normal.</span></p><p><strong>What do customers have to do?</strong><span style=\"color: #464646;\"><strong> </strong></span><span style=\"color: #16140c;\">No action is required.</span></p><p><strong>Why we're doing this:</strong><span style=\"font-weight: 400;\"> </span>The Zendesk Database team is updating Databases for increased reliability and performance.</p>",
       "user_segment_ids": []
     }
   ],
