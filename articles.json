@@ -9,7 +9,7 @@
     {
       "id": 9811566222106,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9811566222106.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/9811566222106-Service-Incident-October-10th-2025",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/9811566222106-Service-Incident-October-10th-2025-Zendesk-Talk",
       "author_id": 1900815493464,
       "comments_disabled": true,
       "draft": false,
@@ -19,21 +19,21 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2025-10-10T03:35:50Z",
-      "updated_at": "2025-10-10T07:00:57Z",
-      "name": "Service Incident - October 10th, 2025",
-      "title": "Service Incident - October 10th, 2025",
+      "updated_at": "2025-10-10T17:46:22Z",
+      "name": "Service Incident - October 10th, 2025 - Zendesk Talk",
+      "title": "Service Incident - October 10th, 2025 - Zendesk Talk",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-10-10T03:36:22Z",
+      "edited_at": "2025-10-10T17:33:02Z",
       "user_segment_id": null,
       "permission_group_id": 1324079,
       "content_tag_ids": [],
       "label_names": [
         "mt"
       ],
-      "body": "<h3 id=\"h_01K762TD1RN9GVX774FJMKQZPD\"><span style=\"color: #06363c;\"><strong>SUMMARY</strong></span></h3><p class=\"wysiwyg-text-align-justify\"><strong>October 10, 2025 03:32 AM UTC | October 9, 2025 08:32 PM PT</strong></p><p class=\"wysiwyg-text-align-justify\">We are aware of an issue with Zendesk Talk causing the error message, \"Talk is unavailable right now.\" Our engineering team implemented a fix. Please refresh your browser and try again. Thank you for your patience and cooperation.</p><p><strong>POST-MORTEM</strong></p><p>TBD</p><p><strong>FOR MORE INFORMATION</strong></p><p><span style=\"background-color: #fefaf2; color: #16140c;\">For current system status information about Zendesk and specific impacts to your account, visit our </span><a href=\"https://status.zendesk.com/\"><span class=\"wysiwyg-underline\">system status page</span></a><span style=\"background-color: #fefaf2; color: #16140c;\">. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, </span><a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\"><span class=\"wysiwyg-underline\">contact Zendesk customer support.</span></a></p>",
+      "body": "<h3 id=\"h_01K762TD1RN9GVX774FJMKQZPD\"><span style=\"color: #06363c;\"><strong>SUMMARY</strong></span></h3><p class=\"wysiwyg-text-align-justify\"><br><strong>October 10, 2025 5:32 PM UTC | October 10, 2025 10:32 AM PT</strong><br><br>Thank you for your patience. We have confirmed there are no more errors with Zendesk Talk following our fix and a period of monitoring. We will consider this incident resolved, but please reach out if you see issues in the future.<br><br><strong>October 10, 2025 03:32 AM UTC | October 9, 2025 08:32 PM PT</strong></p><p class=\"wysiwyg-text-align-justify\">We are aware of an issue with Zendesk Talk causing the error message, \"Talk is unavailable right now.\" Our engineering team implemented a fix. Please refresh your browser and try again. Thank you for your patience and cooperation.</p><p><strong>POST-MORTEM</strong></p><p>TBD</p><p><strong>FOR MORE INFORMATION</strong></p><p><span style=\"background-color: #fefaf2; color: #16140c;\">For current system status information about Zendesk and specific impacts to your account, visit our </span><a href=\"https://status.zendesk.com/\"><span class=\"wysiwyg-underline\">system status page</span></a><span style=\"background-color: #fefaf2; color: #16140c;\">. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, </span><a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\"><span class=\"wysiwyg-underline\">contact Zendesk customer support.</span></a></p>",
       "user_segment_ids": []
     },
     {
