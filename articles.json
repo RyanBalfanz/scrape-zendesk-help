@@ -394,14 +394,14 @@
       "vote_count": 2,
       "section_id": 6970675073562,
       "created_at": "2025-10-09T10:57:36Z",
-      "updated_at": "2025-10-14T09:58:40Z",
+      "updated_at": "2025-10-15T14:57:38Z",
       "name": "Error: Out of Office. Failed to update some tickets. Try updating them again.",
       "title": "Error: Out of Office. Failed to update some tickets. Try updating them again.",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-10-14T09:55:56Z",
+      "edited_at": "2025-10-15T14:57:38Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
@@ -409,7 +409,7 @@
         "ab0_support",
         "role_admin"
       ],
-      "body": "<h2 id=\"h_01K7492KT0VSZYBECW9A7FHCBY\">Issue symptoms</h2><p>Agents receive the error message <strong>Out of office: Failed to update some tickets. Try updating them again.</strong> when they try to set their status to available in the reinstalled <a href=\"https://www.zendesk.com/marketplace/apps/support/49617/out-of-office/\">Out of Office application</a>. After they refresh the page, the system automatically sets their status back to unavailable.</p><h2 id=\"h_01K749JF8P7238CH9MA9D4VHYR\">Resolution steps</h2><p>To resolve this issue, remove the <code>agent_ooo</code> tag from the profiles of the affected users.</p><p>For more details on this, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408881573658-Adding-tags-to-users-and-organizations#:~:text=API%3A%20Organizations.-,Managing%20user%20and%20organization%20tags,-In%20Admin%20Center\" target=\"_blank\" rel=\"noopener noreferrer\">Managing user and organization tags</a>.</p>",
+      "body": "<h2 id=\"h_01K7492KT0VSZYBECW9A7FHCBY\">Issue symptoms</h2><p>Agents receive the error message <strong>Out of office: Failed to update some tickets. Try updating them again.</strong> when they try to set their status to available in the reinstalled <a href=\"https://www.zendesk.com/marketplace/apps/support/49617/out-of-office/\">Out of Office application</a>. After refreshing the page, the system automatically sets their status back to Unavailable.</p><h2 id=\"h_01K749JF8P7238CH9MA9D4VHYR\">Resolution steps</h2><p>To resolve this issue, remove the <code>agent_ooo</code> tag from the profiles of the affected users.</p><p>For more details on this, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408881573658-Adding-tags-to-users-and-organizations#:~:text=API%3A%20Organizations.-,Managing%20user%20and%20organization%20tags,-In%20Admin%20Center\" target=\"_blank\" rel=\"noopener noreferrer\">Managing user and organization tags</a>.</p>",
       "user_segment_ids": []
     },
     {
