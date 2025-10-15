@@ -177,7 +177,7 @@
       "vote_count": 0,
       "section_id": 6970666699290,
       "created_at": "2025-10-10T10:24:37Z",
-      "updated_at": "2025-10-14T15:02:53Z",
+      "updated_at": "2025-10-15T07:34:42Z",
       "name": "How do I translate AI messages in my messaging Web Widget?",
       "title": "How do I translate AI messages in my messaging Web Widget?",
       "source_locale": "en-us",
@@ -192,7 +192,8 @@
         "ks",
         "ab0",
         "mt",
-        "ab0_bots_automation"
+        "ab0_bots_automation",
+        "role_admin"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>I want to create custom translations for the AI agent in my messaging Web Widget. How do I do that?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><div class=\"note\" id=\"topic_trh_sjg_5bc__note_exf_z1k_f2c\">\n<span class=\"notetitle\">Note:</span> This section applies only if you're on Support Professional and above or Suite Growth and above.</div><p>Custom message translations are manually written versions of the text in the message fields of an AI agent’s <a href=\"https://support.zendesk.com/hc/en-us/articles/4422584657434-Creating-answers-for-common-customer-questions-in-AI-agents-for-messaging-Legacy\" target=\"_blank\" rel=\"noopener noreferrer\">standard responses</a>. Custom translations aren’t available for other automatically translated text elements, such as option or button text.</p><p>To create a custom translation for a standard AI agent response:</p><ol>\n<li data-list-item-id=\"e6e2cc9d1af86b977c9603731d40d1cd4\">In <strong>Admin Center</strong>, click <img style=\"height: auto;\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/icon_ai.png\" width=\"16\" height=\"16\" id=\"topic_ewt_fbm_dgc__d8e1272\"><strong> AI </strong>in the sidebar.</li>\n<li data-list-item-id=\"ea5d7300ee695ca11fea07d89aa89da99\">Select <strong>AI Agents </strong>&gt; <strong>AI agents</strong>.</li>\n<li data-list-item-id=\"e9962134c89563880a1befef255dbf721\">Click the <strong>Messaging behavior</strong> tab.</li>\n<li data-list-item-id=\"e1f9c523b905d1edeb320bd0f832e8c23\">Select the standard response you want to create a custom translation for.</li>\n<li data-list-item-id=\"efe4a25a7a97cee96acff4e889ddc628a\">Under the message text, click <strong>Manage translations</strong>.</li>\n<li data-list-item-id=\"e7a40220cfcb4ea769e3416358b8a09c8\">Click the pencil icon for the language you want to customize, then enter the custom text.</li>\n<li data-list-item-id=\"e1334b538efa605a2de59e3b645679694\">Click <strong>Done</strong>.</li>\n</ol><figure style=\"width: 46.11%;\" class=\"wysiwyg-image wysiwyg-image-resized\"><img style=\"aspect-ratio: 388/755;\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/manage_translations-customizing_ex.png\" alt=\"Manage translation\" width=\"388\" height=\"755\"></figure><p>Your changes are automatically saved but you need to <a href=\"https://support.zendesk.com/hc/en-us/articles/7232810932250-Publishing-an-AI-agent-to-make-it-live-for-customers\" target=\"_blank\" rel=\"noopener noreferrer\">publish the AI agent</a> to make them visible to customers. </p><p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408842754202-Managing-languages-and-translation-support-in-AI-agents\" target=\"_blank\" rel=\"noopener noreferrer\">Managing languages and translation support in AI agents</a></p>",
       "user_segment_ids": []
