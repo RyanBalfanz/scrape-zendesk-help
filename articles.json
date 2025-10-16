@@ -1,5 +1,5 @@
 {
-  "count": 4869,
+  "count": 4870,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 163,
@@ -62,6 +62,41 @@
         "mt"
       ],
       "body": "<p>Beginning on November 15, 2025, live Service Incident information will be posted only to our System Status Page (<a href=\"http://status.zendesk.com/\" title=\"http://status.zendesk.com\" data-renderer-mark=\"true\">status.zendesk.com</a>). This move consolidates our live service incident communications into one location. Please subscribe to status.zendesk.com by clicking \"Manage subscriptions\", if you have not already, to continue receiving live information during service incidents.</p><p>Post-mortems for these incidents will still appear in the <a href=\"https://support.zendesk.com/hc/en-us/sections/4405298854426-Service-notifications\" title=\"https://support.zendesk.com/hc/en-us/sections/4405298854426-Service-notifications\" data-renderer-mark=\"true\">Service Notifications</a> section when they are completed. Maintenance notifications will also continue to be posted in the Service Notifications section following this change. Thank you for your attention to this update.</p>",
+      "user_segment_ids": []
+    },
+    {
+      "id": 9830167110298,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9830167110298.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/9830167110298-How-many-phone-lines-can-I-have-in-my-sandbox-account",
+      "author_id": 9380065378842,
+      "comments_disabled": false,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405303740058,
+      "created_at": "2025-10-15T07:44:30Z",
+      "updated_at": "2025-10-16T12:39:37Z",
+      "name": "How many phone lines can I have in my sandbox account?",
+      "title": "How many phone lines can I have in my sandbox account?",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2025-10-16T12:37:10Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801135069,
+      "content_tag_ids": [],
+      "label_names": [
+        "ks",
+        "ab0",
+        "ab0_talk",
+        "ab0_admin_center",
+        "ab0_voice",
+        "role_admin"
+      ],
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>How many phone lines can I have in my sandbox account?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>Regardless of which sandbox plan you use, you can only have one phone line per sandbox account. </p><p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/6150628316058-About-Zendesk-sandbox-environments\" target=\"_blank\" rel=\"noopener noreferrer\">About Zendesk sandbox environments</a>.</p><p> </p>",
       "user_segment_ids": []
     },
     {
@@ -912,39 +947,6 @@
         "rank_low_algolia"
       ],
       "body": "<div class=\"note tip\">See our <a href=\"https://support.zendesk.com/hc/en-us/articles/9757314230682\" target=\"_blank\" rel=\"noopener noreferrer\">What's New</a> for an overview of what was released last month.</div><p>This week's release notes include:</p><ul>\n<li data-list-item-id=\"e536b1192fb18fe832a70b45511901943\"><a href=\"#h_01K69HAFNM357WAF4BAWDW7AD1\">Copilot</a></li>\n<li data-list-item-id=\"e52367b45b24b7962d65e8d2506d002bb\"><a href=\"#h_01K6TZMR5Y5WQM825XDTR93AMD\">App Marketplace</a></li>\n<li data-list-item-id=\"e53a89a1bebd79d8ce836dd174e5c45d4\"><a href=\"#h_01K6TZGGGMHETCP1NYPMTVT7XN\">Zendesk Workforce Management (WFM)</a></li>\n<li data-list-item-id=\"e066f89d56fdfe637a774f337a49d2836\"><a href=\"#h_01K6TZJ3JEFQF0VRH1MWQ9TKC4\">Products with no updates this week</a></li>\n</ul><p><span aria-label=\" \" data-stringify-type=\"paragraph-break\"></span></p><p><span aria-label=\" \" data-stringify-type=\"paragraph-break\"></span></p><h2 id=\"h_01K69HAFNM357WAF4BAWDW7AD1\">Copilot</h2><p><strong>New:</strong></p><ul>\n<li data-list-item-id=\"e4ab98e49dd92535ea1c5b17516a2ea7d\">Released <a href=\"https://support.zendesk.com/hc/en-us/articles/9774945282330-Announcing-use-of-custom-fields-in-entities-for-Zendesk-Copilot-customers\">custom fields in entities</a>.</li>\n<li data-list-item-id=\"eb1128cd401e77120592e99b7531ebdcf\">Released <a href=\"https://support.zendesk.com/hc/en-us/articles/9771088619418-Announcing-ticket-summaries-in-reporting-views-as-placeholders-and-via-the-API\">ticket summaries in reporting, views, as placeholders, and via the API.</a>\n</li>\n</ul><h2 id=\"h_01K6TZMR5Y5WQM825XDTR93AMD\">App Marketplace</h2><div><strong>New:</strong></div><ul>\n<li data-list-item-id=\"e4cfb879b59e40b6e756d3507a0cd094d\">\n<div>Ticket Time Analyser  <strong>(Support)(paid)</strong>\n</div>\n<ul><li data-list-item-id=\"e7704426af8f6d51de790b4ca77da61c8\"><div>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1167820/ticket-time-analyser/\">Ticket Time Analyser </a>is ideal for support teams who need detailed insights into ticket workflow through status changes. The app enhances your Zendesk experience by giving you access to real-time status tracking, time duration analysis, comprehensive  reporting, flexible analysis options, and performance insights.  Track things like average handling time per agent and ticket, monitor status change patterns and workflow efficiency, identify tickets with longer resolution times, and more.</div></li></ul>\n</li>\n<li data-list-item-id=\"e7afc1f44a1cdda5e617bca384bacb2eb\">\n<div>Time in Status <strong>(Support)(paid)</strong>\n</div>\n<ul><li data-list-item-id=\"ebf8403833fb5e1de422533e54c338acb\">\n<div>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1165185/time-in-status/\">Time in Status </a>helps you analyze how long each ticket spends in different statuses within Zendesk.</div>\n<p>By providing a clear breakdown of ticket timelines, the app allows support teams to identify workflow delays, improve SLAs, and boost overall productivity.</p>\n</li></ul>\n</li>\n<li data-list-item-id=\"e6b43af7f78f87c0fae23b8c3ac994e02\">\n<div>Send Self-Service <strong>(Support)</strong>\n</div>\n<ul><li data-list-item-id=\"e8e29ae4e61a3c4ccf970cf1af369a169\">\n<div>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1151206/send-self-service/\">Send Self-Service </a>streamlines customer interactions by enabling agents to instantly share secure digital forms, interactive flows, and self-service tasks directly within tickets.  </div>\n<div> </div>\n</li></ul>\n</li>\n</ul><h2 id=\"h_01K6TZGGGMHETCP1NYPMTVT7XN\">Zendesk Workforce Management (WFM)</h2><p><strong>New:</strong></p><ul><li data-list-item-id=\"ec0299cf73f144c91761f23498b9205ec\">Added bulk actions for assigning and unassigning users to or from WFM teams.</li></ul><h2 id=\"h_01K6TZJ3JEFQF0VRH1MWQ9TKC4\">Products with no updates this week</h2><ul>\n<li data-list-item-id=\"e3533aff889a180cec1737636532a2cd7\">Support</li>\n<li data-list-item-id=\"e01c9068bf4bf664d5dbeb5f152101bf1\">AI Agents Advanced</li>\n<li data-list-item-id=\"e4f4e8744e50fb30c3516eb49b8f23589\">Admin Center</li>\n<li data-list-item-id=\"e10107cfa51055a2843fc8c484c48515f\">Voice</li>\n<li data-list-item-id=\"efcae1fb4e8715c4d73a1e8aa5e582113\">Knowledge</li>\n<li data-list-item-id=\"ec417097dc29c856a59f55bf84c67e6b3\">Messaging and live chat</li>\n<li data-list-item-id=\"ede1f36e27db3ae013917297c0513f7cf\">Mobile</li>\n<li data-list-item-id=\"e50c20220fe571548655cf1858ebec792\">Explore</li>\n<li data-list-item-id=\"ecc8a60e7af7a313c5447524e6c73e42a\">Zendesk QA</li>\n</ul>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 9786591934106,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9786591934106.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/9786591934106-How-can-I-manage-my-templates-in-the-WhatsApp-manager-UI",
-      "author_id": 1263082106209,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405303738522,
-      "created_at": "2025-10-03T13:01:08Z",
-      "updated_at": "2025-10-14T15:04:18Z",
-      "name": "How can I manage my templates in the WhatsApp manager UI?",
-      "title": "How can I manage my templates in the WhatsApp manager UI?",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2025-10-13T17:12:11Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801135069,
-      "content_tag_ids": [],
-      "label_names": [
-        "ks",
-        "ab0",
-        "mt",
-        "WhatsApp"
-      ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>I want to use <a href=\"https://developers.facebook.com/docs/whatsapp/business-management-api/message-templates/\" target=\"_blank\" rel=\"noopener noreferrer\">Whatsapp templates</a> to proactively reach out end users through WhatsApp. How can I manage my templates and appeal in case of rejection?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><ol>\n<li data-list-item-id=\"e6cdda50e461cb6c118a6d6fc4a93bc0e\">Log into your Meta account and access your <a href=\"https://business.facebook.com/latest/settings/whatsapp_account\" target=\"_blank\" rel=\"noopener noreferrer\">company portfolio</a>\n</li>\n<li data-list-item-id=\"efaa84b61ff54bbf43dd07b6c39fd06a8\">Select the WhatsApp Business account you want to manage the templates for and click <strong>WhatsApp Manager</strong><br><br><img src=\"https://support.zendesk.com/hc/article_attachments/9796316081562\" alt=\"WAbussiness account.png\" width=\"2520\" height=\"1786\">\n</li>\n<li data-list-item-id=\"ea6e5e9d1ef70dd6a7fac5c0afb3c1be1\">From your WhatsApp business account, navigate to the <strong>Manage templates</strong> tab<br><br><img style=\"aspect-ratio: 516/954; width: 60.7%;\" class=\"wysiwyg-image-resized\" src=\"https://support.zendesk.com/hc/article_attachments/9786591930906\" width=\"516\" height=\"954\">\n</li>\n<li data-list-item-id=\"ee2eea8717ef54ca863d63ba3d6d375af\">If Meta rejects your template, go to the Business Support Home to appeal <code>https://business.facebook.com/business-support-home/&lt;businessID&gt;/&lt;assetID&gt;/</code>\n</li>\n<li data-list-item-id=\"ebf6ed8827c7ad2cf49e01c7ec9dc7a51\">Replace <code>&lt;businessID&gt;</code> and <code>the &lt;assetID&gt;</code> by the values of your template. You can find these values in the URL in your WhatsApp Business Manager account<br><img src=\"https://support.zendesk.com/hc/article_attachments/9800540630042\" alt=\"WBMA.png\" width=\"1799\" height=\"76\"><br><br> </li>\n</ol>",
       "user_segment_ids": []
     }
   ],
