@@ -19,7 +19,7 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2025-10-20T03:21:56Z",
-      "updated_at": "2025-10-20T03:22:48Z",
+      "updated_at": "2025-10-20T07:00:23Z",
       "name": "Service Incident - October 18, 2025 - All Pods | Email processing delays",
       "title": "Service Incident - October 18, 2025 - All Pods | Email processing delays",
       "source_locale": "en-us",
@@ -30,7 +30,9 @@
       "user_segment_id": null,
       "permission_group_id": 1324079,
       "content_tag_ids": [],
-      "label_names": [],
+      "label_names": [
+        "mt"
+      ],
       "body": "<h3 id=\"h_01JYK85Y9T0AHJER1Q121QPZR1\"><strong>Summary</strong></h3><p><strong>October 18, 2025 13:45 UTC | October 18, 2025 06:45 PT</strong></p><p>Beginning at 12:07 UTC Zendesk engineers noticed failures in of one of our email filter services. This caused delays for inbound email processing and outbound mail sending. Our engineers have already taken action and mail has begun processing as of 13:32 UTC. You may notice delays in mail delivery for outbound mail and ticket creation delays for inbound mail during this window.<br><br><strong>October 18, 2025 14:20 UTC | October 18, 2025 07:20 PT</strong><br>Our engineers have monitored for full recovery and both inbound and outbound email is processing is back to normal. Thank you for your patience and understanding during this incident.</p><h4 id=\"h_01K086AN7TN2VXG8HZSHSSG4DT\"><strong>FOR MORE INFORMATION</strong></h4><p>For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com/\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
     },
@@ -318,8 +320,8 @@
       "draft": false,
       "promoted": false,
       "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
+      "vote_sum": 1,
+      "vote_count": 1,
       "section_id": 4405298833818,
       "created_at": "2025-10-13T16:23:16Z",
       "updated_at": "2025-10-16T05:18:37Z",
