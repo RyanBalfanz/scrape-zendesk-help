@@ -1,11 +1,44 @@
 {
-  "count": 4907,
+  "count": 4875,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
-  "page_count": 164,
+  "page_count": 163,
   "per_page": 30,
   "previous_page": null,
   "articles": [
+    {
+      "id": 9853061174298,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9853061174298.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/9853061174298-Can-I-use-the-API-to-access-intent-sentiment-and-language-from-tickets",
+      "author_id": 9331196087066,
+      "comments_disabled": false,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 6970675073562,
+      "created_at": "2025-10-21T13:59:20Z",
+      "updated_at": "2025-10-21T14:56:50Z",
+      "name": "Can I use the API to access intent, sentiment, and language from tickets?",
+      "title": "Can I use the API to access intent, sentiment, and language from tickets?",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2025-10-21T14:56:41Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801135069,
+      "content_tag_ids": [],
+      "label_names": [
+        "ks",
+        "ab0",
+        "ab0_admin_center",
+        "role_developer"
+      ],
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>How can I use the API to pull an audit of my intents, categories, and subcategories?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>You can use the API because the following AI fields are stored as custom ticket fields:</p><ul>\n<li data-list-item-id=\"e01552aec601c9b01aa77d715ee08d9ae\">Intent</li>\n<li data-list-item-id=\"e170dab89e3cff83ff84005acfc6e32d2\">Intent Confidence</li>\n<li data-list-item-id=\"edaabe4a99b2525b181349ea010ed39fc\">Sentiment</li>\n<li data-list-item-id=\"e6561d5cce551bc6ed1a794e9960519ed\">Sentiment Confidence</li>\n<li data-list-item-id=\"ec1ec03d871606b90d272763576f5c74c\">Language</li>\n<li data-list-item-id=\"ef374a13ae0d2e8de2fa58a4d51de83c2\">Language Confidence</li>\n</ul><p>These fields are included in the ticket data. You can retrieve them the same way as other custom fields by using the <a href=\"https://support.zendesk.com/hc/en-us/articles/4408889192858-Managing-API-token-access-to-the-Zendesk-API\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk support ticket fields API</a>.</p><p>If you want to audit or analyze AI insights from your tickets, use the <a href=\"https://developer.zendesk.com/api-reference/ticketing/tickets/ticket_fields/\" target=\"_blank\" rel=\"noopener noreferrer\">Ticket Fields</a> endpoint to retrieve data such as intent, sentiment, and language. You can also include their confidence scores for reporting or analysis. The Summary (AI) field is not a ticket field and is not accessible through the API. Similarly, Voice of Customer data does not have an available API endpoint.</p><p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408827565338-Admin-s-guide-to-the-Zendesk-API\" target=\"_blank\" rel=\"noopener noreferrer\">Admin's guide to the Zendesk API</a>.</p>",
+      "user_segment_ids": []
+    },
     {
       "id": 9851976542490,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9851976542490.json",
@@ -82,7 +115,7 @@
       "vote_count": 1,
       "section_id": 4405298847002,
       "created_at": "2025-10-20T16:20:08Z",
-      "updated_at": "2025-10-20T16:22:47Z",
+      "updated_at": "2025-10-21T15:05:45Z",
       "name": "Release notes through 2025-10-17",
       "title": "Release notes through 2025-10-17",
       "source_locale": "en-us",
@@ -93,7 +126,9 @@
       "user_segment_id": null,
       "permission_group_id": 1324079,
       "content_tag_ids": [],
-      "label_names": [],
+      "label_names": [
+        "mt"
+      ],
       "body": "<div class=\"note tip\">See the <a href=\"https://support.zendesk.com/hc/en-us/articles/9757314230682\" target=\"_blank\" rel=\"noopener noreferrer\">What's New</a> section for an overview of what was released last month.</div><p>This week's release notes include:</p><ul>\n<li data-list-item-id=\"e536b1192fb18fe832a70b45511901943\"><a href=\"#h_01K816GN2PTXYKCYDVT4HJHGTX\">Support</a></li>\n<li data-list-item-id=\"e5d5d4207c3151f1757aca04741f6e113\"><a href=\"https://support.zendesk.com/hc/en-us/articles/9819969387802#h_01K7CVQF37NQA8ZSPHK9VZM3XC\">Voice</a></li>\n<li data-list-item-id=\"e96f535261f285a4ee0a6b5483076e784\"><a href=\"#h_01K816KV8J2GCZ1TXWPE8SDTBW\">Zendesk Workforce Management (WFM)</a></li>\n<li data-list-item-id=\"e52367b45b24b7962d65e8d2506d002bb\"><a href=\"https://support.zendesk.com/hc/en-us/articles/9819969387802#h_01K7CVGRSN6HFA4200V21PTPER\">App Marketplace</a></li>\n<li data-list-item-id=\"e066f89d56fdfe637a774f337a49d2836\"><a href=\"https://support.zendesk.com/hc/en-us/articles/9819969387802#h_01K6TZJ3JEFQF0VRH1MWQ9TKC4\">Products with no updates this week</a></li>\n</ul><h2 id=\"h_01K816GN2PTXYKCYDVT4HJHGTX\">Support</h2><p><strong>New:</strong></p><ul><li data-list-item-id=\"ed42fe35945107e10958eee4ba5630d8f\">Connect your custom objects to your knowledge base with <a href=\"https://support.zendesk.com/hc/en-us/articles/9823357570970\" title=\"https://support.zendesk.com/hc/en-us/articles/9823357570970\" data-renderer-mark=\"true\">new lookup relationships</a> to Guide articles.</li></ul><p><span aria-label=\" \" data-stringify-type=\"paragraph-break\"></span></p><p><span aria-label=\" \" data-stringify-type=\"paragraph-break\"></span></p><h2 id=\"h_01K7CVQF37NQA8ZSPHK9VZM3XC\">Voice</h2><p><strong>Fixed:</strong></p><ul>\n<li data-list-item-id=\"ebe1279bd957915e76bcdb6d09681f3a0\">Fixed an issue that prevented agent-to-agent SIP calls transfers from completing for accounts that have no phone numbers.</li>\n<li data-list-item-id=\"e98bdf0e42ee3e63fba70b6dab8c0d508\">Fixed an issue where some calls stayed in wrap-up past the configured time.</li>\n</ul><h2 id=\"h_01K816KV8J2GCZ1TXWPE8SDTBW\">Zendesk Workforce Management (WFM)</h2><p><strong>New:</strong></p><ul><li data-list-item-id=\"ed12574fe761e31535e34c56d63c616cc\">Bulk actions for assigning and unassigning users to or from WFM workstreams.<br> </li></ul><h2 id=\"h_01K7CVGRSN6HFA4200V21PTPER\">App Marketplace</h2><div><strong>New:</strong></div><ul>\n<li data-list-item-id=\"e3c66d5c2f411e52eb8a49c85237f4dda\">\n<div>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/911861/multi-tickets-link/\">Multi Tickets Link</a> <strong>(Support, paid)</strong>\n</div>\n<ul><li data-list-item-id=\"e2c0887fcd92deb9a64ee4c1521ac4173\"><div>Multi Tickets Link helps you create multiple child and grandchild tickets for a single parent ticket. The ticket ID, title, and status information will be linked.</div></li></ul>\n</li>\n<li data-list-item-id=\"e7b0d047c491ba4372252ec389b9653aa\">\n<div>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1170557/disable-form-change/\">Disable Form Change </a><strong>(Support)</strong>\n</div>\n<ul><li data-list-item-id=\"e4eae1a13e2ad575137709b9904e646dc\"><div>Disable Form Change helps Zendesk admins control access to the ticket form selector inside the Agent Workspace. It prevents unauthorized or accidental changes to the ticket form, ensuring that only the right users can modify ticket structure.  Restrict form editing for selected groups, roles, or user tags, allow specific agents to edit forms using an allowlist tag override, and show a minimal in-app indicator so agents know when form locking is active.</div></li></ul>\n</li>\n<li data-list-item-id=\"ec219a5745cd974d2e5d76f25d3131368\">\n<div>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1170516/html-embedder/\">HTML Embedder</a> <strong>(Support) </strong>\n</div>\n<ul><li data-list-item-id=\"e19c52056e795e66ceb86b0e332a5e89f\"><div>HTML Embedder allows Zendesk agents to display configured HTML content securely within the Zendesk interface, reducing context switching and improving workflow efficiency.  From the app, edit the content you want displayed in the app using HTML, save, and it will show up for all your agents that the app is activated for.</div></li></ul>\n</li>\n<li data-list-item-id=\"eb142fd473527ed4311dd3ecfa50470d3\">\n<div>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1171561/zoom-phone-by-sandeza/\">Zoom Phone By Sandeza <strong>(</strong></a><strong>Support)</strong>\n</div>\n<ul><li data-list-item-id=\"efa35833600b2ee8d00b5513389c103c5\"><div>Zoom Phone by Sandeza brings seamless integration of Zoom Phone inside Zendesk. It allows support agents to handle calls, view customer data, and manage tickets without leaving Zendesk. This integration ensures a unified workspace where every call and ticket is connected for a complete customer view.</div></li></ul>\n</li>\n<li data-list-item-id=\"eccccaf899c4110e9fff67fe09b63a1c9\">\n<div>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1171425/whats-on/\">What’s On! </a><strong>(Support, paid)</strong>\n</div>\n<ul><li data-list-item-id=\"ee24420b0595e69ef6134f1ae7046c695\"><div>What's On! is a lightweight internal bulletin board that helps your Zendesk Support team stay up to date with the latest issues, promotions, and operational announcements — without ever leaving the ticket view.  The app automatically displays selected help center articles labeled <strong>'whats_on'</strong>, grouping them into dynamic categories.</div></li></ul>\n</li>\n</ul><h2 id=\"h_01K6TZJ3JEFQF0VRH1MWQ9TKC4\">Products with no updates this week</h2><ul>\n<li data-list-item-id=\"e01c9068bf4bf664d5dbeb5f152101bf1\">Copilot</li>\n<li data-list-item-id=\"e978c69abcadbc88b30c68594df95858b\">AI Agents Advanced</li>\n<li data-list-item-id=\"e4f4e8744e50fb30c3516eb49b8f23589\">Admin Center</li>\n<li data-list-item-id=\"efcae1fb4e8715c4d73a1e8aa5e582113\">Knowledge</li>\n<li data-list-item-id=\"ec417097dc29c856a59f55bf84c67e6b3\">Messaging and live chat</li>\n<li data-list-item-id=\"ede1f36e27db3ae013917297c0513f7cf\">Mobile</li>\n<li data-list-item-id=\"e50c20220fe571548655cf1858ebec792\">Explore</li>\n<li data-list-item-id=\"ecc8a60e7af7a313c5447524e6c73e42a\">Zendesk QA</li>\n</ul>",
       "user_segment_ids": []
     },
@@ -170,7 +205,7 @@
       "vote_count": 0,
       "section_id": 4405303738522,
       "created_at": "2025-10-16T22:43:51Z",
-      "updated_at": "2025-10-17T12:58:55Z",
+      "updated_at": "2025-10-21T15:02:56Z",
       "name": "How do I set up my public Facebook channel?",
       "title": "How do I set up my public Facebook channel?",
       "source_locale": "en-us",
@@ -184,6 +219,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_support",
         "role_admin"
       ],
@@ -358,7 +394,7 @@
       "vote_count": 0,
       "section_id": 4405303740058,
       "created_at": "2025-10-15T07:44:30Z",
-      "updated_at": "2025-10-16T16:18:56Z",
+      "updated_at": "2025-10-21T15:02:38Z",
       "name": "How many phone lines can I have in my sandbox account?",
       "title": "How many phone lines can I have in my sandbox account?",
       "source_locale": "en-us",
@@ -372,6 +408,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_talk",
         "ab0_admin_center",
         "ab0_voice",
@@ -393,7 +430,7 @@
       "vote_count": 0,
       "section_id": 4405298902426,
       "created_at": "2025-10-14T21:55:16Z",
-      "updated_at": "2025-10-20T13:20:11Z",
+      "updated_at": "2025-10-21T15:03:53Z",
       "name": "Workflow: How to connect multiple Advanced AI Agents to a Zendesk account",
       "title": "Workflow: How to connect multiple Advanced AI Agents to a Zendesk account",
       "source_locale": "en-us",
@@ -516,7 +553,7 @@
       "vote_count": 0,
       "section_id": 8243870008090,
       "created_at": "2025-10-13T18:20:49Z",
-      "updated_at": "2025-10-14T10:01:56Z",
+      "updated_at": "2025-10-21T15:03:20Z",
       "name": "Why do quick answers respond in English even when I search using keywords in another language?",
       "title": "Why do quick answers respond in English even when I search using keywords in another language?",
       "source_locale": "en-us",
@@ -530,6 +567,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_bots_automation",
         "role_admin"
       ],
@@ -579,7 +617,7 @@
       "vote_count": 0,
       "section_id": 6249111673754,
       "created_at": "2025-10-13T13:45:26Z",
-      "updated_at": "2025-10-15T16:48:05Z",
+      "updated_at": "2025-10-21T15:06:41Z",
       "name": "Adding and removing users from multiple workstreams in bulk in Zendesk WFM",
       "title": "Adding and removing users from multiple workstreams in bulk in Zendesk WFM",
       "source_locale": "en-us",
@@ -591,6 +629,7 @@
       "permission_group_id": 1324079,
       "content_tag_ids": [],
       "label_names": [
+        "mt",
         "role_admin"
       ],
       "body": "<body>\n<div class=\"article-banners\" translate=\"no\">\n<div id=\"docs-wmp-link\">\n<a href=\"https://support.zendesk.com/hc/en-us/articles/5411234991258-plan\" rel=\"noopener\" target=\"_blank\">What's my plan?</a>\n</div>\n<div class=\"article-banner\" id=\"addon_wfm\">\n<table>\n<tbody>\n<tr>\n<td>\n<strong>Add-on</strong>\n</td>\n<td>Workforce Management (WFM) or Workforce Engagement Management (WEM)</td>\n</tr>\n</tbody>\n</table>\n</div>\n</div>\n<div id=\"docs-ai-summary\">\n<p id=\"docs-ai-summary-toggle\">Verified AI summary <span id=\"up-triangle\">◀</span><span id=\"down-triangle\">▼</span></p>\n<p id=\"docs-ai-summary-content\">As a WFM admin, you can manage user assignments to multiple workstreams in bulk. This allows you to quickly add or remove users from workstreams using the User Management page. This feature streamlines user management by letting you select multiple users and assign them to one or more workstreams or remove them as needed, enhancing your team's organizational structure.</p>\n</div>\n<div class=\"body\">\n<p class=\"p\" dir=\"ltr\"><a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/6443314489242\" target=\"_blank\">Workstreams</a> are part of your organization\n            structure and a building block of Zendesk Workforce management (WFM). Many features are based on workstreams, so accurately maintaining which users are in each workstream is essential. To make this easier, WFM admins \n            can add and remove users from multiple workstreams at once. </p>\n<p class=\"p\" dir=\"ltr\">You must be a WFM admin to add or remove users from workstreams using the User\n            management page.</p>\n<div class=\"p\">This article contains the following topics:<ul class=\"ul\" id=\"topic_sjx_ns2_m2c__ul_yjj_tkb_gfc\">\n<li class=\"li\" dir=\"ltr\"><a class=\"xref\" href=\"#topic_yjf_xkb_gfc\">Adding users to\n                        workstreams in bulk</a></li>\n<li class=\"li\" dir=\"ltr\"><a class=\"xref\" href=\"#topic_v4b_hlb_gfc\">Removing users from\n                        workstreams in bulk</a></li>\n</ul>\n</div>\n<p class=\"p\" dir=\"ltr\">Related articles:</p>\n<ul class=\"ul\" id=\"topic_sjx_ns2_m2c__ul_vsg_mtr_ygc\">\n<li class=\"li\" dir=\"ltr\"><a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/6443314489242\" target=\"_blank\">About Zendesk WFM workstreams</a></li>\n<li class=\"li\" dir=\"ltr\"><a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/7052274669338\" target=\"_blank\">Accessing and viewing the WFM User management\n                    page</a></li>\n</ul>\n</div>\n<div aria-labelledby=\"ariaid-title2\" class=\"topic nested1\" id=\"topic_yjf_xkb_gfc\">\n<h2 class=\"title topictitle2\" id=\"ariaid-title2\">Adding users to workstreams in bulk</h2>\n<div class=\"body\">\n<p class=\"p\">You can add users to one or more workstreams from the\n                User management page. </p>\n<p class=\"p\"><strong class=\"ph b\">To add users to workstreams in bulk</strong></p>\n<ol class=\"ol\" id=\"topic_yjf_xkb_gfc__ol_wrt_ykb_gfc\">\n<li class=\"li\"><span class=\"ph\">In <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408838272410\" target=\"_blank\">Workforce management</a>, hover over the admin icon (<img class=\"image\" id=\"topic_yjf_xkb_gfc__d8e2280\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/wfm_admin_icon.png\" width=\"16\">) in the navigation bar, then select <strong class=\"ph b\">User\n          management</strong>.</span></li>\n<li class=\"li\">Select the users you want to add to a specific workstream.</li>\n<li class=\"li\">In the toolbar that appears at the bottom of the page, click\n                    <strong class=\"ph b\">Workstreams</strong> and select <strong class=\"ph b\">Add to workstream</strong>.\n                    <p class=\"p\"><img class=\"image\" id=\"topic_yjf_xkb_gfc__image_lpg_wtr_ygc\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/wfm_bulk_add_to_worktreams.png\" width=\"850\"></p>\n</li>\n<li class=\"li\">Select one or more workstreams to add the selected users to.\n                <p class=\"p\">Enter the beginning of a workstream's name to autocomplete or select from the\n                   list.</p>\n<p class=\"p\"><img class=\"image\" id=\"topic_yjf_xkb_gfc__image_w1g_s5r_ygc\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/wfm_bulk_add_to_worktreams_selection.png\" width=\"450\"></p>\n</li>\n<li class=\"li\">Click <strong class=\"ph b\">Add</strong>.</li>\n</ol>\n</div>\n</div>\n<div aria-labelledby=\"ariaid-title3\" class=\"topic nested1\" id=\"topic_v4b_hlb_gfc\">\n<h2 class=\"title topictitle2\" id=\"ariaid-title3\">Removing users from workstreams in bulk</h2>\n<div class=\"body\">\n<p class=\"p\" dir=\"ltr\">You can also remove users from one or more\n                workstreams using the User management page. </p>\n<p class=\"p\"><strong class=\"ph b\">To remove users from workstreams in bulk</strong></p>\n<ol class=\"ol\" id=\"topic_v4b_hlb_gfc__ol_omf_1yq_tgc\">\n<li class=\"li\"><span class=\"ph\">In <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408838272410\" target=\"_blank\">Workforce management</a>, hover over the admin icon (<img class=\"image\" id=\"topic_v4b_hlb_gfc__d8e2280\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/wfm_admin_icon.png\" width=\"16\">) in the navigation bar, then select <strong class=\"ph b\">User\n          management</strong>.</span></li>\n<li class=\"li\">Select the users you want to remove from workstreams.</li>\n<li class=\"li\">In the toolbar that appears at the bottom of the page, click\n                    <strong class=\"ph b\">Workstreams</strong> and select <strong class=\"ph b\">Remove from workstream</strong>.\n                    <p class=\"p\"><img class=\"image\" id=\"topic_v4b_hlb_gfc__image_fp5_fvr_ygc\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/wfm_bulk_remove_from_worktreams.png\" width=\"850\"></p>\n</li>\n<li class=\"li\">Select one or more workstreams to remove the selected users from.<p class=\"p\">Enter the\n                        beginning of a workstream’s name to autocomplete or select from the\n                        list.</p>\n<p class=\"p\"><img class=\"image\" id=\"topic_v4b_hlb_gfc__image_z5g_mvr_ygc\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/wfm_bulk_remove_from_worktreams_selection.png\" width=\"450\"></p>\n</li>\n<li class=\"li\">Click <strong class=\"ph b\">Remove</strong>.</li>\n</ol>\n</div>\n</div>\n<script id=\"fast-path-script\">\n    //<![CDATA[\n      const fast_path_style = document.createElement('style');\n      fast_path_style.innerHTML = `#article-body .fastpath{font-size:.9em;background-color:#f3f3f3;border:1px solid #d3d3d3;padding:10px 10px 8px;margin-bottom:16px}#article-body .fastpath::before{content:none!important}`;\n      document.head.appendChild(fast_path_style);\n    //]]>\n    </script><script id=\"article-banners-script\">\n    //<![CDATA[\n      const banner_style = document.createElement('style');\n      banner_style.innerHTML = `#styled-article-body{padding:0 0 0}#article-body #docs-wmp-link{text-align:right;font-size:.8em}#article-body .article-banners{margin-bottom:1rem}#article-body .article-banner{border:1px solid #ded7ca;background-color:#f6f0e6;margin:0 0 3px;line-height:1}#article-body .article-banner table{border-collapse:collapse;border:none;margin:0;width:auto}#article-body .article-banner td{padding:8px 6px 8px;border:none;font-size:.85em}#article-body .article-banner td:nth-child(2){border-left:1px solid #d0c9bd}#article-body .article-banner strong{font-weight:400;text-shadow:0 0 1px rgba(0,0,0,.5);letter-spacing:.5px}@media (min-width:1600px){#article-body .article-banner td{font-size:.8em}#article-body .docs-wmp-link{font-size:.7em}}`;\n      document.head.appendChild(banner_style);\n    //]]>\n    </script><script id=\"ai-summary-script\">\n       //<![CDATA[\n         const ai_summary_style = document.createElement('style');\n         ai_summary_style.innerHTML = `#styled-article-body{padding:0 0 0}#article-body #docs-ai-summary{background-color:#f3f3f3;border:1px solid #d3d3d3;padding:10px 10px 6px;margin-bottom:16px}#article-body #docs-ai-summary #docs-ai-summary-toggle{font-size:.9em;font-weight:700;margin-bottom:4px;cursor:pointer;display:flex;justify-content:space-between;align-items:center}#article-body #docs-ai-summary #docs-ai-summary-toggle #up-triangle{margin-left:auto;padding-right:10px;display:none}#article-body #docs-ai-summary #docs-ai-summary-toggle #down-triangle{margin-left:auto;padding-right:10px}#article-body #docs-ai-summary #docs-ai-summary-content{font-size:.9em;padding-left:25px;padding-right:25px;margin-bottom:12px}`;\n         document.head.appendChild(ai_summary_style);\n         \n         \n        const toggleAISummary = () => {\n           const summary = document.getElementById(\"docs-ai-summary-content\");\n           const upTriangle = document.getElementById(\"up-triangle\");\n           const downTriangle = document.getElementById(\"down-triangle\");\n          if (summary.style.display === \"none\") {\n            summary.style.display = \"block\";\n            upTriangle.style.display = \"none\";\n            downTriangle.style.display = \"inline\";\n          } else {\n            summary.style.display = \"none\";\n            upTriangle.style.display = \"inline\";\n            downTriangle.style.display = \"none\";\n          }\n         };\n        \n         document.getElementById(\"docs-ai-summary-toggle\").addEventListener(\"click\", toggleAISummary);\n       //]]>\n       </script>\n</body>",
@@ -609,7 +648,7 @@
       "vote_count": 0,
       "section_id": 6970673920794,
       "created_at": "2025-10-13T13:21:46Z",
-      "updated_at": "2025-10-15T10:43:17Z",
+      "updated_at": "2025-10-21T15:04:55Z",
       "name": "How do I remove an AI agent without deleting it?",
       "title": "How do I remove an AI agent without deleting it?",
       "source_locale": "en-us",
@@ -623,6 +662,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_bots_automation",
         "role_admin"
       ],
@@ -707,7 +747,7 @@
       "vote_count": 0,
       "section_id": 6970666699290,
       "created_at": "2025-10-10T10:24:37Z",
-      "updated_at": "2025-10-15T07:54:41Z",
+      "updated_at": "2025-10-21T15:03:31Z",
       "name": "How do I translate AI messages in my messaging Web Widget?",
       "title": "How do I translate AI messages in my messaging Web Widget?",
       "source_locale": "en-us",
@@ -799,7 +839,7 @@
       "vote_count": 0,
       "section_id": 8243870008090,
       "created_at": "2025-10-09T17:07:48Z",
-      "updated_at": "2025-10-15T14:08:30Z",
+      "updated_at": "2025-10-21T15:02:10Z",
       "name": "How does Zendesk handle data privacy for AI products?",
       "title": "How does Zendesk handle data privacy for AI products?",
       "source_locale": "en-us",
@@ -833,7 +873,7 @@
       "vote_count": 2,
       "section_id": 6970675073562,
       "created_at": "2025-10-09T10:57:36Z",
-      "updated_at": "2025-10-15T14:57:38Z",
+      "updated_at": "2025-10-21T15:03:25Z",
       "name": "Error: Out of Office. Failed to update some tickets. Try updating them again.",
       "title": "Error: Out of Office. Failed to update some tickets. Try updating them again.",
       "source_locale": "en-us",
@@ -845,6 +885,7 @@
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
       "label_names": [
+        "mt",
         "ab0_support",
         "role_admin"
       ],
@@ -895,8 +936,8 @@
       "draft": false,
       "promoted": true,
       "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
+      "vote_sum": 1,
+      "vote_count": 1,
       "section_id": 4405298833818,
       "created_at": "2025-10-08T22:17:26Z",
       "updated_at": "2025-10-21T14:08:30Z",
@@ -914,36 +955,6 @@
         "mtpe"
       ],
       "body": "<figure style=\"height: 44px; width: 100%;\" class=\"wysiwyg-table wysiwyg-table-align-left\"><table style=\"border-collapse: collapse; border-style: solid; border-width: 1px;\"><tbody>\n<tr style=\"height: 22px;\">\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\"><strong>Announced on</strong></td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\"><strong>Rollout starts</strong></td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\"><strong>Rollout ends</strong></td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\">October 21, 2025</td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\">November 17, 2025</td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\">December 16, 2025</td>\n</tr>\n</tbody></table></figure><p>We’re excited to announce a modernized Views admin page in Admin Center, along with improved behavior for views CSV exports. These updates aim to deliver a more consistent, accessible, and user-friendly experience for users. </p><p>This announcement includes the following sections:</p><ul>\n<li data-list-item-id=\"eff35e6d9cc9dfaf1bf0574f31fa11bde\"><a href=\"#h_01K7Q9WSQDQR3W54TTSCAC4WQD\">What is changing?</a></li>\n<li data-list-item-id=\"e56bd5f6b0808940d27b8167bd702458f\"><a href=\"#h_01K7Q9WSQKYW12525JHHAFZ39H\">Why is Zendesk making this change?</a></li>\n<li data-list-item-id=\"e733ca62355fab4e16fa2f78593e3737b\"><a href=\"#h_01K7Q9WSQKN2G0V0YEMKMSWHBW\">What do I need to do?</a></li>\n</ul><h2 id=\"h_01K7Q9WSQDQR3W54TTSCAC4WQD\">What is changing?</h2><h3 id=\"h_01K7Q9WSQDXZM2DZ5VYBCQRTBC\">Changes summary</h3><p>Before we detail the user experience, here are the key changes in the Views admin page:</p><ul>\n<li data-list-item-id=\"e3a4f180cf6f85c76d8fb6e351bed32b7\">Replaced <strong>Active</strong> and <strong>Inactive</strong> tabs with a new filtering system (including Status), that’s also in other Admin Center pages, such as Triggers and Tickets Fields</li>\n<li data-list-item-id=\"efac207861cf34ec67d6e86b65935cdb8\">Reordering option <strong>Select Position</strong> is replaced by modernized reordering options and a new <strong>Create view below</strong> option.</li>\n<li data-list-item-id=\"e45d99dd4a8f53f7f8179cc67dbdc9cc6\">Increased column limit from 11 to 15.</li>\n<li data-list-item-id=\"ed8df3c8f0dbaca56121f320671166d70\">Custom ticket <strong>Status</strong> column can be added or removed like any other column.</li>\n</ul><p>Additionally, we’re improving views CSV exports for accounts using <a href=\"https://support.zendesk.com/hc/en-us/articles/4412575861018\"><span class=\"wysiwyg-underline\">custom ticket statuses</span></a> by replacing legacy status ID and name columns with a single customizable, user-friendly status field.</p><p>There are no changes to permissions for managing views. Users with read-only access to views can see the settings but cannot edit or reorder views.<br> <img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/zug_workspace_views_default.png\" width=\"700\"></p><h3 id=\"h_01K7Q9WSQHFFF6M00DM4W50NE4\">Changes experience</h3><p>Let’s review what the changes mean in practice.</p><p>When you navigate to the Views admin page, by default, you still see the Active and All Shared views. Above the list of views, you now have the number of views and the filter drawer, to view and set the filters. <strong>Reset filters</strong> restores the default Active and All Shared views.</p><p>You still sort the views by clicking the column headers but you won’t need to sort back by position to be able to reorder the list. You can click to reorder no matter how you’ve sorted the list.</p><p>To reorder views, we’re providing a modernized drag-and-drop experience with all views on a single page. You can also select multiple views and move them to the first or last position of the list, using readily accessible arrows.</p><p>These improvements, along with a new option, cover the <strong>Select Position</strong> option that we are removing. The new <strong>Create view below </strong>option allows you to create a view just below an existing view.</p><p>We’ve made the custom <strong>Status</strong> column more flexible. You can now add or remove it like any other column. To support this change, we’ll update all existing views definitions by adding the status column where it’s missing. This won’t affect what appears in the user interface, as the status column is already displayed on agent and admin pages. <strong>However, if you use our API, you may notice this column appearing in the view column output data returned after the update. </strong></p><p><strong>The update to add the column will take place between these dates:</strong></p><div><figure style=\"width: 100%;\" class=\"wysiwyg-table\"><table><tbody>\n<tr>\n<td><strong>Status column addition starts</strong></td>\n<td><strong>Status column addition ends</strong></td>\n</tr>\n<tr>\n<td><span style=\"color: #292a2e;\">November 18, 2025</span></td>\n<td><span style=\"color: #292a2e;\">December 15, 2025</span></td>\n</tr>\n</tbody></table></figure></div><p>We will also improve views CSV exports for accounts using <a href=\"https://support.zendesk.com/hc/en-us/articles/4412575861018\"><span class=\"wysiwyg-underline\">custom ticket statuses</span></a>:</p><ul>\n<li data-list-item-id=\"e9f947620673abed270d6ee55c118dfbe\">The legacy ticket status name and ID columns in the views CSV export will be replaced with a single custom ticket status column.</li>\n<li data-list-item-id=\"e4eca8ea86dbd3890c6ecdda8d02afe55\">Previously, CSV exports showed internal IDs for custom ticket status causing confusion. Some accounts had feature flags to show readable names. Now, all customers will see user-friendly status names in CSV exports.</li>\n<li data-list-item-id=\"ea4c149f6a5f0df94012e0b624899beaf\">Users can remove the custom ticket status column entirely in the new Views admin page, resulting in no status column in export.</li>\n</ul><div><figure style=\"width: 100%;\" class=\"wysiwyg-table\"><table><tbody>\n<tr>\n<td><strong>Export fix rollout starts</strong></td>\n<td><strong>Rollout ends</strong></td>\n</tr>\n<tr>\n<td><span style=\"color: #292a2e;\">November 17, 2025</span></td>\n<td><span style=\"color: #292a2e;\">November 21, 2025</span></td>\n</tr>\n</tbody></table></figure></div><p><strong>If you need more time to prepare for this change, you can opt out of the export until January 13, 2026. To do so, please fill out the </strong><a href=\"https://docs.google.com/forms/d/e/1FAIpQLScWNuMJ7oVNkRZq05s_8lw9BF6wPUICNYHU8mbjWQr91a_NXw/viewform\"><strong><span class=\"wysiwyg-underline\">form</span></strong></a>.</p><h2 id=\"h_01K7Q9WSQKYW12525JHHAFZ39H\">Why is Zendesk making this change?</h2><p class=\"wysiwyg-text-align-justify\">We’re modernizing Admin Center to give admins a faster, more reliable, and accessible experience. Updating legacy pages like the Views admin page improves stability and performance, speeds up load times, unifies the interface, and supports our accessibility standards.</p><p class=\"wysiwyg-text-align-justify\">Additionally, we want to offer a clear, fully customizable CSV export experience, allowing you to completely control the ticket data included in your CSV files.</p><h2 id=\"h_01K7Q9WSQKN2G0V0YEMKMSWHBW\">What do I need to do?</h2><p class=\"wysiwyg-text-align-justify\">If you rely on our API to get views, please be aware that a new custom ticket status column will be added to the views column output. We recommend assessing any potential impact this may have.</p><p>If you use the CSV export, please note the change of how the status column is displayed. If you need more time to adjust your internal processes, you can delay this change for 60 days by filling out this <a href=\"https://docs.google.com/forms/d/e/1FAIpQLScWNuMJ7oVNkRZq05s_8lw9BF6wPUICNYHU8mbjWQr91a_NXw/viewform\"><span class=\"wysiwyg-underline\">form</span></a>.</p><p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/1260801325369\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\">Zendesk Customer Support</a>.</p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 9805745423898,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9805745423898.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/9805745423898-Service-Incident-October-8-2025-Support-Pod-27-Omnichannel-routing-issues",
-      "author_id": 1263082084489,
-      "comments_disabled": true,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405298854426,
-      "created_at": "2025-10-08T17:31:22Z",
-      "updated_at": "2025-10-15T07:01:00Z",
-      "name": "Service Incident - October 8, 2025 - Support | Pod 27 - Omnichannel routing issues",
-      "title": "Service Incident - October 8, 2025 - Support | Pod 27 - Omnichannel routing issues",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2025-10-15T06:03:19Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801242670,
-      "content_tag_ids": [],
-      "label_names": [
-        "mt"
-      ],
-      "body": "<h3 id=\"h_01K7K7A615F4VWAV2WD7MDJZMJ\"><span style=\"color: #434343;\">Summary</span></h3><p>On October 8, 2025 from 16:05 UTC to 19:29 UTC, some Zendesk Support customers on Pod 27 using Messaging and Chat may have experienced issues with omnichannel routing affecting automatic ticket assignments. Symptoms such as ticket routing delays and failures may have occurred as well as impact to Explore reports during the incident period.</p><h3 id=\"h_01K7K7A8WA4DZ5S3HA76DAQ569\"><span style=\"color: #434343;\">Timeline</span></h3><p><strong>October 8, 2025 18:30 UTC | October 8, 2025 10:30 PT</strong></p><p>We are receiving reports of Omnichannel routing issues on Pod 27, causing tickets to not route automatically. Manual routing is still functioning at this time. Our team is investigating and we will provide further updates shortly.</p><p><strong>October 8, 2025 18:45 UTC | October 8, 2025 10:45 PT</strong></p><p>We have confirmed an issue with Omnichannel routing in Pod 27 causing tickets to not route automatically as expected. Manual routing of these tickets is still functioning in the meantime. We will provide additional information when we have a substantive update to share.</p><p><strong>October 8, 2025 19:51 UTC | October 8, 2025 11:51 PT</strong></p><p>Our team continues to investigate solutions for the issue preventing tickets from assigning through Omnichannel routing on Pod 27. Manual routing of tickets can help to work around some individual cases while our team works to mitigate the impact. We will post further updates when we have new information to share.</p><p><strong>October 8, 2025 20:36 UTC | October 8, 2025 12:36 PT</strong><br><br>We are beginning to see improvement from the issue preventing Omnichannel ticket routing for Pod 27 customers. Our team is monitoring recovery, but please let us know if you continue to experience any issues.</p><p><strong>October 9, 2025 01:05 UTC | October 8, 2025 18:05 PT</strong></p><p>We’ve observed stable routing performance for the last several hours following the earlier disruption affecting Omnichannel ticket routing on Pod 27. While indicators are positive, we are continuing to monitor closely before declaring full recovery. If you’re still experiencing issues, please <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-customer-support\" target=\"_blank\" rel=\"noopener noreferrer\">contact our support team</a>. We’ll provide another update as we progress.</p><h3 id=\"h_01K7K79P0N8KN4X7RDVAFJGS1E\"><span style=\"color: #06363c;\">Root Cause Analysis</span></h3><p>This incident was caused by <span style=\"color: #161618;\">a configuration issue in our messaging system that allowed a bottleneck to occur due to a large message payload in the message queue on the affected partition. This issue stalled ticket routing for a group of customers. Further, this led to a backlog in our ticket assignment system, preventing new tickets from being automatically routed to agents until the problem was addressed.</span></p><h3 id=\"h_01K7K796NQMV0GG558F8S7G01R\"><span style=\"color: #06363c;\">Resolution</span></h3><p>To fix this issue, our team unblocked the message pipeline which allowed message processing to resume. </p><h3 id=\"h_01K7K796NRCWG8NA4CQF0VWEQG\"><span style=\"color: #06363c;\">Remediation Items</span></h3><ol>\n<li data-list-item-id=\"e00f7c14846d7117c1668f6a704171d15\">Enable timeouts for message event processing [In progress]</li>\n<li data-list-item-id=\"e9291b6fa82b2b5a7e0b8e5a3fbfb3f21\">Replace audit API with better performing API to reduce timeout events [Scheduled]</li>\n<li data-list-item-id=\"eb9f2a028e4eee019fc220b1bd6da10d9\">Update runbooks to improve incident response time [Completed]</li>\n<li data-list-item-id=\"e73c2ed965da4870f11190beaeb425b33\">Update internal escalation policy to improve incident response time [Completed]</li>\n<li data-list-item-id=\"e949af3239c39b18df03e4bbcdf4ea5da\">Improve logging for messaging service partitions [Completed]</li>\n</ol><h4 id=\"h_01K086AN7TN2VXG8HZSHSSG4DT\"><strong>FOR MORE INFORMATION</strong></h4><p>For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com/\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
     }
   ],
