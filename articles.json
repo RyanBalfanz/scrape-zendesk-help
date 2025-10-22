@@ -9,7 +9,7 @@
     {
       "id": 9858456215194,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9858456215194.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/9858456215194-Service-Incident-October-23-2025-Multiple-pods-All-messaging-tickets-are-not-assigned-to-human-agents-by-the-system",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/9858456215194-Service-Incident-October-23-2025-Multiple-pods-Issues-with-AI-Agent-tickets",
       "author_id": 9005790397722,
       "comments_disabled": true,
       "draft": false,
@@ -19,21 +19,21 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2025-10-22T17:04:36Z",
-      "updated_at": "2025-10-22T17:16:18Z",
-      "name": "Service Incident - October 23, 2025 | Multiple pods - All messaging tickets are not assigned to human agents by the system",
-      "title": "Service Incident - October 23, 2025 | Multiple pods - All messaging tickets are not assigned to human agents by the system",
+      "updated_at": "2025-10-22T18:52:30Z",
+      "name": "Service Incident - October 23, 2025 | Multiple pods - Issues with AI Agent tickets",
+      "title": "Service Incident - October 23, 2025 | Multiple pods - Issues with AI Agent tickets",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-10-22T17:04:45Z",
+      "edited_at": "2025-10-22T18:52:30Z",
       "user_segment_id": null,
       "permission_group_id": 1324079,
       "content_tag_ids": [],
       "label_names": [
         "mt"
       ],
-      "body": "<h3 id=\"h_01JYK85Y9T0AHJER1Q121QPZR1\"><strong>SUMMARY</strong></h3><p><strong>October 23, 2025 17:57 UTC | October 23, 2025 10:57 AM PT</strong></p><p>We have identified an issue with the Pre-Agent ticket rollout. We have had customers report issues with tickets not being escalated to Agents when they should have been. We have also received reports that Pre-Agent tickets are created an AI Agent is not configured. The latter issue can be caused when basic responders are acting on pre-agent conversations. We recommend if you are seeing issues with Pre-Agent tickets to disable pre agent tickets following the steps <a href=\"https://support.zendesk.com/hc/en-us/articles/9204149016346-Understanding-and-viewing-AI-agent-tickets-for-AI-agent-only-conversations\">here</a>. We will provide updates as they become available.</p><p> </p><h4 id=\"h_01K086AN7TN2VXG8HZSHSSG4DT\"><strong>FOR MORE INFORMATION</strong></h4><p>For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com/\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
+      "body": "<h3 id=\"h_01JYK85Y9T0AHJER1Q121QPZR1\"><strong>SUMMARY</strong></h3><p><strong>October 23, 2025 17:57 UTC | October 23, 2025 10:57 AM PT</strong></p><p>We have identified an issue with the AI Agent tickets rollout. We have had customers report issues with tickets not being escalated to Agents when they should have been. We have also received reports that AI-Agent tickets are created an AI Agent is not configured. The latter issue can be caused when basic responders are acting on pre-agent conversations. We recommend if you are seeing issues with AI Agent tickets to disable the feature following the steps <a href=\"https://support.zendesk.com/hc/en-us/articles/9204149016346-Understanding-and-viewing-AI-agent-tickets-for-AI-agent-only-conversations\">here</a>. We will provide updates as they become available.</p><p> </p><h4 id=\"h_01K086AN7TN2VXG8HZSHSSG4DT\"><strong>FOR MORE INFORMATION</strong></h4><p>For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com/\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
     },
     {
