@@ -1,11 +1,44 @@
 {
-  "count": 4875,
+  "count": 4876,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 163,
   "per_page": 30,
   "previous_page": null,
   "articles": [
+    {
+      "id": 9856206766618,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9856206766618.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/9856206766618-Generative-answers-don-t-appear-in-my-AI-agent",
+      "author_id": 9331196087066,
+      "comments_disabled": false,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 8243870008090,
+      "created_at": "2025-10-22T07:22:22Z",
+      "updated_at": "2025-10-22T13:22:46Z",
+      "name": "Generative answers don’t appear in my AI agent",
+      "title": "Generative answers don’t appear in my AI agent",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2025-10-22T13:22:14Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801135069,
+      "content_tag_ids": [],
+      "label_names": [
+        "ks",
+        "ab0",
+        "ab0_admin_center",
+        "role_admin"
+      ],
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>Why can’t I see generative answers in my AI agent?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>Generative AI is not included with Zendesk AI Agent - Essentials, which is the AI package automatically bundled with most Zendesk Suite plans. AI Agent - Essentials provides foundational automation tools, such as automated response suggestions, intent detection, conversation summaries, and real-time coaching.</p><p>In contrast, Zendesk AI Agent - Advanced is a paid add‑on that includes enhanced intelligence, automation, and reporting, such as generative responses created dynamically by the AI agent. If you want your AI agent to produce generative answers, you need to upgrade your plan to AI Agent - Advanced.</p><h4 id=\"h_01K85CKM6S7P5ADWPW0CVZYHXG\">AI Agents - Essentials (included with most Zendesk Suite plans)</h4><ul>\n<li data-list-item-id=\"ed3580d3ef8627424bdeb4949f9975a3e\">Automated response suggestions</li>\n<li data-list-item-id=\"e924a3d78b907fec62ade60cde0276d57\">Ticket intent detection</li>\n<li data-list-item-id=\"e653f426821086b199841c5264350d910\">Conversation summaries</li>\n<li data-list-item-id=\"e2106634f6afeff6041145da1167d1433\">Real-time prompts and coaching</li>\n<li data-list-item-id=\"e63ee395595e8b53372c05d604b851aea\">Basic analytics and reporting</li>\n</ul><h4 id=\"h_01K85CKFH1Y8KDZVZWVNCJAP0Y\">AI Agents - Advanced (add‑on)</h4><ul>\n<li data-list-item-id=\"e83e9fdb69ad63877862f17e85f306547\">Includes everything in Essentials</li>\n<li data-list-item-id=\"ee8edb4716f206db76853a2b97df0e4f2\">Generative answers in AI agents</li>\n<li data-list-item-id=\"e6f53f59bf5300173259e15e87898952a\">Advanced ticket categorization</li>\n<li data-list-item-id=\"e0c354f7222b51a1b59d049986bd68af3\">Complex workflow automations</li>\n<li data-list-item-id=\"efb09862467935885053fe804a751039b\">Escalations and AI routing</li>\n<li data-list-item-id=\"e66c56a9f0e4ba7fa849812945952f822\">Bulk AI actions on tickets</li>\n<li data-list-item-id=\"e42921484df32a691e4cfd75244a5c003\">Customizable AI training</li>\n<li data-list-item-id=\"e8e9b465b64b6c34a9ad4fb4580b0f2e1\">Macro or script integration</li>\n<li data-list-item-id=\"e81dc680ae84b845164b4cec44845793b\">Advanced analytics and reporting</li>\n</ul><p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/6970583409690-About-AI-agents\" target=\"_blank\" rel=\"noopener noreferrer\">About AI Agents</a></p>",
+      "user_segment_ids": []
+    },
     {
       "id": 9853061174298,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9853061174298.json",
@@ -919,36 +952,6 @@
         "role_admin"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>Can I create redirect rules for articles between brands?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>Yes, to create a URL redirect from an article in brand A to an article in brand B, make the API call and use the subdomain of the brand you redirect from. This case, from the brand A.</p><figure class=\"wysiwyg-image\"><img style=\"aspect-ratio: 1940/916;\" src=\"https://support.zendesk.com/hc/article_attachments/9813152264346\" alt=\"Redirects between brands.png\" width=\"1940\" height=\"916\"></figure><p>For more information, see our developer's documentation: <a href=\"https://developer.zendesk.com/api-reference/help_center/help-center-api/redirect_rules/\">Redirect Rules</a></p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 9806699043866,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9806699043866.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/9806699043866-Announcing-a-modernized-Views-admin-page",
-      "author_id": 6089882898074,
-      "comments_disabled": true,
-      "draft": false,
-      "promoted": true,
-      "position": 0,
-      "vote_sum": 1,
-      "vote_count": 1,
-      "section_id": 4405298833818,
-      "created_at": "2025-10-08T22:17:26Z",
-      "updated_at": "2025-10-21T14:08:30Z",
-      "name": "Announcing a modernized Views admin page",
-      "title": "Announcing a modernized Views admin page",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2025-10-21T13:51:20Z",
-      "user_segment_id": null,
-      "permission_group_id": 1324079,
-      "content_tag_ids": [],
-      "label_names": [
-        "mtpe"
-      ],
-      "body": "<figure style=\"height: 44px; width: 100%;\" class=\"wysiwyg-table wysiwyg-table-align-left\"><table style=\"border-collapse: collapse; border-style: solid; border-width: 1px;\"><tbody>\n<tr style=\"height: 22px;\">\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\"><strong>Announced on</strong></td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\"><strong>Rollout starts</strong></td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\"><strong>Rollout ends</strong></td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\">October 21, 2025</td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\">November 17, 2025</td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\">December 16, 2025</td>\n</tr>\n</tbody></table></figure><p>We’re excited to announce a modernized Views admin page in Admin Center, along with improved behavior for views CSV exports. These updates aim to deliver a more consistent, accessible, and user-friendly experience for users. </p><p>This announcement includes the following sections:</p><ul>\n<li data-list-item-id=\"eff35e6d9cc9dfaf1bf0574f31fa11bde\"><a href=\"#h_01K7Q9WSQDQR3W54TTSCAC4WQD\">What is changing?</a></li>\n<li data-list-item-id=\"e56bd5f6b0808940d27b8167bd702458f\"><a href=\"#h_01K7Q9WSQKYW12525JHHAFZ39H\">Why is Zendesk making this change?</a></li>\n<li data-list-item-id=\"e733ca62355fab4e16fa2f78593e3737b\"><a href=\"#h_01K7Q9WSQKN2G0V0YEMKMSWHBW\">What do I need to do?</a></li>\n</ul><h2 id=\"h_01K7Q9WSQDQR3W54TTSCAC4WQD\">What is changing?</h2><h3 id=\"h_01K7Q9WSQDXZM2DZ5VYBCQRTBC\">Changes summary</h3><p>Before we detail the user experience, here are the key changes in the Views admin page:</p><ul>\n<li data-list-item-id=\"e3a4f180cf6f85c76d8fb6e351bed32b7\">Replaced <strong>Active</strong> and <strong>Inactive</strong> tabs with a new filtering system (including Status), that’s also in other Admin Center pages, such as Triggers and Tickets Fields</li>\n<li data-list-item-id=\"efac207861cf34ec67d6e86b65935cdb8\">Reordering option <strong>Select Position</strong> is replaced by modernized reordering options and a new <strong>Create view below</strong> option.</li>\n<li data-list-item-id=\"e45d99dd4a8f53f7f8179cc67dbdc9cc6\">Increased column limit from 11 to 15.</li>\n<li data-list-item-id=\"ed8df3c8f0dbaca56121f320671166d70\">Custom ticket <strong>Status</strong> column can be added or removed like any other column.</li>\n</ul><p>Additionally, we’re improving views CSV exports for accounts using <a href=\"https://support.zendesk.com/hc/en-us/articles/4412575861018\"><span class=\"wysiwyg-underline\">custom ticket statuses</span></a> by replacing legacy status ID and name columns with a single customizable, user-friendly status field.</p><p>There are no changes to permissions for managing views. Users with read-only access to views can see the settings but cannot edit or reorder views.<br> <img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/zug_workspace_views_default.png\" width=\"700\"></p><h3 id=\"h_01K7Q9WSQHFFF6M00DM4W50NE4\">Changes experience</h3><p>Let’s review what the changes mean in practice.</p><p>When you navigate to the Views admin page, by default, you still see the Active and All Shared views. Above the list of views, you now have the number of views and the filter drawer, to view and set the filters. <strong>Reset filters</strong> restores the default Active and All Shared views.</p><p>You still sort the views by clicking the column headers but you won’t need to sort back by position to be able to reorder the list. You can click to reorder no matter how you’ve sorted the list.</p><p>To reorder views, we’re providing a modernized drag-and-drop experience with all views on a single page. You can also select multiple views and move them to the first or last position of the list, using readily accessible arrows.</p><p>These improvements, along with a new option, cover the <strong>Select Position</strong> option that we are removing. The new <strong>Create view below </strong>option allows you to create a view just below an existing view.</p><p>We’ve made the custom <strong>Status</strong> column more flexible. You can now add or remove it like any other column. To support this change, we’ll update all existing views definitions by adding the status column where it’s missing. This won’t affect what appears in the user interface, as the status column is already displayed on agent and admin pages. <strong>However, if you use our API, you may notice this column appearing in the view column output data returned after the update. </strong></p><p><strong>The update to add the column will take place between these dates:</strong></p><div><figure style=\"width: 100%;\" class=\"wysiwyg-table\"><table><tbody>\n<tr>\n<td><strong>Status column addition starts</strong></td>\n<td><strong>Status column addition ends</strong></td>\n</tr>\n<tr>\n<td><span style=\"color: #292a2e;\">November 18, 2025</span></td>\n<td><span style=\"color: #292a2e;\">December 15, 2025</span></td>\n</tr>\n</tbody></table></figure></div><p>We will also improve views CSV exports for accounts using <a href=\"https://support.zendesk.com/hc/en-us/articles/4412575861018\"><span class=\"wysiwyg-underline\">custom ticket statuses</span></a>:</p><ul>\n<li data-list-item-id=\"e9f947620673abed270d6ee55c118dfbe\">The legacy ticket status name and ID columns in the views CSV export will be replaced with a single custom ticket status column.</li>\n<li data-list-item-id=\"e4eca8ea86dbd3890c6ecdda8d02afe55\">Previously, CSV exports showed internal IDs for custom ticket status causing confusion. Some accounts had feature flags to show readable names. Now, all customers will see user-friendly status names in CSV exports.</li>\n<li data-list-item-id=\"ea4c149f6a5f0df94012e0b624899beaf\">Users can remove the custom ticket status column entirely in the new Views admin page, resulting in no status column in export.</li>\n</ul><div><figure style=\"width: 100%;\" class=\"wysiwyg-table\"><table><tbody>\n<tr>\n<td><strong>Export fix rollout starts</strong></td>\n<td><strong>Rollout ends</strong></td>\n</tr>\n<tr>\n<td><span style=\"color: #292a2e;\">November 17, 2025</span></td>\n<td><span style=\"color: #292a2e;\">November 21, 2025</span></td>\n</tr>\n</tbody></table></figure></div><p><strong>If you need more time to prepare for this change, you can opt out of the export until January 13, 2026. To do so, please fill out the </strong><a href=\"https://docs.google.com/forms/d/e/1FAIpQLScWNuMJ7oVNkRZq05s_8lw9BF6wPUICNYHU8mbjWQr91a_NXw/viewform\"><strong><span class=\"wysiwyg-underline\">form</span></strong></a>.</p><h2 id=\"h_01K7Q9WSQKYW12525JHHAFZ39H\">Why is Zendesk making this change?</h2><p class=\"wysiwyg-text-align-justify\">We’re modernizing Admin Center to give admins a faster, more reliable, and accessible experience. Updating legacy pages like the Views admin page improves stability and performance, speeds up load times, unifies the interface, and supports our accessibility standards.</p><p class=\"wysiwyg-text-align-justify\">Additionally, we want to offer a clear, fully customizable CSV export experience, allowing you to completely control the ticket data included in your CSV files.</p><h2 id=\"h_01K7Q9WSQKN2G0V0YEMKMSWHBW\">What do I need to do?</h2><p class=\"wysiwyg-text-align-justify\">If you rely on our API to get views, please be aware that a new custom ticket status column will be added to the views column output. We recommend assessing any potential impact this may have.</p><p>If you use the CSV export, please note the change of how the status column is displayed. If you need more time to adjust your internal processes, you can delay this change for 60 days by filling out this <a href=\"https://docs.google.com/forms/d/e/1FAIpQLScWNuMJ7oVNkRZq05s_8lw9BF6wPUICNYHU8mbjWQr91a_NXw/viewform\"><span class=\"wysiwyg-underline\">form</span></a>.</p><p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/1260801325369\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\">Zendesk Customer Support</a>.</p>",
       "user_segment_ids": []
     }
   ],
