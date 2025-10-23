@@ -19,7 +19,7 @@
       "vote_count": 0,
       "section_id": 4405298833818,
       "created_at": "2025-10-22T21:48:32Z",
-      "updated_at": "2025-10-22T23:25:52Z",
+      "updated_at": "2025-10-23T15:00:10Z",
       "name": "Announcing support for WhatsApp Product Catalogs",
       "title": "Announcing support for WhatsApp Product Catalogs",
       "source_locale": "en-us",
@@ -30,7 +30,9 @@
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
-      "label_names": [],
+      "label_names": [
+        "mtpe"
+      ],
       "body": "<p>We have another exciting WhatsApp feature available today. Customers can now build out eCommerce experiences over WhatsApp with our newly introduced support for <a href=\"https://developers.facebook.com/docs/whatsapp/cloud-api/guides/sell-products-and-services/share-products#catalog-messages\" target=\"_blank\" rel=\"noopener noreferrer\">Product Catalogs</a>. You can now help your customers through a full eCommerce experience over WhatsApp and any product questions that come in to your tickets will include all relevant product details, making it easy for your agents to answer their questions. </p><h3 id=\"h_01K36J7MMSYHMW6QTXE39XCTM4\">What do I need to do?</h3><p>First you will need to <a href=\"https://www.facebook.com/business/help/890714097648074?id=725943027795860&amp;checkpoint_src=any\" target=\"_blank\" rel=\"noopener noreferrer\">set up your product catalog</a> via your Meta Business Manager. From there you can choose to share one product, multiple products or the entire catalog with your customers. <br><br>After a customer selects the products they'd like to purchase, a webhook event with the selected products will be triggered. You can then use this webhook to populate a ready-made shopping cart on your eCommerce site and serve it back to your customer in the same WhatsApp conversation. <br><br>Given the need to configure our <code data-stringify-type=\"code\">passthrough:messaging</code> webhook event, you will need access to the <a href=\"https://developer.zendesk.com/api-reference/conversations/\" target=\"_blank\" rel=\"noopener noreferrer\">Sunshine Conversations API</a>. Access to the messaging platform is available to customers on the Suite Professional or Enterprise plans.<br><br>Support for product questions originating from catalog items with context works out of the box and requires no configuration.</p><h3 id=\"h_01K375VWGMS6XFT3ZG727BAM6Q\">What are the pricing implications?</h3><p>The use of the Sunshine Conversations API as described above will count toward your MAUs. These <a href=\"https://www.zendesk.com/pricing/\" target=\"_blank\" rel=\"noopener noreferrer\">platform usage fees</a> are billed through Zendesk. </p><p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/1260801308710\" target=\"_blank\" rel=\"noopener noreferrer\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk Customer Support</a>.</p><p> </p><p> </p>",
       "user_segment_ids": []
     },
@@ -330,7 +332,7 @@
       "vote_count": 3,
       "section_id": 4405298833818,
       "created_at": "2025-10-17T16:48:41Z",
-      "updated_at": "2025-10-22T17:14:38Z",
+      "updated_at": "2025-10-23T15:00:10Z",
       "name": "Announcing simplified domain verification for the web crawler",
       "title": "Announcing simplified domain verification for the web crawler",
       "source_locale": "en-us",
@@ -341,7 +343,9 @@
       "user_segment_id": null,
       "permission_group_id": 1324079,
       "content_tag_ids": [],
-      "label_names": [],
+      "label_names": [
+        "mtpe"
+      ],
       "body": "<figure style=\"width: 100%;\" class=\"wysiwyg-table\"><table style=\"border-style: solid; border-width: 1px; margin-left: 0px; margin-right: auto;\"><tbody>\n<tr>\n<td style=\"border-style: solid; border-width: 1px;\"><strong>Announced on</strong></td>\n<td style=\"border-style: solid; border-width: 1px;\"><strong>Rollout starts on</strong></td>\n<td style=\"border-style: solid; border-width: 1px;\"><strong>Rollout ends on</strong></td>\n</tr>\n<tr>\n<td style=\"border-style: solid; border-width: 1px;\">October 22, 2025</td>\n<td style=\"border-style: solid; border-width: 1px;\">October 22, 2025</td>\n<td style=\"border-style: solid; border-width: 1px;\">October 28, 2025</td>\n</tr>\n</tbody></table></figure><p>We’ve simplified the process for setting up web crawlers in the Federated Search API. You can now configure a web crawler without adding a verification tag in the &lt;head&gt; element of your homepage.</p><p>This announcement includes the following topics:</p><ul>\n<li data-list-item-id=\"ead1d3ecf88cc9c4bf11615fdbd2500f4\"><a href=\"#h_01K6K3R5GRGWWB0F7VKP5Q3H5Q\">What’s changing?</a></li>\n<li data-list-item-id=\"e221b2051f38a0d3a02c44b82c2b07ec1\"><a href=\"#h_01K6K3RW6MFXA20AEHDH4XEV2Y\">Why is Zendesk making this change?</a></li>\n<li data-list-item-id=\"e51ff58153f63677fc142042e33421fa4\"><a href=\"#h_01K6K3RSS1HYBD0C7QPBEM0VRB\">What do I need to do?</a></li>\n</ul><h2 id=\"h_01K6K3R5GRGWWB0F7VKP5Q3H5Q\">What’s changing?</h2><p>Previously, when configuring a web crawler, Knowledge admins were required to prove ownership of their domain by adding a verification tag to the &lt;head&gt; section in the HTML code of their site's non-authenticated home page.</p><p>With this change, Knowledge admins setting up the web crawler are no longer required to add a domain verification tag. To configure the crawler, you can enter the desired URL and accept the disclaimer, confirming your right to crawl the specified domain without additional coding.</p><p><img style=\"aspect-ratio: 1198/764; width: 58%;\" class=\"wysiwyg-image-resized\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/guide-dom-verif-step2.png\" width=\"1198\" height=\"764\"></p><h2 id=\"h_01K6K3RW6MFXA20AEHDH4XEV2Y\">Why is Zendesk making this change?</h2><p><span style=\"color: #424242;\">By providing a more user-friendly way to set up web crawlers, we’re making it easier to ingest external content into Zendesk, where it can become available for help center search, generative search, and Knowledge in the Agent Workspace.</span></p><h2 id=\"h_01K6K3RSS1HYBD0C7QPBEM0VRB\">What do I need to do?</h2><p><span style=\"color: #424242;\">The simplified crawler setup experience is available for all Zendesk customers. </span><a href=\"https://support.zendesk.com/hc/en-us/articles/4593564000410\" target=\"_blank\" rel=\"noopener noreferrer\"><span style=\"color: #424242;\">See more information about setting up the web crawler</span></a><span style=\"color: #424242;\">.</span></p><p><span style=\"color: #1d1c1d;\">If you have feedback or questions related to this announcement, visit </span><a href=\"https://support.zendesk.com/hc/en-us/community/topics/1260801308530-Feedback-Help-Center-Guide-\" target=\"_blank\" rel=\"noopener noreferrer\"><span style=\"color: #1d1c1d;\">our community forum</span></a><span style=\"color: #1d1c1d;\"> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact </span><a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\" target=\"_blank\" rel=\"noopener noreferrer\"><span style=\"color: #1d1c1d;\">Zendesk Customer Support</span></a><span style=\"color: #1d1c1d;\">.</span></p>",
       "user_segment_ids": []
     },
