@@ -1,5 +1,5 @@
 {
-  "count": 4881,
+  "count": 4882,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 163,
@@ -38,6 +38,39 @@
         "role_admin"
       ],
       "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2><p>When I open a ticket, Copilot does not show a suggested first reply, or the suggestion looks too generic.</p><p>Suggested first replies depend on your macros, help center articles, and, on messaging channels, a large language model (LLM).</p><p>These replies appear only for the first agent response and only on email, web form, and messaging tickets.</p><h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2><p>This issue can occur if your account does not meet the prerequisites for Copilot, the feature conflicts with Auto Assist, or the content sources are too broad for Copilot to match accurately.</p><p>Follow these steps to restore suggested first replies:</p><h4 id=\"h_01K88NXMC9WCTS17TP0N62E40P\">1. Confirm account eligibility</h4><p>Make sure your account has the <a href=\"https://support.zendesk.com/hc/en-us/articles/5608652527386-Getting-started-with-AI-features-in-the-Zendesk-Copilot-add-on\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk Agent Copilot add‑on</a>.</p><h4 id=\"h_01K88NXSHCEW5035WSNJCEQDDH\">2. Use the Zendesk Agent Workspace</h4><p>Copilot features work only in the Zendesk Agent Workspace.</p><h4 id=\"h_01K88NXXFVBFVK0B0BBJNRZV7J\">3. Check messaging backend migration</h4><ul>\n<li data-list-item-id=\"e60c07fe6f55b27b62a17bd1f3512eb10\">In <strong>Admin Center</strong>, go to <strong>Objects and rules</strong> &gt; <strong>Messaging triggers</strong><ul>\n<li data-list-item-id=\"e877e3197dff1b9e25d820e01adfce14e\">If the page appears, your account has been migrated</li>\n<li data-list-item-id=\"e79e350170ba3ca6bd7f55ac067a40f50\">If it does not appear, migration may still be pending</li>\n</ul>\n</li>\n<li data-list-item-id=\"e574626bfc0ee5b342804d4cfa0dfb8c0\">Suggested first replies in messaging require this migration</li>\n</ul><h4 id=\"h_01K88NY7059FJASYW1V01T2WZR\">4. Verify that auto assist does not override suggestions</h4><p>When both features are on, auto assist takes precedence. To confirm:</p><ul>\n<li data-list-item-id=\"e9c62fe9cabc8dfbbb2eeeff915dd7e6f\">Temporarily turn off auto assist</li>\n<li data-list-item-id=\"e22851a078173a741d792a4a539a5ad2e\">Open a new ticket and check whether a suggested first reply appears</li>\n</ul><h4 id=\"h_01K88NYGE5T25YZ7BY0C26XKCH\">5. Improve macro and article quality</h4><ul>\n<li data-list-item-id=\"eaaf577a553d37407109024ae61cd3996\">Write clear, specific macros for common intents</li>\n<li data-list-item-id=\"e356c07703aaffc9a2235e915cb5d5bd9\">Keep help center articles concise and well-labeled in all supported languages</li>\n<li data-list-item-id=\"e42f25a0b6f61b4839b46e2d2792c1443\">Document internal processes for frequent requests to help Copilot generate accurate matches</li>\n</ul><h4 id=\"h_01K88NYM6G938ZP9GZJCNWR5AD\">6. Track results</h4><ul>\n<li data-list-item-id=\"ee1e3422b50e7bda6aca9790afa0c4bf3\">When an agent accepts a suggestion, the ticket receives the tag <code>accepted_suggested_first_reply</code>.</li>\n<li data-list-item-id=\"e793feadab0ec64c8c6fb5d693770188d\">Use this tag in <a href=\"https://support.zendesk.com/hc/en-us/articles/8037982400794-Explore-recipe-Reporting-on-suggested-first-replies\" target=\"_blank\" rel=\"noopener noreferrer\">reports</a> to measure feature usage.</li>\n</ul><p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/8037936748570-Turning-on-suggested-first-replies\" target=\"_blank\" rel=\"noopener noreferrer\">Turning on suggested first replies</a></p>",
+      "user_segment_ids": []
+    },
+    {
+      "id": 9861656254490,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9861656254490.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/9861656254490-Can-I-use-intent-and-sentiment-in-procedures",
+      "author_id": 7018378199194,
+      "comments_disabled": false,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 5346334218778,
+      "created_at": "2025-10-23T10:08:50Z",
+      "updated_at": "2025-10-24T14:20:48Z",
+      "name": "Can I use intent and sentiment in procedures?",
+      "title": "Can I use intent and sentiment in procedures?",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2025-10-24T14:20:48Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801135069,
+      "content_tag_ids": [],
+      "label_names": [
+        "ks",
+        "ab0",
+        "ab0_support",
+        "role_admin"
+      ],
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>Can I leverage intent and sentiment in a procedure?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>Yes, you can use intent and sentiment to create procedures for auto assist to guide agents to resolve customer requests. Auto assist can suggest replies or actions without mapping specific procedures to intents or ticket metadata. It understands the customer’s request and matches it to an existing procedure if an admin has created one for that topic.</p><div>\n<p>To add intent and sentiment to the auto assist procedure:</p>\n<ul>\n<li data-list-item-id=\"e517b85a3d7e6c054838556039cf51101\">Open <strong>Knowledge </strong>&gt; <strong>Add </strong>&gt;<strong> Procedure</strong>\n</li>\n<li data-list-item-id=\"ea1ca369887d7143bb5a34dc6a2962c61\">Add a name for the procedure</li>\n<li data-list-item-id=\"e6ef3bfb06804ad69e2b63c857385e9e8\">Click the <strong>+</strong> button to insert actions</li>\n<li data-list-item-id=\"e60c0be11a97b05ab1265b6fc6abd15db\">Select <strong>Standard actions</strong> &gt;<strong> Change field 'Intent'</strong> or <strong>Change field 'Sentiment'</strong>\n</li>\n<li data-list-item-id=\"e68f85b910cb44707b9b27d3b096e94b2\">Click <strong>Publish</strong>\n</li>\n</ul>\n<figure class=\"wysiwyg-image wysiwyg-image-block-align-left\"><img style=\"aspect-ratio: 1900/1306;\" src=\"https://support.zendesk.com/hc/article_attachments/9866646633242\" alt=\"Add action to procedure\" width=\"1900\" height=\"1306\"></figure><p>For more information, check this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/7924047699738-Creating-procedures-for-auto-assist\" target=\"_blank\" rel=\"noopener noreferrer\">Creating procedures for auto assist</a>.</p>\n</div>",
       "user_segment_ids": []
     },
     {
@@ -923,40 +956,6 @@
       "content_tag_ids": [],
       "label_names": [],
       "body": "<div class=\"article-banners\">\n<div id=\"docs-wmp-link\"><a href=\"https://support.zendesk.com/hc/en-us/articles/5411234991258-plan\" target=\"_blank\" rel=\"noopener noreferrer\">What's my plan?</a></div>\n<div class=\"article-banner\" id=\"addon_contact-center\"><figure class=\"wysiwyg-table wysiwyg-table-align-left\"><table><tbody><tr>\n<td><strong>Add-on</strong></td>\n<td>Zendesk for Contact Center</td>\n</tr></tbody></table></figure></div>\n</div><div class=\"body\">\n<p class=\"p\">Zendesk for Contact Center agents can configure whether their microphone is always on, or only active when on a call. This provides the following advantages:</p>\n<ul class=\"ul\" id=\"always_on_microphone__ul_azl_k3s_xgc\">\n<li class=\"li\" dir=\"ltr\" data-list-item-id=\"e5cf0a05470702034633a2d18af603d90\">\n<strong class=\"ph b\">Improved battery life:</strong> Prevents unnecessary battery drain by turning off the microphone when not on a call.</li>\n<li class=\"li\" dir=\"ltr\" data-list-item-id=\"e44227ddf08538f1c5f2a6ae6eadffa33\">\n<strong class=\"ph b\">Enhanced productivity:</strong> Agents experience fewer interruptions due to headset issues.</li>\n<li class=\"li\" dir=\"ltr\" data-list-item-id=\"e09b26021f3c183e1d330289cb6ca2d7d\">\n<strong class=\"ph b\">Cost savings:</strong> Prolongs the lifespan of wireless headsets, reducing replacement costs.</li>\n</ul>\n<p class=\"p\">Before you turn on this setting, consider the following</p>\n<ul class=\"ul\" id=\"always_on_microphone__ul_hzl_k3s_xgc\">\n<li class=\"li\" dir=\"ltr\" data-list-item-id=\"e3ed3e631f1784fb0ab2d662dc7588f0c\">In some cases, turning on this setting might lead to wireless headset battery drain.</li>\n<li class=\"li\" dir=\"ltr\" data-list-item-id=\"e4f724ce752f01cfe22da6f65e44b5dc3\">Turning on this setting might affect music or video audio quality when not on a call.</li>\n</ul>\n</div><div class=\"topic nested1\" id=\"topic_ksr_xjs_xgc\" aria-labelledby=\"ariaid-title2\">\n<h2 class=\"title topictitle2\" id=\"ariaid-title2\">To turn the always-on microphone setting on or off</h2>\n<div class=\"body\">\n<p class=\"p\">You can turn the always-on microphone setting on or off from your agent settings.</p>\n<p class=\"p\"><strong class=\"ph b\">To turn the setting on or off</strong></p>\n<ol class=\"ol\" id=\"topic_ksr_xjs_xgc__ol_czl_k3s_xgc\">\n<li class=\"li\" dir=\"ltr\" data-list-item-id=\"e63020be072fae3d6247edd5c92f1ed68\">\n<p>In Contact Center, click the profile button (<img class=\"wysiwyg-image\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/cc_settings_icon.png\" width=\"20\" id=\"topic_ksr_xjs_xgc__image_zlg_mzw_xgc\">), then click <strong class=\"ph b\">Agent settings</strong>.</p>\n<p class=\"p\" dir=\"ltr\"><img class=\"wysiwyg-image\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/cc_always_2.png\" width=\"500\" id=\"topic_ksr_xjs_xgc__image_sqg_cjs_xgc\"></p>\n</li>\n<li class=\"li\" data-list-item-id=\"efa7b48513527935f296021ffed6d51f8\">\n<p>In the Audio settings section of the Agent settings page, choose one of the following settings for <strong class=\"ph b\">Always on microphone</strong>:</p>\n<ul class=\"ul\" id=\"topic_ksr_xjs_xgc__ul_fzl_k3s_xgc\">\n<li class=\"li\" dir=\"ltr\" data-list-item-id=\"e7e6e5694d4d97aa420cbd2a3b1e67e52\">\n<strong class=\"ph b\">Enabled:</strong> The microphone remains active at all times.</li>\n<li class=\"li\" dir=\"ltr\" data-list-item-id=\"ee819c47e6cbf25eca4715257723b1748\">\n<strong class=\"ph b\">Disabled:</strong> The microphone activates only during calls.</li>\n</ul>\n<p class=\"p\">Choose the setting based on your headset type and usage behavior.</p>\n</li>\n<li class=\"li\" dir=\"ltr\" data-list-item-id=\"e5a0cb98f85f5d36e831039797249e43b\">\n<p>Click <strong class=\"ph b\">Save</strong>.</p>\n<p class=\"p\"><img class=\"wysiwyg-image\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/cc_always_1.png\" width=\"500\" id=\"topic_ksr_xjs_xgc__image_xjn_2js_xgc\"></p>\n</li>\n</ol>\n</div>\n</div>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 9809925062682,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9809925062682.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/9809925062682-How-does-Zendesk-handle-data-privacy-for-AI-products",
-      "author_id": 8284543895322,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 8243870008090,
-      "created_at": "2025-10-09T17:07:48Z",
-      "updated_at": "2025-10-21T15:02:10Z",
-      "name": "How does Zendesk handle data privacy for AI products?",
-      "title": "How does Zendesk handle data privacy for AI products?",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2025-10-15T14:08:30Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801135069,
-      "content_tag_ids": [],
-      "label_names": [
-        "ks",
-        "ab0",
-        "mt",
-        "ab0_bots_automation",
-        "role_admin"
-      ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>How does Zendesk handle data privacy for AI products? I need a copy of the Data Processing Agreement (DPA).</p><p>How confident are you at Zendesk that your LLM (large language model) tool can accurately identify health data shared by users? And what safeguards do you have in place to protect this sensitive information?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>Zendesk follows <a href=\"https://www.zendesk.com/newsroom/articles/building-responsible-ai/\" target=\"_blank\" rel=\"noopener noreferrer\">design principles</a> for AI products that prioritize privacy, security, and compliance by design. For more details, refer to the <a href=\"https://www.zendesk.com/company/data-processing-agreement/\" target=\"_blank\" rel=\"noopener noreferrer\">Data Processing Agreement</a>.</p><p>Zendesk sets a <a href=\"https://support.zendesk.com/hc/en-us/articles/8357749625498-About-confidence-thresholds-for-advanced-AI-agents\" target=\"_blank\" rel=\"noopener noreferrer\">confidence threshold</a> to find data and shows how sure it is about each message to reduce errors. You can adjust this threshold to balance accuracy and responses.</p><p>It's important to note that Zendesk uses proprietary machine learning models that are not generative in nature. Because the outputs of these models are labels rather than passages of free text, images, or code, they do not create the risk of customer data being reproduced or shared in an improper context.</p><p>For more information, see the following articles:</p><ul>\n<li data-list-item-id=\"e5ebe13a0367a5ea8e939dd3366f8d224\"><a href=\"https://support.zendesk.com/hc/en-us/articles/5729714731290-Zendesk-AI-Data-Use-Information\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk AI Data Use Information</a></li>\n<li data-list-item-id=\"e18cc729fc12467b720194b63015ba2c1\"><a href=\"https://support.zendesk.com/hc/en-us/articles/7412310217370-Complying-with-Privacy-and-Data-Protection-Law-in-AI-agents-Advanced-Ultimate\" target=\"_blank\" rel=\"noopener noreferrer\">Complying with Privacy and Data Protection Law in AI agents - Advanced (Ultimate)</a></li>\n<li data-list-item-id=\"ee36281fea293365030e0044903b9c774\"><a href=\"https://support.zendesk.com/hc/en-us/articles/4408834005530-Complying-with-Privacy-and-Data-Protection-Law-in-Zendesk-products\" target=\"_blank\" rel=\"noopener noreferrer\">Complying with Privacy and Data Protection Law in Zendesk products</a></li>\n<li data-list-item-id=\"ecbf0d13976143f2849ff577683c54b94\"><a href=\"https://support.zendesk.com/hc/en-us/articles/6059285322522-Generative-AI-at-Zendesk\" target=\"_blank\" rel=\"noopener noreferrer\">Generative AI at Zendesk</a></li>\n</ul><div class=\"note\">\n<span class=\"notetitle\"><strong>Disclaimer</strong>:</span> This article is for informational purposes only and does not constitute legal advice. Readers should always seek legal advice before taking any action with respect to the matters discussed herein.</div>",
       "user_segment_ids": []
     }
   ],
