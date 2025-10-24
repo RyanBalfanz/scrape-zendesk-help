@@ -1,11 +1,41 @@
 {
-  "count": 4883,
+  "count": 4884,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 163,
   "per_page": 30,
   "previous_page": null,
   "articles": [
+    {
+      "id": 9866986135962,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9866986135962.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/9866986135962-Service-Incident-October-24-2025-Pod-17-AI-Agents-Auth-Access-User-Does-Not-Have-Permission",
+      "author_id": 9005790397722,
+      "comments_disabled": true,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298854426,
+      "created_at": "2025-10-24T15:44:10Z",
+      "updated_at": "2025-10-24T15:46:26Z",
+      "name": "Service Incident - October 24, 2025 | Pod 17 [AI Agents] - Auth/Access \"User Does Not Have Permission\"",
+      "title": "Service Incident - October 24, 2025 | Pod 17 [AI Agents] - Auth/Access \"User Does Not Have Permission\"",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2025-10-24T15:44:18Z",
+      "user_segment_id": null,
+      "permission_group_id": 1324079,
+      "content_tag_ids": [],
+      "label_names": [
+        "mt"
+      ],
+      "body": "<h3 id=\"h_01JYK85Y9T0AHJER1Q121QPZR1\"><strong>SUMMARY</strong></h3><p><strong>October 24, 2025 15:39 UTC | October 24, 2025 08:39 AM PT</strong></p><p>We have received reports of customers encountering 5XX errors when accessing the AI Agents core services. Our engineers have observed some recovery but continue to actively investigate the root cause. We apologize for the inconvenience and will provide updates as they become available.</p><p> </p><h4 id=\"h_01K086AN7TN2VXG8HZSHSSG4DT\"><strong>FOR MORE INFORMATION</strong></h4><p>For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com/\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
+      "user_segment_ids": []
+    },
     {
       "id": 9866676208026,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9866676208026.json",
@@ -931,36 +961,6 @@
         "role_admin"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>I want to create custom translations for the AI agent in my messaging Web Widget. How do I do that?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><div class=\"note\" id=\"topic_trh_sjg_5bc__note_exf_z1k_f2c\">\n<span class=\"notetitle\">Note:</span> This section applies only if you're on Support Professional and above or Suite Growth and above.</div><p>Custom message translations are manually written versions of the text in the message fields of an AI agent’s <a href=\"https://support.zendesk.com/hc/en-us/articles/4422584657434-Creating-answers-for-common-customer-questions-in-AI-agents-for-messaging-Legacy\" target=\"_blank\" rel=\"noopener noreferrer\">standard responses</a>. The widget must have languages enabled in the settings. Custom translations aren’t available for other automatically translated text elements, such as option or button text.</p><p>To create a custom translation for a standard AI agent response:</p><ol>\n<li data-list-item-id=\"e6e2cc9d1af86b977c9603731d40d1cd4\">In <strong>Admin Center</strong>, click <strong>AI </strong>in the sidebar</li>\n<li data-list-item-id=\"ea5d7300ee695ca11fea07d89aa89da99\">Select <strong>AI Agents </strong>&gt; <strong>AI agents</strong>\n</li>\n<li data-list-item-id=\"e9962134c89563880a1befef255dbf721\">Click the <strong>Messaging behavior</strong> tab</li>\n<li data-list-item-id=\"e1f9c523b905d1edeb320bd0f832e8c23\">Select the standard response you want to create a custom translation for</li>\n<li data-list-item-id=\"efe4a25a7a97cee96acff4e889ddc628a\">Under the message text, click <strong>Manage translations</strong>\n</li>\n<li data-list-item-id=\"e7a40220cfcb4ea769e3416358b8a09c8\">Click the pencil icon for the language you want to customize, then enter the custom text</li>\n<li data-list-item-id=\"e1334b538efa605a2de59e3b645679694\">Click <strong>Done</strong>\n</li>\n</ol><figure style=\"width: 46.11%;\" class=\"wysiwyg-image wysiwyg-image-resized wysiwyg-image-block-align-left\"><img style=\"aspect-ratio: 388/755;\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/manage_translations-customizing_ex.png\" alt=\"Manage translation\" width=\"388\" height=\"755\"></figure><p>Your changes are automatically saved but you need to <a href=\"https://support.zendesk.com/hc/en-us/articles/7232810932250-Publishing-an-AI-agent-to-make-it-live-for-customers\" target=\"_blank\" rel=\"noopener noreferrer\">publish the AI agent</a> to make them visible to customers. </p><p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408842754202-Managing-languages-and-translation-support-in-AI-agents\" target=\"_blank\" rel=\"noopener noreferrer\">Managing languages and translation support in AI agents</a></p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 9811566222106,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9811566222106.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/9811566222106-Service-Incident-October-10th-2025-Multiple-pods-Zendesk-Talk-availability-errors",
-      "author_id": 1900815493464,
-      "comments_disabled": true,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405298854426,
-      "created_at": "2025-10-10T03:35:50Z",
-      "updated_at": "2025-10-21T12:15:56Z",
-      "name": "Service Incident - October 10th, 2025 | Multiple pods - Zendesk Talk availability errors",
-      "title": "Service Incident - October 10th, 2025 | Multiple pods - Zendesk Talk availability errors",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2025-10-21T12:10:03Z",
-      "user_segment_id": null,
-      "permission_group_id": 1324079,
-      "content_tag_ids": [],
-      "label_names": [
-        "mt"
-      ],
-      "body": "<h3 id=\"h_01K83ASAPRAPKYB4G6BNE3Z835\"><span style=\"color: #434343;\"><strong>SUMMARY</strong></span></h3><p>On October 10, 2025, at 00:20 UTC, we received six reports of customers encountering a \"Talk is unavailable right now\" error. The issue affected Zendesk Talk users from six accounts hosted on pods 15, 19, and 30, causing disruptions with inbound and outbound calls. Premier customers were not impacted as the Arturo rollout excluded high value customers.</p><h3 id=\"h_01K83ASAPTXCKHQB6XWVT16425\"><span style=\"color: #434343;\"><strong>Timeline</strong></span></h3><p><strong>October 10, 2025 03:32 AM UTC | October 9, 2025 08:32 PM PT</strong></p><p>We are aware of an issue with Zendesk Talk causing the error message, \"Talk is unavailable right now.\" Our engineering team implemented a fix. Please refresh your browser and try again. Thank you for your patience and cooperation.</p><p><strong>October 10, 2025 5:32 PM UTC | October 10, 2025 10:32 AM PT</strong></p><p>Thank you for your patience. We have confirmed there are no more errors with Zendesk Talk following our fix and a period of monitoring. We will consider this incident resolved, but please reach out if you see issues in the future.</p><h3 id=\"h_01K83ASAPVA4Q3D3FMKC3HN495\"><span style=\"color: #434343;\"><strong>Root Cause Analysis</strong></span></h3><p>The incident was caused by a discrepancy between the API keys stored in Zendesk’s system and those on Twilio for certain accounts created in 2025.</p><h3 id=\"h_01K83ASAPVFVJF3V45R0XJ2GWR\"><span style=\"color: #434343;\"><strong>Resolution</strong></span></h3><p>To fix this issue, a global rollback was completed for all affected systems, with exceptions handled during off-hours for key customers. Communications were sent to users along with guidance to refresh their browsers, and further work will correct account-related issues to prevent recurrence.</p><h3 id=\"h_01K83ASAPW3RYGXYBVDJ49NCGB\"><span style=\"color: #434343;\"><strong>Remediation Items</strong></span></h3><ol>\n<li data-list-item-id=\"ed6261eb004d950c5fbf3706312a79908\">Identify and correct accounts with mismatched API keys between Zendesk and Twilio by updating and backfilling the necessary data.</li>\n<li data-list-item-id=\"ee216f704d9318c34f44ba3bee61546f5\">Fix the code responsible for incorrectly increasing the Twilio Device Error Metric to ensure accurate error tracking.</li>\n<li data-list-item-id=\"e25b59ce95bf2638d219446a2651b76bf\">Monitor and investigate the JWT token invalidation issue related to Twilio devices, specifically error code 31204, to prevent future occurrences.</li>\n</ol><p><strong>FOR MORE INFORMATION</strong></p><p><span style=\"background-color: #fefaf2; color: #16140c;\">For current system status information about Zendesk and specific impacts to your account, visit our </span><a href=\"https://status.zendesk.com/\"><span class=\"wysiwyg-underline\">system status page</span></a><span style=\"background-color: #fefaf2; color: #16140c;\">. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, </span><a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\"><span class=\"wysiwyg-underline\">contact Zendesk customer support.</span></a></p>",
       "user_segment_ids": []
     }
   ],
