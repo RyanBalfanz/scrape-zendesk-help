@@ -49,21 +49,21 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2025-10-27T16:16:00Z",
-      "updated_at": "2025-10-27T17:01:14Z",
+      "updated_at": "2025-10-27T17:31:10Z",
       "name": "Service Incident - October 27, 2025 - Multiple pods | Knowledge Ticket Submission Issues",
       "title": "Service Incident - October 27, 2025 - Multiple pods | Knowledge Ticket Submission Issues",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-10-27T16:59:58Z",
+      "edited_at": "2025-10-27T17:26:18Z",
       "user_segment_id": null,
       "permission_group_id": 1324079,
       "content_tag_ids": [],
       "label_names": [
         "mt"
       ],
-      "body": "<h3 id=\"h_01JYK85Y9T0AHJER1Q121QPZR1\"><strong>SUMMARY</strong></h3><p><strong>October 27, 2025 16:55 UTC | October 27, 2025 09:55 AM PT</strong></p><p>We have observed a reduction in the errors affecting Help Center ticket submissions. Our engineers are actively working on a complete resolution and will provide further updates once the issue is fully resolved. Please contact us if you continue to experience any difficulties.</p><p><strong>October 27, 2025 16:12 UTC | October 27, 2025 09:12 AM PT</strong></p><p>We are aware of an issue that is impacting end-user ticket submission on the Requests page in the Knowledge Help Center. We are actively investigating and will provide you with an update as soon as possible.</p><p> </p><h4 id=\"h_01K086AN7TN2VXG8HZSHSSG4DT\"><strong>FOR MORE INFORMATION</strong></h4><p>For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com/\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
+      "body": "<h3 id=\"h_01JYK85Y9T0AHJER1Q121QPZR1\"><strong>SUMMARY</strong></h3><p><strong>October 27, 2025 17:25 UTC | October 27, 2025 10:25 AM PT</strong><br><br>Our engineers have confirmed the issues impacting Help Center ticket submissions are resolved. Thank you for your patience.<br><br><strong>October 27, 2025 16:55 UTC | October 27, 2025 09:55 AM PT</strong></p><p>We have observed a reduction in the errors affecting Help Center ticket submissions. Our engineers are actively working on a complete resolution and will provide further updates once the issue is fully resolved. Please contact us if you continue to experience any difficulties.</p><p><strong>October 27, 2025 16:12 UTC | October 27, 2025 09:12 AM PT</strong></p><p>We are aware of an issue that is impacting end-user ticket submission on the Requests page in the Knowledge Help Center. We are actively investigating and will provide you with an update as soon as possible.</p><p> </p><h4 id=\"h_01K086AN7TN2VXG8HZSHSSG4DT\"><strong>FOR MORE INFORMATION</strong></h4><p>For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com/\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
     },
     {
