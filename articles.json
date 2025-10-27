@@ -398,14 +398,14 @@
       "vote_count": 0,
       "section_id": 8243870008090,
       "created_at": "2025-10-21T20:52:45Z",
-      "updated_at": "2025-10-27T14:34:26Z",
+      "updated_at": "2025-10-27T15:31:11Z",
       "name": "Can I restrict the customers who interact with email advanced AI agents?",
       "title": "Can I restrict the customers who interact with email advanced AI agents?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-10-27T14:32:35Z",
+      "edited_at": "2025-10-27T15:31:11Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -417,7 +417,7 @@
         "ab0_bots_automation",
         "role_admin"
       ],
-      "body": "<h2 id=\"h_01K8K0FD6QTTNZNSTV7RZZH43V\">Question</h2><p>Can I restrict the customers who interact with email advanced AI agents?</p><h2 id=\"h_01K8K0FFHPDYQDGTEA7QZY374V\">Answer</h2><p>Yes, you can restrict the customers who interact with email advanced AI agents with user and organization tags.</p><h3 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Restrict customers from an organization</h3><ol>\n<li data-list-item-id=\"e260152cbd3e7609624ca4d72d61c4f65\">Activate <a href=\"https://support.zendesk.com/hc/en-us/articles/4408882246298-Creating-organizations\" target=\"_blank\" rel=\"noopener noreferrer\">domain-mapping to an organization</a>\n</li>\n<li data-list-item-id=\"eea5e5589f1779e5562dc97f4ef986851\">Add the domain of the email address you want to exclude. Zendesk adds automatically users whose email address contains such domain to that organization.<img src=\"https://support.zendesk.com/hc/article_attachments/9877139584538\" alt=\"domain organization.png\" width=\"576\" height=\"388\">\n</li>\n<li data-list-item-id=\"e95ba36400865078af832777c773ef961\">Set this organization as default for the end user</li>\n<li data-list-item-id=\"e9a10deabe92583d71794bc8a30a59839\">Add the tag <strong>escalated_by_ultimate</strong> to the organization. New tickets from users in this organization will receive the <strong>escalated_by_ultimate </strong>tag,<strong> </strong>which the Advanced AI Agent identify and use to skip these tickets.</li>\n</ol><figure class=\"wysiwyg-image\"><img style=\"aspect-ratio: 528/300;\" src=\"https://support.zendesk.com/hc/article_attachments/9854567232794\" width=\"528\" height=\"300\"></figure><h3 id=\"h_01K8K0CN522F736QRN5RVJWK23\">Restrict single customers</h3><p>Add the tag <strong>escalated_by_ultimate </strong>to the profile of the user. As a result, every ticket from this user will include the this tag, which the Advanced AI Agent use to skip ticket.<br><br><img src=\"https://support.zendesk.com/hc/article_attachments/9868057069978\" width=\"327\" height=\"373\"></p><p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408881573658-Adding-tags-to-users-and-organizations\">Adding tags to users and organizations</a></p>",
+      "body": "<h2 id=\"h_01K8K0FD6QTTNZNSTV7RZZH43V\">Question</h2><p>Can I restrict the customers who interact with email advanced AI agents?</p><h2 id=\"h_01K8K0FFHPDYQDGTEA7QZY374V\">Answer</h2><p>Yes, you can use user tags and organization tags to restrict the customers who interact with email advanced AI agents.</p><h3 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Restricting all customers from an organization</h3><p>If your customers are, by default, part of an <a href=\"https://support.zendesk.com/hc/en-us/articles/4408882246298\" target=\"_blank\" rel=\"noopener noreferrer\">organization</a> you can use an organization tag to restrict their access to email advanced AI agents. </p><ul><li data-list-item-id=\"e5d32aef12df923ed7ae0dc1b0f16124e\">Add the tag <strong>escalated_by_ultimate</strong> to the organization. New tickets from all users in this organization will receive the <strong>escalated_by_ultimate </strong>tag,<strong> </strong>which the advanced AI agents identify and use to skip these tickets.</li></ul><figure class=\"wysiwyg-image\"><img style=\"aspect-ratio: 528/300;\" src=\"https://support.zendesk.com/hc/article_attachments/9854567232794\" width=\"528\" height=\"300\"></figure><h3 id=\"h_01K8K0CN522F736QRN5RVJWK23\">Restricting single customers</h3><p>If you want to restrict individual customers, you can use a user tag to restrict their access.</p><ul><li data-list-item-id=\"ee8a06d513a549aaf3cdaab1e5f55de3b\">Add the tag <strong>escalated_by_ultimate </strong>to the profile of the user. As a result, every ticket from this user will include the this tag, which the advanced AI agents use to skip the ticket.<br><br><img src=\"https://support.zendesk.com/hc/article_attachments/9868057069978\" width=\"327\" height=\"373\">\n</li></ul><p>For more information, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408881573658-Adding-tags-to-users-and-organizations\">Adding tags to users and organizations</a></p>",
       "user_segment_ids": []
     },
     {
