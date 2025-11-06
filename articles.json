@@ -52,21 +52,21 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2025-11-06T13:53:29Z",
-      "updated_at": "2025-11-06T14:01:20Z",
+      "updated_at": "2025-11-06T15:31:28Z",
       "name": "Service Incident - November 06, 2025 - Multiple pods | Explore - Error code 7 encountered when accessing Analytics",
       "title": "Service Incident - November 06, 2025 - Multiple pods | Explore - Error code 7 encountered when accessing Analytics",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-11-06T13:53:38Z",
+      "edited_at": "2025-11-06T15:29:39Z",
       "user_segment_id": null,
       "permission_group_id": 1324079,
       "content_tag_ids": [],
       "label_names": [
         "mt"
       ],
-      "body": "<h3 id=\"h_01JYK85Y9T0AHJER1Q121QPZR1\"><strong>SUMMARY</strong></h3><p><strong>November 06, 2025 13:52 UTC | November 06, 2025 05:52 AM PT</strong></p><p>We have received reports of customers encountering Error 7 codes when accessing the Explore service. Our engineering team is actively investigating this issue. We apologize for any inconvenience caused and appreciate your patience as we work to resolve the matter promptly. Updates will be provided as they become available.</p><p> </p><h4 id=\"h_01K086AN7TN2VXG8HZSHSSG4DT\"><strong>FOR MORE INFORMATION</strong></h4><p>For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com/\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
+      "body": "<h3 id=\"h_01JYK85Y9T0AHJER1Q121QPZR1\"><strong>SUMMARY</strong></h3><p><strong>November 06, 2025 15:21 UTC | November 06, 2025 07:21 AM PT</strong></p><p>Our engineers have deployed a fix to resolve the Error code 7 in Analytics. We kindly request your feedback to confirm whether the issue has been resolved. Please do not hesitate to contact us so we can assist you further if needed.</p><p><strong>November 06, 2025 13:52 UTC | November 06, 2025 05:52 AM PT</strong></p><p>We have received reports of customers encountering Error 7 codes when accessing the Explore service. Our engineering team is actively investigating this issue. We apologize for any inconvenience caused and appreciate your patience as we work to resolve the matter promptly. Updates will be provided as they become available.</p><p> </p><h4 id=\"h_01K086AN7TN2VXG8HZSHSSG4DT\"><strong>FOR MORE INFORMATION</strong></h4><p>For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com/\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
     },
     {
