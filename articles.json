@@ -9,7 +9,7 @@
     {
       "id": 9916939080730,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9916939080730.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/9916939080730-Customers-receive-mailer-daemon-from-Google-when-they-try-to-contact-through-email",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/9916939080730-My-customers-get-a-mailer-daemon-from-Google-when-they-email-us",
       "author_id": 1263082105349,
       "comments_disabled": false,
       "draft": false,
@@ -19,14 +19,14 @@
       "vote_count": 0,
       "section_id": 4405298901658,
       "created_at": "2025-11-06T14:02:21Z",
-      "updated_at": "2025-11-06T14:49:06Z",
-      "name": "Customers receive mailer daemon from Google when they try to contact through email",
-      "title": "Customers receive mailer daemon from Google when they try to contact through email",
+      "updated_at": "2025-11-07T09:38:51Z",
+      "name": "My customers get a mailer-daemon from Google when they email us",
+      "title": "My customers get a mailer-daemon from Google when they email us",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-11-06T14:49:05Z",
+      "edited_at": "2025-11-07T09:38:51Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -36,7 +36,7 @@
         "ab0_email",
         "role_admin"
       ],
-      "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2><p>My customers receive a mailer daemon from Google that indicates <strong>the account [user's email] is disabled </strong>when they try to contact us through email.</p><h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2><p>This may happen when your external support email address is a Google group. To resolve this, instruct your customer to <a href=\"https://accounts.google.com/Login\" target=\"_blank\" rel=\"noopener noreferrer\">sign in</a> to Google with the affected email address. Then, begin the appeal process. </p><p>They can review the following Google's documentation: <a href=\"https://support.google.com/accounts/answer/40695?sjid=6951065612833624639-AP#:~:text=Ask%20us%20to%20restore%20your%20account\" target=\"_blank\" rel=\"noopener noreferrer\">Ask us to restore your account</a>. The user may not be able to appeal the decision directly through this portal. If that’s the case, contact Google support for further assistance.</p><p>For more information, see the article: <a href=\"https://support.zendesk.com/hc/en-us/articles/4408833816218-How-do-I-use-Google-Groups-as-a-support-address\">How do I use Google Groups as a support address?</a></p><div class=\"note warning\">Warning: Zendesk does not support or guarantee that this method works correctly, nor can Zendesk troubleshoot issues caused by the use of Google Groups, email aliases, or similar methods. Zendesk does not block these methods. Use them at your own risk.</div>",
+      "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2><p>My customers get a mailer-daemon from Google that indicates <strong>the account [user's email] is disabled</strong> when they email us.</p><h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2><p>This can happen if your external support email address is a Google Group. Instruct the customer to <a href=\"https://accounts.google.com/Login\" target=\"_blank\" rel=\"noopener noreferrer\">sign in</a> to Google with the affected email address, then start the appeal process.</p><p>Review this Google article: <a href=\"https://support.google.com/accounts/answer/40695?sjid=6951065612833624639-AP#:~:text=Ask%20us%20to%20restore%20your%20account\" target=\"_blank\" rel=\"noopener noreferrer\">Ask us to restore your account</a>. The customer may not be able to appeal on that page. If that happens, contact Google support for assistance. For more information, see <a href=\"https://support.zendesk.com/hc/en-us/articles/4408833816218-How-do-I-use-Google-Groups-as-a-support-address\" target=\"_blank\" rel=\"noopener noreferrer\">How do I use Google Groups as a support address?</a></p><div class=\"note warning\">Warning: Zendesk does not support or guarantee that this method works correctly, nor can Zendesk troubleshoot issues caused by the use of Google Groups, email aliases, or similar methods. Zendesk does not block these methods. Use them at your own risk.</div>",
       "user_segment_ids": []
     },
     {
