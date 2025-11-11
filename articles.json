@@ -19,7 +19,7 @@
       "vote_count": 0,
       "section_id": 4405298847002,
       "created_at": "2025-11-10T18:51:09Z",
-      "updated_at": "2025-11-10T19:16:41Z",
+      "updated_at": "2025-11-11T16:03:09Z",
       "name": "Release notes through 2025-11-07",
       "title": "Release notes through 2025-11-07",
       "source_locale": "en-us",
@@ -79,7 +79,7 @@
       "vote_count": 0,
       "section_id": 4405298901658,
       "created_at": "2025-11-06T14:02:21Z",
-      "updated_at": "2025-11-07T09:38:51Z",
+      "updated_at": "2025-11-11T16:04:11Z",
       "name": "My customers get a mailer-daemon from Google when they email us",
       "title": "My customers get a mailer-daemon from Google when they email us",
       "source_locale": "en-us",
@@ -93,6 +93,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_email",
         "role_admin"
       ],
@@ -142,7 +143,7 @@
       "vote_count": 0,
       "section_id": 4405298853274,
       "created_at": "2025-11-05T12:00:11Z",
-      "updated_at": "2025-11-05T13:48:05Z",
+      "updated_at": "2025-11-11T16:04:13Z",
       "name": "Can I use generative AI search in the help center without sign in?",
       "title": "Can I use generative AI search in the help center without sign in?",
       "source_locale": "en-us",
@@ -156,6 +157,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_guide",
         "role_admin"
       ],
@@ -236,7 +238,7 @@
       "vote_count": 0,
       "section_id": 4405298833818,
       "created_at": "2025-11-03T21:16:08Z",
-      "updated_at": "2025-11-10T22:29:01Z",
+      "updated_at": "2025-11-11T16:01:07Z",
       "name": "Announcing a new API password access setting for end users",
       "title": "Announcing a new API password access setting for end users",
       "source_locale": "en-us",
@@ -247,7 +249,9 @@
       "user_segment_id": null,
       "permission_group_id": 1324079,
       "content_tag_ids": [],
-      "label_names": [],
+      "label_names": [
+        "mtpe"
+      ],
       "body": "<figure class=\"wysiwyg-table\" style=\"width: 100%;\"><table class=\"wysiwyg-table-resized\" style=\"border-style: solid; border-width: 1px;\">\n<colgroup>\n<col style=\"width: 34.12%;\">\n<col style=\"width: 35.37%;\">\n<col style=\"width: 30.51%;\">\n</colgroup>\n<tbody>\n<tr>\n<td style=\"background-color: #F5F5F5; border-style: solid; border-width: 1px;\"><strong>Announced on</strong></td>\n<td style=\"background-color: #F5F5F5; border-style: solid; border-width: 1px;\"><strong>Rollout starts</strong></td>\n<td style=\"background-color: #F5F5F5; border-style: solid; border-width: 1px;\"><strong>Rollout ends</strong></td>\n</tr>\n<tr>\n<td style=\"border-style: solid; border-width: 1px;\">November 10, 2025</td>\n<td style=\"border-style: solid; border-width: 1px;\">November 10, 2025</td>\n<td style=\"border-style: solid; border-width: 1px;\">November 11, 2025</td>\n</tr>\n</tbody>\n</table></figure><p>Zendesk is adding a new setting in Admin Center to control API password access for end users. </p><p>This announcement contains these topics:</p><ul>\n<li data-list-item-id=\"e645465f4f68d94b1240916d61f008609\"><a href=\"#h_01K95SA8X32RF8ZX0B67R5KTG0\">What's changing?</a></li>\n<li data-list-item-id=\"e65018d98179563548a45e959ab21abf7\"><a href=\"#h_01K95SBAWB4BP6T2QRJB9RBN4K\">Why is Zendesk making this change?</a></li>\n<li data-list-item-id=\"e5646e7e0dfa05cefb0047df58c9e95e9\"><a href=\"#h_01K95SCK9MYJZD689WF6SSSAW9\">What do I need to do?</a></li>\n</ul><h2 id=\"h_01K95SA8X32RF8ZX0B67R5KTG0\">What's changing? </h2><p>Starting November 10, 2025, admins can control if end users are allowed to make authenticated API requests. If turned off, API requests from end users are considered anonymous. See <a href=\"https://support.zendesk.com/hc/en-us/articles/8662004958746\" target=\"_blank\" rel=\"noopener noreferrer\">Turning on and off API access</a> for more information.</p><p><img class=\"wysiwyg-image img-screenshot\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/annoc_api_end_user_password_access.png\" width=\"730\"></p><h2 id=\"h_01K95SBAWB4BP6T2QRJB9RBN4K\">Why is Zendesk making this change?</h2><p>As we prepare for the <a href=\"https://support.zendesk.com/hc/en-us/articles/7386291855386-Announcing-the-deprecation-of-password-access-for-APIs\" target=\"_blank\" rel=\"noopener noreferrer\">removal of password access for APIs for team members</a>, we’ve separated end user API access from team member access so that you can control end user access specifically. You have until December 31, 2025 to migrate to either API tokens or OAuth. If you currently have password access for team members turned on, end user access will also be turned on.  </p><h2 id=\"h_01K95SCK9MYJZD689WF6SSSAW9\">What do I need to do?</h2><p>You don’t have to do anything. This feature is automatically available in your account.</p><p>If you have feedback or questions related to this announcement, <a href=\"https://support.zendesk.com/hc/en-us/community/topics/4408860477850\" target=\"_blank\" rel=\"noopener noreferrer\">visit our community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk Customer Support</a>.<br> </p><p> </p>",
       "user_segment_ids": []
     },
@@ -296,7 +300,7 @@
       "vote_count": 0,
       "section_id": 4405303738522,
       "created_at": "2025-10-31T16:10:46Z",
-      "updated_at": "2025-11-05T11:10:44Z",
+      "updated_at": "2025-11-11T16:03:54Z",
       "name": "Why does auto-release capacity run on an unassigned ticket?",
       "title": "Why does auto-release capacity run on an unassigned ticket?",
       "source_locale": "en-us",
@@ -308,6 +312,7 @@
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
       "label_names": [
+        "mt",
         "KS",
         "ab0_messaging",
         "role_agent"
@@ -328,7 +333,7 @@
       "vote_count": 0,
       "section_id": 4405298850586,
       "created_at": "2025-10-30T17:38:36Z",
-      "updated_at": "2025-11-07T11:12:30Z",
+      "updated_at": "2025-11-11T16:05:22Z",
       "name": "How can I track real-time status of agents working on messaging tickets?",
       "title": "How can I track real-time status of agents working on messaging tickets?",
       "source_locale": "en-us",
@@ -363,7 +368,7 @@
       "vote_count": 0,
       "section_id": 8243870008090,
       "created_at": "2025-10-30T09:15:52Z",
-      "updated_at": "2025-11-07T17:55:37Z",
+      "updated_at": "2025-11-11T16:02:52Z",
       "name": "Workflow: How to obtain the device type from the Web Widget for use in AI Agents - Advanced",
       "title": "Workflow: How to obtain the device type from the Web Widget for use in AI Agents - Advanced",
       "source_locale": "en-us",
@@ -377,6 +382,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_messaging",
         "ab0_bots_automation",
         "role_admin"
@@ -488,7 +494,7 @@
       "vote_count": 0,
       "section_id": 4405298848154,
       "created_at": "2025-10-27T23:16:25Z",
-      "updated_at": "2025-11-05T20:57:11Z",
+      "updated_at": "2025-11-11T16:06:23Z",
       "name": "Complying with Privacy and Data Protection Law in Zendesk Contact Center",
       "title": "Complying with Privacy and Data Protection Law in Zendesk Contact Center",
       "source_locale": "en-us",
@@ -501,7 +507,9 @@
       "content_tag_ids": [
         "01GT23M2D4PEPXNTGXTD2DXG69"
       ],
-      "label_names": [],
+      "label_names": [
+        "mt"
+      ],
       "body": "<body>\n\n<div class=\"body\">\n<p class=\"p\">This guide describes how certain features and functionality in Zendesk Contact Center can\n            assist with your obligations under privacy law. Users in Zendesk Contact Center are\n            managed in Zendesk Support.</p>\n<p class=\"p\">To learn more about meeting your obligations in other Zendesk products, see <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408834005530\" target=\"_blank\">Complying with Privacy and Data Protection Law in Zendesk\n                products</a>.</p>\n<p class=\"p\">In this article, <em class=\"ph i\">users</em> can be end users or agents as the terms are defined in the\n                <a class=\"xref\" href=\"https://www.zendesk.com/company/agreements-and-terms/zendesk-customer-agreement/\" target=\"_blank\">Zendesk Customer Agreement</a>.</p>\n<p class=\"p\">Topics covered in this article: </p>\n<ul class=\"ul\" id=\"gdpr_contact_center__ul_zcx_knz_rbc\">\n<li class=\"li\"><a class=\"xref\" href=\"#topic_fyc_cnz_rbc\">Meeting an access obligation</a></li>\n<li class=\"li\"><a class=\"xref\" href=\"#topic_fsl_dnz_rbc\">Meeting a correction obligation</a></li>\n<li class=\"li\"><a class=\"xref\" href=\"#topic_ycf_gnz_rbc\">Meeting an erasure or deletion obligation</a></li>\n<li class=\"li\"><a class=\"xref\" href=\"#topic_i2k_hnz_rbc\">Meeting a data portability obligation</a></li>\n<li class=\"li\"><a class=\"xref\" href=\"#topic_anc_jnz_rbc\">Meeting an objection obligation</a></li>\n<li class=\"li\"><a class=\"xref\" href=\"#topic_kc3_knz_rbc\">Disclaimer</a></li>\n</ul>\n</div>\n<div aria-labelledby=\"ariaid-title2\" class=\"topic nested1\" id=\"topic_fyc_cnz_rbc\">\n<h2 class=\"title topictitle2\" id=\"ariaid-title2\">Meeting an access obligation</h2>\n<div class=\"body\">\n<p class=\"p\">Individuals from certain regions have a <em class=\"ph i\">right of access</em>. On request, you may\n                have an obligation to inform a user where their personal data is being held and for\n                what purposes.</p>\n<p class=\"p\">If an end user requests a copy of their personal data, you can export the data from\n                Zendesk as described in <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408823195930#topic_ekz_13k_gs\" target=\"_blank\">Meeting a data portability obligation</a> in\n                the article for Zendesk Support.</p>\n</div>\n</div>\n<div aria-labelledby=\"ariaid-title3\" class=\"topic nested1\" id=\"topic_fsl_dnz_rbc\">\n<h2 class=\"title topictitle2\" id=\"ariaid-title3\">Meeting a correction obligation</h2>\n<div class=\"body\">\n<p class=\"p\">Individuals from certain regions have a <em class=\"ph i\">right to rectification</em>, or the right\n                to have inaccuracies in their personal data corrected. On request, you may have an\n                obligation to provide the individual with their personal data and fix inaccuracies\n                or add missing information.</p>\n<p class=\"p\">See <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408823195930#topic_ezm_pcv_4v\" target=\"_blank\">Meeting the correction obligation</a> in the\n                article for Zendesk Support.</p>\n</div>\n</div>\n<div aria-labelledby=\"ariaid-title4\" class=\"topic nested1\" id=\"topic_ycf_gnz_rbc\">\n<h2 class=\"title topictitle2\" id=\"ariaid-title4\">Meeting an erasure or deletion obligation</h2>\n<div class=\"body\">\n<div class=\"p\">Individuals from certain regions have a <em class=\"ph i\">right to erasure</em>, or the right to be\n                forgotten or deleted. On request, you may have an obligation to delete the personal\n                data of an individual.<div class=\"div\">\n<p class=\"p\">The workflow for deleting the personal data\n                        of an end user or agent is as follows:</p>\n<ol class=\"ol\" id=\"topic_ycf_gnz_rbc__ol_cg3_xwt_dhc\">\n<li class=\"li\">\n<p class=\"p\">Delete personal data from Zendesk Contact Center tickets,\n                                which is also known as the ticket conversation.</p>\n</li>\n<li class=\"li\">\n<p class=\"p\">Delete the end user or agent from Zendesk Contact\n                                Center.</p>\n</li>\n<li class=\"li\">\n<p class=\"p\">Delete personal data from call transcriptions.</p>\n</li>\n</ol>\n<p class=\"p\">The order of operations is important because user data might\n                        be required to find the tickets containing personal data. For detailed\n                        instructions, see <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408845703194\" target=\"_blank\">Forgetting a user in\n                        Zendesk</a>.</p>\n<p class=\"p\"><strong class=\"ph b\">To delete personal data in ticket\n                            conversations</strong></p>\n<p class=\"p\">Personal data may be contained in\n                        Zendesk Contact Center tickets in Zendesk Support. To delete personal data\n                        in tickets, see <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408823195930#topic_p3p_zhk_gs\" target=\"_blank\">Meeting the erasure obligation</a> in\n                        the article for Zendesk Support.</p>\n<p class=\"p\"><strong class=\"ph b\">To delete the end user\n                            or agent</strong></p>\n<p class=\"p\">After deleting personal data from any\n                        tickets, you can delete the end user or agent as described in <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408823195930#topic_p3p_zhk_gs\" target=\"_blank\">Meeting the erasure obligation</a> in\n                        the article for Zendesk Support.</p>\n<p class=\"p\"><strong class=\"ph b\">To delete personal data\n                            from call transcriptions</strong></p>\nCall transcriptions may include personal\n                    data. To delete personal data in call transcriptions, delete the ticket to which\n                    the transcription is attached. See <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408823195930#topic_p3p_zhk_gs\" target=\"_blank\">Meeting the erasure obligation</a> in the\n                    article for Zendesk Support.</div>\n</div>\n</div>\n</div>\n<div aria-labelledby=\"ariaid-title5\" class=\"topic nested1\" id=\"topic_i2k_hnz_rbc\">\n<h2 class=\"title topictitle2\" id=\"ariaid-title5\">Meeting a data portability obligation</h2>\n<div class=\"body\">\n<p class=\"p\">Individuals from certain regions have a <em class=\"ph i\">right to data portability</em>. On request,\n                you may have an obligation to provide an individual with their personal data or to\n                transmit the data to another organization. To export an agent's or end user's\n                personal data, see <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408823195930#topic_ekz_13k_gs\" target=\"_blank\">Meeting the data portability obligation</a> in\n                the article for Zendesk Support.</p>\n</div>\n</div>\n<div aria-labelledby=\"ariaid-title6\" class=\"topic nested1\" id=\"topic_anc_jnz_rbc\">\n<h2 class=\"title topictitle2\" id=\"ariaid-title6\">Meeting an objection obligation</h2>\n<div class=\"body\">\n<p class=\"p\">Individuals from certain regions have a <em class=\"ph i\">right of objection</em>, or the right to\n                object to direct marketing. You may have an obligation to stop processing personal\n                data for direct marketing purposes when you receive an objection from an individual.</p>\n</div>\n</div>\n<div aria-labelledby=\"ariaid-title7\" class=\"topic nested1\" id=\"topic_kc3_knz_rbc\">\n<h2 class=\"title topictitle2\" id=\"ariaid-title7\">Disclaimer</h2>\n<div class=\"body\">\n<p class=\"p\">This document is for informational purposes only and does not constitute legal\n                advice. Readers should always seek legal advice before taking any action with\n                respect to the matters discussed herein. This guide does not apply to third-party\n                product features and functionalities that may integrate with Zendesk Contact\n                Center.</p>\n</div>\n</div>\n</body>",
       "user_segment_ids": []
     },
