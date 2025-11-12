@@ -263,24 +263,25 @@
       "vote_count": 0,
       "section_id": 4405298900506,
       "created_at": "2025-11-05T09:59:35Z",
-      "updated_at": "2025-11-12T11:47:03Z",
+      "updated_at": "2025-11-12T11:50:03Z",
       "name": "CSAT responses appear as separate AI agent tickets",
       "title": "CSAT responses appear as separate AI agent tickets",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-11-12T11:47:03Z",
+      "edited_at": "2025-11-12T11:50:03Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
       "label_names": [
         "ks",
         "ab0",
-        "ab0_bots_automation",
-        "role_admin"
+        "ab0_support",
+        "role_admin",
+        "ab0_ai_agents_essential"
       ],
-      "body": "<h3 id=\"h_01K99Q9NNB7WETWFE20217EXE7\">Issue symptoms</h3><p>Customer Satisfaction (CSAT) responses, such as <strong>Good</strong> or <strong>Bad</strong> appear in new AI agent tickets rather than in the original ticket. This issue occurs under these conditions:</p><ul>\n<li data-list-item-id=\"ed7a72db64a392400c3db338d4795b3d3\">Zendesk Support uses the <a href=\"https://support.zendesk.com/hc/en-us/articles/4408822875034-Enabling-legacy-CSAT-customer-satisfaction-ratings\" target=\"_blank\" rel=\"noopener noreferrer\"><strong><span class=\"wysiwyg-underline\">legacy in-conversation CSAT surveys</span></strong></a> with AI agent tickets.</li>\n<li data-list-item-id=\"e12ff618534ea22fd0c8ec26b70a136b4\">A new ticket contains only the CSAT rating, with no conversation history.</li>\n<li data-list-item-id=\"eb1c661742ddd58c7ca0059131f014e00\">The original ticket has already closed, or the messaging session ended before the customer replied.</li>\n<li data-list-item-id=\"eedf3cbcbad702f827cd93c59abd19aef\">Duplicate tickets appear, each with a single CSAT response.</li>\n</ul><p>Zendesk creates a new ticket for each CSAT reply if the original ticket is not open or the session is no longer active.</p><h3 id=\"h_01K99Q9NNJD0CM2G274X5ZBHAJ\">Resolution steps</h3><p><strong>To prevent this issue</strong></p><ol><li data-list-item-id=\"e6c059b826bbaff1e1846e84a497f556d\">Migrate to the new CSAT survey experience in Zendesk.<ul>\n<li data-list-item-id=\"e915e98c05577b18ff46a62808ed4d627\">Go to Admin Center and update your CSAT settings</li>\n<li data-list-item-id=\"ea604d5045e47e57a253429f518800c77\">The new experience sends a web form link to collect ratings</li>\n<li data-list-item-id=\"e772083c3678b167a5d18279e57ac946e\">Zendesk links the CSAT rating back to the original ticket, even if it’s closed</li>\n<li data-list-item-id=\"e3b6da3862a3af39fb55c5079bbcc0f5f\">After this update Zendesk won't create separate tickets for ratings</li>\n</ul>\n</li></ol><p>Note: This solution is not retroactive. It applies only to tickets where Zendesk sends the CSAT survey after you activate the new experience. Tickets that have already received a CSAT survey before the update will not change.</p>",
+      "body": "<h2 id=\"h_01K99Q9NNB7WETWFE20217EXE7\">Issue symptoms</h2><p>Customer Satisfaction (CSAT) responses, such as <strong>Good</strong> or <strong>Bad</strong> appear in new AI agent tickets rather than in the original ticket. This issue occurs under these conditions:</p><ul>\n<li data-list-item-id=\"ed7a72db64a392400c3db338d4795b3d3\">Zendesk Support uses the <a href=\"https://support.zendesk.com/hc/en-us/articles/4408822875034-Enabling-legacy-CSAT-customer-satisfaction-ratings\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>legacy in-conversation CSAT surveys</strong></a> with AI agent tickets</li>\n<li data-list-item-id=\"e12ff618534ea22fd0c8ec26b70a136b4\">A new ticket contains only the CSAT score, with no conversation history</li>\n<li data-list-item-id=\"eb1c661742ddd58c7ca0059131f014e00\">The original ticket has already closed, or the session ended before the customer replied</li>\n<li data-list-item-id=\"eedf3cbcbad702f827cd93c59abd19aef\">Duplicate tickets appear, each with a single CSAT response</li>\n</ul><p>Zendesk creates a new ticket for each CSAT reply if the original ticket is not open or the session is no longer active.</p><h2 id=\"h_01K99Q9NNJD0CM2G274X5ZBHAJ\">Resolution steps</h2><p>To prevent this issue:</p><ol><li data-list-item-id=\"e6c059b826bbaff1e1846e84a497f556d\">Migrate to the new CSAT survey experience in Zendesk<ul>\n<li data-list-item-id=\"e915e98c05577b18ff46a62808ed4d627\">Go to Admin Center and update your CSAT settings</li>\n<li data-list-item-id=\"ea604d5045e47e57a253429f518800c77\">The experience sends a web form link to collect a CSAT response</li>\n<li data-list-item-id=\"e772083c3678b167a5d18279e57ac946e\">Zendesk links the CSAT score back to the original ticket, even if it’s closed</li>\n<li data-list-item-id=\"e3b6da3862a3af39fb55c5079bbcc0f5f\">After this update Zendesk won't create separate tickets for CSAT scores</li>\n</ul>\n</li></ol><p>This solution is not retroactive. It applies only to tickets where Zendesk sends the CSAT survey after you activate the new experience. Tickets that have already received a CSAT survey before the update will not change.</p>",
       "user_segment_ids": []
     },
     {
