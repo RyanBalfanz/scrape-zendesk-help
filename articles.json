@@ -1,5 +1,5 @@
 {
-  "count": 4823,
+  "count": 4824,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 161,
@@ -507,6 +507,34 @@
       "user_segment_ids": []
     },
     {
+      "id": 9916789004954,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9916789004954.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/9916789004954-Announcing-the-expanded-visibility-of-agent-time-off-requests",
+      "author_id": 6023805759898,
+      "comments_disabled": true,
+      "draft": false,
+      "promoted": true,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298833818,
+      "created_at": "2025-11-06T13:11:25Z",
+      "updated_at": "2025-11-17T12:52:12Z",
+      "name": "Announcing the expanded visibility of agent time off requests",
+      "title": "Announcing the expanded visibility of agent time off requests",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2025-11-17T12:16:44Z",
+      "user_segment_id": null,
+      "permission_group_id": 1324079,
+      "content_tag_ids": [],
+      "label_names": [],
+      "body": "<figure class=\"wysiwyg-table wysiwyg-table-align-left\" style=\"height: 44px; width: 100%;\"><table style=\"border-collapse: collapse; border-style: solid; border-width: 1px;\"><tbody>\n<tr style=\"height: 22px;\">\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\"><strong>Announced on</strong></td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\"><strong>Rollout starts</strong></td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\"><strong>Rollout ends</strong></td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\"><span style=\"color: #464646;\">November 17, 2025</span></td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\"><span style=\"color: #464646;\">November 17, 2025</span></td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\"><span style=\"color: #464646;\">November 18, 2025</span></td>\n</tr>\n</tbody></table></figure><p><span style=\"color: #464646;\">Zendesk Workforce Management (WFM) is expanding the window of time off requests displayed to agents on their agent schedule sidebar in Zendesk Support.</span></p><p><span style=\"font-weight: 400;\">This announcement includes the following topics:</span></p><ul>\n<li data-list-item-id=\"e64f49ce32c6872d728ffeaff526fc8b7\"><a href=\"#h_01GD3S97RDYVTAFTQ8WR9878VF\" target=\"_self\"><span style=\"font-weight: 400;\">What is changing?</span></a></li>\n<li data-list-item-id=\"e1972b841e41bed1bd0314770dcdb9bf4\"><a href=\"#h_01GD3S9GD63FPDGQSEFY88M3ND\" target=\"_self\"><span style=\"font-weight: 400;\">Why is Zendesk making this change?</span></a></li>\n<li data-list-item-id=\"ee82865a53798b048dc04698e78839bd0\"><a href=\"#h_01GD3S9TSPXM7M4WHYKYF4E84M\" target=\"_self\"><span style=\"font-weight: 400;\">What do I need to do?</span></a></li>\n</ul><h2 id=\"h_01GD3S97RDYVTAFTQ8WR9878VF\"><span style=\"font-weight: 400;\">What is changing?</span></h2><p>Previously, the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://support.zendesk.com/hc/en-us/articles/6443374353434\">WFM agent schedule</a> displayed time off requests within a 30-day window (30 days in the past and 30 days in the future). While time off always appeared on the agent's main schedule, this limitation has now been updated. </p><p>The sidebar now displays time off requests for a full year ahead while maintaining the 30-day view for past requests.</p><p><img class=\"img-screenshot\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/wfm_time_off_requests_agent.png\"></p><h2 id=\"h_01GD3S9GD63FPDGQSEFY88M3ND\"><span style=\"font-weight: 400;\">Why is Zendesk making this change?</span></h2><p>Having visibility into time off requests is essential for enabling agents to manage their work, expectations, and time away from work. This improvement makes these aspects much more manageable for agents.</p><h2 id=\"h_01GD3S9TSPXM7M4WHYKYF4E84M\"><span style=\"font-weight: 400;\">What do I need to do?</span></h2><p>No action is required. Learn more about <a href=\"https://support.zendesk.com/hc/en-us/articles/6443360882586\" target=\"_blank\" rel=\"noopener noreferrer\"><span class=\"wysiwyg-underline\">Requesting time off.</span></a></p><p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/6680963801114\" target=\"_blank\" rel=\"noopener noreferrer\"><span class=\"wysiwyg-underline\">community forum</span></a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\" target=\"_blank\" rel=\"noopener noreferrer\"><span class=\"wysiwyg-underline\">Zendesk Customer Support</span></a>.</p>",
+      "user_segment_ids": []
+    },
+    {
       "id": 9912016419354,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9912016419354.json",
       "html_url": "https://support.zendesk.com/hc/en-us/articles/9912016419354-Can-I-use-generative-AI-search-in-the-help-center-without-sign-in",
@@ -918,36 +946,6 @@
         "mt"
       ],
       "body": "<h3 id=\"h_01JYK85Y9T0AHJER1Q121QPZR1\"><strong>SUMMARY</strong></h3><p><strong>October 27, 2025 17:25 UTC | October 27, 2025 10:25 AM PT</strong><br><br>Our engineers have confirmed the issues impacting Help Center ticket submissions are resolved. Thank you for your patience.<br><br><strong>October 27, 2025 16:55 UTC | October 27, 2025 09:55 AM PT</strong></p><p>We have observed a reduction in the errors affecting Help Center ticket submissions. Our engineers are actively working on a complete resolution and will provide further updates once the issue is fully resolved. Please contact us if you continue to experience any difficulties.</p><p><strong>October 27, 2025 16:12 UTC | October 27, 2025 09:12 AM PT</strong></p><p>We are aware of an issue that is impacting end-user ticket submission on the Requests page in the Knowledge Help Center. We are actively investigating and will provide you with an update as soon as possible.</p><p> </p><h4 id=\"h_01K086AN7TN2VXG8HZSHSSG4DT\"><strong>FOR MORE INFORMATION</strong></h4><p>For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com/\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 9868796554394,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9868796554394.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/9868796554394-Service-Incident-October-25-2025-Support-Agent-Workspace-Sunshine-Conversations-Pods-15-19-Errors-and-latency-with-ticket-creation-and-Messaging",
-      "author_id": 1263082167929,
-      "comments_disabled": true,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 1,
-      "vote_count": 1,
-      "section_id": 4405298854426,
-      "created_at": "2025-10-25T02:35:00Z",
-      "updated_at": "2025-10-31T07:01:02Z",
-      "name": "Service Incident - October 25, 2025 - Support (Agent Workspace), Sunshine Conversations | Pods 15 & 19 - Errors and latency with ticket creation and Messaging",
-      "title": "Service Incident - October 25, 2025 - Support (Agent Workspace), Sunshine Conversations | Pods 15 & 19 - Errors and latency with ticket creation and Messaging",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2025-10-31T00:35:56Z",
-      "user_segment_id": null,
-      "permission_group_id": 1324079,
-      "content_tag_ids": [],
-      "label_names": [
-        "mt"
-      ],
-      "body": "<h3 id=\"h_01K8VT813HRG2D9SDBQVQCT667\">Summary</h3><p>On October 25, 2025 from 02:00 UTC to 15:40 UTC, Zendesk Support (Agent Workspace) and Sunshine Conversations customers on Pods 15 and 19 experienced various issues in those products including messaging failures, ticket creation delays and other performance issues. These symptoms occurred at different time periods within the impact window.</p><h3 id=\"h_01K8VT8G3SX191SH24R7S9HHCP\">Timeline</h3><p><strong>October 25, 2025 02:30 UTC | October 24, 2025 7:30 PT</strong></p><div data-garden-id=\"grid.row\" data-garden-version=\"7.1.10\">We are aware of and investigating an issue in Sunshine Conversations on Pod 15. Customers may experience 5xx errors and messaging delays. We will update you as soon a we have more information to share.</div><p><strong>October 25, 2025 03:00 UTC | October 24, 2025 8:00 PT</strong></p><p>We have identified the issue causing delays and 5xx errors for SunCo on pod 15 and are in the process of remediation. We will provide an update within 30 minutes or when we have more information to share.</p><p><strong>October 25, 2025 03:00 UTC | October 24, 2025 8:00 PT</strong><br>We are starting to see recovery in the latency and error rate impacting Sunshine Conversations in pod 15. We will update when we observe full recovery or in one hour.</p><p><strong>October 25, 2025 03:15 UTC | October 24, 2025 8:15 PT</strong></p><p>We are able to now confirm that the latency and error rates have returned to normal for messaging on pod 15. We apologize for the disruption.</p><p><strong>October 25, 2025 03:45 UTC | October 24, 2025 8:45 PT</strong></p><p>Although messaging latency and 5xx errors in sunshine conversations have returned to normal we are observing and working to resolve delays in ticket creation. We will provide an update in 30 minutes or less.</p><p><strong>October 25, 2025 04:00 UTC | October 24, 2025 9:00 PT</strong><br>We apologize for the confusion, but unfortunately we are noticing increased latency and errors again on pod 15 sunshine conversations. We have also identified an issue impacting pod 19, however this is impacting ticket creation. These issues are related and we will provide prompt updates as we learn more.</p><p><strong>October 25, 2025 05:00 UTC | October 24, 2025 10:00 PT</strong></p><p>We are observing stability once again in sunshine conversations messaging on pod 15. We continue to investigate the issue causing ticket creation delays for some customers on pod 19.</p><p><strong>October 25, 2025 07:45 UTC | October 25, 2025 00:25 PT</strong><br>Our engineering teams are still working to resolve the issue impacting pod 19 ticket creation delays. We apologize for the continued disruption.</p><p><strong>October 25, 2025 14:25 UTC | October 25, 2025 07:25 PT</strong><br>After several hours of working to restore normal ticket creation on pod 19 we are starting to see our backlog of ticket creation jobs get caught up. We do still observe delays on ticket creation, but we hope to have an update shortly confirming normal ticket creation timing.</p><p><strong>October 25, 2025 15:15 UTC | October 25, 2025 08:15 PT</strong><br>While monitoring for full recovery, we continue to see the backlog of message and ticket creation processing moving in the right direction. We also wanted to share an update on the scope; the delays in ticket creation are also having an impact to ticket assignment. We apologize for the confusion and frustration this additional impact has caused. We will provide an update in one hour (or less).</p><p><strong>October 25, 2025 16:00 UTC | October 25, 2025 09:00 PT</strong><br>We continue to see positive results processing through the backlog of messages, and aim to confirm in our next update full recovery for message ticket creation and assignment on Pod 19. Some customers may still experience delays and messages not routing to agents at this time. We apologize for the lengthy impact and appreciate your understanding.</p><p><strong>October 25, 2025 17:00 UTC | October 25, 2025 10:00 PT</strong><br>We are very pleased to report, after monitoring, the backlog of unprocessed messaging tickets remains clear. We thank you greatly for your patience while we worked to resolve this issue. Please reach out if you have any questions.</p><p><strong>October 28, 2025 01:52 UTC | October 27, 2025 18:52 PT</strong><br>We are pleased to inform you that the issues with Sunshine Conversation, including SunCo errors and latency on Pod 15, as well as ticket creation delays on Pod 19, have been resolved. We appreciate your patience and cooperation throughout the resolution process.</p><h3 id=\"h_01K8VTE93BP46HNYZQS1F5BT81\"><span style=\"color: #06363c;\">Root Cause Analysis</span></h3><p>This incident was caused by a sudden surge in Messaging SDK traffic. This unusually high request volume caused database and server resource exhaustion leading to delays in event processing. This was exacerbated by cross-service latencies, especially in Support. As a result, customers experienced service slow-downs, errors, and significant delays in receiving and sending messages as well as ticket creation delays. These latencies also impacted associated API endpoints that may have caused impact to apps and integrations leveraging those services.</p><h3 id=\"h_01K8VTEDY0QBSK82DXRHQ35EWY\"><span style=\"color: #06363c;\">Resolution</span></h3><p>To fix this issue, our teams increased infrastructure capacity by scaling up our databases and processing systems to handle the traffic and clear our messaging backlogs. In addition, we adjusted system configurations to improve processing speed and to increase system resiliency for these sudden traffic spikes.</p><h3 id=\"h_01K8VTEJJF990YQKF7E709YTNE\"><span style=\"color: #06363c;\">Remediation Items</span></h3><ol>\n<li data-list-item-id=\"ea25532f0d0f3f483cbdea52483bac60c\">Improve system monitoring and alerting to improve detection times.</li>\n<li data-list-item-id=\"ea38795d0c73196ae397339facf25996e\">Enhance infrastructure scalability so our systems can better handle sudden increases in demand.</li>\n<li data-list-item-id=\"e48ff8df0f6869b2b4e74e4e291e26643\">Review and optimize rate limit strategies to prevent platform overload.</li>\n<li data-list-item-id=\"ec518427fb1d83806529cab76f44ca1a3\">Strengthening cross-region coordination to reduce the risk of delays when one part of the system is impacted.</li>\n</ol><h4 id=\"h_01K086AN7TN2VXG8HZSHSSG4DT\"><strong>FOR MORE INFORMATION</strong></h4><p>For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com/\">system status page</a>. You can follow this article to be notified when our post-mortem report is published. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
     }
   ],
