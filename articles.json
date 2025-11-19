@@ -334,7 +334,7 @@
       "vote_count": 0,
       "section_id": 4405298833818,
       "created_at": "2025-11-17T16:00:28Z",
-      "updated_at": "2025-11-18T21:52:35Z",
+      "updated_at": "2025-11-19T16:00:10Z",
       "name": "Announcing minor navigation changes in AI agents - Advanced",
       "title": "Announcing minor navigation changes in AI agents - Advanced",
       "source_locale": "en-us",
@@ -346,6 +346,7 @@
       "permission_group_id": 1324079,
       "content_tag_ids": [],
       "label_names": [
+        "mtpe",
         "newsfeed"
       ],
       "body": "<figure class=\"wysiwyg-table\" style=\"width: 100%;\"><table style=\"border-style: solid; border-width: 1px;\"><tbody>\n<tr>\n<td style=\"border-style: solid; border-width: 1px;\"><strong>Announced on</strong></td>\n<td style=\"border-style: solid; border-width: 1px;\"><strong>Rollout on</strong></td>\n</tr>\n<tr>\n<td style=\"border-style: solid; border-width: 1px;\">November 18, 2025</td>\n<td style=\"border-style: solid; border-width: 1px;\">November 18, 2025</td>\n</tr>\n</tbody></table></figure><p>We’re making minor changes to the navigation of the <a href=\"https://support.zendesk.com/hc/en-us/articles/8725042447002\">AI agents - Advanced add-on</a> to streamline the experience across all AI agent types (including expression-based AI agents, zero-training AI agents, and AI agents with agentic AI).</p><p>This announcement answers the following questions:</p><ul>\n<li data-list-item-id=\"e7793fc58189d38788ed66517f2f1d5ab\"><a href=\"#h_01KA98J819ZF5TPJ0GAKS1JNWF\">What’s changing?</a></li>\n<li data-list-item-id=\"ea67fd0063b9aadfa2e3c35acb1d39d36\"><a href=\"#h_01KA98JEJ231D16VP6TJ9YB982\">Why is Zendesk making this change?</a></li>\n<li data-list-item-id=\"e12aa9e920e026fd2e3abcf56912f2cb8\"><a href=\"#h_01KA98JHMRNVMXHVWKM0TST4WM\">What do I need to do?</a></li>\n</ul><h2 id=\"h_01KA98J819ZF5TPJ0GAKS1JNWF\">What’s changing?</h2><p>Within AI agents - Advanced, the settings pages for “Generative replies” (including Knowledge, Search rules, Instructions, and Persona) and “Entities” are moving:</p><ul>\n<li data-list-item-id=\"ee05b1fe9b53c637ccfb070c7e53cc22f\">You can now find the “Generative replies” pages split under <strong>Content</strong> &gt; <strong>Knowledge</strong> and <strong>Content</strong> &gt; <strong>Personalization</strong>:<ul>\n<li data-list-item-id=\"e27298145aac06cb0ede9cbb6bd521214\">Knowledge and Search rules are now available under <strong>Content</strong> &gt; <strong>Knowledge</strong>.<br><img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/aiaa_nav_change_knowledge_search_rules.png\" width=\"800\">\n</li>\n<li data-list-item-id=\"e80c258ff9f787df1ae70935b83b8f39c\">Instructions and Persona are now available under <strong>Content</strong> &gt; <strong>Personalization</strong>.<br>Also note that the Persona page has been split into pages for Identity, Tone of voice, and Pronoun formality, representing the tabs that were previously present on the Persona page.<br><img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/aiaa_nav_change_instructions_persona.png\" width=\"800\">\n</li>\n</ul>\n</li>\n<li data-list-item-id=\"e42f287ae6e6f2d8096d5f7960bd99af9\">You can now find “Entities” under <strong>Content</strong>.<br><img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/aiaa_nav_change_entities.png\" width=\"800\">\n</li>\n</ul><p>For more information, see <a href=\"https://support.zendesk.com/hc/en-us/articles/8357758663962\">Navigating the AI agents - Advanced add-on</a>.</p><h2 id=\"h_01KA98JEJ231D16VP6TJ9YB982\">Why is Zendesk making this change?</h2><p>Today, depending on the type of AI agent, users experience a different navigation. We are simplifying this experience so that navigation is consistent across any AI agent type. </p><h2 id=\"h_01KA98JHMRNVMXHVWKM0TST4WM\">What do I need to do?</h2><p>There is no action needed from you. You will automatically see the affected pages moved under the Content section. There is no functionality change, just the navigation from where you access these pages.</p><p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/6447052855194\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\">Zendesk Customer Support</a>.</p>",
@@ -940,8 +941,8 @@
       "draft": false,
       "promoted": true,
       "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
+      "vote_sum": 1,
+      "vote_count": 1,
       "section_id": 4405298833818,
       "created_at": "2025-11-05T15:12:46Z",
       "updated_at": "2025-11-19T14:14:32Z",
