@@ -641,14 +641,14 @@
       "vote_count": 0,
       "section_id": 6970673920794,
       "created_at": "2025-11-14T12:39:42Z",
-      "updated_at": "2025-11-18T15:00:57Z",
+      "updated_at": "2025-11-20T14:53:53Z",
       "name": "Auto assist creates a loop for solved tickets",
       "title": "Auto assist creates a loop for solved tickets",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-11-18T15:00:39Z",
+      "edited_at": "2025-11-20T14:53:53Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -659,7 +659,7 @@
         "role_admin",
         "ab0_copilot"
       ],
-      "body": "<h2 id=\"question\">Issue symptoms</h2><p>I use my own procedures for auto assist. When an agent approves a message to the customer that resolves the issue, and the suggestion includes a default action to set the ticket status to <strong>Solved</strong>, the conversation creates a loop. Every time the customer replies, the same message goes out right away.</p><h2 id=\"answer\">Resolution steps</h2><p>This loop can occur when you approve a suggested reply that includes an action to set the status to <strong>Solved</strong>, but the ticket is not ready to close. Because auto assist relies on ticket status and conversation history, a ticket that looks <strong>Solved</strong> but stays active can prompt the same suggestion again and send it each time the customer replies.</p><p>To prevent this:</p><ul>\n<li data-list-item-id=\"e164e585a486dc9131b7451cd33421777\">Before you approve a suggestion, remove the action that sets the status to <strong>Solved. </strong>Alternatively, set the ticket to <strong>Open</strong>, <strong>Pending</strong>, or <strong>On-hold</strong> until you confirm resolution.</li>\n<li data-list-item-id=\"e883c160593aea9d41f13a4e0b2489b4f\">Prepare the ticket before you solve it. Complete required fields, set the assignee, and add needed tags, so the ticket can close cleanly.</li>\n<li data-list-item-id=\"e9cd5ffb4ec7f94d95ca9772a40ff51ba\">Turn off auto assist before you send a final resolution. Then, turn it back on after you close the ticket.</li>\n<li data-list-item-id=\"e6067f43d0d5ac27604484d090b1bc13b\">Use a macro that sends the reply without a status change to <strong>Solved</strong>. Consider a custom action for more control.</li>\n<li data-list-item-id=\"ea19699a5cadb1114f7038d29de483aa2\">If this happens again, set the ticket to <strong>Open. </strong>Then, clear the draft in the composer, and refresh the page.</li>\n</ul>",
+      "body": "<h2 id=\"question\">Issue symptoms</h2><p>When an agent approves a message to the customer that resolves the issue, and the suggestion includes a standard action that sets the ticket status to <strong>Solved</strong>, the conversation creates a loop if the customer replies. The same message appears in the auto assist composer every time.</p><h2 id=\"answer\">Resolution steps</h2><p>This loop can occur when an agent approves a suggested reply that sets the status to <strong>Solved</strong>, but the customer replies to the ticket.</p><p>To prevent this:</p><ul>\n<li data-list-item-id=\"e164e585a486dc9131b7451cd33421777\">Before you approve a suggestion, remove the action that sets the status to <strong>Solved. </strong>Alternatively, set the ticket to <strong>Open</strong>, <strong>Pending</strong>, or <strong>On-hold</strong> until you confirm resolution.</li>\n<li data-list-item-id=\"e883c160593aea9d41f13a4e0b2489b4f\">Prepare the ticket before you solve it. Complete required fields, set the assignee, and add needed tags, so the ticket can close cleanly.</li>\n<li data-list-item-id=\"e9cd5ffb4ec7f94d95ca9772a40ff51ba\">Take over from auto assist before you send a final resolution. Then, turn it back on after you close the ticket.</li>\n<li data-list-item-id=\"e6067f43d0d5ac27604484d090b1bc13b\">Use a macro that sends the reply without a status change to <strong>Solved</strong>. Consider a custom action for more control.</li>\n<li data-list-item-id=\"ea19699a5cadb1114f7038d29de483aa2\">If this happens again, set the ticket to <strong>Open. </strong>Then, clear the draft in the composer, and refresh the page.</li>\n</ul><p>For more information, see <a href=\"https://support.zendesk.com/hc/en-us/articles/7051314237466-Using-auto-assist-to-solve-tickets\" target=\"_blank\" rel=\"noopener noreferrer\">Using auto assist to solve tickets</a>.</p>",
       "user_segment_ids": []
     },
     {
