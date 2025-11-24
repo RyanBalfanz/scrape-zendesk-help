@@ -1,5 +1,5 @@
 {
-  "count": 4833,
+  "count": 4834,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 162,
@@ -65,6 +65,40 @@
       "content_tag_ids": [],
       "label_names": [],
       "body": "<figure class=\"wysiwyg-table\" style=\"width: 100%;\"><table class=\"wysiwyg-table-resized\" style=\"border-style: solid; border-width: 1px;\">\n<colgroup>\n<col style=\"width: 34.12%;\">\n<col style=\"width: 35.37%;\">\n<col style=\"width: 30.51%;\">\n</colgroup>\n<tbody>\n<tr>\n<td style=\"background-color: #F5F5F5; border-style: solid; border-width: 1px;\"><strong>Announced on</strong></td>\n<td style=\"background-color: #F5F5F5; border-style: solid; border-width: 1px;\"><strong>Rollout starts</strong></td>\n<td style=\"background-color: #F5F5F5; border-style: solid; border-width: 1px;\"><strong>Rollout ends</strong></td>\n</tr>\n<tr>\n<td style=\"border-style: solid; border-width: 1px;\">November 10, 2025</td>\n<td style=\"border-style: solid; border-width: 1px;\">November 10, 2025</td>\n<td style=\"border-style: solid; border-width: 1px;\">November 11, 2025</td>\n</tr>\n</tbody>\n</table></figure><p>Zendesk is adding a new setting in Admin Center to control API password access for end users. </p><p>This announcement contains these topics:</p><ul>\n<li data-list-item-id=\"e645465f4f68d94b1240916d61f008609\"><a href=\"https://support.zendesk.com/hc/en-us/articles/9905656984346#h_01K95SA8X32RF8ZX0B67R5KTG0\">What's changing?</a></li>\n<li data-list-item-id=\"e65018d98179563548a45e959ab21abf7\"><a href=\"https://support.zendesk.com/hc/en-us/articles/9905656984346#h_01K95SBAWB4BP6T2QRJB9RBN4K\">Why is Zendesk making this change?</a></li>\n<li data-list-item-id=\"e5646e7e0dfa05cefb0047df58c9e95e9\"><a href=\"https://support.zendesk.com/hc/en-us/articles/9905656984346#h_01K95SCK9MYJZD689WF6SSSAW9\">What do I need to do?</a></li>\n</ul><h2 id=\"h_01K95SA8X32RF8ZX0B67R5KTG0\">What's changing? </h2><p>Starting November 10, 2025, admins can control if end users are allowed to make authenticated API requests. If turned off, API requests from end users are considered anonymous. See <a href=\"https://support.zendesk.com/hc/en-us/articles/8662004958746\" target=\"_blank\" rel=\"noopener noreferrer\">Turning on and off API access</a> for more information.</p><p><img class=\"wysiwyg-image img-screenshot\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/annoc_api_end_user_password_access.png\" width=\"730\"></p><h2 id=\"h_01K95SBAWB4BP6T2QRJB9RBN4K\">Why is Zendesk making this change?</h2><p>As we prepare for the <a href=\"https://support.zendesk.com/hc/en-us/articles/7386291855386-Announcing-the-deprecation-of-password-access-for-APIs\" target=\"_blank\" rel=\"noopener noreferrer\">removal of password access for APIs for team members</a>, we’ve separated end user API access from team member access so that you can control end user access specifically. You have until December 31, 2025 to migrate to either API tokens or OAuth. If you currently have password access for team members turned on, end user access will also be turned on.  </p><h2 id=\"h_01K95SCK9MYJZD689WF6SSSAW9\">What do I need to do?</h2><p>You don’t have to do anything. This feature is automatically available in your account.</p><p>If you have feedback or questions related to this announcement, <a href=\"https://support.zendesk.com/hc/en-us/community/topics/4408860477850\" target=\"_blank\" rel=\"noopener noreferrer\">visit our community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk Customer Support</a>.<br> </p><p> </p>",
+      "user_segment_ids": []
+    },
+    {
+      "id": 9973776460954,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9973776460954.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/9973776460954-Can-I-delete-the-connection-from-my-QA-Zendesk-account",
+      "author_id": 7018395008666,
+      "comments_disabled": false,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 7041762819738,
+      "created_at": "2025-11-21T13:57:52Z",
+      "updated_at": "2025-11-24T14:52:18Z",
+      "name": "Can I delete the connection from my QA Zendesk account?",
+      "title": "Can I delete the connection from my QA Zendesk account?",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2025-11-24T14:52:00Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801135069,
+      "content_tag_ids": [],
+      "label_names": [
+        "ks",
+        "ab0",
+        "role_admin",
+        "role_owner",
+        "qa"
+      ],
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>Can I delete the connection from my QA Zendesk account?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>In Zendesk QA, some accounts, mainly legacy accounts that access via Kibbles URL, include the option to delete connections in the <strong>Account Settings &gt; Connections </strong>page.<br><img class=\"wysiwyg-image-resized\" style=\"aspect-ratio: 1770/902; width: 94.57%;\" src=\"https://support.zendesk.com/hc/article_attachments/9983471636762\" alt=\"Edit Connection.png\" width=\"1770\" height=\"902\"><img src=\"https://support.zendesk.com/hc/article_attachments/9983471637914\" alt=\"Delete Connection.png\" width=\"650\" height=\"352\"></p><div class=\"p\"><div class=\"note warning\">\n<span class=\"warningtitle\">Warning:</span> This action is irreversible.</div></div><p><strong>If you delete the connection</strong></p><ul>\n<li data-list-item-id=\"e59cd6e508f630dc53d0f03657abf96ce\">All help desk-related data will be removed from the account as per the warning message</li>\n<li data-list-item-id=\"e88e1a1b71e5e5500a9f5e0653cb84469\">Reviews data will still be accessible from specific views, such as <strong>Activity</strong> tab or <strong>Dashboard</strong>, but links to conversation are no longer available in QA.</li>\n</ul><p>Instead, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-customer-support\" target=\"_blank\" rel=\"noopener noreferrer\">contact Zendesk customer support</a> to request the deactivation of the connection or mark the connection as inactive. Only the owner or an admin in the account can request this action.</p>",
       "user_segment_ids": []
     },
     {
@@ -925,40 +959,6 @@
         "migration_new editor"
       ],
       "body": "<p>When you move your help center articles to the new article editor, you might see format issues such as extra spaces, bullet lists that change to numbers, or headings that lose their styles. This article covers common format problems after you switch editors and how to fix them.</p><p>This article contains the topics below:</p><ul>\n<li data-list-item-id=\"eb1f587d837c8f7033e50b34261e4dbea\"><a href=\"#h_01K9WFZWMHFQMTNAE12TD7E8R9\">Extra spaces and line breaks</a></li>\n<li data-list-item-id=\"e9e8559a51d4a3239345225f99d6ad435\"><a href=\"#h_01K9WFZWMNRK198EQSXH4WHYW7\">Bullet lists &lt;ul&gt; display as numbered lists</a></li>\n<li data-list-item-id=\"efacf696c728252bbf45bfe294b4df2bc\"><a href=\"#h_01K9WFZWMSZW0JZXHMN6VD716Q\">Nested and multi-level don’t display correctly</a></li>\n<li data-list-item-id=\"e2224940064c04539249769a7b897fa40\"><a href=\"#h_01K9WFZWMYZVVNKJGF8YQFWNEK\">Heading formats are missing or lost after you press Enter</a></li>\n</ul><h2 id=\"h_01K9WFZWMHFQMTNAE12TD7E8R9\">Issue: Extra spaces and line breaks</h2><p>To fix this:</p><ol>\n<li data-list-item-id=\"ea9be8f5554536f94083fe852a94bd61a\">Review your articles for extra spaces or blank lines, especially between paragraphs, lists, and headings</li>\n<li data-list-item-id=\"ec6e83d5f8024829060d78e3b0c2b84ff\">Open the article in the new article editor</li>\n<li data-list-item-id=\"eb76bebef583be35d5cf7f03127ab08f9\">Click the <strong>Source code </strong>icon from the toolbar<br><strong><img class=\"wysiwyg-image-resized\" style=\"aspect-ratio: 1316/648; width: 75%;\" src=\"https://support.zendesk.com/hc/article_attachments/9940890304922\" alt=\"Source code\" width=\"1316\" height=\"648\"></strong>\n</li>\n<li data-list-item-id=\"ec948319a6b21e1eeff7fce6da35bd37d\">Remove unnecessary &lt;br&gt; tags or extra spaces, especially inside lists or near headings</li>\n<li data-list-item-id=\"ed7c7fd2ea2d69980987b065802e542a3\">Save and preview the article to confirm the issue is resolved</li>\n</ol><h2 id=\"h_01K9WFZWMNRK198EQSXH4WHYW7\">Issue: Bullet lists &lt;ul&gt; display as numbered lists</h2><p>Reason: Your theme CSS overrides the default style.</p><p>To fix this:</p><ol>\n<li data-list-item-id=\"e254d9ff6b940b6489d6ee829f0e2e326\">Go to <strong>Knowledge admin</strong> &gt; <strong>Customize design</strong> &gt; <strong>Customize </strong>&gt; <strong>Edit code</strong> &gt; <strong>style.CSS</strong><br><img class=\"wysiwyg-image-resized\" style=\"aspect-ratio: 1269/1199; width: 75%;\" src=\"https://support.zendesk.com/hc/article_attachments/9940890305050\" alt=\"Customize design\" width=\"1269\" height=\"1199\">\n</li>\n<li data-list-item-id=\"e29430bc94738fdeac0f864811072ccfd\">Inspect your CSS for rules such as <code>ul { list-style-type: decimal; }</code>\n</li>\n<li data-list-item-id=\"e9d107bbfbcec4194b5b9f723307af79d\">Change or add <code>ul { list-style-type: disc; }</code>\n</li>\n<li data-list-item-id=\"e947639d7ae3ec72e6a42bc534a8e5fc6\">Use the <strong>Preview</strong> feature to check the final format before you click <strong>Publish</strong>\n</li>\n</ol><h2 id=\"h_01K9WFZWMSZW0JZXHMN6VD716Q\">Issue: Nested and multi-level don’t display correctly</h2><p>Reason: The new article editor doesn’t natively support mixed-style nested lists. For example, numbers for the first level and letters for the second, in the editor UI.</p><p>To fix this, update your theme CSS to create custom nested number styles in published articles.</p><p>Add CSS such as:</p><pre class=\"language-auto\">ol {\n  counter-reset: item;\n  padding-left: 10px;\n}\nli {\n  display: block;\n}\nli:before {\n  content: counters(item, \".\") \" \";\n  counter-increment: item;\n}</pre><div class=\"note tip\">\n<span class=\"tiptitle\">Tip:</span> Use the <strong>Preview</strong> feature every time to check the final format before you save and publish.</div><p>In the editor, nested lists might show a uniform number style, but the published view restores the correct hierarchy (numbers, letters, Roman numerals). A custom number style might not appear in the editor preview unless you insert CSS in the article source, which isn't recommended for maintenance reasons.</p><h2 id=\"h_01K9WFZWMYZVVNKJGF8YQFWNEK\">Issue: Heading formats go missing or reset after you press Enter</h2><p>To fix this:</p><ol>\n<li data-list-item-id=\"e9507c306272d5014f8d89e3ed48143e3\">Open the article in the new article editor</li>\n<li data-list-item-id=\"ed8e6f294939452e83468e00eca4abee2\">Refresh your browser and clear the cache</li>\n<li data-list-item-id=\"ee412b2d8473a401c523eb7eb2633e1b8\">Contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\"><span class=\"wysiwyg-underline\">Zendesk Customer Support</span></a> for further help.</li>\n</ol><p>For more information, see <a href=\"https://support.zendesk.com/hc/en-us/articles/7595840358042-Transitioning-to-the-new-article-editor#topic_ass_sgp_jfc\" target=\"_blank\" rel=\"noopener noreferrer\">Transitioning to the new article editor</a>.</p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 9940581284378,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9940581284378.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/9940581284378-Does-a-quick-answer-add-a-view-to-my-help-center-article",
-      "author_id": 1263082122849,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405303742362,
-      "created_at": "2025-11-12T16:00:09Z",
-      "updated_at": "2025-11-20T14:24:17Z",
-      "name": "Does a quick answer add a view to my help center article?",
-      "title": "Does a quick answer add a view to my help center article?",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2025-11-12T17:25:39Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801135069,
-      "content_tag_ids": [],
-      "label_names": [
-        "ks",
-        "ab0",
-        "mt",
-        "role_admin",
-        "ab0_copilot"
-      ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>When I enable <code>[[generative_answers]]</code> in my help center, does the quick answer that populates add a view count to the article that creates the answer on the search results page?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>No, a generative answer will not add a view to the help center article's total view count.</p><p>If you want to get a total of the number of quick answer sessions that took place, you can use the <a href=\"https://support.zendesk.com/hc/en-us/articles/4409155064090-Metrics-and-attributes-for-Zendesk-Knowledge#topic_cck_rlw_x2c\" target=\"_blank\" rel=\"noopener noreferrer\">user session dataset</a> instead of article view counts, and the metric <strong>Quick answer sessions</strong> will tally this data.</p>",
       "user_segment_ids": []
     }
   ],
