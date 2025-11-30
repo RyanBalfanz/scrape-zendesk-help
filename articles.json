@@ -259,7 +259,7 @@
     {
       "id": 9981740590490,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9981740590490.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/9981740590490-Why-emails-sent-from-Zendesk-Support-do-not-arrive-in-another-Zendesk-account",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/9981740590490-Why-don-t-emails-sent-from-Zendesk-Support-arrive-in-another-Zendesk-account",
       "author_id": 1263082286069,
       "comments_disabled": false,
       "draft": false,
@@ -269,14 +269,14 @@
       "vote_count": 0,
       "section_id": 4405298901658,
       "created_at": "2025-11-24T04:48:00Z",
-      "updated_at": "2025-11-25T16:06:45Z",
-      "name": "Why emails sent from Zendesk Support do not arrive in another Zendesk account?",
-      "title": "Why emails sent from Zendesk Support do not arrive in another Zendesk account?",
+      "updated_at": "2025-11-30T17:42:59Z",
+      "name": "Why don't emails sent from Zendesk Support arrive in another Zendesk account?",
+      "title": "Why don't emails sent from Zendesk Support arrive in another Zendesk account?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2025-11-24T04:53:56Z",
+      "edited_at": "2025-11-30T17:42:59Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -287,7 +287,7 @@
         "ab0_email",
         "role_admin"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>I sent an email from a Zendesk Support address to another Zendesk Support account and it did not arrive. Why did this happen?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>Zendesk Support does not support tickets sent by email from a Zendesk Support address to another Zendesk Support address. Zendesk Support is designed for individuals, not support addresses, as requesters.<br><br>Email from one support address to another might work in some cases, but results vary and Zendesk Support does not support it. Use ticket sharing to connect with another Zendesk Support account.<br><br>For more information, see <a href=\"https://support.zendesk.com/hc/en-us/articles/4408893967514-Setting-up-ticket-sharing-with-other-Support-accounts\" target=\"_blank\" rel=\"noopener noreferrer\">Setting up ticket sharing with other Support accounts</a>.</p>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>I sent an email from a Zendesk Support address to another Zendesk Support account, and it didn't arrive. Why did this happen?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>Zendesk Support doesn't support tickets sent by email from a Zendesk Support address to another Zendesk Support address. Zendesk Support is designed for individuals, not support addresses, as requesters.<br><br>Email from one support address to another might work in some cases, but results vary and Zendesk Support doesn't support it. Use ticket sharing to connect with another Zendesk Support account.<br><br>For more information, see <a href=\"https://support.zendesk.com/hc/en-us/articles/4408893967514-Setting-up-ticket-sharing-with-other-Support-accounts\" target=\"_blank\" rel=\"noopener noreferrer\">Setting up ticket sharing with other Support accounts</a>.</p>",
       "user_segment_ids": []
     },
     {
