@@ -1,8 +1,8 @@
 {
-  "count": 4800,
+  "count": 4801,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
-  "page_count": 160,
+  "page_count": 161,
   "per_page": 30,
   "previous_page": null,
   "articles": [
@@ -229,6 +229,38 @@
         "mt"
       ],
       "body": "<h3 id=\"h_01KAZXV2FY5GB9J1QH0HQHTY6V\"><span style=\"color: #434343;\"><strong>SUMMARY</strong></span></h3><p data-pm-slice='1 1 [\"list\",{\"type\":\"bullet\",\"start\":1},\"listItem\",null,\"list\",{\"type\":\"bullet\",\"start\":1},\"listItem\",null]'>On November 17, 2025, customers reported issues with viewing support ticket counts in Views. Investigation revealed a problematic backfill job on Pod 26 as the initial cause, which eventually impacted multiple other pods.</p><h3 id=\"h_01KAZXV2G0A6DKHHNMP6DQJBCJ\"><span style=\"color: #434343;\"><strong>Timeline</strong></span></h3><p><strong>November 18, 2025 07:22 UTC | November 17, 2025 11:22 PM PT</strong></p><p>We are aware of the recent issue in Zendesk Support affecting customers on Pod 26, where Views were not updating when tickets were assigned or their statuses changed. This resulted in outdated and inaccurate information appearing in ticket queues, impacting normal workflow. The situation is now stable, and our engineering team is actively investigating the root cause to prevent any recurrence. We appreciate your continued patience and understanding.</p><p><strong>November 18, 2025 11:37 UTC | November 18, 2025 03:37 AM PT</strong></p><p>Our engineers continue to investigate an issue that was initially limited to customers in Pod 26 but is now affecting multiple pods. The team is actively working on remediation, and we apologize for the inconvenience caused. We appreciate your patience and will provide updates as they become available.</p><p><strong>November 18, 2025 13:17 UTC | November 18, 2025 05:17 AM PT</strong></p><p>Our engineering team identified heavy load on some systems, leading to slower responses and occasional inaccuracies. We have taken immediate action to address the issue and are closely monitoring progress. While improvements are underway, you may still experience some delays as the system recovers. To prevent further disruptions, we have temporarily paused certain updates and are working on long-term solutions.<br>Thank you for your patience and understanding. We will continue to keep you updated as we make progress.</p><p><strong>November 18, 2025 15:30 UTC | November 18, 2025 7:30 AM PT</strong></p><p>Our engineers have observed partial recovery of the issue affecting Views in Zendesk Support. Some users may still find views with stale ticket data, but stability is expected to return gradually. We are actively monitoring system activity and apologize for any inconvenience caused. We appreciate your patience and will provide updates as they become available.</p><p><strong>November 18, 2025 16:26 UTC | November 18, 2025 8:26 AM PT</strong></p><p>We’re pleased to report that the issues impacting Views in Zendesk Support have been fully resolved. Our engineers have confirmed that system performance has returned to a stable state. We appreciate your continued patience and support throughout the resolution process.</p><h3 id=\"h_01KAZXV2G4J2PPN57FHM0YVDVY\"><span style=\"color: #434343;\"><strong>Root Cause Analysis</strong></span></h3><p>The incident was initially caused by a problematic backfill job on Pod 26, which subsequently affected multiple other pods.</p><h3 id=\"h_01KAZXV2G5QG5YATKZAGQW0WD4\"><span style=\"color: #434343;\"><strong>Resolution</strong></span></h3><p>To resolve the issue, engineers disabled the problematic backfill job and restarted key database clusters, reducing system load and allowing data processing to catch up. Additional capacity was added and deployments were paused to stabilize the environment.</p><h3 id=\"h_01KAZXV2G6S6H0JK6HP59NA6KR\"> </h3><h4 id=\"h_01K086AN7TN2VXG8HZSHSSG4DT\"><strong>FOR MORE INFORMATION</strong></h4><p>For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com/\">system status page</a>. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
+      "user_segment_ids": []
+    },
+    {
+      "id": 9990998926362,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9990998926362.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/9990998926362-Post-mortem-November-18-2025-All-Pods-Support-Guide-Content-Delivery-Network-issues",
+      "author_id": 9005790397722,
+      "comments_disabled": true,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298854426,
+      "created_at": "2025-11-26T10:32:29Z",
+      "updated_at": "2025-12-03T02:17:22Z",
+      "name": "Post-mortem - November 18, 2025 - All Pods | Support, Guide - Content Delivery Network issues",
+      "title": "Post-mortem - November 18, 2025 - All Pods | Support, Guide - Content Delivery Network issues",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2025-12-03T02:17:22Z",
+      "user_segment_id": null,
+      "permission_group_id": 1324079,
+      "content_tag_ids": [
+        "01K0PTSD04FESGNSQJZ752BWCQ"
+      ],
+      "label_names": [
+        "mt"
+      ],
+      "body": "<h3 id=\"h_01KAZXV2FY5GB9J1QH0HQHTY6V\"><span style=\"color: #434343;\"><strong>SUMMARY</strong></span></h3><p>On November 18, 2025, between 11:28 UTC and 13:37 UTC, Zendesk customers on all pods experienced login failures and intermittent errors across multiple products. Customers who were already logged in to Zendesk were not affected.</p><h3 id=\"h_01KAZXV2G0A6DKHHNMP6DQJBCJ\"><span style=\"color: #434343;\"><strong>Timeline</strong></span></h3><p><strong>November 18, 2025 12:58 UTC | November 18, 2025 04:58 AM PT</strong></p><p>Our Web Application Firewall (WAF) vendor is currently experiencing service degradation affecting certain internal systems. Some customers may encounter issues when interacting with WAF challenges. We are actively assessing the situation to fully understand the impact and will provide updates as more information becomes available. We appreciate your patience and understanding during this time.</p><p><strong>November 18, 2025 13:38 UTC | November 18, 2025 05:38 AM PT</strong></p><p>Our engineers have deployed a fix for the login issue affecting customers. Please attempt to log in again and inform us if the problem persists so we may assist you accordingly.</p><p><strong>November 18, 2025 17:12 UTC | November 18, 2025 09:12 AM PT</strong></p><p>We are observing successful logins and monitoring the situation, however we are actively still working with our CDN provider to ensure full recovery and stability. Thank you for your patience.</p><p><strong>November 18, 2025 18:50 UTC | November 18, 2025 10:50 AM PT</strong></p><p>We are happy to report that, working closely with our CDN provider, we have mitigated the impact of preventing access to Zendesk products and all systems have recovered. Thank you for your patience during our investigation.</p><h3 id=\"h_01KAZXV2G4J2PPN57FHM0YVDVY\"><span style=\"color: #434343;\"><strong>Root Cause Analysis</strong></span></h3><p>The incident was caused by a failure in the bot management system of Zendesk’s content delivery network provider, which impacted service delivery.</p><h3 id=\"h_01KAZXV2G5QG5YATKZAGQW0WD4\"><span style=\"color: #434343;\"><strong>Resolution</strong></span></h3><p>To resolve the issue, our Content Delivery Network (CDN) provider's verification prompts were temporarily disabled on the login page. Our CDN reverted to a stable configuration and implemented mitigation measures. Following confirmation from our CDN, services were validated as stable, and the disabled bot management rule was safely re-enabled.</p><h3 id=\"h_01KAZXV2G6S6H0JK6HP59NA6KR\"><span style=\"color: #434343;\"><strong>Remediation Items</strong></span></h3><ol>\n<li data-list-item-id=\"eb5b416bf048ce6e05bc96c552535bc07\">Monitor the complete login flow to ensure it operates smoothly end-to-end.</li>\n<li data-list-item-id=\"e97c9fd95a03c237ea6a922f140a4e6c6\">Continuously monitor the login Web Application Firewall (WAF) to detect and prevent issues.</li>\n<li data-list-item-id=\"e21782337e256c9af05f5390d59255366\">Investigate how to handle cases when the BotScore is zero across all zones to improve security measures.</li>\n<li data-list-item-id=\"edd8b363ba5746d30ca5fbc8c7c73221b\">Ensure all third-party modules are sourced and downloaded securely from the Artifactory repository.</li>\n</ol><h4 id=\"h_01K086AN7TN2VXG8HZSHSSG4DT\"><strong>FOR MORE INFORMATION</strong></h4><p>For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com/\">system status page</a>. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
     },
     {
@@ -930,40 +962,6 @@
         "ab0_ai_agents_advanced"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>Does it help my AI if I add an article link to my intent description?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>There is no connection between article links and the intent description.</p><p><img class=\"wysiwyg-image-resized\" style=\"aspect-ratio: 1226/878; width: 72.29%;\" src=\"https://support.zendesk.com/hc/article_attachments/9959304942874\" alt=\"Intent with article link.png\" width=\"1226\" height=\"878\"></p><p>This does not help and it might confuse the intent model. Do not add article links to intent descriptions.</p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 9959248056602,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9959248056602.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/9959248056602-How-can-AI-agents-handle-holiday-schedules-and-operating-hours-Legacy",
-      "author_id": 1263082122849,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 8243870008090,
-      "created_at": "2025-11-18T01:37:52Z",
-      "updated_at": "2025-11-20T14:21:16Z",
-      "name": "How can AI agents handle holiday schedules and operating hours (Legacy)?",
-      "title": "How can AI agents handle holiday schedules and operating hours (Legacy)?",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2025-11-18T17:04:41Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801135069,
-      "content_tag_ids": [],
-      "label_names": [
-        "ks",
-        "ab0",
-        "ab0_support",
-        "role_admin",
-        "ab0_ai_agents_advanced"
-      ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>Can I set up a rule for my artificial intelligence agent to respond differently during my holiday hours so that I can switch schedules before and after a holiday takes place?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>You can create a copy of the <a href=\"https://support.zendesk.com/hc/en-us/articles/4422584657434-Creating-answers-for-common-customer-questions-in-AI-agents-for-messaging-Legacy\" target=\"_blank\" rel=\"noopener noreferrer\">AI agent answer</a> for <strong>Talk to a human</strong> ahead of the holiday, name it <strong>Talk to a human (Holiday hours)</strong>, and set it to <strong>Inactive</strong>.</p><div class=\"note\">Note: This article describes functionality available only to customers who had a drafted or published AI agent as of February 2, 2025. For information about equivalent functionality in the <a href=\"https://support.zendesk.com/hc/en-us/articles/6970583409690\" target=\"_blank\" rel=\"noopener noreferrer\">AI agents - Advanced add-on</a>, see this article: <a href=\"https://support.zendesk.com/hc/en-us/sections/8264324615322\" target=\"_blank\" rel=\"noopener noreferrer\">Building dialogues for AI agents - Advanced</a>.</div><figure class=\"wysiwyg-image wysiwyg-image-resized wysiwyg-image-block-align-left\" style=\"width: 77.29%;\"><img style=\"aspect-ratio: 1706/512;\" src=\"https://support.zendesk.com/hc/article_attachments/9959262968986\" alt=\"Talk to a human holiday response.png\" width=\"1706\" height=\"512\"></figure><p>Use the Talk to a human (Holiday hours) answer to specify your holiday hours, the estimated response time for a human agent, and any other relevant information.</p><p><img class=\"wysiwyg-image-resized\" style=\"aspect-ratio: 2078/1264; width: 83.43%;\" src=\"https://support.zendesk.com/hc/article_attachments/9959248056474\" alt=\"AI agent message.png\" width=\"2078\" height=\"1264\"></p><p>On the day before the holiday, set the original <strong>Talk to a human</strong> answer to <strong>Inactive</strong>, and activate the <strong>Talk to a human (Holiday hours)</strong> answer.</p><p>There is no auto-schedule feature that will activate the holiday answer automatically on the holiday.</p>",
       "user_segment_ids": []
     }
   ],
