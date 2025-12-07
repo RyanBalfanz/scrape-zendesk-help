@@ -1,11 +1,42 @@
 {
-  "count": 4808,
+  "count": 4809,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 161,
   "per_page": 30,
   "previous_page": null,
   "articles": [
+    {
+      "id": 10033304208538,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/10033304208538.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/10033304208538-Release-notes-through-2025-12-05",
+      "author_id": 1263082309989,
+      "comments_disabled": true,
+      "draft": false,
+      "promoted": true,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298847002,
+      "created_at": "2025-12-07T20:04:18Z",
+      "updated_at": "2025-12-07T20:25:17Z",
+      "name": "Release notes through 2025-12-05",
+      "title": "Release notes through 2025-12-05",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2025-12-07T20:25:16Z",
+      "user_segment_id": null,
+      "permission_group_id": 1324079,
+      "content_tag_ids": [],
+      "label_names": [
+        "mt",
+        "rank_low_algolia"
+      ],
+      "body": "<div class=\"note tip\">See the <a href=\"https://support.zendesk.com/hc/en-us/articles/9971473425434\" target=\"_blank\" rel=\"noopener noreferrer\">What's New</a> section for an overview of what was released last month.</div><p>This week's release notes include:</p><ul>\n<li data-list-item-id=\"ea28f76703c21435ef78d364ef8043984\"><a href=\"#h_01KBDCAGW7QZNMG4XH4Z6T67NA\">AI agents - Advanced</a></li>\n<li data-list-item-id=\"ed3d45ee613d69bb12aae739828ae2e5c\"><a href=\"#h_01KBX761P6KHR5BP89MQF1Q36Y\">Copilot</a></li>\n<li data-list-item-id=\"e469ebacf07f208d1075cd40f9dca427d\"><a href=\"#h_01KBX6XZABMW1K5F8W4M95QH0N\">App Marketplace</a></li>\n<li data-list-item-id=\"e97df845bfb61324207f0ba8eb57d8297\"><a href=\"#h_01KBX6RWJ5ECDAZSHF62KV3EVX\">Products with no updates this week</a></li>\n</ul><h2 id=\"h_01KBDCAGW7QZNMG4XH4Z6T67NA\">AI agents - Advanced</h2><p><strong data-stringify-type=\"bold\">New:</strong></p><ul>\n<li data-list-item-id=\"ebbda9deb68a229edbdc228333e329c96\">You can now customize how many consecutive use cases the advanced email AI agent can handle before stopping the automation.</li>\n<li data-list-item-id=\"e3e9d2ec3df303a51872a046688a5fd45\">Escalation blocks have been introduced to advanced email AI agents.</li>\n<li data-list-item-id=\"ed5b4c6e1ee199f7dcfa7620c0ed2add3\">Introduced a toggle enabling users to view charts in either whole conversation counts or percentage format relative to total conversations.</li>\n</ul><p><strong data-stringify-type=\"bold\">Fixed:</strong></p><ul data-stringify-type=\"unordered-list\" data-list-tree=\"true\" data-indent=\"0\" data-border=\"0\"><li data-stringify-indent=\"0\" data-stringify-border=\"0\" data-list-item-id=\"eca73e12ed56cddd8dc3d5ff9d03c0929\">Fixed a bug where, if in an action multiple parameters were used in the same field and one of them was missing, the whole field value became undefined.</li></ul><h2 id=\"h_01KBX761P6KHR5BP89MQF1Q36Y\">Copilot</h2><p><strong>New:</strong></p><ul><li data-list-item-id=\"e11143fbd4f29100d33268b08c4fac6a1\">AI Recommendations are now available across Admin Center. <a href=\"https://support.zendesk.com/hc/en-us/articles/9598690362010\">Read more</a>.</li></ul><p><strong>Fixed:</strong></p><ul><li data-list-item-id=\"e2181641b524f60677140ace06d4fe0da\">Deprecated the intelligent triage setting “Values in subsequent interactions” in entity detection, due to it not being useful for customers.</li></ul><h2 id=\"h_01KBX6XZABMW1K5F8W4M95QH0N\">App Marketplace</h2><div><strong>New:</strong></div><ul>\n<li data-list-item-id=\"e21f977c6046e457ee76c2a43515eb960\">\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1189120/attachments\" target=\"_blank\" rel=\"noopener noreferrer\">Attachments from ZenSuite</a> (Support)<ul><li data-list-item-id=\"e5c3515e821d48246d0fb53c0825bb617\">Easily view, select, and download all ticket attachments. Attachment Manager simplifies handling ticket attachments for Zendesk agents. It automatically organizes and displays all attachments from ticket comments, allowing you to preview, select, and bulk download files — all within the Zendesk sidebar.</li></ul>\n</li>\n<li data-list-item-id=\"e3802d3042791f42ce4e79f4d21661f3f\">\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1131598/sitesage-ai/\" target=\"_blank\" rel=\"noopener noreferrer\">SiteSage AI from SiteSage</a> (Support)<ul><li data-list-item-id=\"e52baba11227a20f5c35f8e3bba750822\">AI-powered responses based on your own company data and systems. SiteSage connects directly to your Zendesk workspace to streamline internal support tasks with focused, high-quality AI tools. Built for busy teams, not bots — SiteSage helps your agents move faster, stay consistent, and focus on what actually needs human attention.</li></ul>\n</li>\n<li data-list-item-id=\"e9af36ee94fed49f0f07b74a0c5b1fbb0\">\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1190187/help-center-health-check\" target=\"_blank\" rel=\"noopener noreferrer\">Help Center Health Check from Lotus Themes</a> (Support)(Paid)<ul><li data-list-item-id=\"e0119aaa27a30d8d9ab1a97f1b12fa6dc\"> Know your knowledge base is healthy:  Find broken links, broken images, and accessibility issues in your Help Center. Help Center Health Check scans all your Help Center articles for broken links, images, and content issues. Get confidence that your knowledge base is healthy and ready to help customers.</li></ul>\n</li>\n<li data-list-item-id=\"ec305063ba373a8acf8feb9a57bdcfcf5\">\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1189550/no-wrong-attachments\" target=\"_blank\" rel=\"noopener noreferrer\">No Wrong Attachments from Claps, LLC</a> (Support)(Paid)<ul><li data-list-item-id=\"ef58d67254bab2e5e82d45b2d5ba45cd7\">The No Wrong Attachments app provides a simple yet powerful way to prevent attachment errors. This app automatically lists all files attached before sending and requires you to review each one. This helps protect confidential information and prevents data leaks.</li></ul>\n</li>\n</ul><h2 id=\"h_01KBX6RWJ5ECDAZSHF62KV3EVX\">Products with no updates this week</h2><ul>\n<li data-list-item-id=\"e926482616b63b012d14fd275d0d5f759\">Support</li>\n<li data-list-item-id=\"efb54d1f071a7909f99e376df9f13d8b6\">Mobile</li>\n<li data-list-item-id=\"ead72c26a16259e7dfdb1c158e885f9fa\">Chat &amp; messaging</li>\n<li data-list-item-id=\"e61a02110ddde1752e722b5cc151017d0\">Voice</li>\n<li data-list-item-id=\"e3f546274834ffac47926fbe0efe14ddf\">Knowledge</li>\n<li data-list-item-id=\"e480ea56553f0925192cb80c89361cdf4\">Analytics</li>\n<li data-list-item-id=\"ede1f36e27db3ae013917297c0513f7cf\">Admin Center</li>\n<li data-list-item-id=\"ecc8a60e7af7a313c5447524e6c73e42a\">Zendesk Workforce Management (WFM)</li>\n<li data-list-item-id=\"e6c93e1dc0a799549fd1f754c99f5dcbe\">Zendesk QA</li>\n</ul>",
+      "user_segment_ids": []
+    },
     {
       "id": 10015459847962,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/10015459847962.json",
@@ -932,39 +963,6 @@
         "mtpe"
       ],
       "body": "<figure class=\"wysiwyg-table wysiwyg-table-align-left\" style=\"height: 44px; width: 100%;\"><table style=\"border-collapse: collapse; border-style: solid; border-width: 1px;\"><tbody>\n<tr style=\"height: 22px;\">\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\"><strong>Announced on</strong></td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\"><strong>Rollout starts</strong></td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\"><strong>Rollout ends</strong></td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\">December 3, 2025</td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\"><span style=\"color: #000000;\">December 3, 2025</span></td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\">December 10, 2025</td>\n</tr>\n</tbody></table></figure><p><span style=\"font-weight: 400;\">Zendesk is pleased to announce the option to assign approval requests to a group of agents rather than a specific individual.</span></p><p><span style=\"font-weight: 400;\">This announcement includes the following topics:</span></p><ul>\n<li data-list-item-id=\"e1b4bdc06e6d8b213c9fb8d4c9d84e04c\"><a href=\"#h_01GD3S97RDYVTAFTQ8WR9878VF\" target=\"_self\"><span style=\"font-weight: 400;\">What is changing?</span></a></li>\n<li data-list-item-id=\"eec50f76e15cfe720b0a3945cb4275c32\"><a href=\"#h_01GD3S9GD63FPDGQSEFY88M3ND\" target=\"_self\"><span style=\"font-weight: 400;\">Why is Zendesk making this change?</span></a></li>\n<li data-list-item-id=\"e42f17e127fd9a2ff44aa33f9f38ac124\"><a href=\"#h_01GD3S9TSPXM7M4WHYKYF4E84M\" target=\"_self\"><span style=\"font-weight: 400;\">What do I need to do?</span></a></li>\n</ul><h2 id=\"h_01GD3S97RDYVTAFTQ8WR9878VF\"><span style=\"font-weight: 400;\">What is changing?</span></h2><p>Until now, approval requests have been assigned to a single, individual approver. Now, in addition to the option to select an individual agent or end user, you also have the option to select a group of agents. </p><p>When an approval request is assigned to a group, any member of the designated group can respond and complete the approval request, which increases the speed with which a request can be resolved. The first member of the group to respond to an approval request becomes the approver, which is listed in the approval request itself as well as the ticket event history.</p><p>Approval requests assigned to a group of agents are accessed the same way they would be if assigned to an individual. All agents in the assigned group receive email notifications and see the request listed in Agent Home.</p><p>For more information, see <a href=\"https://support.zendesk.com/hc/en-us/articles/8481158639770\">Creating approval requests</a>.</p><h2 id=\"h_01GD3S9GD63FPDGQSEFY88M3ND\"><span style=\"font-weight: 400;\">Why is Zendesk making this change?</span></h2><p>Zendesk understands that supporting only individual approvers could create bottlenecks and administrative overhead. It also doesn't accurately reflect the way many organizations use team-based decision making. Group approvals addresses the bottleneck and provides a more scalable, flexible, efficient, and realistic approval process.</p><h2 id=\"h_01GD3S9TSPXM7M4WHYKYF4E84M\"><span style=\"font-weight: 400;\">What do I need to do?</span></h2><p>This feature is being rolled out to all accounts with access to approvals. The option to select groups will appear automatically. However, for the best experience, admins should <a href=\"https://support.zendesk.com/hc/en-us/articles/4408821199258\">review their groups</a> and ensure accurate groups of 30-agents or less exist in your account for use as approvers.</p><p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/9642409176730\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\">Zendesk Customer Support</a>.</p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 9959304943898,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9959304943898.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/9959304943898-Can-I-include-article-references-in-intent-descriptions-to-improve-AI-guidance",
-      "author_id": 1263082122849,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 8243870008090,
-      "created_at": "2025-11-18T02:01:35Z",
-      "updated_at": "2025-11-20T14:21:16Z",
-      "name": "Can I include article references in intent descriptions to improve AI guidance?",
-      "title": "Can I include article references in intent descriptions to improve AI guidance?",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2025-11-18T17:18:19Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801135069,
-      "content_tag_ids": [],
-      "label_names": [
-        "ks",
-        "ab0",
-        "ab0_support",
-        "ab0_ai_agents_advanced"
-      ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>Does it help my AI if I add an article link to my intent description?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>There is no connection between article links and the intent description.</p><p><img class=\"wysiwyg-image-resized\" style=\"aspect-ratio: 1226/878; width: 72.29%;\" src=\"https://support.zendesk.com/hc/article_attachments/9959304942874\" alt=\"Intent with article link.png\" width=\"1226\" height=\"878\"></p><p>This does not help and it might confuse the intent model. Do not add article links to intent descriptions.</p>",
       "user_segment_ids": []
     }
   ],
