@@ -1,5 +1,5 @@
 {
-  "count": 4794,
+  "count": 4795,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 160,
@@ -331,7 +331,7 @@
       "vote_count": 0,
       "section_id": 4405303742362,
       "created_at": "2025-11-28T16:12:57Z",
-      "updated_at": "2025-12-11T18:12:09Z",
+      "updated_at": "2025-12-12T22:10:49Z",
       "name": "Why do I see a Save and migrate button on the knowledge base article editor when I try to save an article?",
       "title": "Why do I see a Save and migrate button on the knowledge base article editor when I try to save an article?",
       "source_locale": "en-us",
