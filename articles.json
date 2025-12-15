@@ -1,5 +1,5 @@
 {
-  "count": 4796,
+  "count": 4797,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 160,
@@ -415,6 +415,39 @@
         "ab0_objects_rules"
       ],
       "body": "<p>In this tutorial, you'll learn how to use Zendesk Support to create a view of your tickets based on a checked ticket field.</p><p>The workflow includes the steps below:</p><ul>\n<li data-list-item-id=\"e5998990545f72fc54c17bb825e853118\"><a href=\"#h_01HXY1BFCAPEN08R87P7ENG6TS\">Step 1: Add a tag in the settings of your ticket field</a></li>\n<li data-list-item-id=\"eb831b9fc5193f09ed3d33d8403d620b2\"><a href=\"#01HXY1G18XYBGPX37812NDQPP4\">Step 2: Generate ticket data with the checked field</a></li>\n<li data-list-item-id=\"e5167f9ee0c556f2d734ba2c1c4a9f763\"><a href=\"#h_01HXY1GYQDRZ3V1Y2A1VJXG88P\">Step 3: Create your view from that tag</a></li>\n</ul><p>You can add custom fields with a <a href=\"https://support.zendesk.com/hc/en-us/articles/4408887162394-Using-custom-ticket-fields-in-business-rules-and-views#:~:text=Not%20available-,Checkbox,-Is%20checked\" target=\"_blank\" rel=\"noopener noreferrer\">checkbox type</a> to views if they possess a tag. For this reason, follow the steps below:</p><h3 id=\"h_01HXY1BFCAPEN08R87P7ENG6TS\">Step 1: Add a tag in the settings of your ticket field</h3><p>To edit your custom field:</p><ol>\n<li data-list-item-id=\"ea94602273cccfab31a2af4a1e28ebf39\">Access the edit page of your <a href=\"https://support.zendesk.com/hc/en-us/articles/4408828883738-Editing-and-managing-your-ticket-fields#topic_vgj_3gw_jz\" target=\"_blank\" rel=\"noopener noreferrer\">ticket field</a>\n</li>\n<li data-list-item-id=\"efd351726915bb34a22cbc5912e0d0b05\">Under <strong>Field option</strong> &gt; <strong>Tag (optional)</strong> enter a tag of your choice, for example <strong>tag_field_name</strong><ul><li data-list-item-id=\"e1f38ee397dad60f7cf8651caba6a971b\">If a tag name already appears, move to step 2<br><img class=\"wysiwyg-image-resized\" style=\"aspect-ratio: 497/662; width: 56.5%;\" src=\"https://support.zendesk.com/hc/article_attachments/9996316020506\" alt=\"Edit your ticket field\" width=\"497\" height=\"662\">\n</li></ul>\n</li>\n<li data-list-item-id=\"ee9e8e0124de7238ceeaa631f5c91ec8d\">Click <strong>Save</strong>\n</li>\n<li data-list-item-id=\"e84e169920317efa15af4db3bd1565702\">Access the edit page of your <a href=\"https://support.zendesk.com/hc/en-us/articles/5494868102426-Editing-ticket-forms#topic_c5x_l3b_lk\" target=\"_blank\" rel=\"noopener noreferrer\">ticket form</a> to verify that your field already appears</li>\n<li data-list-item-id=\"eb0d04c45b106e19045475ceb334868ab\">If you see the ticket field under <strong>Available ticket fields</strong>, click <code>+</code> next to its name &gt; <strong>Save</strong>\n</li>\n</ol><h3 id=\"01HXY1G18XYBGPX37812NDQPP4\">Step 2: Generate ticket data with the checked field</h3><p>To generate ticket data with that field:</p><ol>\n<li data-list-item-id=\"eaca9dfa8ec908c457fea658c3d8984f0\">\n<a href=\"https://support.zendesk.com/hc/en-us/articles/4408882462618-Creating-a-ticket-on-behalf-of-the-requester#topic_swv_ytz_y2b\" target=\"_blank\" rel=\"noopener noreferrer\">Create</a> or <a href=\"https://support.zendesk.com/hc/en-us/articles/4408832151834-Updating-and-solving-tickets#id_xsq_5f5_st\" target=\"_blank\" rel=\"noopener noreferrer\">edit</a> a customer ticket</li>\n<li data-list-item-id=\"e55d53645c81c995f29125c62ae600bf1\">Select the ticket field from step 1</li>\n<li data-list-item-id=\"e9cb5837fc18381eae55c233225b3f578\">Click <strong>Submit as</strong> to save your changes</li>\n</ol><h3 id=\"h_01HXY1GYQDRZ3V1Y2A1VJXG88P\">Step 3: Create your view from that tag</h3><p>To create a view of tickets with that checkbox:</p><ol>\n<li data-list-item-id=\"e62511aadad88a20233219a6ca24f7786\">Create a <a href=\"https://support.zendesk.com/hc/en-us/articles/4408888828570-Creating-views-to-build-customized-lists-of-tickets#topic_vcr_xfp_ec\" target=\"_blank\" rel=\"noopener noreferrer\">view</a>\n</li>\n<li data-list-item-id=\"ee65c9a62e465c2264c4a0f242c5d4f27\">Under <strong>Conditions</strong>, click <strong>Add condition</strong>\n</li>\n<li data-list-item-id=\"e40cd5ce3327da6960a8d31bd48cd9a10\">Enter the name of your ticket field, select <strong>Is</strong> &gt; then <strong>Checked</strong> or <strong>Unchecked</strong><br><img class=\"wysiwyg-image-resized\" style=\"aspect-ratio: 757/210; width: 79.04%;\" src=\"https://support.zendesk.com/hc/article_attachments/9996316020762\" alt=\"Your custom view\" width=\"757\" height=\"210\">\n</li>\n<li data-list-item-id=\"e329c5846a6777255b2e3f7bf203da422\">Below <strong>Formatting options</strong> and <strong>Columns</strong>, click <strong>Add column</strong> &gt; enter the name of your ticket field &gt; select it</li>\n<li data-list-item-id=\"edf6b120c962bba0b10d49f75370b0115\">Drag that field to the top of your column list</li>\n<li data-list-item-id=\"eb5ca16f5bf9fa812284608d88d5fd84a\">Click <strong>Save</strong>\n</li>\n<li data-list-item-id=\"e51babc4b8ce9392f9ebda830a25f37d1\">In <a href=\"https://support.zendesk.com/hc/en-us/articles/4408838272410-Switching-among-Zendesk-products\" target=\"_blank\" rel=\"noopener noreferrer\">Support</a>, open your <a href=\"https://support.zendesk.com/hc/en-us/articles/4408829483930-Accessing-your-views-of-tickets#topic_1nl_ftm_vt\" target=\"_blank\" rel=\"noopener noreferrer\">views</a>. The view appears on the left.</li>\n<li data-list-item-id=\"e3f4c2c5b3c98a1c8cd069c8cf70b62fd\">If the wrong tickets appear, compare them and adjust <a href=\"https://support.zendesk.com/hc/en-us/articles/4408832792986-Managing-your-views#topic_fzx_qyj_5b\" target=\"_blank\" rel=\"noopener noreferrer\">your view conditions</a>\n</li>\n</ol>",
+      "user_segment_ids": []
+    },
+    {
+      "id": 9996111161114,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9996111161114.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/9996111161114-How-can-I-disable-two-factor-authentication-in-the-Whastapp-manager-UI",
+      "author_id": 1263082106209,
+      "comments_disabled": false,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405303738522,
+      "created_at": "2025-11-27T15:58:32Z",
+      "updated_at": "2025-12-15T04:35:00Z",
+      "name": "How can I disable two factor authentication in the Whastapp manager UI?",
+      "title": "How can I disable two factor authentication in the Whastapp manager UI?",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2025-12-15T04:30:16Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801135069,
+      "content_tag_ids": [],
+      "label_names": [
+        "ab0",
+        "KS",
+        "ab0_messaging",
+        "role_admin"
+      ],
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>I want to disable two factor authentication for a number associated with a Whatsapp channel. How can I do this? </p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><ol>\n<li data-list-item-id=\"e6cdda50e461cb6c118a6d6fc4a93bc0e\">Log into your Meta account and access your <a href=\"https://business.facebook.com/latest/settings/whatsapp_account\" target=\"_blank\" rel=\"noopener noreferrer\">company portfolio</a>\n</li>\n<li data-list-item-id=\"ec6025d5ef435f14fd380094c3dfc46ee\">Select the WhatsApp Business account you want to manage the templates for and click <strong>WhatsApp Manager</strong><br><br><img src=\"https://support.zendesk.com/hc/article_attachments/9996111160986\" width=\"3298\" height=\"1890\" alt=\"Whatsapp Manager UI\"><br><br>3. Navigate to <strong>Two-step verification </strong>and select the desired number in the list  tab, Click on the <strong>Turn off two-step verification</strong><br><br><img src=\"https://support.zendesk.com/hc/article_attachments/9996089952154\" width=\"3172\" height=\"886\" alt=\"Two step verification\"><br><br>You will then receive an email to confirm that you wish to disable two factor authentication for the specified number.</li>\n</ol><div class=\"note\">\n<span class=\"notetitle\"><strong>Disclaimer</strong>:</span> This article is provided for instructional purposes only. Zendesk can't provide support for third-party apps. Reach out to Meta or review <a href=\"https://developers.facebook.com/documentation/business-messaging/whatsapp/overview%20\" target=\"_blank\" rel=\"noopener noreferrer\">their documentation </a>for more information. </div>",
       "user_segment_ids": []
     },
     {
@@ -923,40 +956,6 @@
         "ab0_analytics"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>When I use features such as <strong>Make more friendly</strong> or <strong>Make more formal</strong>, does the report count every time I click the button on a ticket, or just once per ticket?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>Reports count each tool use, not once per ticket.</p><p>Each time you click a button such as <strong>Make more friendly</strong>, <strong>Make more formal</strong>, or another rewrite option, that action counts as one use. For example, if you click <strong>Make more friendly</strong> and then click it again later on the same ticket, they count as two separate uses in usage reports.</p><p><img src=\"https://support.zendesk.com/hc/article_attachments/9969953481498\" alt=\"enhance writing features\" width=\"424\" height=\"254\"></p><p>The metrics in the Copilot or Generative AI Agent Tools dashboard reflect these individual interactions and aggregate them by agent or by reporting period. The dashboard doesn’t show a per-ticket breakdown beyond these aggregates.</p><p>For more information, see <a href=\"https://support.zendesk.com/hc/en-us/articles/6961627955994-Analyzing-your-agents-use-of-generative-AI\" target=\"_blank\" rel=\"noopener noreferrer\">Analyzing your agents’ use of generative AI</a>.</p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 9966438889114,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9966438889114.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/9966438889114-Can-I-train-the-Copilot-AI-model-for-intent-with-feedback-or-other-methods",
-      "author_id": 8284543895322,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405298901274,
-      "created_at": "2025-11-19T16:32:07Z",
-      "updated_at": "2025-11-25T16:08:58Z",
-      "name": "Can I train the Copilot AI model for intent with feedback or other methods?",
-      "title": "Can I train the Copilot AI model for intent with feedback or other methods?",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2025-11-20T14:23:26Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801135069,
-      "content_tag_ids": [],
-      "label_names": [
-        "ks",
-        "ab0",
-        "mt",
-        "role_admin",
-        "ab0_copilot"
-      ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>Can I train the Copilot AI model for intent with feedback or other methods?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>You can't train the Copilot intent model directly, but you have some control. When you update the description for an intent, you give the model more context and help improve its predictions for new tickets from that point forward. These updates only affect future tickets, not existing ones.</p><p>If the model predicts the wrong intent, your agents can update the intent field. <a href=\"https://support.zendesk.com/hc/en-us/articles/7934147095066-Analyzing-your-intelligent-triage-activity\" target=\"_blank\" rel=\"noopener noreferrer\">Use reports</a> to compare the original and updated intents. This helps track trends and surface issues. Only Zendesk can change or retrain the core model.</p>",
       "user_segment_ids": []
     }
   ],
