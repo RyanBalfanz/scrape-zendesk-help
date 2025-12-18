@@ -19,7 +19,7 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2025-12-18T16:41:11Z",
-      "updated_at": "2025-12-18T17:01:53Z",
+      "updated_at": "2025-12-18T17:16:04Z",
       "name": "Post-mortem - December 15, 2025 - Multiple pods | Support - Search Indexing service issues",
       "title": "Post-mortem - December 15, 2025 - Multiple pods | Support - Search Indexing service issues",
       "source_locale": "en-us",
@@ -32,7 +32,9 @@
       "content_tag_ids": [
         "01K0PTSD04FESGNSQJZ752BWCQ"
       ],
-      "label_names": [],
+      "label_names": [
+        "mt"
+      ],
       "body": "<h3 id=\"h_01KCS55TWFHTDXWFV8JV6ZEYSQ\"><strong>Summary</strong></h3><p>On December 15, 2025, between 13:03 and 13:44 UTC, an alert was received indicating elevated processing errors across multiple pods, resulting in a stall of the search indexing service.</p><h3 id=\"h_01KCS55TWHAXNJ89HFAJVQNYFT\"><strong>Timeline</strong></h3><p><strong>December 15, 2025 15:26 UTC | December 15, 2025 7:26 AM PT</strong></p><p>On December 15, 2025, between 13:03 and 13:44 UTC, we identified an intermittent stale data issue in the search indexer service affecting customers across all pods for approximately 30-40 minutes. Our engineers have resolved the root cause, and search indexing has resumed normal operation. We appreciate your patience and encourage you to contact us if you continue to experience any related issues.</p><h3 id=\"h_01KCS55TWJ270QWDRM2173M0QB\"><strong>Root Cause Analysis</strong></h3><p>The incident was caused by a recent change that incorrectly set account status values to lowercase “deleted” instead of uppercase, leading to indexing failures.</p><h3 id=\"h_01KCS55TWK9S05VCXMBMBXF5JA\"><strong>Resolution</strong></h3><p>To resolve the issue, engineers reverted the account state values to the proper format, which restored real-time indexing across all pods. Additionally, backfill operations were initiated and completed to recover search data missed during the 30-40 minute incident.</p><h3 id=\"h_01KCS55TWM4ZXF2B1WB97XSZWP\"><strong>Remediation Items</strong></h3><ol>\n<li data-list-item-id=\"eb229dacfa0fd907ed84942329ed17728\">Strengthen tools used to manage whale data to prevent errors and improve stability.</li>\n<li data-list-item-id=\"eaedc314197ce7c67efc63df1d26666b2\">Develop comprehensive runbooks to guide the use and maintenance of whale-related tools.</li>\n<li data-list-item-id=\"ecddb92fce1004034cbbfefafb3d167b0\">Enable the indexer to store the most recent whale data temporarily to ensure continued accuracy.</li>\n<li data-list-item-id=\"ed850e2f313359506895f96b3f73b5b91\">Establish a regular and documented schedule for whale data cleanup.</li>\n<li data-list-item-id=\"ea0fde7a4820cda85b6d62218a0de9e0a\">Investigate automating the removal of accounts from search index tables after 70 days in line with data retention policies.</li>\n</ol><h4 id=\"h_01K086AN7TN2VXG8HZSHSSG4DT\"><strong>FOR MORE INFORMATION</strong></h4><p>For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com/\">system status page</a>. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
     },
