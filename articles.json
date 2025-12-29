@@ -1,11 +1,45 @@
 {
-  "count": 4773,
+  "count": 4774,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 160,
   "per_page": 30,
   "previous_page": null,
   "articles": [
+    {
+      "id": 10099699626010,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/10099699626010.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/10099699626010-How-do-suggested-first-replies-work-in-my-tickets",
+      "author_id": 4723843387034,
+      "comments_disabled": false,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 6970673920794,
+      "created_at": "2025-12-25T12:21:35Z",
+      "updated_at": "2025-12-29T05:44:44Z",
+      "name": "How do suggested first replies work in my tickets?",
+      "title": "How do suggested first replies work in my tickets?",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2025-12-29T05:44:43Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801135069,
+      "content_tag_ids": [],
+      "label_names": [
+        "ks",
+        "ab0",
+        "role_agent",
+        "role_admin",
+        "ab0_copilot"
+      ],
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>I turned on suggested first replies in <a href=\"https://support.zendesk.com/hc/en-us/articles/7908817636378-About-agent-copilot\" target=\"_blank\" rel=\"noopener noreferrer\">agent copilot</a>. How does the feature work in my tickets?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p><a href=\"https://support.zendesk.com/hc/en-us/articles/8037936748570-Turning-on-suggested-first-replies\" target=\"_blank\" rel=\"noopener noreferrer\">Suggested first replies</a> is a feature in agent copilot that helps agents draft the first reply in a ticket. It uses articles and macros to suggest a reply that you can review and send.</p><p>The feature uses all articles that the agent who views the ticket can see for the ticket’s group and brand. Ticket requesters must also be able to see those articles. It also uses all available macros, shared or personal, that are active and include a public comment.</p><p>For language, the feature uses the ticket’s language to suggest macros that fit the context. If multiple macros share the same name in different languages, the feature prioritizes the conversation history with the ticket requester to choose the language. If a language spans multiple regions, the feature ensures the language is correct, but does not automatically select a region.</p>",
+      "user_segment_ids": []
+    },
     {
       "id": 10088042674714,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/10088042674714.json",
@@ -951,38 +985,6 @@
         "role_admin"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>I want to turn off two-factor authentication for a number on a WhatsApp channel. How do I do this?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><ol>\n<li data-list-item-id=\"e6cdda50e461cb6c118a6d6fc4a93bc0e\">Sign in to your Meta account and open your <a href=\"https://business.facebook.com/latest/settings/whatsapp_account\" target=\"_blank\" rel=\"noopener noreferrer\">company portfolio</a>.</li>\n<li data-list-item-id=\"ec6025d5ef435f14fd380094c3dfc46ee\">Select the WhatsApp Business account you want to manage, then click <strong>WhatsApp Manager</strong>.<br><br><img src=\"https://support.zendesk.com/hc/article_attachments/9996111160986\" alt=\"WhatsApp Manager interface\" width=\"3298\" height=\"1890\"><br> </li>\n<li data-list-item-id=\"e2f628bbae4e2e3cfdf24b9fe7f0a349b\">Go to <strong>Two-step verification</strong>. Select the number, then click <strong>Turn off two-step verification</strong>.<br><br><img src=\"https://support.zendesk.com/hc/article_attachments/9996089952154\" alt=\"Two-step verification\" width=\"3172\" height=\"886\">\n</li>\n</ol><p>You will receive an email to confirm that you want to turn off two-step verification for that number.</p><div class=\"note\">\n<span class=\"notetitle\"><strong>Disclaimer</strong>:</span> This article is provided for instructional purposes only. Zendesk cannot provide support for third-party apps. Reach out to Meta or review <a href=\"https://developers.facebook.com/documentation/business-messaging/whatsapp/overview\" target=\"_blank\" rel=\"noopener noreferrer\">their documentation</a> for more information.</div>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 9991125078682,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9991125078682.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/9991125078682-Post-mortem-November-18-2025-All-Pods-Support-Views-dashboard-issues",
-      "author_id": 9005790397722,
-      "comments_disabled": true,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405298854426,
-      "created_at": "2025-11-26T11:18:13Z",
-      "updated_at": "2025-11-26T15:59:55Z",
-      "name": "Post-mortem - November 18, 2025 - All Pods | Support - Views dashboard issues",
-      "title": "Post-mortem - November 18, 2025 - All Pods | Support - Views dashboard issues",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2025-11-26T11:53:43Z",
-      "user_segment_id": null,
-      "permission_group_id": 1324079,
-      "content_tag_ids": [
-        "01K0PTSD04FESGNSQJZ752BWCQ"
-      ],
-      "label_names": [
-        "mt"
-      ],
-      "body": "<h3 id=\"h_01KAZXV2FY5GB9J1QH0HQHTY6V\"><span style=\"color: #434343;\"><strong>SUMMARY</strong></span></h3><p data-pm-slice='1 1 [\"list\",{\"type\":\"bullet\",\"start\":1},\"listItem\",null,\"list\",{\"type\":\"bullet\",\"start\":1},\"listItem\",null]'>On November 17, 2025, customers reported issues with viewing support ticket counts in Views. Investigation revealed a problematic backfill job on Pod 26 as the initial cause, which eventually impacted multiple other pods.</p><h3 id=\"h_01KAZXV2G0A6DKHHNMP6DQJBCJ\"><span style=\"color: #434343;\"><strong>Timeline</strong></span></h3><p><strong>November 18, 2025 07:22 UTC | November 17, 2025 11:22 PM PT</strong></p><p>We are aware of the recent issue in Zendesk Support affecting customers on Pod 26, where Views were not updating when tickets were assigned or their statuses changed. This resulted in outdated and inaccurate information appearing in ticket queues, impacting normal workflow. The situation is now stable, and our engineering team is actively investigating the root cause to prevent any recurrence. We appreciate your continued patience and understanding.</p><p><strong>November 18, 2025 11:37 UTC | November 18, 2025 03:37 AM PT</strong></p><p>Our engineers continue to investigate an issue that was initially limited to customers in Pod 26 but is now affecting multiple pods. The team is actively working on remediation, and we apologize for the inconvenience caused. We appreciate your patience and will provide updates as they become available.</p><p><strong>November 18, 2025 13:17 UTC | November 18, 2025 05:17 AM PT</strong></p><p>Our engineering team identified heavy load on some systems, leading to slower responses and occasional inaccuracies. We have taken immediate action to address the issue and are closely monitoring progress. While improvements are underway, you may still experience some delays as the system recovers. To prevent further disruptions, we have temporarily paused certain updates and are working on long-term solutions.<br>Thank you for your patience and understanding. We will continue to keep you updated as we make progress.</p><p><strong>November 18, 2025 15:30 UTC | November 18, 2025 7:30 AM PT</strong></p><p>Our engineers have observed partial recovery of the issue affecting Views in Zendesk Support. Some users may still find views with stale ticket data, but stability is expected to return gradually. We are actively monitoring system activity and apologize for any inconvenience caused. We appreciate your patience and will provide updates as they become available.</p><p><strong>November 18, 2025 16:26 UTC | November 18, 2025 8:26 AM PT</strong></p><p>We’re pleased to report that the issues impacting Views in Zendesk Support have been fully resolved. Our engineers have confirmed that system performance has returned to a stable state. We appreciate your continued patience and support throughout the resolution process.</p><h3 id=\"h_01KAZXV2G4J2PPN57FHM0YVDVY\"><span style=\"color: #434343;\"><strong>Root Cause Analysis</strong></span></h3><p>The incident was initially caused by a problematic backfill job on Pod 26, which subsequently affected multiple other pods.</p><h3 id=\"h_01KAZXV2G5QG5YATKZAGQW0WD4\"><span style=\"color: #434343;\"><strong>Resolution</strong></span></h3><p>To resolve the issue, engineers disabled the problematic backfill job and restarted key database clusters, reducing system load and allowing data processing to catch up. Additional capacity was added and deployments were paused to stabilize the environment.</p><h3 id=\"h_01KAZXV2G6S6H0JK6HP59NA6KR\"> </h3><h4 id=\"h_01K086AN7TN2VXG8HZSHSSG4DT\"><strong>FOR MORE INFORMATION</strong></h4><p>For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com/\">system status page</a>. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
     }
   ],
