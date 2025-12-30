@@ -19,7 +19,7 @@
       "vote_count": 0,
       "section_id": 6970673920794,
       "created_at": "2025-12-25T12:21:35Z",
-      "updated_at": "2025-12-29T05:44:44Z",
+      "updated_at": "2025-12-30T16:01:59Z",
       "name": "How do suggested first replies work in my tickets?",
       "title": "How do suggested first replies work in my tickets?",
       "source_locale": "en-us",
@@ -33,6 +33,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "role_agent",
         "role_admin",
         "ab0_copilot"
@@ -408,7 +409,7 @@
       "vote_count": 0,
       "section_id": 4405298903962,
       "created_at": "2025-12-14T09:19:03Z",
-      "updated_at": "2025-12-28T18:24:31Z",
+      "updated_at": "2025-12-30T16:02:11Z",
       "name": "What are my ticket export options for AI agent tickets?",
       "title": "What are my ticket export options for AI agent tickets?",
       "source_locale": "en-us",
