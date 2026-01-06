@@ -1,5 +1,5 @@
 {
-  "count": 4763,
+  "count": 4762,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 159,
@@ -104,41 +104,6 @@
         "ab0_analytics"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>I noticed that some agents do not appear as <strong>Online</strong> on the <a href=\"https://support.zendesk.com/hc/en-us/articles/4422485166746-Seeing-live-agent-status-and-activities-with-Explore\" target=\"_blank\" rel=\"noopener noreferrer\">live dashboards in Explore</a>, but they have a green dot next to their name in the Assignee ticket field. Why does this happen?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>This happens when the agent status is <strong>Transfers only</strong>. The live dashboards in Explore do not show them as <strong>Online</strong>, but the Assignee ticket field shows a green dot for both <strong>Online</strong> and <strong>Transfers only</strong>.</p><p><img class=\"wysiwyg-image-resized\" style=\"aspect-ratio: 292/216; width: 52.72%;\" src=\"https://support.zendesk.com/hc/article_attachments/10116382543386\" alt=\"Green dot in the Assignee ticket field\" width=\"292\" height=\"216\"></p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 10099699626010,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/10099699626010.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/10099699626010-How-do-suggested-first-replies-work-in-my-tickets",
-      "author_id": 4723843387034,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 6970673920794,
-      "created_at": "2025-12-25T12:21:35Z",
-      "updated_at": "2025-12-30T16:01:59Z",
-      "name": "How do suggested first replies work in my tickets?",
-      "title": "How do suggested first replies work in my tickets?",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2025-12-29T05:44:43Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801135069,
-      "content_tag_ids": [],
-      "label_names": [
-        "ks",
-        "ab0",
-        "mt",
-        "role_agent",
-        "role_admin",
-        "ab0_copilot"
-      ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>I turned on suggested first replies in <a href=\"https://support.zendesk.com/hc/en-us/articles/7908817636378-About-agent-copilot\" target=\"_blank\" rel=\"noopener noreferrer\">agent copilot</a>. How does the feature work in my tickets?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p><a href=\"https://support.zendesk.com/hc/en-us/articles/8037936748570-Turning-on-suggested-first-replies\" target=\"_blank\" rel=\"noopener noreferrer\">Suggested first replies</a> is a feature in agent copilot that helps agents draft the first reply in a ticket. It uses articles and macros to suggest a reply that you can review and send.</p><p>The feature uses all articles that the agent who views the ticket can see for the ticket’s group and brand. Ticket requesters must also be able to see those articles. It also uses all available macros, shared or personal, that are active and include a public comment.</p><p>For language, the feature uses the ticket’s language to suggest macros that fit the context. If multiple macros share the same name in different languages, the feature prioritizes the conversation history with the ticket requester to choose the language. If a language spans multiple regions, the feature ensures the language is correct, but does not automatically select a region.</p>",
       "user_segment_ids": []
     },
     {
@@ -981,6 +946,40 @@
         "rank_low_algolia"
       ],
       "body": "<div class=\"note tip\">See the <a href=\"https://support.zendesk.com/hc/en-us/articles/9882508087962\" target=\"_blank\" rel=\"noopener noreferrer\">What's New</a> section for an overview of what was released last month.</div><p>This week's release notes include:</p><ul>\n<li data-list-item-id=\"ea28f76703c21435ef78d364ef8043984\"><a href=\"#h_01K8K8XQQHBEDFCJQ27BC83FHR\">Support</a></li>\n<li data-list-item-id=\"e55a10e65bc8f42e7a3e69fc2d345d599\"><a href=\"#h_01KBDCAGW7QZNMG4XH4Z6T67NA\">Copilot</a></li>\n<li data-list-item-id=\"ef9bb1ef4fd3e3fed1ae515e658b8bc86\"><a href=\"#h_01KBDCVW1SB2PN7GY90RD8TRG4\">App Marketplace</a></li>\n<li data-list-item-id=\"e97df845bfb61324207f0ba8eb57d8297\"><a href=\"#h_01KBDCJDY8EH7A2TR8SQPH82H3\">Products with no updates this week</a></li>\n</ul><h2 id=\"h_01K8K8XQQHBEDFCJQ27BC83FHR\">Support</h2><p data-renderer-start-pos=\"74\" data-local-id=\"5921b828-7ea3-490f-85c8-2c1217da48b4\"><strong data-renderer-mark=\"true\">New:</strong></p><p data-renderer-start-pos=\"94\" data-local-id=\"0c7a8535-d2eb-4a10-ab0d-38117f0078f1\">On user and organization profile pages, you can use new filter options to narrow down your ticket lists better. This will allow you to find tickets more easily when the list becomes large and pagination becomes difficult. See  <a href=\"https://support.zendesk.com/hc/en-us/articles/4408821417114-Accessing-and-using-the-Organizations-page#topic_rqt_442_vlb\" target=\"_blank\" rel=\"noopener noreferrer\"><span class=\"wysiwyg-underline\">Accessing and using the Organization page</span></a> and <a href=\"https://support.zendesk.com/hc/en-us/articles/4408829574810-Viewing-tickets-in-a-Support-profile#topic_sz4_gqc_bhc\" target=\"_blank\" rel=\"noopener noreferrer\"><span class=\"wysiwyg-underline\">Viewing tickets in a Support profile</span></a><a href=\"https://support.zendesk.com/hc/en-us/articles/9905511997210-Announcing-ticket-filtering-on-user-and-organization-profile-pages\" title=\"https://support.zendesk.com/hc/en-us/articles/9905511997210-Announcing-ticket-filtering-on-user-and-organization-profile-pages\" data-renderer-mark=\"true\">.</a></p><h2 id=\"h_01KBDCAGW7QZNMG4XH4Z6T67NA\">Copilot</h2><p><strong>New:</strong></p><ul><li data-list-item-id=\"e3d9b6425203aa27e5a58c90b2a2b1079\">Procedures and articles used to generate auto assist suggestions will now be shown as part of the rationale in the composer. This helps you and your agents understand which sources were used by auto assist when generating suggestions.<a href=\"https://support.zendesk.com/hc/en-us/articles/9985133844762-Announcing-suggestion-sources-in-auto-assist\"> </a>See <a href=\"https://support.zendesk.com/hc/en-us/articles/7051314237466\" target=\"_blank\" rel=\"noopener noreferrer\">Using auto assist to solve tickets</a>. </li></ul><h2 id=\"h_01KBDCVW1SB2PN7GY90RD8TRG4\">App Marketplace</h2><div><strong>New:</strong></div><ul>\n<li data-list-item-id=\"e1672a25083202b8d1f2140007a271904\">\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1186789/problem--incident-manager\" target=\"_blank\" rel=\"noopener noreferrer\">Problem &amp; Incident Manager from Integriq</a> (Support)(Paid)<ul><li data-list-item-id=\"ebcd1d632ba447eb18c9048e5d97a13cf\">Track problems, see missing links to JIRA, and manage your bug process like never before. Complex bug workflows, scattered incidents, broken JIRA links, and messy problem–incident relationships slowing you down? Problem &amp; Incident Manager is built to fix exactly these pain points — and to help teams manage their bug process like never before.</li></ul>\n</li>\n<li data-list-item-id=\"ec04581dbe4f4e4f1951baecc23cff4b7\">\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1185643/call-insights--summary-by-pluno\" target=\"_blank\" rel=\"noopener noreferrer\">Call Insights &amp; Summary by Pluno from Pluno</a> (Support)<ul><li data-list-item-id=\"e65a216c6a0682eab49b4c9ff5c810937\">Automatically extract summaries, transcripts, and insights from customer calls. Transcribe conversations, analyze content, and produce concise, easy-to-read summaries of the conversation. Organize information for sales, support, or research teams to save time and make smarter decisions.</li></ul>\n</li>\n<li data-list-item-id=\"ed7c86ed2eb0aac39fafe4735cab6b40e\">\n<a href=\"https://www.zendesk.com/marketplace/apps/support/843290/character-limit-and-attachment-restrict\" target=\"_blank\" rel=\"noopener noreferrer\">Character Limit and Attachment Restrict from Eclect inc.</a> (Support)(Paid)<ul><li data-list-item-id=\"e14919d996c6f43fed8d4e6e23c1fa822\">Regulate public comments based on character count and/or attachments. Displays an alert and prevents sending public comments when the character count in a public reply exceeds the specified limit.</li></ul>\n</li>\n<li data-list-item-id=\"e533bb3f0fb24f70f33406c38d20840dc\">\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1188479/field-dependency-filter\" target=\"_blank\" rel=\"noopener noreferrer\">Field Dependency Filter from André Oliveira</a> (Support)<ul><li data-list-item-id=\"ebbbebd70804c7c83adc9800f620a1d28\">Filters dropdown options by parent field selection in Zendesk tickets. Field Dependency Filter is a Zendesk app that automatically filters dropdown field options in tickets based on parent field selections. This ensures agents only see relevant choices, streamlining ticket creation and reducing errors.</li></ul>\n</li>\n<li data-list-item-id=\"e5c5b8510b18ded13451305fe83137083\">\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1176086/tasks-for-calendar\" target=\"_blank\" rel=\"noopener noreferrer\">Tasks for Calendar from Anything, Anywhere</a> (Support)(Paid)<ul><li data-list-item-id=\"e533c9efdd039b38c01111db4a29e6a6b\">Smart calendar scheduling with AI summaries, Google Meet integration, and real-time team task visibility for managers. Tasks for Calendar transforms your Zendesk workflow with intelligent Google Calendar integration, AI-powered scheduling, and comprehensive team task management. Perfect for support teams, managers, and account executives who need to track commitments and manage workload.</li></ul>\n</li>\n</ul><h2 id=\"h_01KBDCJDY8EH7A2TR8SQPH82H3\">Products with no updates this week</h2><ul>\n<li data-list-item-id=\"e490b21fa11ec0d172f481af75361111b\">AI agents - Advanced</li>\n<li data-list-item-id=\"efb54d1f071a7909f99e376df9f13d8b6\">Mobile</li>\n<li data-list-item-id=\"ead72c26a16259e7dfdb1c158e885f9fa\">Chat &amp; messaging</li>\n<li data-list-item-id=\"e61a02110ddde1752e722b5cc151017d0\">Voice</li>\n<li data-list-item-id=\"e3f546274834ffac47926fbe0efe14ddf\">Knowledge</li>\n<li data-list-item-id=\"e480ea56553f0925192cb80c89361cdf4\">Analytics</li>\n<li data-list-item-id=\"ede1f36e27db3ae013917297c0513f7cf\">Admin Center</li>\n<li data-list-item-id=\"ecc8a60e7af7a313c5447524e6c73e42a\">Zendesk Workforce Management (WFM)</li>\n<li data-list-item-id=\"e6c93e1dc0a799549fd1f754c99f5dcbe\">Zendesk QA</li>\n</ul>",
+      "user_segment_ids": []
+    },
+    {
+      "id": 9999552456346,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/9999552456346.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/9999552456346-Why-do-I-see-a-Save-and-migrate-in-the-article-editor",
+      "author_id": 8870752769050,
+      "comments_disabled": false,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405303742362,
+      "created_at": "2025-11-28T16:12:57Z",
+      "updated_at": "2025-12-23T16:08:44Z",
+      "name": "Why do I see a \"Save and migrate\" in the article editor?",
+      "title": "Why do I see a \"Save and migrate\" in the article editor?",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2025-12-22T10:48:45Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801135069,
+      "content_tag_ids": [],
+      "label_names": [
+        "ks",
+        "ab0",
+        "mt",
+        "role_admin",
+        "ab0_knowledge"
+      ],
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>What is the <strong>Save and migrate</strong> button I see in the knowledge base article editor when I try to save an article?</p><p><img src=\"https://support.zendesk.com/hc/article_attachments/10006790681626\" width=\"354\" height=\"111\"></p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>The <strong>Save and migrate</strong> button lets you save your article and move it to the <a href=\"https://support.zendesk.com/hc/en-us/articles/7595840358042-Transitioning-to-the-new-article-editor\" target=\"_blank\" rel=\"noopener noreferrer\">new article editor</a>. When you click the button, Zendesk shows a message that explains possible changes after migration:</p><ul>\n<li data-list-item-id=\"ee2e4e4967cf685e77eb6211b073775d0\">Zendesk can change the article’s HTML structure, which can affect styles.</li>\n<li data-list-item-id=\"e007a3c3c30d22b219dfcd86f1914985d\">Space within the article can shift.</li>\n<li data-list-item-id=\"eac8fce95e463e89b887fdaf94d8abba8\">Some content, such as tables, may require manual updates.</li>\n</ul><p><img src=\"https://support.zendesk.com/hc/article_attachments/10006790681754\" width=\"604\" height=\"327\"></p>",
       "user_segment_ids": []
     }
   ],
