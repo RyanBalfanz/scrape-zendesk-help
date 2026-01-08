@@ -19,7 +19,7 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2026-01-08T16:45:17Z",
-      "updated_at": "2026-01-08T16:47:23Z",
+      "updated_at": "2026-01-08T17:01:37Z",
       "name": "Scheduled Maintenance -  January 24, 2026 | All Pods - Zendesk Web Widget",
       "title": "Scheduled Maintenance -  January 24, 2026 | All Pods - Zendesk Web Widget",
       "source_locale": "en-us",
@@ -30,7 +30,9 @@
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
-      "label_names": [],
+      "label_names": [
+        "mt"
+      ],
       "body": "<p><span style=\"color: #464646;\">Zendesk will perform critical maintenance which may impact performance for your account on all Pods on Jan 24, 2026, during the time listed below.</span></p><p> </p><h3 id=\"h_01KEF7RH84M6YWGY8HZFPTFDA5\"><span style=\"color: #434343;\"><strong>Affected products:</strong> Messaging - Zendesk Web Widget</span></h3><p> </p><p><span style=\"background-color: #cfe2f3; color: #464646;\"><strong>Customers Affected</strong></span><span style=\"color: #464646;\"><strong>: </strong>All<strong> </strong>Zendesk Messaging and Sunshine Conversations customers using the Web Widget may experience a <strong>brief service degradation of up to 30 minutes</strong> at some time within the 4 hr maintenance window.</span></p><p> </p><div><figure class=\"wysiwyg-table\" style=\"width: 100%;\"><table class=\"wysiwyg-table-resized\">\n<colgroup>\n<col style=\"width: 24%;\">\n<col style=\"width: 10%;\">\n<col style=\"width: 31%;\">\n<col style=\"width: 35%;\">\n</colgroup>\n<tbody>\n<tr>\n<td style=\"text-align: center;\"><span style=\"color: #464646;\"><strong>Date</strong></span></td>\n<td style=\"text-align: center;\"><a href=\"https://support.zendesk.com/hc/en-us/articles/4408829092506-What-is-a-Pod\"><strong><span class=\"wysiwyg-underline\">POD</span></strong></a></td>\n<td style=\"text-align: center;\"><span style=\"color: #464646;\"><strong>Start Time</strong></span></td>\n<td style=\"text-align: center;\"><span style=\"color: #464646;\"><strong>End Time</strong></span></td>\n</tr>\n<tr>\n<td><span style=\"color: #464646;\">Jan 24, 2026</span></td>\n<td style=\"text-align: center;\"><span style=\"color: #464646;\">All</span></td>\n<td style=\"text-align: center;\"><span style=\"color: #464646;\">10:00 UTC / 2:00 PST</span></td>\n<td style=\"text-align: center;\"><span style=\"color: #464646;\">  14:00 UTC / 6:00 PST</span></td>\n</tr>\n</tbody>\n</table></figure></div><p> </p><p><span style=\"color: #464646;\"><strong>Expected behavior:</strong> During the maintenance window, accounts using the Zendesk Web Widget may notice some increased latency and disruption in the sending and receiving of messages. No downtime is expected.</span></p><p> </p><p><span style=\"color: #464646;\"><strong>What do customers have to do? </strong>Customers do not need to do anything in preparation for this maintenance window.</span></p><p> </p><p><span style=\"color: #464646;\"><strong>Why we're doing this:</strong> The Zendesk Messaging team is deploying key components of the web widget infrastructure into multiple pods to ensure greater resiliency and stability for future releases.</span></p>",
       "user_segment_ids": []
     },
