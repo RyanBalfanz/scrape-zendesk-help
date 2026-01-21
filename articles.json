@@ -19,14 +19,14 @@
       "vote_count": 0,
       "section_id": 4405303741978,
       "created_at": "2026-01-20T00:43:57Z",
-      "updated_at": "2026-01-21T05:52:03Z",
+      "updated_at": "2026-01-21T05:55:50Z",
       "name": "How can I update a Zendesk Contact Center API token?",
       "title": "How can I update a Zendesk Contact Center API token?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2026-01-21T05:52:03Z",
+      "edited_at": "2026-01-21T05:55:50Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -36,7 +36,7 @@
         "role_admin",
         "ab0_contact_center"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>I want to refresh the API token used to integrate Zendesk Contact Center with Zendesk Support. How can I do this? </p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>You will need to <a href=\"https://support.zendesk.com/hc/en-us/articles/4408889192858-Managing-API-token-access-to-the-Zendesk-API#topic_tbp_dfb_l2c\">generate a new API token </a>in Zendesk Support, and copy and paste it somewhere secure. </p><p>Following this, you can then navigate to the <strong>Local Measure (Contact Center settings) site &gt; Standard Settings. </strong>The URL should look similar to this <a><code><span class=\"wysiwyg-underline\">https://{workspace-name}.{region}.localmeasure.com/{workspace-name}/zendesk-settings/standard-settings</span></code></a>.</p><p> </p><figure class=\"wysiwyg-image wysiwyg-image-resized\" style=\"width: 100%;\"><img style=\"aspect-ratio: 1109/555;\" src=\"https://support.zendesk.com/hc/article_attachments/10195046662426\" width=\"1109\" height=\"555\"></figure><p>From this page, you can then click on <strong>Edit</strong> under <strong>Your Zendesk Account</strong>. <br><br>You will be taken to a new window that shows <strong>Connection Details,</strong> where you can add the generated API token under <strong>API Key</strong>. <strong> </strong><br><br><img class=\"wysiwyg-image-resized\" style=\"aspect-ratio: 879/732; width: 97.29%;\" src=\"https://support.zendesk.com/hc/article_attachments/10195070301850\" width=\"879\" height=\"732\"></p><p>Before clicking on <strong>Connect Account </strong>to save the changes, make sure that the Email address linked to the token is still active in Zendesk and has an Admin role. </p>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>I want to refresh the API token used to integrate Zendesk Contact Center with Zendesk Support. How can I do this? </p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>You will need to <a href=\"https://support.zendesk.com/hc/en-us/articles/4408889192858-Managing-API-token-access-to-the-Zendesk-API#topic_tbp_dfb_l2c\" target=\"_blank\" rel=\"noopener noreferrer\">generate a new API token </a>in Zendesk Support, and copy and paste it somewhere secure. </p><p>Following this, you can then navigate to the <strong>Local Measure (Contact Center settings) site &gt; Standard Settings. </strong>The URL should look similar to this <a><code><span class=\"wysiwyg-underline\">https://{workspace-name}.{region}.localmeasure.com/{workspace-name}/zendesk-settings/standard-settings</span></code></a>.</p><p> </p><figure class=\"wysiwyg-image wysiwyg-image-resized\" style=\"width: 100%;\"><img style=\"aspect-ratio: 1109/555;\" src=\"https://support.zendesk.com/hc/article_attachments/10195046662426\" width=\"1109\" height=\"555\" alt=\"Standard settings page\"></figure><p>From this page, you can then click on <strong>Edit</strong> under <strong>Your Zendesk Account</strong>. <br><br>You will be taken to a new window that shows <strong>Connection Details,</strong> where you can add the generated API token under <strong>API Key</strong>. <strong> </strong><br><br><img class=\"wysiwyg-image-resized\" style=\"aspect-ratio: 879/732; width: 97.29%;\" src=\"https://support.zendesk.com/hc/article_attachments/10195070301850\" width=\"879\" height=\"732\" alt=\"Connection details page\"></p><p>Before clicking on <strong>Connect Account </strong>to save the changes, make sure that the Email address linked to the token is still active in Zendesk and has an Admin role. </p>",
       "user_segment_ids": []
     },
     {
