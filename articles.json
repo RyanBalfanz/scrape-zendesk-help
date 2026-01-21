@@ -1,11 +1,44 @@
 {
-  "count": 4746,
+  "count": 4747,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 159,
   "per_page": 30,
   "previous_page": null,
   "articles": [
+    {
+      "id": 10195046662554,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/10195046662554.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/10195046662554-How-can-I-update-a-Zendesk-Contact-Center-API-token",
+      "author_id": 1263082286069,
+      "comments_disabled": false,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405303741978,
+      "created_at": "2026-01-20T00:43:57Z",
+      "updated_at": "2026-01-21T05:52:03Z",
+      "name": "How can I update a Zendesk Contact Center API token?",
+      "title": "How can I update a Zendesk Contact Center API token?",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2026-01-21T05:52:03Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801135069,
+      "content_tag_ids": [],
+      "label_names": [
+        "ks",
+        "ab0",
+        "role_admin",
+        "ab0_contact_center"
+      ],
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>I want to refresh the API token used to integrate Zendesk Contact Center with Zendesk Support. How can I do this? </p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>You will need to <a href=\"https://support.zendesk.com/hc/en-us/articles/4408889192858-Managing-API-token-access-to-the-Zendesk-API#topic_tbp_dfb_l2c\">generate a new API token </a>in Zendesk Support, and copy and paste it somewhere secure. </p><p>Following this, you can then navigate to the <strong>Local Measure (Contact Center settings) site &gt; Standard Settings. </strong>The URL should look similar to this <a><code><span class=\"wysiwyg-underline\">https://{workspace-name}.{region}.localmeasure.com/{workspace-name}/zendesk-settings/standard-settings</span></code></a>.</p><p> </p><figure class=\"wysiwyg-image wysiwyg-image-resized\" style=\"width: 100%;\"><img style=\"aspect-ratio: 1109/555;\" src=\"https://support.zendesk.com/hc/article_attachments/10195046662426\" width=\"1109\" height=\"555\"></figure><p>From this page, you can then click on <strong>Edit</strong> under <strong>Your Zendesk Account</strong>. <br><br>You will be taken to a new window that shows <strong>Connection Details,</strong> where you can add the generated API token under <strong>API Key</strong>. <strong> </strong><br><br><img class=\"wysiwyg-image-resized\" style=\"aspect-ratio: 879/732; width: 97.29%;\" src=\"https://support.zendesk.com/hc/article_attachments/10195070301850\" width=\"879\" height=\"732\"></p><p>Before clicking on <strong>Connect Account </strong>to save the changes, make sure that the Email address linked to the token is still active in Zendesk and has an Admin role. </p>",
+      "user_segment_ids": []
+    },
     {
       "id": 10194429195418,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/10194429195418.json",
@@ -919,43 +952,6 @@
         "mt"
       ],
       "body": "<figure class=\"wysiwyg-table wysiwyg-table-align-left\" style=\"height: 44px; width: 100%;\"><table style=\"border-collapse: collapse; border-style: solid; border-width: 1px; margin-left: 0px; margin-right: auto;\"><tbody>\n<tr style=\"height: 22px;\">\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\"><strong>Announced on</strong></td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\"><strong>Rollout starts</strong></td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\"><strong>Rollout ends</strong></td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\">January 9, 2026</td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\"><span style=\"color: #000000;\">January 12, 2026</span></td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\">January 30, 2026</td>\n</tr>\n</tbody></table></figure><p>Zendesk now excludes archived tickets from the <a href=\"https://developer.zendesk.com/api-reference/ticketing/ticket-management/bookmarks/\">Bookmarks API</a> to improve performance and maintain consistency across the platform. This change is designed to accelerate view loading times and align the Bookmarks API with our ticket archiving practices.</p><p><span style=\"font-weight: 400;\">This announcement includes the following topics:</span></p><ul>\n<li data-list-item-id=\"e410e935461919158cbe747d7621d3866\"><a href=\"#h_01GD3S97RDYVTAFTQ8WR9878VF\" target=\"_self\"><span style=\"font-weight: 400;\">What is changing?</span></a></li>\n<li data-list-item-id=\"ef01603c904c719608fea218eea76f343\"><a href=\"#h_01GD3S9GD63FPDGQSEFY88M3ND\" target=\"_self\"><span style=\"font-weight: 400;\">Why is Zendesk making this change?</span></a></li>\n<li data-list-item-id=\"e40e63e15905c6d9d67253d732b80b69c\"><a href=\"#h_01GD3S9TSPXM7M4WHYKYF4E84M\" target=\"_self\"><span style=\"font-weight: 400;\">What do I need to do?</span></a></li>\n</ul><h2 id=\"h_01GD3S97RDYVTAFTQ8WR9878VF\"><span style=\"font-weight: 400;\">What is changing?</span></h2><p><a href=\"https://support.zendesk.com/hc/en-us/articles/4408887617050\">Archived tickets</a> were implemented to speed up view loading by removing them from most API responses. Although many APIs were updated to reflect this change, the Bookmarks API continued to return archived tickets. Since archived tickets are often bookmarked, this resulted in slower view loading times.</p><p>To improve performance and consistency, the Bookmarks API will begin excluding archived tickets to ensure faster and more reliable view loading across the platform.</p><h2 id=\"h_01GD3S9GD63FPDGQSEFY88M3ND\"><span style=\"font-weight: 400;\">Why is Zendesk making this change?</span></h2><p>This change improves the user experience by making views that use bookmarks load faster. Removing archived tickets from the Bookmarks API eliminates unnecessary data retrieval and brings its behavior in line with other APIs, resulting in better performance and more consistent API responses.</p><h2 id=\"h_01GD3S9TSPXM7M4WHYKYF4E84M\"><span style=\"font-weight: 400;\">What do I need to do?</span></h2><p>No changes are needed unless your application specifically expects archived tickets to be returned by the Bookmarks API.</p><p>If your integrations or applications use the Bookmarks API, review how you process data to accommodate the exclusion of archived tickets. Update any logic or user interface components that depend on bookmarks so they handle the absence of archived tickets appropriately. </p><p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\">Zendesk Customer Support</a>.</p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 10054345745818,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/10054345745818.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/10054345745818-How-do-I-contact-Meta-support-for-my-WhatsApp-Business-Account-WABA",
-      "author_id": 1263372465269,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": -1,
-      "vote_count": 1,
-      "section_id": 4405303738522,
-      "created_at": "2025-12-12T16:13:29Z",
-      "updated_at": "2026-01-07T16:01:37Z",
-      "name": "How do I contact Meta support for my WhatsApp Business Account (WABA)?",
-      "title": "How do I contact Meta support for my WhatsApp Business Account (WABA)?",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2025-12-22T10:22:37Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801135069,
-      "content_tag_ids": [
-        "01K1GBWQNKN3VW7QF53SJZ3GHT",
-        "01KC9N9H8G3PJRVG6RMBSQ51J0"
-      ],
-      "label_names": [
-        "ab0",
-        "mt",
-        "KS",
-        "ab0_messaging",
-        "role_admin"
-      ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>I want to contact Meta support about my WhatsApp Business Account. How do I do this?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>Do this to contact Meta support for your WhatsApp Business Account (WABA):</p><ol>\n<li data-list-item-id=\"eb9c65cd413494b6104eb347d422cfc2f\">Go to the Meta Business Help Center <a href=\"https://www.facebook.com/business/help\" target=\"_blank\" rel=\"noopener noreferrer\">page</a>\n</li>\n<li data-list-item-id=\"e4813eb168daea907b281f33563deebf1\">\n<p>Click <strong>Explore Business Support Home</strong></p>\n<figure><p><img class=\"wysiwyg-image-resized\" style=\"aspect-ratio: 1480/485; width: 91.64%;\" src=\"https://support.zendesk.com/hc/article_attachments/10054345745050\" alt=\"Explore Business Support Home\" width=\"1480\" height=\"485\"></p></figure>\n</li>\n<li data-list-item-id=\"ecee30698580a629cd53cbf99550c0536\">Log in with the Facebook account that has access to the Business Manager connected to your WhatsApp Business Account (WABA)</li>\n<li data-list-item-id=\"eaa1b06b203968fba6f04e097fcf3d912\">Click <strong>Contact support</strong><br><img src=\"https://support.zendesk.com/hc/article_attachments/10054345745306\" alt=\"Contact support\" width=\"942\" height=\"131\">\n</li>\n</ol>",
       "user_segment_ids": []
     }
   ],
