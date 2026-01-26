@@ -121,14 +121,14 @@
       "vote_count": 0,
       "section_id": 5322740495642,
       "created_at": "2026-01-22T14:27:03Z",
-      "updated_at": "2026-01-22T14:41:24Z",
+      "updated_at": "2026-01-26T14:30:39Z",
       "name": "Can I use custom ticket fields if they aren't present in a ticket form?",
       "title": "Can I use custom ticket fields if they aren't present in a ticket form?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2026-01-22T14:41:24Z",
+      "edited_at": "2026-01-26T14:30:39Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -136,9 +136,10 @@
         "ks",
         "ab0",
         "ab0_admin_center",
-        "role_admin"
+        "role_admin",
+        "ab0_objects_rules"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>Can I use custom ticket fields if they aren't present in a ticket form?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>Custom ticket fields are always present in the backend of a ticket. This means that the value of a ticket field will remain for that ticket even if you remove the field from a form.</p><p>At the same time, you can apply these values in the conditions and actions of your business rules even if they aren't present in the form of a ticket. However, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408844187034-Creating-macros-for-repetitive-ticket-responses-and-actions\" target=\"_blank\" rel=\"noopener noreferrer\">macros</a> work differently. To update the values of custom ticket fields, they must be available in the form of a ticket when an agent applies the macro.</p><p>For more information, see <a href=\"https://support.zendesk.com/hc/en-us/articles/4408834953114-Understanding-custom-ticket-fields-in-business-rules-and-views\">Understanding custom ticket fields in business rules and views</a>.</p><p> </p>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>Can I use custom ticket fields if they aren't present in a ticket form?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>Yes, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408834953114-Understanding-custom-ticket-fields-in-business-rules-and-views\" target=\"_blank\" rel=\"noopener noreferrer\">custom ticket fields </a>are always present in the backend of a ticket. This means that the value of a ticket field will remain for that ticket even if you remove the field from a form.</p><p>At the same time, you can apply these values in the conditions and actions of your business rules even if they aren't present in the form of a ticket. However, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408844187034-Creating-macros-for-repetitive-ticket-responses-and-actions\" target=\"_blank\" rel=\"noopener noreferrer\">macros</a> work differently. To update the values of custom ticket fields, they must be available in the form of a ticket when an agent applies the macro.</p><p> </p>",
       "user_segment_ids": []
     },
     {
