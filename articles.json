@@ -82,7 +82,7 @@
       "vote_count": 0,
       "section_id": 6970673920794,
       "created_at": "2026-01-26T10:03:16Z",
-      "updated_at": "2026-01-26T13:18:10Z",
+      "updated_at": "2026-01-27T16:02:35Z",
       "name": "Error: Test AI agent couldn't be displayed. Give it a moment and try again",
       "title": "Error: Test AI agent couldn't be displayed. Give it a moment and try again",
       "source_locale": "en-us",
@@ -96,6 +96,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "role_admin",
         "ab0_ai_agents_essential"
       ],
@@ -184,7 +185,7 @@
       "vote_count": 0,
       "section_id": 4405298847002,
       "created_at": "2026-01-25T22:15:37Z",
-      "updated_at": "2026-01-26T17:06:42Z",
+      "updated_at": "2026-01-27T16:03:45Z",
       "name": "Release notes through 2026-01-23",
       "title": "Release notes through 2026-01-23",
       "source_locale": "en-us",
@@ -248,7 +249,7 @@
       "vote_count": 0,
       "section_id": 4405298833818,
       "created_at": "2026-01-23T16:20:07Z",
-      "updated_at": "2026-01-26T16:03:51Z",
+      "updated_at": "2026-01-27T16:00:53Z",
       "name": "Two-step verification (2SV) rollout for newly eligible accounts",
       "title": "Two-step verification (2SV) rollout for newly eligible accounts",
       "source_locale": "en-us",
@@ -259,7 +260,9 @@
       "user_segment_id": null,
       "permission_group_id": 1324079,
       "content_tag_ids": [],
-      "label_names": [],
+      "label_names": [
+        "mtpe"
+      ],
       "body": "<figure class=\"wysiwyg-table\" style=\"width: 100%;\"><table style=\"border-style: solid; border-width: 1px;\"><tbody>\n<tr>\n<td style=\"border-style: solid; border-width: 1px;\"><strong>Announced on</strong></td>\n<td style=\"border-style: solid; border-width: 1px;\"><strong>Rollout starts</strong></td>\n<td style=\"border-style: solid; border-width: 1px;\"><strong>Rollout ends</strong></td>\n</tr>\n<tr>\n<td style=\"border-style: solid; border-width: 1px;\">January 26, 2026</td>\n<td style=\"border-style: solid; border-width: 1px;\">February 23, 2026</td>\n<td style=\"border-style: solid; border-width: 1px;\">March 5, 2026</td>\n</tr>\n</tbody></table></figure><p>As a result of the <a href=\"https://support.zendesk.com/hc/en-us/articles/8843683464346-Important-update-Password-access-for-APIs-will-soon-be-removed\" target=\"_blank\" rel=\"noopener noreferrer\">removal of Password access for APIs</a>, customers who were previously ineligible will now be enrolled in two-step verification (2SV). </p><p>Between <strong>February 23 and March 5, 2026</strong>, all newly eligible customers with Zendesk authentication turned on will be enrolled in 2SV. </p><p>This announcement includes the following topics:</p><ul>\n<li data-list-item-id=\"e0f684822b77026628ea692a42f3ac387\"><a href=\"#h_01K1G5PTC1Z633F71HK7HTKAAJ\">What’s changing?</a></li>\n<li data-list-item-id=\"eac0f21649f9554c8eed84c2e4ecc606c\"><a href=\"#h_01KFPNCBPTVAJ5CKWKK04HE7KW\">When is Zendesk making this change?</a></li>\n<li data-list-item-id=\"e24249c7e11ceeb0c75d11425f7382dc4\"><a href=\"#h_01K1G5QEQQGFFW9AXGY88ACMJJ\">What do I need to do?</a></li>\n</ul><h2 id=\"h_01K1G5PTC1Z633F71HK7HTKAAJ\">What’s changing?</h2><p>All newly eligible customers with Zendesk authentication (email and password) turned on will be automatically enrolled in 2SV. </p><p>When you sign in from a new or unrecognized device, 2SV will prompt you to enter a 6-digit code that you must retrieve from your <a href=\"https://support.zendesk.com/hc/en-us/articles/6735805091098-Managing-team-member-user-email-addresses\" target=\"_blank\" rel=\"noopener noreferrer\">primary email address</a> listed in your Zendesk profile before you can sign in. If you don’t receive the email with the passcode, you can request that an <a href=\"https://support.zendesk.com/hc/en-us/articles/8197977742874\" target=\"_blank\" rel=\"noopener noreferrer\"><span class=\"wysiwyg-underline\">administrator retrieve a recovery code</span></a> on your behalf. 2SV applies only to the team members' login experience. <a href=\"https://support.zendesk.com/hc/en-us/articles/8197975442330-About-two-step-verification-2SV#topic_bjj_jhy_1dc\" target=\"_blank\" rel=\"noopener noreferrer\"><span class=\"wysiwyg-underline\">Learn more the sign-in experience with two-step verification</span></a>.  </p><p><img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/2SV_passcode_prompt.png\" width=\"350\"></p><p>2SV does <strong><span class=\"wysiwyg-underline\">not</span></strong> affect:</p><ul>\n<li data-list-item-id=\"e3e3676afa2fffda48f043a1ec8d0db5b\">Team members signing in with single sign-on (SSO).</li>\n<li data-list-item-id=\"e94606f82b1fe47570f83fe0a2c0e0684\">Team members who have two-factor authentication (2FA) turned on.</li>\n<li data-list-item-id=\"e003944b5d07f0448acb0f4b0fd81fd68\">End users signing in to your help center. </li>\n</ul><p>If you currently do not have Zendesk authentication turned on but decide to in the future, 2SV is automatically turned on on your account. If you currently have <a href=\"https://support.zendesk.com/hc/en-us/articles/4408829277466-Using-two-factor-authentication-to-sign-in-to-Zendesk-Support?page=1&amp;sort_by=created_at&amp;sort_order=desc\" target=\"_blank\" rel=\"noopener noreferrer\"><span class=\"wysiwyg-underline\">two-factor authentication (2FA)</span></a> turned on but decide to turn it off in the future, 2SV is automatically turned on in your account.</p><h2 id=\"h_01KFPNCBPTVAJ5CKWKK04HE7KW\">When is Zendesk making this change?</h2><p>This rollout will be completed by Pod. The following is the rollout schedule. See <a href=\"https://support.zendesk.com/hc/en-us/articles/4408829092506-What-is-a-Pod#h_01EE9296PRDQFBW472BBDEJT1Z\" target=\"_blank\" rel=\"noopener noreferrer\">How do I learn what Pod I am on?</a> if you’re unsure of your account Pod.</p><ul>\n<li data-list-item-id=\"e929ce590e891da74357ef022d93edf39\">February 23, 2026: pod 26</li>\n<li data-list-item-id=\"ef31e40c3aa99d9f5ddb9c7d1ce0502d0\">February 26, 2026: pods 15, 25, 30</li>\n<li data-list-item-id=\"e7783864b0fe0a60802506b703a5c0ec9\">March 2, 2026: pods 13, 17, 18, 19, 31</li>\n<li data-list-item-id=\"e14c249b850c3b3ac2c4ca7e4f2ea9ad4\">March 5, 2026: pods 20, 23, 27, 28, 29</li>\n</ul><h2 id=\"h_01K1G5QEQQGFFW9AXGY88ACMJJ\">What do I need to do?</h2><p>To prepare for this change, administrators should inform team members using email and password to sign in to Zendesk to verify that they can access the primary email address listed in their Zendesk profile. If they cannot access that email’s inbox, they must update their primary email address to one that they can access. </p><p>If you decide to no longer use Zendesk authentication as an option for how team members sign in or decide to <a href=\"https://support.zendesk.com/hc/en-us/articles/4408826974874-Managing-two-factor-authentication#topic_mzk_l5b_dx\" target=\"_blank\" rel=\"noopener noreferrer\"><span class=\"wysiwyg-underline\">turn on 2FA</span>,</a> you will not be affected by this rollout. End users signing in with Zendesk authentication are also not affected by this rollout.</p><p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/4408860477850\" target=\"_blank\" rel=\"noopener noreferrer\">community forum</a>, where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk customer support</a>.</p><p> </p>",
       "user_segment_ids": []
     },
@@ -276,7 +279,7 @@
       "vote_count": 0,
       "section_id": 5322740495642,
       "created_at": "2026-01-22T14:27:03Z",
-      "updated_at": "2026-01-26T14:30:39Z",
+      "updated_at": "2026-01-27T16:04:13Z",
       "name": "Can I use custom ticket fields if they aren't present in a ticket form?",
       "title": "Can I use custom ticket fields if they aren't present in a ticket form?",
       "source_locale": "en-us",
@@ -290,6 +293,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "ab0_admin_center",
         "role_admin",
         "ab0_objects_rules"
@@ -340,7 +344,7 @@
       "vote_count": 0,
       "section_id": 4405303741978,
       "created_at": "2026-01-20T00:43:57Z",
-      "updated_at": "2026-01-21T05:55:50Z",
+      "updated_at": "2026-01-27T16:02:22Z",
       "name": "How can I update a Zendesk Contact Center API token?",
       "title": "How can I update a Zendesk Contact Center API token?",
       "source_locale": "en-us",
@@ -354,6 +358,7 @@
       "label_names": [
         "ks",
         "ab0",
+        "mt",
         "role_admin",
         "ab0_contact_center"
       ],
