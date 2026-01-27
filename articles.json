@@ -52,14 +52,14 @@
       "vote_count": 0,
       "section_id": 5346334218778,
       "created_at": "2026-01-26T08:04:12Z",
-      "updated_at": "2026-01-26T08:10:25Z",
+      "updated_at": "2026-01-27T06:24:58Z",
       "name": "Why can't I create a regex entity in intelligent triage?",
       "title": "Why can't I create a regex entity in intelligent triage?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2026-01-26T08:10:25Z",
+      "edited_at": "2026-01-27T06:24:57Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -69,7 +69,7 @@
         "ab0_support",
         "role_admin"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>When I try to create an entity and select <strong>Regex</strong>, the <strong>Select custom field</strong> dropdown says <strong>No matches found</strong>. How do I create a regex entity?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>To create a regex or regular expression entity in intelligent triage, you must first create a <a href=\"https://support.zendesk.com/hc/en-us/articles/4408883152794-Adding-custom-ticket-fields-to-your-tickets-and-forms#topic_ubz_ynk_xj\" target=\"_blank\" rel=\"noopener noreferrer\">custom ticket field</a> for regex values. Manage the custom field to set an input mask that validates end-user entries.</p><p>After you create the custom field, it appears in the <strong>Select custom field </strong>dropdown when you <a href=\"https://support.zendesk.com/hc/en-us/articles/6711181959194-Detecting-unique-information-in-tickets-with-entities\" target=\"_blank\" rel=\"noopener noreferrer\">create a regex entity</a>. Use the <strong>Test detection</strong> field to ensure that tickets and conversations can properly identify and detect the information provided by your customers.</p>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>When I try to create an entity and select <strong>Regex</strong>, the <strong>Select custom field</strong> dropdown says <strong>No matches found</strong>. How do I create a regex entity?</p><p><img class=\"wysiwyg-image-resized\" style=\"aspect-ratio: 3602/1556; width: 86.32%;\" src=\"https://support.zendesk.com/hc/article_attachments/10224994466202\" width=\"3602\" height=\"1556\" alt='\"No matches found\" in dropdown when creating an entity with a regex field type'></p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>To create a regex or regular expression entity in intelligent triage, you must first create a <a href=\"https://support.zendesk.com/hc/en-us/articles/4408883152794-Adding-custom-ticket-fields-to-your-tickets-and-forms#topic_ubz_ynk_xj\" target=\"_blank\" rel=\"noopener noreferrer\">custom ticket field</a> for regex values. Manage the custom field to set an input mask that validates end-user entries.</p><p><img class=\"wysiwyg-image-resized\" style=\"aspect-ratio: 2834/696; width: 60.29%;\" src=\"https://support.zendesk.com/hc/article_attachments/10224994466330\" width=\"2834\" height=\"696\" alt=\"Field validation setting for regex custom fields\"></p><p>After you create the custom field, it appears in the <strong>Select custom field </strong>dropdown when you <a href=\"https://support.zendesk.com/hc/en-us/articles/6711181959194-Detecting-unique-information-in-tickets-with-entities\" target=\"_blank\" rel=\"noopener noreferrer\">create a regex entity</a>. Use the <strong>Test detection</strong> field to ensure that tickets and conversations can properly identify and detect the information provided by your customers.</p>",
       "user_segment_ids": []
     },
     {
