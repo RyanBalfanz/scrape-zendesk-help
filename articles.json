@@ -1,5 +1,5 @@
 {
-  "count": 4736,
+  "count": 4737,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 158,
@@ -264,6 +264,36 @@
         "mt"
       ],
       "body": "<figure class=\"wysiwyg-table wysiwyg-table-align-left\" style=\"height: 44px; width: 100%;\"><table style=\"border-collapse: collapse; border-style: solid; border-width: 1px; margin-left: 0px; margin-right: auto;\"><tbody>\n<tr style=\"height: 22px;\">\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\"><strong>Announced on</strong></td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\"><strong>Rollout starts</strong></td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\"><strong>Rollout ends</strong></td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\">January 27, 2026</td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\">January 27, 2026</td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\">January 28, 2026</td>\n</tr>\n</tbody></table></figure><p>We’re thrilled to announce that messaging trigger capabilities are now available across all Zendesk-supported social channels, including WhatsApp, Facebook Messenger, Instagram DMs, and more.</p><p>This announcement includes the following sections:</p><ul>\n<li data-list-item-id=\"ede515193a0d33997cc769b09f34900d5\"><a href=\"#h_01K7Q9WSQDQR3W54TTSCAC4WQD\">What is changing?</a></li>\n<li data-list-item-id=\"ee814d48f754e81c8d101821f1a4c2e19\"><a href=\"#h_01K7Q9WSQKYW12525JHHAFZ39H\">Why is Zendesk making this change?</a></li>\n<li data-list-item-id=\"e535a5d8fc6aecc5bf288cd2a81ada9af\"><a href=\"#h_01K7Q9WSQKN2G0V0YEMKMSWHBW\">What do I need to do?</a></li>\n</ul><h2 id=\"h_01K7Q9WSQDQR3W54TTSCAC4WQD\">What is changing?</h2><p>With this update, triggers can evaluate messages on all supported social channels based on your configured conditions and events, then perform the specified actions. See <a href=\"https://support.zendesk.com/hc/en-us/articles/6058753945242\" target=\"_blank\" rel=\"noopener noreferrer\">Creating messaging triggers </a>for information on building triggers.</p><h2 id=\"h_01K7Q9WSQKYW12525JHHAFZ39H\">Why is Zendesk making this change?</h2><p>Zendesk customers have indicated a strong interest in using messaging triggers for their social channel integrations. Additionally, it is a critical requirement for customers evaluating a move to Zendesk from other platforms.</p><h2 id=\"h_01K7Q9WSQKN2G0V0YEMKMSWHBW\">What do I need to do?</h2><p>This feature is automatically available for your account. Admins can begin creating messaging triggers for social channels in Admin Center as soon as the feature is rolled out to your account.</p><p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/1260801325369-Feedback-Ticketing-System-Support-\" target=\"_blank\" rel=\"noopener noreferrer\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\" target=\"_blank\" rel=\"noopener noreferrer\"></a></p>",
+      "user_segment_ids": []
+    },
+    {
+      "id": 10209715400090,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/10209715400090.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/10209715400090-Announcing-updates-to-printing-tickets",
+      "author_id": 1263082333209,
+      "comments_disabled": true,
+      "draft": false,
+      "promoted": true,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298833818,
+      "created_at": "2026-01-23T06:26:45Z",
+      "updated_at": "2026-01-27T19:11:31Z",
+      "name": "Announcing updates to printing tickets",
+      "title": "Announcing updates to printing tickets",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2026-01-27T19:11:31Z",
+      "user_segment_id": null,
+      "permission_group_id": 1324079,
+      "content_tag_ids": [],
+      "label_names": [
+        "mt"
+      ],
+      "body": "<figure class=\"wysiwyg-table wysiwyg-table-align-left\" style=\"height: 44px; width: 100%;\"><table style=\"border-collapse: collapse; border-style: solid; border-width: 1px; margin-left: 0px; margin-right: auto;\"><tbody>\n<tr style=\"height: 22px;\">\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\"><strong>Announced on</strong></td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\"><strong>Rollout starts</strong></td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\"><strong>Rollout ends</strong></td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\">January 27, 2026</td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\">January 27, 2026</td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\">January 27, 2026</td>\n</tr>\n</tbody></table></figure><p><span style=\"color: #464646;\">We’re pleased to announce updates to the printing tickets feature that allow you to better control the information displayed in the printout.</span></p><p>This announcement includes the following sections:</p><ul>\n<li data-list-item-id=\"e45d71f81dc9a4c2734dc574c8d0de5cd\"><a href=\"#h_01K7Q9WSQDQR3W54TTSCAC4WQD\">What is changing?</a></li>\n<li data-list-item-id=\"e0e6c306050d5f4cd96616efd6f6b8e95\"><a href=\"#h_01K7Q9WSQKYW12525JHHAFZ39H\">Why is Zendesk making this change?</a></li>\n<li data-list-item-id=\"ee3aea13cd80f15f7edeb75b29a17e4f0\"><a href=\"#h_01K7Q9WSQKN2G0V0YEMKMSWHBW\">What do I need to do?</a></li>\n</ul><h2 id=\"h_01K7Q9WSQDQR3W54TTSCAC4WQD\">What is changing?</h2><p>We're adding three new abilities to the <a href=\"https://support.zendesk.com/hc/en-us/articles/4408836523930-Printing-tickets\" target=\"_blank\" rel=\"noopener noreferrer\"><span class=\"wysiwyg-underline\">print tickets</span></a> feature:</p><ul>\n<li data-list-item-id=\"e4efe9ea0fde28a05854dd6d85bbb4246\">Include side conversations (Zendesk Suite plans and above)</li>\n<li data-list-item-id=\"e401dc4d28e90047da6de18494a786ea8\">Print without including internal comments</li>\n<li data-list-item-id=\"e6ac9b7f73bc08d8a46e81216e58c96c1\">Include the ticket’s priority</li>\n</ul><p>We’re also announcing that there may be product limitations to tickets that can be printed. This feature was designed primarily to allow for human readability. Tickets that either have thousands of comment updates or include many side conversations can cause server timeouts. There is no specific number for either of these limitations but a timeout will result when you have reached the upper limits of what our servers can compile for printing. </p><h2 id=\"h_01K7Q9WSQKYW12525JHHAFZ39H\">Why is Zendesk making this change?</h2><p>Customers requested enhancements to this feature, and we are happy to provide them. </p><p>In addition to adding these features, we’ve found that tickets with an excessive amount of comments or included side conversations can result in timeouts while collating the data. This often leads to  a failed process and occupies excessive computational resources. This usually occurs with tickets that have more than a couple thousand comments, a high character count in the comments, or multiple side conversations.</p><h2 id=\"h_01K7Q9WSQKN2G0V0YEMKMSWHBW\">What do I need to do?</h2><p>This feature is available on all eligible accounts. When you choose to print the options to include or exclude certain data appears. See <a href=\"https://support.zendesk.com/hc/en-us/articles/4408836523930-Printing-tickets\" target=\"_blank\" rel=\"noopener noreferrer\"><span class=\"wysiwyg-underline\">Printing Tickets</span></a> for more information. </p><p><br>If you are trying to print a ticket (or save a PDF version) that includes an excessive number of comments or text, and the task is timing out, then you will want to use the <a href=\"https://developer.zendesk.com/api-reference/ticketing/tickets/ticket_comments/\" target=\"_blank\" rel=\"noopener noreferrer\"><span class=\"wysiwyg-underline\">Ticket Comments API endpoint</span></a> and/or the <a href=\"https://developer.zendesk.com/api-reference/ticketing/side_conversation/side_conversation/\" target=\"_blank\" rel=\"noopener noreferrer\"><span class=\"wysiwyg-underline\">Side Conversations API endpoint</span></a> to collect and collate those comments for printing. There is no numerical limit to printing a ticket, as a timeout can depend on the lengths of the various comments, but a timeout is the likeliest result of the overall length of the text and number of comments included in the ticket and the time it takes to access them. </p><p><span style=\"color: #1d1c1d;\">If you have feedback or questions related to this announcement, visit our </span><a href=\"https://support.zendesk.com/hc/en-us/community/topics/1260801325369-Feedback-Ticketing-System-Support-\" target=\"_blank\" rel=\"noopener noreferrer\"><span class=\"wysiwyg-underline\">community forum</span></a><span style=\"color: #1d1c1d;\"> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact </span><a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\" target=\"_blank\" rel=\"noopener noreferrer\"><span style=\"color: #1155cc;\">Zendesk Customer Support</span></a><span style=\"color: #1d1c1d;\">.</span></p>",
       "user_segment_ids": []
     },
     {
@@ -923,38 +953,6 @@
         "mt"
       ],
       "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2><p>I expect play mode to go through all eligible tickets. In some cases, play mode prioritizes tickets incorrectly or skips tickets.</p><h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2><p>Play mode is an outdated way to serve tickets to agents. It relies on agent-specific caches that refresh every five minutes. This five-minute cache can cause inconsistent prioritization and make it look like play mode skips tickets.</p><p>To avoid these limitations, use <a href=\"https://support.zendesk.com/hc/en-us/articles/4409149119514\" target=\"_blank\" rel=\"noopener noreferrer\">omnichannel routing</a> to automatically assign tickets to agents based on your routing configuration and agent availability.</p><p>For more information, see <a href=\"https://support.zendesk.com/hc/en-us/articles/5866925319962\" target=\"_blank\" rel=\"noopener noreferrer\">Turn on omnichannel routing</a> and <a href=\"https://support.zendesk.com/hc/en-us/articles/4828787357210\" target=\"_blank\" rel=\"noopener noreferrer\">Manage your omnichannel routing configuration</a>.</p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 10078092603674,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/10078092603674.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/10078092603674-Post-mortem-December-15-2025-Multiple-pods-Support-Search-Indexing-service-issues",
-      "author_id": 9005790397722,
-      "comments_disabled": true,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405298854426,
-      "created_at": "2025-12-18T16:41:11Z",
-      "updated_at": "2026-01-24T03:14:04Z",
-      "name": "Post-mortem - December 15, 2025 - Multiple pods | Support - Search Indexing service issues",
-      "title": "Post-mortem - December 15, 2025 - Multiple pods | Support - Search Indexing service issues",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2025-12-18T17:01:53Z",
-      "user_segment_id": null,
-      "permission_group_id": 1324079,
-      "content_tag_ids": [
-        "01K0PTSD04FESGNSQJZ752BWCQ"
-      ],
-      "label_names": [
-        "mt"
-      ],
-      "body": "<h3 id=\"h_01KCS55TWFHTDXWFV8JV6ZEYSQ\"><strong>Summary</strong></h3><p>On December 15, 2025, between 13:03 and 13:44 UTC, an alert was received indicating elevated processing errors across multiple pods, resulting in a stall of the search indexing service.</p><h3 id=\"h_01KCS55TWHAXNJ89HFAJVQNYFT\"><strong>Timeline</strong></h3><p><strong>December 15, 2025 15:26 UTC | December 15, 2025 7:26 AM PT</strong></p><p>On December 15, 2025, between 13:03 and 13:44 UTC, we identified an intermittent stale data issue in the search indexer service affecting customers across all pods for approximately 30-40 minutes. Our engineers have resolved the root cause, and search indexing has resumed normal operation. We appreciate your patience and encourage you to contact us if you continue to experience any related issues.</p><h3 id=\"h_01KCS55TWJ270QWDRM2173M0QB\"><strong>Root Cause Analysis</strong></h3><p>The incident was caused by a recent change that incorrectly set account status values to lowercase “deleted” instead of uppercase, leading to indexing failures.</p><h3 id=\"h_01KCS55TWK9S05VCXMBMBXF5JA\"><strong>Resolution</strong></h3><p>To resolve the issue, engineers reverted the account state values to the proper format, which restored real-time indexing across all pods. Additionally, backfill operations were initiated and completed to recover search data missed during the 30-40 minute incident.</p><h3 id=\"h_01KCS55TWM4ZXF2B1WB97XSZWP\"><strong>Remediation Items</strong></h3><ol>\n<li data-list-item-id=\"eb229dacfa0fd907ed84942329ed17728\">Strengthen tools used to manage whale data to prevent errors and improve stability.</li>\n<li data-list-item-id=\"eaedc314197ce7c67efc63df1d26666b2\">Develop comprehensive runbooks to guide the use and maintenance of whale-related tools.</li>\n<li data-list-item-id=\"ecddb92fce1004034cbbfefafb3d167b0\">Enable the indexer to store the most recent whale data temporarily to ensure continued accuracy.</li>\n<li data-list-item-id=\"ed850e2f313359506895f96b3f73b5b91\">Establish a regular and documented schedule for whale data cleanup.</li>\n<li data-list-item-id=\"ea0fde7a4820cda85b6d62218a0de9e0a\">Investigate automating the removal of accounts from search index tables after 70 days in line with data retention policies.</li>\n</ol><h4 id=\"h_01K086AN7TN2VXG8HZSHSSG4DT\"><strong>FOR MORE INFORMATION</strong></h4><p>For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com/\">system status page</a>. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
       "user_segment_ids": []
     }
   ],
