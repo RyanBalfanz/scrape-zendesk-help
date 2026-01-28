@@ -85,14 +85,14 @@
       "vote_count": 0,
       "section_id": 4405303730330,
       "created_at": "2026-01-28T00:24:55Z",
-      "updated_at": "2026-01-28T19:40:52Z",
+      "updated_at": "2026-01-28T19:57:50Z",
       "name": "Why are tickets automatically solved by the \"Web User\" AI agent?",
       "title": "Why are tickets automatically solved by the \"Web User\" AI agent?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2026-01-28T19:40:52Z",
+      "edited_at": "2026-01-28T19:57:50Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -102,7 +102,7 @@
         "ab0_messaging",
         "role_admin"
       ],
-      "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2><p>I see some tickets solved by an AI agent named <strong>Web User.</strong> I did not set up AI agents in my account. Why does this happen, and how can I fix this?</p><h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2><p>You may see an AI agent update or solve tickets because the option to create AI agent tickets is on in your account.<br><br><a href=\"https://support.zendesk.com/hc/en-us/articles/9204149016346-Understanding-AI-agent-tickets-for-AI-agent-only-conversations\" target=\"_blank\" rel=\"noopener noreferrer\">AI agent tickets</a> are tickets for message conversations that your <a href=\"https://support.zendesk.com/hc/en-us/articles/6970583409690\" target=\"_blank\" rel=\"noopener noreferrer\">AI agent</a> or a <a href=\"https://support.zendesk.com/hc/en-us/articles/4500737327258-Configuring-messaging-responses-and-business-hours\" target=\"_blank\" rel=\"noopener noreferrer\">basic message response</a> handles from start to finish. They don't escalate to a human agent.<br><br>In Support views and search results, the Assignee column shows a bot icon for AI agent tickets.</p><p><img style=\"height: auto;\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/aiae_ai_agent_tickets_view_column.png\" alt=\"AI agent tickets view\" width=\"600\" id=\"topic_yqf_fr1_2gc__image_shk_ft1_2gc\"></p><p>You can also <a href=\"https://support.zendesk.com/hc/en-us/articles/9204149016346-Understanding-AI-agent-tickets-for-AI-agent-only-conversations#topic_myq_2r1_2gc\" target=\"_blank\" rel=\"noopener noreferrer\">turn off this feature</a> if you prefer not to use it.</p>",
+      "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2><p>I see some tickets solved by an AI agent named <strong>Web User.</strong> I did not set up AI agents in my account. Why does this happen, and how can I fix this?</p><h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2><p>You may see an AI agent update or solve tickets because the option to create AI agent tickets is on in your account.<br><br><a href=\"https://support.zendesk.com/hc/en-us/articles/9204149016346-Understanding-AI-agent-tickets-for-AI-agent-only-conversations\" target=\"_blank\" rel=\"noopener noreferrer\">AI agent tickets</a> are tickets for messaging conversations that your <a href=\"https://support.zendesk.com/hc/en-us/articles/6970583409690\" target=\"_blank\" rel=\"noopener noreferrer\">AI agent</a> or a <a href=\"https://support.zendesk.com/hc/en-us/articles/4500737327258-Configuring-messaging-responses-and-business-hours\" target=\"_blank\" rel=\"noopener noreferrer\">basic message response</a> handles from start to finish. They weren't escalated to a human agent.<br><br>In Support views and search results, the Assignee column shows a bot icon for AI agent tickets.</p><p><img style=\"height: auto;\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/aiae_ai_agent_tickets_view_column.png\" alt=\"AI agent tickets view\" width=\"600\" id=\"topic_yqf_fr1_2gc__image_shk_ft1_2gc\"></p><p>You can also <a href=\"https://support.zendesk.com/hc/en-us/articles/9204149016346-Understanding-AI-agent-tickets-for-AI-agent-only-conversations#topic_myq_2r1_2gc\" target=\"_blank\" rel=\"noopener noreferrer\">turn off this feature</a> if you prefer not to use it.</p>",
       "user_segment_ids": []
     },
     {
