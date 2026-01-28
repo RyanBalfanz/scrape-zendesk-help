@@ -216,16 +216,16 @@
       "position": 0,
       "vote_sum": 0,
       "vote_count": 0,
-      "section_id": 6970673920794,
+      "section_id": 8243870008090,
       "created_at": "2026-01-27T21:29:22Z",
-      "updated_at": "2026-01-27T21:48:34Z",
+      "updated_at": "2026-01-28T13:35:41Z",
       "name": "Can I add a note to the “Was this helpful” prompt that the AI used my FAQs?",
       "title": "Can I add a note to the “Was this helpful” prompt that the AI used my FAQs?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2026-01-27T21:48:33Z",
+      "edited_at": "2026-01-28T13:35:41Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -235,7 +235,7 @@
         "role_admin",
         "ab0_ai_agents_essential"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>I have a Zendesk AI chatbot. Can I add a note to the \"Was this helpful\" prompt to show that the AI generated the content from my FAQs? I want to include guardrails about the AI source.</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>You can customize the feedback responses to include AI disclaimers and guardrails.</p><p>To customize the response to customer feedback:</p><div>\n<ol id=\"topic_q5m_1dd_f2c__ol_fwf_kfd_f2c\">\n<li data-list-item-id=\"e62f37bdd1bf603b5e0f0f3ac04e72222\">\n<a href=\"https://support.zendesk.com/hc/en-us/articles/8774095741466-Customizing-the-standard-responses-for-an-AI-agent-on-a-messaging-channel#topic_bqy_ycd_f2c\" target=\"_blank\" rel=\"noopener noreferrer\">On the <strong>Messaging behavior</strong> tab</a>, expand the<strong>After the AI agent replies</strong> section</li>\n<li data-list-item-id=\"ecdc59258464ed0b84a4e2e62a5829866\">Open the <strong>Helpful answer</strong> tab. Enter your custom text in the <strong>Message</strong> field to mention that the AI successfully used your FAQs.</li>\n<li data-list-item-id=\"ecf6be14c72817b2dab652d3fe89f73ac\">Open the <strong>Unhelpful answer</strong> tab. Use this field to apply guardrails by explaining that the AI source may require further clarification.</li>\n</ol>\n<p>Optionally, add an option to talk to a human to provide a direct button for support. If a customer clicks this, it triggers your <a href=\"https://support.zendesk.com/hc/en-us/articles/8774095741466-Customizing-the-standard-responses-for-an-AI-agent-on-a-messaging-channel#topic_tzc_bdd_f2c\" target=\"_blank\" rel=\"noopener noreferrer\">escalation response</a>.</p>\n</div><p>The response is saved automatically as you edit it, but updates will not be presented to customers until you<a href=\"https://support.zendesk.com/hc/en-us/articles/7232810932250\" target=\"_blank\" rel=\"noopener noreferrer\">publish the AI agent</a>.</p>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>I have a Zendesk AI chatbot. Can I add a note to the \"Was this helpful\" prompt to show that the AI generated the content from my FAQs? I want to include guardrails about the AI source.</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>You can customize the feedback responses from the AI agent to include AI disclaimers and guardrails.</p><p>To customize the response to customer feedback:</p><div>\n<ol id=\"topic_q5m_1dd_f2c__ol_fwf_kfd_f2c\">\n<li data-list-item-id=\"e62f37bdd1bf603b5e0f0f3ac04e72222\">On the <a href=\"https://support.zendesk.com/hc/en-us/articles/8774095741466-Customizing-the-standard-responses-for-an-AI-agent-on-a-messaging-channel#topic_bqy_ycd_f2c\" target=\"_blank\" rel=\"noopener noreferrer\">Messaging behavior tab</a>, expand the <strong>After the AI agent replies</strong> section</li>\n<li data-list-item-id=\"ecdc59258464ed0b84a4e2e62a5829866\">Open the <strong>Helpful answer</strong> tab. Enter your custom text in the <strong>Message</strong> field to mention that the AI successfully used your FAQs.</li>\n<li data-list-item-id=\"ecf6be14c72817b2dab652d3fe89f73ac\">Open the <strong>Unhelpful answer</strong> tab. Use this field to apply guardrails by explaining that the AI source may require further clarification.</li>\n</ol>\n<p>Optionally, add an option to talk to a human to provide a direct button for support. If a customer clicks this, it triggers your <a href=\"https://support.zendesk.com/hc/en-us/articles/8774095741466-Customizing-the-standard-responses-for-an-AI-agent-on-a-messaging-channel#topic_tzc_bdd_f2c\" target=\"_blank\" rel=\"noopener noreferrer\">escalation response</a>.</p>\n</div><p>The response is saved automatically as you edit it, but updates will not be presented to customers until you <a href=\"https://support.zendesk.com/hc/en-us/articles/7232810932250\" target=\"_blank\" rel=\"noopener noreferrer\">publish the AI agent</a>.</p>",
       "user_segment_ids": []
     },
     {
