@@ -19,14 +19,14 @@
       "vote_count": 0,
       "section_id": 10231582044058,
       "created_at": "2026-01-28T14:25:06Z",
-      "updated_at": "2026-01-28T17:54:59Z",
+      "updated_at": "2026-01-28T18:00:38Z",
       "name": "Do I get unlimited suggested first replies with the Copilot add-on?",
       "title": "Do I get unlimited suggested first replies with the Copilot add-on?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2026-01-28T17:54:59Z",
+      "edited_at": "2026-01-28T18:00:38Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -36,7 +36,7 @@
         "role_admin",
         "ab0_ai_agents_advanced"
       ],
-      "body": "<div id=\"383e8008-dd00-46e9-8fe6-34b32cc282b8\" aria-label=\"message-1-383e8008-dd00-46e9-8fe6-34b32cc282b8\"><div><div dir=\"auto\"><div>\n<h2 id=\"h_01KG2EM6DG55JZSSGKEC5FAFTT\">Question</h2>\n<p>If I buy the Copilot add-on, do I get unlimited suggested first replies? Does my basic plan include any AI features that Copilot doesn't? I need to know whether Copilot features count against my automated resolution allocation, whether I must buy extra resolutions, and whether I need a different add-on for advanced AI.</p>\n<h2 id=\"h_01KG2EM6DJCYFZX9F8JZ5ECJ6Q\">Answer</h2>\n<p>No. The Copilot add-on doesn't include unlimited suggested first replies or unlimited automated resolutions. Your automated resolution allocation governs your use of Copilot features, such as suggested first replies. If you need more automated resolutions, you can buy more. You may incur overage charges if you exceed your allocation.</p>\n<p>The default automated resolution allocation varies by plan. For plan allowances and purchase options, see <a href=\"https://support.zendesk.com/hc/en-us/articles/5352026794010-About-automated-resolutions-for-AI-agents#topic_hn3_q3x_4wb\" target=\"_blank\" rel=\"noopener noreferrer\">About automated resolutions for AI agents</a></p>\n<p>If you need more advanced AI agent capabilities than Copilot, buy the AI agents - Advanced add-on. It builds on AI agents - Essential and adds conversation flows that combine generative and scripted responses, API access, and advanced analytics. See <a href=\"https://support.zendesk.com/hc/en-us/articles/8725042447002-About-the-AI-agents-Advanced-add-on\" target=\"_blank\" rel=\"noopener noreferrer\">About the AI agents - Advanced add-on</a>.</p>\n</div></div></div></div>",
+      "body": "<h2 id=\"h_01KG2EM6DG55JZSSGKEC5FAFTT\">Question</h2><p>If I buy the Copilot add-on, do I get unlimited suggested first replies? Does my basic plan include any AI features that Copilot doesn't? I need to know whether Copilot features count against my automated resolution allocation, whether I must buy extra resolutions, and whether I need a different add-on for advanced AI.</p><h2 id=\"h_01KG2EM6DJCYFZX9F8JZ5ECJ6Q\">Answer</h2><p>No. The Copilot add-on doesn't include unlimited suggested first replies or unlimited automated resolutions. Your automated resolution allocation governs your use of Copilot features, such as suggested first replies. If you need more automated resolutions, you can buy more. You may incur overage charges if you exceed your allocation.</p><p>The default automated resolution allocation varies by plan. For plan allowances and purchase options, see <a href=\"https://support.zendesk.com/hc/en-us/articles/5352026794010-About-automated-resolutions-for-AI-agents#topic_hn3_q3x_4wb\" target=\"_blank\" rel=\"noopener noreferrer\">About automated resolutions for AI agents</a>.</p><p>If you need more advanced AI agent capabilities than Copilot, buy the AI agents - Advanced add-on. It builds on AI agents - Essential and adds conversation flows that combine generative and scripted responses, API access, and advanced analytics. See <a href=\"https://support.zendesk.com/hc/en-us/articles/8725042447002-About-the-AI-agents-Advanced-add-on\" target=\"_blank\" rel=\"noopener noreferrer\">About the AI agents - Advanced add-on</a>.</p>",
       "user_segment_ids": []
     },
     {
