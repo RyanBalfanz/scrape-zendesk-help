@@ -184,14 +184,14 @@
       "vote_count": 0,
       "section_id": 4405298901658,
       "created_at": "2026-01-27T23:47:05Z",
-      "updated_at": "2026-01-27T23:59:03Z",
+      "updated_at": "2026-01-28T17:38:39Z",
       "name": "Why don't my autoreply trigger actions run on forwarded tickets?",
       "title": "Why don't my autoreply trigger actions run on forwarded tickets?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2026-01-27T23:59:03Z",
+      "edited_at": "2026-01-28T17:38:39Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -202,7 +202,7 @@
         "ab0_email",
         "role_admin"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>I set up a trigger with autoreply trigger actions, and I noticed that in some cases, these do not work on <a href=\"https://support.zendesk.com/hc/en-us/articles/4408846792090-How-do-I-set-up-agent-forwarding-for-emails\" target=\"_blank\" rel=\"noopener noreferrer\">agent-forwarded </a>tickets. Why does this happen?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>These ticket trigger actions do not work for agent-forwarded tickets when an agent includes a comment:</p><ul>\n<li data-list-item-id=\"e9848d15c903f397ff7f3298dfc302828\">Autoreply with articles</li>\n<li data-list-item-id=\"e192d4de73711ea647b9d57ba1156d3ef\">Autoreply</li>\n<li data-list-item-id=\"eb2b4a1778fb22e27aad3e542fcbeded1\">Internal note.</li>\n</ul><p>Note that these actions work as expected on agent-forwarded tickets if the ticket is forwarded without a comment.</p>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>I set up a trigger with autoreply trigger actions, and I noticed that in some cases, these don't work on <a href=\"https://support.zendesk.com/hc/en-us/articles/4408846792090-How-do-I-set-up-agent-forwarding-for-emails\" target=\"_blank\" rel=\"noopener noreferrer\">agent-forwarded </a>tickets. Why does this happen?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>These ticket trigger actions don't work for agent-forwarded tickets when an agent includes a comment:</p><ul>\n<li data-list-item-id=\"e9848d15c903f397ff7f3298dfc302828\">Autoreply with articles</li>\n<li data-list-item-id=\"e192d4de73711ea647b9d57ba1156d3ef\">Autoreply</li>\n<li data-list-item-id=\"eb2b4a1778fb22e27aad3e542fcbeded1\">Internal note</li>\n</ul><p>Note that these actions work as expected on agent-forwarded tickets if the ticket is forwarded without a comment.</p>",
       "user_segment_ids": []
     },
     {
