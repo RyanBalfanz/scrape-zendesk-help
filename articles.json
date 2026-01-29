@@ -1,11 +1,41 @@
 {
-  "count": 4747,
+  "count": 4748,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 159,
   "per_page": 30,
   "previous_page": null,
   "articles": [
+    {
+      "id": 10235678401306,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/10235678401306.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/10235678401306-Announcing-API-integration-observability-in-the-AI-agents-Advanced-conversation-logs",
+      "author_id": 8316128272154,
+      "comments_disabled": true,
+      "draft": false,
+      "promoted": true,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298833818,
+      "created_at": "2026-01-29T14:05:37Z",
+      "updated_at": "2026-01-29T14:07:20Z",
+      "name": "Announcing API integration observability in the AI agents - Advanced conversation logs",
+      "title": "Announcing API integration observability in the AI agents - Advanced conversation logs",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2026-01-29T14:06:02Z",
+      "user_segment_id": null,
+      "permission_group_id": 1324079,
+      "content_tag_ids": [],
+      "label_names": [
+        "newsfeed"
+      ],
+      "body": "<figure class=\"wysiwyg-table\" style=\"width: 100%;\"><table style=\"border-style: solid; border-width: 1px;\"><tbody>\n<tr>\n<td style=\"border-style: solid; border-width: 1px;\"><strong>Announced on</strong></td>\n<td style=\"border-style: solid; border-width: 1px;\"><strong>Rollout starts</strong></td>\n<td style=\"border-style: solid; border-width: 1px;\"><strong>Rollout ends</strong></td>\n</tr>\n<tr>\n<td style=\"border-style: solid; border-width: 1px;\">January 29, 2026</td>\n<td style=\"border-style: solid; border-width: 1px;\">January 29, 2026</td>\n<td style=\"border-style: solid; border-width: 1px;\">February 5, 2026</td>\n</tr>\n</tbody></table></figure><p>We’re pleased to announce a new API integration observability improvement in the AI agents - Advanced conversation logs.</p><p>This announcement includes the following topics:</p><ul>\n<li data-list-item-id=\"ed1c6e19bf7a199285adba2134e92cc94\"><a href=\"#h_01KG510SYEQ6M2925Q5F5VV8QX\">What's changing?</a></li>\n<li data-list-item-id=\"ef642880a5211638c58d67270f131f4ae\"><a href=\"#h_01KG510YCJ5TVY65WTC2SAS4DR\">Why is Zendesk making this change?</a></li>\n<li data-list-item-id=\"e90084786204581754e9a6f21742fb12c\"><a href=\"#h_01KG5111G27C0TP2VSCYJ1MQ9X\">What do I need to do?</a></li>\n</ul><h2 id=\"h_01KG510SYEQ6M2925Q5F5VV8QX\">What's changing?</h2><p>Zendesk is adding new observability improvements for API integrations in the AI agents - Advanced conversation logs. </p><p>You’ll now see dedicated API event groups directly in the conversation timeline, making it easy to spot when an AI agent triggers an API call, whether through a dialogue or a procedure.</p><p>Select any API call to open a detailed snapshot with the key information you need to investigate confidently:</p><ul>\n<li data-list-item-id=\"e3ba157c6d8be5ca3222a9cf1bbdeb0d4\">Available request parameters (inputs)</li>\n<li data-list-item-id=\"e743579e1d57027277e384b413f2b4335\">Updated session parameters (outputs)</li>\n<li data-list-item-id=\"e88e6f7a719a2b6cd89b8bc70ef65d1fe\">The scenario that was triggered</li>\n<li data-list-item-id=\"e50dac410aa78c9250048a86dd076ecbb\">Full responses for failed or erroneous calls</li>\n</ul><p>From the snapshot, you can jump straight to the relevant API integration and the dialogue that triggered it. Navigation to procedures will be added in a future update.</p><p><img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/aiaa_convo_log_integration_details.png\" width=\"350\"></p><p>For more information, see <a href=\"https://support.zendesk.com/hc/en-us/articles/8357749580186#topic_djg_kgx_c3c\">Reviewing API integration information</a>.</p><h2 id=\"h_01KG510YCJ5TVY65WTC2SAS4DR\">Why is Zendesk making this change?</h2><p>We aim to make using APIs transparent and easy to investigate. With our agentic solutions, it is especially important that you have the right toolset to dive deep into conversation details and have the full picture of what actions the AI agent has executed.</p><h2 id=\"h_01KG5111G27C0TP2VSCYJ1MQ9X\">What do I need to do?</h2><p>No action is required. The improvement will be rolled out gradually over the course of the next week.</p><p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/6447052855194\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\">Zendesk customer support</a>.</p><p> </p>",
+      "user_segment_ids": []
+    },
     {
       "id": 10232340208410,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/10232340208410.json",
@@ -937,36 +967,6 @@
         "mtpe"
       ],
       "body": "<figure class=\"wysiwyg-table wysiwyg-table-align-left\" style=\"height: 44px; width: 100%;\"><table style=\"border-collapse: collapse; border-style: solid; border-width: 1px; margin-left: 0px; margin-right: auto;\"><tbody>\n<tr style=\"height: 22px;\">\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\"><strong>Announced on</strong></td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\"><strong>Rollout starts</strong></td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\">January 14, 2026</td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\"><span style=\"color: #000000;\">April 29, 2026</span></td>\n</tr>\n</tbody></table></figure><p>Zendesk is committed to safeguarding your data and aligning with industry-leading security practices. To further improve app security, Zendesk is ending support for the <code>password</code> setting type for third-party credentials in Zendesk apps starting on April 29, 2026.</p><p><span style=\"font-weight: 400;\">This announcement includes the following topics:</span></p><ul>\n<li data-list-item-id=\"eee4689882c285262f13014de1a6de5fc\"><a href=\"#h_01GD3S97RDYVTAFTQ8WR9878VF\" target=\"_self\"><span style=\"font-weight: 400;\">What is changing?</span></a></li>\n<li data-list-item-id=\"e0efc89f5fa0125346ffc13425948db85\"><a href=\"#h_01GD3S9GD63FPDGQSEFY88M3ND\" target=\"_self\"><span style=\"font-weight: 400;\">Why is Zendesk making this change?</span></a></li>\n<li data-list-item-id=\"e3847b70bc42ec8c48ee808a91fb5f4fd\"><a href=\"#h_01GD3S9TSPXM7M4WHYKYF4E84M\" target=\"_self\"><span style=\"font-weight: 400;\">What do I need to do?</span></a></li>\n</ul><h2 id=\"h_01GD3S97RDYVTAFTQ8WR9878VF\"><span style=\"font-weight: 400;\">What is changing?</span></h2><p>Beginning April 29, 2026, Zendesk apps will no longer support the <code>password</code> setting type (<code>parameters[].type = \"password\"</code> in a <code>manifest.json</code> <code>parameters</code> entry) for collecting third-party credentials (such as passwords) during app installation or configuration. To maintain secure authentication flows, developers must update their apps to use more secure authentication methods such as OAuth 2.0. Where OAuth 2.0 isn't supported, you can use basic authentication with a <a href=\"https://developer.zendesk.com/documentation/apps/app-developer-guide/making-api-requests-from-a-zendesk-app/#using-secure-settings\">secure setting</a>, which stores the secret securely in the Zendesk infrastructure.</p><h2 id=\"h_01GD3S9GD63FPDGQSEFY88M3ND\"><span style=\"font-weight: 400;\">Why is Zendesk making this change?</span></h2><p>This update enhances security by reducing risks related to password collection, storage, and handling. It helps protect sensitive customer information and aligns apps with modern security standards. Using secure settings for third-party credentials reduces attack vectors and strengthens overall data protection.</p><h2 id=\"h_01GD3S9TSPXM7M4WHYKYF4E84M\"><span style=\"font-weight: 400;\">What do I need to do?</span></h2><p>Update your app by April 29, 2026, if it collects third-party credentials using a manifest parameter with <code>type: \"password\"</code>. Choose one of the following approaches:</p><ul>\n<li data-list-item-id=\"e8a88ca5c71eb0f5c50179d48cf6aa3a8\">Use <a href=\"https://developer.zendesk.com/documentation/apps/app-developer-guide/making-api-requests-from-a-zendesk-app/#using-a-third-party-oauth-access-token\">OAuth 2.0 authentication</a> (recommended).</li>\n<li data-list-item-id=\"e722dd3b83bad2a4b43a7e8a2b6e23841\">Use <a href=\"https://developer.zendesk.com/documentation/apps/app-developer-guide/making-api-requests-from-a-zendesk-app/#using-basic-access-authentication\">basic authentication</a> with a secure setting to store the secret securely.</li>\n</ul><p>If your app currently uses a secure setting with <code>type: \"password\"</code>, update the setting type to <code>text</code> (while keeping it secure). The existing secret is retained and admins won't need to re-enter it.</p><p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\">Zendesk Customer Support</a>.</p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 10148071320858,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/10148071320858.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/10148071320858-Scheduled-Maintenance-January-24-2026-All-Pods-Zendesk-Web-Widget",
-      "author_id": 1263082084489,
-      "comments_disabled": true,
-      "draft": false,
-      "promoted": true,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405298854426,
-      "created_at": "2026-01-08T16:45:17Z",
-      "updated_at": "2026-01-08T17:01:37Z",
-      "name": "Scheduled Maintenance -  January 24, 2026 | All Pods - Zendesk Web Widget",
-      "title": "Scheduled Maintenance -  January 24, 2026 | All Pods - Zendesk Web Widget",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2026-01-08T16:47:23Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801242670,
-      "content_tag_ids": [],
-      "label_names": [
-        "mt"
-      ],
-      "body": "<p><span style=\"color: #464646;\">Zendesk will perform critical maintenance which may impact performance for your account on all Pods on Jan 24, 2026, during the time listed below.</span></p><p> </p><h3 id=\"h_01KEF7RH84M6YWGY8HZFPTFDA5\"><span style=\"color: #434343;\"><strong>Affected products:</strong> Messaging - Zendesk Web Widget</span></h3><p> </p><p><span style=\"background-color: #cfe2f3; color: #464646;\"><strong>Customers Affected</strong></span><span style=\"color: #464646;\"><strong>: </strong>All<strong> </strong>Zendesk Messaging and Sunshine Conversations customers using the Web Widget may experience a <strong>brief service degradation of up to 30 minutes</strong> at some time within the 4 hr maintenance window.</span></p><p> </p><div><figure class=\"wysiwyg-table\" style=\"width: 100%;\"><table class=\"wysiwyg-table-resized\">\n<colgroup>\n<col style=\"width: 24%;\">\n<col style=\"width: 10%;\">\n<col style=\"width: 31%;\">\n<col style=\"width: 35%;\">\n</colgroup>\n<tbody>\n<tr>\n<td style=\"text-align: center;\"><span style=\"color: #464646;\"><strong>Date</strong></span></td>\n<td style=\"text-align: center;\"><a href=\"https://support.zendesk.com/hc/en-us/articles/4408829092506-What-is-a-Pod\"><strong><span class=\"wysiwyg-underline\">POD</span></strong></a></td>\n<td style=\"text-align: center;\"><span style=\"color: #464646;\"><strong>Start Time</strong></span></td>\n<td style=\"text-align: center;\"><span style=\"color: #464646;\"><strong>End Time</strong></span></td>\n</tr>\n<tr>\n<td><span style=\"color: #464646;\">Jan 24, 2026</span></td>\n<td style=\"text-align: center;\"><span style=\"color: #464646;\">All</span></td>\n<td style=\"text-align: center;\"><span style=\"color: #464646;\">10:00 UTC / 2:00 PST</span></td>\n<td style=\"text-align: center;\"><span style=\"color: #464646;\">  14:00 UTC / 6:00 PST</span></td>\n</tr>\n</tbody>\n</table></figure></div><p> </p><p><span style=\"color: #464646;\"><strong>Expected behavior:</strong> During the maintenance window, accounts using the Zendesk Web Widget may notice some increased latency and disruption in the sending and receiving of messages. No downtime is expected.</span></p><p> </p><p><span style=\"color: #464646;\"><strong>What do customers have to do? </strong>Customers do not need to do anything in preparation for this maintenance window.</span></p><p> </p><p><span style=\"color: #464646;\"><strong>Why we're doing this:</strong> The Zendesk Messaging team is deploying key components of the web widget infrastructure into multiple pods to ensure greater resiliency and stability for future releases.</span></p>",
       "user_segment_ids": []
     }
   ],
