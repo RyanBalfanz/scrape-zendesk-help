@@ -86,7 +86,7 @@
       "vote_count": 0,
       "section_id": 8243870008090,
       "created_at": "2026-01-28T11:48:35Z",
-      "updated_at": "2026-01-29T08:05:44Z",
+      "updated_at": "2026-01-29T09:50:49Z",
       "name": "Why does my bot still say Building when it's live?",
       "title": "Why does my bot still say Building when it's live?",
       "source_locale": "en-us",
@@ -101,7 +101,8 @@
         "ks",
         "ab0",
         "role_admin",
-        "ab0_ai_agents_advanced"
+        "ab0_ai_agents_advanced",
+        "visual_media"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>In the AI agents settings, my published bot shows <strong>Building.</strong> How do I change that?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>Use the dropdown field <strong>AI agent status (AI agents - Advanced Admins only)</strong> under <strong>Ultimate &gt; AI Agent settings &gt; General</strong> to change the AI agent status.</p><p><img src=\"https://support.zendesk.com/hc/article_attachments/10230619080730\" alt=\"AI agents general settings\" width=\"1790\" height=\"1296\"></p><div class=\"p\"><div class=\"note\">Note: This change only affects the UI and doesn't change the bot's status.</div></div>",
       "user_segment_ids": []
