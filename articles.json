@@ -54,14 +54,14 @@
       "vote_count": 0,
       "section_id": 10231582044058,
       "created_at": "2026-01-29T14:27:48Z",
-      "updated_at": "2026-01-30T14:14:40Z",
+      "updated_at": "2026-02-02T14:11:40Z",
       "name": "Why can't I see Intelligent Triage under AI in the sidebar?",
       "title": "Why can't I see Intelligent Triage under AI in the sidebar?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2026-01-30T14:14:40Z",
+      "edited_at": "2026-02-02T14:11:40Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -71,7 +71,7 @@
         "role_admin",
         "ab0_copilot"
       ],
-      "body": "<h2 id=\"h_01KG7KG5TRMZW6184WVM5CT9P2\">Problem</h2><p>Why can't I see Intelligent Triage under AI in the sidebar?</p><h2 id=\"h_01KG7KG5TSSQXDQKYT3VWD7HWE\">Solution</h2><p>Intelligent Triage is part of Zendesk Advanced AI, available with the <a href=\"https://support.zendesk.com/hc/en-us/articles/5715517808026-Buying-the-Copilot-add-on\" target=\"_blank\" rel=\"noopener noreferrer\">Copilot add-on</a>. It requires a Suite Professional or Enterprise plan and the paid Copilot add-on.</p><ol>\n<li data-list-item-id=\"e1b438e59d03175359ab1d6fbea78e30a\">Ask your <a href=\"https://support.zendesk.com/hc/en-us/articles/4408881860378-Who-is-the-owner-of-my-account\" target=\"_blank\" rel=\"noopener noreferrer\">account owner</a> to check if your account includes the <a href=\"https://support.zendesk.com/hc/en-us/articles/5411234991258-Checking-your-plan-type-or-add-ons\" target=\"_blank\" rel=\"noopener noreferrer\">Copilot add-on and is on Professional or Enterprise</a>. See <a href=\"https://www.zendesk.com/pricing/\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk plans and prices</a>. Otherwise, the Intelligent Triage page stays blank, even for admins.</li>\n<li data-list-item-id=\"e18b04cdfd4ad83aef678d0deb13f5de4\">Consider an <a href=\"https://support.zendesk.com/hc/en-us/articles/5715517808026-Buying-the-Copilot-add-on\" target=\"_blank\" rel=\"noopener noreferrer\">upgrade to your plan</a>, or start a <a href=\"https://support.zendesk.com/hc/en-us/articles/4726042295194-Trying-out-a-plan-or-feature-upgrade\" target=\"_blank\" rel=\"noopener noreferrer\">30-day trial</a>.</li>\n</ol><p>If you recently requested the add-on, there may be a delay. <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-customer-support\" target=\"_blank\" rel=\"noopener noreferrer\">Contact Zendesk customer support</a> to confirm.</p>",
+      "body": "<h2 id=\"h_01KG7KG5TRMZW6184WVM5CT9P2\">Problem</h2><p>Why can't I see Intelligent Triage under AI in the sidebar?</p><h2 id=\"h_01KG7KG5TSSQXDQKYT3VWD7HWE\">Solution</h2><p>Intelligent Triage is part of Zendesk Advanced AI and requires the paid <a href=\"https://support.zendesk.com/hc/en-us/articles/5715517808026-Buying-the-Copilot-add-on\" target=\"_blank\" rel=\"noopener noreferrer\">Copilot add-on</a> and a Suite Professional or Enterprise plan. To resolve this, follow these steps:</p><ol>\n<li data-list-item-id=\"e5f082b2997a70034daf0b6be4276df28\">Ask your <a href=\"https://support.zendesk.com/hc/en-us/articles/4408881860378-Who-is-the-owner-of-my-account\" target=\"_blank\" rel=\"noopener noreferrer\">account owner</a> to check if your account includes the <a href=\"https://support.zendesk.com/hc/en-us/articles/5411234991258-Checking-your-plan-type-or-add-ons\" target=\"_blank\" rel=\"noopener noreferrer\">Copilot add-on and a Suite Professional or Enterprise plan</a>. See <a href=\"https://www.zendesk.com/pricing/\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk plans and prices</a>. Otherwise, the Intelligent Triage page appears blank, even for admins.</li>\n<li data-list-item-id=\"e3d2b5ffa253ebad098a527e17d6ac7d9\">Consider an <a href=\"https://support.zendesk.com/hc/en-us/articles/5715517808026-Buying-the-Copilot-add-on\" target=\"_blank\" rel=\"noopener noreferrer\">upgrade to your plan</a> or start a <a href=\"https://support.zendesk.com/hc/en-us/articles/4726042295194-Trying-out-a-plan-or-feature-upgrade\" target=\"_blank\" rel=\"noopener noreferrer\">30-day trial</a>\n</li>\n</ol><p>If you recently requested the add-on, there may be a delay. <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-customer-support\" target=\"_blank\" rel=\"noopener noreferrer\">Contact Zendesk customer support</a> to confirm.</p>",
       "user_segment_ids": []
     },
     {
