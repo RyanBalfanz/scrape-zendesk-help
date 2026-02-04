@@ -807,8 +807,8 @@
       "draft": false,
       "promoted": false,
       "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
+      "vote_sum": 1,
+      "vote_count": 1,
       "section_id": 4405303743130,
       "created_at": "2026-01-20T20:44:11Z",
       "updated_at": "2026-02-03T17:37:58Z",
@@ -839,7 +839,7 @@
       "vote_count": 0,
       "section_id": 4405303741978,
       "created_at": "2026-01-20T00:43:57Z",
-      "updated_at": "2026-02-03T23:49:56Z",
+      "updated_at": "2026-02-04T09:07:29Z",
       "name": "How can I update a Zendesk for Contact Center API token?",
       "title": "How can I update a Zendesk for Contact Center API token?",
       "source_locale": "en-us",
@@ -855,7 +855,8 @@
         "ab0",
         "mt",
         "role_admin",
-        "ab0_contact_center"
+        "ab0_contact_center",
+        "visual_media"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>I want to refresh the API token that I use to integrate <a href=\"https://support.zendesk.com/hc/en-us/articles/9459088830874-Installing-and-configuring-the-Zendesk-for-Contact-Center-app\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk for Contact Center</a> with Zendesk Support. How do I do this?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p><a href=\"https://support.zendesk.com/hc/en-us/articles/4408889192858-Managing-API-token-access-to-the-Zendesk-API#topic_tbp_dfb_l2c\" target=\"_blank\" rel=\"noopener noreferrer\">Generate a new API token</a> in Zendesk Support, and copy it to a secure place. Then follow these steps:</p><ol><li data-list-item-id=\"e7e1c14e2f7e0637308c2d1217ac43580\">Go to the <strong>Local Measure (Contact Center settings) site &gt; Standard Settings</strong>. The URL looks like this <code>https://{workspace-name}.{region}.localmeasure.com/{workspace-name}/zendesk-settings/standard-settings</code>.</li></ol><figure><p><img src=\"https://support.zendesk.com/hc/article_attachments/10195046662426\" alt=\"Standard settings page\" width=\"1109\" height=\"555\"></p></figure><p>On this page, click <strong>Edit</strong> under <strong>Your Zendesk Account</strong></p><ol start=\"2\">\n<li data-list-item-id=\"eb72af6685a335ac9508b896d1be236b9\">A new window shows <strong>Connection Details,</strong> where you add the new API token under <strong>API Key</strong><br><br><img class=\"wysiwyg-image-resized\" style=\"aspect-ratio: 879/732; width: 97.29%;\" src=\"https://support.zendesk.com/hc/article_attachments/10195070301850\" alt=\"Connection details page\" width=\"879\" height=\"732\">\n</li>\n<li data-list-item-id=\"e3f58aabf9c089018dfe467977b79083e\">Before you click <strong>Connect Account</strong> to save the changes, make sure the email address linked to the token is active in Zendesk Support and has an admin role</li>\n</ol>",
       "user_segment_ids": []
