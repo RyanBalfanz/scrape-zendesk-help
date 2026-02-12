@@ -1,45 +1,11 @@
 {
-  "count": 4741,
+  "count": 4740,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
-  "page_count": 159,
+  "page_count": 158,
   "per_page": 30,
   "previous_page": null,
   "articles": [
-    {
-      "id": 10301726391578,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/10301726391578.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/10301726391578-Why-is-the-Summary-field-blank-for-some-tickets-in-Explore",
-      "author_id": 1263214223609,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405303718810,
-      "created_at": "2026-02-12T15:03:12Z",
-      "updated_at": "2026-02-12T15:21:40Z",
-      "name": "Why is the Summary field blank for some tickets in Explore?",
-      "title": "Why is the Summary field blank for some tickets in Explore?",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2026-02-12T15:21:39Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801135069,
-      "content_tag_ids": [],
-      "label_names": [
-        "ks",
-        "ab0",
-        "ab0_explore",
-        "role_agent",
-        "ab0_copilot"
-      ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>Why is the Summary field blank for some tickets in Explore?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>Zendesk stores the <a href=\"https://support.zendesk.com/hc/en-us/articles/8037565521946-Turning-on-and-configuring-AI-generated-ticket-summaries\" target=\"_blank\" rel=\"noopener noreferrer\">AI-generated ticket summaries</a> in ticket fields when an agent manually generates them through the option <strong>View ticket summary</strong>, or when an agent updates them through the option <strong>Refresh</strong>.</p><p>From this point, it takes up to 5 minutes for the Summary field to synchronize. If the ticket becomes closed before the Summary field updates, the summary will display in the ticket in Support, but the Summary field and its related attributes will be blank in Explore.</p>",
-      "user_segment_ids": []
-    },
     {
       "id": 10298006519322,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/10298006519322.json",
@@ -53,7 +19,7 @@
       "vote_count": 0,
       "section_id": 4405298833818,
       "created_at": "2026-02-11T21:04:27Z",
-      "updated_at": "2026-02-11T23:20:31Z",
+      "updated_at": "2026-02-12T16:00:12Z",
       "name": "Announcing improvements to follow-up tickets",
       "title": "Announcing improvements to follow-up tickets",
       "source_locale": "en-us",
@@ -64,7 +30,9 @@
       "user_segment_id": null,
       "permission_group_id": 1324079,
       "content_tag_ids": [],
-      "label_names": [],
+      "label_names": [
+        "mtpe"
+      ],
       "body": "<figure class=\"wysiwyg-table wysiwyg-table-align-left\" style=\"height: 44px; width: 100%;\"><table style=\"border-collapse: collapse; border-style: solid; border-width: 1px; margin-left: 0px; margin-right: auto;\"><tbody>\n<tr style=\"height: 22px;\">\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\"><strong>Announced on</strong></td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\"><strong>Rollout starts</strong></td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\"><strong>Rollout ends</strong></td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\">February 11, 2025</td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\">February 11, 2025</td>\n<td style=\"border-style: solid; border-width: 1px; height: 22px; width: 33.3333%;\">February 18, 2025</td>\n</tr>\n</tbody></table></figure><p>We are making improvements to follow-up tickets made within the User Interface (UI). These improvements apply to the UIs of any Zendesk channel that allows end users to create a follow-up ticket, as well as to ticket UIs for agents.</p><p>This announcement includes the following sections:</p><ul>\n<li data-list-item-id=\"e845e1a73cec7fefdf2fbcb7b38e3bad3\"><a href=\"#h_01K7Q9WSQDQR3W54TTSCAC4WQD\">What is changing?</a></li>\n<li data-list-item-id=\"e5447ded6a70828f38d77c34b4a6d0c2c\"><a href=\"#h_01K7Q9WSQKYW12525JHHAFZ39H\">Why is Zendesk making this change?</a></li>\n<li data-list-item-id=\"e5b4e823ecf37898e35075107f3014411\"><a href=\"#h_01K7Q9WSQKN2G0V0YEMKMSWHBW\">What do I need to do?</a></li>\n</ul><h2 id=\"h_01K7Q9WSQDQR3W54TTSCAC4WQD\">What is changing?</h2><p>We are updating the values that follow-up tickets created via the UI inherit from the previously closed ticket. Tickets will now inherit the original <em>recipient address</em> value, the email address used to send outbound email notifications to your users and agents. </p><p>This change matches how follow-up tickets are currently created in the email channel. We are seeking to create better parity in the follow-up experience. See <a href=\"https://support.zendesk.com/hc/en-us/articles/8421655952026\" target=\"_blank\" rel=\"noopener noreferrer\">Understanding follow-up tickets</a> for more information on working with this feature.</p><h2 id=\"h_01K7Q9WSQKYW12525JHHAFZ39H\">Why is Zendesk making this change?</h2><p>We’re creating an flow that is more uniform across different channels, and more closely reflects the intended behavior of why a follow-up would be created. This creates a better and more predictable experience for follow-up tickets.</p><h2 id=\"h_01K7Q9WSQKN2G0V0YEMKMSWHBW\">What do I need to do?</h2><p class=\"wysiwyg-text-align-justify\">If you wish to maintain current functionality, it may be necessary to add a negating condition in any triggers designed to send an outbound email notification at the moment a ticket is created, such as <code>Meet All: Ticket Channel Is Not Closed Ticket</code>.</p><p>This allows you to tag and subsequently adjust the ticket’s recipient address value using an app like <a href=\"https://www.zendesk.com/marketplace/apps/support/46799/select-an-address/\" target=\"_blank\" rel=\"noopener noreferrer\">Select an Address</a> to choose the preferred recipient address before there is any outbound email sent.</p><p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/1260801325369-Feedback-Ticketing-System-Support-\" target=\"_blank\" rel=\"noopener noreferrer\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk Customer Support</a>.</p>",
       "user_segment_ids": []
     },
@@ -954,6 +922,40 @@
         "ab0_ai_agents_advanced"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>How can I request a sponsored Advanced AI Agents account?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>To request the AI Agents Advanced (Ultimate) add-on sponsorship, reach out to <a href=\"https://www.zendesk.com/contact/\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk Customer Support</a> with your <a href=\"https://support.zendesk.com/hc/en-us/articles/4409381383578-Where-can-I-find-my-Zendesk-subdomain\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk subdomain</a>. For example, mysubdomain.zendesk.com.</p><p>Zendesk will provision the AI Agents Advanced SKU for you.</p><p>For more information, see the article: <a href=\"https://support.zendesk.com/hc/en-us/articles/8725042447002-About-the-AI-agents-Advanced-add-on\" target=\"_blank\" rel=\"noopener noreferrer\">About the AI agents - Advanced add-on</a></p>",
+      "user_segment_ids": []
+    },
+    {
+      "id": 10228131856922,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/10228131856922.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/10228131856922-Can-I-add-a-note-to-the-Was-this-helpful-prompt-that-the-AI-used-my-FAQs",
+      "author_id": 8284543895322,
+      "comments_disabled": false,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 8243870008090,
+      "created_at": "2026-01-27T21:29:22Z",
+      "updated_at": "2026-02-03T16:07:24Z",
+      "name": "Can I add a note to the “Was this helpful” prompt that the AI used my FAQs?",
+      "title": "Can I add a note to the “Was this helpful” prompt that the AI used my FAQs?",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2026-01-28T13:35:41Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801135069,
+      "content_tag_ids": [],
+      "label_names": [
+        "ks",
+        "ab0",
+        "mt",
+        "role_admin",
+        "ab0_ai_agents_essential"
+      ],
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>I have a Zendesk AI chatbot. Can I add a note to the \"Was this helpful\" prompt to show that the AI generated the content from my FAQs? I want to include guardrails about the AI source.</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>You can customize the feedback responses from the AI agent to include AI disclaimers and guardrails.</p><p>To customize the response to customer feedback:</p><div>\n<ol id=\"topic_q5m_1dd_f2c__ol_fwf_kfd_f2c\">\n<li data-list-item-id=\"e62f37bdd1bf603b5e0f0f3ac04e72222\">On the <a href=\"https://support.zendesk.com/hc/en-us/articles/8774095741466-Customizing-the-standard-responses-for-an-AI-agent-on-a-messaging-channel#topic_bqy_ycd_f2c\" target=\"_blank\" rel=\"noopener noreferrer\">Messaging behavior tab</a>, expand the <strong>After the AI agent replies</strong> section</li>\n<li data-list-item-id=\"ecdc59258464ed0b84a4e2e62a5829866\">Open the <strong>Helpful answer</strong> tab. Enter your custom text in the <strong>Message</strong> field to mention that the AI successfully used your FAQs.</li>\n<li data-list-item-id=\"ecf6be14c72817b2dab652d3fe89f73ac\">Open the <strong>Unhelpful answer</strong> tab. Use this field to apply guardrails by explaining that the AI source may require further clarification.</li>\n</ol>\n<p>Optionally, add an option to talk to a human to provide a direct button for support. If a customer clicks this, it triggers your <a href=\"https://support.zendesk.com/hc/en-us/articles/8774095741466-Customizing-the-standard-responses-for-an-AI-agent-on-a-messaging-channel#topic_tzc_bdd_f2c\" target=\"_blank\" rel=\"noopener noreferrer\">escalation response</a>.</p>\n</div><p>The response is saved automatically as you edit it, but updates will not be presented to customers until you <a href=\"https://support.zendesk.com/hc/en-us/articles/7232810932250\" target=\"_blank\" rel=\"noopener noreferrer\">publish the AI agent</a>.</p>",
       "user_segment_ids": []
     }
   ],
