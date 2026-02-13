@@ -1,11 +1,41 @@
 {
-  "count": 4743,
+  "count": 4744,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 159,
   "per_page": 30,
   "previous_page": null,
   "articles": [
+    {
+      "id": 10306137165338,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/10306137165338.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/10306137165338-Announcing-streamlined-integration-and-new-system-user-for-advanced-email-AI-agents",
+      "author_id": 7202056122394,
+      "comments_disabled": true,
+      "draft": false,
+      "promoted": true,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298833818,
+      "created_at": "2026-02-13T14:02:18Z",
+      "updated_at": "2026-02-13T15:36:18Z",
+      "name": "Announcing streamlined integration and new system user for advanced email AI agents",
+      "title": "Announcing streamlined integration and new system user for advanced email AI agents",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2026-02-13T15:33:06Z",
+      "user_segment_id": null,
+      "permission_group_id": 1324079,
+      "content_tag_ids": [],
+      "label_names": [
+        "newsfeed"
+      ],
+      "body": "<figure class=\"wysiwyg-table\" style=\"width: 100%;\"><table><tbody>\n<tr>\n<td><strong>Announced on</strong></td>\n<td><strong>Rollout starts</strong></td>\n<td><strong>Rollout ends</strong></td>\n</tr>\n<tr>\n<td>February 13, 2026</td>\n<td>February 11, 2026</td>\n<td>February 12, 2026</td>\n</tr>\n</tbody></table></figure><p>We’ve streamlined the process for integrating an advanced AI agent with the email channel. As part of this change, you no longer need to create an authorized user to send responses from an advanced email AI agent, meaning an agent seat is no longer consumed.</p><p>This announcement answers the following questions:</p><ul>\n<li data-list-item-id=\"e8ccf7776d17374c14bf19ae9149010c8\"><a href=\"#h_01KHBSFVXSDX5R71TBW2V8ZV7F\">What’s changing?</a></li>\n<li data-list-item-id=\"e07d4fa0b8c72ae97a910bbf5a4648595\"><a href=\"#h_01KHBSG49BPNSPYW07ZX4EMQA2\">Why is Zendesk making this change?</a></li>\n<li data-list-item-id=\"eee5330f1cdcfca24b41e67f760e2ca9c\"><a href=\"#h_01KHBSFZPQ20EQBK2YQD8GMNVG\">What do I need to do?</a></li>\n</ul><h2 id=\"h_01KHBSFVXSDX5R71TBW2V8ZV7F\">What’s changing?</h2><p>The connection between an advanced AI agent and the email channel is now based on subdomain. This means you can connect an advanced AI agent only to the production or sandbox subdomain of the environment it was created in. When you <a href=\"https://support.zendesk.com/hc/en-us/articles/8357750858010\">connect an advanced AI agent to email</a>, the subdomain is automatically restricted to the production or sandbox environment.</p><p>Additionally, you no longer need to create an authorized user to send responses from an advanced email AI agent. Going forward, advanced email AI agents use an internal <em>system</em> user to send emails in response to customers. This means that no agent seat needs to be utilized for an advanced email AI agent.</p><p>Customers continue to receive the AI agent’s email response from the <a href=\"https://support.zendesk.com/hc/en-us/articles/5279521301914#topic_ahs_l1f_bwb\">brand name and support address you’ve selected</a> in Admin Center. However, in the Agent Workspace, the ticket shows the AI agent’s response as coming from the <em>system</em> user.</p><figure class=\"wysiwyg-table\" style=\"width: 100%;\"><table><tbody>\n<tr>\n<td><img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/aiaa_email_agent_message_in_inbox.png\" width=\"300\"></td>\n<td><img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/aiaa_email_ai_agent_in_ticket.png\" width=\"300\"></td>\n</tr>\n<tr>\n<td><em>What the customer sees in an email</em></td>\n<td><em>What an agent or admin sees in the ticket</em></td>\n</tr>\n</tbody></table></figure><h2 id=\"h_01KHBSV9T45ZZ93PQVS3761D7F\">Why is Zendesk making this change?</h2><p>Advanced AI agents are a native part of Zendesk and should have out-of-the-box setup. This is the first step in simplifying the process and making it automatic in the future.</p><h2 id=\"h_01KHBSFZPQ20EQBK2YQD8GMNVG\">What do I need to do?</h2><p><a href=\"https://support.zendesk.com/hc/en-us/articles/8357750858010#topic_j5r_psk_m2c\">Triggers created</a> by Zendesk as part of the advanced email AI agent connection process work automatically.</p><p>However, if you previously created or edited any triggers that relied on an authorized user sending replies on behalf of the AI agent, you must update those triggers to ensure your workflows continue to operate as expected. For help, see <a href=\"https://support.zendesk.com/hc/en-us/articles/9985221852954#topic_gtd_cjc_h3c\">Removing the authorized user condition</a>. </p><p>If you previously created an authorized user and were using it only for the advanced email agent, you can remove it to reclaim an agent seat in your account or else utilize the authorized user in a different capacity, as needed.</p><p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/6447052855194\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\">Zendesk customer support</a>.</p>",
+      "user_segment_ids": []
+    },
     {
       "id": 10306108440602,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/10306108440602.json",
@@ -925,40 +955,6 @@
         "role_admin"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>I set up a trigger with autoreply trigger actions, and I noticed that in some cases, these don't work on <a href=\"https://support.zendesk.com/hc/en-us/articles/4408846792090-How-do-I-set-up-agent-forwarding-for-emails\" target=\"_blank\" rel=\"noopener noreferrer\">agent-forwarded </a>tickets. Why does this happen?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>These ticket trigger actions don't work for agent-forwarded tickets when an agent includes a comment:</p><ul>\n<li data-list-item-id=\"e9848d15c903f397ff7f3298dfc302828\">Autoreply with articles</li>\n<li data-list-item-id=\"e192d4de73711ea647b9d57ba1156d3ef\">Autoreply</li>\n<li data-list-item-id=\"eb2b4a1778fb22e27aad3e542fcbeded1\">Internal note</li>\n</ul><p>Note that these actions work as expected on agent-forwarded tickets if the ticket is forwarded without a comment.</p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 10228240733082,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/10228240733082.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/10228240733082-How-do-I-request-sponsorship-for-the-AI-Agents-Advanced-add-on",
-      "author_id": 9331196087066,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 8243870008090,
-      "created_at": "2026-01-27T22:12:16Z",
-      "updated_at": "2026-02-03T16:06:33Z",
-      "name": "How do I request sponsorship for the AI Agents Advanced add-on?",
-      "title": "How do I request sponsorship for the AI Agents Advanced add-on?",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2026-01-27T22:12:30Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801135069,
-      "content_tag_ids": [],
-      "label_names": [
-        "ks",
-        "ab0",
-        "mt",
-        "role_admin",
-        "ab0_ai_agents_advanced"
-      ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>How can I request a sponsored Advanced AI Agents account?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>To request the AI Agents Advanced (Ultimate) add-on sponsorship, reach out to <a href=\"https://www.zendesk.com/contact/\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk Customer Support</a> with your <a href=\"https://support.zendesk.com/hc/en-us/articles/4409381383578-Where-can-I-find-my-Zendesk-subdomain\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk subdomain</a>. For example, mysubdomain.zendesk.com.</p><p>Zendesk will provision the AI Agents Advanced SKU for you.</p><p>For more information, see the article: <a href=\"https://support.zendesk.com/hc/en-us/articles/8725042447002-About-the-AI-agents-Advanced-add-on\" target=\"_blank\" rel=\"noopener noreferrer\">About the AI agents - Advanced add-on</a></p>",
       "user_segment_ids": []
     }
   ],
