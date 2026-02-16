@@ -138,14 +138,14 @@
       "vote_count": 0,
       "section_id": 10231582044058,
       "created_at": "2026-02-11T13:58:41Z",
-      "updated_at": "2026-02-11T14:17:19Z",
+      "updated_at": "2026-02-16T15:02:50Z",
       "name": "Do I get Copilot with AI Agents - Advanced?",
       "title": "Do I get Copilot with AI Agents - Advanced?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2026-02-11T14:17:19Z",
+      "edited_at": "2026-02-16T15:02:50Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -156,7 +156,7 @@
         "ab0_ai_agents_advanced",
         "ab0_copilot"
       ],
-      "body": "<h2 id=\"h_01KH6H0D2K5PB6GFTQ4W2SHERV\">Question</h2><p>Do I get Copilot with AI Agents - Advanced?</p><h2 id=\"h_01KH6H0FJRWDQZ88C4SGVNG7AD\">Answer</h2><p>No. AI Agents - Advanced and Copilot are distinct add-ons. They’re distinct add-ons. Buy Copilot separately. </p><p>Here’s how they differ:</p><ul>\n<li data-list-item-id=\"ebf85dae8f2e30dd69aed4c7444ca3ae8\">\n<a href=\"https://support.zendesk.com/hc/en-us/articles/5608652527386-Getting-started-with-AI-features-in-the-Zendesk-Copilot-add-on\" target=\"_blank\" rel=\"noopener noreferrer\">Copilot</a> acts as an AI assistant for human agents. It boosts productivity with features such as ticket summaries and reply suggestions.</li>\n<li data-list-item-id=\"eae0de7a129cbbb3508d8e0b1f46f61a7\">\n<a href=\"https://support.zendesk.com/hc/en-us/articles/8725042447002-About-the-AI-agents-Advanced-add-on\" target=\"_blank\" rel=\"noopener noreferrer\">AI Agents - Advanced</a> are autonomous virtual agents that work directly with customers. They manage customer conversations and resolve issues on their own.</li>\n</ul><p>Think of Copilot as a productivity tool for your team and AI Agents - Advanced as a way to automate customer interactions. See Zendesk <a href=\"https://www.zendesk.com/pricing/\" target=\"_blank\" rel=\"noopener noreferrer\">pricing page</a> for details.</p>",
+      "body": "<h2 id=\"h_01KH6H0D2K5PB6GFTQ4W2SHERV\">Question</h2><p>Is Copilot included in the AI Agents - Advanced add-on?</p><h2 id=\"h_01KH6H0FJRWDQZ88C4SGVNG7AD\">Answer</h2><p>No. AI Agents - Advanced and Copilot are distinct add-ons. Buy <a href=\"https://support.zendesk.com/hc/en-us/articles/5608652527386-Getting-started-with-AI-features-in-the-Zendesk-Copilot-add-on\" target=\"_blank\" rel=\"noopener noreferrer\">Copilot</a> separately. </p><p>Here’s how they differ:</p><ul>\n<li data-list-item-id=\"ebf85dae8f2e30dd69aed4c7444ca3ae8\">\n<a href=\"https://support.zendesk.com/hc/en-us/articles/5608652527386-Getting-started-with-AI-features-in-the-Zendesk-Copilot-add-on\" target=\"_blank\" rel=\"noopener noreferrer\">Copilot</a> acts as an AI assistant for human agents. It boosts productivity with features such as ticket summaries and reply suggestions.</li>\n<li data-list-item-id=\"eae0de7a129cbbb3508d8e0b1f46f61a7\">\n<a href=\"https://support.zendesk.com/hc/en-us/articles/8725042447002-About-the-AI-agents-Advanced-add-on\" target=\"_blank\" rel=\"noopener noreferrer\">AI Agents - Advanced</a> are autonomous virtual agents that work directly with customers. They manage customer conversations and resolve issues on their own.</li>\n</ul><p>Think of Copilot as an automation and a productivity tool for your team. AI Agents - Advanced are a way to automate customer interactions. The Zendesk <a href=\"https://www.zendesk.com/pricing/\" target=\"_blank\" rel=\"noopener noreferrer\">pricing page</a> contains details.</p>",
       "user_segment_ids": []
     },
     {
