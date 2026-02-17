@@ -421,14 +421,14 @@
       "vote_count": 0,
       "section_id": 7041762819738,
       "created_at": "2026-02-05T08:51:08Z",
-      "updated_at": "2026-02-11T17:03:10Z",
+      "updated_at": "2026-02-17T11:17:31Z",
       "name": "I can't access the Zendesk QA Chrome extension",
       "title": "I can't access the Zendesk QA Chrome extension",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2026-02-06T14:33:43Z",
+      "edited_at": "2026-02-17T11:17:31Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -440,7 +440,7 @@
         "role_admin",
         "ab0_qa"
       ],
-      "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2><p>When I try to access the Zendesk QA Chrome extension, I see a blank page.</p><h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2><p>You may have used a previous login method tied to a former Klaus account to sign in to the <a href=\"https://chromewebstore.google.com/detail/zendesk-qa/eienihkhapninadhneligjdemdpkakme\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk QA Chrome extension</a>. Now, the extension may not load, show a blank page, or crash your browser.</p><p>To authenticate the extension again, follow these steps:</p><ul>\n<li data-list-item-id=\"e1dc62d3855590a6015a7e3542523fe13\">Clear your browser’s cached data and cookies for <strong>All time</strong>\n</li>\n<li data-list-item-id=\"eecb89fd01d41e87b6efe8ca2bc64436a\">Restart the browser, then load the Zendesk QA extension again</li>\n<li data-list-item-id=\"e0e44860765a050222c46afcb9ec754b9\">Select <strong>Continue with Zendesk</strong>\n</li>\n<li data-list-item-id=\"e8c72443871fc4146bb20e38b841c61c3\">Enter your Zendesk subdomain, then click <strong>Sign in</strong>\n</li>\n</ul><p>For more information about this extension, see <a href=\"https://support.zendesk.com/hc/en-us/articles/7043747869210-Setting-up-and-using-the-Zendesk-QA-Chrome-browser-extension\" target=\"_blank\" rel=\"noopener noreferrer\">Setting up and using the Zendesk QA Chrome browser extension</a>.</p>",
+      "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2><p>When I try to access the Zendesk QA Chrome extension, I see a blank page.</p><h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2><p>You may have used a previous login method tied to a former Klaus account to sign in to the <a href=\"https://chromewebstore.google.com/detail/zendesk-qa/eienihkhapninadhneligjdemdpkakme\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk QA Chrome extension</a>. Now, the extension may not load, show a blank page, or crash your browser.</p><p>To authenticate the extension again, follow these steps:</p><ul>\n<li data-list-item-id=\"e1dc62d3855590a6015a7e3542523fe13\">Clear your browser’s cached data and cookies for <strong>All time</strong>\n</li>\n<li data-list-item-id=\"eecb89fd01d41e87b6efe8ca2bc64436a\">Restart the browser, then load the Zendesk QA extension again</li>\n<li data-list-item-id=\"e0e44860765a050222c46afcb9ec754b9\">Select <strong>Continue with Zendesk</strong>\n</li>\n<li data-list-item-id=\"e8c72443871fc4146bb20e38b841c61c3\">Enter your Zendesk subdomain, then click <strong>Sign in</strong>\n</li>\n</ul><p>For more information about this extension, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/7043747869210-Setting-up-and-using-the-Zendesk-QA-Chrome-browser-extension\" target=\"_blank\" rel=\"noopener noreferrer\">Setting up and using the Zendesk QA Chrome browser extension</a>.</p>",
       "user_segment_ids": []
     },
     {
