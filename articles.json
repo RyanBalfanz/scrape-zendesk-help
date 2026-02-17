@@ -1,5 +1,5 @@
 {
-  "count": 4736,
+  "count": 4737,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 158,
@@ -160,6 +160,34 @@
         "mtpe"
       ],
       "body": "<figure class=\"wysiwyg-table\" style=\"width: 100%;\"><table style=\"margin-left: 0px; margin-right: auto;\"><tbody>\n<tr>\n<td><strong>Announced on</strong></td>\n<td><strong>Rollout starts on</strong></td>\n<td><strong>Rollout ends on</strong></td>\n</tr>\n<tr>\n<td>February 13, 2026</td>\n<td>December 11, 2026</td>\n<td>February 13, 2026</td>\n</tr>\n</tbody></table></figure><p>We’re excited to announce that our powerful no-code tool for implementing generative search is now General Available (GA). Knowledge admins can now leverage the power of quick answers in their help center theme without manually writing or modifying code.</p><p>Initially launched as a beta to validate common patterns, this tool is now ready to help all eligible customers remove the technical barriers to AI adoption.</p><p>This announcement includes the following topics:</p><ul>\n<li data-list-item-id=\"edd5b148694df4dd441321f0d88c3c235\"><a href=\"#h_01K6K3R5GRGWWB0F7VKP5Q3H5Q\">What’s changing?</a></li>\n<li data-list-item-id=\"efb1522d23179e6fc209a37737af05049\"><a href=\"#h_01K6K3RW6MFXA20AEHDH4XEV2Y\">Why is Zendesk making this change?</a></li>\n<li data-list-item-id=\"ebafb12f88482b8dee2ea571d6b0bfe9a\"><a href=\"#h_01K6K3RSS1HYBD0C7QPBEM0VRB\">What do I need to do?</a></li>\n</ul><h2 id=\"h_01K6K3R5GRGWWB0F7VKP5Q3H5Q\">What’s changing?</h2><p>The quick answers theme updater tool automatically inserts the <span style=\"color: #188038;\">{{generative_answers}}</span> helper into your theme without requiring you to touch the code. After the helper is inserted, you can preview and review exactly what users will see when they perform searches. You have the choice to either publish the changes to go live or deselect the helper to leave your current experience untouched.</p><p><img class=\"wysiwyg-image\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/knw-theme-updater-modal.png\" width=\"500\" id=\"topic_lg1_vcj_xgc__image_tt4_r4v_zgc\"></p><h2 id=\"h_01K6K3RW6MFXA20AEHDH4XEV2Y\">Why is Zendesk making this change?</h2><p>We know that many customers want to start using generative search, but editing a customized theme can be a significant barrier. This tool makes it easy and fast to start providing AI-powered answers in your help center without needing developer resources.</p><h2 id=\"h_01K6K3RSS1HYBD0C7QPBEM0VRB\">What do I need to do?</h2><p>If you don't use quick answers yet and your theme is eligible for the automatic update (primarily Copenhagen-based themes), you will see the feature appear in your account automatically. You can start the updater and follow the prompts to preview your changes.</p><ul>\n<li data-list-item-id=\"e19273a7d668ede2513bf9cd888dd12a8\">\n<strong>For Copenhagen theme users: </strong><a href=\"https://support.zendesk.com/hc/en-us/articles/9809445946778\" target=\"_blank\" rel=\"noopener noreferrer\">Follow the automated workflow</a> in your account to enable the feature.</li>\n<li data-list-item-id=\"ef2431c0256727228fd3a38e9f74e7bd6\">\n<strong>For custom theme users:</strong> If your theme is not eligible for the automatic update, see <a href=\"https://support.zendesk.com/hc/en-us/articles/4408832681626#topic_tjl_xqc_42c\" target=\"_blank\" rel=\"noopener noreferrer\">Add generative search results to your custom theme.</a> </li>\n</ul><p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/1260801308530\" target=\"_blank\" rel=\"noopener noreferrer\">community forum</a>, where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk customer support</a>.</p>",
+      "user_segment_ids": []
+    },
+    {
+      "id": 10306014823194,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/10306014823194.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/10306014823194-Announcing-enhancements-to-approval-requests",
+      "author_id": 1263082168309,
+      "comments_disabled": true,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298833818,
+      "created_at": "2026-02-13T13:12:52Z",
+      "updated_at": "2026-02-17T19:17:18Z",
+      "name": "Announcing enhancements to approval requests",
+      "title": "Announcing enhancements to approval requests",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2026-02-16T13:15:28Z",
+      "user_segment_id": null,
+      "permission_group_id": 1324079,
+      "content_tag_ids": [],
+      "label_names": [],
+      "body": "<figure class=\"wysiwyg-table wysiwyg-table-align-left\" style=\"height: 44px; width: 100%;\"><table style=\"border-collapse: collapse;\"><tbody>\n<tr style=\"height: 22px;\">\n<td style=\"height: 22px; width: 33.3333%;\"><strong>Announced on</strong></td>\n<td style=\"height: 22px; width: 33.3333%;\"><strong>Rollout starts</strong></td>\n<td style=\"height: 22px; width: 33.3333%;\"><strong>Rollout ends</strong></td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"height: 22px; width: 33.3333%;\">February 17, 2026</td>\n<td style=\"height: 22px; width: 33.3333%;\"><span style=\"color: #000000;\">February 17, 2026</span></td>\n<td style=\"height: 22px; width: 33.3333%;\">February 19, 2026</td>\n</tr>\n</tbody></table></figure><p><span style=\"font-weight: 400;\">Zendesk is pleased to announce enhancements that make approval requests easier to use.</span></p><p><span style=\"font-weight: 400;\">This announcement includes the following topics:</span></p><ul>\n<li data-list-item-id=\"e866b7a2f51d63cd9b4c483afb25beeb4\"><a href=\"#h_01GD3S97RDYVTAFTQ8WR9878VF\" target=\"_self\"><span style=\"font-weight: 400;\">What is changing?</span></a></li>\n<li data-list-item-id=\"ebcb8dbd77d11265545ab49e76be478ac\"><a href=\"#h_01GD3S9GD63FPDGQSEFY88M3ND\" target=\"_self\"><span style=\"font-weight: 400;\">Why is Zendesk making this change?</span></a></li>\n<li data-list-item-id=\"ef984b191a087d416160b42ed0db2037c\"><a href=\"#h_01GD3S9TSPXM7M4WHYKYF4E84M\" target=\"_self\"><span style=\"font-weight: 400;\">What do I need to do?</span></a></li>\n</ul><h2 id=\"h_01GD3S97RDYVTAFTQ8WR9878VF\"><span style=\"font-weight: 400;\">What is changing?</span></h2><p>Several enhancements have been made to approval requests that make it easier to provide complete information within the request and share links to approval requests when needed. Specifically:</p><ul>\n<li data-list-item-id=\"e5d994117ab2922f3ab186e072d4dea4a\">\n<strong>5x more context.</strong> We have significantly increased character limits on approval request fields and added support for better text formatting. The approval request subject can now contain up to 500 characters, and the description can contain up to 2,500 characters.</li>\n<li data-list-item-id=\"e428bac0feb4fae1cdf849cacd7443419\">\n<strong>Easier to read.</strong> Approval request descriptions now support paragraph breaks. This allows you to present complex information more clearly and makes it easier for the approver to read and understand the request.</li>\n<li data-list-item-id=\"e404b993659944d7d64d3d4bd47f080ce\">\n<strong>Direct linking.</strong> Agents can now generate direct links to approval requests, which they can use when referencing the request in other systems, such as Slack, Microsoft Teams, or in emails. Additionally, direct links to the approval request are now included in the notifications sent to agent and end user approvers.</li>\n</ul><h2 id=\"h_01GD3S9GD63FPDGQSEFY88M3ND\"><span style=\"font-weight: 400;\">Why is Zendesk making this change?</span></h2><p>Zendesk understands that complex workflows, such as change management or HR onboarding, require detailed information. Approvers need rich context and a fast way to find their assigned tasks, such as approval requests. By increasing the character limits, approval requests can provide more information to approvers, and direct links make it easier and faster for approvers to respond to approval requests without getting lost in tickets.</p><h2 id=\"h_01GD3S9TSPXM7M4WHYKYF4E84M\"><span style=\"font-weight: 400;\">What do I need to do?</span></h2><p>No action is required. These changes are available to all accounts with approval requests. When you create a new approval request, you'll notice expanded character limits and the link icon within approval requests. For more information, see <a href=\"https://support.zendesk.com/hc/en-us/articles/8481158639770\">Creating approval requests</a> and <a href=\"https://support.zendesk.com/hc/en-us/articles/9483757385114\">Accessing, sharing, and withdrawing approval requests</a>.</p><p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\">Zendesk Customer Support</a>.</p>",
       "user_segment_ids": []
     },
     {
@@ -915,41 +943,6 @@
         "visual_media"
       ],
       "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2><p>When I create an intraday variant in Zendesk Workforce Management (WFM) and add a task, I see the error message: <strong>End time can't be outside of shift</strong>.</p><p><img class=\"wysiwyg-image-resized\" style=\"aspect-ratio: 1302/730; width: 51.45%;\" src=\"https://support.zendesk.com/hc/article_attachments/10234763579162\" alt=\"&quot;End time can't be outside of shift&quot; error message in intraday variant task\" width=\"1302\" height=\"730\"></p><h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2><p>The error appears when you set up an <a href=\"https://support.zendesk.com/hc/en-us/articles/6443345205402-Setting-up-locations-and-shifts-in-Zendesk-WFM#topic_t1x_mff_b1c\" target=\"_blank\" rel=\"noopener noreferrer\">intraday variant</a> for a fixed shift in Zendesk WFM. In the <strong>Can occur between hours of shift</strong> field, enter the hours within the shift when the task can occur, not the time of day. If this range exceeds the <strong>Length</strong> field in the intraday variant's <strong>Settings</strong> tab, the system displays an error.</p><p>For example, if your shift runs from 8:00am to 4:00pm and you want a break between 11:00am and 2:00pm, enter 3:00 and 6:00 in the <strong>Can occur between hours of shift</strong> field to schedule the break 3 to 6 hours into the shift.</p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 10232061159834,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/10232061159834.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/10232061159834-Error-Zendesk-Support-could-not-be-loaded-due-to-an-error",
-      "author_id": 1263082125489,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405298881946,
-      "created_at": "2026-01-28T18:39:59Z",
-      "updated_at": "2026-02-03T16:05:29Z",
-      "name": "Error: Zendesk Support could not be loaded due to an error",
-      "title": "Error: Zendesk Support could not be loaded due to an error",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2026-01-29T07:40:28Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801135069,
-      "content_tag_ids": [],
-      "label_names": [
-        "ks",
-        "ab0",
-        "mt",
-        "ab0_support",
-        "role_agent",
-        "role_admin"
-      ],
-      "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2><p>When I try to sign in to Zendesk, I see the error: <strong>Zendesk Support could not be loaded due to an error</strong>.</p><figure><p><img src=\"https://support.zendesk.com/hc/article_attachments/10232061157658\" width=\"480\" height=\"297\"></p></figure><p>In the browser console and network logs, I may see 5xx errors.</p><h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2><p>Antivirus or VPN tools can block access to required Zendesk resources and cause this error. Confirm whether affected agents still see the error when they connect from a device that doesn’t use these tools.</p><p>If users still have issues, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-customer-support\" target=\"_blank\" rel=\"noopener noreferrer\">contact Zendesk Customer Support</a> and include an <a href=\"https://support.zendesk.com/hc/en-us/articles/204410413-Generating-a-HAR-file-for-troubleshooting\" target=\"_blank\" rel=\"noopener noreferrer\">HTTP Archive (HAR) file from one affected user</a>.</p>",
       "user_segment_ids": []
     }
   ],
