@@ -211,7 +211,7 @@
       "vote_count": 0,
       "section_id": 4405298908954,
       "created_at": "2026-02-13T17:18:08Z",
-      "updated_at": "2026-02-17T16:03:25Z",
+      "updated_at": "2026-02-21T10:28:25Z",
       "name": "Troubleshooting 401 and 403 Errors on the Zendesk Developer Platform",
       "title": "Troubleshooting 401 and 403 Errors on the Zendesk Developer Platform",
       "source_locale": "en-us",
@@ -220,7 +220,7 @@
       "outdated_locales": [],
       "edited_at": "2026-02-13T18:32:36Z",
       "user_segment_id": null,
-      "permission_group_id": 1324079,
+      "permission_group_id": 1260801135069,
       "content_tag_ids": [],
       "label_names": [
         "mt"
