@@ -1,8 +1,8 @@
 {
-  "count": 4750,
+  "count": 4723,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
-  "page_count": 159,
+  "page_count": 158,
   "per_page": 30,
   "previous_page": null,
   "articles": [
@@ -237,14 +237,14 @@
       "vote_count": 1,
       "section_id": 7041762819738,
       "created_at": "2026-02-19T14:01:04Z",
-      "updated_at": "2026-02-19T14:26:10Z",
+      "updated_at": "2026-02-24T14:32:51Z",
       "name": "My active scorecards don’t show in conversation or assignment filters",
       "title": "My active scorecards don’t show in conversation or assignment filters",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2026-02-19T14:26:10Z",
+      "edited_at": "2026-02-24T14:32:34Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -253,7 +253,7 @@
         "ab0",
         "ab0_qa"
       ],
-      "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2><p>My active scorecards don’t show in conversation or assignment filters. It only displays old ones that I deleted.</p><h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2><p>When you create a conversation filter, it displays all scorecards used before, even older ones that are inactive. However, a workspace mismatch usually explains why an active scorecard doesn't appear in your filter list.</p><p>Ensure the scorecard belongs to your workspace. Scorecards in Workspace A don’t appear when you filter conversations in Workspace B. If you filter conversations in the Workspace Outlier, you see only scorecards assigned to Outlier. Check the workspace assignment of the scorecard that doesn't appear. For example, if a scorecard such as Bot QA is in the Workspace Automations, it appears in the filter menu only when you work in that workspace.</p>",
+      "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2><p>My active scorecards don’t show in conversation or assignment filters. It only displays old ones that I deleted.</p><h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2><p>When you create a conversation filter, it displays all scorecards used before, even older ones that are inactive. However, a workspace mismatch usually explains why an active scorecard doesn't appear in your filter list.</p><p>Ensure the scorecard belongs to your workspace. Scorecards in Workspace A don’t appear when you filter conversations in Workspace B. If you filter conversations in the Workspace Outlier, you see only scorecards assigned to Outlier. Check the workspace assignment of the scorecard that doesn't appear. For example, if a scorecard such as Bot QA is in the Workspace Automations, it appears in the filter menu only when you work in that workspace. </p><p>For more information, see these articles: <a href=\"https://support.zendesk.com/hc/en-us/articles/7043669455130\" target=\"_blank\" rel=\"noopener noreferrer\">Creating custom filters to find conversations to review</a> and <a href=\"https://support.zendesk.com/hc/en-us/articles/7043701144858#topic_dmj_yjx_vfc\" target=\"_blank\" rel=\"noopener noreferrer\">Understanding dashboard filters</a>.</p>",
       "user_segment_ids": []
     },
     {
