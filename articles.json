@@ -393,14 +393,14 @@
       "vote_count": 0,
       "section_id": 6255362352154,
       "created_at": "2026-02-16T01:01:09Z",
-      "updated_at": "2026-02-17T16:02:14Z",
+      "updated_at": "2026-02-24T12:47:32Z",
       "name": "Why can't I find a handled points per hour metric?",
       "title": "Why can't I find a handled points per hour metric?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2026-02-16T01:07:21Z",
+      "edited_at": "2026-02-24T12:47:32Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -411,7 +411,7 @@
         "role_admin",
         "ab0_wfm"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>I can't find a handled points per hour metric. I only see solved points per hour. I need a solved points metric and a solved points per hour metric. How can I get these?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>There isn't a handled points per hour metric. As an alternative, you can create an hourly report to show the handled points per hour. For all available metrics, see <a href=\"https://support.zendesk.com/hc/en-us/articles/6443376913818-WFM-custom-report-metrics\" target=\"_blank\" rel=\"noopener noreferrer\">WFM custom report metrics</a>. </p>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>I can't find a handled points per hour metric. I only see solved points per hour. I need a solved points metric and a solved points per hour metric. How can I get these?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>There isn't a handled points per hour metric. As an alternative, you can create an hourly report to show the handled points per hour. For all available metrics, see <a href=\"https://support.zendesk.com/hc/en-us/articles/8920679615258\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk WFM report and dashboard metrics overview</a>. </p>",
       "user_segment_ids": []
     },
     {
