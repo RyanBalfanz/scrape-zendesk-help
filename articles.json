@@ -1,11 +1,43 @@
 {
-  "count": 4726,
+  "count": 4727,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 158,
   "per_page": 30,
   "previous_page": null,
   "articles": [
+    {
+      "id": 10352566064154,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/10352566064154.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/10352566064154--Post-mortem-February-11-2026-Agent-Workspace-All-pods-Agent-Workspace-Composer-defaulting-to-private-comments",
+      "author_id": 9005790397722,
+      "comments_disabled": true,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298854426,
+      "created_at": "2026-02-25T00:20:40Z",
+      "updated_at": "2026-02-25T08:16:04Z",
+      "name": "[Post-mortem] February 11, 2026 - Agent Workspace | All pods - Agent Workspace Composer defaulting to private comments",
+      "title": "[Post-mortem] February 11, 2026 - Agent Workspace | All pods - Agent Workspace Composer defaulting to private comments",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2026-02-25T08:14:40Z",
+      "user_segment_id": null,
+      "permission_group_id": 1324079,
+      "content_tag_ids": [
+        "01K0PTSD04FESGNSQJZ752BWCQ"
+      ],
+      "label_names": [
+        "mt"
+      ],
+      "body": "<h3 id=\"h_01KJ9XT5P2K2ZY3YDSB83YYW5Z\"><span style=\"color: #2f3941;\"><strong>Summary</strong></span></h3><p><span style=\"color: #2f3941;\">On February 11, 2026, from 08:50 UTC to 21:46 UTC, customers using Agent Workspace in Support on all Pods faced a problem where accepted messaging conversations were incorrectly marked as ‘Internal Note’.</span></p><h3 id=\"h_01KJ9XT5P3M4HAME818Z7TYZEW\"><span style=\"color: #2f3941;\"><strong>Timeline</strong></span></h3><p><span style=\"color: #2f3941;\"><strong>February 11, 2026 16:53 UTC | February 11, 2026 8:53 AM PT</strong></span></p><p><span style=\"color: #2f3941;\">We are aware of an issue causing the Agent Workspace composer to default to internal note, rather than continue with a public messaging conversation. Our engineering team is actively investigating this matter, and we will provide updates as soon as they become available. We apologize for any inconvenience this may cause and appreciate your patience.</span></p><p><span style=\"color: #2f3941;\"><strong>February 11, 2026 17:33 UTC | February 11, 2026 9:33 AM PT</strong></span></p><p><span style=\"color: #2f3941;\">Our team continues to investigate the issue causing the Agent Workspace composer to default to internal note rather than continuing with a public messaging conversation. Please note that it is possible to immediately convert back to a public conversation from the internal note setting in the composer. We will provide additional information when we have a substantive update to share.</span><br><span style=\"color: #2f3941;\">Thank you for your patience in the meantime.</span></p><p><span style=\"color: #2f3941;\"><strong>February 11, 2026 20:58 UTC | February 11, 2026 12:58 PM PT</strong></span></p><p><span style=\"color: #2f3941;\">We thank you for your patience. Our engineers have been working to resolve the issue causing Agent Workspace composer defaults to change from messaging. We aim to have a fix in place shortly. We will provide an update when this is released.</span></p><p><span style=\"color: #2f3941;\"><strong>February 11, 2026 21:45 UTC | February 11, 2026 1:45 PM PT</strong></span></p><p><span style=\"color: #2f3941;\">Our engineers have deployed a fix for the issue within the Agent Workspace composer causing messaging conversations to default to internal note or email. This should now be resolved, and we ask that you refresh your browser for the fix to take effect.</span></p><h3 id=\"h_01KJ9XT5P74XRDEV9X4WD0WFWQ\"><span style=\"color: #2f3941;\"><strong>Root Cause Analysis</strong></span></h3><p>The incident was caused by a recent code change intended to improve data accuracy, which inadvertently introduced a timing issue affecting message processing when certain tickets are opened.</p><h3 id=\"h_01KJ9XT5P7D4AJJDYCE2693FSJ\"><span style=\"color: #2f3941;\"><strong>Resolution</strong></span></h3><p><span style=\"color: #2f3941;\">To fix this issue, our engineers </span>deployed a fix that reverted the recent code causing messaging conversations to default incorrectly, restoring the proper channel selection and improving agent workflow across all pods.</p><h3 id=\"h_01KJ9XT5P8283DAGAW5NSQTXHN\"><span style=\"color: #2f3941;\"><strong>Remediation Items</strong></span></h3><ol>\n<li data-list-item-id=\"e76d9ead39298d8fe89d71ba0d8240916\">Reapply the original code changes with corrections specifically addressing the auto-accepting chats scenario.</li>\n<li data-list-item-id=\"e10973389a1aead6997bf40d264310d72\">Use a phased rollout process via Arturo to deploy the code fix smoothly when it is ready.</li>\n</ol><h4 id=\"h_01K086AN7TN2VXG8HZSHSSG4DT\"><span style=\"color: #2F3941;\"><strong>FOR MORE INFORMATION</strong></span></h4><p>For current system status information about Zendesk and specific impacts to your account, visit our <a href=\"https://status.zendesk.com/\">system status page</a>. If you have additional questions about this incident, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-Customer-Support\">contact Zendesk customer support.</a></p>",
+      "user_segment_ids": []
+    },
     {
       "id": 10352126063258,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/10352126063258.json",
@@ -924,36 +956,6 @@
         "mt"
       ],
       "body": "<p>Set up AI-powered tools, such as the enhance writing generative AI tool, to help your agents solve requests more efficiently.  </p><p>\n    <script id=\"article-redirect-script\">\n      //<![CDATA[\n      (function () {\n        let href = \"https://support.zendesk.com/hc/en-us/sections/10264298795930\";\n        const locales = [\n          \"en-us\", \"de\", \"es\", \"fr\", \"ja\", \"ko\", \"pt-br\", \"zh-cn\", \"it\",\n        ];\n        const source_url = window.location.href;\n        const source_url_locale = source_url.split(\"/\")[4];        \n        if (locales.indexOf(source_url_locale) === -1) {\n          return;\n        }\n        if (source_url_locale !== \"en-us\") {\n          href = href.replace(\"en-us\", source_url_locale);\n        }\n        location.href = href;\n      })();\n      //]]>\n    </script>\n  </p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 10264516416026,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/10264516416026.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/10264516416026-Providing-AI-assistance-with-auto-assist",
-      "author_id": 4734621635354,
-      "comments_disabled": true,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 5392381126682,
-      "created_at": "2026-02-04T21:00:45Z",
-      "updated_at": "2026-02-10T16:04:37Z",
-      "name": "Providing AI assistance with auto assist",
-      "title": "Providing AI assistance with auto assist",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2026-02-04T22:57:33Z",
-      "user_segment_id": null,
-      "permission_group_id": 1324079,
-      "content_tag_ids": [],
-      "label_names": [
-        "mt"
-      ],
-      "body": "<p>Provide AI assistance to your agents by setting up auto assist and creating procedures, actions, and direct instructions to agents.</p><p>\n    <script id=\"article-redirect-script\">\n      //<![CDATA[\n      (function () {\n        let href = \"https://support.zendesk.com/hc/en-us/sections/10264261857818\";\n        const locales = [\n          \"en-us\", \"de\", \"es\", \"fr\", \"ja\", \"ko\", \"pt-br\", \"zh-cn\", \"it\",\n        ];\n        const source_url = window.location.href;\n        const source_url_locale = source_url.split(\"/\")[4];        \n        if (locales.indexOf(source_url_locale) === -1) {\n          return;\n        }\n        if (source_url_locale !== \"en-us\") {\n          href = href.replace(\"en-us\", source_url_locale);\n        }\n        location.href = href;\n      })();\n      //]]>\n    </script>\n  </p>",
       "user_segment_ids": []
     }
   ],
