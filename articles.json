@@ -1,11 +1,41 @@
 {
-  "count": 4731,
+  "count": 4732,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 158,
   "per_page": 30,
   "previous_page": null,
   "articles": [
+    {
+      "id": 10356973691546,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/10356973691546.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/10356973691546-Reordering-and-sorting-your-list-of-ticket-triggers",
+      "author_id": 1263082180589,
+      "comments_disabled": false,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 5634465167514,
+      "created_at": "2026-02-25T23:04:18Z",
+      "updated_at": "2026-02-25T23:16:30Z",
+      "name": "Reordering and sorting your list of ticket triggers",
+      "title": "Reordering and sorting your list of ticket triggers",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2026-02-25T23:04:18Z",
+      "user_segment_id": null,
+      "permission_group_id": 1324079,
+      "content_tag_ids": [],
+      "label_names": [
+        "role_admin"
+      ],
+      "body": "<body>\n<div class=\"article-banners\">\n<div id=\"docs-wmp-link\">\n<a href=\"https://support.zendesk.com/hc/en-us/articles/5411234991258-plan\" rel=\"noopener\" target=\"_blank\">What's my plan?</a>\n</div>\n\n\n<div class=\"article-banner\" id=\"suite_all\">\n<table>\n<tbody>\n<tr>\n<td>\n<strong>All Suites</strong>\n</td>\n<td>Team, Growth, Professional, Enterprise, or Enterprise Plus</td>\n</tr>\n</tbody>\n</table>\n</div>\n\n\n<div class=\"article-banner\" id=\"support_all\">\n<table>\n<tbody>\n<tr>\n<td>\n<strong>Support</strong>\n</td>\n<td>Team, Professional, or Enterprise</td>\n</tr>\n</tbody>\n</table>\n</div>\n\n</div>\n<div id=\"docs-ai-summary\">\n<p id=\"docs-ai-summary-toggle\">Verified AI summary <span id=\"up-triangle\">◀</span><span id=\"down-triangle\">▼</span></p>\n<p id=\"docs-ai-summary-content\">Reorder ticket triggers to control their firing sequence, ensuring updates, assignments, and notifications occur in the right order. Use drag-and-drop to adjust their position. Sort triggers by properties like name or last updated for easier management. Remember, sorting doesn't change firing order. Adjust column headings for more sorting options, but reordering is key for trigger execution.</p>\n</div>\n\n<div class=\"body\">\n\n<p class=\"p\">You can reorder your list of ticket triggers to designate the order they're fired in. By\n      default, ticket triggers are sorted by position (the order in which they fire) on the Triggers\n      page, but you can change the sort order, as needed.</p>\n<div class=\"p\">This article contains the following sections:<ul class=\"ul\" id=\"topic_brc_bnz_1cb__ul_ixt_rnz_1cb\">\n<li class=\"li\"><a class=\"xref\" href=\"#topic_vnl_zpy_tb\">Reordering triggers</a></li>\n<li class=\"li\"><a class=\"xref\" href=\"#topic_zxc_hjd_dx\">Sorting the list of triggers</a></li>\n</ul>\n</div>\n<div class=\"p\">Related articles:<ul class=\"ul\" id=\"topic_brc_bnz_1cb__ul_nth_llt_pbc\">\n<li class=\"li\"><a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408818901530#topic_i25_jpy_pbc\" target=\"_blank\">Opening and viewing your list of ticket\n          triggers</a></li>\n<li class=\"li\"><a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408882237722\" target=\"_blank\">Managing ticket triggers</a></li>\n</ul>\n</div>\n</div>\n<div aria-labelledby=\"ariaid-title2\" class=\"topic nested1\" id=\"topic_vnl_zpy_tb\">\n<h2 class=\"title topictitle2\" id=\"ariaid-title2\">Reordering triggers</h2>\n<div class=\"body\">\n<p class=\"p\">You can reorder your list of ticket triggers to designate the order they're fired in.\n        Ticket trigger order is important. Remember that all of your active ticket triggers run each\n        time a ticket is created or updated and actions in one ticket trigger can affect the actions\n        in another. See <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408822236058#h_15524764971513292862138\" target=\"_blank\">Understanding when triggers run and\n          fire</a>. </p>\n<div class=\"p\">As a best practice the following order is recommended for your ticket triggers:<ol class=\"ol\" id=\"topic_vnl_zpy_tb__ol_thk_mj1_xbb\">\n<li class=\"li\">\n<strong class=\"ph b\">Changes or updates to ticket values. </strong>Any triggers that change ticket values,\n            such as status, priority, or any other field value, should be listed first. These\n            triggers can impact ticket assignments and notifications. </li>\n<li class=\"li\">\n<strong class=\"ph b\">Ticket assignments. </strong>Triggers that assign tickets to groups or individual agents\n            should be listed after triggers that update any other value on the ticket. </li>\n<li class=\"li\">\n<strong class=\"ph b\">Notifications. </strong>Triggers that send notifications to users or targets should be\n            listed last. This is because you want the system to make any necessary changes before\n            you send out email notifications. </li>\n</ol>\n</div>\n<p class=\"p\">You can use trigger categories to reorder multiple ticket triggers at the same time. See\n          <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408832263066#topic_avl_ksn_tnb\" target=\"_blank\">Reordering trigger\n          categories</a> and <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408834781594#topic_cdk_m1n_tnb\" target=\"_blank\">Organizing ticket triggers within\n          categories</a>.\n      </p>\n<p class=\"p\">Updating the order of your ticket triggers is not reflected as a change in the revision\n        history. It is, however, reflected in the trigger's last updated timestamp. </p>\n<p class=\"p\"><strong class=\"ph b\">To reorder ticket triggers using drag-and-drop</strong></p>\n<div class=\"p\">\n<ol class=\"ol\" id=\"topic_vnl_zpy_tb__ol_kbq_l5g_4w\">\n<li class=\"li\"><span class=\"ph\">In <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4581766374554#topic_hfg_dyz_1hb\" target=\"_blank\">Admin Center</a>, click <img class=\"image\" id=\"topic_vnl_zpy_tb__d7e1713\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/ac_objects_rules_icon.png\">\n<strong class=\"ph b\">Objects and rules</strong> in the sidebar, then select <strong class=\"ph b\">Business rules &gt;\n      Triggers</strong>.</span></li>\n<li class=\"li\">Click the <strong class=\"ph b\">Tickets</strong> tab.</li>\n<li class=\"li\">Click <strong class=\"ph b\">Edit order</strong> in the upper right.<p class=\"p\"><img class=\"image img-screenshot\" id=\"topic_vnl_zpy_tb__image_dzk_rqc_dx\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/triggers_edit_order_button.png\" width=\"100\"></p>\n<p class=\"p\">You'll see a\n              list of ticket triggers in the default sort order.</p>\n</li>\n<li class=\"li\">Select the ticket triggers you want to move.</li>\n<li class=\"li\">Click and hold the drag-and-drop handle (<img class=\"image\" id=\"topic_vnl_zpy_tb__image_gx4_fgh_4w\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/drag_and_drop_handle.png\" width=\"20\">) for the ticket triggers you want to move.</li>\n<li class=\"li\">Drag the triggers into position and release the handle. Repeat as needed to reorder\n            your ticket triggers list.</li>\n<li class=\"li\">Click <strong class=\"ph b\">Save</strong>.</li>\n</ol>\n</div>\n<div class=\"note note\">\n<span class=\"notetitle\">Note:</span> If you receive a \"Trigger order wasn't updated\" error message when you reorder your\n        triggers, see <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408881509914\" target=\"_blank\">Trigger order wasn't\n        updated</a>.One\n        reason you may see this error message is if the trigger references any invalid fields or\n        values.</div>\n</div>\n</div>\n<div aria-labelledby=\"ariaid-title3\" class=\"topic nested1\" id=\"topic_zxc_hjd_dx\">\n<h2 class=\"title topictitle2\" id=\"ariaid-title3\">Sorting the list of triggers</h2>\n<div class=\"body\">\n<p class=\"p\">By default, ticket triggers are sorted by position (the order in which they fire). You can\n        change the sort order by clicking the column headings that appear on the triggers page. You\n        can sort based on a number of properties, including:</p>\n<div class=\"p\">\n<ul class=\"ul\" id=\"topic_zxc_hjd_dx__ul_ayc_hjd_dx\">\n<li class=\"li\">Name</li>\n<li class=\"li\">Last updated</li>\n<li class=\"li\">Date created</li>\n<li class=\"li\">Triggered (last 1 hour, last 24 hours, last 7 days, or last 30 days).</li>\n</ul>\n</div>\n<p class=\"p\">Sorting your ticket triggers doesn't affect the order your triggers run and fire in. If you\n        want to select a new order to fire your ticket triggers, follow the steps in <a class=\"xref\" href=\"#topic_vnl_zpy_tb\">Reordering triggers</a>.</p>\n<div class=\"p\">\n<strong class=\"ph b\">To sort your ticket triggers</strong><ol class=\"ol\" id=\"topic_zxc_hjd_dx__ol_byc_hjd_dx\">\n<li class=\"li\"><span class=\"ph\">In <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4581766374554#topic_hfg_dyz_1hb\" target=\"_blank\">Admin Center</a>, click <img class=\"image\" id=\"topic_zxc_hjd_dx__d7e1713\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/ac_objects_rules_icon.png\">\n<strong class=\"ph b\">Objects and rules</strong> in the sidebar, then select <strong class=\"ph b\">Business rules &gt;\n      Triggers</strong>.</span></li>\n<li class=\"li\">Click the <strong class=\"ph b\">Tickets</strong> tab.</li>\n<li class=\"li\">Click the column heading you want to use to sort your ticket triggers. <p class=\"p\">The triggers\n              are reorganized based on that property.</p>\n</li>\n<li class=\"li\">Click the column heading again to change from ascending to descending order.</li>\n<li class=\"li\">Click the column heading a third time to return to the default sort order.</li>\n<li class=\"li\">To return to the default sort order, click the <strong class=\"ph b\">Undo sort</strong> button.</li>\n<li class=\"li\">You can increase your sorting options by changing some of the column headings that\n            appear in the list. At the top of the ticket triggers list, click the columns icon\n              (<img class=\"image\" id=\"topic_zxc_hjd_dx__image_ckk_kjb_pmb\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/show_columns_icon.png\">) and then select and deselect columns as needed.<p class=\"p\"><img class=\"image img-screenshot\" id=\"topic_zxc_hjd_dx__image_ns4_jnb_pmb\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/triggers_show_columns4_tm.png\" width=\"200\"></p>\n</li>\n</ol>\n</div>\n</div>\n</div>\n<script id=\"ai-summary-script\">\n       //<![CDATA[\n         const ai_summary_style = document.createElement('style');\n         ai_summary_style.innerHTML = `#styled-article-body{padding:0 0 0}#article-body #docs-ai-summary{background-color:#f3f3f3;border:1px solid #d3d3d3;padding:10px 10px 6px;margin-bottom:16px}#article-body #docs-ai-summary #docs-ai-summary-toggle{font-size:.9em;font-weight:700;margin-bottom:4px;cursor:pointer;display:flex;justify-content:space-between;align-items:center}#article-body #docs-ai-summary #docs-ai-summary-toggle #up-triangle{margin-left:auto;padding-right:10px;display:none}#article-body #docs-ai-summary #docs-ai-summary-toggle #down-triangle{margin-left:auto;padding-right:10px}#article-body #docs-ai-summary #docs-ai-summary-content{font-size:.9em;padding-left:25px;padding-right:25px;margin-bottom:12px}`;\n         document.head.appendChild(ai_summary_style);\n         \n         \n        const toggleAISummary = () => {\n           const summary = document.getElementById(\"docs-ai-summary-content\");\n           const upTriangle = document.getElementById(\"up-triangle\");\n           const downTriangle = document.getElementById(\"down-triangle\");\n          if (summary.style.display === \"none\") {\n            summary.style.display = \"block\";\n            upTriangle.style.display = \"none\";\n            downTriangle.style.display = \"inline\";\n          } else {\n            summary.style.display = \"none\";\n            upTriangle.style.display = \"inline\";\n            downTriangle.style.display = \"none\";\n          }\n         };\n        \n         document.getElementById(\"docs-ai-summary-toggle\").addEventListener(\"click\", toggleAISummary);\n       //]]>\n       </script>\n</body>",
+      "user_segment_ids": []
+    },
     {
       "id": 10352566064154,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/10352566064154.json",
@@ -926,36 +956,6 @@
         "mt"
       ],
       "body": "<p>Provide AI assistance to your agents by setting up auto assist and creating procedures, actions, and direct instructions to agents.</p><p>\n    <script id=\"article-redirect-script\">\n      //<![CDATA[\n      (function () {\n        let href = \"https://support.zendesk.com/hc/en-us/sections/10264261857818\";\n        const locales = [\n          \"en-us\", \"de\", \"es\", \"fr\", \"ja\", \"ko\", \"pt-br\", \"zh-cn\", \"it\",\n        ];\n        const source_url = window.location.href;\n        const source_url_locale = source_url.split(\"/\")[4];        \n        if (locales.indexOf(source_url_locale) === -1) {\n          return;\n        }\n        if (source_url_locale !== \"en-us\") {\n          href = href.replace(\"en-us\", source_url_locale);\n        }\n        location.href = href;\n      })();\n      //]]>\n    </script>\n  </p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 10264504902298,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/10264504902298.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/10264504902298-Using-Intelligent-triage-ticket-predictions",
-      "author_id": 4734621635354,
-      "comments_disabled": true,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 5392381126682,
-      "created_at": "2026-02-04T20:59:20Z",
-      "updated_at": "2026-02-10T16:05:01Z",
-      "name": "Using Intelligent triage ticket predictions",
-      "title": "Using Intelligent triage ticket predictions",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2026-02-04T23:00:04Z",
-      "user_segment_id": null,
-      "permission_group_id": 1324079,
-      "content_tag_ids": [],
-      "label_names": [
-        "mt"
-      ],
-      "body": "<p>Set up and use intelligent triage to detect the intent, sentiment, and language of customers' tickets. Define entities to detect specific information in tickets.</p><p>\n    <script id=\"article-redirect-script\">\n      //<![CDATA[\n      (function () {\n        let href = \"https://support.zendesk.com/hc/en-us/sections/10264281202074\";\n        const locales = [\n          \"en-us\", \"de\", \"es\", \"fr\", \"ja\", \"ko\", \"pt-br\", \"zh-cn\", \"it\",\n        ];\n        const source_url = window.location.href;\n        const source_url_locale = source_url.split(\"/\")[4];        \n        if (locales.indexOf(source_url_locale) === -1) {\n          return;\n        }\n        if (source_url_locale !== \"en-us\") {\n          href = href.replace(\"en-us\", source_url_locale);\n        }\n        location.href = href;\n      })();\n      //]]>\n    </script>\n  </p>",
       "user_segment_ids": []
     }
   ],
