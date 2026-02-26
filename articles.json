@@ -1,5 +1,5 @@
 {
-  "count": 4735,
+  "count": 4734,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 158,
@@ -481,41 +481,6 @@
       "user_segment_ids": []
     },
     {
-      "id": 10323439794458,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/10323439794458.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/10323439794458-How-can-I-enable-browser-notifications-on-windows-for-Contact-Centre-calls",
-      "author_id": 1263082094449,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 10237098287770,
-      "created_at": "2026-02-18T05:24:44Z",
-      "updated_at": "2026-02-26T06:39:44Z",
-      "name": "How can I enable browser notifications on windows for Contact Centre calls?",
-      "title": "How can I enable browser notifications on windows for Contact Centre calls?",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2026-02-26T06:39:40Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801135069,
-      "content_tag_ids": [],
-      "label_names": [
-        "ks",
-        "ab0",
-        "role_agent",
-        "role_admin",
-        "ab0_contact_center",
-        "visual_media"
-      ],
-      "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Question</h2><p>How do I activate DND mode? I don't want my browser tab to sleep, as it prevents Contact Center call notifications from Zendesk.</p><h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Answer</h2><p>To allow browser notifications:</p><h4 id=\"h_01KJ7FHCGXQXR519J61T8N1QJV\">Allow Amazon Connect cookies in the browser</h4><ol>\n<li id=\"e0da8d147ca19354317f51cc2865adaeb\" data-list-item-id=\"e013bf1fce360a5e580b6fa5ea3f199ec\">In the browser, open the cookies setting page using the URLs:<ul>\n<li id=\"ef937f3fe84673692a3d69740c86c83f8\" data-list-item-id=\"e8cf7010f8e2f4a6689a19eb032729d75\">Chrome: <code>chrome://settings/cookies</code>\n</li>\n<li id=\"e4c37777694c142e5262301f09a4b7d04\" data-list-item-id=\"e93a7040a852eae58f6020d938e9e7d73\">Edge: <code>edge://settings/content/cookies</code>\n</li>\n</ul>\n</li>\n<li id=\"eb01fb4187906ab695e1f3bbb89aa6258\" data-list-item-id=\"eacbaef78749f68645895a6fc2082a5d9\">Under <strong>Sites allowed to use third-party cookies</strong>, click <strong>Add</strong>.</li>\n<li id=\"e3b69699b430a254614ce494fff77c905\" data-list-item-id=\"e4a4aa258f2991357ee826c62efefbb4d\">Add these domains:<ul>\n<li id=\"e6964496e37c63499bdf878642b0738d8\" data-list-item-id=\"e3b92f80387e24be2981cbac87cf3b321\"><code>[*.]amazon.com</code></li>\n<li id=\"edc024e885c9c2603ec19c1c1d5a80b1a\" data-list-item-id=\"e80374e2db239b1a1b1240e556ad1153e\"><code>[*.]connect.aws</code></li>\n<li id=\"eb05b84e6a4c2bde4a4924b6858f0d6c9\" data-list-item-id=\"e69124166a9afb28c9120b33a85f02520\">\n<code>[*.]my.connect.aws</code> (or the specific instance URL)</li>\n</ul>\n</li>\n</ol><h4 id=\"h_01KJ7FJR6CA455ZV3S3JZD4H2S\">The missed calls issue and sleeping tabs</h4><p>Prevent the browser from putting Zendesk to sleep:</p><ol>\n<li id=\"ef9d01a3d8f6da11d54a017832fabe048\" data-list-item-id=\"e126c382c27131c49c4094f8ca8215436\">In the Edge browser, open the systems page: <code>edge://settings/system</code>\n</li>\n<li id=\"eb2ceab30dc0b3620419003b8e4bd3b43\" data-list-item-id=\"e70b186a577216dd68c3b2bc103c15589\">Select <strong>Performance</strong> and locate the <strong>Never put these sites to sleep</strong> setting</li>\n<li id=\"ef51b8da86b771e281c3cb5e48a2050fe\" data-list-item-id=\"e00600a761ddfc07b912d4eabf744fcc0\">Click the <strong>Add site</strong> button and add your Zendesk subdomain, for example <code><em>yoursubdomain</em>.zendesk.com</code>\n</li>\n<li id=\"ed89914f5fc6f98425a420cfcc17b87b9\" data-list-item-id=\"e682823a4fbf2c9d48ff86f8dac594e33\">Review the <a href=\"https://support.microsoft.com/en-au/windows/make-it-easier-to-focus-on-tasks-0d259fd9-e9d0-702c-c027-007f0e78eaf2\" target=\"_blank\" rel=\"noopener noreferrer\">Windows Focus Assist</a> setting to ensure <strong>Focus Assist</strong> or <strong>Do Not Disturb</strong> is <strong>Off</strong>. If the settings are enabled, the ringtone notification is suppressed and the agent won't hear the incoming call. <img src=\"https://support.zendesk.com/hc/article_attachments/10358278176154\" width=\"836\" height=\"409\">\n</li>\n</ol><h4 id=\"h_01KJ7FM2988P1SMH709FERNFD6\">Disable Chrome Memory Saver</h4><ol>\n<li id=\"ed021b7807a00e1e26405fc1689012ada\" data-list-item-id=\"e4b0af872affc1d7e83178eeb11631faf\">In Chrome, open performance settings using the URL: <code>chrome://settings/performance</code>\n</li>\n<li id=\"e14c4dffc6fae9eef4601990902f40cde\" data-list-item-id=\"ed392c1bc2e0b099869402613164f788c\">Locate the <strong>Memory Saver</strong> section. Even if the setting is enabled, you don't need to turn it off completely</li>\n<li id=\"e12247f5e7715b1876bd0301938008017\" data-list-item-id=\"e80f57e766916737432cb606471c7d083\">Locate the <strong>Always keep these sites active</strong> setting, click <strong>Add</strong>, and select <strong>Add sites manually</strong>\n</li>\n<li id=\"e2540b74e990e9316098778cab7f8001a\" data-list-item-id=\"e331f6cc40ba47dbd8394b04de04858bb\">Enter your Zendesk subdomain <code><em>yoursubdomain</em>.zendesk.com</code> or enter <code>zendesk.com</code> to cover all Zendesk subdomains and click <strong>Add</strong> to save</li>\n</ol>",
-      "user_segment_ids": []
-    },
-    {
       "id": 10314155436442,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/10314155436442.json",
       "html_url": "https://support.zendesk.com/hc/en-us/articles/10314155436442-Why-can-t-I-find-a-handled-points-per-hour-metric",
@@ -961,6 +926,36 @@
         "ab0_qa"
       ],
       "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2><p>When I try to access the Zendesk QA Chrome extension, I see a blank page.</p><h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2><p>You may have used a previous login method tied to a former Klaus account to sign in to the <a href=\"https://chromewebstore.google.com/detail/zendesk-qa/eienihkhapninadhneligjdemdpkakme\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk QA Chrome extension</a>. Now, the extension may not load, show a blank page, or crash your browser.</p><p>To authenticate the extension again, follow these steps:</p><ul>\n<li data-list-item-id=\"e1dc62d3855590a6015a7e3542523fe13\">Clear your browser’s cached data and cookies for <strong>All time</strong>\n</li>\n<li data-list-item-id=\"eecb89fd01d41e87b6efe8ca2bc64436a\">Restart the browser, then load the Zendesk QA extension again</li>\n<li data-list-item-id=\"e0e44860765a050222c46afcb9ec754b9\">Select <strong>Continue with Zendesk</strong>\n</li>\n<li data-list-item-id=\"e8c72443871fc4146bb20e38b841c61c3\">Enter your Zendesk subdomain, then click <strong>Sign in</strong>\n</li>\n</ul><p>For more information about this extension, see this article: <a href=\"https://support.zendesk.com/hc/en-us/articles/7043747869210-Setting-up-and-using-the-Zendesk-QA-Chrome-browser-extension\" target=\"_blank\" rel=\"noopener noreferrer\">Setting up and using the Zendesk QA Chrome browser extension</a>.</p>",
+      "user_segment_ids": []
+    },
+    {
+      "id": 10264517683610,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/10264517683610.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/10264517683610-Setting-up-AI-powered-agent-tools",
+      "author_id": 4734621635354,
+      "comments_disabled": true,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 5392381126682,
+      "created_at": "2026-02-04T21:01:45Z",
+      "updated_at": "2026-02-10T16:04:56Z",
+      "name": "Setting up AI-powered agent tools",
+      "title": "Setting up AI-powered agent tools",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2026-02-04T22:54:51Z",
+      "user_segment_id": null,
+      "permission_group_id": 1324079,
+      "content_tag_ids": [],
+      "label_names": [
+        "mt"
+      ],
+      "body": "<p>Set up AI-powered tools, such as the enhance writing generative AI tool, to help your agents solve requests more efficiently.  </p><p>\n    <script id=\"article-redirect-script\">\n      //<![CDATA[\n      (function () {\n        let href = \"https://support.zendesk.com/hc/en-us/sections/10264298795930\";\n        const locales = [\n          \"en-us\", \"de\", \"es\", \"fr\", \"ja\", \"ko\", \"pt-br\", \"zh-cn\", \"it\",\n        ];\n        const source_url = window.location.href;\n        const source_url_locale = source_url.split(\"/\")[4];        \n        if (locales.indexOf(source_url_locale) === -1) {\n          return;\n        }\n        if (source_url_locale !== \"en-us\") {\n          href = href.replace(\"en-us\", source_url_locale);\n        }\n        location.href = href;\n      })();\n      //]]>\n    </script>\n  </p>",
       "user_segment_ids": []
     }
   ],
