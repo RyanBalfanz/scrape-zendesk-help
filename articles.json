@@ -1,5 +1,5 @@
 {
-  "count": 4727,
+  "count": 4728,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 158,
@@ -126,6 +126,36 @@
         "ab0_wfm"
       ],
       "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2><p>WFM tools is incorrectly increasing untracked time for agents. However, the automation clocks users out. We have multiple agents where the untracked time counter is incorrectly running and has caused their untracked to look as high as 50 hrs. This is the case eeven if they were not scheduled to work.</p><h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2><p>To understand the cause of untracked time, verify the breakdown of the agent's activity when they ended their day and make a comparison.</p><p>To avoid confusion in WFM, create an automation that looks for <strong>Untracked </strong>time. Set up an automation like the attached screenshot.</p><figure class=\"wysiwyg-image\"><img style=\"aspect-ratio: 473/270;\" src=\"https://support.zendesk.com/hc/article_attachments/10389111031962\" alt=\"automation that looks for Untracked time.png\" width=\"473\" height=\"270\"></figure>",
+      "user_segment_ids": []
+    },
+    {
+      "id": 10384835795994,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/10384835795994.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/10384835795994-Announcing-the-ability-to-configure-the-sender-for-advanced-AI-agent-emails",
+      "author_id": 7202056122394,
+      "comments_disabled": true,
+      "draft": false,
+      "promoted": true,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298833818,
+      "created_at": "2026-03-04T14:33:51Z",
+      "updated_at": "2026-03-09T15:39:00Z",
+      "name": "Announcing the ability to configure the sender for advanced AI agent emails",
+      "title": "Announcing the ability to configure the sender for advanced AI agent emails",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2026-03-09T15:38:16Z",
+      "user_segment_id": null,
+      "permission_group_id": 1324079,
+      "content_tag_ids": [],
+      "label_names": [
+        "newsfeed"
+      ],
+      "body": "<figure class=\"wysiwyg-table\" style=\"width: 100%;\"><table><tbody>\n<tr>\n<td><strong>Announced on</strong></td>\n<td><strong>Rollout on</strong></td>\n</tr>\n<tr>\n<td>March 9, 2026</td>\n<td>March 9, 2026</td>\n</tr>\n</tbody></table></figure><p>We’re introducing the ability to configure a specific user to be used as the sender of any AI agent email responses. This change affects only the user shown in the ticket view in the Agent Workspace.</p><p>This announcement answers the following questions:</p><ul>\n<li data-list-item-id=\"e119058b36f61193d5290995ad602b24e\"><a href=\"#h_01KJWKW4HDCDJQ7XB9G9SAREBK\">What’s changing?</a></li>\n<li data-list-item-id=\"e0facc141b7e1b0c0d807158c66980407\"><a href=\"#h_01KJWKZ0KZZG228WHMDFVWZX6E\">Why is Zendesk making this change?</a></li>\n<li data-list-item-id=\"e9ac7480937c60a9bff8bca62c68a1a93\"><a href=\"#h_01KJWKY5QEVVEFFV14ZGHYP6PD\">What do I need to do?</a></li>\n</ul><h2 id=\"h_01KJWKW4HDCDJQ7XB9G9SAREBK\">What’s changing?</h2><p>We recently <a href=\"https://support.zendesk.com/hc/en-us/articles/10306137165338\">announced</a> a change that streamlined the integration process and introduced a system user for advanced AI agents on the email channel. That change removed the need to use an agent seat to authorize your AI agent’s email responses. However, it also meant that responses to customer emails were sent from the <em>system</em> user when viewed in tickets.</p><p>Now, you have the option to configure a specific user to be used as the sender of any AI agent email responses, or else use the system user instead. Which option is right for you depends on your setup. For guidance, see <a href=\"https://support.zendesk.com/hc/en-us/articles/8357750858010#topic_ofm_pxd_m3c\">Configuring the sender of advanced AI agent email responses</a>.</p><p>Customers continue to receive the AI agent’s email response in their inbox from the <a href=\"https://support.zendesk.com/hc/en-us/articles/5279521301914#topic_ahs_l1f_bwb\">brand name and support address you’ve selected</a> in Admin Center. However, in the Agent Workspace, the ticket shows the AI agent’s response as coming from the <em>system</em> user (by default) or else the sender you configure.</p><figure class=\"wysiwyg-table\" style=\"width: 100%;\"><table><tbody>\n<tr>\n<td><img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/aiaa_email_agent_message_in_inbox.png\" width=\"350\"></td>\n<td><img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/aiaa_email_ai_agent_in_ticket.png\" width=\"300\"></td>\n<td><img src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/aiaa_email_ai_agent_configured_sender_in_ticket.png\" width=\"300\"></td>\n</tr>\n<tr>\n<td><em>What the customer sees in an email</em></td>\n<td><em>If you use the default system user: What an agent or admin sees in the ticket</em></td>\n<td><em>If you configure the sender: An example of what an agent or admin sees in the ticket</em></td>\n</tr>\n</tbody></table></figure><h2 id=\"h_01KJWKZ0KZZG228WHMDFVWZX6E\">Why is Zendesk making this change?</h2><p>We realize that being able to choose your branding is important, which is why we’ve introduced the option to configure the sender of AI agent email responses in tickets.</p><h2 id=\"h_01KJWKY5QEVVEFFV14ZGHYP6PD\">What do I need to do?</h2><p>If you’re currently using the system user <a href=\"https://support.zendesk.com/hc/en-us/articles/10306137165338\">introduced by the previous change</a>, and you don’t want to configure the email sender as seen in tickets, no action is required.</p><p>If you’re currently using an authorized user that was configured before the previously announced change, that user is still used as the email sender. However, you now have the ability to change this user if desired.</p><p>If you want to configure a different user to be used as the email sender in tickets, see <a href=\"https://support.zendesk.com/hc/en-us/articles/8357750858010#topic_ofm_pxd_m3c\">Configuring the sender of advanced AI agent email responses</a>. Note that references to the user in any dependent triggers would require updating as well.</p><p>If you have feedback or questions related to this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/6447052855194\">community forum</a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\">Zendesk customer support</a>.</p>",
       "user_segment_ids": []
     },
     {
@@ -945,41 +975,6 @@
         "ab0_copilot"
       ],
       "body": "<h2 id=\"h_01KH6H0D2K5PB6GFTQ4W2SHERV\">Question</h2><p>Is Copilot included in the AI Agents - Advanced add-on?</p><h2 id=\"h_01KH6H0FJRWDQZ88C4SGVNG7AD\">Answer</h2><p>No. AI Agents - Advanced and Copilot are distinct add-ons. Buy <a href=\"https://support.zendesk.com/hc/en-us/articles/5608652527386-Getting-started-with-AI-features-in-the-Zendesk-Copilot-add-on\" target=\"_blank\" rel=\"noopener noreferrer\">Copilot</a> separately. </p><p>Here’s how they differ:</p><ul>\n<li data-list-item-id=\"ebf85dae8f2e30dd69aed4c7444ca3ae8\">\n<a href=\"https://support.zendesk.com/hc/en-us/articles/5608652527386-Getting-started-with-AI-features-in-the-Zendesk-Copilot-add-on\" target=\"_blank\" rel=\"noopener noreferrer\">Copilot</a> acts as an AI assistant for human agents. It boosts productivity with features such as ticket summaries and reply suggestions.</li>\n<li data-list-item-id=\"eae0de7a129cbbb3508d8e0b1f46f61a7\">\n<a href=\"https://support.zendesk.com/hc/en-us/articles/8725042447002-About-the-AI-agents-Advanced-add-on\" target=\"_blank\" rel=\"noopener noreferrer\">AI Agents - Advanced</a> are autonomous virtual agents that work directly with customers. They manage customer conversations and resolve issues on their own.</li>\n</ul><p>Think of Copilot as an automation and a productivity tool for your team. AI Agents - Advanced are a way to automate customer interactions. The Zendesk <a href=\"https://www.zendesk.com/pricing/\" target=\"_blank\" rel=\"noopener noreferrer\">pricing page</a> contains details.</p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 10294396533658,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/10294396533658.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/10294396533658-Scheduled-Maintenance-March-4-27-2026-Zendesk-QA",
-      "author_id": 9005790397722,
-      "comments_disabled": true,
-      "draft": false,
-      "promoted": true,
-      "position": 0,
-      "vote_sum": 1,
-      "vote_count": 1,
-      "section_id": 4405298854426,
-      "created_at": "2026-02-11T06:47:21Z",
-      "updated_at": "2026-02-13T08:01:18Z",
-      "name": "Scheduled Maintenance - March 4-27, 2026 | Zendesk QA",
-      "title": "Scheduled Maintenance - March 4-27, 2026 | Zendesk QA",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2026-02-12T00:29:38Z",
-      "user_segment_id": null,
-      "permission_group_id": 1324079,
-      "content_tag_ids": [
-        "01K0PTSD04FESGNSQJZ752BWCQ"
-      ],
-      "label_names": [
-        "mt",
-        "maintenance",
-        "scheduled_maintenance",
-        "zendesk qa"
-      ],
-      "body": "<p><span style=\"color: #464646;\">Zendesk will perform critical maintenance which will impact Zendesk QA availability for some customers in March, 2026, during the days listed below.</span></p><p><span style=\"color: #434343;\"><strong>Affected products:</strong></span><span style=\"font-weight: 400;\"> Zendesk QA</span></p><div class=\"note\">\n<span class=\"notetitle\"><strong>Important:</strong></span> Only Zendesk QA customers who have been notified via in-product banners will be impacted, based on the maintenance dates and timings below. These banners will appear for account owners and admins in Zendesk Support approximately 14 days before the scheduled Maintenance date listed below. If you do not receive this alert, your account will not be impacted.</div><div class=\"p\">\n<div class=\"note tip\">\n<span class=\"tiptitle\"><strong>Customers Affected: </strong></span><span style=\"color: #464646;\">Zendesk QA customers on multiple Pods will experience a <strong>maximum service disruption of 30 minutes</strong> at some time within the scheduled day of maintenance (the scheduled day of maintenance will be displayed in the aforementioned banner in Support)</span><span style=\"font-weight: 400;\"><strong>.</strong></span><span style=\"font-weight: 400;\"></span>\n</div>\n<div><figure class=\"wysiwyg-table\" style=\"width: 71.47%;\"><table class=\"wysiwyg-table-resized\">\n<colgroup>\n<col style=\"width: 32.91%;\">\n<col style=\"width: 34.48%;\">\n<col style=\"width: 32.61%;\">\n</colgroup>\n<tbody>\n<tr>\n<td style=\"text-align: right;\"><span style=\"color: #2F3941;\">Maintenance date</span></td>\n<td style=\"text-align: right;\"><span style=\"color: #2F3941;\">Start time (UTC)</span></td>\n<td style=\"text-align: right;\"><span style=\"color: #2F3941;\">End time (UTC)</span></td>\n</tr>\n<tr>\n<td style=\"text-align: right;\"><span style=\"color: #434343;\">March 4, 2026</span></td>\n<td style=\"text-align: right;\"><span style=\"color: #434343;\">7:00 AM</span></td>\n<td style=\"text-align: right;\"><span style=\"color: #434343;\">3:00 PM</span></td>\n</tr>\n<tr>\n<td style=\"text-align: right;\"><span style=\"color: #434343;\">March 5, 2026</span></td>\n<td style=\"text-align: right;\"><span style=\"color: #434343;\">7:00 AM</span></td>\n<td style=\"text-align: right;\"><span style=\"color: #434343;\">3:00 PM</span></td>\n</tr>\n<tr>\n<td style=\"text-align: right;\"><span style=\"color: #434343;\">March 6, 2026</span></td>\n<td style=\"text-align: right;\"><span style=\"color: #434343;\">7:00 AM</span></td>\n<td style=\"text-align: right;\"><span style=\"color: #434343;\">3:00 PM</span></td>\n</tr>\n<tr>\n<td style=\"text-align: right;\"><span style=\"color: #434343;\">March 9, 2026</span></td>\n<td style=\"text-align: right;\"><span style=\"color: #434343;\">7:00 AM</span></td>\n<td style=\"text-align: right;\"><span style=\"color: #434343;\">3:00 PM</span></td>\n</tr>\n<tr>\n<td style=\"text-align: right;\"><span style=\"color: #434343;\">March 10, 2026</span></td>\n<td style=\"text-align: right;\"><span style=\"color: #434343;\">7:00 AM</span></td>\n<td style=\"text-align: right;\"><span style=\"color: #434343;\">3:00 PM</span></td>\n</tr>\n<tr>\n<td style=\"text-align: right;\"><span style=\"color: #434343;\">March 11, 2026</span></td>\n<td style=\"text-align: right;\"><span style=\"color: #434343;\">7:00 AM</span></td>\n<td style=\"text-align: right;\"><span style=\"color: #434343;\">3:00 PM</span></td>\n</tr>\n<tr>\n<td style=\"text-align: right;\"><span style=\"color: #434343;\">March 12, 2026</span></td>\n<td style=\"text-align: right;\"><span style=\"color: #434343;\">7:00 AM</span></td>\n<td style=\"text-align: right;\"><span style=\"color: #434343;\">3:00 PM</span></td>\n</tr>\n<tr>\n<td style=\"text-align: right;\"><span style=\"color: #434343;\">March 13, 2026</span></td>\n<td style=\"text-align: right;\"><span style=\"color: #434343;\">7:00 AM</span></td>\n<td style=\"text-align: right;\"><span style=\"color: #434343;\">3:00 PM</span></td>\n</tr>\n<tr>\n<td style=\"text-align: right;\"><span style=\"color: #434343;\">March 18, 2026</span></td>\n<td style=\"text-align: right;\"><span style=\"color: #434343;\">7:00 AM</span></td>\n<td style=\"text-align: right;\"><span style=\"color: #434343;\">3:00 PM</span></td>\n</tr>\n<tr>\n<td style=\"text-align: right;\"><span style=\"color: #434343;\">March 19, 2026</span></td>\n<td style=\"text-align: right;\"><span style=\"color: #434343;\">7:00 AM</span></td>\n<td style=\"text-align: right;\"><span style=\"color: #434343;\">3:00 PM</span></td>\n</tr>\n<tr>\n<td style=\"text-align: right;\"><span style=\"color: #434343;\">March 20, 2026</span></td>\n<td style=\"text-align: right;\"><span style=\"color: #434343;\">7:00 AM</span></td>\n<td style=\"text-align: right;\"><span style=\"color: #434343;\">3:00 PM</span></td>\n</tr>\n<tr>\n<td style=\"text-align: right;\"><span style=\"color: #434343;\">March 23, 2026</span></td>\n<td style=\"text-align: right;\"><span style=\"color: #434343;\">7:00 AM</span></td>\n<td style=\"text-align: right;\"><span style=\"color: #434343;\">3:00 PM</span></td>\n</tr>\n<tr>\n<td style=\"text-align: right;\"><span style=\"color: #434343;\">March 24, 2026</span></td>\n<td style=\"text-align: right;\"><span style=\"color: #434343;\">7:00 AM</span></td>\n<td style=\"text-align: right;\"><span style=\"color: #434343;\">3:00 PM</span></td>\n</tr>\n<tr>\n<td style=\"text-align: right;\"><span style=\"color: #434343;\">March 25, 2026</span></td>\n<td style=\"text-align: right;\"><span style=\"color: #434343;\">7:00 AM</span></td>\n<td style=\"text-align: right;\"><span style=\"color: #434343;\">3:00 PM</span></td>\n</tr>\n<tr>\n<td style=\"text-align: right;\"><span style=\"color: #434343;\">March 26, 2026</span></td>\n<td style=\"text-align: right;\"><span style=\"color: #434343;\">7:00 AM</span></td>\n<td style=\"text-align: right;\"><span style=\"color: #434343;\">3:00 PM</span></td>\n</tr>\n<tr>\n<td style=\"text-align: right;\"><span style=\"color: #434343;\">March 27, 2026</span></td>\n<td style=\"text-align: right;\"><span style=\"color: #434343;\">7:00 AM</span></td>\n<td style=\"text-align: right;\"><span style=\"color: #434343;\">3:00 PM</span></td>\n</tr>\n</tbody>\n</table></figure></div>\n</div><p><strong>Expected behavior:</strong><span style=\"font-weight: 400;\"> </span><span style=\"color: #1f1f1f;\">During the migration process, all QA functionalities will be temporarily unavailable for up to 30 minutes.</span></p><p><span style=\"color: #464646;\"><strong>What do customers have to do?</strong></span></p><p>After the maintenance, if you experience issues accessing QA, try clearing your browser cache and cookies. Please contact Zendesk Support with questions or concerns if you experience other issues.</p><p><span style=\"color: #464646;\"><strong>Why we're doing this</strong></span></p><p><span style=\"color: #464646;\">The Zendesk QA team is upgrading infrastructure </span>to enhance the scalability and reliability of our QA services.<span style=\"color: #464646;\"> </span>We understand that this may cause some inconvenience, and we appreciate your patience as we work to improve our services.</p>",
       "user_segment_ids": []
     }
   ],
