@@ -116,14 +116,14 @@
       "vote_count": 0,
       "section_id": 6255362352154,
       "created_at": "2026-03-12T13:10:39Z",
-      "updated_at": "2026-03-12T13:15:58Z",
+      "updated_at": "2026-03-16T13:19:44Z",
       "name": "An activity was tracked incorrectly in WFM",
       "title": "An activity was tracked incorrectly in WFM",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2026-03-12T13:15:58Z",
+      "edited_at": "2026-03-16T13:19:44Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -133,7 +133,7 @@
         "role_admin",
         "ab0_wfm"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Problem</h2><p>Understand why the time of an <a href=\"https://support.zendesk.com/hc/en-us/articles/6443329426330-Setting-up-WFM-general-tasks-for-non-ticketing-work\" target=\"_blank\" rel=\"noopener noreferrer\">activity</a> tracked incorrectly in workforce management (WFM) or Tymeshift.</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Resolution steps</h2><p>To troubleshoot activity tracking for your agents:</p><ol>\n<li data-list-item-id=\"eed474c1914b82284f9cfc51ab8632b90\">Remind your team members to be mindful of tracking if the issues are one-offs</li>\n<li data-list-item-id=\"e1fef2f7537fc866edefcb2d641855658\">Ensure agents don't accidentally lock themselves into <a href=\"https://support.zendesk.com/hc/en-us/articles/6443329426330-Setting-up-WFM-general-tasks-for-non-ticketing-work\" target=\"_blank\" rel=\"noopener noreferrer\">activities</a> and forget about them<ul>\n<li data-list-item-id=\"e8deddf02e2180564bbe4317d0432904d\">For example, if an agent clocks into <strong>Any Task</strong> for more than 5 hours 30 min, it clocks them out, ends their day, and deletes that time from their timesheet</li>\n<li data-list-item-id=\"e394d9c2e9a672e18d93ea1d1a91e910d\">For a long-term solution, create an <a href=\"https://support.zendesk.com/hc/en-us/articles/6443374423066-Creating-WFM-automations-to-manage-agent-activity\" target=\"_blank\" rel=\"noopener noreferrer\">automation</a> that sends an agent a message if they clock into an activity for too long, or an automation that clocks an agent out if they clock into an activity for a shorter period than 5 hours 30 min</li>\n</ul>\n</li>\n<li data-list-item-id=\"e61cba5b8d5080bbed8aa9b75b4de52b2\">Verify if your team configured an <a href=\"https://support.zendesk.com/hc/en-us/articles/6443374423066-Creating-WFM-automations-to-manage-agent-activity\" target=\"_blank\" rel=\"noopener noreferrer\">automation</a> to clock out and adjust it if possible</li>\n</ol>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Issue symptoms</h2><p>The time of an <a href=\"https://support.zendesk.com/hc/en-us/articles/6443329426330-Setting-up-WFM-general-tasks-for-non-ticketing-work\" target=\"_blank\" rel=\"noopener noreferrer\">activity</a> was incorrectly tracked in workforce management (WFM). I'd like to understand why.</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Resolution steps</h2><p>Troubleshoot activity tracking for your agents by following these steps:</p><ol>\n<li data-list-item-id=\"eed474c1914b82284f9cfc51ab8632b90\">Remind your team members to be mindful of tracking if the issues are one-offs</li>\n<li data-list-item-id=\"e1fef2f7537fc866edefcb2d641855658\">Ensure agents don't accidentally lock themselves into <a href=\"https://support.zendesk.com/hc/en-us/articles/6443329426330-Setting-up-WFM-general-tasks-for-non-ticketing-work\" target=\"_blank\" rel=\"noopener noreferrer\">activities</a> and forget about them<ul>\n<li data-list-item-id=\"e8deddf02e2180564bbe4317d0432904d\">For example, if an agent clocks into <strong>Any Task</strong> for more than 5 hours 30 min, it clocks them out, ends their day, and deletes that time from their timesheet</li>\n<li data-list-item-id=\"e394d9c2e9a672e18d93ea1d1a91e910d\">For a long-term solution, create an <a href=\"https://support.zendesk.com/hc/en-us/articles/6443374423066-Creating-WFM-automations-to-manage-agent-activity\" target=\"_blank\" rel=\"noopener noreferrer\">automation</a> that sends an agent a message if they clock into an activity for too long, or an automation that clocks an agent out if they clock into an activity for a shorter period than 5 hours 30 min</li>\n</ul>\n</li>\n<li data-list-item-id=\"e61cba5b8d5080bbed8aa9b75b4de52b2\">Verify if your team configured an <a href=\"https://support.zendesk.com/hc/en-us/articles/6443374423066-Creating-WFM-automations-to-manage-agent-activity\" target=\"_blank\" rel=\"noopener noreferrer\">automation</a> to clock out and adjust it if possible</li>\n</ol>",
       "user_segment_ids": []
     },
     {
