@@ -114,14 +114,14 @@
       "vote_count": 0,
       "section_id": 6255362352154,
       "created_at": "2026-03-12T13:26:33Z",
-      "updated_at": "2026-03-12T15:42:14Z",
+      "updated_at": "2026-03-17T09:19:02Z",
       "name": "The Zendesk account owner or admin doesn't have access to WFM",
       "title": "The Zendesk account owner or admin doesn't have access to WFM",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2026-03-12T15:42:14Z",
+      "edited_at": "2026-03-17T09:19:02Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -131,7 +131,7 @@
         "role_admin",
         "ab0_account"
       ],
-      "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2><p>My Zendesk account owner or admin doesn't have access to Workforce Management (WFM). The access to WFM is constantly removed. A team member confirmed that their user account is active and they're part of the correct group, but they still don't have access. Did I miss a relevant step?</p><h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2><p>To resolve access issues:</p><ol>\n<li data-list-item-id=\"e173c3fc756cf35530a401be173fc4d04\">Verify that the email address in the <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843830938-Viewing-and-using-the-Team-members-page\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk account owner or admin profile</a> appears on your <a href=\"https://support.zendesk.com/hc/en-us/articles/6443374452250-Managing-user-access-in-your-WFM-account#topic_fhg_2kk_1bc\">allowlist</a>.</li>\n<li data-list-item-id=\"ed82b9a05ff477de57e18e7a5c37883fa\">Ensure that the same email address doesn't appear in your blocklist.</li>\n</ol>",
+      "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2><p>My Zendesk account owner or admin doesn't have access to Workforce Management (WFM). The access to WFM is constantly removed. A team member confirmed their user account is active and they're part of the correct group, but they still don't have access. Did I miss a relevant step?</p><h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2><p>To resolve access issues:</p><ol>\n<li data-list-item-id=\"e173c3fc756cf35530a401be173fc4d04\">If you're <a href=\"https://support.zendesk.com/hc/en-us/articles/6443374452250#topic_fhg_2kk_1bc\" target=\"_blank\" rel=\"noopener noreferrer\">using an allow list</a> to control access to your WFM account, verify that the email address in the <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843830938-Viewing-and-using-the-Team-members-page\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk account owner or admin profile</a> is on the allow list.</li>\n<li data-list-item-id=\"ed82b9a05ff477de57e18e7a5c37883fa\">If you're <a href=\"https://support.zendesk.com/hc/en-us/articles/6443374452250#topic_vjp_skk_1bc\" target=\"_blank\" rel=\"noopener noreferrer\">using a block list</a> to restrict access to your WFM account, make sure the same email address is not on the block list.</li>\n</ol>",
       "user_segment_ids": []
     },
     {
