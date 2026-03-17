@@ -232,7 +232,7 @@
     {
       "id": 10414380739098,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/10414380739098.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/10414380739098-WFM-status-not-changing",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/10414380739098-WFM-status-does-not-synchronize-with-agent-voice-status",
       "author_id": 1263082286589,
       "comments_disabled": false,
       "draft": false,
@@ -242,14 +242,14 @@
       "vote_count": 0,
       "section_id": 6255362352154,
       "created_at": "2026-03-12T03:10:34Z",
-      "updated_at": "2026-03-12T03:16:01Z",
-      "name": "WFM status not changing",
-      "title": "WFM status not changing",
+      "updated_at": "2026-03-17T06:23:41Z",
+      "name": "WFM status does not synchronize with agent voice status",
+      "title": "WFM status does not synchronize with agent voice status",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2026-03-12T03:14:29Z",
+      "edited_at": "2026-03-17T06:23:41Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -257,7 +257,7 @@
         "ks",
         "ab0"
       ],
-      "body": "<div class=\"knowledge-base-article\">\n<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2>\n<p>I select a status from <strong>Zendesk Workforce management (WFM)</strong> settings, but the status doesn't change. For example, the general task <strong>Break</strong> should set the <strong>Talk status</strong> to <strong>Away</strong>, but it doesn't do that.</p>\n<h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2>\n<p>General tasks only sync with the agent status and not on the routing side. When omnichannel routing is on, general tasks don't sync with the configuration in the unified agent status.</p>\n<p>This is a <a href=\"https://support.zendesk.com/hc/en-us/articles/6443329426330-Setting-up-WFM-general-tasks-for-non-ticketing-work#:~:text=General%20tasks%20currently%20synchronize%20with%20your%20agents%E2%80%99%20voice%20states%20only%20when%20omnichannel%20routing%20is%20turned%20off.%20When%20omnichannel%20routing%20is%20turned%20on%2C%20general%20tasks%20do%20not%20synchronize%20with%20your%20agents%E2%80%99%20unified%20agent%20statuses.\" target=\"_blank\" rel=\"noopener noreferrer\">limitation</a> on syncing the agent status between <strong>WFM</strong> tasks and the unified agent status when omnichannel is active.</p>\n<p>Agents must change their status in <strong>Support</strong> and <strong>WFM</strong> manually.</p>\n</div>",
+      "body": "<div class=\"knowledge-base-article\">\n<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2>\n<p>I select/change the status from <strong>Zendesk Workforce management (WFM)</strong> settings, but the agent status doesn't change with it. For example, the general task <strong>Break</strong> does not set the <strong>Talk status</strong> to <strong>Away.</strong></p>\n<h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2>\n<p>General tasks currently synchronize with your <a href=\"https://support.zendesk.com/hc/en-us/articles/4408829114138\" target=\"_blank\" rel=\"noopener noreferrer\">agents’ voice states</a> only when <a href=\"https://support.zendesk.com/hc/en-us/articles/5095079121690\" target=\"_blank\" rel=\"noopener noreferrer\">omnichannel routing is turned off</a>. When <a href=\"https://support.zendesk.com/hc/en-us/articles/5866925319962\" target=\"_blank\" rel=\"noopener noreferrer\">omnichannel routing is turned on</a>, general tasks do not synchronize with your <a href=\"https://support.zendesk.com/hc/en-us/articles/4410545721114\" target=\"_blank\" rel=\"noopener noreferrer\">agents’ unified agent statuses</a>.</p>\n<p>To ensure general tasks synchronize with you agents' voice status, <a href=\"https://support.zendesk.com/hc/en-us/articles/5095079121690-Turning-off-omnichannel-routing\" target=\"_blank\" rel=\"noopener noreferrer\">switch off omnichannel routing</a>.</p>\n</div>",
       "user_segment_ids": []
     },
     {
