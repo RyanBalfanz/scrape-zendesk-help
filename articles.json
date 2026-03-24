@@ -1,5 +1,5 @@
 {
-  "count": 4484,
+  "count": 4485,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 150,
@@ -35,6 +35,39 @@
         "rank_low_algolia"
       ],
       "body": "<div class=\"note tip\">See the <a href=\"https://support.zendesk.com/hc/en-us/articles/10231895896090\" target=\"_blank\" rel=\"noopener noreferrer\">What's New</a> section for an overview of what was released last month.</div><p>This week's release notes include:</p><ul>\n<li data-list-item-id=\"edabcbd90282925564e4ac18acc03657f\"><a href=\"#h_01KMDPGNFT6WRZ3P31BB0MWPN2\">Admin Center</a></li>\n<li data-list-item-id=\"efa42c809526b09d209acd9c53d39c879\"><a href=\"#h_01KK7Z6QCT4S8B3SF16VTFRCSZ\">Copilot</a></li>\n<li data-list-item-id=\"ecc4835051be04f2e5cce7cbf3cc45048\"><a href=\"#h_01KJ43DEMWWDFHE5F7AY95XKQC\">App Marketplace</a></li>\n<li data-list-item-id=\"ef4620a9b696e24481c8aafc456ae3f45\"><a href=\"#h_01KKSTWQ7K3KSWW56FSMDN6N8F\">AI Agents and Knowledge</a></li>\n<li data-list-item-id=\"ec637a4ce768f422ab811466779b70c5b\"><a href=\"#h_01KHKRFCVGNHAA95CT7965AJ6C\">Products with no updates this week</a></li>\n</ul><p><span aria-label=\" \" data-stringify-type=\"paragraph-break\"></span></p><p><span aria-label=\" \" data-stringify-type=\"paragraph-break\"></span></p><h2 id=\"h_01KMDPGNFT6WRZ3P31BB0MWPN2\">Admin Center</h2><p><strong>New:</strong></p><ul><li data-list-item-id=\"eaadd1803e14aa4b1a256c8b7657c7c35\">The sign-in flow will check for expired passwords before <a href=\"https://support.zendesk.com/hc/en-us/articles/4408826974874\">two-factor authentication</a>. As part of this update, team members with expired passwords will receive the usual password-expiration emails, notifying them that their passwords will expire starting March 25, 2026. </li></ul><p><strong>Fixed:</strong></p><ul><li data-list-item-id=\"e5079eff7d088d1b938b51107c224d889\">Starting March 19, 2026, to better protect our customers, Zendesk will begin rolling out a new workflow requiring anonymous end users submitting requests through the help center to verify their email address.</li></ul><h2 id=\"h_01KK7Z6QCT4S8B3SF16VTFRCSZ\">Copilot</h2><p><strong>New:</strong></p><ul><li data-list-item-id=\"e829235ecc0cbcb4dc96f4a546690a31c\">The Admin Copilot EAP is a proactive AI assistant designed to help Zendesk admins streamline operations and optimize their environment. You can save time by using Admin Copilot to spot potential issues before they escalate, assist with creating new workflows, and resolve inefficiencies across your setup. <a href=\"https://support.zendesk.com/hc/en-us/articles/10013995711386-About-Admin-Copilot-Open-EAP#topic_bkb_zvr_43c\">Join the EAP here</a>.</li></ul><h2 id=\"h_01KJ43DEMWWDFHE5F7AY95XKQC\">App Marketplace</h2><div><strong>New:</strong></div><ul>\n<li data-list-item-id=\"e5b10965ab6cc61edd3b7f2701667415a\">\n<div>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1220934/fields-director-pro/\">Fields Director PRO</a> <strong>(Support) (paid)</strong>\n</div>\n<ul><li data-list-item-id=\"eed505696a727daf787ed0d51f34adf93\"><div>Fields Director PRO enables advanced Zendesk Administrators to manage ticket, user, and organization fields behavior for selected Agents. The app supports advanced configuration of the following features, like listing ticket fields that should have any value at every ticket submission, hiding/disabling/showing/enabling pre-configured ticket fields and/or ticket field values, hiding/showing pre-configured user fields, and more!</div></li></ul>\n</li>\n<li data-list-item-id=\"e014bf79f2e98c486e4a21e3384b7f9ab\">\n<div>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1220458/intent-detector/\">Intent Detector</a> <strong>(Support)</strong>\n</div>\n<ul><li data-list-item-id=\"e718d5e9a692e3d5d45e99a078eda894f\"><div>Intent Detector automatically identifies the customer's contact reason the moment a ticket is created in Zendesk. Requests are intelligently categorized and routed to the right team or agent, saving valuable handling time and reducing back-and-forth. Agents immediately understand what the customer needs — leading to faster first replies and shorter resolution times.</div></li></ul>\n</li>\n<li data-list-item-id=\"e282d051bd4c3e4200c03a4e779bd3b0a\">\n<div>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1221591/field-validator/\">Field Validator</a> <strong>(Support) (paid)</strong>\n</div>\n<ul><li data-list-item-id=\"e4474afb55810de05173dc7da2badabe8\"><div>Field Validator allows you to validate ticket fields using custom Regular Expressions (Regex). Prevent agents from saving tickets if fields like phone numbers, IDs, or custom codes don't match your required format.</div></li></ul>\n</li>\n<li data-list-item-id=\"e8bbe877aba390350f05961cc89cae01b\">\n<div>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1207316/zingtree-for-complex-cx/\">Zingtree for Complex CX </a><strong>(Support)</strong>\n</div>\n<ul><li data-list-item-id=\"e6ca4015cbefe6d1413f84f7bb6cd3b41\"><div>Zingtree for Complex CX helps Zendesk customers orchestrate complex, high-stakes support issues with accuracy, compliance, and confidence. It connects context from your data systems with guided decision logic inside Zendesk, giving agents the clarity to act fast and stay on policy. Turn complex issues into clear, step-by-step scripts and decision trees that guide agents through complex interactions. Use data from Zendesk and backend systems to adapt workflows, route cases, and trigger next-best actions.  Apply business rules and guardrails to ensure every resolution complies with policy and is fully auditable.</div></li></ul>\n</li>\n<li data-list-item-id=\"ef269897d5b1a8d1e759a96f28471c959\">\n<div>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1221635/attachment-redaction-tool/\">Attachment Redaction Tool </a><strong>(Support)</strong>\n</div>\n<ul><li data-list-item-id=\"eabbd75e1bb2f73e4f348b5054c7108c7\"><div>Attachment Redaction Tool helps agents bulk redact attachments from closed tickets within a selected date range. Agents can choose a start and end date, view closed tickets with attachments, and redact selected attachments with a single click.</div></li></ul>\n</li>\n</ul><h2 id=\"h_01KKSTWQ7K3KSWW56FSMDN6N8F\">AI Agents and Knowledge</h2><div><strong>New:</strong></div><ul><li data-list-item-id=\"ecc2d6b918b6063393875a4e5924b8670\">Several popular Knowledge tools are now available to customers on all Suite and Knowledge plans:<ul>\n<li data-list-item-id=\"ed39a45f910f4d0da5485dff766026090\">\n<a href=\"https://support.zendesk.com/hc/en-us/articles/6267360002714\" target=\"_blank\" rel=\"noopener noreferrer\">Generative AI writing tools </a>(previously required Co-pilot add-on) - Create, rephrase, and simplify content quickly using generative AI. </li>\n<li data-list-item-id=\"e6db738ef4bba6cf134a4cd86dc0027cd\">\n<a href=\"https://support.zendesk.com/hc/en-us/articles/8717609637018\" target=\"_blank\" rel=\"noopener noreferrer\">AI translation for articles</a> (previously required Co-pilot add-on) - Generate AI translations for your articles.</li>\n<li data-list-item-id=\"e5f5f2256708ce9ae5a1b2ae0553a50db\">\n<a href=\"https://support.zendesk.com/hc/en-us/articles/4408830243482\" target=\"_blank\" rel=\"noopener noreferrer\">Help center federated search </a>(previously restricted to Enterprise plans) - Link your external content to your help center.</li>\n<li data-list-item-id=\"ed3b4d126d8d47dbee6cd3c0f07cbfb41\">\n<a href=\"https://support.zendesk.com/hc/en-us/articles/4408834687130\" target=\"_blank\" rel=\"noopener noreferrer\">Flexible hierarchies</a> (previously restricted to Enterprise plans) - Add up to five subsections to your help center sections, creating a deeper hierarchy for your content.</li>\n<li data-list-item-id=\"e396bb48586ec566ff96b4f119e392670\">\n<a href=\"https://support.zendesk.com/hc/en-us/articles/7867489163930\" target=\"_blank\" rel=\"noopener noreferrer\">Article multiplacement </a>(previously restricted to Enterprise plans) - Place your help center articles in multiple categories and sections across all of your brands.</li>\n</ul>\n</li></ul><p><strong>Fixed:</strong></p><ul><li data-list-item-id=\"e8cdf84a2831bd4da0b7f88ca11e253b9\">In iOS, when using Chrome to access Help Centers that use a Theme in v2 or v3, dropdowns close automatically when clicked.</li></ul><h2 id=\"h_01KHKRFCVGNHAA95CT7965AJ6C\">Products with no updates this week</h2><ul>\n<li data-list-item-id=\"e7a7912960120d49dbc1908fc54498e9e\">Support</li>\n<li data-list-item-id=\"e0aa26ecd0cfb0a9b5bdb2e13fe886c89\">Voice</li>\n<li data-list-item-id=\"ef285cd560fb6a03ffb646c224a7f9da1\">AI agents - Advanced</li>\n<li data-list-item-id=\"ec37e617a9581aed813f7053044bf2805\">Messaging and live chat</li>\n<li data-list-item-id=\"eb71d637f3dd75fe058ec2bdf8787a79d\">Analytics</li>\n<li data-list-item-id=\"e3f7981580bb4e4aa7af9dd7ca5d6ceed\">Zendesk QA</li>\n<li data-list-item-id=\"e025fdadeaf3fd21f5090f017f578f1d1\">Zendesk Workforce Management (WFM)</li>\n</ul>",
+      "user_segment_ids": []
+    },
+    {
+      "id": 10445540944154,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/10445540944154.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/10445540944154-Why-doesn-t-the-Slack-channel-dropdown-appear-in-my-trigger-action",
+      "author_id": 9328285606298,
+      "comments_disabled": false,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 6970675073562,
+      "created_at": "2026-03-19T23:57:46Z",
+      "updated_at": "2026-03-24T04:27:51Z",
+      "name": "Why doesn't the Slack channel dropdown appear in my trigger action?",
+      "title": "Why doesn't the Slack channel dropdown appear in my trigger action?",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2026-03-24T04:27:40Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801135069,
+      "content_tag_ids": [],
+      "label_names": [
+        "ab0",
+        "KS",
+        "role_admin",
+        "ab0_apps_integrations"
+      ],
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>Why doesn't the Slack channel dropdown appear in my trigger action or in Admin Center? The dropdown to select the channel isn't available after I select the Slack workspace, and the integration works otherwise.</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>This may happen if the system fails to authenticate your user in Slack for real-time retrieval of the channels. Confirm that your Zendesk account and your Slack account use the same primary email address. Additionally, make sure you have appropriate privileges in both systems. See <a href=\"https://support.zendesk.com/hc/en-us/articles/4408833756698-Understanding-and-installing-the-Slack-for-Zendesk-Support-integration#topic_vrx_4x4_ldb\" target=\"_blank\" rel=\"noopener noreferrer\">Installing the integration to add a connection between Slack and Zendesk</a>.</p><p>If you can't resolve the issue with these checks, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-customer-support\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk Customer Support</a> for further help. Include a screenshot of the issue and the time you took the screenshot to help with the investigation.</p>",
       "user_segment_ids": []
     },
     {
@@ -897,42 +930,6 @@
         "role_admin"
       ],
       "body": "<body>\n<p id=\"docs-hc-snippet\" style=\"display: none;\">Add-on | Zendesk Contact Center</p>\n\n<div class=\"body\">\n<p class=\"p\"><span class=\"ph addon_contact-center\">Add-on | Zendesk Contact Center</span></p>\n<p class=\"p\">After <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/9459088830874\" target=\"_blank\">installing the Contact Center app</a>, you need to\n            connect it to your Zendesk account. This connection allows Contact Center to integrate\n            with Zendesk, particularly with Support, to create tickets automatically when a customer\n            calls you.</p>\n<p class=\"p\">You'll need a Zendesk API key to complete these steps, see <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408889192858#topic_tbp_dfb_l2c\" target=\"_blank\">Generating API tokens</a>.</p>\n<p class=\"p\">You can also follow these steps to update the API token only. Typical scenarios include\n            to comply with security policies and to troubleshoot integration issues.</p>\n<p class=\"p\"><strong class=\"ph b\">To connect Contact Center to your Zendesk account</strong></p>\n<ol class=\"ol\" id=\"zag_cc_support_connect_apitoken__ol_p45_nkg_3gc\">\n<li class=\"li\">In <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/9696121449114\" target=\"_blank\">Contact Center</a>, click <strong class=\"ph b\">Admin\n                    Settings</strong> from the Agent Status menu.<p class=\"p\"><img class=\"image\" id=\"zag_cc_support_connect_apitoken__image_zpd_dlp_5gc\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/ig2_20.png\" width=\"350\"></p>\n</li>\n<li class=\"li\">(Optional) If you are troubleshooting the connection, take note of the settings in\n                Standard Settings, Agent Status, Contact attributes, and Brands &amp; Queues for\n                review after the token update to ensure everything is retained.</li>\n<li class=\"li\">Click <img class=\"image\" id=\"zag_cc_support_connect_apitoken__image_zpd_dlp_5ge\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/cc_settings_zd_icon.png\" width=\"16\">\n<strong class=\"ph b\">Zendesk settings</strong> in the sidebar, then select <strong class=\"ph b\">Standard Settings</strong> &gt;\n                    <strong class=\"ph b\">Your Zendesk Account</strong>.</li>\n<li class=\"li\">In Your Zendesk Account, click <img class=\"image\" id=\"zag_cc_support_connect_apitoken__image_zpd_dlp_5gd\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/cc_admin_cogs_icon.png\" width=\"16\">\n<strong class=\"ph b\">Edit</strong> to access the connection details.<p class=\"p\"><img class=\"image\" id=\"zag_cc_support_connect_apitoken__image_cfk_gzf_kgc\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/cc_admin_zd_standard_yourzdaccount.png\" width=\"600\"></p>\n</li>\n<li class=\"li\">In <strong class=\"ph b\">Connection Details</strong>, enter an API key and the email address of the user who\n                generated the key.<p class=\"p\">To generate an API key, see <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408889192858#topic_tbp_dfb_l2c\" target=\"_blank\">Generating API tokens</a>.</p>\n<p class=\"p\"><img class=\"image\" id=\"zag_cc_support_connect_apitoken__image_dzz_nlp_5gc\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/cc_admin_zd_standard_yourzdaccount_conndetails.png\" width=\"400\"></p>\n</li>\n<li class=\"li\">Click <strong class=\"ph b\">Connect Account</strong>.<p class=\"p\">The Contact Center app and your Zendesk account are\n                    now connected.</p>\n<p class=\"p\">To test the connection, see <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/9832930064026\" target=\"_blank\">Testing Contact Center</a>. To configure\n                    the integration, see <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/10407293917978\" target=\"_blank\">Configuring the Contact Center integration\n                        with Support</a>.</p>\n</li>\n</ol>\n</div>\n</body>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 10361828111514,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/10361828111514.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/10361828111514-Can-I-buy-a-Zendesk-Copilot-license-for-some-agents-only",
-      "author_id": 1263082286069,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405298881178,
-      "created_at": "2026-02-27T00:08:08Z",
-      "updated_at": "2026-03-04T17:00:56Z",
-      "name": "Can I buy a Zendesk Copilot license for some agents only?",
-      "title": "Can I buy a Zendesk Copilot license for some agents only?",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2026-02-27T01:33:02Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801135069,
-      "content_tag_ids": [],
-      "label_names": [
-        "ks",
-        "ab0",
-        "mt",
-        "role_admin",
-        "role_owner",
-        "ab0_account",
-        "ab0_copilot"
-      ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>I want to purchase <a href=\"https://support.zendesk.com/hc/en-us/articles/5524125586330-About-Zendesk-Copilot\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk Copilot</a> for only some agents. Is this possible?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>Zendesk Copilot is an <a href=\"https://support.zendesk.com/hc/en-us/articles/5715517808026-Buying-the-Copilot-add-on\" target=\"_blank\" rel=\"noopener noreferrer\">add-on</a> you purchase for your entire Zendesk account. You are charged a monthly amount for all the agent seats in your account. After you buy the add-on, you can manage access to some Copilot features by group, but you can’t buy Copilot for some agents only. </p>",
       "user_segment_ids": []
     }
   ],
