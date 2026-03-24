@@ -50,14 +50,14 @@
       "vote_count": 0,
       "section_id": 6970675073562,
       "created_at": "2026-03-19T23:57:46Z",
-      "updated_at": "2026-03-24T04:27:51Z",
+      "updated_at": "2026-03-24T20:24:14Z",
       "name": "Why doesn't the Slack channel dropdown appear in my trigger action?",
       "title": "Why doesn't the Slack channel dropdown appear in my trigger action?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2026-03-24T04:27:40Z",
+      "edited_at": "2026-03-24T20:24:14Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -67,7 +67,7 @@
         "role_admin",
         "ab0_apps_integrations"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>Why doesn't the Slack channel dropdown appear in my trigger action or in Admin Center? The dropdown to select the channel isn't available after I select the Slack workspace, and the integration works otherwise.</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>This may happen if the system fails to authenticate your user in Slack for real-time retrieval of the channels. Confirm that your Zendesk account and your Slack account use the same primary email address. Additionally, make sure you have appropriate privileges in both systems. See <a href=\"https://support.zendesk.com/hc/en-us/articles/4408833756698-Understanding-and-installing-the-Slack-for-Zendesk-Support-integration#topic_vrx_4x4_ldb\" target=\"_blank\" rel=\"noopener noreferrer\">Installing the integration to add a connection between Slack and Zendesk</a>.</p><p>If you can't resolve the issue with these checks, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-customer-support\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk Customer Support</a> for further help. Include a screenshot of the issue and the time you took the screenshot to help with the investigation.</p>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>Why doesn't the <strong>Slack channel</strong> dropdown appear in my trigger action or in Admin Center? The dropdown to select the channel isn't available after I select the Slack workspace, and the integration works otherwise.</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>This may happen if the system fails to authenticate your user in Slack for real-time retrieval of the channels. Confirm that your Zendesk account and your Slack account use the same primary email address. Additionally, make sure you have appropriate privileges in both systems. See <a href=\"https://support.zendesk.com/hc/en-us/articles/4408833756698-Understanding-and-installing-the-Slack-for-Zendesk-Support-integration#topic_vrx_4x4_ldb\" target=\"_blank\" rel=\"noopener noreferrer\">Installing the integration to add a connection between Slack and Zendesk</a>.</p><p>If you can't resolve the issue with these checks, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-customer-support\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk Customer Support</a> for further help. Include a screenshot of the issue and the time you took the screenshot to help with the investigation.</p>",
       "user_segment_ids": []
     },
     {
