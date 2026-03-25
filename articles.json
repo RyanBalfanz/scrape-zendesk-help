@@ -384,7 +384,7 @@
     {
       "id": 10414380739098,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/10414380739098.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/10414380739098-WFM-status-does-not-synchronize-with-agent-voice-status",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/10414380739098-Why-aren-t-my-WFM-and-voice-states-syncing",
       "author_id": 1263082286589,
       "comments_disabled": false,
       "draft": false,
@@ -394,14 +394,14 @@
       "vote_count": 0,
       "section_id": 6255362352154,
       "created_at": "2026-03-12T03:10:34Z",
-      "updated_at": "2026-03-24T15:03:17Z",
-      "name": "WFM status does not synchronize with agent voice status",
-      "title": "WFM status does not synchronize with agent voice status",
+      "updated_at": "2026-03-25T10:56:14Z",
+      "name": "Why aren't my WFM and voice states syncing?",
+      "title": "Why aren't my WFM and voice states syncing?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2026-03-17T06:23:41Z",
+      "edited_at": "2026-03-25T10:56:14Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -409,7 +409,7 @@
         "ks",
         "ab0"
       ],
-      "body": "<div class=\"knowledge-base-article\">\n<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2>\n<p>I select/change the status from <strong>Zendesk Workforce management (WFM)</strong> settings, but the agent status doesn't change with it. For example, the general task <strong>Break</strong> does not set the <strong>Talk status</strong> to <strong>Away.</strong></p>\n<h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2>\n<p>General tasks currently synchronize with your <a href=\"https://support.zendesk.com/hc/en-us/articles/4408829114138\" target=\"_blank\" rel=\"noopener noreferrer\">agents’ voice states</a> only when <a href=\"https://support.zendesk.com/hc/en-us/articles/5095079121690\" target=\"_blank\" rel=\"noopener noreferrer\">omnichannel routing is turned off</a>. When <a href=\"https://support.zendesk.com/hc/en-us/articles/5866925319962\" target=\"_blank\" rel=\"noopener noreferrer\">omnichannel routing is turned on</a>, general tasks do not synchronize with your <a href=\"https://support.zendesk.com/hc/en-us/articles/4410545721114\" target=\"_blank\" rel=\"noopener noreferrer\">agents’ unified agent statuses</a>.</p>\n<p>To ensure general tasks synchronize with you agents' voice status, <a href=\"https://support.zendesk.com/hc/en-us/articles/5095079121690-Turning-off-omnichannel-routing\" target=\"_blank\" rel=\"noopener noreferrer\">switch off omnichannel routing</a>.</p>\n</div>",
+      "body": "<div class=\"knowledge-base-article\">\n<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2>\n<p>My agents change their status using the <a href=\"https://support.zendesk.com/hc/en-us/articles/6443354661402\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Zendesk Workforce management (WFM)</strong> time tracke</a>r, but their agent status doesn't update accordingly. For example, the general task <strong>Break</strong> doesn't set the <strong>Talk status</strong> to <strong>Away.</strong></p>\n<h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2>\n<p>General tasks synchronize with your <a href=\"https://support.zendesk.com/hc/en-us/articles/4408829114138\" target=\"_blank\" rel=\"noopener noreferrer\">agents’ voice states</a> only when <a href=\"https://support.zendesk.com/hc/en-us/articles/5095079121690\" target=\"_blank\" rel=\"noopener noreferrer\">omnichannel routing is turned off</a>. When <a href=\"https://support.zendesk.com/hc/en-us/articles/5866925319962\" target=\"_blank\" rel=\"noopener noreferrer\">omnichannel routing is turned on</a>, general tasks don't synchronize with your <a href=\"https://support.zendesk.com/hc/en-us/articles/4410545721114\" target=\"_blank\" rel=\"noopener noreferrer\">agents’ unified agent statuses</a>.</p>\n<p>In this case, you should either <a href=\"https://support.zendesk.com/hc/en-us/articles/10114746509978\" target=\"_blank\" rel=\"noopener noreferrer\">turn on unified agent status synchronization for Zendesk WFM</a> or turn off omnichannel routing.</p>\n</div>",
       "user_segment_ids": []
     },
     {
