@@ -1,5 +1,5 @@
 {
-  "count": 4507,
+  "count": 4508,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 151,
@@ -68,6 +68,36 @@
       "user_segment_ids": []
     },
     {
+      "id": 10479510996762,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/10479510996762.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/10479510996762-Announcing-new-real-time-monitoring-dashboard-capabilities-for-March-2026",
+      "author_id": 1266643030410,
+      "comments_disabled": true,
+      "draft": false,
+      "promoted": true,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405298833818,
+      "created_at": "2026-03-27T21:44:25Z",
+      "updated_at": "2026-03-30T15:52:34Z",
+      "name": "Announcing new real time monitoring dashboard capabilities for March 2026",
+      "title": "Announcing new real time monitoring dashboard capabilities for March 2026",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2026-03-30T15:52:34Z",
+      "user_segment_id": null,
+      "permission_group_id": 1324079,
+      "content_tag_ids": [],
+      "label_names": [
+        "mt"
+      ],
+      "body": "<figure class=\"wysiwyg-table wysiwyg-table-align-left\" style=\"height: 44px; width: 100%;\"><table style=\"border-collapse: collapse;\"><tbody>\n<tr style=\"height: 22px;\">\n<td style=\"height: 22px; width: 33.3333%;\"><strong>Announced on</strong></td>\n<td style=\"height: 22px; width: 33.3333%;\"><strong>Rollout starts</strong></td>\n<td style=\"height: 22px; width: 33.3333%;\"><strong>Rollout ends</strong></td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"height: 22px; width: 33.3333%;\">March 30, 2026</td>\n<td style=\"height: 22px; width: 33.3333%;\">March 30, 2026</td>\n<td style=\"height: 22px; width: 33.3333%;\">March 30, 2026</td>\n</tr>\n</tbody></table></figure><p>We're excited to announce new reports, filters, and visualizations for the <a href=\"https://support.zendesk.com/hc/en-us/articles/9757124462234\">real time monitoring dashboards</a>.</p><p>This announcement answers the following questions:</p><ul>\n<li data-list-item-id=\"e1c55624b6a1f842952ae7d555db557b7\"><a href=\"#h_01KJKGJN2Y2337NTNBBQZEWF9Z\">What is changing?</a></li>\n<li data-list-item-id=\"eafe51aededdd06110b9a56dcfbc301ca\"><a href=\"#h_01GD3S9GD63FPDGQSEFY88M3ND\">Why is Zendesk making this change?</a></li>\n<li data-list-item-id=\"e83d4a3dbb5161f2239f0f15dffa1d1e6\"><a href=\"#h_01KJKGJSQSJEJKG1G33YC5RW2S\">What do I need to do?</a></li>\n</ul><h2 id=\"h_01KJKGJN2Y2337NTNBBQZEWF9Z\">What is changing?</h2><p>We've added the following new features to the real time monitoring dashboards:</p><h3 id=\"h_01KMRKP69PG1RZW1SQT2KR8ZNH\"><span style=\"color: #111827;\">Show empty rows for brands, groups, and queues)</span></h3><ul><li data-list-item-id=\"ebf419ad2a2ac60ab3cf5abb8920ccaa6\">\n<p><span style=\"color: #424242;\">You can now </span><span style=\"color: #111827;\">display empty brands, groups, and queues</span><span style=\"color: #424242;\"> in your visualizations. A switch is available </span><span style=\"color: #111827;\">next to the filters</span><span style=\"color: #424242;\">.</span></p>\n<p><span style=\"color: #424242;\">When enabled, results will include rows with </span><span style=\"color: #111827;\">no active work assigned</span><span style=\"color: #424242;\">, helping teams quickly identify which brands, groups, and queues are inactive and </span><span style=\"color: #111827;\">rebalance work more evenly</span><span style=\"color: #424242;\"> when needed.</span><br><br><img class=\"wysiwyg-image-resized\" style=\"aspect-ratio: 388/152; width: 45.66%;\" src=\"https://support.zendesk.com/hc/article_attachments/10479510996634\" width=\"388\" height=\"152\"></p>\n</li></ul><h3 id=\"h_01KMRKPECHJESQTPPBW89TNTDV\"><span style=\"color: #111827;\">30‑day data extension for recent history metrics</span></h3><ul><li data-list-item-id=\"eaeeaae6b31aa99c48126b88d4e37c873\">\n<span style=\"color: #424242;\">Real-time monitoring dashboards now support </span><span style=\"color: #111827;\">30 days of data</span><span style=\"color: #424242;\"> for recent history metrics (previously </span><span style=\"color: #111827;\">seven days</span><span style=\"color: #424242;\">).</span><br><span style=\"color: #424242;\">In t</span><span style=\"color: #111827;\">he ticket progress data, real-time KPIs now reflect tickets created over the last 30 days, not the last seven</span><span style=\"color: #424242;\">. This provides more detailed trend visibility and a more comprehensive view of active tickets over time.</span>\n</li></ul><h3 id=\"h_01KMRKP69W71T5M2XS2X485NEM\"><span style=\"color: #111827;\">Brand-level permissions</span></h3><ul><li data-list-item-id=\"e7053f21050816a465f10699ccbd8b76d\">\n<span style=\"color: #424242;\">Real-time monitoring dashboards now support </span><span style=\"color: #111827;\">brand-level permissions</span><span style=\"color: #424242;\">, allowing access to be restricted by brand so users only see data for the brands they’re permitted to view.</span>\n</li></ul><h2 id=\"h_01GD3S9GD63FPDGQSEFY88M3ND\">Why is Zendesk making this change?</h2><p>We are always working on new features and functionality to make the real time monitoring dashboards even more useful for you. Don't forget to take a look at <a href=\"https://support.zendesk.com/hc/en-us/community/posts/9484022653082\">our roadmap</a> to learn about what's coming, and please let us know if you have any feedback.</p><h2 id=\"h_01KJKGJSQSJEJKG1G33YC5RW2S\">What do I need to do?</h2><p>The updates will be automatically rolled out to your account, and you don't need to take any action. See <a href=\"https://support.zendesk.com/hc/en-us/articles/9757124462234\">About real time monitoring dashboards</a> to learn more.</p><p>If you have feedback or questions about this announcement, visit our <a href=\"https://support.zendesk.com/hc/en-us/community/topics/9474709905050\"><span class=\"wysiwyg-underline\">community forum,</span></a> where we collect and manage customer product feedback. For general assistance with your Zendesk products, contact <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850\"><span class=\"wysiwyg-underline\">Zendesk Customer Support</span></a>.</p>",
+      "user_segment_ids": []
+    },
+    {
       "id": 10469016967834,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/10469016967834.json",
       "html_url": "https://support.zendesk.com/hc/en-us/articles/10469016967834-Announcing-Custom-Queues-API",
@@ -80,7 +110,7 @@
       "vote_count": 0,
       "section_id": 4405298889242,
       "created_at": "2026-03-25T18:50:25Z",
-      "updated_at": "2026-03-27T16:00:16Z",
+      "updated_at": "2026-03-30T16:00:10Z",
       "name": "Announcing Custom Queues API",
       "title": "Announcing Custom Queues API",
       "source_locale": "en-us",
@@ -895,40 +925,6 @@
         "role_admin"
       ],
       "body": "<body>\n<p id=\"docs-hc-snippet\" style=\"display: none;\">Theenhance writing generative AI writing toolsfor Knowledge automatically improve the content of your articles and contents blocks in different ways:</p>\n<div class=\"article-banners\">\n<div id=\"docs-wmp-link\">\n<a href=\"https://support.zendesk.com/hc/en-us/articles/5411234991258-plan\" rel=\"noopener\" target=\"_blank\">What's my plan?</a>\n</div>\n\n\n<div class=\"article-banner\" id=\"suite_all\">\n<table>\n<tbody>\n<tr>\n<td>\n<strong>All Suites</strong>\n</td>\n<td>Team, Growth, Professional, Enterprise, or Enterprise Plus</td>\n</tr>\n</tbody>\n</table>\n</div>\n\n\n<div class=\"article-banner\" id=\"support_with_guide_all\">\n<table>\n<tbody>\n<tr>\n<td>\n<strong>Support with</strong>\n</td>\n<td>Guide Professional or Enterprise</td>\n</tr>\n</tbody>\n</table>\n</div>\n\n</div>\n<div id=\"docs-ai-summary\">\n<p id=\"docs-ai-summary-toggle\">Verified AI summary <span id=\"up-triangle\">◀</span><span id=\"down-triangle\">▼</span></p>\n<p id=\"docs-ai-summary-content\">Enhance your help center content with AI writing tools that expand, simplify, and adjust tone to be more friendly or formal. These tools support multiple languages and have no usage limits for knowledge articles. Admins can easily turn this feature on or off in the Admin Center, allowing you to tailor content to better meet your audience's needs.</p>\n</div>\n\n<div class=\"body\">\n\n<p class=\"p\">The <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/6267360002714\" target=\"_blank\">enhance writing generative AI writing tools</a> for Knowledge\n            automatically improve the content of your articles and contents blocks in different\n            ways:</p>\n<ul class=\"ul\" id=\"zug_ai_gen_ai_admin__ul_l1s_rj1_xcc\">\n<li class=\"li\">\n<strong class=\"ph b\">Expand</strong>: Rephrases help center content with additional language.</li>\n<li class=\"li\">\n<strong class=\"ph b\">Simplify</strong>: Rephrases help center content to be more concise and focus on the\n                main idea.</li>\n<li class=\"li\">\n<strong class=\"ph b\">Make more friendly</strong>: Changes the tone of selected help center content so that\n                it sounds more conversational. </li>\n<li class=\"li\">\n<strong class=\"ph b\">Make more formal</strong>: Changes the tone of selected help center content so that it\n                sounds more professional. </li>\n</ul>\n<p class=\"p\">These writing tools support the languages listed <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408821324826#h_01K1XP7BZ4W25KMKR24VV8ZKK5\" target=\"_blank\">here</a>. For more information about how your data\n            is protected, see <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/5729714731290\" target=\"_blank\">Zendesk AI Data Use Information</a>.</p>\n<p class=\"p\">While there are usage limits for the <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/5608712782362\" target=\"_blank\">generative AI writing tools for the ticket composer</a>, there\n            are no such usage limits for the enhance writing tools for Knowledge. </p>\n<p class=\"p\">Admins can turn the enhance writing tools feature off or on in Admin Center. By default,\n            this feature is turned on.</p>\n<p class=\"p\"><strong class=\"ph b\">To turn the enhance writing tools off or on</strong></p>\n<div class=\"p\">\n<ol class=\"ol\" id=\"zug_ai_gen_ai_admin__ol_bs2_kxy_chc\">\n<li class=\"li\"><span class=\"ph\">In <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4581766374554#topic_hfg_dyz_1hb\" target=\"_blank\">Admin Center</a>, click <img class=\"image\" id=\"zug_ai_gen_ai_admin__d8e1405\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/icon_ai.png\">\n<strong class=\"ph b\">AI</strong> in the sidebar, then select <strong class=\"ph b\">Knowledge &gt; Writing tools</strong>.</span></li>\n<li class=\"li\">Select <strong class=\"ph b\">Enhance writing</strong>.<p class=\"p\"><img class=\"image img-screenshot\" id=\"zug_ai_gen_ai_admin__image_onj_3k1_n3c\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/ai_knowledge_writing_tools_settings.png\" width=\"500\"></p>\n</li>\n<li class=\"li\">Click <strong class=\"ph b\">Save</strong>.</li>\n</ol>\n</div>\n</div>\n<script id=\"ai-summary-script\">\n       //<![CDATA[\n         const ai_summary_style = document.createElement('style');\n         ai_summary_style.innerHTML = `#styled-article-body{padding:0 0 0}#article-body #docs-ai-summary{background-color:#f3f3f3;border:1px solid #d3d3d3;padding:10px 10px 6px;margin-bottom:16px}#article-body #docs-ai-summary #docs-ai-summary-toggle{font-size:.9em;font-weight:700;margin-bottom:4px;cursor:pointer;display:flex;justify-content:space-between;align-items:center}#article-body #docs-ai-summary #docs-ai-summary-toggle #up-triangle{margin-left:auto;padding-right:10px;display:none}#article-body #docs-ai-summary #docs-ai-summary-toggle #down-triangle{margin-left:auto;padding-right:10px}#article-body #docs-ai-summary #docs-ai-summary-content{font-size:.9em;padding-left:25px;padding-right:25px;margin-bottom:12px}`;\n         document.head.appendChild(ai_summary_style);\n         \n         \n        const toggleAISummary = () => {\n           const summary = document.getElementById(\"docs-ai-summary-content\");\n           const upTriangle = document.getElementById(\"up-triangle\");\n           const downTriangle = document.getElementById(\"down-triangle\");\n          if (summary.style.display === \"none\") {\n            summary.style.display = \"block\";\n            upTriangle.style.display = \"none\";\n            downTriangle.style.display = \"inline\";\n          } else {\n            summary.style.display = \"none\";\n            upTriangle.style.display = \"inline\";\n            downTriangle.style.display = \"none\";\n          }\n         };\n        \n         document.getElementById(\"docs-ai-summary-toggle\").addEventListener(\"click\", toggleAISummary);\n       //]]>\n       </script>\n</body>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 10393253392410,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/10393253392410.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/10393253392410-How-can-I-check-how-many-paid-seats-we-have-in-WFM",
-      "author_id": 1263082122849,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 4405298881178,
-      "created_at": "2026-03-06T12:58:52Z",
-      "updated_at": "2026-03-18T16:00:08Z",
-      "name": "How can I check how many paid seats we have in WFM?",
-      "title": "How can I check how many paid seats we have in WFM?",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2026-03-11T14:04:07Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801135069,
-      "content_tag_ids": [],
-      "label_names": [
-        "ks",
-        "ab0",
-        "billing admin",
-        "role_admin",
-        "ab0_wfm"
-      ],
-      "body": "<h2 id=\"h_01KK1KR6FXDXTKBC9SGDMHC052\">Question</h2><p>How do I check how many paid seats I have in WFM (Workforce Management)?</p><h2 id=\"h_01KK1KT12BM0S16R9GPW2N7D7X\">Answer</h2><p>In <a href=\"https://support.zendesk.com/hc/en-us/articles/4581766374554-Using-Zendesk-Admin-Center\" target=\"_blank\" rel=\"noopener noreferrer\">Admin Center</a>, do this:</p><ol>\n<li data-list-item-id=\"e02308826cb0b655977727cc4d20905f2\">Click <strong>Account</strong> in the sidebar</li>\n<li data-list-item-id=\"e406c31ba8dd74320e6908bc0b2805746\">Select <strong>Billing</strong> &gt; <strong>Subscription</strong>\n</li>\n<li data-list-item-id=\"e05dd4897538ff8d69dbbf2afb02a0dc0\">Click <strong>Manage</strong>. If you don't see a <strong>Manage</strong> button on the <strong>Subscription</strong> page, you don't have permission to make changes.</li>\n<li data-list-item-id=\"e976de8193e1e1de1df816af1b58bd6b7\">Click <strong>More products</strong>\n</li>\n</ol><p>The product list shows options to buy Workforce Engagement Management (WEM) add-ons such as WFM.</p><p>You can also go to the <strong>Team members</strong> page to see which users have WFM.</p><p>For more details, see <a href=\"https://support.zendesk.com/hc/en-us/articles/4408834640666-Viewing-and-managing-plan-subscriptions\" target=\"_blank\" rel=\"noopener noreferrer\">Viewing and managing plan subscriptions</a></p>",
       "user_segment_ids": []
     }
   ],
