@@ -176,14 +176,14 @@
       "vote_count": 0,
       "section_id": 10237098287770,
       "created_at": "2026-03-30T14:51:53Z",
-      "updated_at": "2026-04-01T12:58:25Z",
+      "updated_at": "2026-04-01T14:12:00Z",
       "name": "Contact Center calls create duplicate tickets",
       "title": "Contact Center calls create duplicate tickets",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2026-04-01T12:58:25Z",
+      "edited_at": "2026-04-01T14:12:00Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -193,7 +193,7 @@
         "role_admin",
         "ab0_contact_center"
       ],
-      "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2><p>One inbound or outbound Contact Center call creates multiple tickets.</p><h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2><ul>\n<li data-list-item-id=\"e3f4e8ff03247fec3f93091dbba847fc2\">Multiple sessions create multiple tickets. Agents who open multiple Zendesk tabs, <a href=\"https://support.zendesk.com/hc/en-us/articles/9696121449114-Navigating-the-Contact-Center-desktop\" target=\"_blank\" rel=\"noopener noreferrer\">Contact Center app tabs</a>, or browser windows and then begin a call can create separate tickets for the same interaction. If you confirm that agents open multiple tabs or windows, train them to use a single Contact Center interface in a call.</li>\n<li data-list-item-id=\"eaf7784722de8ed91fda5dcae2d0319fa\">Connectivity issues. If duplicates appear frequently, and agents see a reconnect pop-up or the screen refreshes before duplicates appear, check that your network settings meet all requirements for Zendesk Contact Center: <a href=\"https://support.zendesk.com/hc/en-us/articles/9790998022042-Understanding-network-requirements-for-Contact-Center\" target=\"_blank\" rel=\"noopener noreferrer\">Understanding network requirements for Contact Center</a>\n</li>\n</ul><p>For more information, see <a href=\"https://support.zendesk.com/hc/en-us/articles/9696137463066-Troubleshooting-Contact-Center#ui\">Troubleshooting Contact Center UI issues</a> or<a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-customer-support\" target=\"_blank\" rel=\"noopener noreferrer\"> Contacting Zendesk customer support</a>.</p>",
+      "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2><p>One inbound or outbound Contact Center call creates multiple tickets.</p><h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2><p>Typically, this happens because an agent has multiple Zendesk or Contact Center sessions. The following are common scenarios and associated resolution steps:</p><ul>\n<li data-list-item-id=\"e3f4e8ff03247fec3f93091dbba847fc2\">Agents who open multiple Zendesk tabs, <a href=\"https://support.zendesk.com/hc/en-us/articles/9696121449114-Navigating-the-Contact-Center-desktop\" target=\"_blank\" rel=\"noopener noreferrer\">Contact Center app tabs</a>, or browser windows and then begin a call can create separate tickets for the same interaction. If you confirm that agents open multiple tabs or windows, train them to use a single Contact Center interface in a call.</li>\n<li data-list-item-id=\"eaf7784722de8ed91fda5dcae2d0319fa\">Connectivity issues. If duplicates appear frequently, and agents see a reconnect pop-up or the screen refreshes before duplicates appear, check that your network settings meet all requirements for Zendesk Contact Center: <a href=\"https://support.zendesk.com/hc/en-us/articles/9790998022042-Understanding-network-requirements-for-Contact-Center\" target=\"_blank\" rel=\"noopener noreferrer\">Understanding network requirements for Contact Center</a>\n</li>\n</ul><p>For more information, see <a href=\"https://support.zendesk.com/hc/en-us/articles/9696137463066-Troubleshooting-Contact-Center#ui\">Troubleshooting Contact Center UI issues</a> or<a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-customer-support\" target=\"_blank\" rel=\"noopener noreferrer\"> Contacting Zendesk customer support</a>.</p>",
       "user_segment_ids": []
     },
     {
