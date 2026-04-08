@@ -1,5 +1,5 @@
 {
-  "count": 4514,
+  "count": 4513,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 151,
@@ -248,39 +248,6 @@
         "rank_low_algolia"
       ],
       "body": "<div class=\"note tip\">See the <a href=\"https://support.zendesk.com/hc/en-us/articles/10479706763162\" target=\"_blank\" rel=\"noopener noreferrer\">What's New</a> section for an overview of what was released last month.</div><p>This week's release notes include:</p><ul>\n<li data-list-item-id=\"e59c2fa6ba161cad26dc073902943477c\"><a href=\"#h_01KMDPGNFT6WRZ3P31BB0MWPN2\">Admin Center</a></li>\n<li data-list-item-id=\"e140b65896786f98f6009ce21a113f548\"><a href=\"#h_01KNFJD4XAYVB8YQ7KRN9ZW4QS\">Voice</a></li>\n<li data-list-item-id=\"e3f52ce4663cd74fa63631d1d7a5b7d2c\"><a href=\"#h_01KNFJG3S4HQ3WMWV9PP2MZGV3\">AI Agents and Knowledge</a></li>\n<li data-list-item-id=\"ee873b83ea70dc25791a18aca5511e6ec\"><a href=\"#h_01KJ43DEMWWDFHE5F7AY95XKQC\">App Marketplace</a></li>\n<li data-list-item-id=\"ecc2ce0299f1fdacfa9abac3925d034fb\"><a href=\"#h_01KNHQX0535P7VVQY7T4J6S34K\">Zendesk QA</a></li>\n<li data-list-item-id=\"e68d591fed9467c38f00e4bdab6122e43\"><a href=\"#h_01KHKRFCVGNHAA95CT7965AJ6C\">Products with no updates this week</a></li>\n</ul><p><span aria-label=\" \" data-stringify-type=\"paragraph-break\"></span></p><p><span aria-label=\" \" data-stringify-type=\"paragraph-break\"></span></p><h2 id=\"h_01KMDPGNFT6WRZ3P31BB0MWPN2\">Admin Center</h2><p><strong>New:</strong></p><ul>\n<li data-list-item-id=\"e59d039aa971f1d7d36700006d33e3b91\">Existing Zendesk accounts (including trial accounts) can now optionally enforce a maximum session duration for team members. That means users will be automatically signed out after a specified period, regardless of activity.</li>\n<li data-list-item-id=\"ed5b3762bc64d85367820726010c05517\">We're enhancing the protections across our registration and password reset pages to reduce spam attacks and protect our customers. These protections operate quietly in the background and will not interrupt normal use. </li>\n</ul><p><strong>Fixed:</strong></p><ul><li data-list-item-id=\"e5f4f8f5293bfc7f73ddfc3f1f5be2468\">Anonymous end users submitting requests through the help center must now verify their email address.</li></ul><h2 id=\"h_01KNFJD4XAYVB8YQ7KRN9ZW4QS\">Voice</h2><p><strong>Fixed:</strong></p><ul><li data-list-item-id=\"e2d4ae6bfe913a7d73a8eb1fb0760abb1\">Updated the call history menu in the usage charges tab so the Date/Time column now displays in PST.</li></ul><h2 id=\"h_01KNFJG3S4HQ3WMWV9PP2MZGV3\">AI Agents and Knowledge</h2><p><strong>New:</strong></p><ul><li data-list-item-id=\"e8406dc9b97eaa40266a6eab560c21da9\">The new article editor is now the default and only editor for creating and editing Knowledge articles. The legacy editor will be discontinued on April 17, 2026.<br>To support this transition and ensure continuity for articles created with different methods, we're introducing two new capabilities:<ul>\n<li data-list-item-id=\"eea08d4bc4b1e14935d56c0c92a3604f3\">\n<strong>Legacy article read-only mode</strong>: Articles created or last edited in the legacy editor will open with their content protected in read-only mode. A banner was added to the article editor, recommending that you preview your changes before saving and migrating to the current article editor. If you aren't happy with the previewed article, you can close without saving to retain the unmigrated article.</li>\n<li data-list-item-id=\"e5c2cf7920092cf2826e74a74226601f2\">\n<strong>API article read-only mode</strong>: Articles created or updated via the Articles API will open in read-only mode when accessed in the article editor, which protects articles managed programmatically. A banner was added to the article editor to notify you that any content you edit locally will be overwritten the next time the article is updated via the API. </li>\n</ul>\n</li></ul><h2 id=\"h_01KJ43DEMWWDFHE5F7AY95XKQC\">App Marketplace</h2><div><strong>New:</strong></div><ul>\n<li data-list-item-id=\"e18506cd5ca23328650f929be1176df13\">\n<div>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1211888/sustentacao-ops/\">Sustentação Ops</a> <strong>(Support)</strong>\n</div>\n<ul><li data-list-item-id=\"e204ec095536e074c6e9999b1ea199665\"><div>Sustentação Ops is a powerful audit tool that analyzes your Zendesk instance in seconds.  Identify license idleness and save resources. Find bottlenecks and operational inefficiencies. Improve your account's governance and security.</div></li></ul>\n</li>\n<li data-list-item-id=\"ee9d22a04eb223737e0ae0bcbe04fdda1\">\n<div>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1225030/spam-recovery-pro/\">Spam Recovery Pro</a> <strong>(Support)</strong>\n</div>\n<ul><li data-list-item-id=\"e603fefafc6f6f675a743fdbbb07cb9d4\"><div>Spam Recovery Pro is an admin-level dashboard that empowers your support team to filter easily, manage, and bulk-recover tickets caught in the suspended queue due to unverified user routing restrictions. Operating directly in the global navigation bar, this app bypasses the native 100-ticket UI limit by utilizing safe API chunking. It includes dynamic, domain-specific filtering, allowing you to instantly isolate trusted senders and ensure that legitimate customer inquiries are quickly restored to your active views without triggering Zendesk's API rate limits.</div></li></ul>\n</li>\n<li data-list-item-id=\"e99194e2389b4053f71593fdb73b1e9e0\">\n<div>\n<a href=\"https://www.zendesk.com/marketplace/apps/support/1222571/openlm-metrics/\">OpenLM Metrics</a> <strong>(Support)</strong>\n</div>\n<ul><li data-list-item-id=\"ee9a632fdca8cd78ed22879dfae268b96\"><div>OpenLM Metrics is an app built with the Zendesk Apps Framework that provides agents with an instant analytics dashboard for OpenLM-tagged support tickets. This app eliminates manual reporting by surfacing global trends directly in the navigation bar, allowing agents to see whether a customer's issue is isolated or part of a broader technical trend.</div></li></ul>\n</li>\n</ul><h2 id=\"h_01KNHQX0535P7VVQY7T4J6S34K\">Zendesk QA</h2><p><strong>New:</strong></p><ul>\n<li data-list-item-id=\"edb72c07fee7a37bb05378eef41f6f66c\">Disabled the evaluate button when reviews are from the shared pool. This prevents users from evaluating reviews not assigned to them.</li>\n<li data-list-item-id=\"e3d977dabf5a83b96ed2e3f7f791ecfc3\">Added evaluations to activity notifications. Users now get notified about evaluation activities.</li>\n<li data-list-item-id=\"e441325b5d1d0103794a1a79b64d89f9d\">Implemented count-based fetching for ticket retrieval. This provides better performance when loading tickets.</li>\n</ul><p><strong>Fixed:</strong></p><ul>\n<li data-list-item-id=\"e439712a0bdd2f8420a99e939c8735bee\">Removed console warnings from app navigation, resulting in a cleaner console and a better debugging experience.</li>\n<li data-list-item-id=\"ea14dcf7c9395427b918d60ff66d21944\">Hid dispute actions from the tasks view, resulting in a cleaner UI in the tasks section.</li>\n<li data-list-item-id=\"e281549e9fcf020ff8b369f0c2638084e\"><div>Allow score-only evaluations with empty comment objects. Users can submit evaluations without comments when appropriate.</div></li>\n<li data-list-item-id=\"e6b400218ab3440a3dabdb39b4b271296\"><div>Return AccountUser and MonitorWorkspace for user detail and workspace API. More complete API responses for user and workspace data.</div></li>\n<li data-list-item-id=\"e49ccb58e7bfa70a7173968948ea0f516\"><div>Preserve answered_at when CSAT custom field overrides satisfaction rating. Accurate timestamps are maintained.</div></li>\n<li data-list-item-id=\"ef62290d665c932c3e4f98a5f18a3ed9a\"><div>Do not persist events for duplicate answers. Prevents data duplication.</div></li>\n</ul><h2 id=\"h_01KHKRFCVGNHAA95CT7965AJ6C\">Products with no updates this week</h2><ul>\n<li data-list-item-id=\"ef58fbe871ac4e2bc35bf4af937c6a04b\">Copilot</li>\n<li data-list-item-id=\"e3398ff3cec4cb202ab4ea275a911f5db\">Support</li>\n<li data-list-item-id=\"ece2224030436f277f640b372746cfadd\">AI agents - Advanced</li>\n<li data-list-item-id=\"e7cdabd2e3e2890ba4911f21d8a5d0685\">Messaging and live chat</li>\n<li data-list-item-id=\"ec91912cb22ea3350846b187abf453650\">Analytics</li>\n<li data-list-item-id=\"e557ba7bdd5b01d83d54cfab71d818cf3\">Zendesk Workforce Management (WFM)</li>\n</ul>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 10496162953882,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/10496162953882.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/10496162953882-Can-I-integrate-Fin-by-Intercom-with-Zendesk",
-      "author_id": 1266644443030,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 6970675073562,
-      "created_at": "2026-04-01T13:09:00Z",
-      "updated_at": "2026-04-07T15:04:39Z",
-      "name": "Can I integrate Fin by Intercom with Zendesk?",
-      "title": "Can I integrate Fin by Intercom with Zendesk?",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2026-04-02T15:51:21Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801135069,
-      "content_tag_ids": [],
-      "label_names": [
-        "ks",
-        "ab0",
-        "role_admin",
-        "ab0_apps_integrations"
-      ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>Can I integrate Fin by Intercom with Zendesk?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>Yes, you can can integrate Fin by Intercom. To do so, follow Fin by Intercom's documentation: <a href=\"https://fin.ai/help/en/articles/13975752-fin-for-zendesk-messaging-setup\" target=\"_blank\" rel=\"noopener noreferrer\">Fin for Zendesk messaging: Setup</a>. </p><p>If you need assistance to set this up, reach out to the integration's support team or review the resources from <a href=\"https://fin.ai/help/en/\" target=\"_blank\" rel=\"noopener noreferrer\">Fin by Intercom's help center</a>.</p><div class=\"note\">\n<span class=\"notetitle\"><strong>Disclaimer</strong>:</span> This article is provided for instructional purposes only. Zendesk can't provide support for third-party apps. Reach out to the app developer's support email address under <strong>App details</strong> in the App Marketplace or search for a solution online.</div>",
       "user_segment_ids": []
     },
     {
@@ -931,6 +898,37 @@
         "ab0_wfm"
       ],
       "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Issue symptoms</h2><p>The time of an <a href=\"https://support.zendesk.com/hc/en-us/articles/6443329426330-Setting-up-WFM-general-tasks-for-non-ticketing-work\" target=\"_blank\" rel=\"noopener noreferrer\">activity</a> was incorrectly tracked in workforce management (WFM). I'd like to understand why.</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Resolution steps</h2><p>Troubleshoot activity tracking for your agents by following these steps:</p><ol>\n<li data-list-item-id=\"eed474c1914b82284f9cfc51ab8632b90\">Remind your team members to be mindful of tracking if the issues are one-offs</li>\n<li data-list-item-id=\"e1fef2f7537fc866edefcb2d641855658\">Ensure agents don't accidentally lock themselves into <a href=\"https://support.zendesk.com/hc/en-us/articles/6443329426330-Setting-up-WFM-general-tasks-for-non-ticketing-work\" target=\"_blank\" rel=\"noopener noreferrer\">activities</a> and forget about them<ul>\n<li data-list-item-id=\"e8deddf02e2180564bbe4317d0432904d\">For example, if an agent clocks into <strong>Any Task</strong> for more than 5 hours 30 min, it clocks them out, ends their day, and deletes that time from their timesheet</li>\n<li data-list-item-id=\"e394d9c2e9a672e18d93ea1d1a91e910d\">For a long-term solution, create an <a href=\"https://support.zendesk.com/hc/en-us/articles/6443374423066-Creating-WFM-automations-to-manage-agent-activity\" target=\"_blank\" rel=\"noopener noreferrer\">automation</a> that sends an agent a message if they clock into an activity for too long, or an automation that clocks an agent out if they clock into an activity for a shorter period than 5 hours 30 min</li>\n</ul>\n</li>\n<li data-list-item-id=\"e61cba5b8d5080bbed8aa9b75b4de52b2\">Verify if your team configured an <a href=\"https://support.zendesk.com/hc/en-us/articles/6443374423066-Creating-WFM-automations-to-manage-agent-activity\" target=\"_blank\" rel=\"noopener noreferrer\">automation</a> to clock out and adjust it if possible</li>\n</ol>",
+      "user_segment_ids": []
+    },
+    {
+      "id": 10414513631386,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/10414513631386.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/10414513631386-How-do-I-view-utilization-occupancy-ticket-volume-and-the-number-of-agents-logged-in-per-hour",
+      "author_id": 1263082286589,
+      "comments_disabled": false,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 6255362352154,
+      "created_at": "2026-03-12T04:04:44Z",
+      "updated_at": "2026-03-17T15:04:31Z",
+      "name": "How do I view utilization, occupancy, ticket volume, and the number of agents logged in per hour?",
+      "title": "How do I view utilization, occupancy, ticket volume, and the number of agents logged in per hour?",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2026-03-16T18:21:51Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801135069,
+      "content_tag_ids": [],
+      "label_names": [
+        "ks",
+        "ab0"
+      ],
+      "body": "<div class=\"knowledge-base-article\">\n<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2>\n<p>How can I extract an hourly report in <strong>Zendesk Workforce management (WFM)</strong>? I want to view utilization, occupancy, ticket volume, and the number of agents logged in per hour. I don't see agents logged in.</p>\n<h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2>\n<p>Use <strong>Agent activity</strong> in WFM to view what agents are scheduled for, what they work on, and their productivity per hour. To monitor agent activity, see <a href=\"https://support.zendesk.com/hc/en-us/articles/6443347506970#topic_ub5_whd_tzb\" target=\"_blank\" rel=\"noopener noreferrer\">Monitoring agent’s activity</a>.</p>\n<p>You can also export the activity timelines of agents to a CSV file. This export includes detailed entries of an agent’s day, such as workstreams, general tasks, and untracked time. It provides a structured view of time allocation for analysis outside the <strong>WFM</strong> interface. For more context, see <a href=\"https://support.zendesk.com/hc/en-us/articles/6443347506970#topic_css_zf5_ngc\" target=\"_blank\" rel=\"noopener noreferrer\">Exporting agent activity</a>.</p>\n<p>To get the ticket volume, create a report in <strong>Explore</strong> using ticket metrics from the <strong>Tickets</strong> dataset.</p>\n<figure class=\"wysiwyg-image\"><img style=\"aspect-ratio: 590/259;\" src=\"https://p26.zdusercontent.com/attachment/10557657/UETo12il32DLVD8S1Xsbwh7ZX?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..sC3iOIQr1OP5OGE955kDJw.kZBpEqJNwqJOMoYMmBUUBM6QjuGQwgWFZzFdrpfCuWAjcHbW3G5I4ml166k8UPfwJ6N1ZTwUpEmpcTwirhaqCqnDji1luUzdTaOyQPN2vHxEy1RV7U9WlCuL5poPEc0tBMpyrvOzcGU2W4-qzYFLCV6tUpoPf96O9cKyL9rBbdYLk82NXxQck4Rivfbx1qiSTMeyHBl-ouvj07B4yamv0UbwiDttcydu37wq831AOUnu9xPFrwsl_1tWhn_9hq_dosWUHhimGNoIDHwufG8-rZewQ89EfdDOUrfEaV9nacCs_A-aIku4nADIs52LpGQ8.mscovpdR1yFvDOSRJFApWA\" width=\"590\" height=\"259\"></figure><p>For help creating a tickets report in <strong>Explore</strong>, see <a href=\"https://support.zendesk.com/hc/en-us/articles/4408827693594-Metrics-and-attributes-for-Zendesk-Support\" target=\"_blank\" rel=\"noopener noreferrer\">Metrics and attributes for Zendesk Support</a>.</p>\n</div>",
       "user_segment_ids": []
     }
   ],
