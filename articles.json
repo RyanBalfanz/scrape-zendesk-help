@@ -9,7 +9,7 @@
     {
       "id": 10522559782810,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/10522559782810.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/10522559782810-Can-I-turn-on-auto-accept-for-all-channels-in-omnichannel-routing",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/10522559782810-Can-I-set-omnichannel-routing-to-auto-open-tickets",
       "author_id": 9246819654170,
       "comments_disabled": false,
       "draft": false,
@@ -19,14 +19,14 @@
       "vote_count": 0,
       "section_id": 4405298900890,
       "created_at": "2026-04-08T12:53:27Z",
-      "updated_at": "2026-04-08T13:31:33Z",
-      "name": "Can I turn on auto-accept for all channels in omnichannel routing?",
-      "title": "Can I turn on auto-accept for all channels in omnichannel routing?",
+      "updated_at": "2026-04-09T12:42:53Z",
+      "name": "Can I set omnichannel routing to auto-open tickets?",
+      "title": "Can I set omnichannel routing to auto-open tickets?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2026-04-08T13:31:31Z",
+      "edited_at": "2026-04-09T12:42:53Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -36,7 +36,7 @@
         "role_admin",
         "ab0_objects_rules"
       ],
-      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>Can I turn on auto-accept for all channels in omnichannel routing?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>In omnichannel routing, you have two options for messaging tickets: <strong>Wait until an agent accepts</strong> or <strong>Auto-accept for an agent</strong>. When you activate the auto-accept option, this removes the need to click the <strong>Accept</strong> button and opens tickets automatically. Meanwhile, omnichannel always assigns email tickets to agents. Activate the feature <strong>Automatically open assigned email tickets</strong> to open assigned emails tickets automatically. </p><p>For more information, see these articles:</p><ul>\n<li data-list-item-id=\"e806c12155021c38e9cfa88e933719dbd\"><a href=\"https://support.zendesk.com/hc/en-us/articles/4828787357210-Managing-your-omnichannel-routing-configuration\" target=\"_blank\" rel=\"noopener noreferrer\">Managing your omnichannel routing configuration</a></li>\n<li data-list-item-id=\"e2138da0a702602e1ba5a482aa133c7d2\"><a href=\"https://support.zendesk.com/hc/en-us/articles/6009407849754-Turning-on-automatic-conversation-acceptance-for-agents\" target=\"_blank\" rel=\"noopener noreferrer\">Turning on automatic conversation acceptance for agents</a></li>\n</ul><p> </p>",
+      "body": "<h2 id=\"h_01HYBAYSYE6D5MS9R76RP14V1N\">Question</h2><p>Can I set omnichannel routing to auto-open tickets in the Agent Workspace, so agents don’t have to accept or open them manually?</p><h2 id=\"h_01HYBAYSYEBM197897FQ8P2KW9\">Answer</h2><p>Yes, you can set this for both email and messaging tickets in the Omnichannel routing configuration page.</p><ul>\n<li data-list-item-id=\"ed677161c3bb5ec613255675fdb91ad70\">For messaging tickets, select  <strong>Auto-accept for an agent</strong>\n</li>\n<li data-list-item-id=\"e99d52cba55f044b78d2ae5aee0d84327\">For email tickets, select <strong>Automatically open assigned email tickets</strong>\n</li>\n</ul><p>This feature isn't supported for voice tickets. These have to be manually accepted by the agent.</p><p>For more information, see these articles:</p><ul>\n<li data-list-item-id=\"e806c12155021c38e9cfa88e933719dbd\"><a href=\"https://support.zendesk.com/hc/en-us/articles/4828787357210-Managing-your-omnichannel-routing-configuration\" target=\"_blank\" rel=\"noopener noreferrer\">Managing your omnichannel routing configuration</a></li>\n<li data-list-item-id=\"e2138da0a702602e1ba5a482aa133c7d2\"><a href=\"https://support.zendesk.com/hc/en-us/articles/6009407849754-Turning-on-automatic-conversation-acceptance-for-agents\" target=\"_blank\" rel=\"noopener noreferrer\">Turning on automatic conversation acceptance for agents</a></li>\n</ul><p> </p>",
       "user_segment_ids": []
     },
     {
