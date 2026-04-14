@@ -1,11 +1,41 @@
 {
-  "count": 4391,
+  "count": 4392,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 147,
   "per_page": 30,
   "previous_page": null,
   "articles": [
+    {
+      "id": 10549561243290,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/10549561243290.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/10549561243290-Can-I-use-third-party-text-to-speech-providers-in-Contact-Center-flows",
+      "author_id": 1264034018590,
+      "comments_disabled": false,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 10237098287770,
+      "created_at": "2026-04-14T21:39:11Z",
+      "updated_at": "2026-04-14T21:39:17Z",
+      "name": "Can I use third-party text-to-speech providers in Contact Center flows?",
+      "title": "Can I use third-party text-to-speech providers in Contact Center flows?",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2026-04-14T21:39:17Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801242670,
+      "content_tag_ids": [],
+      "label_names": [
+        "role_admin"
+      ],
+      "body": "<h2 id=\"h_01KP5ZGGK87PKF2VFVEEKB5NBF\">Question</h2><p>Can I use text-to-speech (TTS) providers, such as Deepgram or ElevenLabs, in my Contact Center flows? </p><h2 id=\"h_01KP5ZGMMNQAMMM8DX3WJF3EEN\">Answer</h2><p><span data-path-to-node=\"11,0\">Yes, t</span><span data-path-to-node=\"11,2\">hese are standard options in Amazon Connect, in addition to the standard Amazon Polly option</span><span data-path-to-node=\"11,3\"></span><span data-path-to-node=\"11,4\">. </span><span data-path-to-node=\"11,5\"></span><span data-path-to-node=\"11,6\">Each option has its own pricing, refer to each vendor for more details</span><span data-path-to-node=\"11,7\"></span><span data-path-to-node=\"11,8\">.</span></p><p>You'll need an API key from the third-party TTS provider that you store in AWS Secrets Manager. You use a <a href=\"https://docs.aws.amazon.com/connect/latest/adminguide/set-voice.html\">Set voice</a> block to configure the provider, model, and voice values, as well as the ARN of the provider secret.</p><figure class=\"wysiwyg-image\"><img style=\"aspect-ratio: 3020/1882;\" src=\"https://support.zendesk.com/hc/article_attachments/10549598246298\" width=\"3020\" height=\"1882\"></figure><p>For detailed instructions, see <a href=\"https://docs.aws.amazon.com/connect/latest/adminguide/configure-third-party-tts.html\">Configure third-party text-to-speech (TTS) providers</a> from Amazon's admin guide.</p>",
+      "user_segment_ids": []
+    },
     {
       "id": 10542947467418,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/10542947467418.json",
@@ -891,39 +921,6 @@
         "MS Teams connector Actionflow"
       ],
       "body": "<h1 id='Troubleshooting:-MS-Teams-\"Post-Direct-Message\"-Fails-with-500-Error-in-Action-Flows' data-local-id=\"c0f691642646\" data-renderer-start-pos=\"1\"><span role=\"presentation\"></span></h1><p data-renderer-start-pos=\"87\" data-local-id=\"c143ff613dbf\">When running an Action Flow that includes a <strong data-renderer-mark=\"true\">Post Direct Message</strong> step for Microsoft Teams, the step fails with:</p><p data-renderer-start-pos=\"199\" data-local-id=\"ab017ccfe2a8\"><code data-renderer-mark=\"true\">{</code></p><p data-renderer-start-pos=\"202\" data-local-id=\"7179fef9b11e\"><code data-renderer-mark=\"true\">  \"http_status_code\": 500,</code></p><p data-renderer-start-pos=\"230\" data-local-id=\"1efcc80e6f1d\"><code data-renderer-mark=\"true\">  \"message\": \"intent: post_dm failed with response: \"</code></p><p data-renderer-start-pos=\"285\" data-local-id=\"082739604d72\"><code data-renderer-mark=\"true\">}</code></p><p data-renderer-start-pos=\"288\" data-local-id=\"d085f307dc9e\">The \"Post to Channel\" step works fine — only Direct Messages are affected.</p><h2 id=\"Root-Cause\" data-local-id=\"3f9f09cc4a42\" data-renderer-start-pos=\"364\">\n<strong data-renderer-mark=\"true\">Root Cause</strong><span role=\"presentation\"></span>\n</h2><p data-renderer-start-pos=\"376\" data-local-id=\"7a1aef192986\">To send a direct message, the Zendesk MS Teams connector needs to look up the recipient's Microsoft user ID using their email address. It does this by calling the Microsoft Graph API:</p><p data-renderer-start-pos=\"561\" data-local-id=\"e9ba0b458b61\"><code data-renderer-mark=\"true\">GET https://graph.microsoft.com/v1.0/users?$filter=mail eq '{recipient-email}'</code></p><p data-renderer-start-pos=\"641\" data-local-id=\"df17b31ad2e3\">This API call requires the <strong data-renderer-mark=\"true\">User.Read.All</strong> application permission with <strong data-renderer-mark=\"true\">admin consent</strong> granted in the customer's Azure AD (Microsoft Entra ID) tenant. Without it, Microsoft returns a <strong data-renderer-mark=\"true\">403 Forbidden</strong> response, which surfaces as a 500 error in the Action Flow logs.</p><p data-renderer-start-pos=\"900\" data-local-id=\"b6b6fa6b4e74\">Deeper logs will show:</p><p data-renderer-start-pos=\"924\" data-local-id=\"b7cfa899d2c1\"><code data-renderer-mark=\"true\">h.PostDM()</code></p><p data-renderer-start-pos=\"936\" data-local-id=\"085b4bbf7914\"><code data-renderer-mark=\"true\">h.GetUserByEmail()</code></p><p data-renderer-start-pos=\"956\" data-local-id=\"ccd04a7c474f\"><code data-renderer-mark=\"true\">failed to get user by email: 403 Forbidden</code></p><h2 id=\"Resolution\" data-local-id=\"d093c21d72fc\" data-renderer-start-pos=\"1000\">\n<strong data-renderer-mark=\"true\">Resolution</strong><span role=\"presentation\"></span>\n</h2><h3 id=\"Step-1:-Grant-Admin-Consent-for-the-Zendesk-MS-Teams-Connector\" data-local-id=\"9f8fd50207c7\" data-renderer-start-pos=\"1012\">\n<strong data-renderer-mark=\"true\">Step 1: Grant Admin Consent for the Zendesk MS Teams Connector</strong><span role=\"presentation\"></span>\n</h3><ol data-local-id=\"cfbbad85-b153-495a-ac0a-62c5a06248a3\" data-indent-level=\"1\">\n<li data-list-item-id=\"e952e7b7302135f5ca8bf2ab538b500ad\"><p data-renderer-start-pos=\"1078\" data-local-id=\"3f69dc2ea27e\"><strong data-renderer-mark=\"true\">Disconnect</strong> the existing MS Teams connection in Zendesk Admin Center .</p></li>\n<li data-list-item-id=\"ea8aa645873a457cb34dc017155f26aab\"><p data-renderer-start-pos=\"1151\" data-local-id=\"322f9fdab1c1\">Have a <strong data-renderer-mark=\"true\">Microsoft 365 Global Administrator</strong> open the following URL in their browser to grant admin consent:</p></li>\n</ol><p data-renderer-start-pos=\"1260\" data-local-id=\"d99371c89aa4\"><code data-renderer-mark=\"true\">https://login.microsoftonline.com/{customer-tenant-id}/adminconsent?client_id=60e3ef2b-554e-4bbc-88f7-88fcb63f6586</code></p><ul data-local-id=\"c116e88a-463c-4cfd-b346-9689bae41a77\" data-indent-level=\"1\">\n<li data-list-item-id=\"e0dea006da7b9f6a94feb96faa6041829\"><p data-renderer-start-pos=\"1378\" data-local-id=\"f6314b079b35\"><strong data-renderer-mark=\"true\">{customer-tenant-id}</strong> — Replace this with <strong data-renderer-mark=\"true\">your organization's</strong> Azure AD (Microsoft Entra ID) tenant ID. This is the tenant where your MS Teams users exist. To find your tenant ID, see: <a href=\"https://learn.microsoft.com/en-us/entra/fundamentals/how-to-find-tenant\" title=\"https://learn.microsoft.com/en-us/entra/fundamentals/how-to-find-tenant\" data-renderer-mark=\"true\">Find your Microsoft Entra tenant ID</a></p></li>\n<li data-list-item-id=\"e16dbcbacc94b9e182b292cf00234c82f\"><p data-renderer-start-pos=\"1600\" data-local-id=\"4f1f4a121e7e\"><strong data-renderer-mark=\"true\">client_id</strong> — This value (<code data-renderer-mark=\"true\">60e3ef2b-554e-4bbc-88f7-88fcb63f6586</code>) identifies the Zendesk MS Teams IAP Connector app. <strong data-renderer-mark=\"true\">Do not change this value.</strong></p></li>\n</ul><ol data-local-id=\"8eaaa569-b954-4c6e-bd35-5f0e6b391588\" data-indent-level=\"1\" start=\"3\">\n<li data-list-item-id=\"e39477438b3bade3ec699321792bc799b\"><p data-renderer-start-pos=\"1744\" data-local-id=\"187a90075904\"><strong data-renderer-mark=\"true\">Why your tenant ID?</strong> The Zendesk connector is a multi-tenant application registered in Microsoft Entra ID. By using your tenant ID in the URL, you are granting admin consent for this application to access user data within your organization. Each customer organization needs to grant consent separately using their own tenant ID.</p></li>\n<li data-list-item-id=\"edb2f659d322aeb72c4b28164c4d8e730\"><p data-renderer-start-pos=\"2075\" data-local-id=\"a552c83ad758\">A consent pop-up will appear listing the permissions requested. Click <strong data-renderer-mark=\"true\">Accept</strong> to grant admin consent.</p></li>\n<li data-list-item-id=\"ef121f2e777f0099b802d0909120c03c2\"><p data-renderer-start-pos=\"2179\" data-local-id=\"dc6065ebbc40\"><strong data-renderer-mark=\"true\">Reconnect</strong> the MS Teams connection in Zendesk Admin Center.</p></li>\n<li data-list-item-id=\"e0dba2f61cb3dcfa6e0ecc4adc16d5145\"><p data-renderer-start-pos=\"2241\" data-local-id=\"f4ad6e85b566\">Re-test the Action Flow.</p></li>\n</ol><h3 id=\"Step-2:-Verify-the-Permission-Was-Granted\" data-local-id=\"8c9e944973f2\" data-renderer-start-pos=\"2269\">\n<strong data-renderer-mark=\"true\">Step 2: Verify the Permission Was Granted</strong><span role=\"presentation\"></span>\n</h3><p data-renderer-start-pos=\"2312\" data-local-id=\"df5680b736b1\">The customer's Azure AD admin can confirm the grant by checking:</p><ol data-local-id=\"be680f91-5a67-418e-9ad3-2a3e6fe80286\" data-indent-level=\"1\">\n<li data-list-item-id=\"e5ba87c809dee91e3331db5bf485c5ace\"><p data-renderer-start-pos=\"2380\" data-local-id=\"93e37004722e\">Go to the <a href=\"https://entra.microsoft.com/\" title=\"https://entra.microsoft.com/\" data-renderer-mark=\"true\">Microsoft Entra admin center</a></p></li>\n<li data-list-item-id=\"e1eef1a3c05167c344910b934dd2a78e9\"><p data-renderer-start-pos=\"2422\" data-local-id=\"09e8bf40c4d5\">Navigate to <strong data-renderer-mark=\"true\">Identity &gt; Applications &gt; Enterprise applications</strong></p></li>\n<li data-list-item-id=\"ef6d6068e1421152b4cbd569aa5abfcc3\"><p data-renderer-start-pos=\"2487\" data-local-id=\"690178a7ebea\">Search for the Zendesk connector app (client ID: <code data-renderer-mark=\"true\">60e3ef2b-554e-4bbc-88f7-88fcb63f6586</code>)</p></li>\n<li data-list-item-id=\"e34d9d8ec60427cbe0e8cbb0c3d8401e6\"><p data-renderer-start-pos=\"2577\" data-local-id=\"4692ea4bb50a\">Under <strong data-renderer-mark=\"true\">Permissions</strong>, confirm that <strong data-renderer-mark=\"true\">User.Read.All</strong> (Application type) shows as granted</p></li>\n</ol><p data-renderer-start-pos=\"2662\" data-local-id=\"79e5ec8a9b94\">For more details, see: <a href=\"https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/grant-admin-consent\" title=\"https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/grant-admin-consent\" data-renderer-mark=\"true\"><span class=\"wysiwyg-underline\">Grant tenant-wide admin consent to an application</span></a></p><h2 id=\"Known-Limitation\" data-local-id=\"72b2be05732e\" data-renderer-start-pos=\"2736\">\n<strong data-renderer-mark=\"true\">Known Limitation</strong><span role=\"presentation\"></span>\n</h2><p data-renderer-start-pos=\"2754\" data-local-id=\"3279ee3663e6\">The MS Teams connector <strong data-renderer-mark=\"true\">does not support sending a Direct Message to the same user account that was used to authenticate the connection</strong>. Make sure the DM recipient is a different user than the one who set up the Teams connection in Zendesk.</p><h2 id=\"Relevant-Microsoft-Documentation\" data-local-id=\"477d6087199f\" data-renderer-start-pos=\"2995\">\n<strong data-renderer-mark=\"true\">Relevant Microsoft Documentation</strong><span role=\"presentation\"></span>\n</h2><ul data-local-id=\"3a9bc1ec-c439-4f41-ada7-ae8ff58cf735\" data-indent-level=\"1\">\n<li data-list-item-id=\"eea0773680ef2266df1c8ee7dcf50b01e\"><p data-renderer-start-pos=\"3031\" data-local-id=\"738a6071377d\"><a href=\"https://learn.microsoft.com/en-us/graph/permissions-reference\" title=\"https://learn.microsoft.com/en-us/graph/permissions-reference\" data-renderer-mark=\"true\">Microsoft Graph permissions reference</a> — details on <code data-renderer-mark=\"true\">User.Read.All</code> and other permissions</p></li>\n<li data-list-item-id=\"e3702d86cc491c05866807c4a06a2817f\"><p data-renderer-start-pos=\"3121\" data-local-id=\"b08d53983541\"><a href=\"https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/grant-admin-consent\" title=\"https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/grant-admin-consent\" data-renderer-mark=\"true\">Grant tenant-wide admin consent</a> — how to grant admin consent via the Azure portal or URL</p></li>\n<li data-list-item-id=\"e572fa8fa630848ea70276f60e5dd4ac2\"><p data-renderer-start-pos=\"3213\" data-local-id=\"2c977973edd8\"><a href=\"https://learn.microsoft.com/en-us/entra/fundamentals/how-to-find-tenant\" title=\"https://learn.microsoft.com/en-us/entra/fundamentals/how-to-find-tenant\" data-renderer-mark=\"true\">Find your Microsoft Entra tenant ID</a> — locating the tenant ID needed for the consent URL</p></li>\n<li data-list-item-id=\"ecbc21c0c18269b05f5982f166acf9b5c\"><p data-renderer-start-pos=\"3304\" data-local-id=\"b4ac866ed18f\"><a href=\"https://learn.microsoft.com/en-us/graph/api/user-list\" title=\"https://learn.microsoft.com/en-us/graph/api/user-list\" data-renderer-mark=\"true\">List users - Microsoft Graph API</a> — the API endpoint that requires <code data-renderer-mark=\"true\">User.Read.All</code></p></li>\n<li data-list-item-id=\"e14ff17a9bde6b6f5a6e1f600c860a8d9\"><p data-renderer-start-pos=\"3387\" data-local-id=\"bf74695e4817\"><a href=\"https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/configure-admin-consent-workflow\" title=\"https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/configure-admin-consent-workflow\" data-renderer-mark=\"true\">Configure the admin consent workflow</a> — setting up approval workflows for consent requests</p></li>\n</ul><p><br> </p>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 10416814876826,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/10416814876826.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/10416814876826-WFM-doesn-t-track-my-agents-activity",
-      "author_id": 1266644443030,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 6255362352154,
-      "created_at": "2026-03-12T14:03:59Z",
-      "updated_at": "2026-03-17T15:04:14Z",
-      "name": "WFM doesn't track my agents' activity",
-      "title": "WFM doesn't track my agents' activity",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2026-03-12T14:46:20Z",
-      "user_segment_id": null,
-      "permission_group_id": 1260801135069,
-      "content_tag_ids": [],
-      "label_names": [
-        "ks",
-        "ab0",
-        "ab0_workforce_management",
-        "role_admin"
-      ],
-      "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2><p>WFM doesn't track my agents' activity even though they click <strong>Start day</strong> at the start of their shift. The activity details changed and now appear completely different. The agents show as untracked most of the time.</p><h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2><p>You may have auto-tracking turned off. Ensure you <a href=\"https://support.zendesk.com/hc/en-us/articles/6443329357210-Activating-and-deactivating-auto-tracking-and-task-lock\">activate auto-tracking</a>. </p><p>For more information, see <a href=\"https://support.zendesk.com/hc/en-us/articles/6443347506970-About-the-Agent-activity-page\" target=\"_blank\" rel=\"noopener noreferrer\">About the Agent activity page</a>.</p>",
       "user_segment_ids": []
     }
   ],
