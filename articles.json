@@ -19,14 +19,14 @@
       "vote_count": 0,
       "section_id": 6970675073562,
       "created_at": "2026-05-19T08:29:27Z",
-      "updated_at": "2026-05-20T01:32:14Z",
+      "updated_at": "2026-05-20T03:50:52Z",
       "name": "Can I integrate Zendesk with WeCom (WeChat Work)?",
       "title": "Can I integrate Zendesk with WeCom (WeChat Work)?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2026-05-20T01:29:38Z",
+      "edited_at": "2026-05-20T03:50:52Z",
       "user_segment_id": null,
       "permission_group_id": 1260801242670,
       "content_tag_ids": [],
@@ -36,7 +36,7 @@
         "role_admin",
         "ab0_apps_integrations"
       ],
-      "body": "<h2 id=\"h_01KQW53QJTWC5AR4PVBHYKG3CQ\">Question</h2><p>Can Zendesk integrate with WeCom (WeChat Work)?</p><h2 id=\"h_01KQW53XCQNKVSFBCQNWV2E0M0\">Answer</h2><p>Zendesk does not currently offer a standard WeCom channel integration.</p><p>While Zendesk provides an official channel integration for standard WeChat, <a href=\"https://work.weixin.qq.com/\" target=\"_blank\" rel=\"noopener noreferrer\">WeCom</a> is a separate platform and the system does not support it as a standard Zendesk messaging channel.</p><p>If your team needs to receive and manage WeCom messages in Zendesk, you can build a custom integration. Use the <a href=\"https://developer.zendesk.com/api-reference/conversations/\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk Sunshine Conversations API</a> and the <a href=\"https://developers.weixin.qq.com/doc/aispeech/en/platform/example/built_application.html\" target=\"_blank\" rel=\"noopener noreferrer\">WeCom Developer API</a>.</p><p>For more information on adding a standard WeChat channel in Zendesk, see <a href=\"https://support.zendesk.com/hc/en-us/articles/4408820034970-Adding-WeChat-social-messaging-channels\" target=\"_blank\" rel=\"noopener noreferrer\">Adding WeChat social messaging channels</a>.</p>",
+      "body": "<h2 id=\"h_01KQW53QJTWC5AR4PVBHYKG3CQ\">Question</h2><p>Can Zendesk integrate with WeCom (WeChat Work)?</p><h2 id=\"h_01KQW53XCQNKVSFBCQNWV2E0M0\">Answer</h2><p>Zendesk does not currently offer a standard WeCom channel integration.</p><p>While Zendesk provides an official channel integration for standard WeChat, <a href=\"https://work.weixin.qq.com/\" target=\"_blank\" rel=\"noopener noreferrer\">WeCom</a> is a separate platform and the system does not support it as a standard Zendesk messaging channel.</p><p>If your team needs to receive and manage WeCom messages in Zendesk, you can build a custom integration. Use the <a href=\"https://developer.zendesk.com/api-reference/ticketing/introduction/\" target=\"_blank\" rel=\"noopener noreferrer\">Zendesk Ticket API</a> and the <a href=\"https://developers.weixin.qq.com/doc/aispeech/en/platform/example/built_application.html\" target=\"_blank\" rel=\"noopener noreferrer\">WeCom Developer API</a>.</p><p>For more information on adding a standard WeChat channel in Zendesk, see <a href=\"https://support.zendesk.com/hc/en-us/articles/4408820034970-Adding-WeChat-social-messaging-channels\" target=\"_blank\" rel=\"noopener noreferrer\">Adding WeChat social messaging channels</a>.</p>",
       "user_segment_ids": []
     },
     {
