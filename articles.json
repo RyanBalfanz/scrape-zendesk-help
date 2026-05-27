@@ -1,8 +1,8 @@
 {
-  "count": 4410,
+  "count": 4411,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
-  "page_count": 147,
+  "page_count": 148,
   "per_page": 30,
   "previous_page": null,
   "articles": [
@@ -47,7 +47,7 @@
       "vote_count": 0,
       "section_id": 4405298854426,
       "created_at": "2026-05-26T04:31:36Z",
-      "updated_at": "2026-05-26T07:01:26Z",
+      "updated_at": "2026-05-27T16:00:13Z",
       "name": "Service Incident - May 13, 2026 - Analytics | Pod 27 - Delays with ticket-based report data",
       "title": "Service Incident - May 13, 2026 - Analytics | Pod 27 - Delays with ticket-based report data",
       "source_locale": "en-us",
