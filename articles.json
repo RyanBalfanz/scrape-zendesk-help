@@ -131,14 +131,14 @@
       "vote_count": 0,
       "section_id": 4405298881946,
       "created_at": "2026-05-25T07:05:49Z",
-      "updated_at": "2026-05-27T07:07:57Z",
+      "updated_at": "2026-05-28T02:34:48Z",
       "name": "Error: AADSTS50105 appears when signing in to Zendesk",
       "title": "Error: AADSTS50105 appears when signing in to Zendesk",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2026-05-27T07:07:56Z",
+      "edited_at": "2026-05-28T02:34:48Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -150,7 +150,7 @@
         "SSO error",
         "ab0_account"
       ],
-      "body": "<h2 id=\"h_01HB6CD3MHPJ4MAP723BXKQ9CB\">Issue symptoms</h2><p>When I try to sign in to Zendesk using SSO with Microsoft Entra, I see the error: <strong>AADSTS50105: Your administrator has configured the application Zendesk ('xxxxxxxxxxx') to block users unless they are specifically granted ('assigned') access to the application. The signed in user 'agentnameprofile@xxxx.com' is blocked because they are not a direct member of a group with access, nor had access directly assigned by an administrator. Please contact your administrator to assign access to this application.</strong><br><img class=\"wysiwyg-image-resized\" style=\"aspect-ratio: 1244/578; width: 50%;\" src=\"https://support.zendesk.com/hc/article_attachments/10819495098138\" alt=\"Microsoft Entra SSO AADSTS50105 error message screen\" width=\"1244\" height=\"578\"></p><h2 id=\"h_01HB6CD3MH8QTRMB54A5R6THQ6\">Resolution steps</h2><p>This error message originates from Microsoft, not Zendesk. For more information about what the error means and how to resolve it, see <a href=\"https://learn.microsoft.com/en-us/troubleshoot/entra/entra-id/app-integration/error-code-AADSTS50105-user-not-assigned-role\" target=\"_blank\" rel=\"noopener noreferrer\">Error AADSTS50105 - The signed in user isn't assigned to a role for the application</a>.</p><p>To troubleshoot the issue, contact your organization’s Microsoft or SSO administrator. An admin can confirm whether you, or the affected agent, have the correct permissions and are included in the group that has access to the Zendesk application.</p><p>You can also see the <a href=\"https://learn.microsoft.com/en-us/answers/questions/1314525/how-to-fix-error-aadsts50105-error-appears-when-us\" target=\"_blank\" rel=\"noopener noreferrer\">community article</a> which includes an example of how another user resolved the issue.</p><p>If the problem continues, contact <a href=\"https://support.microsoft.com/en-us/contactus/\" target=\"_blank\" rel=\"noopener noreferrer\">Microsoft Support</a> for further assistance.<br> </p>",
+      "body": "<h2 id=\"h_01HB6CD3MHPJ4MAP723BXKQ9CB\">Issue symptoms</h2><p>When I try to sign in to Zendesk using SSO with Microsoft Entra, I see the error: </p><p class=\"wysiwyg-indent1\"><strong>AADSTS50105: Your administrator has configured the application Zendesk ('xxxxxxxxxxx') to block users unless they are specifically granted ('assigned') access to the application. The signed in user 'agentnameprofile@xxxx.com' is blocked because they are not a direct member of a group with access, nor had access directly assigned by an administrator. Please contact your administrator to assign access to this application.</strong><br><br><img class=\"wysiwyg-image-resized wysiwyg-image img-screenshot\" style=\"aspect-ratio: 1244/578; width: 50%;\" src=\"https://support.zendesk.com/hc/article_attachments/10819495098138\" alt=\"Microsoft Entra SSO AADSTS50105 error message screen\" width=\"600\"></p><h2 id=\"h_01HB6CD3MH8QTRMB54A5R6THQ6\">Resolution steps</h2><p>This error message originates from Microsoft, not Zendesk. For more information about what the error means and how to resolve it, see <a href=\"https://learn.microsoft.com/en-us/troubleshoot/entra/entra-id/app-integration/error-code-AADSTS50105-user-not-assigned-role\" target=\"_blank\" rel=\"noopener noreferrer\">Error AADSTS50105 - The signed in user isn't assigned to a role for the application</a>.</p><p>To troubleshoot the issue, contact your organization’s Microsoft or SSO administrator. An admin can confirm whether you, or the affected agent, have the correct permissions and are included in the group that has access to the Zendesk application.</p><p>You can also see the <a href=\"https://learn.microsoft.com/en-us/answers/questions/1314525/how-to-fix-error-aadsts50105-error-appears-when-us\" target=\"_blank\" rel=\"noopener noreferrer\">community article</a> which includes an example of how another user resolved the issue.</p><p>If the problem continues, contact <a href=\"https://support.microsoft.com/en-us/contactus/\" target=\"_blank\" rel=\"noopener noreferrer\">Microsoft Support</a> for further assistance.<br> </p>",
       "user_segment_ids": []
     },
     {
