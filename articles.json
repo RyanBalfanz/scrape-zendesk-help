@@ -1,5 +1,5 @@
 {
-  "count": 4400,
+  "count": 4401,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 147,
@@ -19,7 +19,7 @@
       "vote_count": 0,
       "section_id": 4405298855194,
       "created_at": "2026-06-05T00:07:23Z",
-      "updated_at": "2026-06-05T00:07:44Z",
+      "updated_at": "2026-06-05T02:00:07Z",
       "name": "Why does the Standard searches metric show a negative value in Explore?",
       "title": "Why does the Standard searches metric show a negative value in Explore?",
       "source_locale": "en-us",
@@ -36,7 +36,8 @@
         "ab0",
         "role_agent",
         "role_admin",
-        "ab0_analytics"
+        "ab0_analytics",
+        "visual_media"
       ],
       "body": "<h2 id=\"h_01KTAG1YRG11PG7XBVKMRMVXFT\">Question</h2><p>Why does the <strong>Standard searches</strong> metric show a negative value in the <a href=\"https://support.zendesk.com/hc/en-us/articles/4409155064090-Metrics-and-attributes-for-Zendesk-Knowledge#topic_cck_rlw_x2c\" target=\"_blank\" rel=\"noopener noreferrer\">User session dataset</a>?</p><p><img class=\"wysiwyg-image-resized\" style=\"width: 500px;\" src=\"https://support.zendesk.com/hc/article_attachments/10866981645082\"></p><h2 id=\"h_01KTAG2N77QKCZ0579YP418HCV\">Answer</h2><p>In some edge cases, the <strong>Standard searches</strong> metric can show a negative value because <strong>Quick answer searches</strong> can be greater than <strong>Searches</strong>.</p><p>This can happen when multiple generative answer prediction events share the same search ID. In those cases, Zendesk may count more than one quick answer event for a single search event. Because <strong>Standard searches</strong> is calculated as <code>Searches - Quick answer searches</code>, the result can be negative. This behavior is expected in these edge cases and does not necessarily indicate a reporting issue.</p><p>For clearer analysis, you can report on <strong>Searches</strong> and <strong>Quick Answer Searches</strong> as separate metrics when this distinction is important, since <strong>Standard Searches</strong> may be harder to interpret in edge cases where negative values are displayed.</p><p>For more information about reporting on user session, see <a href=\"https://support.zendesk.com/hc/en-us/articles/9118856019098-Analyzing-user-session-and-page-efficiency-activity-in-the-help-center\" target=\"_blank\" rel=\"noopener noreferrer\">Analyzing user session and page efficiency activity in the help center</a>.</p>",
       "user_segment_ids": []
