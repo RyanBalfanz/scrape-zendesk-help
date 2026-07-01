@@ -1,5 +1,5 @@
 {
-  "count": 4453,
+  "count": 4464,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 149,
@@ -497,7 +497,7 @@
       "vote_count": 0,
       "section_id": 6279947161626,
       "created_at": "2026-06-23T12:54:48Z",
-      "updated_at": "2026-06-30T15:22:34Z",
+      "updated_at": "2026-07-01T13:45:35Z",
       "name": "Error: \"This email is already taken. Try another email\"",
       "title": "Error: \"This email is already taken. Try another email\"",
       "source_locale": "en-us",
@@ -509,6 +509,7 @@
       "permission_group_id": 1324079,
       "content_tag_ids": [],
       "label_names": [
+        "do_not_archive",
         "ab0",
         "ab0_support",
         "ab0_admin_center",
