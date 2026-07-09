@@ -117,14 +117,14 @@
       "vote_count": 0,
       "section_id": 4405303738522,
       "created_at": "2026-07-07T10:31:09Z",
-      "updated_at": "2026-07-07T10:32:10Z",
+      "updated_at": "2026-07-09T08:24:57Z",
       "name": "How can I try Zendesk and see pricing comparisons?",
       "title": "How can I try Zendesk and see pricing comparisons?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2026-07-07T10:32:09Z",
+      "edited_at": "2026-07-09T08:24:57Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -136,7 +136,7 @@
         "role_admin",
         "ab0_account"
       ],
-      "body": "<h2 id=\"h_01KWH8731P6B8MGFDKF5S7A2YT\">Question</h2><p>Do you have social messaging options for clients, such as WhatsApp? Can you choose human powered agents, not only AI? I would like a pricing comparison. My team of 3 in central sales wants WhatsApp and live chat, considering we chat to our customer base. Our main goal is lead to lease, as we work with student accommodations.</p><h2 id=\"h_01KWH87708VEFGK98NXD6TQP11\">Answer</h2><p>Yes, Zendesk offers integrations to integrations, like WhatsApp. Zendesk recommends <a href=\"https://www.zendesk.com/free-trial/\" target=\"_blank\" rel=\"noopener noreferrer\">starting a free trial</a> so you can see how our solution works and the value it can bring to your team.</p><p>Use these hyperlinks to guide you:</p><ol>\n<li data-list-item-id=\"eed6bb476db2598a0b688a73b549995fd\">Verify our <a href=\"https://www.zendesk.com/pricing/\" target=\"_blank\" rel=\"noopener noreferrer\">pricing</a> directly</li>\n<li data-list-item-id=\"e426c342c409ea9866944e5c921accf20\">Start a <a href=\"https://www.zendesk.com/free-trial/\" target=\"_blank\" rel=\"noopener noreferrer\">free trial</a>\n</li>\n<li data-list-item-id=\"e9de4f32ac99bec7ba3d68097a99ba939\">Use this <a href=\"https://zendesk.wistia.com/medias/2z248uoz87\" target=\"_blank\" rel=\"noopener noreferrer\">demo link</a>\n</li>\n<li data-list-item-id=\"ea91456cd4625921f2ff4479b4727ac32\">Install <a href=\"https://support.zendesk.com/hc/en-us/articles/4408842821786-Adding-WhatsApp-channels-to-the-Agent-Workspace\" target=\"_blank\" rel=\"noopener noreferrer\">WhatsApp</a>\n</li>\n</ol><p>The Zendesk solution is easy to set up and simple to use. With a 14-day free trial, you’ll have time to explore the features and see how it fits your needs.</p>",
+      "body": "<h2 id=\"h_01KWH8731P6B8MGFDKF5S7A2YT\">Question</h2><p>Do you have instant messaging options for clients, such as WhatsApp? Can you choose human powered agents, not only AI? I would like a pricing comparison. My team of 3 in central sales wants WhatsApp and live chat, considering we chat to our customer base. Our main goal is lead to lease, as we work with student accommodations.</p><h2 id=\"h_01KWH87708VEFGK98NXD6TQP11\">Answer</h2><p>Yes, Zendesk offers integrations to social messaging platforms, like WhatsApp. Zendesk recommends <a href=\"https://www.zendesk.com/free-trial/\" target=\"_blank\" rel=\"noopener noreferrer\">starting a free trial</a> so you can see how our solution works and the value it can bring to your team.</p><p>Use these hyperlinks to guide you:</p><ol>\n<li data-list-item-id=\"eed6bb476db2598a0b688a73b549995fd\">Verify our <a href=\"https://www.zendesk.com/pricing/\" target=\"_blank\" rel=\"noopener noreferrer\">pricing</a> directly</li>\n<li data-list-item-id=\"e426c342c409ea9866944e5c921accf20\">Start a <a href=\"https://www.zendesk.com/free-trial/\" target=\"_blank\" rel=\"noopener noreferrer\">free trial</a>\n</li>\n<li data-list-item-id=\"e9de4f32ac99bec7ba3d68097a99ba939\">Use this <a href=\"https://zendesk.wistia.com/medias/2z248uoz87\" target=\"_blank\" rel=\"noopener noreferrer\">demo link</a>\n</li>\n<li data-list-item-id=\"ea91456cd4625921f2ff4479b4727ac32\">Install the <a href=\"https://support.zendesk.com/hc/en-us/articles/4408842821786-Adding-WhatsApp-channels-to-the-Agent-Workspace\" target=\"_blank\" rel=\"noopener noreferrer\">WhatsApp channel</a>\n</li>\n</ol><p>The Zendesk solution is easy to set up and simple to use. With a 14-day free trial, you’ll have time to explore the features and see how it fits your needs.</p>",
       "user_segment_ids": []
     },
     {
