@@ -851,7 +851,7 @@
     {
       "id": 10912047891610,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/10912047891610.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/10912047891610-AI-agent-fires-the-technical-error-reply-unexpectedly",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/10912047891610-Why-did-a-technical-error-reply-occur-in-my-AI-agent-when-there-were-no-technical-errors",
       "author_id": 8364986799386,
       "comments_disabled": false,
       "draft": false,
@@ -861,14 +861,14 @@
       "vote_count": 0,
       "section_id": 8243870008090,
       "created_at": "2026-06-17T13:31:38Z",
-      "updated_at": "2026-07-07T13:04:16Z",
-      "name": "AI agent fires the technical error reply unexpectedly",
-      "title": "AI agent fires the technical error reply unexpectedly",
+      "updated_at": "2026-07-09T15:54:28Z",
+      "name": "Why did a technical error reply occur in my AI agent when there were no technical errors?",
+      "title": "Why did a technical error reply occur in my AI agent when there were no technical errors?",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2026-07-07T13:04:15Z",
+      "edited_at": "2026-07-09T15:54:28Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -879,7 +879,7 @@
         "role_admin",
         "ab0_ai_agents_advanced"
       ],
-      "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2><p>My AI agent triggers the <strong>technical error reply </strong>in conversations with my customers. I don't see any related technical errors on our side, and this behavior doesn't appear to be consistent or tied to a specific action.</p><h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2><p>This can happen when none of the articles the LLM wants to cite exists in the articles given. For example, if the LLM includes only articles A, B, and C but cites articles J and P to support its answer.</p><p>If you need further assistance, <a href=\"https://support.zendesk.com/hc/en-us/articles/4408843597850-Contacting-Zendesk-customer-support\" target=\"_blank\" rel=\"noopener noreferrer\">Contact Zendesk customer support</a>.<br> </p><p> </p>",
+      "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Question</h2><p>My AI agent triggered the <strong>Technical error reply</strong> <a href=\"https://support.zendesk.com/hc/en-us/articles/8357749481882#topic_edj_gnp_xfc\">system reply</a> in a conversation with a customer. I don't see any related technical errors on our side, and this behavior doesn't appear to be consistent or tied to a specific action. What's causing the error?</p><h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Answer</h2><p>A Technical error reply occurs if an AI agent hallucinates an article citation. In other words, the AI agent tries to cite an article that doesn't exist in your knowledge source as the foundation of its answer.</p><p>This error occurs only in rare cases.<br> </p><p> </p>",
       "user_segment_ids": []
     },
     {
