@@ -9,7 +9,7 @@
     {
       "id": 11087931744154,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/11087931744154.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/11087931744154-Publish-button-doesn-t-show-on-my-dashboard-when-I-make-changes-to-a-report",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/11087931744154-The-Publish-button-doesn-t-show-on-my-dashboard-when-I-make-changes-to-a-report",
       "author_id": 8238613538074,
       "comments_disabled": false,
       "draft": false,
@@ -19,14 +19,14 @@
       "vote_count": 0,
       "section_id": 4405303718426,
       "created_at": "2026-08-04T10:18:45Z",
-      "updated_at": "2026-08-05T10:38:31Z",
-      "name": "Publish button doesn't show on my dashboard when I make changes to a report",
-      "title": "Publish button doesn't show on my dashboard when I make changes to a report",
+      "updated_at": "2026-08-06T10:19:56Z",
+      "name": "The Publish button doesn't show on my dashboard when I make changes to a report",
+      "title": "The Publish button doesn't show on my dashboard when I make changes to a report",
       "source_locale": "en-us",
       "locale": "en-us",
       "outdated": false,
       "outdated_locales": [],
-      "edited_at": "2026-08-05T10:34:32Z",
+      "edited_at": "2026-08-06T10:19:56Z",
       "user_segment_id": null,
       "permission_group_id": 1260801135069,
       "content_tag_ids": [],
@@ -37,7 +37,7 @@
         "role_agent",
         "ab0_analytics"
       ],
-      "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2><p>When I make changes to a report included on a dashboard, the <a href=\"https://support.zendesk.com/hc/en-us/articles/4408831595418-Creating-Explore-dashboards\" target=\"_blank\" rel=\"noopener noreferrer\">dashboard builder</a> sometimes doesn't automatically enable the <strong>Publish</strong> button.</p><p>How can I fix this issue?</p><h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2><p>In the dashboard builder, you can't select <strong>Publish changes</strong> from the dropdown menu after you edit a report.</p><p>To fix the issue:</p><ol>\n<li data-list-item-id=\"e78aafb08ee857e6d95bffe4efbaba646\">Open the <strong>Dashboard</strong> in <a href=\"https://support.zendesk.com/hc/en-us/articles/4408819770906-Customizing-dashboards\" target=\"_blank\" rel=\"noopener noreferrer\">Edit</a> mode</li>\n<li data-list-item-id=\"efb3761c7eb90b01d75c9ac67309cc03e\">Make a minor change, for example, resize a widget or change a widget color</li>\n<li data-list-item-id=\"e7ebf941bcf6ac132f420baf37b7bf28b\">Verify that <strong>Publish changes</strong> becomes active</li>\n<li data-list-item-id=\"e6230d4785620334eb352396b61e86c16\">Click <strong>Publish changes</strong> to save and publish</li>\n</ol>",
+      "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2><p>When I make changes to a report included on a dashboard, the new <a href=\"https://support.zendesk.com/hc/en-us/articles/4408831595418-Creating-Explore-dashboards\" target=\"_blank\" rel=\"noopener noreferrer\">dashboard builder</a> sometimes doesn't automatically enable the <strong>Publish</strong> button.</p><p>How can I fix this issue?</p><h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2><p>In the new dashboard builder, you can't select <strong>Publish changes</strong> from the dropdown menu after you edit a report.</p><p>To fix the issue:</p><ol>\n<li data-list-item-id=\"e78aafb08ee857e6d95bffe4efbaba646\">Open the <strong>Dashboard</strong> in <a href=\"https://support.zendesk.com/hc/en-us/articles/4408819770906-Customizing-dashboards\" target=\"_blank\" rel=\"noopener noreferrer\">Edit</a> mode</li>\n<li data-list-item-id=\"efb3761c7eb90b01d75c9ac67309cc03e\">Make a minor change, for example, resize a widget or change a widget color</li>\n<li data-list-item-id=\"e7ebf941bcf6ac132f420baf37b7bf28b\">Verify that <strong>Publish changes</strong> becomes active</li>\n<li data-list-item-id=\"e6230d4785620334eb352396b61e86c16\">Click <strong>Publish changes</strong> to save and publish</li>\n</ol>",
       "user_segment_ids": []
     },
     {
