@@ -1,11 +1,44 @@
 {
-  "count": 4645,
+  "count": 4646,
   "next_page": "https://support.zendesk.com/api/v2/help_center/en-us/articles.json?page=2&per_page=30",
   "page": 1,
   "page_count": 155,
   "per_page": 30,
   "previous_page": null,
   "articles": [
+    {
+      "id": 11173486495258,
+      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/11173486495258.json",
+      "html_url": "https://support.zendesk.com/hc/en-us/articles/11173486495258-How-can-I-disable-or-enable-attachments-in-messaging",
+      "author_id": 1263082275489,
+      "comments_disabled": false,
+      "draft": false,
+      "promoted": false,
+      "position": 0,
+      "vote_sum": 0,
+      "vote_count": 0,
+      "section_id": 4405303738522,
+      "created_at": "2026-08-26T06:12:21Z",
+      "updated_at": "2026-08-26T06:13:06Z",
+      "name": "How can I disable or enable attachments in messaging?",
+      "title": "How can I disable or enable attachments in messaging?",
+      "source_locale": "en-us",
+      "locale": "en-us",
+      "outdated": false,
+      "outdated_locales": [],
+      "edited_at": "2026-08-26T06:13:05Z",
+      "user_segment_id": null,
+      "permission_group_id": 1260801135069,
+      "content_tag_ids": [],
+      "label_names": [
+        "ks",
+        "ab0",
+        "ab0_messaging",
+        "role_admin"
+      ],
+      "body": "<h2 id=\"h_01KWH8731P6B8MGFDKF5S7A2YT\">Question</h2><p>I don't want my customers or end users to be able to upload attachments and files into the AI agent. How can I disable or enable attachments in messaging? Can I turn off attachments?</p><h2 id=\"h_01KWH87708VEFGK98NXD6TQP11\">Answer</h2><p>Yes, you can control whether the attachment button appears in the composer from Admin Center.</p><p>To turn on or turn off attachments in messaging:</p><ol>\n<li data-list-item-id=\"ef723ca037cb4e262cc29b5096702cf4a\">In <a href=\"https://support.zendesk.com/hc/en-us/articles/4581766374554-Using-Zendesk-Admin-Center\" target=\"_blank\" rel=\"noopener noreferrer\">Admin Center</a>, click <strong>Channels</strong> in the sidebar, then select <strong>Messaging and social &gt; Messaging</strong>\n</li>\n<li data-list-item-id=\"e9271bb41c8e8554c6c653e1458d8f9ca\">Click your <strong>Android</strong> channel</li>\n<li data-list-item-id=\"e6667cad5b00257e39030d98ff15a3b80\">Click the <strong>Style</strong> tab and scroll to the bottom</li>\n<li data-list-item-id=\"e132d1e5664d4207de9e0115bcb651329\">Select the <strong>Allow customers to upload attachments</strong> option to turn it on, or uncheck it to turn it off</li>\n<li data-list-item-id=\"ec25e315c097254d4c1a66260386e8f97\">Click <strong>Save</strong>\n</li>\n</ol><p>This setting immediately affects the visibility of the attachment button for your users.</p><p>See these articles for more information:</p><ul>\n<li data-list-item-id=\"ef34c21f7daa03eadcac5b1e6cb121bda\"><a href=\"https://support.zendesk.com/hc/en-us/articles/4408832757146-Allowing-attachments-in-tickets\" target=\"_blank\" rel=\"noopener noreferrer\">Allowing attachments in tickets</a></li>\n<li data-list-item-id=\"e744e965e9d8fb37e40cb6f2631224ed0\"><a href=\"https://support.zendesk.com/hc/en-us/articles/4500747797914-Configuring-the-name-and-appearance-of-the-Web-Widget#topic_ubc_nmd_btb\" target=\"_blank\" rel=\"noopener noreferrer\">Configuring the widget frame</a></li>\n<li data-list-item-id=\"e89b70f406e1ea97cff7e3f802c7394f2\"><a href=\"https://support.zendesk.com/hc/en-us/articles/8435939957914-Turning-on-private-attachments-in-messaging#topic_v1r_rwr_mdc\" target=\"_blank\" rel=\"noopener noreferrer\">Supported file types for messaging attachments</a></li>\n</ul>",
+      "user_segment_ids": []
+    },
     {
       "id": 11171221077530,
       "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/11171221077530.json",
@@ -903,36 +936,6 @@
         "ab0_analytics"
       ],
       "body": "<h2 id=\"h_01HYBAYR3VJ6P4FCNVT2JZ5YYZ\">Issue symptoms</h2><p>When I make changes to a report included on a dashboard, the new <a href=\"https://support.zendesk.com/hc/en-us/articles/4408831595418-Creating-Explore-dashboards\" target=\"_blank\" rel=\"noopener noreferrer\">dashboard builder</a> sometimes doesn't automatically enable the <strong>Publish</strong> button.</p><p>How can I fix this issue?</p><h2 id=\"h_01HYBAYR3VWVM2A947JCEFE60S\">Resolution steps</h2><p>In the new dashboard builder, you can't select <strong>Publish changes</strong> from the dropdown menu after you edit a report.</p><p>To fix the issue:</p><ol>\n<li data-list-item-id=\"e78aafb08ee857e6d95bffe4efbaba646\">Open the <strong>Dashboard</strong> in <a href=\"https://support.zendesk.com/hc/en-us/articles/4408819770906-Customizing-dashboards\" target=\"_blank\" rel=\"noopener noreferrer\">Edit</a> mode</li>\n<li data-list-item-id=\"efb3761c7eb90b01d75c9ac67309cc03e\">Make a minor change, for example, resize a widget or change a widget color</li>\n<li data-list-item-id=\"e7ebf941bcf6ac132f420baf37b7bf28b\">Verify that <strong>Publish changes</strong> becomes active</li>\n<li data-list-item-id=\"e6230d4785620334eb352396b61e86c16\">Click <strong>Publish changes</strong> to save and publish</li>\n</ol>",
-      "user_segment_ids": []
-    },
-    {
-      "id": 11082814266906,
-      "url": "https://support.zendesk.com/api/v2/help_center/en-us/articles/11082814266906.json",
-      "html_url": "https://support.zendesk.com/hc/en-us/articles/11082814266906-Using-live-call-transcripts-in-Zendesk-Talk",
-      "author_id": 9664103864090,
-      "comments_disabled": false,
-      "draft": false,
-      "promoted": false,
-      "position": 0,
-      "vote_sum": 0,
-      "vote_count": 0,
-      "section_id": 5344462743066,
-      "created_at": "2026-08-03T04:53:06Z",
-      "updated_at": "2026-08-11T15:06:09Z",
-      "name": "Using live call transcripts in Zendesk Talk",
-      "title": "Using live call transcripts in Zendesk Talk",
-      "source_locale": "en-us",
-      "locale": "en-us",
-      "outdated": false,
-      "outdated_locales": [],
-      "edited_at": "2026-08-05T15:31:52Z",
-      "user_segment_id": null,
-      "permission_group_id": 1324079,
-      "content_tag_ids": [],
-      "label_names": [
-        "role_admin"
-      ],
-      "body": "<body>\n<p id=\"docs-hc-snippet\" style=\"display: none;\">You can use the transcript to review what has been said and search for details to check information during the call without interrupting the conversation. You can also use real-time suggestions during the call, seeUsing real-time AI suggestions for voice calls.</p>\n<div class=\"article-banners\">\n<div id=\"docs-wmp-link\">\n<a href=\"https://support.zendesk.com/hc/en-us/articles/5411234991258-plan\" rel=\"noopener\" target=\"_blank\">What's my plan?</a>\n</div>\n\n\n<div class=\"article-banner\" id=\"suite_all\">\n<table>\n<tbody>\n<tr>\n<td>\n<strong>All Suites</strong>\n</td>\n<td>Team, Growth, Professional, Enterprise, or Enterprise Plus</td>\n</tr>\n</tbody>\n</table>\n</div>\n\n</div>\n<div id=\"docs-ai-summary\">\n<p id=\"docs-ai-summary-toggle\">Summary: <span id=\"up-triangle\">◀</span><span id=\"down-triangle\">▼</span></p>\n<p id=\"docs-ai-summary-content\">Live call transcription gives you a real-time text transcript during voice calls, with speaker labels, timestamps, and auto-scrolling updates. You can review what’s been said, search for keywords or phrases, switch transcription language during the call, and check details without interrupting the customer. It also supports multilingual transcription for common languages.</p>\n</div>\n\n<div class=\"body\">\n\n<div class=\"p\">\n<div class=\"note attention\">\n<span class=\"attentiontitle\"></span> Zendesk Suite customers must also have the <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/5608652527386\" target=\"_blank\">Copilot add-on</a> to use this feature.</div>\nIf your admin\n            has turned on live call transcription, you have access to a real-time text version of a\n            voice call while the conversation is in progress. The transcript shows speaker labels\n            (Agent or Customer), timestamps from the start of the call, and automatically scrolls to\n            show the most recent conversation.</div>\n<p class=\"p\">You can use the transcript to review what has been said and search for details to check\n            information during the call without interrupting the conversation. You can also use\n            real-time suggestions during the call, see <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/9752130101914\" target=\"_blank\">Using real-time AI suggestions for voice calls</a>.</p>\n<p class=\"p\"><strong class=\"ph b\">To use live transcripts during an ongoing call</strong></p>\n<div class=\"p\">\n<ol class=\"ol\" id=\"topic_using_live_call_transcripts__ol_dzk_x15_ckc\">\n<li class=\"li\">\n<p class=\"p\">In the ticket call controls, click <strong class=\"ph b\">Show transcript</strong> (<img class=\"image\" id=\"topic_using_live_call_transcripts__image_xhh_h45_ckc\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/voice_callconsole_transcript_icon.png\" width=\"16\">).</p>\n<p class=\"p\">The transcript panel opens in the ticket, below the controls, showing the\n                        most recent part of the conversation and updates automatically as the\n                        conversation continues.</p>\n<p class=\"p\"><img class=\"image img-screenshot\" id=\"topic_using_live_call_transcripts__image_hp4_235_ckc\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/cc_call_transcriptlive_show.png\" width=\"550\"></p>\n</li>\n<li class=\"li\">\n<p class=\"p\">Click the expand icon (v) in the upper-right corner of the transcript panel\n                        to access the whole conversation.</p>\nThe transcript auto-scrolls to show the\n                    latest conversation.</li>\n<li class=\"li\">(Optional) Scroll up and down to review the whole conversation.</li>\n<li class=\"li\">(Optional) Click <strong class=\"ph b\">Scroll to latest</strong> at the bottom of the panel to access\n                    the current conversation.</li>\n<li class=\"li\">\n<p class=\"p\">To find a specific topic, search in the upper-right corner of the transcript\n                        panel and enter a keyword or phrase.</p>\n<p class=\"p\">It's a case-insensitive search that supports partial matches. This allows you\n                        to jump to relevant parts of the conversation and check specific details.\n                        For example, information about an \"account\", \"order\" or \"error message\".</p>\n<p class=\"p\">The transcript highlights all instances of the search term. If there are\n                        multiple matches, use the arrows to move between matches.</p>\n<p class=\"p\"><img class=\"image img-screenshot\" id=\"topic_using_live_call_transcripts__image_zvs_rh5_ckc\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/cc_call_transcriptlive_search_order.png\" width=\"600\"></p>\n</li>\n<li class=\"li\">(Optional) In the language menu, select the language you want to use for\n                        transcription.<p class=\"p\">The transcript language defaults to your Zendesk <a class=\"xref\" href=\"https://support.zendesk.com/hc/en-us/articles/4408835022490\" target=\"_blank\">profile</a> language. You can change\n                        the language during an active call to match the language the customer is\n                        speaking. The transcript uses the new language for ongoing transcription.\n                        Previously transcribed text is not retranscribed.</p>\n<p class=\"p\">You can also select\n                        the multilingual language option to seamlessly switch between the following\n                        languages only: English, Spanish, French, German, Hindi, Russian,\n                        Portuguese, Japanese, Italian, and Dutch.</p>\n</li>\n<li class=\"li\">Click <strong class=\"ph b\">Hide transcript</strong> (<img class=\"image\" id=\"topic_using_live_call_transcripts__image_f2r_np5_ckc\" src=\"https://zen-marketing-documentation.s3.amazonaws.com/docs/en/voice_callconsole_transcript_icon.png\" width=\"16\">) to close the\n                    transcript panel.<p class=\"p\">Ending the call also closes the transcript panel.</p>\n</li>\n</ol>\n</div>\n</div>\n<script id=\"docs-schema-markup\" type=\"application/ld+json\">{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"TechArticle\",\n  \"@id\": \"https://support.zendesk.com/hc/en-us/articles/11082814266906\",\n  \"url\": \"https://support.zendesk.com/hc/en-us/articles/11082814266906\",\n  \"headline\": \"Using live call transcripts in Zendesk Talk\",\n  \"description\": \"You can view, search, and change the language of live call transcripts during an active voice call, then hide the transcript panel or let it close when the call ends.\",\n  \"articleSection\": \"Additional ticket channels\",\n  \"datePublished\": \"2026-08-03T04:53:06+00:00\",\n  \"dateModified\": \"2026-08-05T15:31:49.245943+00:00\",\n  \"inLanguage\": \"en\",\n  \"mainEntityOfPage\": {\n    \"@type\": \"WebPage\",\n    \"@id\": \"https://support.zendesk.com/hc/en-us/articles/11082814266906\"\n  },\n  \"author\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Zendesk\",\n    \"@id\": \"https://www.zendesk.com\"\n  },\n  \"publisher\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Zendesk\",\n    \"@id\": \"https://www.zendesk.com\"\n  },\n  \"isPartOf\": {\n    \"@type\": \"WebSite\",\n    \"name\": \"Zendesk Help\",\n    \"@id\": \"https://support.zendesk.com/hc/\"\n  },\n  \"about\": {\n    \"@type\": \"SoftwareApplication\",\n    \"name\": \"Zendesk\",\n    \"@id\": \"https://www.zendesk.com\"\n  }\n}</script><script id=\"ai-summary-script\">\n           //<![CDATA[\n             const ai_summary_style = document.createElement('style');\n             ai_summary_style.innerHTML = `#styled-article-body{padding:0 0 0}#article-body #docs-ai-summary{background-color:#f3f3f3;border:1px solid #d3d3d3;padding:10px 10px 6px;margin-bottom:16px}#article-body #docs-ai-summary #docs-ai-summary-toggle{font-size:.9em;font-weight:700;margin-bottom:4px;cursor:pointer;display:flex;justify-content:space-between;align-items:center}#article-body #docs-ai-summary #docs-ai-summary-toggle #up-triangle{margin-left:auto;padding-right:10px;display:none}#article-body #docs-ai-summary #docs-ai-summary-toggle #down-triangle{margin-left:auto;padding-right:10px}#article-body #docs-ai-summary #docs-ai-summary-content{font-size:.9em;padding-left:25px;padding-right:25px;margin-bottom:12px}`;\n             document.head.appendChild(ai_summary_style);\n             \n             \n            const toggleAISummary = () => {\n               const summary = document.getElementById(\"docs-ai-summary-content\");\n               const upTriangle = document.getElementById(\"up-triangle\");\n               const downTriangle = document.getElementById(\"down-triangle\");\n              if (summary.style.display === \"none\") {\n                summary.style.display = \"block\";\n                upTriangle.style.display = \"none\";\n                downTriangle.style.display = \"inline\";\n              } else {\n                summary.style.display = \"none\";\n                upTriangle.style.display = \"inline\";\n                downTriangle.style.display = \"none\";\n              }\n             };\n            \n             document.getElementById(\"docs-ai-summary-toggle\").addEventListener(\"click\", toggleAISummary);\n           //]]>\n           </script>\n</body>",
       "user_segment_ids": []
     }
   ],
